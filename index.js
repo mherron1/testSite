@@ -186,11 +186,11 @@ $(document).ready(function () {
 
 function toggleSideNav() {
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.right === "0%") {
+  if (sideNav.style.width === "70%") {
     eventList.innerHTML = ``;
-    sideNav.style.right = "-70%";
+    sideNav.style.width = "0%";
   } else {
-    sideNav.style.right = "0%";
+    sideNav.style.width = "70%";
     setTimeout(() => {
       generateLinks();
     }, 0);

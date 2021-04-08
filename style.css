@@ -108,13 +108,22 @@ button {
 #sideNav {
   position: absolute;
   top: 0;
-  right: -70%;
-  width: 70%;
-  height: 0px;
+  right: 0%;
+  width: 0%;
+  height: 0%;
   min-height: 100vh;
   background-color: rgb(247, 247, 247);
   transition-duration: 0.3s;
   overflow: hidden;
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #eventList {
@@ -137,6 +146,10 @@ button {
 .eventLinkDate {
   float: left;
   font-weight: lighter;
+}
+
+.eventLinkText {
+  min-width: 80px;
 }
 
 /*hamburger*/
