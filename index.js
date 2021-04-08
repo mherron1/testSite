@@ -107,7 +107,7 @@ function generateCard() {
   let prelimsCard = document.querySelector("#prelimsCard");
 
   for (let j = mainCardSize; j < events[i][3].length; j++) {
-    if (j % 2 === 0) {
+    if ((j - 1) % 2 === 0) {
       rowColor = "#f8f8f8";
     } else {
       rowColor = "white";
@@ -208,11 +208,16 @@ function generateLinks() {
     eventList.innerHTML += `  
       <div class="eventLink" onclick="selectCard(${i})">
          <div class="eventLinkDate">${date}</div>
-         <div>${events[i][4]}</div>
+         <div class="eventLinkText">${events[i][4]}</div>
       </div>
   `;
   }
 }
+
+let sideNav = document.querySelector("#sideNav");
+sideNav.ontransitionstart = () => {
+  $(".eventLinkDate").fadeIn(800);
+};
 
 function selectCard(index) {
   clearInterval(x);
