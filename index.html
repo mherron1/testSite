@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="sample.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       
+
+    <title>Next MMA</title>
+</head>
+<body ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd()">
+    <div id="displayCard">
+        <div onclick="toggleSideNav()" class="hamburger" id="hamburger-1">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        <div id="content">
+            <h2 id="mainHeader"></h2>
+            <div id="imageContainer"></div>
+       
+            <div id="toggleContainer">
+                <div id="countTogglePrelims">
+                  <p class="x"> Main Card </p>
+                  <p class="y"> Prelims </p>
+                </div>
+                <div id="countToggleMain">
+                  <p class="y"> Main Card </p>
+                  <p class="x"> Prelims </p>
+                </div>
+              </div>
+              <div id="countdown">
+                <ul>
+                  <li><span id="days"></span>days</li>
+                  <li><span id="hours"></span>Hours</li>
+                  <li><span id="minutes"></span>Minutes</li>
+                </ul>
+              </div>
+              <div id="countdown2">
+                <ul>
+                  <li><span id="days2"></span>days</li>
+                  <li><span id="hours2"></span>Hours</li>
+                  <li><span id="minutes2"></span>Minutes</li>
+                </ul>
+              </div>
+
+
+            <div id="mainTime"></div>
+            <div id="mainCard">
+                <div id="left">
+                    <div class="detailsLeft">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                </div>
+                <div id="middle"></div>
+                <div id="right">
+                    <div class="detailsRight">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                </div>
+            </div> 
+            <div id="prelimsTime"></div>
+            <div id="PrelimCard">
+              <div id="left">
+                  <div class="detailsLeft">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+              </div>
+              <div id="middle"></div>
+              <div id="right">
+                  <div class="detailsRight">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+              </div>
+          </div> 
+        </div>
+    
+        <div id="sideNav">
+            <div id="eventList"></div>
+        </div>
+    
+        <div id="buttons">
+            <button onclick="back()">Back</button>
+            <button onclick="next()">Next</button>  
+            <button id="toggleDetails">Show</button>  
+        </div>
+    </div>
+
+</body>
+
+<script src="index.js"></script>
+</html>
