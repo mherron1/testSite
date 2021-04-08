@@ -8,10 +8,19 @@ let rowColor = "#f8f8f8";
 generateCard();
 
 function generateCard() {
+  setCountdowns();
   let content = document.querySelector("#content");
   content.innerHTML = `
   <h2 style="background-color:${rowColor};" id="mainHeader"></h2>
   <div id="imageContainer"></div>
+  <div id="mainCountdown">
+    <ul>
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      </ul>
+    </div>  
+             
   <div id="mainTime"></div>
   <div id="mainCard"></div> 
   <div id="prelimsTime"></div>
@@ -133,8 +142,9 @@ function generateCard() {
 }
 
 function next() {
+  clearInterval(x);
   i++;
-  if (i === events.length) {
+  if (i > events.length - 1) {
     i = 0;
   }
   generateCard();
@@ -142,7 +152,7 @@ function next() {
 
 function back() {
   i--;
-  if (i === -1) {
+  if (i < 0) {
     i = events.length - 1;
   }
   generateCard();
@@ -252,3 +262,43 @@ document.addEventListener("keydown", function (e) {
       break;
   }
 });
+
+/////////////////////////////////// countdowns
+
+function setCountdowns() {
+  let mainCountdown = events[i][1];
+
+  const second = 1000,
+    minute = second * 60,
+    hour = minute * 60,
+    day = hour * 24;
+
+  document.getElementById("days").innerText = "-";
+  document.getElementById("hours").innerText = "-";
+  document.getElementById("minutes").innerText = "-";
+
+  x = setInterval(function () {
+    let now = new Date().getTime(),
+      distance = mainCountdown - now;
+    if (distance < 3600000) {
+      document.getElementById("minutes").style.color = "darkred";
+    }
+    if (distance < 0) {
+      distance = 0;
+    }
+    if (distance > 8.64e9) {
+      document.getElementById("days").style.width = "42px";
+    }
+    (document.getElementById("days").innerText = Math.floor(distance / day)),
+      (document.getElementById("hours").innerText = Math.floor(
+        (distance % day) / hour
+      )),
+      (document.getElementById("minutes").innerText = Math.floor(
+        (distance % hour) / minute
+      ));
+  }, second);
+}
+
+function stopTimer() {
+  clearInterval(x);
+}
