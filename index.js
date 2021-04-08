@@ -151,6 +151,7 @@ function next() {
 }
 
 function back() {
+  clearInterval(x);
   i--;
   if (i < 0) {
     i = events.length - 1;
@@ -214,6 +215,7 @@ function generateLinks() {
 }
 
 function selectCard(index) {
+  clearInterval(x);
   toggleSideNav();
   i = index;
   generateCard();
