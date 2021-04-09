@@ -80,7 +80,7 @@ function generateCard() {
     <div style="background-color:${rowColor};" id="left">
     <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
         <div class="detailsLeft">
-          <div></div>
+        <div style="color:red;">+125</div>
           <div>${events[i][3][j].rankA}</div>
           <div>${events[i][3][j].recordA}</div>
         </div>
@@ -94,7 +94,7 @@ function generateCard() {
         <div class="detailsRight">
           <div>${events[i][3][j].recordB}</div>
           <div>${events[i][3][j].rankB}</div>
-          <div></div>
+          <div style="color:green;">+125</div>
         </div>
     </div>
     `;
@@ -116,7 +116,7 @@ function generateCard() {
   <div style="background-color:${rowColor};" id="left">
   <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
       <div class="detailsLeft">
-        <div></div>
+      <div style="color:red;">-125</div>
         <div>${events[i][3][j].rankA}</div>
         <div>${events[i][3][j].recordA}</div>
       </div>
@@ -130,6 +130,7 @@ function generateCard() {
       <div class="detailsRight">
         <div>${events[i][3][j].recordB}</div>
         <div>${events[i][3][j].rankB}</div>
+        <div style="color:green;">+125</div>
         <div></div>
       </div>
   </div>

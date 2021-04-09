@@ -35,6 +35,7 @@ body {
   transform: translateY(-8%);
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 #eventPoster:hover {
   cursor: pointer;
@@ -69,17 +70,17 @@ body {
 }
 
 #left {
-  padding: 10px;
+  padding: 7px;
   text-align: right;
   padding-right: 8px;
 }
 #middle {
-  padding-top: 10px;
+  padding: 7px;
   text-align: center;
   min-width: 40px;
 }
 #right {
-  padding: 10px;
+  padding: 7px;
   text-align: left;
   padding-left: 8px;
 }
@@ -87,13 +88,19 @@ body {
 .detailsLeft {
   display: flex;
   justify-content: space-around;
+  padding-top: 5px;
+  font-size: 1rem;
 }
 .detailsRight {
   display: flex;
   justify-content: space-around;
+  padding-top: 5px;
+  font-size: 1rem;
 }
 .detailsVS {
   display: block;
+  font-size: 1rem;
+  padding-top: 5px;
 }
 
 #buttons {
