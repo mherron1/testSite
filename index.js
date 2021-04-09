@@ -159,10 +159,6 @@ function back() {
   generateCard();
 }
 
-$("#toggleDetails").click(function () {
-  toggleD();
-});
-
 function toggleD() {
   $(".detailsLeft").toggle();
   $(".detailsRight").toggle();
