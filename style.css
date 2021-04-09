@@ -27,7 +27,7 @@ body {
 }
 
 #imageContainer {
-  max-height: 190px;
+  max-height: 240px;
   overflow: hidden;
 }
 
@@ -46,6 +46,18 @@ body {
   margin: 10px;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+#expand {
+  position: absolute;
+  font-size: 25px;
+  font-weight: lighter;
+  right: 13px;
+  transform: translateY(-32px);
+}
+
+#expand:hover {
+  cursor: pointer;
 }
 
 #mainCard {
@@ -89,17 +101,17 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .detailsRight {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .detailsVS {
   display: block;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding-top: 5px;
 }
 
@@ -155,7 +167,8 @@ button {
 
 .eventLink:hover {
   cursor: pointer;
-  color: brown;
+  color: white;
+  background-color: rgb(212, 39, 39);
 }
 
 .eventLinkDate {
@@ -305,13 +318,19 @@ a {
 }
 
 ul {
+  position: absolute;
+  top: 224px;
+  max-width: 453px;
+  width: 100%;
   padding-inline-start: 0px;
-  max-width: 180px;
   margin-top: 6px;
+  background-color: #3a3a3aa1;
+  transform: translateX(-28%);
 }
 
 li {
   font-family: arial;
+  color: white;
   display: inline-block;
   font-size: 9px;
   list-style-type: none;
@@ -331,29 +350,10 @@ li span {
   padding: 5px;
 }
 
-#prelimsCountdown {
-  max-width: 200px;
-  text-align: center;
-  margin: 10px auto;
-  display: none;
-}
-
 #mainCountdown {
   max-width: 200px;
   text-align: center;
   margin: 10px auto;
-}
-
-#countToggleMain {
-  display: none;
-  margin-top: 15px;
-  transform: translateX(30px);
-}
-
-#countTogglePrelims {
-  display: block;
-  margin-top: 15px;
-  transform: translateX(30px);
 }
 
 .x {
@@ -381,12 +381,4 @@ li span {
 
 .x:hover {
   filter: brightness(1.1);
-}
-
-#toggleContainer {
-  width: 73px;
-  float: left;
-  padding-right: 4px;
-  margin-top: 3px;
-  cursor: pointer;
 }

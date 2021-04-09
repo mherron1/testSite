@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
     <script src="sample.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
        
 
@@ -13,25 +14,22 @@
 </head>
 <body ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd()">
     <div id="displayCard">
-        <div onclick="toggleSideNav()">
-            <div class="hamburger" id="hamburger-1">
-            <span class="line "></span>
-            <span class="line "></span>
-            <span class="line "></span>
+        <div onclick="toggleSideNav()" class="hamburger" id="hamburger-1">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
           </div>
-        </div>
         <div id="content">
             <h2 id="mainHeader"></h2>
             <div id="imageContainer"></div>
        
-              <div id="mainCountdown">
+              <div id="countdown">
                 <ul>
                   <li><span id="days"></span>days</li>
                   <li><span id="hours"></span>Hours</li>
                   <li><span id="minutes"></span>Minutes</li>
                 </ul>
               </div>
-
 
             <div id="mainTime"></div>
             <div id="mainCard">
@@ -71,17 +69,11 @@
           </div> 
         </div>
     
-        <div class="noSelect" id="sideNav">
+        <div id="sideNav">
             <div id="eventList"></div>
         </div>
     
-        <div id="buttons">
-            <button onclick="toggleD()">Show</button>  
-        </div>
     </div>
-
-    <br>
-    <br>
 
 </body>
 

@@ -8,7 +8,7 @@ let rowColor = "#f8f8f8";
 generateCard();
 
 function generateCard() {
-  setCountdowns();
+  setCountdown();
   let content = document.querySelector("#content");
   content.innerHTML = `
   <h2 style="background-color:${rowColor};" id="mainHeader"></h2>
@@ -20,7 +20,7 @@ function generateCard() {
       <li><span id="minutes"></span>Minutes</li>
       </ul>
     </div>  
-             
+        
   <div id="mainTime"></div>
   <div id="mainCard"></div> 
   <div id="prelimsTime"></div>
@@ -77,6 +77,7 @@ function generateCard() {
       rowColor = "white";
     }
     mainCard.innerHTML += `
+    <i class="material-icons" id="expand" onclick="toggleD()">expand_more</i>
     <div style="background-color:${rowColor};" id="left">
     <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
         <div class="detailsLeft">
@@ -269,7 +270,7 @@ document.addEventListener("keydown", function (e) {
 
 /////////////////////////////////// countdowns
 
-function setCountdowns() {
+function setCountdown() {
   let mainCountdown = events[i][1];
 
   const second = 1000,
