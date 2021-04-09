@@ -100,7 +100,7 @@ body {
   position: absolute;
   padding: 10px 50px;
   top: 245px;
-  right: -20%;
+  left: 15%;
   transform: translateX(-50%);
 }
 
@@ -153,7 +153,7 @@ button {
 
 .eventLinkDate {
   float: left;
-  font-weight: lighter;
+  font-weight: normal;
   display: none;
 }
 
