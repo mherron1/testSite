@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+
 a {
   color: black;
 }
@@ -43,24 +44,28 @@ body {
   text-align: center;
   margin: 10px;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 #mainCard {
   display: grid;
   grid-template-columns: 45% 10% 45%;
   width: 100%;
+  font-size: 1.1rem;
 }
 
 #prelimsTime {
   text-align: center;
   margin: 10px;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 #prelimsCard {
   display: grid;
   grid-template-columns: 45% 10% 45%;
   width: 100%;
+  font-size: 1.1rem;
 }
 
 #left {
@@ -92,15 +97,16 @@ body {
 }
 
 #buttons {
-  position: fixed;
-  width: 100%;
+  position: absolute;
   padding: 10px 50px;
-  bottom: 0px;
-  left: 50%;
+  top: 245px;
+  right: -20%;
   transform: translateX(-50%);
 }
+
 button {
-  font-size: 25px;
+  font-size: 18px;
+  padding: 3px 5px;
 }
 
 /*side nav*/
@@ -117,7 +123,7 @@ button {
   overflow: hidden;
 }
 
-.noSelect {
+.noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -136,7 +142,7 @@ button {
 
 .eventLink {
   min-width: 300;
-  padding-top: 15px;
+  padding-top: 20px;
   border-bottom: 1px solid rgb(243, 243, 243);
 }
 
@@ -162,6 +168,7 @@ button {
   right: 0px;
   transform: scale(0.5);
   z-index: 2;
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {
