@@ -32,7 +32,7 @@ function generateCard() {
 
   let imageContainer = document.querySelector("#imageContainer");
   imageContainer.innerHTML = `
-  <img id="eventPoster" onclick="showPoster()" src=${events[i][2]}/>`;
+  <img id="eventPoster" onclick="showPoster()" src=${events[i][2]}>`;
 
   ////////////event date
 
@@ -49,7 +49,7 @@ function generateCard() {
     timeZoneName: "short",
   });
 
-  mainTime.textContent = `${mainCardTime}`;
+  mainTime.textContent = `Main: ${mainCardTime}`;
 
   let mSecsPrelims = 1800000 * events[i][5];
   let prelimCardTime = new Date(events[i][1] - mSecsPrelims);
@@ -62,7 +62,7 @@ function generateCard() {
     timeZoneName: "short",
   });
 
-  prelimsTime.textContent = `${prelimsCardTime}`;
+  prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
 
   ///////////////////////////////
 
@@ -174,6 +174,7 @@ function showPoster() {
   } else {
     imageContainer.style.overflow = "visible";
   }
+  $("ul").toggle();
 }
 
 $(document).ready(function () {

@@ -32,7 +32,7 @@ body {
 }
 
 #eventPoster {
-  transform: translateY(-8%);
+  transform: translateY(-2%);
   top: 0;
   width: 100%;
   z-index: 2;
@@ -319,21 +319,23 @@ a {
 
 ul {
   position: absolute;
-  top: 204px;
+  top: 196px;
   left: 0;
   right: 0;
   max-width: 453px;
   width: 100%;
   padding-inline-start: 0px;
   margin-top: 6px;
-  background-color: #3a3a3aa1;
+  padding: 4px 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));
 }
 
 li {
   font-family: arial;
-  color: white;
+  color: black;
   display: inline-block;
   font-size: 9px;
+  font-weight: bold;
   list-style-type: none;
   text-transform: uppercase;
 }
@@ -344,7 +346,7 @@ li span {
   display: block;
   font-size: 27px;
   font-weight: normal;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.671);
   width: 30px;
   color: #000;
   margin: 3px;
