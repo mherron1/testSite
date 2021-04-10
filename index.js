@@ -1,134 +1,142 @@
 let i = 0;
 
+if (window.location.search === "") {
+  i = 0;
+} else {
+  i = parseInt(window.location.search[1]);
+}
+
+console.log(i);
+
 let events = data;
 
-//filterEvents(data, "Bell");
 let rowColor = "#f8f8f8";
 
-generateCard();
+generateCardSet(i);
 
-function generateCard() {
-  setCountdown();
-  let content = document.querySelector("#content");
-  content.innerHTML = `
-  <h2 style="background-color:${rowColor};" id="mainHeader"></h2>
-  <div id="imageContainer"></div>
-  <div id="mainCountdown">
-    <ul>
-      <li><span id="days"></span>days</li>
-      <li><span id="hours"></span>Hours</li>
-      <li><span id="minutes"></span>Minutes</li>
-      </ul>
-    </div>  
-        
-  <div id="mainTime"></div>
-  <div id="mainCard"></div> 
-  <div id="prelimsTime"></div>
-  <div id="prelimsCard"></div> 
+function generateCardSet(i) {
+  generateCard(i, "");
+  generateCard(i - 1, "Minus1");
+  generateCard(i + 1, "Plus1");
+
+  function generateCard(i, arg) {
+    if (i < 0) {
+      i = events.length - 1;
+    } else if (i > events.length - 1) {
+      i = 0;
+    }
+    let content = document.querySelector(`#content${arg}`);
+    content.innerHTML = `
+  <h2 style="background-color:${rowColor};" id="mainHeader${arg}"></h2>
+  <div id="imageContainer${arg}"></div>
+  <div id="mainTime${arg}"></div>
+  <div id="mainCard${arg}"></div> 
+  <div id="prelimsTime${arg}"></div>
+  <div id="prelimsCard${arg}"></div> 
   `;
 
-  let mainHeader = document.querySelector("#mainHeader");
-  mainHeader.textContent = `${events[i][4]}`;
+    let mainHeader = document.querySelector(`#mainHeader${arg}`);
+    mainHeader.textContent = `${events[i][4]}`;
 
-  let imageContainer = document.querySelector("#imageContainer");
-  imageContainer.innerHTML = `
-  <img id="eventPoster" onclick="showPoster()" src=${events[i][2]}>`;
+    let imageContainer = document.querySelector(`#imageContainer${arg}`);
+    imageContainer.innerHTML = `
+  <img id="eventPoster${arg}" onclick="showPoster()" src=${events[i][2]}>`;
 
-  ////////////event date
+    ////////////event date
 
-  let eventTimeLocal = new Date(events[i][1]);
-  let mainTime = document.querySelector("#mainTime");
-  let prelimsTime = document.querySelector("#prelimsTime");
+    let eventTimeLocal = new Date(events[i][1]);
+    let mainTime = document.querySelector(`#mainTime${arg}`);
+    let prelimsTime = document.querySelector(`#prelimsTime${arg}`);
 
-  mainCardTime = eventTimeLocal.toLocaleString([], {
-    month: "short",
-    day: "numeric",
-    weekday: "short",
-    hour: "2-digit",
-    minute: "2-digit",
-    timeZoneName: "short",
-  });
+    mainCardTime = eventTimeLocal.toLocaleString([], {
+      month: "short",
+      day: "numeric",
+      weekday: "short",
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZoneName: "short",
+    });
 
-  mainTime.textContent = `Main: ${mainCardTime}`;
+    mainTime.textContent = `Main: ${mainCardTime}`;
 
-  let mSecsPrelims = 1800000 * events[i][5];
-  let prelimCardTime = new Date(events[i][1] - mSecsPrelims);
-  prelimsCardTime = prelimCardTime.toLocaleString([], {
-    month: "short",
-    day: "numeric",
-    weekday: "short",
-    hour: "2-digit",
-    minute: "2-digit",
-    timeZoneName: "short",
-  });
+    let mSecsPrelims = 1800000 * events[i][5];
+    let prelimCardTime = new Date(events[i][1] - mSecsPrelims);
+    prelimsCardTime = prelimCardTime.toLocaleString([], {
+      month: "short",
+      day: "numeric",
+      weekday: "short",
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZoneName: "short",
+    });
 
-  prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
+    prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
 
-  ///////////////////////////////
+    ///////////////////////////////
 
-  let mainCardSize = events[i][3].length - events[i][5];
+    let mainCardSize = events[i][3].length - events[i][5];
 
-  let mainCard = document.querySelector("#mainCard");
+    let mainCard = document.querySelector(`#mainCard${arg}`);
 
-  for (let j = 0; j < mainCardSize; j++) {
-    if (j % 2 === 0) {
-      rowColor = "#f8f8f8";
-    } else {
-      rowColor = "white";
-    }
-    mainCard.innerHTML += `
-    <i class="material-icons" id="expand" onclick="toggleD()">expand_more</i>
+    for (let j = 0; j < mainCardSize; j++) {
+      if (j % 2 === 0) {
+        rowColor = "#f8f8f8";
+      } else {
+        rowColor = "white";
+      }
+      mainCard.innerHTML += `
+    <i class="material-icons" id="expand${arg}" onclick="toggleD()">expand_more</i>
     <div style="background-color:${rowColor};" id="left">
     <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
-        <div class="detailsLeft">
+        <div class="detailsLeft${arg}">
         <div style="color:red;font-size: 0.9rem;">+125</div>
           <div>${events[i][3][j].rankA}</div>
           <div>${events[i][3][j].recordA}</div>
         </div>
     </div>
     <div style="background-color:${rowColor};" id="middle">vs
-       <div class="detailsVS">${events[i][3][j].weight}</div>
+       <div class="detailsVS${arg}">${events[i][3][j].weight}</div>
     </div>
         
     <div style="background-color:${rowColor};" id="right">
     <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
-        <div class="detailsRight">
+        <div class="detailsRight${arg}">
           <div>${events[i][3][j].recordB}</div>
           <div>${events[i][3][j].rankB}</div>
           <div style="color:green; font-size: 0.9rem;">+125</div>
         </div>
     </div>
     `;
-  }
-
-  ////////////////////////////Prelims
-
-  let numPrelims = events[0][5];
-
-  let prelimsCard = document.querySelector("#prelimsCard");
-
-  for (let j = mainCardSize; j < events[i][3].length; j++) {
-    if ((j - 1) % 2 === 0) {
-      rowColor = "#f8f8f8";
-    } else {
-      rowColor = "white";
     }
-    prelimsCard.innerHTML += `
+
+    ////////////////////////////Prelims
+
+    let numPrelims = events[0][5];
+
+    let prelimsCard = document.querySelector(`#prelimsCard${arg}`);
+
+    for (let j = mainCardSize; j < events[i][3].length; j++) {
+      if ((j - 1) % 2 === 0) {
+        rowColor = "#f8f8f8";
+      } else {
+        rowColor = "white";
+      }
+      prelimsCard.innerHTML += `
   <div style="background-color:${rowColor};" id="left">
   <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
-      <div class="detailsLeft">
+      <div class="detailsLeft${arg}">
       <div style="color:red;font-size: 0.9rem;">-125</div>
         <div>${events[i][3][j].rankA}</div>
         <div>${events[i][3][j].recordA}</div>
       </div>
   </div>
   <div style="background-color:${rowColor};" id="middle">vs
-     <div class="detailsVS">${events[i][3][j].weight}</div>
+     <div class="detailsVS${arg}">${events[i][3][j].weight}</div>
   </div>
       
   <div style="background-color:${rowColor};" id="right">
   <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
-      <div class="detailsRight">
+      <div class="detailsRight${arg}">
         <div>${events[i][3][j].recordB}</div>
         <div>${events[i][3][j].rankB}</div>
         <div style="color:green;font-size: 0.9rem;">+125</div>
@@ -136,45 +144,62 @@ function generateCard() {
       </div>
   </div>
   `;
+    }
   }
-
-  ////////////////////////////////
-
-  toggleD();
 }
 
+////////////////////////////////  End of card function
+
 function next() {
-  clearInterval(x);
   i++;
   if (i > events.length - 1) {
     i = 0;
   }
-  generateCard();
+  generateCardSet(i);
 }
 
 function back() {
-  clearInterval(x);
   i--;
   if (i < 0) {
     i = events.length - 1;
   }
-  generateCard();
+  generateCardSet(i);
 }
 
 function toggleD() {
-  $(".detailsLeft").toggle();
-  $(".detailsRight").toggle();
-  $(".detailsVS").toggle();
+  let detailsLeft = document.querySelectorAll(`.detailsLeft`);
+  detailsLeft.forEach((detail) => {
+    if (detail.style.display === "flex") {
+      detail.style.display = "none";
+    } else {
+      detail.style.display = "flex";
+    }
+  });
+  let detailsRight = document.querySelectorAll(`.detailsRight`);
+  detailsRight.forEach((detail) => {
+    if (detail.style.display === "flex") {
+      detail.style.display = "none";
+    } else {
+      detail.style.display = "flex";
+    }
+  });
+  let detailsVS = document.querySelectorAll(`.detailsVS`);
+  detailsVS.forEach((detail) => {
+    if (detail.style.display === "flex") {
+      detail.style.display = "none";
+    } else {
+      detail.style.display = "flex";
+    }
+  });
 }
 
-function showPoster() {
-  let imageContainer = document.querySelector("#imageContainer");
+function showPoster(arg) {
+  let imageContainer = document.querySelector(`#imageContainer${arg}`);
   if (imageContainer.style.overflow === "visible") {
     imageContainer.style.overflow = "hidden";
   } else {
     imageContainer.style.overflow = "visible";
   }
-  $("ul").toggle();
 }
 
 $(document).ready(function () {
@@ -219,38 +244,71 @@ sideNav.ontransitionstart = () => {
 };
 
 function selectCard(index) {
-  clearInterval(x);
   toggleSideNav();
   i = index;
-  generateCard();
+  generateCardSet(i);
   document.querySelector("#hamburger-1").classList = "hamburger";
 }
 
-////////////////////////////swiping navigator
+////////////////////////////swiping
 
-var startingX, startingY, movingX, movingY;
+let content1 = document.querySelector("#content");
+let contentPlus1 = document.querySelector("#contentPlus1");
+let contentMinus1 = document.querySelector("#contentMinus1");
+
+var startingX;
 
 function touchStart(evt) {
   startingX = evt.touches[0].clientX;
 }
+var touch;
 
 function touchMove(evt) {
-  movingX = evt.touches[0].clientX;
-}
-
-function touchEnd() {
-  if (startingX + 100 < movingX) {
-    back();
-  } else if (startingX - 100 > movingX) {
-    next();
+  touch = evt.touches[0];
+  var change = startingX - touch.clientX;
+  if (change > 0) {
+    content1.style.left = -change + "px";
+    contentPlus1.style.display = "block";
+    // contentPlus1.style.left = screen.width - change + "px";
+    evt.preventDefault();
   } else {
-    movingX = undefined;
+    content1.style.left = -change + "px";
+    contentMinus1.style.display = "block";
+    //contentMinus1.style.left = -screen.width - change + "px";
+    evt.preventDefault();
   }
 }
 
-function filterEvents(data, str) {
-  let ufcEvents = data.filter((event) => event[0].includes(str));
-  events = ufcEvents;
+function touchEnd(evt) {
+  var change = startingX - evt.changedTouches[0].clientX;
+  var third = screen.width / 3;
+  if (change < third && change > -third) {
+    content1.style.left = 0;
+    contentPlus1.style.display = "none";
+    console.log("snap Back");
+  } else if (change > 0) {
+    console.log("next");
+    content1.style.transition = "all .2s";
+    contentPlus1.style.transition = "all .2s";
+    content1.style.left = "-102%";
+    contentPlus1.style.left = "0";
+    let newPage = i - 1;
+    if (newPage > events.length - 1) {
+      newPage = 0;
+    }
+    location.href = `./?${i + 1}`;
+  } else if (change < 0) {
+    console.log("back");
+    content1.style.transition = "all .2s";
+    contentMinus1.style.transition = "all .2s";
+    content1.style.left = "+102%";
+    contentMinus1.style.left = "0";
+    let newPage = i - 1;
+    if (newPage < 0) {
+      newPage = events.length - 1;
+    }
+    location.href = `./?${i - 1}`;
+  }
 }
 
 //////////////////////// Key Mapping
@@ -270,6 +328,7 @@ document.addEventListener("keydown", function (e) {
 });
 
 /////////////////////////////////// countdowns
+/*
 
 function setCountdown() {
   let mainCountdown = events[i][1];
@@ -307,4 +366,25 @@ function setCountdown() {
 
 function stopTimer() {
   clearInterval(x);
+}
+
+
+*/
+
+let tr = -450;
+
+function slideLeft() {
+  if (tr < 0) {
+    tr += 450;
+  }
+  let displayCard = document.querySelector("#displayCard");
+  displayCard.style.transform = "translateX(" + tr + "px)";
+}
+
+function slideRight() {
+  if (tr > -900) {
+    tr -= 450;
+  }
+  let displayCard = document.querySelector("#displayCard");
+  displayCard.style.transform = "translateX(" + tr + "px)";
 }

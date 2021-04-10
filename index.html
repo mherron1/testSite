@@ -12,68 +12,31 @@
 
     <title>Next MMA</title>
 </head>
-<body ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd()">
-    <div id="displayCard">
-        <div onclick="toggleSideNav()" class="hamburger" id="hamburger-1">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-          </div>
-        <div id="content">
-            <h2 id="mainHeader"></h2>
-            <div id="imageContainer"></div>
-       
-              <div id="countdown">
-                <ul>
-                  <li><span id="days"></span>days</li>
-                  <li><span id="hours"></span>Hours</li>
-                  <li><span id="minutes"></span>Minutes</li>
-                </ul>
-              </div>
+<body ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd(event)">
 
-            <div id="mainTime"></div>
-            <div id="mainCard">
-                <div id="left">
-                    <div class="detailsLeft">
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                    </div>
-                </div>
-                <div id="middle"></div>
-                <div id="right">
-                    <div class="detailsRight">
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                    </div>
-                </div>
-            </div> 
-            <div id="prelimsTime"></div>
-            <div id="PrelimCard">
-              <div id="left">
-                  <div class="detailsLeft">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                  </div>
-              </div>
-              <div id="middle"></div>
-              <div id="right">
-                  <div class="detailsRight">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                  </div>
-              </div>
-          </div> 
-        </div>
+  <div onclick="toggleSideNav()" class="hamburger" id="hamburger-1">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </div>
+ 
+  <div id="displayCard">
+    <div id="contentMinus1"></div>
+      <div id="content"></div>
+      <div id="contentPlus1"></div> 
+  </div>
+
+
+
+
+
     
-        <div id="sideNav">
-            <div id="eventList"></div>
-        </div>
-    
-    </div>
+      <div id="sideNav">
+        <div id="eventList"></div>
+      </div>
+     </div>
+
+   
     <br>
     <br>
 

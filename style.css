@@ -11,44 +11,81 @@ html {
 }
 body {
   position: relative;
+  margin: 0 auto;
+  max-width: 450px;
+}
+#displaycard {
+  position: relative;
+  overflow: hidden;
+}
+
+#content {
+  position: absolute;
+  left: 0;
+  background-color: white;
   height: 100vh;
-  max-width: 450px;
-  margin: 0 auto;
+  z-index: 10;
 }
 
-#displayCard {
-  max-width: 450px;
-  margin: 0 auto;
+#contentMinus1 {
+  position: absolute;
+  background-color: white;
+  height: 100vh;
+  display: none;
+  z-index: 1;
+}
+#contentPlus1 {
+  position: absolute;
+  background-color: white;
+  height: 100vh;
+  display: none;
+  z-index: 1;
 }
 
-#mainHeader {
+#content,
+#contentMinus1,
+#contentPlus1 {
+}
+
+#mainHeader,
+#mainHeaderPlus1,
+#mainHeaderMinus1 {
   text-align: center;
   padding: 8px 0px;
 }
 
-#imageContainer {
+#imageContainer,
+#imageContainerPlus1,
+#imageContainerMinus1 {
   max-height: 220px;
   overflow: hidden;
 }
 
-#eventPoster {
-  transform: translateY(-2%);
+#eventPoster,
+#eventPosterPlus1,
+#eventPosterMinus1 {
   top: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 2;
 }
-#eventPoster:hover {
+#eventPoster,
+#eventPosterPlus1,
+#eventPosterMinus1:hover {
   cursor: pointer;
 }
 
-#mainTime {
+#mainTime,
+#mainTimePlus1,
+#mainTimeMinus1 {
   text-align: center;
   margin: 10px;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
-#expand {
+#expand,
+#expandPlus1,
+#expandMinus1 {
   position: absolute;
   font-size: 25px;
   font-weight: lighter;
@@ -56,76 +93,85 @@ body {
   transform: translateY(-32px);
 }
 
-#expand:hover {
+#expand,
+#expandPlus1,
+#expandMinus1:hover {
   cursor: pointer;
 }
 
-#mainCard {
+#mainCard,
+#mainCardPlus1,
+#mainCardMinus1 {
   display: grid;
   grid-template-columns: 45% 10% 45%;
   width: 100%;
   font-size: 1.1rem;
 }
 
-#prelimsTime {
+#prelimsTime,
+#prelimsTimePlus1,
+#prelimsTimeMinus1 {
   text-align: center;
   margin: 10px;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-#prelimsCard {
+#prelimsCard,
+#prelimsCardPlus1,
+#prelimsCardMinus1 {
   display: grid;
   grid-template-columns: 45% 10% 45%;
   width: 100%;
   font-size: 1.1rem;
 }
 
-#left {
+#left,
+#leftPlus1,
+#leftMinus1 {
   padding: 7px;
   text-align: right;
   padding-right: 8px;
 }
-#middle {
+#middle,
+#middlePlus1,
+#middleMinus1 {
   padding: 7px;
   text-align: center;
-  min-width: 40px;
 }
-#right {
+#right,
+#rightPlus1,
+#rightMinus1 {
   padding: 7px;
   text-align: left;
   padding-left: 8px;
 }
 
-.detailsLeft {
+.detailsLeft,
+.detailsLeftPlus1,
+.detailsLeftMinus1 {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
   font-size: 0.9rem;
+  display: none;
 }
-.detailsRight {
+.detailsRight,
+.detailsRightPlus1,
+.detailsRightMinus1 {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
   font-size: 0.9rem;
+  display: none;
 }
-.detailsVS {
+.detailsVS,
+.detailsVSPlus1,
+.detailsVSMinus1 {
   display: block;
   font-size: 0.9rem;
   padding-top: 5px;
-}
-
-#buttons {
-  position: absolute;
-  padding: 10px 50px;
-  top: 245px;
-  left: 15%;
-  transform: translateX(-50%);
-}
-
-button {
-  font-size: 18px;
-  padding: 3px 5px;
+  display: none;
 }
 
 /*side nav*/
@@ -135,11 +181,12 @@ button {
   top: 0;
   right: 0%;
   width: 0%;
+  max-width: 350px;
   height: 0%;
   min-height: 100vh;
   background-color: rgb(247, 247, 247);
   transition-duration: 0.3s;
-  overflow: hidden;
+  z-index: 100;
 }
 
 .noselect {
@@ -155,26 +202,27 @@ button {
   font-size: 1.2rem;
   margin-top: 100px;
   text-align: right;
-  margin-left: 20px;
-  margin-right: 15px;
 }
 
 .eventLink {
   min-width: 300;
-  padding-top: 20px;
-  border-bottom: 1px solid rgb(243, 243, 243);
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(243, 243, 243, 0.925);
+  box-sizing: content-box;
 }
 
 .eventLink:hover {
   cursor: pointer;
   color: white;
-  background-color: rgb(212, 39, 39);
+  background-color: rgba(212, 39, 39, 0.822);
 }
 
 .eventLinkDate {
   float: left;
   font-weight: normal;
-  display: none;
 }
 
 .eventLinkText {
@@ -185,9 +233,10 @@ button {
 
 .hamburger {
   position: absolute;
+  top: 0;
   right: 0px;
   transform: scale(0.5);
-  z-index: 2;
+  z-index: 1000;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -327,7 +376,7 @@ ul {
   padding-inline-start: 0px;
   margin-top: 6px;
   padding: 4px 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(236, 236, 236));
 }
 
 li {
@@ -346,7 +395,7 @@ li span {
   display: block;
   font-size: 27px;
   font-weight: normal;
-  background-color: rgba(255, 255, 255, 0.671);
+  background-color: rgba(255, 255, 255, 0.288);
   width: 30px;
   color: #000;
   margin: 3px;
