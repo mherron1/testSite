@@ -13,14 +13,17 @@ body {
   position: relative;
   margin: 0 auto;
   max-width: 450px;
+  margin-bottom: 50px;
 }
 #displaycard {
   position: relative;
   overflow: hidden;
+  max-width: 450px;
 }
 
 #content {
   position: absolute;
+  max-width: 450px;
   left: 0;
   background-color: white;
   height: 100vh;
@@ -30,6 +33,7 @@ body {
 #contentMinus1 {
   position: absolute;
   background-color: white;
+  max-width: 475px;
   height: 100vh;
   display: none;
   z-index: 1;
@@ -37,6 +41,7 @@ body {
 #contentPlus1 {
   position: absolute;
   background-color: white;
+  max-width: 475px;
   height: 100vh;
   display: none;
   z-index: 1;
@@ -74,6 +79,7 @@ body {
   position: relative;
   top: 0;
   width: 100vw;
+  max-width: 475px;
   z-index: 1000;
 }
 #eventPoster,
@@ -247,6 +253,46 @@ body {
   transform: scale(0.5);
   z-index: 1000;
   -webkit-tap-highlight-color: transparent;
+}
+
+@media only screen and (min-width: 1000px) {
+  #displayCard {
+    position: absolute;
+    width: 450px;
+    left: 60%;
+    transform: translateX(-50%);
+  }
+  .hamburger {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    transform: scale(0.5);
+    z-index: 1000;
+    -webkit-tap-highlight-color: transparent;
+  }
+  #sideNav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    max-width: 350px;
+    min-height: 100vh;
+    background-color: rgb(247, 247, 247);
+    z-index: 100;
+  }
+  #eventPoster,
+  #eventPosterPlus1,
+  #eventPosterMinus1 {
+    position: absolute;
+    top: 60px;
+    width: 400px;
+    max-width: 450px;
+    transform: translateX(-450px);
+    z-index: 1000;
+  }
+  body {
+    margin-top: 25px;
+  }
 }
 
 a {

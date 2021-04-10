@@ -242,8 +242,16 @@ sideNav.ontransitionstart = () => {
   $(".eventLinkDate").fadeIn(400);
 };
 
-function selectCard(index) {
+if (screen.width > 1000) {
   toggleSideNav();
+  toggleD();
+  document.querySelector(".hamburger").style.display = "none";
+}
+
+function selectCard(index) {
+  if (screen.width < 1000) {
+    toggleSideNav();
+  }
   i = index;
   generateCardSet(i);
   document.querySelector("#hamburger-1").classList = "hamburger";
