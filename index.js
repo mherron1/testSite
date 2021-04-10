@@ -334,12 +334,13 @@ function touchMove(evt) {
 }
 
 function touchEnd(evt) {
-  var change = startingX - evt.changedTouches[0].clientX;
+  var changeX = startingX - evt.changedTouches[0].clientX;
+  var changeY = startingY - evt.changedTouches[0].clientY;
   var third = screen.width / 4;
-  if (change < third && change > -third) {
+  if (changeX < third && changeX > -third) {
     content1.style.left = 0;
     contentPlus1.style.display = "none";
-  } else if (change > 0) {
+  } else if (changeX > 0 && changeY < 100 && changeY > -100) {
     content1.style.transition = "all .2s";
     content1.style.left = "-102%";
     content1.classList.add("notransition");
@@ -351,7 +352,7 @@ function touchEnd(evt) {
     clearInterval(x);
     generateCardSet(i);
     // location.href = `./?${newPage}`;
-  } else if (change < 0) {
+  } else if (changeX < 0 && changeY < 100 && changeY > -100) {
     content1.style.transition = "all .2s";
     content1.style.left = "+102%";
     content1.classList.add("notransition");
