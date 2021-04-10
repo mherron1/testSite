@@ -229,6 +229,15 @@ function showPoster() {
   }
 }
 
+function switchIcon() {
+  let sideNav = document.querySelector("#sideNav");
+  $("#hamburger-1").toggleClass("is-active");
+  if (sideNav.style.width === "70%") {
+    $("#dim").fadeOut(300);
+  }
+  sideNav.style.width = "0%";
+}
+
 $(document).ready(function () {
   $(".hamburger").click(function () {
     $(this).toggleClass("is-active");
@@ -240,11 +249,11 @@ function toggleSideNav() {
   if (sideNav.style.width === "70%") {
     eventList.innerHTML = ``;
     sideNav.style.width = "0%";
+    $("#dim").fadeOut(300);
   } else {
     sideNav.style.width = "70%";
-    setTimeout(() => {
-      generateLinks();
-    }, 0);
+    $("#dim").fadeIn(300);
+    generateLinks();
   }
 }
 
