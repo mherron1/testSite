@@ -333,7 +333,7 @@ function touchMove(evt) {
 function touchEnd(evt) {
   var changeX = startingX - evt.changedTouches[0].clientX;
   var changeY = startingY - evt.changedTouches[0].clientY;
-  var third = screen.width / 2;
+  var third = screen.width / 3;
   if (changeX < third && changeX > -third) {
     content1.style.left = -changeX + "px";
     content1.style.left = 0;
