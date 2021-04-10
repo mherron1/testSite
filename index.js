@@ -89,8 +89,8 @@ function generateCardSet(i) {
       setCountdown();
       if (screen.width < 1000) {
         setTimeout(() => {
-          $("#testDiv").fadeIn(100);
-        }, 1000);
+          $("#testDiv").fadeIn(200);
+        }, 200);
       }
     }
 
