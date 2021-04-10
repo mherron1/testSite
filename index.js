@@ -289,30 +289,24 @@ function touchEnd(evt) {
     content1.style.left = 0;
     contentPlus1.style.display = "none";
   } else if (change > 0) {
-    content1.style.transition = "all 0.15s";
+    content1.style.transition = "all 0.25s";
     content1.style.left = "-102%";
     i++;
-    content1.addEventListener("transitionend", () => {
-      content1.classList.add("notransition");
-      contentPlus1.style.left = "0";
-      if (i > events.length - 1) {
-        i = 0;
-      }
-      generateCardSet(i);
-    });
+    contentPlus1.style.left = "0";
+    if (i > events.length - 1) {
+      i = 0;
+    }
+    generateCardSet(i);
   } else if (change < 0) {
-    content1.style.transition = "all 0.15s";
+    content1.style.transition = "all 0.25s";
     content1.style.left = "+102%";
     i--;
-    content1.addEventListener("transitionend", () => {
-      content1.classList.add("notransition");
-      contentMinus1.style.left = "0";
-      if (i < 0) {
-        i = events.length - 1;
-      }
-      console.log("transition");
-      generateCardSet(i);
-    });
+    contentMinus1.style.left = "0";
+    if (i < 0) {
+      i = events.length - 1;
+    }
+
+    generateCardSet(i);
   }
 }
 
