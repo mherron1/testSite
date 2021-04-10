@@ -101,17 +101,17 @@ body {
   text-align: center;
   margin: 10px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 #expand,
 #expandPlus1,
 #expandMinus1 {
   position: absolute;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: lighter;
   right: 13px;
-  transform: translateY(-32px);
+  transform: translateY(-34px);
 }
 
 #expand,
@@ -135,7 +135,7 @@ body {
   text-align: center;
   margin: 10px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 #prelimsCard,
