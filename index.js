@@ -107,7 +107,7 @@ function generateCardSet(i) {
         rowColor = "white";
       }
       mainCard.innerHTML += `
-    <i class="material-icons" id="expand${arg}" onclick="toggleD()">expand_more</i>
+      <i class="material-icons noSelect" id="expand" onclick="toggleD()">expand_more</i>
     <div style="background-color:${rowColor};" id="left">
     <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
         <div class="detailsLeft${arg}">
@@ -334,9 +334,11 @@ function touchMove(evt) {
 function touchEnd(evt) {
   var changeX = startingX - evt.changedTouches[0].clientX;
   var changeY = startingY - evt.changedTouches[0].clientY;
-  var third = screen.width / 4;
+  var third = screen.width / 2;
   if (changeX < third && changeX > -third) {
+    content1.style.left = -changeX + "px";
     content1.style.left = 0;
+    content1.classList.add("notransition");
     contentPlus1.style.display = "none";
   } else if (changeX > 0 && changeY < 100 && changeY > -100) {
     content1.style.transition = "all .2s";
