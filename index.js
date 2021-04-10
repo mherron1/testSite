@@ -236,6 +236,7 @@ function switchIcon() {
     $("#dim").fadeOut(300);
   }
   sideNav.style.width = "0%";
+  eventList.innerHTML = ``;
 }
 
 $(document).ready(function () {
