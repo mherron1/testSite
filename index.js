@@ -305,8 +305,8 @@ let content1 = document.querySelector("#content");
 let contentPlus1 = document.querySelector("#contentPlus1");
 let contentMinus1 = document.querySelector("#contentMinus1");
 
-var startingX;
-var startingY;
+var startingX = 0;
+var startingY = 0;
 
 function touchStart(evt) {
   startingX = evt.touches[0].clientX;
@@ -319,13 +319,11 @@ function touchMove(evt) {
   var changeX = startingX - touch.clientX;
   var changeY = startingY - touch.clientY;
   if (changeX > 50 && changeY < 100 && changeY > -100) {
-    console.log("moving1");
     changeX -= 50;
     content1.style.left = -changeX + "px";
     contentPlus1.style.display = "block";
     evt.preventDefault();
   } else if (changeX < -50 && changeY < 100 && changeY > -100) {
-    console.log("moving2");
     changeX += 50;
     content1.style.left = -changeX + "px";
     contentMinus1.style.display = "block";
