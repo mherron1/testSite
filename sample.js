@@ -1192,7 +1192,7 @@ let data = [
   [
     "Ultimate Fighting Championship",
     1622930400000,
-    "default.jpg",
+    "images/default.jpg",
     [
       {
         fighterA: "Walt Harris",
@@ -1582,7 +1582,7 @@ let data = [
   [
     "Ultimate Fighting Championship",
     1624744800000,
-    "default.jpg",
+    "images/default.jpg",
     [
       {
         fighterA: "Ciryl Gane",
@@ -1695,7 +1695,7 @@ let data = [
   [
     "Ultimate Fighting Championship",
     1625932800000,
-    "default.jpg",
+    "images/default.jpg",
     [
       {
         fighterA: "Dustin Poirier",
@@ -1795,7 +1795,7 @@ let data = [
   [
     "Ultimate Fighting Championship",
     1626559200000,
-    "default.jpg",
+    "images/default.jpg",
     [
       {
         fighterA: "Marion Reneau",
@@ -1830,7 +1830,7 @@ let data = [
   [
     "Ultimate Fighting Championship",
     1627164000000,
-    "default.jpg",
+    "images/default.jpg",
     [
       {
         fighterA: "Aspen Ladd",

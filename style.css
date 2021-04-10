@@ -62,6 +62,7 @@ body {
 #imageContainer,
 #imageContainerPlus1,
 #imageContainerMinus1 {
+  position: relative;
   max-height: 220px;
   overflow: hidden;
 }
@@ -80,13 +81,13 @@ body {
   top: 0;
   width: 100vw;
   max-width: 475px;
-  z-index: 1000;
+  z-index: 100;
 }
 #eventPoster,
 #eventPosterPlus1,
 #eventPosterMinus1:hover {
   cursor: pointer;
-  z-index: 1000;
+  z-index: 100;
 }
 
 #mainTime,
@@ -435,27 +436,42 @@ a {
   transform: translateY(-13px) rotate(-45deg);
 }
 
+#testDiv {
+  position: absolute;
+  height: 50px;
+  width: 156px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 12px;
+  right: 0;
+  bottom: 2px;
+  z-index: 1000;
+}
+
 ul {
   position: absolute;
-  top: 196px;
-  left: 0;
-  right: 0;
-  max-width: 453px;
-  width: 100%;
+  bottom: 0;
+  width: 159px;
   padding-inline-start: 0px;
   margin-top: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 12px;
+  right: 0;
   padding: 4px 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(236, 236, 236));
 }
 
 li {
   font-family: arial;
   color: black;
+  background-color: rgba(255, 255, 255, 0.795);
   display: inline-block;
+  text-align: center;
   font-size: 9px;
   font-weight: bold;
   list-style-type: none;
   text-transform: uppercase;
+  padding-bottom: 3px;
 }
 
 li span {
@@ -464,11 +480,10 @@ li span {
   display: block;
   font-size: 27px;
   font-weight: normal;
-  background-color: rgba(255, 255, 255, 0.288);
   width: 30px;
   color: #000;
   margin: 3px;
-  padding: 5px;
+  padding: 0px 5px;
 }
 
 #mainCountdown {

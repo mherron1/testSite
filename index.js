@@ -71,7 +71,25 @@ function generateCardSet(i) {
 
     prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
 
-    ///////////////////////////////
+    ///////////////////////////////countdown
+
+    if (arg === "") {
+      let centerImageDiv = document.querySelector("#imageContainer");
+      centerImageDiv.innerHTML += `
+      <div id="testDiv">
+      <div id="countdown">
+            <ul>
+              <li><span id="days"></span>days</li>
+              <li><span id="hours"></span>Hours</li>
+              <li><span id="minutes"></span>Minutes</li>
+            </ul>
+          </div>
+      </div>
+      `;
+      setCountdown();
+    }
+
+    //////////////////////////////
 
     let mainCardSize = events[i][3].length - events[i][5];
 
@@ -154,6 +172,7 @@ function next() {
   if (i > events.length - 1) {
     i = 0;
   }
+  clearInterval(x);
   generateCardSet(i);
 }
 
@@ -162,6 +181,7 @@ function back() {
   if (i < 0) {
     i = events.length - 1;
   }
+  clearInterval(x);
   generateCardSet(i);
 }
 
@@ -194,6 +214,7 @@ function toggleD() {
 
 function showPoster() {
   let imageContainer = document.querySelector(`#imageContainer`);
+  $("#testDiv").toggle();
   if (imageContainer.style.overflow === "visible") {
     imageContainer.style.overflow = "hidden";
   } else {
@@ -253,6 +274,7 @@ function selectCard(index) {
     toggleSideNav();
   }
   i = index;
+  clearInterval(x);
   generateCardSet(i);
   document.querySelector("#hamburger-1").classList = "hamburger";
 }
@@ -303,6 +325,7 @@ function touchEnd(evt) {
     if (i > events.length - 1) {
       i = 0;
     }
+    clearInterval(x);
     generateCardSet(i);
     // location.href = `./?${newPage}`;
   } else if (change < 0) {
@@ -314,6 +337,7 @@ function touchEnd(evt) {
     if (i < 0) {
       i = events.length - 1;
     }
+    clearInterval(x);
     generateCardSet(i);
     //location.href = `./?${newPage1}`;
   }
@@ -337,8 +361,6 @@ document.addEventListener("keydown", function (e) {
 
 /////////////////////////////////// countdowns
 
-/*
-
 function setCountdown() {
   let mainCountdown = events[i][1];
 
@@ -354,9 +376,6 @@ function setCountdown() {
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = mainCountdown - now;
-    if (distance < 3600000) {
-      document.getElementById("minutes").style.color = "darkred";
-    }
     if (distance < 0) {
       distance = 0;
     }
@@ -377,25 +396,7 @@ function stopTimer() {
   clearInterval(x);
 }
 
-*/
-
-let tr = -450;
-
-function slideLeft() {
-  if (tr < 0) {
-    tr += 450;
-  }
-  let displayCard = document.querySelector("#displayCard");
-  displayCard.style.transform = "translateX(" + tr + "px)";
-}
-
-function slideRight() {
-  if (tr > -900) {
-    tr -= 450;
-  }
-  let displayCard = document.querySelector("#displayCard");
-  displayCard.style.transform = "translateX(" + tr + "px)";
-}
+//////////////////////////////////////////////////////////
 
 function resetDivCSS() {
   let content1 = document.querySelector("#content");
