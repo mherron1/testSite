@@ -230,13 +230,15 @@ function showPoster() {
 }
 
 function switchIcon() {
-  let sideNav = document.querySelector("#sideNav");
-  $("#hamburger-1").toggleClass("is-active");
-  if (sideNav.style.width === "70%") {
-    $("#dim").fadeOut(300);
+  if (screen.width > 1000) {
+    let sideNav = document.querySelector("#sideNav");
+    $("#hamburger-1").toggleClass("is-active");
+    if (sideNav.style.width === "70%") {
+      $("#dim").fadeOut(300);
+    }
+    sideNav.style.width = "0%";
+    eventList.innerHTML = ``;
   }
-  sideNav.style.width = "0%";
-  eventList.innerHTML = ``;
 }
 
 $(document).ready(function () {
