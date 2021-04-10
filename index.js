@@ -289,27 +289,29 @@ function touchEnd(evt) {
     content1.style.left = 0;
     contentPlus1.style.display = "none";
   } else if (change > 0) {
-    //content1.style.transition = "all .2s";
-    //contentPlus1.style.transition = "all .2s";
+    content1.style.transition = "all 0.2s";
     content1.style.left = "-102%";
-    contentPlus1.style.left = "0";
     i++;
-    if (i > events.length - 1) {
-      i = 0;
-    }
-    generateCardSet(i);
-    // location.href = `./?${newPage}`;
+    content1.addEventListener("transitionend", () => {
+      content1.style.transition = "none";
+      contentPlus1.style.left = "0";
+      if (i > events.length - 1) {
+        i = 0;
+      }
+      generateCardSet(i);
+    });
   } else if (change < 0) {
-    //content1.style.transition = "all .2s";
-    //contentMinus1.style.transition = "all .2s";
+    content1.style.transition = "all 0.2s";
     content1.style.left = "+102%";
-    contentMinus1.style.left = "0";
     i--;
-    if (i < 0) {
-      i = events.length - 1;
-    }
-    generateCardSet(i);
-    //location.href = `./?${newPage1}`;
+    content1.addEventListener("transitionend", () => {
+      content1.style.transition = "none";
+      contentMinus1.style.left = "0";
+      if (i < 0) {
+        i = events.length - 1;
+      }
+      generateCardSet(i);
+    });
   }
 }
 
