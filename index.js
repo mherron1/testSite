@@ -318,8 +318,6 @@ function touchMove(evt) {
   touch = evt.touches[0];
   var changeX = startingX - touch.clientX;
   var changeY = startingY - touch.clientY;
-  //console.log(changeX);
-  console.log(changeY);
   if (changeX > 50 && changeY < 20 && changeY > -20) {
     swiping = true;
     changeX -= 50;
@@ -364,6 +362,7 @@ function touchEnd(evt) {
     if (i < 0) {
       i = events.length - 1;
     }
+    swiping = false;
     clearInterval(x);
     generateCardSet(i);
     //location.href = `./?${newPage1}`;
