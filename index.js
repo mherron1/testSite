@@ -87,6 +87,11 @@ function generateCardSet(i) {
       </div>
       `;
       setCountdown();
+      if (screen.width < 1000) {
+        setTimeout(() => {
+          $("#testDiv").fadeIn(100);
+        }, 1000);
+      }
     }
 
     //////////////////////////////
@@ -214,11 +219,13 @@ function toggleD() {
 
 function showPoster() {
   let imageContainer = document.querySelector(`#imageContainer`);
-  $("#testDiv").toggle();
-  if (imageContainer.style.overflow === "visible") {
-    imageContainer.style.overflow = "hidden";
-  } else {
-    imageContainer.style.overflow = "visible";
+  if (screen.width < 1000) {
+    $("#testDiv").toggle();
+    if (imageContainer.style.overflow === "visible") {
+      imageContainer.style.overflow = "hidden";
+    } else {
+      imageContainer.style.overflow = "visible";
+    }
   }
 }
 
@@ -243,6 +250,10 @@ function toggleSideNav() {
 
 //////////////////////////// Navigation Links
 
+if (screen.width > 1000) {
+  generateLinks();
+}
+
 function generateLinks() {
   let eventList = document.querySelector("#eventList");
   for (i = 0; i < events.length; i++) {
@@ -262,12 +273,6 @@ let sideNav = document.querySelector("#sideNav");
 sideNav.ontransitionstart = () => {
   $(".eventLinkDate").fadeIn(400);
 };
-
-if (screen.width > 1000) {
-  toggleSideNav();
-  toggleD();
-  document.querySelector(".hamburger").style.display = "none";
-}
 
 function selectCard(index) {
   if (screen.width < 1000) {
