@@ -15,6 +15,7 @@ let rowColor = "#f8f8f8";
 generateCardSet(i);
 
 function generateCardSet(i) {
+  resetDivCSS();
   generateCard(i, "");
   generateCard(i - 1, "Minus1");
   generateCard(i + 1, "Plus1");
@@ -266,17 +267,17 @@ var touch;
 function touchMove(evt) {
   touch = evt.touches[0];
   var change = startingX - touch.clientX;
-  if (change > 0) {
+  if (change > 30) {
     content1.style.left = -change + "px";
     contentPlus1.style.display = "block";
     // contentPlus1.style.left = screen.width - change + "px";
     evt.preventDefault();
-  } else {
+  } else if (change < -30) {
     content1.style.left = -change + "px";
     contentMinus1.style.display = "block";
     //contentMinus1.style.left = -screen.width - change + "px";
-    evt.preventDefault();
   }
+  //evt.preventDefault();
 }
 
 function touchEnd(evt) {
@@ -285,31 +286,28 @@ function touchEnd(evt) {
   if (change < third && change > -third) {
     content1.style.left = 0;
     contentPlus1.style.display = "none";
-    console.log("snap Back");
   } else if (change > 0) {
-    console.log("next");
-    content1.style.transition = "all .2s";
-    contentPlus1.style.transition = "all .2s";
+    //content1.style.transition = "all .2s";
+    //contentPlus1.style.transition = "all .2s";
     content1.style.left = "-102%";
     contentPlus1.style.left = "0";
-    let newPage = i + 1;
-    if (newPage > events.length - 1) {
-      newPage = 0;
+    i++;
+    if (i > events.length - 1) {
+      i = 0;
     }
-    console.log(newPage);
-    location.href = `./?${newPage}`;
+    generateCardSet(i);
+    // location.href = `./?${newPage}`;
   } else if (change < 0) {
-    console.log("back");
-    content1.style.transition = "all .2s";
-    contentMinus1.style.transition = "all .2s";
+    //content1.style.transition = "all .2s";
+    //contentMinus1.style.transition = "all .2s";
     content1.style.left = "+102%";
     contentMinus1.style.left = "0";
-    let newPage1 = i - 1;
-    if (newPage1 < 0) {
-      newPage1 = events.length - 1;
+    i--;
+    if (i < 0) {
+      i = events.length - 1;
     }
-    console.log(newPage1);
-    location.href = `./?${newPage1}`;
+    generateCardSet(i);
+    //location.href = `./?${newPage1}`;
   }
 }
 
@@ -389,4 +387,13 @@ function slideRight() {
   }
   let displayCard = document.querySelector("#displayCard");
   displayCard.style.transform = "translateX(" + tr + "px)";
+}
+
+function resetDivCSS() {
+  let content1 = document.querySelector("#content");
+  let contentPlus1 = document.querySelector("#contentPlus1");
+  let contentMinus1 = document.querySelector("#contentMinus1");
+  content1.style.left = "0";
+  contentMinus1.style.display = "none";
+  contentPlus1.style.display = "none";
 }
