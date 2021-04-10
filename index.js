@@ -288,9 +288,9 @@ function selectCard(index) {
   }
   i = index;
   clearInterval(x);
+  generateCardSet(i);
   setTimeout(() => {
     toggleSideNav();
-    generateCardSet(i);
   }, 100);
 
   document.querySelector("#hamburger-1").classList = "hamburger";
