@@ -230,7 +230,7 @@ function showPoster() {
 }
 
 function switchIcon() {
-  if (screen.width > 1000) {
+  if (screen.width < 1000) {
     let sideNav = document.querySelector("#sideNav");
     $("#hamburger-1").toggleClass("is-active");
     if (sideNav.style.width === "70%") {
@@ -306,28 +306,31 @@ let contentPlus1 = document.querySelector("#contentPlus1");
 let contentMinus1 = document.querySelector("#contentMinus1");
 
 var startingX;
+var startingY;
 
 function touchStart(evt) {
   startingX = evt.touches[0].clientX;
+  startingY = evt.touches[0].clientY;
 }
 var touch;
 
 function touchMove(evt) {
   touch = evt.touches[0];
-  var change = startingX - touch.clientX;
-  if (change > 60) {
-    change -= 60;
-    content1.style.left = -change + "px";
+  var changeX = startingX - touch.clientX;
+  var changeY = startingY - touch.clientY;
+  if (changeX > 30 && changeY < 30 && changeY > -30) {
+    console.log("moving1");
+    changeX -= 30;
+    content1.style.left = -changeX + "px";
     contentPlus1.style.display = "block";
-    // contentPlus1.style.left = screen.width - change + "px";
     evt.preventDefault();
-  } else if (change < -60) {
-    change += 60;
-    content1.style.left = -change + "px";
+  } else if (changeX < -30 && changeY < 30 && changeY > -30) {
+    console.log("moving2");
+    changeX += 30;
+    content1.style.left = -changeX + "px";
     contentMinus1.style.display = "block";
-    //contentMinus1.style.left = -screen.width - change + "px";
+    evt.preventDefault();
   }
-  //evt.preventDefault();
 }
 
 function touchEnd(evt) {
