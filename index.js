@@ -290,13 +290,13 @@ sideNav.ontransitionstart = () => {
 
 function selectCard(index) {
   if (screen.width < 1000) {
+    setTimeout(() => {
+      toggleSideNav();
+    }, 100);
   }
   i = index;
   clearInterval(x);
   generateCardSet(i);
-  setTimeout(() => {
-    toggleSideNav();
-  }, 100);
 
   document.querySelector("#hamburger-1").classList = "hamburger";
 }
