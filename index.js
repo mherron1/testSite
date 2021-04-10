@@ -3,7 +3,7 @@ let i = 0;
 if (window.location.search === "") {
   i = 0;
 } else {
-  i = parseInt(window.location.search[1]);
+  i = parseInt(window.location.search.slice(1));
 }
 
 console.log(i);
@@ -281,7 +281,7 @@ function touchMove(evt) {
 
 function touchEnd(evt) {
   var change = startingX - evt.changedTouches[0].clientX;
-  var third = screen.width / 3;
+  var third = screen.width / 4;
   if (change < third && change > -third) {
     content1.style.left = 0;
     contentPlus1.style.display = "none";
@@ -292,22 +292,24 @@ function touchEnd(evt) {
     contentPlus1.style.transition = "all .2s";
     content1.style.left = "-102%";
     contentPlus1.style.left = "0";
-    let newPage = i - 1;
+    let newPage = i + 1;
     if (newPage > events.length - 1) {
       newPage = 0;
     }
-    location.href = `./?${i + 1}`;
+    console.log(newPage);
+    location.href = `./?${newPage}`;
   } else if (change < 0) {
     console.log("back");
     content1.style.transition = "all .2s";
     contentMinus1.style.transition = "all .2s";
     content1.style.left = "+102%";
     contentMinus1.style.left = "0";
-    let newPage = i - 1;
-    if (newPage < 0) {
-      newPage = events.length - 1;
+    let newPage1 = i - 1;
+    if (newPage1 < 0) {
+      newPage1 = events.length - 1;
     }
-    location.href = `./?${i - 1}`;
+    console.log(newPage1);
+    location.href = `./?${newPage1}`;
   }
 }
 
