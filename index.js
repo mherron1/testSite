@@ -318,15 +318,15 @@ function touchMove(evt) {
   touch = evt.touches[0];
   var changeX = startingX - touch.clientX;
   var changeY = startingY - touch.clientY;
-  if (changeX > 30 && changeY < 30 && changeY > -30) {
+  if (changeX > 50 && changeY < 100 && changeY > -100) {
     console.log("moving1");
-    changeX -= 30;
+    changeX -= 50;
     content1.style.left = -changeX + "px";
     contentPlus1.style.display = "block";
     evt.preventDefault();
-  } else if (changeX < -30 && changeY < 30 && changeY > -30) {
+  } else if (changeX < -50 && changeY < 100 && changeY > -100) {
     console.log("moving2");
-    changeX += 30;
+    changeX += 50;
     content1.style.left = -changeX + "px";
     contentMinus1.style.display = "block";
     evt.preventDefault();
