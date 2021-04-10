@@ -540,6 +540,9 @@ li span {
   #eventPoster {
     width: 350px;
   }
+  .eventLink {
+    padding-right: 20px;
+  }
   #testDiv {
     position: fixed;
     top: 0px;
@@ -560,7 +563,7 @@ li span {
 
   #wideHeader {
     position: fixed;
-    display: block;
+    display: flex;
     height: 40px;
     width: 100%;
     top: 0;
@@ -568,5 +571,19 @@ li span {
     right: 0;
     background-color: rgba(206, 206, 206, 0.514);
     z-index: 25000;
+  }
+
+  .promotionLink {
+    color: rgb(0, 0, 0);
+    display: inline;
+    padding: 10px 80px;
+    font-size: 22px;
+    line-height: 35px;
+    background-color: rgba(206, 206, 206, 0.445);
+    margin: 1px;
+  }
+  .promotionLink:hover {
+    cursor: pointer;
+    background-color: rgba(238, 238, 238, 0.514);
   }
 }
