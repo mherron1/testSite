@@ -1,4 +1,6 @@
 let i = 0;
+let startingX = 0;
+let startingY = 0;
 
 if (window.location.search === "") {
   i = 0;
@@ -305,9 +307,6 @@ let content1 = document.querySelector("#content");
 let contentPlus1 = document.querySelector("#contentPlus1");
 let contentMinus1 = document.querySelector("#contentMinus1");
 
-var startingX = 0;
-var startingY = 0;
-
 function touchStart(evt) {
   startingX = evt.touches[0].clientX;
   startingY = evt.touches[0].clientY;
@@ -423,6 +422,8 @@ function stopTimer() {
 //////////////////////////////////////////////////////////
 
 function resetDivCSS() {
+  startingX = 0;
+  startingY = 0;
   let content1 = document.querySelector("#content");
   let contentPlus1 = document.querySelector("#contentPlus1");
   let contentMinus1 = document.querySelector("#contentMinus1");
