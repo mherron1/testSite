@@ -6,8 +6,6 @@ if (window.location.search === "") {
   i = parseInt(window.location.search.slice(1));
 }
 
-console.log(i);
-
 let events = data;
 
 let rowColor = "#f8f8f8";
@@ -267,14 +265,14 @@ var touch;
 function touchMove(evt) {
   touch = evt.touches[0];
   var change = startingX - touch.clientX;
-  if (change > 50) {
-    change -= 50;
+  if (change > 30) {
+    change -= 30;
     content1.style.left = -change + "px";
     contentPlus1.style.display = "block";
     // contentPlus1.style.left = screen.width - change + "px";
     evt.preventDefault();
-  } else if (change < -50) {
-    change += 50;
+  } else if (change < -30) {
+    change += 30;
     content1.style.left = -change + "px";
     contentMinus1.style.display = "block";
     //contentMinus1.style.left = -screen.width - change + "px";
@@ -289,24 +287,27 @@ function touchEnd(evt) {
     content1.style.left = 0;
     contentPlus1.style.display = "none";
   } else if (change > 0) {
-    content1.style.transition = "all 0.25s";
+    content1.style.transition = "all .2s";
     content1.style.left = "-102%";
-    i++;
+    content1.classList.add("notransition");
     contentPlus1.style.left = "0";
+    i++;
     if (i > events.length - 1) {
       i = 0;
     }
     generateCardSet(i);
+    // location.href = `./?${newPage}`;
   } else if (change < 0) {
-    content1.style.transition = "all 0.25s";
+    content1.style.transition = "all .2s";
     content1.style.left = "+102%";
-    i--;
+    content1.classList.add("notransition");
     contentMinus1.style.left = "0";
+    i--;
     if (i < 0) {
       i = events.length - 1;
     }
-
     generateCardSet(i);
+    //location.href = `./?${newPage1}`;
   }
 }
 
@@ -327,6 +328,7 @@ document.addEventListener("keydown", function (e) {
 });
 
 /////////////////////////////////// countdowns
+
 /*
 
 function setCountdown() {
@@ -366,7 +368,6 @@ function setCountdown() {
 function stopTimer() {
   clearInterval(x);
 }
-
 
 */
 
