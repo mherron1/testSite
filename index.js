@@ -317,14 +317,13 @@ let swiping = false;
 function touchMove(evt) {
   touch = evt.touches[0];
   var changeX = startingX - touch.clientX;
-  var changeY = startingY - touch.clientY;
-  if (changeX > 50 && changeY < 20 && changeY > -20) {
+  if (changeX > 50) {
     swiping = true;
     changeX -= 50;
     content1.style.left = -changeX + "px";
     contentPlus1.style.display = "block";
     evt.preventDefault();
-  } else if (changeX < -50 && changeY < 20 && changeY > -20) {
+  } else if (changeX < -50) {
     swiping = true;
     changeX += 50;
     content1.style.left = -changeX + "px";
@@ -341,7 +340,7 @@ function touchEnd(evt) {
     content1.style.left = 0;
     content1.classList.add("notransition");
     contentPlus1.style.display = "none";
-  } else if (changeX > 0 && swiping) {
+  } else if (changeX > 0) {
     content1.style.transition = "all .2s";
     content1.style.left = "-102%";
     content1.classList.add("notransition");
@@ -353,7 +352,7 @@ function touchEnd(evt) {
     clearInterval(x);
     generateCardSet(i);
     // location.href = `./?${newPage}`;
-  } else if (changeX < 0 && swiping) {
+  } else if (changeX < 0) {
     content1.style.transition = "all .2s";
     content1.style.left = "+102%";
     content1.classList.add("notransition");
