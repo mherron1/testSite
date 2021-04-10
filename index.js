@@ -192,8 +192,8 @@ function toggleD() {
   });
 }
 
-function showPoster(arg) {
-  let imageContainer = document.querySelector(`#imageContainer${arg}`);
+function showPoster() {
+  let imageContainer = document.querySelector(`#imageContainer`);
   if (imageContainer.style.overflow === "visible") {
     imageContainer.style.overflow = "hidden";
   } else {
@@ -265,14 +265,14 @@ var touch;
 function touchMove(evt) {
   touch = evt.touches[0];
   var change = startingX - touch.clientX;
-  if (change > 30) {
-    change -= 30;
+  if (change > 60) {
+    change -= 60;
     content1.style.left = -change + "px";
     contentPlus1.style.display = "block";
     // contentPlus1.style.left = screen.width - change + "px";
     evt.preventDefault();
-  } else if (change < -30) {
-    change += 30;
+  } else if (change < -60) {
+    change += 60;
     content1.style.left = -change + "px";
     contentMinus1.style.display = "block";
     //contentMinus1.style.left = -screen.width - change + "px";

@@ -71,14 +71,16 @@ body {
 #eventPoster,
 #eventPosterPlus1,
 #eventPosterMinus1 {
+  position: relative;
   top: 0;
   width: 100vw;
-  z-index: 2;
+  z-index: 1000;
 }
 #eventPoster,
 #eventPosterPlus1,
 #eventPosterMinus1:hover {
   cursor: pointer;
+  z-index: 1000;
 }
 
 #mainTime,
