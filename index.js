@@ -267,12 +267,14 @@ var touch;
 function touchMove(evt) {
   touch = evt.touches[0];
   var change = startingX - touch.clientX;
-  if (change > 30) {
+  if (change > 50) {
+    change -= 50;
     content1.style.left = -change + "px";
     contentPlus1.style.display = "block";
     // contentPlus1.style.left = screen.width - change + "px";
     evt.preventDefault();
-  } else if (change < -30) {
+  } else if (change < -50) {
+    change += 50;
     content1.style.left = -change + "px";
     contentMinus1.style.display = "block";
     //contentMinus1.style.left = -screen.width - change + "px";
