@@ -293,7 +293,6 @@ sideNav.ontransitionstart = () => {
 };
 
 function selectCard(index) {
-  console.log("go");
   if (screen.width < 1000) {
     toggleSideNav();
   }
@@ -448,20 +447,22 @@ function setQuery(arg) {
 }
 
 function toggleSettings() {
+  $("#hamburger-1").toggle();
+
+  let hamburger = document.querySelector("#hamburger-1");
+
   let closeSettings = document.querySelector("#closeSettings");
   if (closeSettings.style.opacity === "1") {
     closeSettings.style.opacity = "0";
     closeSettings.style.right = "-58px";
   } else {
     closeSettings.style.opacity = "1";
-    closeSettings.style.right = "8px";
+    closeSettings.style.right = "7px";
   }
 
-  let hamburger = document.querySelector("#hamburger-1");
   let settingsDiv = document.querySelector("#settings");
   if (settingsDiv.style.height === "100vh") {
     $("#settings").css("height", "0vh");
-    console.log("here");
   } else {
     $("#settings").css("height", "100vh");
   }

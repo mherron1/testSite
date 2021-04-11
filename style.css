@@ -615,7 +615,7 @@ li span {
   height: 0vh;
   bottom: 0;
   z-index: 100000;
-  transition: 0.2s;
+  transition: 0.4s;
   overflow: hidden;
 }
 
@@ -644,7 +644,7 @@ li span {
 
 #closeSettings {
   position: fixed;
-  font-size: 30px;
+  font-size: 31px;
   right: -58px;
   top: 8px;
   opacity: 0;
@@ -653,8 +653,8 @@ li span {
 .switch {
   position: relative;
   display: inline-block;
-  width: 30px;
-  height: 17px;
+  width: 18px;
+  height: 8px;
   transform: scale(1.2);
 }
 
@@ -671,7 +671,7 @@ li span {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: rgb(204, 204, 204);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -679,17 +679,20 @@ li span {
 .slider:before {
   position: absolute;
   content: "";
-  height: 13px;
-  width: 13px;
-  left: 2px;
+  height: 14px;
+  width: 14px;
+  left: -4px;
   bottom: 2px;
-  background-color: white;
+  background-color: rgb(243, 243, 243);
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: #c0ddff;
 }
 
 input:focus + .slider {
@@ -697,9 +700,10 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(13px);
-  -ms-transform: translateX(13px);
-  transform: translateX(13px);
+  -webkit-transform: translate(13px, 5px);
+  -ms-transform: translate(13px, 5px);
+  transform: translate(13px, 5px);
+  background-color: rgb(35, 86, 196);
 }
 
 /* Rounded sliders */
