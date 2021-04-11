@@ -620,7 +620,7 @@ li span {
 }
 
 #settingsHeader {
-  margin-top: 25px;
+  margin-top: 65px;
   margin-bottom: 20px;
 
   width: 100%;
@@ -631,6 +631,10 @@ li span {
   padding: 15px;
   border-top: 1px solid rgba(226, 226, 226, 0.432);
   box-sizing: border-box;
+}
+.setting:hover {
+  background-color: rgba(212, 39, 39, 0.822);
+  color: white;
 }
 
 #settingsIcon {
