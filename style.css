@@ -607,3 +607,42 @@ li span {
     background-color: white !important;
   }
 }
+
+#settings {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  bottom: 0;
+  z-index: 100000;
+  transition: 0.3s;
+  display: none;
+}
+
+#settingsHeader {
+  margin-top: 25px;
+  margin-bottom: 20px;
+
+  width: 100%;
+  text-align: center;
+}
+
+.setting {
+  padding: 15px;
+  border-top: 1px solid rgba(226, 226, 226, 0.432);
+  box-sizing: border-box;
+}
+
+#settingsIcon {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.705);
+  margin-right: 80%;
+  transform: translateY(-75px);
+}
+
+#closeSettings {
+  position: fixed;
+  font-size: 30px;
+  right: 7px;
+  top: 8px;
+}

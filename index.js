@@ -252,7 +252,6 @@ $(document).ready(function () {
 });
 
 function toggleSideNav() {
-  console.log("gwow");
   let sideNav = document.querySelector("#sideNav");
   if (sideNav.style.width === "70%") {
     eventList.innerHTML = ``;
@@ -273,6 +272,8 @@ if (screen.width > 1000) {
 
 function generateLinks() {
   let eventList = document.querySelector("#eventList");
+  eventList.innerHTML = `<i class="material-icons" id ="settingsIcon" onclick="toggleSettings()">tune</i>`;
+
   for (let i = 0; i < events.length; i++) {
     let dateString = new Date(events[i][1] - 18000000).toString();
 
@@ -444,4 +445,17 @@ function filterEvents(arg) {
 
 function setQuery(arg) {
   location.href = `?${arg}`;
+}
+
+function toggleSettings() {
+  let hamburger = document.querySelector("#hamburger-1");
+  $("#settings").toggle();
+  let sideNav = document.querySelector("#sideNav");
+  if (sideNav.style.width === "70%") {
+    eventList.innerHTML = ``;
+    sideNav.style.width = "0%";
+    $("#dim").fadeOut(300);
+
+    hamburger.classList.remove("is-active");
+  }
 }
