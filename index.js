@@ -298,6 +298,7 @@ function selectCard(index) {
   }
   i = index;
   generateCardSet(i);
+  navigator.vibrate(400);
 
   document.querySelector("#hamburger-1").classList = "hamburger";
 }
@@ -351,7 +352,7 @@ function touchEnd(evt) {
     if (i > events.length - 1) {
       i = 0;
     }
-    navigator.vibrate(1000);
+
     generateCardSet(i);
     // location.href = `./?${newPage}`;
   } else if (changeX < 0) {
@@ -364,7 +365,7 @@ function touchEnd(evt) {
       i = events.length - 1;
     }
     swiping = false;
-    navigator.vibrate(1000);
+
     generateCardSet(i);
     //location.href = `./?${newPage1}`;
   }
