@@ -149,6 +149,7 @@ body {
   grid-template-columns: 45% 10% 45%;
   width: 100%;
   font-size: 1.1rem;
+  padding-bottom: 120px;
 }
 
 .left,
