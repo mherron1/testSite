@@ -351,7 +351,7 @@ function touchEnd(evt) {
     if (i > events.length - 1) {
       i = 0;
     }
-    window.navigator.vibrate(200);
+    navigator.vibrate(1000);
     generateCardSet(i);
     // location.href = `./?${newPage}`;
   } else if (changeX < 0) {
@@ -364,7 +364,7 @@ function touchEnd(evt) {
       i = events.length - 1;
     }
     swiping = false;
-    window.navigator.vibrate(200);
+    navigator.vibrate(1000);
     generateCardSet(i);
     //location.href = `./?${newPage1}`;
   }
