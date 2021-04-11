@@ -640,8 +640,8 @@ li span {
 #settingsIcon {
   font-size: 25px;
   color: rgba(0, 0, 0, 0.705);
-  margin-right: 80%;
-  transform: translateY(-75px);
+  margin-right: 75%;
+  transform: translateY(-70px);
 }
 
 #closeSettings {
