@@ -448,8 +448,24 @@ function setQuery(arg) {
 }
 
 function toggleSettings() {
+  let closeSettings = document.querySelector("#closeSettings");
+  if (closeSettings.style.opacity === "1") {
+    closeSettings.style.opacity = "0";
+    closeSettings.style.right = "-58px";
+  } else {
+    closeSettings.style.opacity = "1";
+    closeSettings.style.right = "8px";
+  }
+
   let hamburger = document.querySelector("#hamburger-1");
-  $("#settings").toggle();
+  let settingsDiv = document.querySelector("#settings");
+  if (settingsDiv.style.height === "100vh") {
+    $("#settings").css("height", "0vh");
+    console.log("here");
+  } else {
+    $("#settings").css("height", "100vh");
+  }
+
   let sideNav = document.querySelector("#sideNav");
   if (sideNav.style.width === "70%") {
     eventList.innerHTML = ``;

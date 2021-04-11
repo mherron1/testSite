@@ -612,29 +612,27 @@ li span {
   position: fixed;
   background-color: white;
   width: 100%;
-  height: 100vh;
+  height: 0vh;
   bottom: 0;
   z-index: 100000;
-  transition: 0.3s;
-  display: none;
+  transition: 0.2s;
+  overflow: hidden;
 }
 
 #settingsHeader {
-  margin-top: 65px;
+  margin-top: 75px;
   margin-bottom: 20px;
-
   width: 100%;
   text-align: center;
 }
 
 .setting {
+  display: grid;
+  grid-template-columns: auto 50px;
   padding: 15px;
+  padding-left: 30px;
   border-top: 1px solid rgba(226, 226, 226, 0.432);
   box-sizing: border-box;
-}
-.setting:hover {
-  background-color: rgba(212, 39, 39, 0.822);
-  color: white;
 }
 
 #settingsIcon {
@@ -647,6 +645,68 @@ li span {
 #closeSettings {
   position: fixed;
   font-size: 30px;
-  right: 7px;
+  right: -58px;
   top: 8px;
+  opacity: 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+  transform: scale(1.2);
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 17px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
