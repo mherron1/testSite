@@ -315,8 +315,15 @@ var touch;
 let swiping = false;
 
 function touchMove(evt) {
+  let evtP = document.querySelector("#eventPoster");
   touch = evt.touches[0];
   var changeX = startingX - touch.clientX;
+  var changeY = startingY - touch.clientY;
+  console.log(changeY);
+  let move = (evtP.style.top = Math.floor(changeY / 5));
+  console.log(move);
+  evtP.style.top = move + "px";
+
   if (changeX > 50) {
     swiping = true;
     changeX -= 50;

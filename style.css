@@ -108,10 +108,10 @@ body {
 #expandPlus1,
 #expandMinus1 {
   position: absolute;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: lighter;
   right: 13px;
-  transform: translateY(-34px);
+  transform: translateY(-32px);
 }
 
 #expand,
