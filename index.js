@@ -2,19 +2,22 @@ let i = 0;
 let startingX = 0;
 let startingY = 0;
 
-if (window.location.search === "") {
-  i = 0;
-} else {
-  i = parseInt(window.location.search.slice(1));
+let events = data2;
+
+let z = window.location.search.slice(1);
+console.log(z);
+
+if (z === "?") {
+  z = "all";
 }
+console.log(z);
 
-let events = data;
-
-let rowColor = "#f8f8f8";
+filterEvents(z);
 
 generateCardSet(i);
 
 function generateCardSet(i) {
+  let rowColor = "#f8f8f8";
   resetDivCSS();
   generateCard(i, "");
   generateCard(i - 1, "Minus1");
@@ -434,4 +437,20 @@ function resetDivCSS() {
   content1.style.left = "0";
   contentMinus1.style.display = "none";
   contentPlus1.style.display = "none";
+}
+
+function filterEvents(arg) {
+  i = 0;
+  events = events.filter((event) => {
+    if (arg === "all") {
+      return true;
+    } else if (event[0].includes(arg)) {
+      return true;
+    }
+  });
+  generateCardSet(i);
+}
+
+function setQuery(arg) {
+  location.href = `?${arg}`;
 }

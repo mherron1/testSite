@@ -565,7 +565,7 @@ li span {
     position: fixed;
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgba(228, 228, 228, 0.432);
+    background-color: rgba(238, 238, 238, 0.432);
     top: 0;
     left: 0;
     right: 0;
@@ -582,7 +582,7 @@ li span {
   }
   .promotionLink:hover {
     cursor: pointer;
-    background-color: rgba(247, 19, 19, 0.712);
+    background-color: rgba(238, 238, 238, 0.712);
   }
 
   .promotionRight {

@@ -1,20 +1,10 @@
 const puppeteer = require("puppeteer");
 
 let events = [
-  "https://www.tapology.com/fightcenter/events/75229-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/76103-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/76694-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/76888-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/76941-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/77263-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/77264-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/77692-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/77570-ufc-263",
-  "https://www.tapology.com/fightcenter/events/77656-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/77763-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/78106-ufc-264",
-  "https://www.tapology.com/fightcenter/events/78130-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/78477-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/76643-one-championship",
+  "https://www.tapology.com/fightcenter/events/73514-pfl-2021-1",
+  "https://www.tapology.com/fightcenter/events/76830-bellator-mma",
+  "https://www.tapology.com/fightcenter/events/77132-bellator-258-archuleta-vs-pettis",
 ];
 
 //getEventURLs();
