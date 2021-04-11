@@ -297,7 +297,7 @@ function selectCard(index) {
     toggleSideNav();
   }
   i = index;
-  navigator.vibrate(25);
+  navigator.vibrate(75);
   generateCardSet(i);
 
   document.querySelector("#hamburger-1").classList = "hamburger";
