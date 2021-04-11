@@ -653,9 +653,10 @@ li span {
 .switch {
   position: relative;
   display: inline-block;
+  margin-top: 4px;
   width: 18px;
   height: 8px;
-  transform: scale(1.2);
+  transform: scale(1.6);
 }
 
 .switch input {
