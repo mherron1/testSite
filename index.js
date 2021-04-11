@@ -109,11 +109,6 @@ function generateCardSet(i) {
     let rowColor = "none";
 
     for (let j = 0; j < mainCardSize; j++) {
-      if (j % 2 === 0) {
-        let rowColor = "#f8f8f8";
-      } else {
-        let rowColor = "white";
-      }
       mainCard.innerHTML += `
       <i class="material-icons noSelect" id="expand" onclick="toggleD()">expand_more</i>
     <div style="background-color:${rowColor};" id="left">
@@ -148,11 +143,6 @@ function generateCardSet(i) {
     let rowColor2 = "none";
 
     for (let j = mainCardSize; j < events[i][3].length; j++) {
-      if ((j - 1) % 2 === 0) {
-        let rowColor2 = "#f8f8f8";
-      } else {
-        let rowColor2 = "white";
-      }
       prelimsCard.innerHTML += `
   <div style="background-color:${rowColor2};" id="left">
   <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
@@ -481,5 +471,14 @@ function toggleSettings() {
     $("#dim").fadeOut(300);
 
     hamburger.classList.remove("is-active");
+  }
+}
+
+function toggleStyleSheets() {
+  let stylesheet = document.getElementById("pagestyle");
+  if (stylesheet.href.toString().includes("style")) {
+    document.getElementById("pagestyle").setAttribute("href", "dark.css");
+  } else {
+    document.getElementById("pagestyle").setAttribute("href", "style.css");
   }
 }

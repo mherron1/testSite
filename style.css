@@ -99,7 +99,7 @@ body {
   text-align: center;
   margin: 10px;
   font-weight: bold;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
 }
 
 #expand,
@@ -133,7 +133,7 @@ body {
   text-align: center;
   margin: 10px;
   font-weight: bold;
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 #prelimsCard,
@@ -203,7 +203,7 @@ body {
   max-width: 350px;
   height: 0%;
   min-height: 100vh;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(247, 247, 247);
   transition-duration: 0.3s;
   z-index: 100;
 }
@@ -393,7 +393,7 @@ a {
   margin-right: auto;
   left: 12px;
   right: 0;
-  bottom: 4px;
+  bottom: 2px;
   z-index: 1000;
   display: none;
 }
@@ -475,16 +475,13 @@ li span {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgb(0, 0, 0);
-  opacity: 1;
+  background-color: black;
+  opacity: 0.25;
   z-index: 100;
   display: none;
 }
 
 @media only screen and (min-width: 1000px) {
-  #settingsIcon {
-    display: none;
-  }
   #displayCard {
     position: absolute;
     width: 500px;
@@ -659,7 +656,7 @@ li span {
   margin-top: 4px;
   width: 18px;
   height: 8px;
-  transform: scale(1.6);
+  transform: scale(1.5);
 }
 
 .switch input {
@@ -720,31 +717,77 @@ input:checked + .slider:before {
 }
 
 @media only screen and (max-width: 405px) {
-  #mainTime {
+  #mainTime,
+  #mainTimeMinus1,
+  #mainTimePlus1 {
     font-size: 1.05rem;
   }
-  #mainCard {
+  #mainCard,
+  #mainCardMinus1,
+  #mainCardPlus1 {
     font-size: 1rem;
   }
-  #prelisTime {
+  #prelisTime,
+  #prelisTimeMinus1,
+  #prelisTimePlus1 {
     font-size: 1.05rem;
   }
-  #prelimsCard {
+  #prelimsCard,
+  #prelimsCardMinus1,
+  #prelimsCardPlus1 {
     font-size: 1.05rem;
+  }
+  #eventList {
+    font-size: 1rem;
+    margin-top: 75px;
+    text-align: right;
+  }
+
+  .eventLink {
+    min-width: 300;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(243, 243, 243, 0.925);
+    box-sizing: content-box;
   }
 }
 
 @media only screen and (max-width: 365px) {
-  #mainTime {
+  #mainTime,
+  #mainTimeMinus1,
+  #mainTimePlus1 {
     font-size: 0.9rem;
   }
-  #mainCard {
+  #mainCard,
+  #mainCardMinus1,
+  #mainCardPlus1 {
     font-size: 0.9rem;
   }
-  #prelimsTime {
+  #prelisTime,
+  #prelisTimeMinus1,
+  #prelisTimePlus1 {
     font-size: 0.9rem;
   }
-  #prelimsCard {
+  #prelimsCard,
+  #prelimsCardMinus1,
+  #prelimsCardPlus1 {
     font-size: 0.9rem;
+  }
+  #eventList {
+    font-size: 1rem;
+    margin-top: 75px;
+    text-align: right;
+  }
+
+  .eventLink {
+    min-width: 300;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(243, 243, 243, 0.925);
+    box-sizing: content-box;
   }
 }
