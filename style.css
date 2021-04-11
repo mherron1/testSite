@@ -97,6 +97,7 @@ body {
 #mainTimePlus1,
 #mainTimeMinus1 {
   text-align: center;
+  position: relative;
   margin: 10px;
   font-weight: bold;
   font-size: 1.1rem;
@@ -106,10 +107,10 @@ body {
 #expandPlus1,
 #expandMinus1 {
   position: absolute;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: lighter;
-  right: 13px;
-  transform: translateY(-32px);
+  right: 6px;
+  bottom: -4px;
 }
 
 #expand,
@@ -145,27 +146,48 @@ body {
   font-size: 1.1rem;
 }
 
-#left,
-#leftPlus1,
-#leftMinus1 {
+.left,
+.leftPlus1,
+.leftMinus1 {
   padding: 7px;
   text-align: right;
   padding-right: 8px;
+  background-color: white;
 }
-#middle,
-#middlePlus1,
-#middleMinus1 {
-  padding: 7px;
+
+.left:nth-child(odd),
+.leftPlus1:nth-child(odd),
+.leftMinus1:nth-child(odd) {
+  background-color: rgb(241, 241, 241);
+}
+
+.middle,
+.middlePlus1,
+.middleMinus1 {
+  padding: 8px;
   text-align: center;
+  background-color: white;
 }
-#right,
-#rightPlus1,
-#rightMinus1 {
+
+.middle:nth-child(even),
+.middlePlus1:nth-child(even),
+.middleMinus1:nth-child(even) {
+  background-color: rgb(241, 241, 241);
+}
+.right,
+.rightPlus1,
+.rightMinus1 {
   padding: 7px;
   text-align: left;
   padding-left: 8px;
+  background-color: white;
 }
 
+.right:nth-child(odd),
+.rightPlus1:nth-child(odd),
+.rightMinus1:nth-child(odd) {
+  background-color: rgb(241, 241, 241);
+}
 .detailsLeft,
 .detailsLeftPlus1,
 .detailsLeftMinus1 {
@@ -184,12 +206,13 @@ body {
   font-size: 0.9rem;
   display: none;
 }
-.detailsVS,
-.detailsVSPlus1,
-.detailsVSMinus1 {
-  display: block;
+.detailsMiddle,
+.detailsMiddleMinus1,
+.detailsMiddlePlus1 {
   font-size: 0.9rem;
   padding-top: 5px;
+  display: flex;
+  justify-content: space-around;
   display: none;
 }
 

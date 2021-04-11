@@ -39,11 +39,12 @@ function generateCardSet(i) {
   `;
 
     let mainHeader = document.querySelector(`#mainHeader${arg}`);
-    mainHeader.textContent = `${events[i][4]}`;
+    mainHeader.textContent += `${events[i][4]}`;
 
     let imageContainer = document.querySelector(`#imageContainer${arg}`);
     imageContainer.innerHTML = `
-  <img id="eventPoster${arg}" onclick="showPoster()" src=${events[i][2]}>`;
+  <img id="eventPoster${arg}" onclick="showPoster()" src=${events[i][2]}>
+  `;
 
     ////////////event date
 
@@ -61,6 +62,7 @@ function generateCardSet(i) {
     });
 
     mainTime.textContent = `Main: ${mainCardTime}`;
+    mainTime.innerHTML += `<i class="material-icons noSelect" id="expand" onclick="toggleD()">expand_more</i>`;
 
     let mSecsPrelims = 1800000 * events[i][5];
     let prelimCardTime = new Date(events[i][1] - mSecsPrelims);
@@ -106,30 +108,33 @@ function generateCardSet(i) {
 
     let mainCard = document.querySelector(`#mainCard${arg}`);
 
-    let rowColor = "none";
-
     for (let j = 0; j < mainCardSize; j++) {
       mainCard.innerHTML += `
-      <i class="material-icons noSelect" id="expand" onclick="toggleD()">expand_more</i>
-    <div style="background-color:${rowColor};" id="left">
-    <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
-        <div class="detailsLeft${arg}">
-        <div style="color:red;font-size: 0.9rem;">+125</div>
-          <div>${events[i][3][j].rankA}</div>
-          <div>${events[i][3][j].recordA}</div>
-        </div>
+
+  
+    <div class="left">
+      <div>
+        <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
+      </div>
+      <div class="detailsLeft${arg}">
+        <div style="color:rgb(214, 76, 76);font-size: 0.9rem;">-125</div>
+        <div>${events[i][3][j].rankA}</div>
+        <div>${events[i][3][j].recordA}</div>
+      </div>
     </div>
-    <div style="background-color:${rowColor};" id="middle">vs
-       <div class="detailsVS${arg}">${events[i][3][j].weight}</div>
+    <div  class="middle">vs
+     <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
     </div>
+     
+    <div  class="right">
+      <div>
+        <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
         
-    <div style="background-color:${rowColor};" id="right">
-    <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
-        <div class="detailsRight${arg}">
-          <div>${events[i][3][j].recordB}</div>
-          <div>${events[i][3][j].rankB}</div>
-          <div style="color:green; font-size: 0.9rem;">+125</div>
-        </div>
+      <div class="detailsRight${arg}">
+        <div>${events[i][3][j].recordB}</div>
+        <div>${events[i][3][j].rankB}</div>
+        <div style="color:green;font-size: 0.9rem;">+125</div>        
+      </div>
     </div>
     `;
     }
@@ -140,31 +145,30 @@ function generateCardSet(i) {
 
     let prelimsCard = document.querySelector(`#prelimsCard${arg}`);
 
-    let rowColor2 = "none";
-
     for (let j = mainCardSize; j < events[i][3].length; j++) {
       prelimsCard.innerHTML += `
-  <div style="background-color:${rowColor2};" id="left">
-  <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
+ 
+    <div class="left">
+      <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
       <div class="detailsLeft${arg}">
-      <div style="color:red;font-size: 0.9rem;">-125</div>
+        <div style="color:rgb(214, 76, 76);font-size: 0.9rem;">-125</div>
         <div>${events[i][3][j].rankA}</div>
         <div>${events[i][3][j].recordA}</div>
       </div>
-  </div>
-  <div style="background-color:${rowColor2};" id="middle">vs
-     <div class="detailsVS${arg}">${events[i][3][j].weight}</div>
-  </div>
-      
-  <div style="background-color:${rowColor2};" id="right">
-  <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
+    </div>
+    <div class="middle">vs
+     <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
+    </div>
+     
+    <div  class="right">
+      <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
       <div class="detailsRight${arg}">
         <div>${events[i][3][j].recordB}</div>
         <div>${events[i][3][j].rankB}</div>
-        <div style="color:green;font-size: 0.9rem;">+125</div>
-        <div></div>
+        <div style="color:green;font-size: 0.9rem;">+125</div>        
       </div>
-  </div>
+    </div>
+  
   `;
     }
   }
@@ -204,7 +208,7 @@ function toggleD() {
       detail.style.display = "flex";
     }
   });
-  let detailsVS = document.querySelectorAll(`.detailsVS`);
+  let detailsVS = document.querySelectorAll(`.detailsMiddle`);
   detailsVS.forEach((detail) => {
     if (detail.style.display === "flex") {
       detail.style.display = "none";
