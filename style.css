@@ -12,7 +12,6 @@ html {
 body {
   position: relative;
   margin: 0 auto;
-  max-width: 450px;
   margin-bottom: 50px;
 }
 
@@ -23,12 +22,10 @@ body {
 #displaycard {
   position: relative;
   overflow: hidden;
-  max-width: 450px;
 }
 
 #content {
   position: absolute;
-  max-width: 450px;
   left: 0;
   background-color: white;
   height: 100vh;
@@ -68,7 +65,8 @@ body {
 #imageContainerPlus1,
 #imageContainerMinus1 {
   position: relative;
-  max-height: 220px;
+  max-height: 210px;
+  min-height: 210px;
   overflow: hidden;
 }
 
@@ -486,8 +484,9 @@ li span {
 @media only screen and (min-width: 1000px) {
   #displayCard {
     position: absolute;
-    width: 450px;
+    width: 500px;
     left: 60%;
+    margin-right: 20px;
     transform: translateX(-50%);
   }
   .hamburger {
@@ -505,7 +504,7 @@ li span {
     right: 0;
     width: 300px;
     min-height: 100vh;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
     z-index: 100;
   }
 
@@ -513,10 +512,11 @@ li span {
     margin-top: 100px;
     max-width: 1000px;
     position: relative;
+    background-color: rgb(228, 227, 227);
   }
   #content {
     position: absolute;
-    width: 450px;
+    width: 500px;
     left: 0;
     background-color: white;
     height: 100vh;
@@ -531,25 +531,33 @@ li span {
 
   #imageContainer {
     position: fixed;
-    left: -400px;
-    top: 125px;
+    left: -450px;
+    top: 130px;
     display: block;
     overflow: visible;
   }
 
   #eventPoster {
-    width: 350px;
+    width: 400px;
   }
   .eventLink {
     padding-right: 20px;
   }
   #testDiv {
     position: fixed;
-    top: 0px;
-    left: -875px;
+    width: 200px;
+    top: 25px;
+    left: -1001px;
     transform: scale(2);
     display: block;
+    background-color: white;
   }
+  ul {
+    width: 118px;
+    margin-bottom: 3px;
+    margin-right: 40px;
+  }
+
   li {
     background-image: linear-gradient(rgb(245, 245, 245), rgb(245, 245, 245));
     display: inline-block;
@@ -573,7 +581,7 @@ li span {
   }
 
   .promotionLink {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     width: 100%;
     margin: 2px;
     text-align: center;
@@ -582,7 +590,7 @@ li span {
   }
   .promotionLink:hover {
     cursor: pointer;
-    background-color: rgba(238, 238, 238, 0.712);
+    background-color: rgba(185, 185, 185, 0.712);
   }
 
   .promotionRight {
@@ -593,5 +601,9 @@ li span {
     text-align: center;
     line-height: 40px;
     font-size: 25px;
+  }
+  h2 {
+    font-size: 35px;
+    background-color: white !important;
   }
 }

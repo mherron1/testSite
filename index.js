@@ -1,23 +1,23 @@
 let i = 0;
-let startingX = 0;
-let startingY = 0;
 
 let events = data2;
+let rowColor = "#f8f8f8";
 
 let z = window.location.search.slice(1);
-console.log(z);
 
 if (z === "?") {
   z = "all";
 }
-console.log(z);
 
 filterEvents(z);
 
 generateCardSet(i);
 
 function generateCardSet(i) {
-  let rowColor = "#f8f8f8";
+  var highestTimeoutId = setTimeout(";");
+  for (var k = 0; k < highestTimeoutId; k++) {
+    clearTimeout(k);
+  }
   resetDivCSS();
   generateCard(i, "");
   generateCard(i - 1, "Minus1");
@@ -182,19 +182,16 @@ function next() {
   if (i > events.length - 1) {
     i = 0;
   }
-  clearInterval(x);
   generateCardSet(i);
 }
-
 function back() {
   i--;
   if (i < 0) {
     i = events.length - 1;
   }
-  clearInterval(x);
+
   generateCardSet(i);
 }
-
 function toggleD() {
   let detailsLeft = document.querySelectorAll(`.detailsLeft`);
   detailsLeft.forEach((detail) => {
@@ -273,7 +270,7 @@ if (screen.width > 1000) {
 
 function generateLinks() {
   let eventList = document.querySelector("#eventList");
-  for (i = 0; i < events.length; i++) {
+  for (let i = 0; i < events.length; i++) {
     let dateString = new Date(events[i][1] - 18000000).toString();
 
     let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
@@ -298,7 +295,6 @@ function selectCard(index) {
     }, 100);
   }
   i = index;
-  clearInterval(x);
   generateCardSet(i);
 
   document.querySelector("#hamburger-1").classList = "hamburger";
@@ -318,7 +314,6 @@ var touch;
 let swiping = false;
 
 function touchMove(evt) {
-  let evtP = document.querySelector("#eventPoster");
   touch = evt.touches[0];
   var changeX = startingX - touch.clientX;
 
@@ -354,7 +349,6 @@ function touchEnd(evt) {
     if (i > events.length - 1) {
       i = 0;
     }
-    clearInterval(x);
     generateCardSet(i);
     // location.href = `./?${newPage}`;
   } else if (changeX < 0) {
@@ -367,7 +361,6 @@ function touchEnd(evt) {
       i = events.length - 1;
     }
     swiping = false;
-    clearInterval(x);
     generateCardSet(i);
     //location.href = `./?${newPage1}`;
   }
@@ -420,10 +413,6 @@ function setCountdown() {
         (distance % hour) / minute
       ));
   }, second);
-}
-
-function stopTimer() {
-  clearInterval(x);
 }
 
 //////////////////////////////////////////////////////////
