@@ -74,7 +74,9 @@ function generateCardSet(i) {
       timeZoneName: "short",
     });
 
-    prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
+    if (parseInt(events[i][5]) > 0) {
+      prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
+    }
 
     ///////////////////////////////countdown
 

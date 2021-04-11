@@ -559,9 +559,8 @@ li span {
   }
 
   li {
-    background-image: linear-gradient(rgb(245, 245, 245), rgb(245, 245, 245));
-    display: inline-block;
     font-size: 6px;
+    background-color: #ffffff;
   }
   li span {
     font-size: 20px;
@@ -583,14 +582,15 @@ li span {
   .promotionLink {
     background-color: #ffffff;
     width: 100%;
-    margin: 2px;
+    margin-right: 2px;
     text-align: center;
     line-height: 40px;
     font-size: 25px;
   }
   .promotionLink:hover {
     cursor: pointer;
-    background-color: rgba(185, 185, 185, 0.712);
+    background-color: rgba(212, 39, 39, 0.822);
+    color: white;
   }
 
   .promotionRight {
