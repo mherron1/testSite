@@ -252,6 +252,7 @@ $(document).ready(function () {
 });
 
 function toggleSideNav() {
+  navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
   if (sideNav.style.width === "70%") {
     eventList.innerHTML = ``;
