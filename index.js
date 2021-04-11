@@ -250,6 +250,7 @@ $(document).ready(function () {
 });
 
 function toggleSideNav() {
+  console.log("gwow");
   let sideNav = document.querySelector("#sideNav");
   if (sideNav.style.width === "70%") {
     eventList.innerHTML = ``;
@@ -275,7 +276,7 @@ function generateLinks() {
 
     let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
     eventList.innerHTML += `  
-      <div class="eventLink" onclick="selectCard(${i})">
+      <div class="eventLink" ontouchend="selectCard(${i})">
          <div class="eventLinkDate">${date}</div>
          <div class="eventLinkText">${events[i][4]}</div>
       </div>
@@ -289,10 +290,9 @@ sideNav.ontransitionstart = () => {
 };
 
 function selectCard(index) {
+  console.log("go");
   if (screen.width < 1000) {
-    setTimeout(() => {
-      toggleSideNav();
-    }, 100);
+    toggleSideNav();
   }
   i = index;
   generateCardSet(i);
