@@ -1,7 +1,6 @@
 let i = 0;
 
 let events = data2;
-let rowColor = "#f8f8f8";
 
 let z = window.location.search.slice(1);
 
@@ -31,7 +30,7 @@ function generateCardSet(i) {
     }
     let content = document.querySelector(`#content${arg}`);
     content.innerHTML = `
-  <h2 style="background-color:${rowColor};" id="mainHeader${arg}"></h2>
+  <h2 style="background-color:none" id="mainHeader${arg}"></h2>
   <div id="imageContainer${arg}"></div>
   <div id="mainTime${arg}"></div>
   <div id="mainCard${arg}"></div> 
@@ -107,11 +106,13 @@ function generateCardSet(i) {
 
     let mainCard = document.querySelector(`#mainCard${arg}`);
 
+    let rowColor = "none";
+
     for (let j = 0; j < mainCardSize; j++) {
       if (j % 2 === 0) {
-        rowColor = "#f8f8f8";
+        let rowColor = "#f8f8f8";
       } else {
-        rowColor = "white";
+        let rowColor = "white";
       }
       mainCard.innerHTML += `
       <i class="material-icons noSelect" id="expand" onclick="toggleD()">expand_more</i>
@@ -144,14 +145,16 @@ function generateCardSet(i) {
 
     let prelimsCard = document.querySelector(`#prelimsCard${arg}`);
 
+    let rowColor2 = "none";
+
     for (let j = mainCardSize; j < events[i][3].length; j++) {
       if ((j - 1) % 2 === 0) {
-        rowColor = "#f8f8f8";
+        let rowColor2 = "#f8f8f8";
       } else {
-        rowColor = "white";
+        let rowColor2 = "white";
       }
       prelimsCard.innerHTML += `
-  <div style="background-color:${rowColor};" id="left">
+  <div style="background-color:${rowColor2};" id="left">
   <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
       <div class="detailsLeft${arg}">
       <div style="color:red;font-size: 0.9rem;">-125</div>
@@ -159,11 +162,11 @@ function generateCardSet(i) {
         <div>${events[i][3][j].recordA}</div>
       </div>
   </div>
-  <div style="background-color:${rowColor};" id="middle">vs
+  <div style="background-color:${rowColor2};" id="middle">vs
      <div class="detailsVS${arg}">${events[i][3][j].weight}</div>
   </div>
       
-  <div style="background-color:${rowColor};" id="right">
+  <div style="background-color:${rowColor2};" id="right">
   <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
       <div class="detailsRight${arg}">
         <div>${events[i][3][j].recordB}</div>
