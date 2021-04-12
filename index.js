@@ -2,175 +2,37 @@ let i = 0;
 
 let events = data2;
 
-let z = window.location.search.slice(1);
+let selection = "all";
 
-if (z === "?") {
-  z = "all";
-}
+create("all");
 
-filterEvents(z);
+function create(arg) {
+  if (typeof arg === "undefined") {
+    arg = selection;
+  } else {
+    selection = arg;
+  }
 
-generateCardSet(i);
+  events = data2.filter((event) => {
+    if (arg === "all") {
+      return true;
+    } else if (event[0].includes(arg)) {
+      return true;
+    }
+  });
 
-function generateCardSet(i) {
   var highestTimeoutId = setTimeout(";");
   for (var k = 0; k < highestTimeoutId; k++) {
     clearTimeout(k);
   }
+
   resetDivCSS();
   generateCard(i, "");
   generateCard(i - 1, "Minus1");
   generateCard(i + 1, "Plus1");
 
-  function generateCard(i, arg) {
-    if (i < 0) {
-      i = events.length - 1;
-    } else if (i > events.length - 1) {
-      i = 0;
-    }
-    let content = document.querySelector(`#content${arg}`);
-    content.innerHTML = `
-  <h2 style="background-color:none" id="mainHeader${arg}"></h2>
-  <div id="imageContainer${arg}"></div>
-  <div id="mainTime${arg}"></div>
-  <div id="mainCard${arg}"></div> 
-  <div id="prelimsTime${arg}"></div>
-  <div id="prelimsCard${arg}"></div> 
-  `;
-
-    let mainHeader = document.querySelector(`#mainHeader${arg}`);
-    mainHeader.textContent += `${events[i][4]}`;
-
-    let imageContainer = document.querySelector(`#imageContainer${arg}`);
-    imageContainer.innerHTML = `
-  <img id="eventPoster${arg}" onclick="showPoster()" src=${events[i][2]}>
-  `;
-
-    ////////////event date
-
-    let eventTimeLocal = new Date(events[i][1]);
-    let mainTime = document.querySelector(`#mainTime${arg}`);
-    let prelimsTime = document.querySelector(`#prelimsTime${arg}`);
-
-    mainCardTime = eventTimeLocal.toLocaleString([], {
-      month: "short",
-      day: "numeric",
-      weekday: "short",
-      hour: "2-digit",
-      minute: "2-digit",
-      timeZoneName: "short",
-    });
-
-    mainTime.textContent = `Main: ${mainCardTime}`;
-    mainTime.innerHTML += `<i class="material-icons noSelect" id="expand" onclick="toggleD()">expand_more</i>`;
-
-    let mSecsPrelims = 1800000 * events[i][5];
-    let prelimCardTime = new Date(events[i][1] - mSecsPrelims);
-    prelimsCardTime = prelimCardTime.toLocaleString([], {
-      month: "short",
-      day: "numeric",
-      weekday: "short",
-      hour: "2-digit",
-      minute: "2-digit",
-      timeZoneName: "short",
-    });
-
-    if (parseInt(events[i][5]) > 0) {
-      prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
-    }
-
-    ///////////////////////////////countdown
-
-    if (arg === "") {
-      let centerImageDiv = document.querySelector("#imageContainer");
-      centerImageDiv.innerHTML += `
-      <div id="testDiv">
-      <div id="countdown">
-            <ul>
-              <li><span id="days"></span>days</li>
-              <li><span id="hours"></span>Hours</li>
-              <li><span id="minutes"></span>Minutes</li>
-            </ul>
-          </div>
-      </div>
-      `;
-      setCountdown();
-      if (screen.width < 1000) {
-        setTimeout(() => {
-          $("#testDiv").fadeIn(200);
-        }, 200);
-      }
-    }
-
-    //////////////////////////////
-
-    let mainCardSize = events[i][3].length - events[i][5];
-
-    let mainCard = document.querySelector(`#mainCard${arg}`);
-
-    for (let j = 0; j < mainCardSize; j++) {
-      mainCard.innerHTML += `
-
-  
-    <div class="left">
-      <div>
-        <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
-      </div>
-      <div class="detailsLeft${arg}">
-        <div style="color:rgb(214, 76, 76);font-size: 0.9rem;">-125</div>
-        <div>${events[i][3][j].rankA}</div>
-        <div>${events[i][3][j].recordA}</div>
-      </div>
-    </div>
-    <div  class="middle">vs
-     <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
-    </div>
-     
-    <div  class="right">
-      <div>
-        <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
-        
-      <div class="detailsRight${arg}">
-        <div>${events[i][3][j].recordB}</div>
-        <div>${events[i][3][j].rankB}</div>
-        <div style="color:green;font-size: 0.9rem;">+125</div>        
-      </div>
-    </div>
-    `;
-    }
-
-    ////////////////////////////Prelims
-
-    let numPrelims = events[0][5];
-
-    let prelimsCard = document.querySelector(`#prelimsCard${arg}`);
-
-    for (let j = mainCardSize; j < events[i][3].length; j++) {
-      prelimsCard.innerHTML += `
- 
-    <div class="left">
-      <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
-      <div class="detailsLeft${arg}">
-        <div style="color:rgb(214, 76, 76);font-size: 0.9rem;">-125</div>
-        <div>${events[i][3][j].rankA}</div>
-        <div>${events[i][3][j].recordA}</div>
-      </div>
-    </div>
-    <div class="middle">vs
-     <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
-    </div>
-     
-    <div  class="right">
-      <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
-      <div class="detailsRight${arg}">
-        <div>${events[i][3][j].recordB}</div>
-        <div>${events[i][3][j].rankB}</div>
-        <div style="color:green;font-size: 0.9rem;">+125</div>        
-      </div>
-    </div>
-  
-  `;
-    }
+  if (screen.width > 1000) {
+    generateLinks(i);
   }
 }
 
@@ -181,15 +43,16 @@ function next() {
   if (i > events.length - 1) {
     i = 0;
   }
-  generateCardSet(i);
+  create();
+  console.log(i);
 }
 function back() {
   i--;
   if (i < 0) {
     i = events.length - 1;
   }
-
-  generateCardSet(i);
+  console.log(i);
+  create();
 }
 function toggleD() {
   let detailsLeft = document.querySelectorAll(`.detailsLeft`);
@@ -264,10 +127,6 @@ function toggleSideNav() {
 
 //////////////////////////// Navigation Links
 
-if (screen.width > 1000) {
-  generateLinks();
-}
-
 function generateLinks() {
   let eventList = document.querySelector("#eventList");
   eventList.innerHTML = `<i class="material-icons" id ="settingsIcon" onclick="toggleSettings()">tune</i>`;
@@ -296,7 +155,7 @@ function selectCard(index) {
   }
   i = index;
   navigator.vibrate(40);
-  generateCardSet(i);
+  create();
 
   document.querySelector("#hamburger-1").classList = "hamburger";
 }
@@ -351,7 +210,7 @@ function touchEnd(evt) {
       i = 0;
     }
 
-    generateCardSet(i);
+    create();
     // location.href = `./?${newPage}`;
   } else if (changeX < 0) {
     content1.style.transition = "all .2s";
@@ -364,7 +223,7 @@ function touchEnd(evt) {
     }
     swiping = false;
 
-    generateCardSet(i);
+    create();
     //location.href = `./?${newPage1}`;
   }
 }
@@ -431,17 +290,7 @@ function resetDivCSS() {
   contentPlus1.style.display = "none";
 }
 
-function filterEvents(arg) {
-  i = 0;
-  events = events.filter((event) => {
-    if (arg === "all") {
-      return true;
-    } else if (event[0].includes(arg)) {
-      return true;
-    }
-  });
-  generateCardSet(i);
-}
+function filterEvents(arg) {}
 
 function setQuery(arg) {
   location.href = `?${arg}`;
@@ -485,4 +334,160 @@ function toggleStyleSheets() {
   } else {
     document.getElementById("pagestyle").setAttribute("href", "style.css");
   }
+}
+
+function generateCard(i, arg) {
+  if (i < 0) {
+    i = events.length - 1;
+  } else if (i > events.length - 1) {
+    i = 0;
+  }
+  let content = document.querySelector(`#content${arg}`);
+  content.innerHTML = `
+<h2 style="background-color:none" id="mainHeader${arg}"></h2>
+<div id="imageContainer${arg}"></div>
+<div id="mainTime${arg}"></div>
+<div id="mainCard${arg}"></div> 
+<div id="prelimsTime${arg}"></div>
+<div id="prelimsCard${arg}"></div> 
+`;
+
+  let mainHeader = document.querySelector(`#mainHeader${arg}`);
+  mainHeader.textContent += `${events[i][4]}`;
+
+  let imageContainer = document.querySelector(`#imageContainer${arg}`);
+  imageContainer.innerHTML = `
+<img id="eventPoster${arg}" onclick="showPoster()" src=${events[i][2]}>
+`;
+
+  ////////////event date
+
+  let eventTimeLocal = new Date(events[i][1]);
+  let mainTime = document.querySelector(`#mainTime${arg}`);
+  let prelimsTime = document.querySelector(`#prelimsTime${arg}`);
+
+  mainCardTime = eventTimeLocal.toLocaleString([], {
+    month: "short",
+    day: "numeric",
+    weekday: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZoneName: "short",
+  });
+
+  mainTime.textContent = `Main: ${mainCardTime}`;
+  mainTime.innerHTML += `<i class="material-icons noSelect" id="expand" onclick="toggleD()">expand_more</i>`;
+
+  let mSecsPrelims = 1800000 * events[i][5];
+  let prelimCardTime = new Date(events[i][1] - mSecsPrelims);
+  prelimsCardTime = prelimCardTime.toLocaleString([], {
+    month: "short",
+    day: "numeric",
+    weekday: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZoneName: "short",
+  });
+
+  if (parseInt(events[i][5]) > 0) {
+    prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
+  }
+
+  ///////////////////////////////countdown
+
+  if (arg === "") {
+    let centerImageDiv = document.querySelector("#imageContainer");
+    centerImageDiv.innerHTML += `
+    <div id="testDiv">
+    <div id="countdown">
+          <ul>
+            <li><span id="days"></span>days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+          </ul>
+        </div>
+    </div>
+    `;
+    setCountdown();
+    if (screen.width < 1000) {
+      setTimeout(() => {
+        $("#testDiv").fadeIn(200);
+      }, 200);
+    }
+  }
+
+  //////////////////////////////
+
+  let mainCardSize = events[i][3].length - events[i][5];
+
+  let mainCard = document.querySelector(`#mainCard${arg}`);
+
+  for (let j = 0; j < mainCardSize; j++) {
+    mainCard.innerHTML += `
+
+
+  <div class="left">
+    <div>
+      <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
+    </div>
+    <div class="detailsLeft${arg}">
+      <div style="color:rgb(214, 76, 76);font-size: 0.9rem;">-125</div>
+      <div>${events[i][3][j].rankA}</div>
+      <div>${events[i][3][j].recordA}</div>
+    </div>
+  </div>
+  <div  class="middle">vs
+   <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
+  </div>
+   
+  <div  class="right">
+    <div>
+      <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
+      
+    <div class="detailsRight${arg}">
+      <div>${events[i][3][j].recordB}</div>
+      <div>${events[i][3][j].rankB}</div>
+      <div style="color:green;font-size: 0.9rem;">+125</div>        
+    </div>
+  </div>
+  `;
+  }
+
+  ////////////////////////////Prelims
+
+  let numPrelims = events[0][5];
+
+  let prelimsCard = document.querySelector(`#prelimsCard${arg}`);
+
+  for (let j = mainCardSize; j < events[i][3].length; j++) {
+    prelimsCard.innerHTML += `
+
+  <div class="left">
+    <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
+    <div class="detailsLeft${arg}">
+      <div style="color:rgb(214, 76, 76);font-size: 0.9rem;">-125</div>
+      <div>${events[i][3][j].rankA}</div>
+      <div>${events[i][3][j].recordA}</div>
+    </div>
+  </div>
+  <div class="middle">vs
+   <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
+  </div>
+   
+  <div  class="right">
+    <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
+    <div class="detailsRight${arg}">
+      <div>${events[i][3][j].recordB}</div>
+      <div>${events[i][3][j].rankB}</div>
+      <div style="color:green;font-size: 0.9rem;">+125</div>        
+    </div>
+  </div>
+
+`;
+  }
+}
+
+function applyFilter(arg) {
+  i = 0;
+  create(arg);
 }

@@ -15,11 +15,11 @@
 <body>
 
   <div id="wideHeader">
-    <div class = "promotionLink" onclick="setQuery('')">All </div>
-    <div class = "promotionLink" onclick="setQuery('Ultimate')">UFC </div>
-    <div class = "promotionLink" onclick="setQuery('Bellator')">Bellator </div>
-    <div class = "promotionLink" onclick="setQuery('ONE')">One FC </div>
-    <div class = "promotionLink" onclick="setQuery('Prof')">PFL </div>
+    <div class = "promotionLink" onclick="applyFilter('')">All </div>
+    <div class = "promotionLink" onclick="applyFilter('Ultimate')">UFC </div>
+    <div class = "promotionLink" onclick="applyFilter('Bellator')">Bellator </div>
+    <div class = "promotionLink" onclick="applyFilter('ONE')">One FC </div>
+    <div class = "promotionLink" onclick="applyFilter('Prof')">PFL </div>
     <div class = "promotionRight"></div>
   </div>
   <div id="dim" ontouchstart="switchIcon()"></div>
@@ -50,21 +50,21 @@
       <div class="setting">
         <div>All Events</div>
         <label class="switch">
-          <input type="checkbox" checked>
+          <input type="checkbox" onclick="applyFilter('')" checked>
           <span class="slider round"></span>
         </label>
       </div>
       <div class="setting">
         <div >UFC</div>
         <label class="switch">
-          <input type="checkbox">
+          <input type="checkbox" onclick="applyFilter('Ultimate')">
           <span class="slider round"></span>
         </label>
       </div>
       <div class="setting">
         <div >Bellator</div>
         <label class="switch">
-          <input type="checkbox">
+          <input type="checkbox" onclick="applyFilter('Bellator')">
           <span class="slider round"></span>
         </label>
       </div>
