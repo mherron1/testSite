@@ -550,12 +550,21 @@ li span {
   margin-right: 75%;
   transform: translateY(-60px);
 }
+
+#settingsIcon:hover {
+  cursor: pointer;
+}
+
 #closeSettings {
   position: fixed;
   font-size: 31px;
   right: -58px;
   top: 8px;
   opacity: 0;
+}
+
+#closeSettings:hover {
+  cursor: pointer;
 }
 
 .switch {
@@ -601,18 +610,18 @@ li span {
 }
 
 input:checked + .slider {
-  background-color: #c0ddff;
+  background-color: #c08f8f;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px #7e3434;
 }
 
 input:checked + .slider:before {
   -webkit-transform: translate(13px, 5px);
   -ms-transform: translate(13px, 5px);
   transform: translate(13px, 5px);
-  background-color: rgb(35, 86, 196);
+  background-color: rgb(196, 49, 49);
 }
 
 /* Rounded sliders */

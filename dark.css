@@ -566,11 +566,8 @@ li span {
   display: grid;
   grid-template-columns: auto 50px;
   padding: 15px;
-  margin-left: 20px;
-  margin-right: 35px;
-  padding-left: 0px;
-  padding-right: 0px;
-  border-top: 2px solid rgba(51, 51, 51, 0.137);
+  padding-left: 30px;
+  border-top: 1px solid rgba(51, 51, 51, 0.137);
   box-sizing: border-box;
 }
 
@@ -589,14 +586,17 @@ li span {
   opacity: 0;
 }
 
+#closeSettings:hover {
+  cursor: pointer;
+}
+
 .switch {
   position: relative;
   display: inline-block;
-  margin-left: 30%;
   margin-top: 4px;
   width: 18px;
   height: 8px;
-  transform: scale(1.6);
+  transform: scale(1.5);
 }
 
 .switch input {
@@ -633,18 +633,18 @@ li span {
 }
 
 input:checked + .slider {
-  background-color: #c0ddff;
+  background-color: #c0acac;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px #7e3434;
 }
 
 input:checked + .slider:before {
   -webkit-transform: translate(13px, 5px);
   -ms-transform: translate(13px, 5px);
   transform: translate(13px, 5px);
-  background-color: rgb(35, 86, 196);
+  background-color: rgb(168, 39, 39);
 }
 
 /* Rounded sliders */
@@ -756,11 +756,7 @@ input:checked + .slider:before {
     right: 0;
     width: 300px;
     min-height: 100vh;
-    background-image: linear-gradient(
-      to bottom,
-      rgb(230, 230, 230),
-      rgb(165, 165, 165)
-    );
+    background-color: rgb(228, 228, 228);
     color: black;
   }
 
