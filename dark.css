@@ -8,7 +8,7 @@ a {
 }
 html {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: #292929;
 }
 body {
   position: relative;
@@ -29,7 +29,7 @@ body {
 
 #content {
   position: absolute;
-  background-color: black;
+  background-color: #141414;
   left: 0;
   height: 100vh;
   z-index: 10;
@@ -37,7 +37,7 @@ body {
 
 #contentMinus1 {
   position: absolute;
-  background-color: black;
+  background-color: #141414;
   max-width: 475px;
   height: 100vh;
   display: none;
@@ -45,7 +45,7 @@ body {
 }
 #contentPlus1 {
   position: absolute;
-  background-color: black;
+  background-color: #141414;
   max-width: 475px;
   height: 100vh;
   display: none;
@@ -62,6 +62,11 @@ body {
 #mainHeaderMinus1 {
   text-align: center;
   padding: 8px 0px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 100;
 }
 
 #imageContainer,
@@ -107,7 +112,25 @@ body {
   color: #d2af4b;
 }
 
-#expand,
+#expandLess,
+#expandPlus1,
+#expandMinus1 {
+  position: absolute;
+  font-size: 30px;
+  font-weight: lighter;
+  right: 6px;
+  bottom: -4px;
+  color: silver;
+  display: none;
+}
+
+#expandLess,
+#expandPlus1,
+#expandMinus1:hover {
+  cursor: pointer;
+  display: none;
+}
+#expandMore,
 #expandPlus1,
 #expandMinus1 {
   position: absolute;
@@ -118,7 +141,7 @@ body {
   color: silver;
 }
 
-#expand,
+#expandMore,
 #expandPlus1,
 #expandMinus1:hover {
   cursor: pointer;
@@ -230,9 +253,8 @@ body {
   right: 0%;
   width: 0%;
   max-width: 350px;
-  height: 0%;
   min-height: 100vh;
-  background-color: rgb(24, 24, 24);
+  background-color: rgba(24, 24, 24, 0.952);
   transition-duration: 0.3s;
   z-index: 100;
 }
@@ -256,11 +278,10 @@ body {
   min-width: 300;
   border-right: 15px solid transparent;
   border-left: 15px solid transparent;
-  margin-bottom: 5px;
   margin-left: 5px;
   padding-top: 8px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid rgba(85, 85, 85, 0.473);
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(85, 85, 85, 0.233);
   box-sizing: content-box;
 }
 
@@ -668,9 +689,9 @@ input:checked + .slider:before {
   #mainCardPlus1 {
     font-size: 0.9rem;
   }
-  #prelisTime,
-  #prelisTimeMinus1,
-  #prelisTimePlus1 {
+  #prelimsTime,
+  #prelimsTimeMinus1,
+  #prelimsTimePlus1 {
     font-size: 0.9rem;
   }
   #prelimsCard,
@@ -770,7 +791,6 @@ input:checked + .slider:before {
     left: -1001px;
     transform: scale(2);
     display: block;
-    background-color: black;
   }
   ul {
     width: 118px;
@@ -825,7 +845,6 @@ input:checked + .slider:before {
   h2 {
     font-size: 28px;
     font-weight: 100;
-    background-color: #181818 !important;
   }
   #settings {
     position: fixed;

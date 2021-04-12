@@ -142,12 +142,12 @@ $(document).ready(function () {
 function toggleSideNav() {
   navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.width === "70%") {
+  if (sideNav.style.width === "80%") {
     eventList.innerHTML = ``;
     sideNav.style.width = "0%";
     $("#dim").fadeOut(300);
   } else {
-    sideNav.style.width = "70%";
+    sideNav.style.width = "80%";
     $("#dim").fadeIn(300);
     generateLinks();
   }
@@ -157,9 +157,16 @@ function toggleSideNav() {
 
 function generateLinks() {
   let eventList = document.querySelector("#eventList");
-  eventList.innerHTML = `<i class="material-icons" id ="settingsIcon" onclick="toggleSettings()">tune</i>`;
+  eventList.innerHTML = `
+  <i class="material-icons" id ="settingsIcon" onclick="toggleSettings()">tune</i>
+  `;
 
-  for (let i = 0; i < events.length; i++) {
+  let eventLimit = events.length;
+  if (events.length > 15) {
+    eventLimit = 15;
+  }
+
+  for (let i = 0; i < eventLimit; i++) {
     let dateString = new Date(events[i][1] - 18000000).toString();
 
     let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
@@ -405,8 +412,10 @@ function generateCard(i, arg) {
   });
 
   mainTime.textContent = `Main: ${mainCardTime}`;
-  mainTime.innerHTML += `<i class="material-icons noSelect" id="expand" onclick="toggleD()">expand_more</i>`;
-
+  mainTime.innerHTML += `
+ <i class="material-icons noSelect" id="expandLess" onclick="toggleD()">expand_less</i>
+  <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
+   `;
   let mSecsPrelims = 1800000 * events[i][5];
   let prelimCardTime = new Date(events[i][1] - mSecsPrelims);
   prelimsCardTime = prelimCardTime.toLocaleString([], {
@@ -527,7 +536,7 @@ function generateCard(i, arg) {
       details.checked = false;
       $(".detailsLeft").css("display", "none");
       $(".detailsRight").css("display", "none");
-      $(".detailsMiddle").css("display", "none");
+      $(".details").css("display", "none");
     }
   }
 }
@@ -539,6 +548,16 @@ function changeSettings() {
   let one = document.querySelector("#oneInput");
   let pfl = document.querySelector("#pflInput");
   let darkMode = document.querySelector("#darkInput");
+
+  if (
+    ufc.checked === false &&
+    bellator.checked === false &&
+    one.checked === false &&
+    pfl.checked === false
+  ) {
+    all.checked = true;
+    forceToggleAll();
+  }
 
   toggleSettings();
 
@@ -597,6 +616,13 @@ function forceToggleAll() {
     pfl.checked = true;
     all.checked === true;
   }
+  if (all.checked === false) {
+    ufc.checked = false;
+    bellator.checked = false;
+    one.checked = false;
+    pfl.checked = false;
+    all.checked === false;
+  }
 }
 
 function forceToggle() {
@@ -614,16 +640,6 @@ function forceToggle() {
     pfl.checked === false
   ) {
     all.checked = false;
-  }
-
-  if (
-    ufc.checked === false &&
-    bellator.checked === false &&
-    one.checked === false &&
-    pfl.checked === false
-  ) {
-    all.checked = true;
-    forceToggleAll();
   }
 }
 
