@@ -606,6 +606,7 @@ function changeSettings() {
 }
 
 function forceToggleAll() {
+  navigator.vibrate(40);
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
   let bellator = document.querySelector("#bellatorInput");
@@ -629,6 +630,7 @@ function forceToggleAll() {
 }
 
 function forceToggle() {
+  navigator.vibrate(40);
   console.log("test");
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
@@ -647,6 +649,7 @@ function forceToggle() {
 }
 
 function showDetailsSettings() {
+  navigator.vibrate(40);
   if (localStorage.getItem("details") === "y") {
     localStorage.setItem("details", "n");
   } else {
