@@ -111,7 +111,7 @@ h2 {
   font-size: 1.15rem;
   color: #d2af4b;
   border-bottom: 4px solid black;
-  border-top: 4px solid black;
+  border-top: 6px solid black;
 }
 
 #expandLess,
@@ -171,7 +171,7 @@ h2 {
   font-size: 1.15rem;
   color: #d2af4b;
   border-bottom: 4px solid black;
-  border-top: 4px solid black;
+  border-top: 6px solid black;
 }
 
 #prelimsCard,
@@ -266,7 +266,7 @@ h2 {
   width: 0%;
   max-width: 350px;
   min-height: 100vh;
-  background-color: #000;
+  background-color: #181818;
   transition-duration: 0.3s;
   z-index: 100;
 }
@@ -288,12 +288,12 @@ h2 {
 
 .eventLink {
   min-width: 300;
-  border-right: 15px solid transparent;
-  border-left: 15px solid transparent;
-  margin-left: 5px;
-  padding-top: 8px;
+  padding-right: 10px;
+  padding-left: 0px;
+  margin-left: 1px;
+  padding-top: 12px;
   padding-bottom: 8px;
-  border-bottom: 1px solid rgba(85, 85, 85, 0.233);
+  border-bottom: 1px solid rgba(124, 124, 124, 0.233);
   box-sizing: content-box;
 }
 
@@ -540,7 +540,7 @@ li span {
   top: 0;
   bottom: 0;
   background-color: black;
-  opacity: 0.25;
+  opacity: 0.5;
   z-index: 100;
   display: none;
 }
@@ -690,7 +690,6 @@ input:checked + .slider:before {
     border-left: 15px solid transparent;
     padding-top: 12px;
     padding-bottom: 8px;
-    border-bottom: 1px solid rgba(44, 44, 44, 0.322);
     box-sizing: content-box;
   }
 }
@@ -728,7 +727,6 @@ input:checked + .slider:before {
     border-left: 15px solid transparent;
     padding-top: 12px;
     padding-bottom: 8px;
-    border-bottom: 1px solid rgba(243, 243, 243, 0.925);
     box-sizing: content-box;
   }
 }

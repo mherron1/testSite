@@ -143,12 +143,12 @@ $(document).ready(function () {
 function toggleSideNav() {
   navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.width === "70%") {
+  if (sideNav.style.width === "75%") {
     eventList.innerHTML = ``;
     sideNav.style.width = "0%";
     $("#dim").fadeOut(300);
   } else {
-    sideNav.style.width = "70%";
+    sideNav.style.width = "75%";
     $("#dim").fadeIn(300);
     generateLinks();
   }
@@ -366,6 +366,8 @@ function toggleSettings() {
 }
 
 function toggleStyleSheets() {
+  navigator.vibrate(40);
+
   let stylesheet = document.getElementById("pagestyle");
   if (stylesheet.href.toString().includes("style")) {
     document.getElementById("pagestyle").setAttribute("href", "dark.css");
