@@ -646,7 +646,7 @@ input:checked + .slider:before {
   }
   #eventList {
     font-size: 1.1rem;
-    margin-top: 75px;
+    margin-top: 90px;
     text-align: right;
   }
 
@@ -684,7 +684,7 @@ input:checked + .slider:before {
   }
   #eventList {
     font-size: 1.05rem;
-    margin-top: 75px;
+    margin-top: 80px;
     text-align: right;
   }
 
