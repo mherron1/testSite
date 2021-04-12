@@ -232,7 +232,7 @@ body {
   max-width: 350px;
   height: 0%;
   min-height: 100vh;
-  background-color: rgb(44, 44, 44);
+  background-color: rgb(24, 24, 24);
   transition-duration: 0.3s;
   z-index: 100;
 }
@@ -258,11 +258,10 @@ body {
   border-left: 15px solid transparent;
   margin-bottom: 5px;
   margin-left: 5px;
-  padding-top: 5px;
+  padding-top: 8px;
   padding-bottom: 5px;
-  border-bottom: 1px solid rgba(53, 53, 53, 0.438);
+  border-bottom: 1px solid rgba(85, 85, 85, 0.473);
   box-sizing: content-box;
-  background-color: black;
 }
 
 .eventLink:hover {
@@ -536,7 +535,7 @@ li span {
   grid-template-columns: auto 50px;
   padding: 15px;
   padding-left: 30px;
-  border-top: 1px solid rgba(59, 59, 59, 0.281);
+  border-top: 1px solid rgba(211, 211, 211, 0.616);
   box-sizing: border-box;
 }
 
@@ -771,7 +770,7 @@ input:checked + .slider:before {
     left: -1001px;
     transform: scale(2);
     display: block;
-    background-color: #181818;
+    background-color: black;
   }
   ul {
     width: 118px;
@@ -824,7 +823,7 @@ input:checked + .slider:before {
     font-size: 25px;
   }
   h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 100;
     background-color: #181818 !important;
   }

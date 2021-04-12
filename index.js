@@ -514,6 +514,22 @@ function generateCard(i, arg) {
 
 `;
   }
+
+  if (localStorage.getItem("details") !== null) {
+    if (localStorage.getItem("details") === "y") {
+      let details = document.querySelector("#details");
+      details.checked = true;
+      $(".detailsLeft").css("display", "flex");
+      $(".detailsRight").css("display", "flex");
+      $(".detailsMiddle").css("display", "flex");
+    } else if (localStorage.getItem("details") === "n") {
+      let details = document.querySelector("#details");
+      details.checked = false;
+      $(".detailsLeft").css("display", "none");
+      $(".detailsRight").css("display", "none");
+      $(".detailsMiddle").css("display", "none");
+    }
+  }
 }
 
 function changeSettings() {
@@ -609,4 +625,13 @@ function forceToggle() {
     all.checked = true;
     forceToggleAll();
   }
+}
+
+function showDetailsSettings() {
+  if (localStorage.getItem("details") === "y") {
+    localStorage.setItem("details", "n");
+  } else {
+    localStorage.setItem("details", "y");
+  }
+  toggleD();
 }
