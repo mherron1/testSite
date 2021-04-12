@@ -1393,7 +1393,7 @@ let data = [
   [
     "Ultimate Fighting Championship",
     1624744800000,
-    "images/default.jpg",
+    "images/june26.jpeg",
     [
       {
         fighterA: "Ciryl Gane",
@@ -2041,7 +2041,7 @@ let data = [
   [
     "Bellator MMA",
     1620435600000,
-    "https://images.tapology.com/poster_images/77132/profile/Screenshot.png?1612927401",
+    "images/may07.jpg",
     [
       {
         fighterA: "Juan Archuleta",
