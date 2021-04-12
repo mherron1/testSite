@@ -191,6 +191,7 @@ function selectCard(index) {
   }
   i = index;
   navigator.vibrate(40);
+  pausecomp(500);
   create();
 
   document.querySelector("#hamburger-1").classList = "hamburger";
@@ -658,4 +659,12 @@ function showDetailsSettings() {
     localStorage.setItem("details", "y");
   }
   toggleD();
+}
+
+function pausecomp(millis) {
+  var date = new Date();
+  var curDate = null;
+  do {
+    curDate = new Date();
+  } while (curDate - date < millis);
 }

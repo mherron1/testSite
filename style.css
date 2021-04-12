@@ -260,11 +260,12 @@ body {
 
 .eventLink {
   min-width: 300;
-  border-right: 15px solid transparent;
-  border-left: 15px solid transparent;
+  padding-right: 30px;
+  padding-left: 30px;
+
   padding-top: 12px;
   padding-bottom: 8px;
-  border-bottom: 1px solid rgba(243, 243, 243, 0.925);
+  border-bottom: 1px solid rgba(228, 228, 228, 0.925);
   box-sizing: content-box;
 }
 
@@ -449,7 +450,7 @@ ul {
 li {
   font-family: arial;
   color: black;
-  background-color: rgba(255, 255, 255, 0.795);
+  background-color: rgb(255, 255, 255);
   display: inline-block;
   text-align: center;
   font-size: 9px;
@@ -684,7 +685,7 @@ input:checked + .slider:before {
   }
   #eventList {
     font-size: 1.05rem;
-    margin-top: 80px;
+    margin-top: px;
     text-align: right;
   }
 
