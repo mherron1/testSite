@@ -190,8 +190,9 @@ function selectCard(index) {
     toggleSideNav();
   }
   i = index;
+  pausecomp(250);
   navigator.vibrate(40);
-  pausecomp(500);
+
   create();
 
   document.querySelector("#hamburger-1").classList = "hamburger";
