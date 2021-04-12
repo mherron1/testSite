@@ -83,6 +83,7 @@ function back() {
   create();
 }
 function toggleD() {
+  navigator.vibrate(40);
   let detailsLeft = document.querySelectorAll(`.detailsLeft`);
   detailsLeft.forEach((detail) => {
     if (detail.style.display === "flex") {
@@ -125,7 +126,7 @@ function switchIcon() {
   if (screen.width < 1000) {
     let sideNav = document.querySelector("#sideNav");
     $("#hamburger-1").toggleClass("is-active");
-    if (sideNav.style.width === "70%") {
+    if (sideNav.style.width === "75%") {
       $("#dim").fadeOut(300);
     }
     sideNav.style.width = "0%";
@@ -142,12 +143,12 @@ $(document).ready(function () {
 function toggleSideNav() {
   navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.width === "80%") {
+  if (sideNav.style.width === "70%") {
     eventList.innerHTML = ``;
     sideNav.style.width = "0%";
     $("#dim").fadeOut(300);
   } else {
-    sideNav.style.width = "80%";
+    sideNav.style.width = "70%";
     $("#dim").fadeIn(300);
     generateLinks();
   }
@@ -333,6 +334,7 @@ function setQuery(arg) {
 }
 
 function toggleSettings() {
+  navigator.vibrate(40);
   $("#hamburger-1").toggle();
 
   let hamburger = document.querySelector("#hamburger-1");
@@ -354,7 +356,7 @@ function toggleSettings() {
   }
 
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.width === "70%") {
+  if (sideNav.style.width === "75%") {
     eventList.innerHTML = ``;
     sideNav.style.width = "0%";
     $("#dim").fadeOut(300);
@@ -542,6 +544,7 @@ function generateCard(i, arg) {
 }
 
 function changeSettings() {
+  navigator.vibrate(40);
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
   let bellator = document.querySelector("#bellatorInput");

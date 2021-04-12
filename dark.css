@@ -254,7 +254,7 @@ h2 {
   width: 0%;
   max-width: 350px;
   min-height: 100vh;
-  background-color: rgba(24, 24, 24, 0.952);
+  background-color: rgba(14, 14, 14, 0.952);
   transition-duration: 0.3s;
   z-index: 100;
 }
@@ -660,7 +660,7 @@ input:checked + .slider:before {
   #prelimsCard,
   #prelimsCardMinus1,
   #prelimsCardPlus1 {
-    font-size: 1.05rem;
+    font-size: 1.2rem;
   }
   #eventList {
     font-size: 1rem;
@@ -700,7 +700,7 @@ input:checked + .slider:before {
     font-size: 0.9rem;
   }
   #eventList {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-top: 75px;
     text-align: right;
   }
