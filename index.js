@@ -34,6 +34,18 @@ function create() {
         }
       }
     });
+  } else {
+    let all = document.querySelector("#allInput");
+    let ufc = document.querySelector("#ufcInput");
+    let bellator = document.querySelector("#bellatorInput");
+    let one = document.querySelector("#oneInput");
+    let pfl = document.querySelector("#pflInput");
+
+    all.checked === true;
+    ufc.checked = true;
+    bellator.checked = true;
+    one.checked = true;
+    pfl.checked = true;
   }
 
   var highestTimeoutId = setTimeout(";");
