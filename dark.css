@@ -232,7 +232,7 @@ body {
   max-width: 350px;
   height: 0%;
   min-height: 100vh;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(44, 44, 44);
   transition-duration: 0.3s;
   z-index: 100;
 }
@@ -248,7 +248,7 @@ body {
 
 #eventList {
   font-size: 1.1rem;
-  margin-top: 100px;
+  margin-top: 75px;
   text-align: right;
 }
 
@@ -256,10 +256,13 @@ body {
   min-width: 300;
   border-right: 15px solid transparent;
   border-left: 15px solid transparent;
-  padding-top: 12px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid rgba(133, 133, 133, 0.397);
+  margin-bottom: 5px;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(53, 53, 53, 0.438);
   box-sizing: content-box;
+  background-color: black;
 }
 
 .eventLink:hover {
@@ -533,7 +536,7 @@ li span {
   grid-template-columns: auto 50px;
   padding: 15px;
   padding-left: 30px;
-  border-top: 1px solid rgba(226, 226, 226, 0.432);
+  border-top: 1px solid rgba(59, 59, 59, 0.281);
   box-sizing: border-box;
 }
 
@@ -651,7 +654,6 @@ input:checked + .slider:before {
     border-left: 15px solid transparent;
     padding-top: 12px;
     padding-bottom: 8px;
-    border-bottom: 1px solid rgba(243, 243, 243, 0.925);
     box-sizing: content-box;
   }
 }
@@ -689,7 +691,6 @@ input:checked + .slider:before {
     border-left: 15px solid transparent;
     padding-top: 12px;
     padding-bottom: 8px;
-    border-bottom: 1px solid rgba(243, 243, 243, 0.925);
     box-sizing: content-box;
   }
 }

@@ -30,7 +30,14 @@ function create() {
       filterArr.push("Professional");
       document.querySelector("#pflInput").checked = true;
     }
-
+    if (
+      localStorage.getItem("pfl") === "y" &&
+      localStorage.getItem("bellator") === "y" &&
+      localStorage.getItem("one") === "y" &&
+      localStorage.getItem("ufc") === "y"
+    ) {
+      document.querySelector("#allInput").checked = true;
+    }
     events = events.filter((event) => {
       for (p = 0; p < filterArr.length; p++) {
         if (event[0].includes(filterArr[p])) {
@@ -39,7 +46,6 @@ function create() {
       }
     });
   } else {
-    document.querySelector("#allInput").checked = true;
     forceToggleAll();
   }
 
@@ -562,7 +568,6 @@ function changeSettings() {
 }
 
 function forceToggleAll() {
-  console.log("testAll");
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
   let bellator = document.querySelector("#bellatorInput");
@@ -574,6 +579,7 @@ function forceToggleAll() {
     bellator.checked = true;
     one.checked = true;
     pfl.checked = true;
+    all.checked === true;
   }
 }
 
