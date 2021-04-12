@@ -555,8 +555,11 @@ li span {
   display: grid;
   grid-template-columns: auto 50px;
   padding: 15px;
-  padding-left: 30px;
-  border-top: 1px solid rgba(211, 211, 211, 0.616);
+  margin-left: 20px;
+  margin-right: 35px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-top: 2px solid rgba(51, 51, 51, 0.137);
   box-sizing: border-box;
 }
 
@@ -578,6 +581,7 @@ li span {
 .switch {
   position: relative;
   display: inline-block;
+  margin-left: 30%;
   margin-top: 4px;
   width: 18px;
   height: 8px;
