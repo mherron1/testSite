@@ -190,8 +190,8 @@ function selectCard(index) {
     toggleSideNav();
   }
   i = index;
-  pausecomp(250);
   navigator.vibrate(40);
+  pausecomp(200);
 
   create();
 
