@@ -191,7 +191,7 @@ function selectCard(index) {
   }
   i = index;
   navigator.vibrate(40);
-  pausecomp(200);
+  pausecomp(50);
 
   create();
 
