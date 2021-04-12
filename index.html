@@ -15,14 +15,6 @@
 </head>
 <body>
 
-  <div id="wideHeader">
-    <div class = "promotionLink" onclick="applyFilter('')">All </div>
-    <div class = "promotionLink" onclick="applyFilter('Ultimate')">UFC </div>
-    <div class = "promotionLink" onclick="applyFilter('Bellator')">Bellator </div>
-    <div class = "promotionLink" onclick="applyFilter('ONE')">One FC </div>
-    <div class = "promotionLink" onclick="applyFilter('Prof')">PFL </div>
-    <div class = "promotionRight"></div>
-  </div>
   <div id="dim" ontouchstart="switchIcon()"></div>
 
   <div onclick="toggleSideNav()" class="hamburger" id="hamburger-1">
@@ -51,35 +43,35 @@
       <div class="setting">
         <div>All Events</div>
         <label class="switch">
-          <input type="checkbox" id="allInput" onclick="forceToggle()"checked>
+          <input type="checkbox" id="allInput" onclick="forceToggleAll()">
           <span class="slider round"></span>
         </label>
       </div>
       <div class="setting">
         <div >UFC</div>
         <label class="switch">
-          <input type="checkbox" id="ufcInput" >
+          <input type="checkbox" id="ufcInput" onclick="forceToggle()" >
           <span class="slider round"></span>
         </label>
       </div>
       <div class="setting">
         <div >Bellator</div>
         <label class="switch">
-          <input type="checkbox" id="bellatorInput" >
+          <input type="checkbox" id="bellatorInput" onclick="forceToggle()" >
           <span class="slider round"></span>
         </label>
       </div>
       <div class="setting">
         <div >One FC</div>
         <label class="switch">
-          <input type="checkbox" id="oneInput" >
+          <input type="checkbox" id="oneInput" onclick="forceToggle()"  >
           <span class="slider round"></span>
         </label>
       </div>
       <div class="setting">
         <div >PFL</div>
         <label class="switch">
-          <input type="checkbox" id="pflInput" >
+          <input type="checkbox" id="pflInput" onclick="forceToggle()" >
           <span class="slider round"></span>
         </label>
       </div>
@@ -92,12 +84,9 @@
       </div>
     
   
-    
+  
   </div>
 
-  <div id="footer">
-
-  </div>
 
 </body>
 

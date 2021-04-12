@@ -16,15 +16,19 @@ function create() {
   if (localStorage.getItem("ufc") !== null) {
     if (localStorage.getItem("ufc") === "y") {
       filterArr.push("Ultimate");
+      document.querySelector("#ufcInput").checked = true;
     }
     if (localStorage.getItem("bellator") === "y") {
       filterArr.push("Bellator");
+      document.querySelector("#bellatorInput").checked = true;
     }
     if (localStorage.getItem("one") === "y") {
       filterArr.push("ONE");
+      document.querySelector("#oneInput").checked = true;
     }
     if (localStorage.getItem("pfl") === "y") {
       filterArr.push("Professional");
+      document.querySelector("#pflInput").checked = true;
     }
 
     events = events.filter((event) => {
@@ -35,17 +39,8 @@ function create() {
       }
     });
   } else {
-    let all = document.querySelector("#allInput");
-    let ufc = document.querySelector("#ufcInput");
-    let bellator = document.querySelector("#bellatorInput");
-    let one = document.querySelector("#oneInput");
-    let pfl = document.querySelector("#pflInput");
-
-    all.checked === true;
-    ufc.checked = true;
-    bellator.checked = true;
-    one.checked = true;
-    pfl.checked = true;
+    document.querySelector("#allInput").checked = true;
+    forceToggleAll();
   }
 
   var highestTimeoutId = setTimeout(";");
@@ -516,13 +511,14 @@ function generateCard(i, arg) {
 }
 
 function changeSettings() {
-  toggleSettings();
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
   let bellator = document.querySelector("#bellatorInput");
   let one = document.querySelector("#oneInput");
   let pfl = document.querySelector("#pflInput");
   let darkMode = document.querySelector("#darkInput");
+
+  toggleSettings();
 
   if (ufc.checked === true) {
     localStorage.setItem("ufc", "y");
@@ -557,13 +553,16 @@ function changeSettings() {
 
   if (darkMode.checked === true) {
     localStorage.setItem("dark-mode", "y");
+  } else {
+    localStorage.setItem("dark-mode", "n");
   }
 
   i = 0;
   create();
 }
 
-function forceToggle() {
+function forceToggleAll() {
+  console.log("testAll");
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
   let bellator = document.querySelector("#bellatorInput");
@@ -575,5 +574,33 @@ function forceToggle() {
     bellator.checked = true;
     one.checked = true;
     pfl.checked = true;
+  }
+}
+
+function forceToggle() {
+  console.log("test");
+  let all = document.querySelector("#allInput");
+  let ufc = document.querySelector("#ufcInput");
+  let bellator = document.querySelector("#bellatorInput");
+  let one = document.querySelector("#oneInput");
+  let pfl = document.querySelector("#pflInput");
+
+  if (
+    ufc.checked === false ||
+    bellator.checked === false ||
+    one.checked === false ||
+    pfl.checked === false
+  ) {
+    all.checked = false;
+  }
+
+  if (
+    ufc.checked === false &&
+    bellator.checked === false &&
+    one.checked === false &&
+    pfl.checked === false
+  ) {
+    all.checked = true;
+    forceToggleAll();
   }
 }
