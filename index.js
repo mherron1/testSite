@@ -1,25 +1,40 @@
-let i = 0;
-
-let events = data2;
-
-let selection = "all";
-
-create("all");
-
-function create(arg) {
-  if (typeof arg === "undefined") {
-    arg = selection;
-  } else {
-    selection = arg;
+if (localStorage.getItem("dark-mode") !== null) {
+  if (localStorage.getItem("dark-mode") === "y") {
+    let darkMode = document.querySelector("#darkInput");
+    darkMode.checked = true;
+    toggleStyleSheets();
   }
+}
 
-  events = data2.filter((event) => {
-    if (arg === "all") {
-      return true;
-    } else if (event[0].includes(arg)) {
-      return true;
+let i = 0;
+let events = data2;
+create();
+
+function create() {
+  events = data2;
+  let filterArr = [];
+  if (localStorage.getItem("ufc") !== null) {
+    if (localStorage.getItem("ufc") === "y") {
+      filterArr.push("Ultimate");
     }
-  });
+    if (localStorage.getItem("bellator") === "y") {
+      filterArr.push("Bellator");
+    }
+    if (localStorage.getItem("one") === "y") {
+      filterArr.push("ONE");
+    }
+    if (localStorage.getItem("pfl") === "y") {
+      filterArr.push("Professional");
+    }
+
+    events = events.filter((event) => {
+      for (p = 0; p < filterArr.length; p++) {
+        if (event[0].includes(filterArr[p])) {
+          return true;
+        }
+      }
+    });
+  }
 
   var highestTimeoutId = setTimeout(";");
   for (var k = 0; k < highestTimeoutId; k++) {
@@ -488,7 +503,65 @@ function generateCard(i, arg) {
   }
 }
 
-function applyFilter(arg) {
+function changeSettings() {
+  toggleSettings();
+  let all = document.querySelector("#allInput");
+  let ufc = document.querySelector("#ufcInput");
+  let bellator = document.querySelector("#bellatorInput");
+  let one = document.querySelector("#oneInput");
+  let pfl = document.querySelector("#pflInput");
+  let darkMode = document.querySelector("#darkInput");
+
+  if (ufc.checked === true) {
+    localStorage.setItem("ufc", "y");
+  } else {
+    localStorage.setItem("ufc", "n");
+  }
+
+  if (bellator.checked === true) {
+    localStorage.setItem("bellator", "y");
+  } else {
+    localStorage.setItem("bellator", "n");
+  }
+
+  if (one.checked === true) {
+    localStorage.setItem("one", "y");
+  } else {
+    localStorage.setItem("one", "n");
+  }
+
+  if (pfl.checked === true) {
+    localStorage.setItem("pfl", "y");
+  } else {
+    localStorage.setItem("pfl", "n");
+  }
+
+  if (all.checked === true) {
+    localStorage.setItem("bellator", "y");
+    localStorage.setItem("one", "y");
+    localStorage.setItem("ufc", "y");
+    localStorage.setItem("pfl", "y");
+  }
+
+  if (darkMode.checked === true) {
+    localStorage.setItem("dark-mode", "y");
+  }
+
   i = 0;
-  create(arg);
+  create();
+}
+
+function forceToggle() {
+  let all = document.querySelector("#allInput");
+  let ufc = document.querySelector("#ufcInput");
+  let bellator = document.querySelector("#bellatorInput");
+  let one = document.querySelector("#oneInput");
+  let pfl = document.querySelector("#pflInput");
+
+  if (all.checked === true) {
+    ufc.checked = true;
+    bellator.checked = true;
+    one.checked = true;
+    pfl.checked = true;
+  }
 }

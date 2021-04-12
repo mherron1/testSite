@@ -45,47 +45,47 @@
   <br>
 
   <div id="settings">
-    <i class="material-icons" id="closeSettings" onclick="toggleSettings()">close</i>
+    <i class="material-icons" id="closeSettings" onclick="changeSettings()">close</i>
     <h3 id="settingsHeader">Settings</h3>
       <div class="setting">
         <div>All Events</div>
         <label class="switch">
-          <input type="checkbox" onclick="applyFilter('')" checked>
+          <input type="checkbox" id="allInput" onclick="forceToggle()"checked>
           <span class="slider round"></span>
         </label>
       </div>
       <div class="setting">
         <div >UFC</div>
         <label class="switch">
-          <input type="checkbox" onclick="applyFilter('Ultimate')">
+          <input type="checkbox" id="ufcInput" checked>
           <span class="slider round"></span>
         </label>
       </div>
       <div class="setting">
         <div >Bellator</div>
         <label class="switch">
-          <input type="checkbox" onclick="applyFilter('Bellator')">
+          <input type="checkbox" id="bellatorInput" checked>
           <span class="slider round"></span>
         </label>
       </div>
       <div class="setting">
         <div >One FC</div>
         <label class="switch">
-          <input type="checkbox">
+          <input type="checkbox" id="oneInput" checked>
           <span class="slider round"></span>
         </label>
       </div>
       <div class="setting">
         <div >PFL</div>
         <label class="switch">
-          <input type="checkbox">
+          <input type="checkbox" id="pflInput" checked>
           <span class="slider round"></span>
         </label>
       </div>
       <div class="setting">
         <div >Dark Mode</div>
         <label class="switch">
-          <input type="checkbox" onclick="toggleStyleSheets()">
+          <input type="checkbox" onclick="toggleStyleSheets()" id="darkInput">
           <span class="slider round"></span>
         </label>
       </div>
