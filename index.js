@@ -237,7 +237,6 @@ function selectCard(index) {
 }
 
 ////////////////////////////swiping
-
 let content1 = document.querySelector("#content");
 let contentPlus1 = document.querySelector("#contentPlus1");
 let contentMinus1 = document.querySelector("#contentMinus1");
@@ -302,6 +301,29 @@ function touchEnd(evt) {
 
     create();
     //location.href = `./?${newPage1}`;
+  }
+}
+
+function touchStartSidebar(evt) {
+  startingX = evt.touches[0].clientX;
+}
+
+function touchMoveSidebar(evt) {
+  touch = evt.touches[0];
+  var changeX = startingX - touch.clientX;
+  if (changeX < 0) {
+    sideNav.style.right = changeX + "px";
+  }
+}
+
+function touchEndSidebar(evt) {
+  var changeX = startingX - evt.changedTouches[0].clientX;
+  console.log(changeX);
+  if (changeX < -100) {
+    toggleSideNav();
+    sideNav.style.right = 0;
+  } else {
+    sideNav.style.right = 0;
   }
 }
 
