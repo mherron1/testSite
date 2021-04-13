@@ -267,6 +267,7 @@ body {
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(228, 228, 228, 0.925);
   box-sizing: content-box;
+  display: none;
 }
 
 .eventLink:hover {
@@ -278,6 +279,7 @@ body {
 .eventLinkDate {
   float: left;
   font-weight: normal;
+  display: none;
 }
 
 .eventLinkText {
@@ -761,6 +763,7 @@ input:checked + .slider:before {
   }
   .eventLink {
     padding-right: 20px;
+    display: block;
   }
   #testDiv {
     position: fixed;

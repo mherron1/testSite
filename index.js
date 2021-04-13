@@ -234,7 +234,10 @@ function generateLinks() {
 
 let sideNav = document.querySelector("#sideNav");
 sideNav.ontransitionstart = () => {
-  $(".eventLinkDate").fadeIn(400);
+  if (screen.width > 1000) {
+    $(".eventLinkDate").fadeIn(400);
+    $(".eventLink").fadeIn(400);
+  }
 };
 
 function selectCard(index) {
@@ -243,7 +246,7 @@ function selectCard(index) {
   }
   i = index;
   navigator.vibrate(40);
-  pausecomp(75);
+  pausecomp(50);
   create();
 
   document.querySelector("#hamburger-1").classList = "hamburger";
