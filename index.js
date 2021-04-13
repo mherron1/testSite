@@ -243,7 +243,7 @@ function selectCard(index) {
   }
   i = index;
   navigator.vibrate(40);
-  pausecomp(500);
+  pausecomp(75);
   create();
 
   document.querySelector("#hamburger-1").classList = "hamburger";
