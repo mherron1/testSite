@@ -373,8 +373,10 @@ function toggleStyleSheets() {
   let stylesheet = document.getElementById("pagestyle");
   if (stylesheet.href.toString().includes("style")) {
     document.getElementById("pagestyle").setAttribute("href", "dark.css");
+    localStorage.setItem("dark-mode", "y");
   } else {
     document.getElementById("pagestyle").setAttribute("href", "style.css");
+    localStorage.setItem("dark-mode", "n");
   }
 }
 
