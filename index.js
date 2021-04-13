@@ -59,10 +59,6 @@ function create() {
   generateCard(i, "");
   generateCard(i - 1, "Minus1");
   generateCard(i + 1, "Plus1");
-
-  if (screen.width > 1000) {
-    generateLinks(i);
-  }
 }
 
 ////////////////////////////////  End of card function
@@ -573,7 +569,7 @@ function generateCard(i, arg) {
       <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
     </div>
     <div class="detailsLeft${arg}">
-      <div>${leftOdds}</div>
+    <div style=" font-size:0.9rem;color: ${colorA};">${leftOdds}</div>
       <div>${events[i][3][j].rankA}</div>
       <div>${events[i][3][j].recordA}</div>
     </div>
@@ -589,8 +585,8 @@ function generateCard(i, arg) {
     <div class="detailsRight${arg}">
       <div>${events[i][3][j].recordB}</div>
       <div>${events[i][3][j].rankB}</div>
-      <div>${rightOdds}</div>        
-    </div>
+      <div style=" font-size:0.9rem;color: ${colorB};">${leftOdds}</div>
+      </div>
   </div>
   `;
   }
@@ -684,8 +680,8 @@ function generateCard(i, arg) {
         <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
       </div>
       <div class="detailsLeft${arg}">
-        <div>${leftOdds}</div>
-        <div>${events[i][3][j].rankA}</div>
+      <div style=" font-size:0.9rem;color: ${colorB};">${leftOdds}</div>
+      <div>${events[i][3][j].rankA}</div>
         <div>${events[i][3][j].recordA}</div>
       </div>
     </div>
@@ -700,8 +696,8 @@ function generateCard(i, arg) {
       <div class="detailsRight${arg}">
         <div>${events[i][3][j].recordB}</div>
         <div>${events[i][3][j].rankB}</div>
-        <div>${rightOdds}</div>        
-      </div>
+        <div style=" font-size:0.9rem;color: ${colorB};">${leftOdds}</div>
+        </div>
     </div>
     `;
   }
