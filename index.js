@@ -235,8 +235,8 @@ function generateLinks() {
 
 let sideNav = document.querySelector("#sideNav");
 sideNav.ontransitionstart = () => {
-  $(".eventLinkDate").fadeIn(400);
-  $(".eventLink").fadeIn(600);
+  $(".eventLinkDate").css("opacity", "1");
+  $(".eventLink").css("opacity", "1");
 };
 
 function selectCard(index) {

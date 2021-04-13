@@ -294,6 +294,8 @@ h2 {
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(124, 124, 124, 0.233);
   box-sizing: content-box;
+  opacity: 0;
+  transition-duration: 0.6s;
 }
 
 .eventLink:hover {
@@ -305,6 +307,8 @@ h2 {
 .eventLinkDate {
   float: left;
   font-weight: normal;
+  opacity: 0;
+  transition-duration: 0.6s;
 }
 
 .eventLinkText {
