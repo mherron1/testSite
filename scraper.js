@@ -1,10 +1,7 @@
 const puppeteer = require("puppeteer");
 
 let events = [
-  "https://www.tapology.com/fightcenter/events/76643-one-championship",
-  "https://www.tapology.com/fightcenter/events/73514-pfl-2021-1",
-  "https://www.tapology.com/fightcenter/events/76830-bellator-mma",
-  "https://www.tapology.com/fightcenter/events/77132-bellator-258-archuleta-vs-pettis",
+  "https://www.tapology.com/fightcenter/events/77763-ufc-fight-night",
 ];
 
 //getEventURLs();
@@ -197,7 +194,7 @@ function getCard(url) {
 
     console.log(`["${promo}",`);
     console.log(`${t},`);
-    console.log("'" + p + "'" + ",");
+    console.log("'',");
     console.log(fightCard);
     console.log(`,"${eventName}",`);
     console.log(`"${n}"`);
