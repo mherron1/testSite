@@ -313,6 +313,7 @@ function touchMoveSidebar(evt) {
   var changeX = startingX - touch.clientX;
   if (changeX < 0) {
     sideNav.style.right = changeX + "px";
+    content.style.right = "0px";
   }
 }
 
