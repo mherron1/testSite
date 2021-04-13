@@ -304,30 +304,6 @@ function touchEnd(evt) {
   }
 }
 
-function touchStartSidebar(evt) {
-  startingX = evt.touches[0].clientX;
-}
-
-function touchMoveSidebar(evt) {
-  touch = evt.touches[0];
-  var changeX = startingX - touch.clientX;
-  if (changeX < 0) {
-    sideNav.style.right = changeX + "px";
-    content.style.right = "0px";
-  }
-}
-
-function touchEndSidebar(evt) {
-  var changeX = startingX - evt.changedTouches[0].clientX;
-  console.log(changeX);
-  if (changeX < -100) {
-    toggleSideNav();
-    sideNav.style.right = 0;
-  } else {
-    sideNav.style.right = 0;
-  }
-}
-
 //////////////////////// Key Mapping
 
 document.addEventListener("keydown", function (e) {
