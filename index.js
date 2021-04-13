@@ -126,10 +126,10 @@ function switchIcon() {
   if (screen.width < 1000) {
     let sideNav = document.querySelector("#sideNav");
     $("#hamburger-1").toggleClass("is-active");
-    if (sideNav.style.right === "0px") {
+    if (sideNav.style.width === "75%") {
       $("#dim").fadeOut(300);
     }
-    sideNav.style.right = "-350px";
+    sideNav.style.width = "0%";
     eventList.innerHTML = ``;
   }
 }
@@ -140,19 +140,15 @@ $(document).ready(function () {
   });
 });
 
-if (screen.width > 500) {
-  eventList.innerHTML = ``;
-}
-
 function toggleSideNav() {
-  console.log("toggle");
   navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.right === "0px") {
-    sideNav.style.right = "-350px";
+  if (sideNav.style.width === "70%") {
+    eventList.innerHTML = ``;
+    sideNav.style.width = "0%";
     $("#dim").fadeOut(300);
   } else {
-    sideNav.style.right = "0px";
+    sideNav.style.width = "70%";
     $("#dim").fadeIn(300);
     generateLinks();
   }
@@ -184,14 +180,17 @@ function generateLinks() {
   }
 }
 
+let sideNav = document.querySelector("#sideNav");
+sideNav.ontransitionstart = () => {
+  $(".eventLinkDate").fadeIn(400);
+};
+
 function selectCard(index) {
   if (screen.width < 1000) {
     toggleSideNav();
   }
   i = index;
   navigator.vibrate(40);
-  pausecomp(50);
-
   create();
 
   document.querySelector("#hamburger-1").classList = "hamburger";
@@ -357,9 +356,9 @@ function toggleSettings() {
   }
 
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.right === "0px") {
+  if (sideNav.style.width === "75%") {
     eventList.innerHTML = ``;
-    sideNav.style.right = "-350px";
+    sideNav.style.width = "0%";
     $("#dim").fadeOut(300);
 
     hamburger.classList.remove("is-active");
@@ -367,15 +366,11 @@ function toggleSettings() {
 }
 
 function toggleStyleSheets() {
-  navigator.vibrate(40);
-
   let stylesheet = document.getElementById("pagestyle");
   if (stylesheet.href.toString().includes("style")) {
     document.getElementById("pagestyle").setAttribute("href", "dark.css");
-    localStorage.setItem("dark-mode", "y");
   } else {
     document.getElementById("pagestyle").setAttribute("href", "style.css");
-    localStorage.setItem("dark-mode", "n");
   }
 }
 
@@ -469,8 +464,6 @@ function generateCard(i, arg) {
 
   for (let j = 0; j < mainCardSize; j++) {
     mainCard.innerHTML += `
-
-
   <div class="left">
     <div>
       <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
@@ -506,7 +499,6 @@ function generateCard(i, arg) {
 
   for (let j = mainCardSize; j < events[i][3].length; j++) {
     prelimsCard.innerHTML += `
-
   <div class="left">
     <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
     <div class="detailsLeft${arg}">
@@ -527,7 +519,6 @@ function generateCard(i, arg) {
       <div style="color:green;font-size: 0.9rem;">+125</div>        
     </div>
   </div>
-
 `;
   }
 
@@ -611,7 +602,6 @@ function changeSettings() {
 }
 
 function forceToggleAll() {
-  navigator.vibrate(40);
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
   let bellator = document.querySelector("#bellatorInput");
@@ -635,7 +625,6 @@ function forceToggleAll() {
 }
 
 function forceToggle() {
-  navigator.vibrate(40);
   console.log("test");
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
@@ -654,19 +643,10 @@ function forceToggle() {
 }
 
 function showDetailsSettings() {
-  navigator.vibrate(40);
   if (localStorage.getItem("details") === "y") {
     localStorage.setItem("details", "n");
   } else {
     localStorage.setItem("details", "y");
   }
   toggleD();
-}
-
-function pausecomp(millis) {
-  var date = new Date();
-  var curDate = null;
-  do {
-    curDate = new Date();
-  } while (curDate - date < millis);
 }

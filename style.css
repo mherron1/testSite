@@ -11,10 +11,8 @@ html {
 }
 body {
   position: relative;
-  max-width: 475px;
   margin: 0 auto;
   margin-bottom: 50px;
-  overflow: hidden;
 }
 
 #wideHeader {
@@ -236,8 +234,8 @@ body {
 #sideNav {
   position: absolute;
   top: 0;
-  right: -350px;
-  width: 350px;
+  right: 0%;
+  width: 0%;
   max-width: 350px;
   min-height: 100vh;
   background-color: rgb(247, 247, 247);
@@ -262,12 +260,11 @@ body {
 
 .eventLink {
   min-width: 300;
-  padding-right: 30px;
-  padding-left: 30px;
-
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
   padding-top: 12px;
   padding-bottom: 8px;
-  border-bottom: 1px solid rgba(228, 228, 228, 0.925);
+  border-bottom: 1px solid rgba(243, 243, 243, 0.925);
   box-sizing: content-box;
 }
 
@@ -452,7 +449,7 @@ ul {
 li {
   font-family: arial;
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.795);
   display: inline-block;
   text-align: center;
   font-size: 9px;
@@ -522,7 +519,7 @@ li span {
 #settings {
   position: fixed;
   background-color: white;
-  width: 475px;
+  width: 100%;
   height: 0vh;
   bottom: 0;
   z-index: 100000;
@@ -552,21 +549,12 @@ li span {
   margin-right: 75%;
   transform: translateY(-60px);
 }
-
-#settingsIcon:hover {
-  cursor: pointer;
-}
-
 #closeSettings {
   position: fixed;
   font-size: 31px;
   right: -58px;
   top: 8px;
   opacity: 0;
-}
-
-#closeSettings:hover {
-  cursor: pointer;
 }
 
 .switch {
@@ -612,18 +600,18 @@ li span {
 }
 
 input:checked + .slider {
-  background-color: #c08f8f;
+  background-color: #c0ddff;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #7e3434;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {
   -webkit-transform: translate(13px, 5px);
   -ms-transform: translate(13px, 5px);
   transform: translate(13px, 5px);
-  background-color: rgb(196, 49, 49);
+  background-color: rgb(35, 86, 196);
 }
 
 /* Rounded sliders */
@@ -696,7 +684,7 @@ input:checked + .slider:before {
   }
   #eventList {
     font-size: 1.05rem;
-    margin-top: px;
+    margin-top: 80px;
     text-align: right;
   }
 
@@ -708,5 +696,146 @@ input:checked + .slider:before {
     padding-bottom: 8px;
     border-bottom: 1px solid rgba(243, 243, 243, 0.925);
     box-sizing: content-box;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #displayCard {
+    position: absolute;
+    width: 500px;
+    left: 60%;
+    margin-right: 20px;
+    transform: translateX(-50%);
+  }
+  .hamburger {
+    position: fixed;
+    top: 0;
+    right: 10px;
+    transform: scale(0.59);
+    z-index: 1000;
+    -webkit-tap-highlight-color: transparent;
+    display: none;
+  }
+  #sideNav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+  }
+
+  body {
+    margin-top: 100px;
+    max-width: 1000px;
+    position: relative;
+    background-color: rgb(228, 227, 227);
+  }
+  #content {
+    position: absolute;
+    width: 500px;
+    left: 0;
+    background-color: white;
+    height: 100vh;
+    z-index: 10;
+  }
+  #mainTime {
+    font-size: 1.3rem;
+  }
+  #prelimsTime {
+    font-size: 1.3rem;
+  }
+
+  #imageContainer {
+    position: fixed;
+    left: -450px;
+    top: 130px;
+    display: block;
+    overflow: visible;
+  }
+
+  #eventPoster {
+    width: 400px;
+  }
+  .eventLink {
+    padding-right: 20px;
+  }
+  #testDiv {
+    position: fixed;
+    width: 200px;
+    top: 25px;
+    left: -1001px;
+    transform: scale(2);
+    display: block;
+    background-color: white;
+  }
+  ul {
+    width: 118px;
+    margin-bottom: 3px;
+    margin-right: 40px;
+  }
+
+  li {
+    font-size: 6px;
+    background-color: #ffffff;
+  }
+  li span {
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+  }
+
+  #wideHeader {
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(238, 238, 238, 0.432);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+  .promotionLink {
+    background-color: #ffffff;
+    width: 100%;
+    margin-right: 2px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .promotionLink:hover {
+    cursor: pointer;
+    background-color: rgba(212, 39, 39, 0.822);
+    color: white;
+  }
+
+  .promotionRight {
+    background-color: none;
+    width: 100%;
+    max-width: 300px;
+    min-width: 300px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 28px;
+    font-weight: 100;
+    background-color: white !important;
+  }
+
+  #settings {
+    position: fixed;
+    background-color: white;
+    width: 300px;
+    height: 0vh;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: 100000;
+    transition: 0s;
+    overflow: hidden;
   }
 }
