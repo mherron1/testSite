@@ -63,19 +63,6 @@ function create() {
   if (screen.width > 1000) {
     generateLinks(i);
   }
-
-  let sideNav = document.querySelector("#sideNav");
-  let elink = document.querySelector(".eventLink");
-  let elinkDate = document.querySelector(".eventLinkDate");
-  sideNav.ontransitionstart = () => {
-    if (elink.style.opacity === "0") {
-      elink.styl.opacity = "1";
-      elinkDate.style.opacity = "1";
-    } else {
-      elink.style.opacity = "0";
-      elinkDate.styl.opacity = "0";
-    }
-  };
 }
 
 ////////////////////////////////  End of card function
@@ -188,32 +175,16 @@ function showPoster() {
   }
 }
 
-function switchIcon() {
-  if (screen.width < 1000) {
-    let sideNav = document.querySelector("#sideNav");
-    $("#hamburger-1").toggleClass("is-active");
-    if (sideNav.style.width === "75%") {
-      $("#dim").fadeOut(300);
-    }
-    sideNav.style.width = "0%";
-    eventList.innerHTML = ``;
-  }
-}
-
-$(document).ready(function () {
-  $(".hamburger").click(function () {
-    $(this).toggleClass("is-active");
-  });
-});
-
 function toggleSideNav() {
   navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
   if (sideNav.style.width === "75%") {
+    $("#hamburger-1").toggleClass("is-active");
     eventList.innerHTML = ``;
     sideNav.style.width = "0%";
     $("#dim").fadeOut(300);
   } else {
+    $("#hamburger-1").toggleClass("is-active");
     sideNav.style.width = "75%";
     $("#dim").fadeIn(300);
     generateLinks();
@@ -396,12 +367,6 @@ function resetDivCSS() {
   contentPlus1.style.display = "none";
 }
 
-function filterEvents(arg) {}
-
-function setQuery(arg) {
-  location.href = `?${arg}`;
-}
-
 function toggleSettings() {
   navigator.vibrate(40);
   $("#hamburger-1").toggle();
@@ -409,10 +374,12 @@ function toggleSettings() {
   let hamburger = document.querySelector("#hamburger-1");
 
   let closeSettings = document.querySelector("#closeSettings");
+
   if (closeSettings.style.opacity === "1") {
     closeSettings.style.opacity = "0";
     closeSettings.style.right = "-58px";
   } else {
+    toggleSideNav();
     closeSettings.style.opacity = "1";
     closeSettings.style.right = "7px";
   }
@@ -422,15 +389,6 @@ function toggleSettings() {
     $("#settings").css("height", "0vh");
   } else {
     $("#settings").css("height", "100vh");
-  }
-
-  let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.width === "75%") {
-    eventList.innerHTML = ``;
-    sideNav.style.width = "0%";
-    $("#dim").fadeOut(300);
-
-    hamburger.classList.remove("is-active");
   }
 }
 

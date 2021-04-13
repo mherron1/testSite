@@ -268,8 +268,6 @@ body {
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(228, 228, 228, 0.925);
   box-sizing: content-box;
-  opacity: 0;
-  transition-duration: 1s;
 }
 
 .eventLink:hover {
@@ -281,8 +279,6 @@ body {
 .eventLinkDate {
   float: left;
   font-weight: normal;
-  opacity: 0;
-  transition-duration: 1s;
 }
 
 .eventLinkText {
