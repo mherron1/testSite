@@ -269,14 +269,14 @@ function touchMove(evt) {
 
   if (changeX > 50) {
     swiping = true;
-    changeX += 50;
+    changeX -= 50;
 
     content1.style.left = -changeX + "px";
     contentPlus1.style.display = "block";
     evt.preventDefault();
   } else if (changeX < -50) {
     swiping = true;
-    changeX -= 50;
+    changeX += 50;
     content1.style.left = -changeX + "px";
     contentMinus1.style.display = "block";
     evt.preventDefault();
