@@ -477,7 +477,7 @@ ul {
 li {
   font-family: arial;
   color: black;
-  background-color: rgba(255, 255, 255, 0.815);
+  background-color: rgb(255, 255, 255);
   display: inline-block;
   text-align: center;
   font-size: 9px;
@@ -828,7 +828,7 @@ input:checked + .slider:before {
     position: fixed;
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgba(238, 238, 238, 0.432);
+    background-color: rgba(122, 43, 43, 0.432);
     top: 0;
     left: 0;
     right: 0;

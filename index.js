@@ -234,10 +234,8 @@ function generateLinks() {
 
 let sideNav = document.querySelector("#sideNav");
 sideNav.ontransitionstart = () => {
-  if (screen.width > 1000) {
-    $(".eventLinkDate").fadeIn(400);
-    $(".eventLink").fadeIn(400);
-  }
+  $(".eventLinkDate").fadeIn(400);
+  $(".eventLink").fadeIn(400);
 };
 
 function selectCard(index) {
