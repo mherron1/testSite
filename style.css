@@ -824,6 +824,7 @@ input:checked + .slider:before {
     line-height: 40px;
     font-size: 25px;
   }
+
   h2 {
     font-size: 28px;
     font-weight: 100;
