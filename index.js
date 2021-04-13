@@ -126,10 +126,10 @@ function switchIcon() {
   if (screen.width < 1000) {
     let sideNav = document.querySelector("#sideNav");
     $("#hamburger-1").toggleClass("is-active");
-    if (sideNav.style.width === "75%") {
+    if (sideNav.style.right === "0px") {
       $("#dim").fadeOut(300);
     }
-    sideNav.style.width = "0%";
+    sideNav.style.right = "-350px";
     eventList.innerHTML = ``;
   }
 }
@@ -140,15 +140,19 @@ $(document).ready(function () {
   });
 });
 
+if (screen.width > 500) {
+  eventList.innerHTML = ``;
+}
+
 function toggleSideNav() {
+  console.log("toggle");
   navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.width === "75%") {
-    eventList.innerHTML = ``;
-    sideNav.style.width = "0%";
+  if (sideNav.style.right === "0px") {
+    sideNav.style.right = "-350px";
     $("#dim").fadeOut(300);
   } else {
-    sideNav.style.width = "75%";
+    sideNav.style.right = "0px";
     $("#dim").fadeIn(300);
     generateLinks();
   }
@@ -179,11 +183,6 @@ function generateLinks() {
   `;
   }
 }
-
-let sideNav = document.querySelector("#sideNav");
-sideNav.ontransitionstart = () => {
-  $(".eventLinkDate").fadeIn(400);
-};
 
 function selectCard(index) {
   if (screen.width < 1000) {
@@ -358,9 +357,9 @@ function toggleSettings() {
   }
 
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.width === "75%") {
+  if (sideNav.style.right === "0px") {
     eventList.innerHTML = ``;
-    sideNav.style.width = "0%";
+    sideNav.style.right = "-350px";
     $("#dim").fadeOut(300);
 
     hamburger.classList.remove("is-active");
