@@ -65,14 +65,14 @@ function create() {
   }
 
   let sideNav = document.querySelector("#sideNav");
+  let elink = document.querySelector(".eventLink");
+  let elinkDate = document.querySelector(".eventLinkDate");
   sideNav.ontransitionstart = () => {
-    let elink = document.querySelector("#eventLink");
-    let elinkDate = document.querySelector("#eventLinkDate");
-    if (elink.styl.opacity === "0") {
+    if (elink.style.opacity === "0") {
       elink.styl.opacity = "1";
-      elinkDate.styl.opacity = "1";
+      elinkDate.style.opacity = "1";
     } else {
-      elink.styl.opacity = "0";
+      elink.style.opacity = "0";
       elinkDate.styl.opacity = "0";
     }
   };
@@ -256,6 +256,7 @@ function selectCard(index) {
   if (screen.width < 1000) {
     toggleSideNav();
   }
+
   i = index;
   navigator.vibrate(40);
   pausecomp(50);
