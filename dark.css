@@ -106,10 +106,12 @@ h2 {
 #mainTimeMinus1 {
   text-align: center;
   position: relative;
-  margin: 10px;
+  padding: 5px;
   font-weight: bold;
   font-size: 1.15rem;
   color: #d2af4b;
+  border-bottom: 4px solid black;
+  border-top: 6px solid black;
 }
 
 #expandLess,
@@ -119,7 +121,7 @@ h2 {
   font-size: 30px;
   font-weight: lighter;
   right: 6px;
-  bottom: -4px;
+  bottom: 1px;
   color: silver;
   display: none;
 }
@@ -129,6 +131,7 @@ h2 {
 #expandMinus1:hover {
   cursor: pointer;
   display: none;
+  bottom: 1px;
 }
 #expandMore,
 #expandPlus1,
@@ -139,12 +142,14 @@ h2 {
   right: 6px;
   bottom: -4px;
   color: silver;
+  bottom: 1px;
 }
 
 #expandMore,
 #expandPlus1,
 #expandMinus1:hover {
   cursor: pointer;
+  bottom: 1px;
 }
 
 #mainCard,
@@ -160,10 +165,13 @@ h2 {
 #prelimsTimePlus1,
 #prelimsTimeMinus1 {
   text-align: center;
-  margin: 10px;
+  position: relative;
+  padding: 5px;
   font-weight: bold;
   font-size: 1.15rem;
   color: #d2af4b;
+  border-bottom: 4px solid black;
+  border-top: 6px solid black;
 }
 
 #prelimsCard,
@@ -197,6 +205,8 @@ h2 {
   padding: 8px;
   text-align: center;
   background-color: #242424;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
 }
 
 .middle:nth-child(even),
@@ -224,7 +234,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   display: none;
 }
 .detailsRight,
@@ -233,7 +243,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   display: none;
 }
 .detailsMiddle,
@@ -244,6 +254,8 @@ h2 {
   display: flex;
   justify-content: space-around;
   display: none;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
 }
 /*side nav*/
 
@@ -254,7 +266,7 @@ h2 {
   width: 0%;
   max-width: 350px;
   min-height: 100vh;
-  background-color: rgb(14, 14, 14);
+  background-color: #161616;
   transition-duration: 0.3s;
   z-index: 100;
 }
@@ -276,12 +288,11 @@ h2 {
 
 .eventLink {
   min-width: 300;
-  border-right: 15px solid transparent;
-  border-left: 15px solid transparent;
-  margin-left: 5px;
-  padding-top: 8px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 12px;
   padding-bottom: 8px;
-  border-bottom: 1px solid rgba(85, 85, 85, 0.233);
+  border-bottom: 1px solid rgba(124, 124, 124, 0.233);
   box-sizing: content-box;
 }
 
@@ -528,7 +539,7 @@ li span {
   top: 0;
   bottom: 0;
   background-color: black;
-  opacity: 0.25;
+  opacity: 0.5;
   z-index: 100;
   display: none;
 }
@@ -565,9 +576,9 @@ li span {
 
 #settingsIcon {
   font-size: 30px;
-  color: rgb(255, 255, 255);
+  color: rgb(223, 223, 223);
   margin-right: 75%;
-  transform: translateY(-60px);
+  transform: translateY(-50px);
 }
 
 #closeSettings {
@@ -678,7 +689,6 @@ input:checked + .slider:before {
     border-left: 15px solid transparent;
     padding-top: 12px;
     padding-bottom: 8px;
-    border-bottom: 1px solid rgba(44, 44, 44, 0.322);
     box-sizing: content-box;
   }
 }
@@ -716,7 +726,6 @@ input:checked + .slider:before {
     border-left: 15px solid transparent;
     padding-top: 12px;
     padding-bottom: 8px;
-    border-bottom: 1px solid rgba(243, 243, 243, 0.925);
     box-sizing: content-box;
   }
 }
@@ -846,11 +855,11 @@ input:checked + .slider:before {
     min-width: 300px;
     text-align: center;
     line-height: 40px;
-    font-size: 25px;
+    font-size: 2px;
   }
   h2 {
-    font-size: 28px;
-    font-weight: 100;
+    font-size: 30px;
+    font-weight: lighter;
   }
   #settings {
     position: fixed;

@@ -108,6 +108,58 @@ function toggleD() {
       detail.style.display = "flex";
     }
   });
+
+  ////
+  let detailsLeftMinus1 = document.querySelectorAll(`.detailsLeftMinus1`);
+  detailsLeftMinus1.forEach((detail) => {
+    if (detail.style.display === "flex") {
+      detail.style.display = "none";
+    } else {
+      detail.style.display = "flex";
+    }
+  });
+  let detailsRightMinus1 = document.querySelectorAll(`.detailsRightMinus1`);
+  detailsRightMinus1.forEach((detail) => {
+    if (detail.style.display === "flex") {
+      detail.style.display = "none";
+    } else {
+      detail.style.display = "flex";
+    }
+  });
+  let detailsMiddleMinus1 = document.querySelectorAll(`.detailsMiddleMinus1`);
+  detailsMiddleMinus1.forEach((detail) => {
+    if (detail.style.display === "flex") {
+      detail.style.display = "none";
+    } else {
+      detail.style.display = "flex";
+    }
+  });
+
+  //////
+  let detailsLeftPlus1 = document.querySelectorAll(`.detailsLeftPlus1`);
+  detailsLeftPlus1.forEach((detail) => {
+    if (detail.style.display === "flex") {
+      detail.style.display = "none";
+    } else {
+      detail.style.display = "flex";
+    }
+  });
+  let detailsRightPlus1 = document.querySelectorAll(`.detailsRightPlus1`);
+  detailsRightPlus1.forEach((detail) => {
+    if (detail.style.display === "flex") {
+      detail.style.display = "none";
+    } else {
+      detail.style.display = "flex";
+    }
+  });
+  let detailsMiddlePlus1 = document.querySelectorAll(`.detailsMiddlePlus1`);
+  detailsMiddlePlus1.forEach((detail) => {
+    if (detail.style.display === "flex") {
+      detail.style.display = "none";
+    } else {
+      detail.style.display = "flex";
+    }
+  });
 }
 
 function showPoster() {
@@ -143,12 +195,12 @@ $(document).ready(function () {
 function toggleSideNav() {
   navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.width === "70%") {
+  if (sideNav.style.width === "75%") {
     eventList.innerHTML = ``;
     sideNav.style.width = "0%";
     $("#dim").fadeOut(300);
   } else {
-    sideNav.style.width = "70%";
+    sideNav.style.width = "75%";
     $("#dim").fadeIn(300);
     generateLinks();
   }
@@ -191,6 +243,7 @@ function selectCard(index) {
   }
   i = index;
   navigator.vibrate(40);
+  pausecomp(500);
   create();
 
   document.querySelector("#hamburger-1").classList = "hamburger";
@@ -366,6 +419,8 @@ function toggleSettings() {
 }
 
 function toggleStyleSheets() {
+  navigator.vibrate(40);
+
   let stylesheet = document.getElementById("pagestyle");
   if (stylesheet.href.toString().includes("style")) {
     document.getElementById("pagestyle").setAttribute("href", "dark.css");
@@ -529,12 +584,24 @@ function generateCard(i, arg) {
       $(".detailsLeft").css("display", "flex");
       $(".detailsRight").css("display", "flex");
       $(".detailsMiddle").css("display", "flex");
+      $(".detailsLeftMinus1").css("display", "flex");
+      $(".detailsRightMinus1").css("display", "flex");
+      $(".detailsMiddleMinus1").css("display", "flex");
+      $(".detailsLeftPlus1").css("display", "flex");
+      $(".detailsRightPlus1").css("display", "flex");
+      $(".detailsMiddlePlus1").css("display", "flex");
     } else if (localStorage.getItem("details") === "n") {
       let details = document.querySelector("#details");
       details.checked = false;
       $(".detailsLeft").css("display", "none");
       $(".detailsRight").css("display", "none");
-      $(".details").css("display", "none");
+      $(".detailsMiddle").css("display", "none");
+      $(".detailsLeftMinus1").css("display", "none");
+      $(".detailsRightMinus1").css("display", "none");
+      $(".detailsMiddleMinus1").css("display", "none");
+      $(".detailsLeftPlus1").css("display", "none");
+      $(".detailsRightPlus1").css("display", "none");
+      $(".detailsMiddlePlus1").css("display", "none");
     }
   }
 }
@@ -602,6 +669,7 @@ function changeSettings() {
 }
 
 function forceToggleAll() {
+  navigator.vibrate(40);
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
   let bellator = document.querySelector("#bellatorInput");
@@ -625,6 +693,7 @@ function forceToggleAll() {
 }
 
 function forceToggle() {
+  navigator.vibrate(40);
   console.log("test");
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
@@ -643,10 +712,19 @@ function forceToggle() {
 }
 
 function showDetailsSettings() {
+  navigator.vibrate(40);
   if (localStorage.getItem("details") === "y") {
     localStorage.setItem("details", "n");
   } else {
     localStorage.setItem("details", "y");
   }
   toggleD();
+}
+
+function pausecomp(millis) {
+  var date = new Date();
+  var curDate = null;
+  do {
+    curDate = new Date();
+  } while (curDate - date < millis);
 }
