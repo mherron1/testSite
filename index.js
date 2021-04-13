@@ -65,6 +65,11 @@ function create() {
   }
 }
 
+if (navigator.appCodeName.toLowerCase().includes("samsung")) {
+  document.querySelector("#eventLinkDate").style.opacity = "1";
+  document.querySelector("#eventLnk").style.opacity = "1";
+}
+
 ////////////////////////////////  End of card function
 
 function next() {
