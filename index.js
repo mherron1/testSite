@@ -63,11 +63,19 @@ function create() {
   if (screen.width > 1000) {
     generateLinks(i);
   }
-}
 
-if (navigator.appCodeName.toLowerCase().includes("samsung")) {
-  document.querySelector("#eventLinkDate").style.opacity = "1";
-  document.querySelector("#eventLnk").style.opacity = "1";
+  let sideNav = document.querySelector("#sideNav");
+  sideNav.ontransitionstart = () => {
+    let elink = document.querySelector("#eventLink");
+    let elinkDate = document.querySelector("#eventLinkDate");
+    if (elink.styl.opacity === "0") {
+      elink.styl.opacity = "1";
+      elinkDate.styl.opacity = "1";
+    } else {
+      elink.styl.opacity = "0";
+      elinkDate.styl.opacity = "0";
+    }
+  };
 }
 
 ////////////////////////////////  End of card function
