@@ -8,6 +8,7 @@ if (localStorage.getItem("dark-mode") !== null) {
 
 let i = 0;
 let events = data2;
+let oddsType = "line";
 create();
 
 function create() {
@@ -519,13 +520,89 @@ function generateCard(i, arg) {
   let mainCard = document.querySelector(`#mainCard${arg}`);
 
   for (let j = 0; j < mainCardSize; j++) {
+    let leftOdds = "";
+    let rightOdds = "";
+    let colorA = "green";
+    let colorB = "green";
+
+    let showOdds = true;
+
+    if (true) {
+      odds.forEach((item) => {
+        let name1 = item.name.replace(/'/g, "").toLowerCase();
+        let fighterA = events[i][3][j]["fighterA"]
+          .replace(/'/g, "")
+          .toLowerCase();
+        let fighterB = events[i][3][j]["fighterB"]
+          .replace(/'/g, "")
+          .toLowerCase();
+
+        if (
+          name1.length === fighterA.length &&
+          name1[0] === fighterA[0] &&
+          name1[name1.length - 1] === fighterA[fighterA.length - 1]
+        ) {
+          leftOdds = item.odds;
+        }
+        if (
+          name1.length === fighterB.length &&
+          name1[0] === fighterB[0] &&
+          name1[name1.length - 1] === fighterB[fighterB.length - 1]
+        ) {
+          rightOdds = item.odds;
+        }
+      });
+      if (leftOdds.toString() === "" || rightOdds.toString() === "") {
+        leftOdds = "";
+        rightOdds = "";
+      } else {
+        converter();
+
+        function converter() {
+          if (oddsType === "line") {
+            if (leftOdds < rightOdds && rightOdds >= 2) {
+              colorB = "#CD5C5C";
+              rightOdds = "+" + parseInt((rightOdds - 1) * 100);
+              leftOdds = parseInt(-100 / (leftOdds - 1));
+            } else if (leftOdds > rightOdds && leftOdds >= 2) {
+              colorA = "#CD5C5C";
+              leftOdds = "+" + parseInt((leftOdds - 1) * 100);
+              rightOdds = parseInt(-100 / (rightOdds - 1));
+            } else {
+              colorA = "skyblue";
+              colorB = "skyblue";
+              rightOdds = "EVS";
+              leftOdds = "EVS";
+            }
+            if (leftOdds === 100 || leftOdds === "100") {
+              leftOdds = "";
+            }
+            if (rightOdds === 100 || leftOdds === "100") {
+              rightOdds = "";
+            }
+          } else if (oddsType === "dec") {
+            if (leftOdds < rightOdds && rightOdds >= 2) {
+              colorB = "#CD5C5C";
+            } else if (leftOdds > rightOdds && leftOdds >= 2) {
+              colorA = "#CD5C5C";
+            } else {
+              colorA = "skyblue";
+              colorB = "skyblue";
+              rightOdds = "EVS";
+              leftOdds = "EVS";
+            }
+          }
+        }
+      }
+    }
+
     mainCard.innerHTML += `
   <div class="left">
     <div>
       <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
     </div>
     <div class="detailsLeft${arg}">
-      <div style="color:rgb(214, 76, 76);font-size: 0.9rem;">-125</div>
+      <div>${leftOdds}</div>
       <div>${events[i][3][j].rankA}</div>
       <div>${events[i][3][j].recordA}</div>
     </div>
@@ -541,7 +618,7 @@ function generateCard(i, arg) {
     <div class="detailsRight${arg}">
       <div>${events[i][3][j].recordB}</div>
       <div>${events[i][3][j].rankB}</div>
-      <div style="color:green;font-size: 0.9rem;">+125</div>        
+      <div>${rightOdds}</div>        
     </div>
   </div>
   `;
@@ -554,28 +631,108 @@ function generateCard(i, arg) {
   let prelimsCard = document.querySelector(`#prelimsCard${arg}`);
 
   for (let j = mainCardSize; j < events[i][3].length; j++) {
+    let leftOdds = "";
+    let rightOdds = "";
+    let colorA = "green";
+    let colorB = "green";
+
+    let showOdds = true;
+
+    if (true) {
+      odds.forEach((item) => {
+        let name1 = item.name.replace(/'/g, "").toLowerCase();
+        let fighterA = events[i][3][j]["fighterA"]
+          .replace(/'/g, "")
+          .toLowerCase();
+        let fighterB = events[i][3][j]["fighterB"]
+          .replace(/'/g, "")
+          .toLowerCase();
+
+        if (
+          name1.length === fighterA.length &&
+          name1[0] === fighterA[0] &&
+          name1[name1.length - 1] === fighterA[fighterA.length - 1]
+        ) {
+          leftOdds = item.odds;
+        }
+        if (
+          name1.length === fighterB.length &&
+          name1[0] === fighterB[0] &&
+          name1[name1.length - 1] === fighterB[fighterB.length - 1]
+        ) {
+          rightOdds = item.odds;
+        }
+      });
+      if (leftOdds.toString() === "" || rightOdds.toString() === "") {
+        leftOdds = "";
+        rightOdds = "";
+      } else {
+        converter();
+
+        function converter() {
+          if (oddsType === "line") {
+            if (leftOdds < rightOdds && rightOdds >= 2) {
+              colorB = "#CD5C5C";
+              rightOdds = "+" + parseInt((rightOdds - 1) * 100);
+              leftOdds = parseInt(-100 / (leftOdds - 1));
+            } else if (leftOdds > rightOdds && leftOdds >= 2) {
+              colorA = "#CD5C5C";
+              leftOdds = "+" + parseInt((leftOdds - 1) * 100);
+              rightOdds = parseInt(-100 / (rightOdds - 1));
+            } else {
+              colorA = "skyblue";
+              colorB = "skyblue";
+              rightOdds = "EVS";
+              leftOdds = "EVS";
+            }
+            if (leftOdds === 100 || leftOdds === "100") {
+              leftOdds = "";
+            }
+            if (rightOdds === 100 || leftOdds === "100") {
+              rightOdds = "";
+            }
+          } else if (oddsType === "dec") {
+            if (leftOdds < rightOdds && rightOdds >= 2) {
+              colorB = "#CD5C5C";
+            } else if (leftOdds > rightOdds && leftOdds >= 2) {
+              colorA = "#CD5C5C";
+            } else {
+              colorA = "skyblue";
+              colorB = "skyblue";
+              rightOdds = "EVS";
+              leftOdds = "EVS";
+            }
+          }
+        }
+      }
+    }
+
     prelimsCard.innerHTML += `
-  <div class="left">
-    <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
-    <div class="detailsLeft${arg}">
-      <div style="color:rgb(214, 76, 76);font-size: 0.9rem;">-125</div>
-      <div>${events[i][3][j].rankA}</div>
-      <div>${events[i][3][j].recordA}</div>
+    <div class="left">
+      <div>
+        <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
+      </div>
+      <div class="detailsLeft${arg}">
+        <div>${leftOdds}</div>
+        <div>${events[i][3][j].rankA}</div>
+        <div>${events[i][3][j].recordA}</div>
+      </div>
     </div>
-  </div>
-  <div class="middle">vs
-   <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
-  </div>
-   
-  <div  class="right">
-    <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
-    <div class="detailsRight${arg}">
-      <div>${events[i][3][j].recordB}</div>
-      <div>${events[i][3][j].rankB}</div>
-      <div style="color:green;font-size: 0.9rem;">+125</div>        
+    <div  class="middle">vs
+     <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
     </div>
-  </div>
-`;
+     
+    <div  class="right">
+      <div>
+        <a href="${events[i][3][j].fighterBLink}">${events[i][3][j].fighterB}</a>
+        
+      <div class="detailsRight${arg}">
+        <div>${events[i][3][j].recordB}</div>
+        <div>${events[i][3][j].rankB}</div>
+        <div>${rightOdds}</div>        
+      </div>
+    </div>
+    `;
   }
 
   if (localStorage.getItem("details") !== null) {
@@ -728,4 +885,13 @@ function pausecomp(millis) {
   do {
     curDate = new Date();
   } while (curDate - date < millis);
+}
+
+function toggelOddsType() {
+  console.log("clicked");
+  if (oddsType === "dec") {
+    oddsType = "line";
+  } else {
+    oddsType = "dec";
+  }
 }
