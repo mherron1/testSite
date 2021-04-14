@@ -116,7 +116,7 @@ h2 {
   font-size: 1.15rem;
   color: #d2af4b;
   border-bottom: 4px solid black;
-  border-top: 6px solid black;
+
   background-color: #141414;
 }
 
@@ -636,18 +636,18 @@ li span {
 }
 
 input:checked + .slider {
-  background-color: #c0ddff;
+  background-color: #ffc0c0;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px #ffa9a9;
 }
 
 input:checked + .slider:before {
   -webkit-transform: translate(13px, 5px);
   -ms-transform: translate(13px, 5px);
   transform: translate(13px, 5px);
-  background-color: rgb(35, 86, 196);
+  background-color: rgb(238, 89, 89);
 }
 
 /* Rounded sliders */
@@ -749,6 +749,7 @@ input:checked + .slider:before {
 
 @media only screen and (min-width: 750px) {
   html {
+    zoom: 1.2;
     height: 100%;
     background-color: #ebebeb;
   }
@@ -757,30 +758,40 @@ input:checked + .slider:before {
   }
   #sideNav {
     position: absolute;
+    color: rgb(255, 255, 255);
     top: 0;
     bottom: 0;
     right: 0%;
     width: 270px;
     max-width: 260px;
-    background-color: #181818;
+    background-color: #202020;
     border-left: 1px solid black;
     min-height: 1300px;
   }
   #content {
     min-height: 1300px;
     background-color: #181818;
+    min-height: 1300px;
   }
-
   #settings {
+    top: 0;
     transition-duration: 0s;
     width: 260px;
     right: 0;
+  }
+  .setting {
+    margin-left: 10px;
   }
   #settingsIcon:hover {
     cursor: pointer;
   }
   #closeSettings:hover {
     cursor: pointer;
+  }
+  #closeSettings {
     position: absolute;
+  }
+  .setting {
+    transform: scale(0.75);
   }
 }

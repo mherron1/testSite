@@ -412,7 +412,7 @@ let ufcRankings = [
     rank: "12",
   },
   {
-    name: "Jim Crute",
+    name: "Jimmy Crute",
     rank: "13",
   },
   {
@@ -756,7 +756,7 @@ let ufcRankings = [
     rank: "C",
   },
   {
-    name: "Zhang Weili",
+    name: "Weili Zhang",
     rank: "C",
   },
   {
@@ -779,15 +779,6 @@ data2.forEach((event) => {
   for (let i = 0; i < event[3].length; i++) {
     event[3][i].rankA = "";
     event[3][i].rankB = "";
-
-    ufcRankings.forEach((obj) => {
-      if (obj.name === event[3][i].fighterA) {
-        event[3][i].rankA = obj.rank;
-      }
-      if (obj.name === event[3][i].fighterB) {
-        event[3][i].rankB = obj.rank;
-      }
-    });
   }
 
   let tempTime =
