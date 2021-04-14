@@ -862,7 +862,7 @@ function forceToggle() {
 }
 
 function showDetailsSettings() {
-  navigator.vibrate(40);
+  //navigator.vibrate(40);
   if (localStorage.getItem("details") === "y") {
     localStorage.setItem("details", "n");
   } else {

@@ -92,8 +92,8 @@ h2 {
 #imageContainerPlus1,
 #imageContainerMinus1 {
   position: relative;
-  max-height: 180px;
-  min-height: 180px;
+  max-height: 210px;
+  min-height: 210px;
   overflow: hidden;
 }
 
