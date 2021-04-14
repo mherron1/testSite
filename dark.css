@@ -48,12 +48,11 @@ body {
 
 #content {
   position: absolute;
-  background-color: #141414;
   left: 0;
+  background-color: #121212;
   height: 100vh;
   z-index: 10;
 }
-
 #contentMinus1 {
   position: absolute;
   background-color: #141414;
@@ -93,8 +92,8 @@ h2 {
 #imageContainerPlus1,
 #imageContainerMinus1 {
   position: relative;
-  max-height: 210px;
-  min-height: 210px;
+  max-height: 180px;
+  min-height: 180px;
   overflow: hidden;
 }
 
@@ -127,6 +126,7 @@ h2 {
   text-align: center;
   position: relative;
   padding: 5px;
+  padding-top: px;
   font-weight: bold;
   font-size: 1.15rem;
   color: #d2af4b;
@@ -283,6 +283,7 @@ h2 {
   position: absolute;
   color: rgb(255, 255, 255);
   top: 0;
+  bottom: 0;
   right: 0%;
   width: 0%;
   max-width: 350px;
@@ -562,24 +563,24 @@ li span {
   top: 0;
   bottom: 0;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.05;
   z-index: 100;
   display: none;
 }
 
 #settings {
   position: absolute;
-  background-color: #000000;
+  background-color: black;
   width: 100%;
   height: 0vh;
   bottom: 0;
   z-index: 100000;
-  transition: 0.25s;
+  transition: 0.4s;
   overflow: hidden;
 }
 
 #settingsHeader {
-  margin-top: 75px;
+  margin-top: 100px;
   margin-bottom: 20px;
   width: 100%;
   text-align: center;
@@ -696,8 +697,8 @@ input:checked + .slider:before {
     font-size: 1.2rem;
   }
   #eventList {
-    font-size: 1.1rem;
-    margin-top: 90px;
+    font-size: 1rem;
+    margin-top: 75px;
     text-align: right;
   }
 
@@ -705,9 +706,24 @@ input:checked + .slider:before {
     min-width: 300;
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
-    padding-top: 12px;
-    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 4px;
     box-sizing: content-box;
+  }
+  .setting {
+    font-size: 1.1rem;
+    padding: 9px;
+    margin-left: 15px;
+  }
+  .switch {
+    transform: scale(1.1);
+    margin-right: 30px;
+  }
+  .eventLink {
+    font-size: 1rem;
+  }
+  .socialIcon {
+    max-height: 40px;
   }
 }
 
@@ -734,7 +750,7 @@ input:checked + .slider:before {
   }
   #eventList {
     font-size: 1.05rem;
-    margin-top: 80px;
+    margin-top: 75px;
     text-align: right;
   }
 
@@ -745,6 +761,21 @@ input:checked + .slider:before {
     padding-top: 12px;
     padding-bottom: 8px;
     box-sizing: content-box;
+  }
+  .setting {
+    font-size: 0.9rem;
+    padding: 9px;
+    margin-left: 15px;
+  }
+  .switch {
+    transform: scale(0.9);
+    margin-right: 30px;
+  }
+  .eventLink {
+    font-size: 0.85rem;
+  }
+  .socialIcon {
+    max-height: 40px;
   }
 }
 

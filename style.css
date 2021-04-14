@@ -554,7 +554,7 @@ li span {
 }
 
 #settingsHeader {
-  margin-top: 75px;
+  margin-top: 100px;
   margin-bottom: 20px;
   width: 100%;
   text-align: center;
@@ -675,8 +675,8 @@ input:checked + .slider:before {
     font-size: 1.05rem;
   }
   #eventList {
-    font-size: 1.1rem;
-    margin-top: 90px;
+    font-size: 1rem;
+    margin-top: 75px;
     text-align: right;
   }
 
@@ -684,10 +684,24 @@ input:checked + .slider:before {
     min-width: 300;
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
-    padding-top: 12px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid rgba(243, 243, 243, 0.925);
+    padding-top: 8px;
+    padding-bottom: 4px;
     box-sizing: content-box;
+  }
+  .setting {
+    font-size: 1.1rem;
+    padding: 9px;
+    margin-left: 15px;
+  }
+  .switch {
+    transform: scale(1.1);
+    margin-right: 30px;
+  }
+  .eventLink {
+    font-size: 1rem;
+  }
+  .socialIcon {
+    max-height: 40px;
   }
 }
 
@@ -702,9 +716,9 @@ input:checked + .slider:before {
   #mainCardPlus1 {
     font-size: 0.9rem;
   }
-  #prelisTime,
-  #prelisTimeMinus1,
-  #prelisTimePlus1 {
+  #prelimsTime,
+  #prelimsTimeMinus1,
+  #prelimsTimePlus1 {
     font-size: 0.9rem;
   }
   #prelimsCard,
@@ -714,7 +728,7 @@ input:checked + .slider:before {
   }
   #eventList {
     font-size: 1.05rem;
-    margin-top: px;
+    margin-top: 80px;
     text-align: right;
   }
 
@@ -724,26 +738,24 @@ input:checked + .slider:before {
     border-left: 15px solid transparent;
     padding-top: 12px;
     padding-bottom: 8px;
-    border-bottom: 1px solid rgba(243, 243, 243, 0.925);
     box-sizing: content-box;
   }
+  .setting {
+    font-size: 0.9rem;
+    padding: 9px;
+    margin-left: 15px;
+  }
+  .switch {
+    transform: scale(0.9);
+    margin-right: 30px;
+  }
+  .eventLink {
+    font-size: 0.85rem;
+  }
+  .socialIcon {
+    max-height: 40px;
+  }
 }
-
-@media only screen and (min-width: 475px) {
-  html {
-    background-color: #242424;
-  }
-
-  body {
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    height: 100%;
-  }
-  #dim {
-    visibility: hidden;
-  }
-}
-
 @media only screen and (min-width: 750px) {
   html {
     zoom: 1.2;
