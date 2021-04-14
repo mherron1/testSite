@@ -209,8 +209,7 @@ h2 {
 .left,
 .leftPlus1,
 .leftMinus1 {
-  padding: 5px;
-  padding-left: 0;
+  padding: 7px;
   text-align: right;
   padding-right: 8px;
   background-color: #242424;
@@ -225,7 +224,7 @@ h2 {
 .middle,
 .middlePlus1,
 .middleMinus1 {
-  padding: 5px;
+  padding: 8px;
   text-align: center;
   background-color: #242424;
   border-right: 4px solid black;
@@ -240,8 +239,7 @@ h2 {
 .right,
 .rightPlus1,
 .rightMinus1 {
-  padding: 5px;
-  padding-right: 0;
+  padding: 7px;
   text-align: left;
   padding-left: 8px;
   background-color: #242424;
@@ -651,18 +649,18 @@ li span {
 }
 
 input:checked + .slider {
-  background-color: #cea3a3;
+  background-color: #a88f8f;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #a19090;
+  box-shadow: 0 0 1px #ecb7b7;
 }
 
 input:checked + .slider:before {
   -webkit-transform: translate(13px, 5px);
   -ms-transform: translate(13px, 5px);
   transform: translate(13px, 5px);
-  background-color: rgb(192, 160, 54);
+  background-color: rgb(143, 44, 44);
 }
 
 /* Rounded sliders */
@@ -865,21 +863,21 @@ input:checked + .slider:before {
 }
 
 #countToggleMain {
-  display: none;
+  display: block;
   text-align: center;
   width: 70px;
 }
 
-#countToggleMain {
+#countTogglePrelims {
   display: none;
   text-align: center;
   width: 70px;
 }
 
 .x {
-  background-color: #181818;
-  color: rgb(131, 131, 131);
-  height: 20px;
+  background-color: #ececec;
+  color: rgb(201, 201, 201);
+  height: 18px;
   width: 100%;
   font-weight: normal;
   font-size: 12px;
@@ -887,9 +885,9 @@ input:checked + .slider:before {
   margin: auto;
 }
 .y {
-  background-color: rgb(211, 178, 32);
+  background-color: #ececec;
   color: rgb(0, 0, 0);
-  height: 20px;
+  height: 18px;
   width: 100%;
   font-weight: normal;
   font-size: 12px;

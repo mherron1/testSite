@@ -837,8 +837,8 @@ input:checked + .slider:before {
 }
 
 .x {
-  background-color: #ffffff;
-  color: #000;
+  background-color: #ececec;
+  color: rgb(201, 201, 201);
   height: 18px;
   width: 100%;
   font-weight: normal;
@@ -847,8 +847,8 @@ input:checked + .slider:before {
   margin: auto;
 }
 .y {
-  background-color: #fdfdfdf8;
-  color: black;
+  background-color: #ececec;
+  color: rgb(0, 0, 0);
   height: 18px;
   width: 100%;
   font-weight: normal;
