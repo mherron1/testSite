@@ -709,8 +709,15 @@ input:checked + .slider:before {
   #mainTime,
   #mainTimeMinus1,
   #mainTimePlus1 {
+    padding: 6px;
+    padding-top: 9px;
     font-size: 0.9rem;
   }
+
+  #hamburger-1 {
+    top: -6px;
+  }
+
   #mainCard,
   #mainCardMinus1,
   #mainCardPlus1 {
@@ -728,7 +735,7 @@ input:checked + .slider:before {
   }
   #eventList {
     font-size: 1.05rem;
-    margin-top: 80px;
+    margin-top: 75px;
     text-align: right;
   }
 
@@ -754,6 +761,21 @@ input:checked + .slider:before {
   }
   .socialIcon {
     max-height: 40px;
+  }
+  #settingsHeader {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  #mainHeader {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #imageContainer {
+    max-height: 190px;
+    min-height: 190px;
   }
 }
 @media only screen and (min-width: 750px) {

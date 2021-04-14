@@ -85,14 +85,13 @@ function next() {
     i = 0;
   }
   create();
-  console.log(i);
 }
 function back() {
   i--;
   if (i < 0) {
     i = events.length - 1;
   }
-  console.log(i);
+
   create();
 }
 function toggleD() {
@@ -379,7 +378,6 @@ function resetDivCSS() {
 }
 
 function toggleSettings() {
-  console.log("hi");
   //window.navigator.vibrate(40);
   $("#hamburger-1").toggle();
 
@@ -844,7 +842,7 @@ function forceToggleAll() {
 
 function forceToggle() {
   //navigator.vibrate(40);
-  console.log("test");
+
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
   let bellator = document.querySelector("#bellatorInput");
@@ -885,7 +883,7 @@ function toggelOddsType() {
   } else {
     localStorage.setItem("oddsType", "line");
   }
-  console.log("clicked");
+
   if (oddsType === "dec") {
     oddsType = "line";
   } else {

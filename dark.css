@@ -92,8 +92,8 @@ h2 {
 #imageContainerPlus1,
 #imageContainerMinus1 {
   position: relative;
-  max-height: 210px;
-  min-height: 210px;
+  max-height: 190px;
+  min-height: 190px;
   overflow: hidden;
 }
 
@@ -731,8 +731,15 @@ input:checked + .slider:before {
   #mainTime,
   #mainTimeMinus1,
   #mainTimePlus1 {
+    padding: 6px;
+    padding-top: 9px;
     font-size: 0.9rem;
   }
+
+  #hamburger-1 {
+    top: -6px;
+  }
+
   #mainCard,
   #mainCardMinus1,
   #mainCardPlus1 {
@@ -777,6 +784,21 @@ input:checked + .slider:before {
   .socialIcon {
     max-height: 40px;
   }
+  #settingsHeader {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  #mainHeader {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #imageContainer {
+    max-height: 190px;
+    min-height: 190px;
+  }
 }
 
 @media only screen and (min-width: 475px) {
@@ -797,7 +819,7 @@ input:checked + .slider:before {
   html {
     zoom: 1.2;
     height: 100%;
-    background-color: #ebebeb;
+    background-color: #727272;
   }
   body {
     max-width: 750px;
