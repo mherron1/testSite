@@ -19,6 +19,12 @@ if (localStorage.getItem("oddsType") !== null) {
 let i = 0;
 let events = data2;
 
+if (visualViewport.width > 1000) {
+  document.querySelector("#sideNav").classList.add("notransitions");
+  document.querySelector("#hamburger-1").style.display = "none";
+  generateLinks();
+}
+
 create();
 
 function create() {
@@ -69,10 +75,6 @@ function create() {
   generateCard(i, "");
   generateCard(i - 1, "Minus1");
   generateCard(i + 1, "Plus1");
-
-  if (screen.width > 1000) {
-    generateLinks(i);
-  }
 }
 
 ////////////////////////////////  End of card function
@@ -388,7 +390,9 @@ function toggleSettings() {
     closeSettings.style.opacity = "0";
     closeSettings.style.right = "-58px";
   } else {
-    toggleSideNav();
+    if (visualViewport.width < 750) {
+      toggleSideNav();
+    }
     closeSettings.style.opacity = "1";
     closeSettings.style.right = "7px";
   }

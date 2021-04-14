@@ -20,98 +20,99 @@
 
   <div id="dim"  ontouchstart="toggleSideNav()"></div>
 
-  <div onclick="toggleSideNav()" class="hamburger" id="hamburger-1">
-    <span class="line"></span>
-    <span class="line"></span>
-    <span class="line"></span>
-  </div>
+
  
   <div id="displayCard">
+    <div id="sideNav">
+      <div id="eventList"></div>
+    </div>
+  
+    <div onclick="toggleSideNav()" class="hamburger" id="hamburger-1">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+    <div id="settings">
+      <i class="material-icons" id="closeSettings" onclick="changeSettings()">close</i>
+      <h3 id="settingsHeader">Settings</h3>
+        <div class="setting">
+          <div>All Events</div>
+          <label class="switch">
+            <input type="checkbox" id="allInput" onclick="forceToggleAll()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div >UFC</div>
+          <label class="switch">
+            <input type="checkbox" id="ufcInput" onclick="forceToggle()" >
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div >Bellator</div>
+          <label class="switch">
+            <input type="checkbox" id="bellatorInput" onclick="forceToggle()" >
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div >One FC</div>
+          <label class="switch">
+            <input type="checkbox" id="oneInput" onclick="forceToggle()"  >
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div >PFL</div>
+          <label class="switch">
+            <input type="checkbox" id="pflInput" onclick="forceToggle()" >
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="darkModeToggle"class="setting">
+          <div >Dark Mode</div>
+          <label class="switch">
+            <input type="checkbox" onclick="toggleStyleSheets()" id="darkInput">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div >Auto Expand</div>
+          <label class="switch">
+            <input type="checkbox" id="details" onclick="showDetailsSettings()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div >Display Countdown</div>
+          <label class="switch">
+            <input type="checkbox" id="showHideCountdown" >
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div >Decimal Odds</div>
+          <label class="switch">
+            <input type="checkbox" id="oddsTypeToggle" onclick="toggelOddsType()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+    
+    </div>
     <div id="contentMinus1"></div>
-      <div id="content" ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd(event)"></div>
-      <div id="contentPlus1"></div> 
-  </div>
-
-  <div id="sideNav">
-    <div id="eventList"></div>
+    <div id="content" ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd(event)"></div>
+    <div id="contentPlus1"></div> 
   </div>
 
    
   <br>
   <br>
 
-  <div id="settings">
-    <i class="material-icons" id="closeSettings" onclick="changeSettings()">close</i>
-    <h3 id="settingsHeader">Settings</h3>
-      <div class="setting">
-        <div>All Events</div>
-        <label class="switch">
-          <input type="checkbox" id="allInput" onclick="forceToggleAll()">
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <div class="setting">
-        <div >UFC</div>
-        <label class="switch">
-          <input type="checkbox" id="ufcInput" onclick="forceToggle()" >
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <div class="setting">
-        <div >Bellator</div>
-        <label class="switch">
-          <input type="checkbox" id="bellatorInput" onclick="forceToggle()" >
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <div class="setting">
-        <div >One FC</div>
-        <label class="switch">
-          <input type="checkbox" id="oneInput" onclick="forceToggle()"  >
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <div class="setting">
-        <div >PFL</div>
-        <label class="switch">
-          <input type="checkbox" id="pflInput" onclick="forceToggle()" >
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="setting">
-        <div >Dark Mode</div>
-        <label class="switch">
-          <input type="checkbox" onclick="toggleStyleSheets()" id="darkInput">
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <div class="setting">
-        <div >Auto Expand</div>
-        <label class="switch">
-          <input type="checkbox" id="details" onclick="showDetailsSettings()">
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <div class="setting">
-        <div >Display Countdown</div>
-        <label class="switch">
-          <input type="checkbox" id="showHideCountdown" >
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <div class="setting">
-        <div >Decimal Odds</div>
-        <label class="switch">
-          <input type="checkbox" id="oddsTypeToggle" onclick="toggelOddsType()">
-          <span class="slider round"></span>
-        </label>
-      </div>
   
-  </div>
 
 
 </body>
