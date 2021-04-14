@@ -826,31 +826,34 @@ input:checked + .slider:before {
 
 #countToggleMain {
   display: none;
+  width: 70px;
+  text-align: center;
 }
 
 #countTogglePrelims {
   display: block;
+  width: 70px;
+  text-align: center;
 }
 
 .x {
   background-color: #ffffff;
   color: #000;
-  height: 17px;
+  height: 18px;
   width: 100%;
   font-weight: normal;
-  font-size: 14px;
-  padding: 3px;
+  font-size: 12px;
+  line-height: 17px;
   margin: auto;
 }
 .y {
-  background-color: #f1f1f1f8;
-  height: 16px;
-  text-align: center;
-  color: rgb(22, 22, 22);
+  background-color: #fdfdfdf8;
+  color: black;
+  height: 18px;
   width: 100%;
-  font-size: 11px;
   font-weight: normal;
-  padding: 3px;
+  font-size: 12px;
+  line-height: 17px;
   margin: auto;
 }
 
@@ -864,5 +867,6 @@ input:checked + .slider:before {
 
 #toggleContainer {
   position: absolute;
-  top: 7px;
+  top: 8px;
+  cursor: pointer;
 }

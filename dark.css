@@ -499,8 +499,8 @@ ul {
 
 li {
   font-family: arial;
-  color: black;
-  background-color: rgb(255, 255, 255);
+  color: rgb(17, 17, 17);
+  background-color: #e2e2e2;
   display: inline-block;
   text-align: center;
   font-size: 9px;
@@ -515,9 +515,9 @@ li span {
   border-radius: 1px;
   display: block;
   font-size: 27px;
-  font-weight: normal;
+  font-weight: lighter;
   width: 30px;
-  color: black;
+  color: rgb(44, 44, 44);
   margin: 3px;
   padding: 0px 5px;
 }
@@ -538,7 +538,7 @@ li span {
   margin: auto;
 }
 .y {
-  background-color: #ff0000;
+  background-color: #000000;
   color: #8b8b8b;
   width: 100%;
   font-size: 13px;
@@ -662,7 +662,7 @@ input:checked + .slider:before {
   -webkit-transform: translate(13px, 5px);
   -ms-transform: translate(13px, 5px);
   transform: translate(13px, 5px);
-  background-color: rgb(192, 54, 54);
+  background-color: rgb(192, 160, 54);
 }
 
 /* Rounded sliders */
@@ -866,32 +866,34 @@ input:checked + .slider:before {
 
 #countToggleMain {
   display: none;
+  text-align: center;
+  width: 70px;
 }
 
-#countTogglePrelims {
-  display: block;
+#countToggleMain {
+  display: none;
+  text-align: center;
+  width: 70px;
 }
 
 .x {
-  background-color: #ffffff;
-  color: #000;
-  height: 16px;
+  background-color: #181818;
+  color: rgb(131, 131, 131);
+  height: 20px;
   width: 100%;
   font-weight: normal;
-  font-size: 14px;
-  padding: 3px;
+  font-size: 12px;
+  line-height: 17px;
   margin: auto;
 }
 .y {
-  background-color: #dddddd;
-  height: 16px;
-  text-align: center;
-  color: rgb(22, 22, 22);
+  background-color: rgb(211, 178, 32);
+  color: rgb(0, 0, 0);
+  height: 20px;
   width: 100%;
-  font-size: 11px;
   font-weight: normal;
-  padding: 0px 3px;
-  padding-top: 6px;
+  font-size: 12px;
+  line-height: 17px;
   margin: auto;
 }
 
@@ -906,4 +908,5 @@ input:checked + .slider:before {
 #toggleContainer {
   position: absolute;
   top: 8px;
+  cursor: pointer;
 }

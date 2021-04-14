@@ -362,6 +362,30 @@ function setCountdown() {
         (distance % hour) / minute
       ));
   }, second);
+
+  let prelimCountdown = events[i][1] - 1800000 * events[i][5];
+
+  document.getElementById("days2").innerText = "-";
+  document.getElementById("hours2").innerText = "-";
+  document.getElementById("minutes2").innerText = "-";
+
+  y = setInterval(function () {
+    let now = new Date().getTime(),
+      distance2 = prelimCountdown - now;
+    if (distance2 < 0) {
+      distance2 = 0;
+    }
+    if (distance2 > 8.64e9) {
+      document.getElementById("days2").style.width = "42px";
+    }
+    (document.getElementById("days2").innerText = Math.floor(distance2 / day)),
+      (document.getElementById("hours2").innerText = Math.floor(
+        (distance2 % day) / hour
+      )),
+      (document.getElementById("minutes2").innerText = Math.floor(
+        (distance2 % hour) / minute
+      ));
+  }, second);
 }
 
 //////////////////////////////////////////////////////////
@@ -487,25 +511,41 @@ function generateCard(i, arg) {
       document.querySelector("#showHideCountdown").checked = true;
       centerImageDiv.innerHTML += `
 
-      <div id="countdown">
-            <div id="testDiv"><div id="toggleContainer">
-      <div id="countTogglePrelims">
-        <p class="x"> Main Card </p>
-        <p class="y"> Prelims </p>
-      </div>
-      <div id="countToggleMain">
-        <p class="y"> Main Card </p>
-        <p class="x"> Prelims </p>
-      </div>
-    </div>
-            <ul>
-              <li><span id="days"></span>days</li>
-              <li><span id="hours"></span>Hours</li>
-              <li><span id="minutes"></span>Minutes</li>
-            </ul>
+      
+      <div id="testDiv">
+
+        <div id="toggleContainer" onclick="countdownToggle()">
+
+          <div id="countTogglePrelims">
+            <p class="x"> Main Card </p>
+            <p class="y"> Prelims </p>
           </div>
+
+        <div id="countToggleMain">
+          <p class="y"> Main Card </p>
+          <p class="x"> Prelims </p>
+        </div>
+          
       </div>
+
+      <div id="countdown">
+        <ul>
+          <li><span id="days"></span>days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+        </ul>
+      </div>
+      
+      <div id="countdown2">
+        <ul>
+          <li><span id="days2"></span>days</li>
+          <li><span id="hours2"></span>Hours</li>
+          <li><span id="minutes2"></span>Minutes</li>
+        </ul>
+      </div>
+  
       `;
+
       setCountdown();
       if (screen.width < 1000) {
         setTimeout(() => {
@@ -910,3 +950,22 @@ function toggleCountDown() {
     localStorage.setItem("countdown", "n");
   }
 }
+
+const countdownToggle = function () {
+  console.log("fired");
+  var x = document.getElementById("countdown");
+  var y = document.getElementById("countdown2");
+  var z = document.getElementById("countTogglePrelims");
+  var w = document.getElementById("countToggleMain");
+  if (y.style.display === "none") {
+    y.style.display = "block";
+    x.style.display = "none";
+    z.style.display = "block";
+    w.style.display = "none";
+  } else {
+    y.style.display = "none";
+    x.style.display = "block";
+    w.style.display = "block";
+    z.style.display = "none";
+  }
+};
