@@ -96,7 +96,7 @@ function back() {
   create();
 }
 function toggleD() {
-  navigator.vibrate(40);
+  //navigator.vibrate(40);
   let detailsLeft = document.querySelectorAll(`.detailsLeft`);
   detailsLeft.forEach((detail) => {
     if (detail.style.display === "flex") {
@@ -188,7 +188,7 @@ function showPoster() {
 }
 
 function toggleSideNav() {
-  navigator.vibrate(40);
+  //navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
   if (sideNav.style.width === "75%") {
     $("#hamburger-1").toggleClass("is-active");
@@ -241,7 +241,7 @@ function selectCard(index) {
   }
 
   i = index;
-  navigator.vibrate(40);
+  //navigator.vibrate(40);
   pausecomp(50);
   create();
 
@@ -379,7 +379,7 @@ function resetDivCSS() {
 }
 
 function toggleSettings() {
-  navigator.vibrate(40);
+  //window.navigator.vibrate(40);
   $("#hamburger-1").toggle();
 
   let hamburger = document.querySelector("#hamburger-1");
@@ -406,7 +406,7 @@ function toggleSettings() {
 }
 
 function toggleStyleSheets() {
-  navigator.vibrate(40);
+  //navigator.vibrate(40);
 
   let stylesheet = document.getElementById("pagestyle");
   if (stylesheet.href.toString().includes("style")) {
@@ -753,7 +753,7 @@ function generateCard(i, arg) {
 }
 
 function changeSettings() {
-  navigator.vibrate(40);
+  //navigator.vibrate(40);
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
   let bellator = document.querySelector("#bellatorInput");
@@ -815,7 +815,7 @@ function changeSettings() {
 }
 
 function forceToggleAll() {
-  navigator.vibrate(40);
+  //navigator.vibrate(40);
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
   let bellator = document.querySelector("#bellatorInput");
@@ -839,7 +839,7 @@ function forceToggleAll() {
 }
 
 function forceToggle() {
-  navigator.vibrate(40);
+  //navigator.vibrate(40);
   console.log("test");
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
@@ -858,7 +858,7 @@ function forceToggle() {
 }
 
 function showDetailsSettings() {
-  navigator.vibrate(40);
+  //navigator.vibrate(40);
   if (localStorage.getItem("details") === "y") {
     localStorage.setItem("details", "n");
   } else {
