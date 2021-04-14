@@ -773,7 +773,15 @@ let ufcRankings = [
   },
 ];
 
-let assets = ["jun26.jpg", "may08.jpg", "apr25.jpg", "may16.jpg"];
+let assets = [
+  "jun26.jpg",
+  "may08.jpg",
+  "apr25.jpg",
+  "may16.jpg",
+  "apr17.jpg",
+  "apr23.jpg",
+  "apr22.jpg",
+];
 
 data2.forEach((event) => {
   for (let i = 0; i < event[3].length; i++) {

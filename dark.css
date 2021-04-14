@@ -33,7 +33,7 @@ body {
 
 #content {
   position: absolute;
-  background-color: #000000;
+  background-color: #141414;
   left: 0;
   height: 100vh;
   z-index: 10;
@@ -197,13 +197,13 @@ h2 {
   padding: 7px;
   text-align: right;
   padding-right: 8px;
-  background-color: #242424;
+  background-color: #191919;
 }
 
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #181818;
+  background-color: #121212;
 }
 
 .middle,
@@ -211,7 +211,7 @@ h2 {
 .middleMinus1 {
   padding: 8px;
   text-align: center;
-  background-color: #242424;
+  background-color: #191919;
   border-right: 4px solid black;
   border-left: 4px solid black;
 }
@@ -219,7 +219,7 @@ h2 {
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: #181818;
+  background-color: #121212;
 }
 .right,
 .rightPlus1,
@@ -227,13 +227,13 @@ h2 {
   padding: 7px;
   text-align: left;
   padding-left: 8px;
-  background-color: #242424;
+  background-color: #191919;
 }
 
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #181818;
+  background-color: #121212;
 }
 .detailsLeft,
 .detailsLeftPlus1,
@@ -266,12 +266,13 @@ h2 {
 
 #sideNav {
   position: absolute;
+  color: rgb(255, 255, 255);
   top: 0;
   right: 0%;
   width: 0%;
   max-width: 350px;
   min-height: 100vh;
-  background-color: #181818;
+  background-color: #1a1a1a;
   transition-duration: 0.3s;
   z-index: 100;
   white-space: nowrap;
@@ -295,13 +296,14 @@ h2 {
 
 .eventLink {
   min-width: 300;
-  padding-right: 30px;
-  margin-left: 33px;
-  padding-left: 7px;
+  padding-right: 25px;
+  margin-left: 28px;
+  padding-left: 12px;
   padding-top: 12px;
   padding-bottom: 8px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.144);
+  margin-bottom: 3px;
   box-sizing: content-box;
+  border-bottom: 1px solid #464646;
 }
 
 .eventLink:hover {
@@ -458,34 +460,32 @@ a {
 
 #testDiv {
   position: absolute;
-  height: 50px;
-  width: 156px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 12px;
+  height: 60px;
+  width: 100%;
+  left: 0;
   right: 0;
-  bottom: 2px;
+  bottom: 0;
   z-index: 1000;
   display: none;
 }
 
 ul {
   position: absolute;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 0;
-  width: 159px;
   padding-inline-start: 0px;
   margin-top: 6px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 12px;
+  margin-bottom: 2px;
   right: 0;
-  padding: 4px 0;
+  padding: 6px 0;
 }
 
 li {
   font-family: arial;
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(202, 202, 202);
   display: inline-block;
   text-align: center;
   font-size: 9px;
@@ -502,7 +502,7 @@ li span {
   font-size: 27px;
   font-weight: normal;
   width: 30px;
-  color: rgb(0, 0, 0);
+  color: black;
   margin: 3px;
   padding: 0px 5px;
 }
@@ -636,18 +636,18 @@ li span {
 }
 
 input:checked + .slider {
-  background-color: #ffc0c0;
+  background-color: #cea3a3;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #ffa9a9;
+  box-shadow: 0 0 1px #a19090;
 }
 
 input:checked + .slider:before {
   -webkit-transform: translate(13px, 5px);
   -ms-transform: translate(13px, 5px);
   transform: translate(13px, 5px);
-  background-color: rgb(238, 89, 89);
+  background-color: rgb(192, 54, 54);
 }
 
 /* Rounded sliders */
@@ -764,7 +764,7 @@ input:checked + .slider:before {
     right: 0%;
     width: 270px;
     max-width: 260px;
-    background-color: #202020;
+    background-color: #1b1b1b96;
     border-left: 1px solid black;
     min-height: 1300px;
   }

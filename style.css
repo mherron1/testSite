@@ -152,7 +152,7 @@ body {
   text-align: center;
   margin: 10px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 #prelimsCard,
@@ -439,28 +439,26 @@ a {
 
 #testDiv {
   position: absolute;
-  height: 50px;
-  width: 156px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 12px;
+  height: 60px;
+  width: 100%;
+  left: 0;
   right: 0;
-  bottom: 2px;
+  bottom: 0;
   z-index: 1000;
   display: none;
 }
 
 ul {
   position: absolute;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 0;
-  width: 159px;
   padding-inline-start: 0px;
   margin-top: 6px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 12px;
+  margin-bottom: 2px;
   right: 0;
-  padding: 4px 0;
+  padding: 6px 0;
 }
 
 li {

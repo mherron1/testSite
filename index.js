@@ -437,7 +437,7 @@ function generateCard(i, arg) {
 
   let imageContainer = document.querySelector(`#imageContainer${arg}`);
   imageContainer.innerHTML = `
-<img id="eventPoster${arg}" onclick="showPoster()" src=${events[i][2]}>
+<img id="eventPoster${arg}" src=${events[i][2]}>
 `;
 
   ////////////event date
@@ -482,22 +482,25 @@ function generateCard(i, arg) {
 
   if (arg === "") {
     let centerImageDiv = document.querySelector("#imageContainer");
-    centerImageDiv.innerHTML += `
-    <div id="testDiv">
-    <div id="countdown">
-          <ul>
-            <li><span id="days"></span>days</li>
-            <li><span id="hours"></span>Hours</li>
-            <li><span id="minutes"></span>Minutes</li>
-          </ul>
-        </div>
-    </div>
-    `;
-    setCountdown();
-    if (screen.width < 1000) {
-      setTimeout(() => {
-        $("#testDiv").fadeIn(200);
-      }, 200);
+    if (localStorage.getItem("countdown") != "n") {
+      document.querySelector("#showHideCountdown").checked = true;
+      centerImageDiv.innerHTML += `
+      <div id="testDiv">
+      <div id="countdown">
+            <ul>
+              <li><span id="days"></span>days</li>
+              <li><span id="hours"></span>Hours</li>
+              <li><span id="minutes"></span>Minutes</li>
+            </ul>
+          </div>
+      </div>
+      `;
+      setCountdown();
+      if (screen.width < 1000) {
+        setTimeout(() => {
+          $("#testDiv").fadeIn(200);
+        }, 200);
+      }
     }
   }
 
@@ -858,7 +861,7 @@ function forceToggle() {
 }
 
 function showDetailsSettings() {
-  //navigator.vibrate(40);
+  navigator.vibrate(40);
   if (localStorage.getItem("details") === "y") {
     localStorage.setItem("details", "n");
   } else {
@@ -886,5 +889,13 @@ function toggelOddsType() {
     oddsType = "line";
   } else {
     oddsType = "dec";
+  }
+}
+
+function toggleCountDown() {
+  if (document.querySelector("#showHideCountdown").checked === true) {
+    localStorage.setItem("countdown", "y");
+  } else {
+    localStorage.setItem("countdown", "n");
   }
 }
