@@ -390,7 +390,7 @@ function toggleSettings() {
     closeSettings.style.opacity = "0";
     closeSettings.style.right = "-58px";
   } else {
-    if (visualViewport.width < 750) {
+    if (screen.width < 750) {
       toggleSideNav();
     }
     closeSettings.style.opacity = "1";
