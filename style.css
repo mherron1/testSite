@@ -451,7 +451,7 @@ a {
 #testDiv {
   position: absolute;
   height: 60px;
-  width: 228px;
+  width: 225px;
   margin-left: 50%;
   transform: translateX(-50%);
   bottom: 0px;
@@ -551,7 +551,7 @@ li span {
 }
 
 #settingsHeader {
-  margin-top: 100px;
+  margin-top: 85px;
   margin-bottom: 20px;
   width: 100%;
   text-align: center;
@@ -580,7 +580,7 @@ li span {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -837,7 +837,7 @@ input:checked + .slider:before {
 }
 
 .x {
-  background-color: #ececec;
+  background-color: #ffffff;
   color: rgb(201, 201, 201);
   height: 18px;
   width: 100%;
@@ -847,7 +847,7 @@ input:checked + .slider:before {
   margin: auto;
 }
 .y {
-  background-color: #ececec;
+  background-color: #ffffff;
   color: rgb(0, 0, 0);
   height: 18px;
   width: 100%;
