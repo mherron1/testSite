@@ -398,9 +398,11 @@ function toggleSettings() {
 
   let settingsDiv = document.querySelector("#settings");
   if (settingsDiv.style.height === "100%") {
+    $("#settings").css("position", "absolute");
     $("#settings").css("height", "0vh");
   } else {
     $("#settings").css("height", "100%");
+    $("#settings").css("position", "fixed");
   }
 }
 
