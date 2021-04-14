@@ -6,9 +6,19 @@ if (localStorage.getItem("dark-mode") !== null) {
   }
 }
 
+let oddsType = "line";
+
+if (localStorage.getItem("oddsType") !== null) {
+  if (localStorage.getItem("oddsType") === "decimal") {
+    oddsType = "dec";
+    let oddsTypeToggle = document.querySelector("#oddsTypeToggle");
+    oddsTypeToggle.checked = true;
+  }
+}
+
 let i = 0;
 let events = data2;
-let oddsType = "line";
+
 create();
 
 function create() {
@@ -458,7 +468,10 @@ function generateCard(i, arg) {
   });
 
   if (parseInt(events[i][5]) > 0) {
+    prelimsTime.style.visibility = "visible";
     prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
+  } else {
+    prelimsTime.style.visibility = "hidden";
   }
 
   ///////////////////////////////countdown
@@ -573,8 +586,8 @@ function generateCard(i, arg) {
       <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
     </div>
     <div class="detailsLeft${arg}">
-      <div>${leftOdds}</div>
-      <div>${events[i][3][j].rankA}</div>
+    <div style="color: ${colorA}; font-size:0.9rem;">${rightOdds}</div>        
+    <div>${events[i][3][j].rankA}</div>
       <div>${events[i][3][j].recordA}</div>
     </div>
   </div>
@@ -589,8 +602,8 @@ function generateCard(i, arg) {
     <div class="detailsRight${arg}">
       <div>${events[i][3][j].recordB}</div>
       <div>${events[i][3][j].rankB}</div>
-      <div>${rightOdds}</div>        
-    </div>
+      <div style="color: ${colorB}; font-size:0.9rem;">${rightOdds}</div>        
+      </div>
   </div>
   `;
   }
@@ -684,8 +697,8 @@ function generateCard(i, arg) {
         <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
       </div>
       <div class="detailsLeft${arg}">
-        <div>${leftOdds}</div>
-        <div>${events[i][3][j].rankA}</div>
+      <div style="color: ${colorA}; font-size:0.9rem;">${rightOdds}</div>        
+      <div>${events[i][3][j].rankA}</div>
         <div>${events[i][3][j].recordA}</div>
       </div>
     </div>
@@ -700,8 +713,8 @@ function generateCard(i, arg) {
       <div class="detailsRight${arg}">
         <div>${events[i][3][j].recordB}</div>
         <div>${events[i][3][j].rankB}</div>
-        <div>${rightOdds}</div>        
-      </div>
+        <div style="color: ${colorB}; font-size:0.9rem;">${rightOdds}</div>        
+        </div>
     </div>
     `;
   }
@@ -859,6 +872,11 @@ function pausecomp(millis) {
 }
 
 function toggelOddsType() {
+  if (localStorage.getItem("oddsType") === "line") {
+    localStorage.setItem("oddsType", "decimal");
+  } else {
+    localStorage.setItem("oddsType", "line");
+  }
   console.log("clicked");
   if (oddsType === "dec") {
     oddsType = "line";
