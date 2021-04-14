@@ -878,7 +878,7 @@ input:checked + .slider:before {
 .x {
   background-color: #e2e2e2;
   color: rgb(201, 201, 201);
-  height: 18px;
+  height: 19px;
   width: 100%;
   font-weight: normal;
   font-size: 12px;
@@ -890,7 +890,7 @@ input:checked + .slider:before {
   color: rgb(0, 0, 0);
   height: 18px;
   width: 100%;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 12px;
   line-height: 17px;
   margin: auto;
@@ -906,6 +906,6 @@ input:checked + .slider:before {
 
 #toggleContainer {
   position: absolute;
-  top: 8px;
+  top: 7px;
   cursor: pointer;
 }
