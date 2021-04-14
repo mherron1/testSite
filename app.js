@@ -2,7 +2,7 @@ let data2 = data.sort((a, b) => {
   return a[1] - b[1];
 });
 
-let assets = ["jun26.jpg", "may08.jpg"];
+let assets = ["jun26.jpg", "may08.jpg", "apr25.jpg", "may16.jpg"];
 
 data2.forEach((event) => {
   let tempTime =

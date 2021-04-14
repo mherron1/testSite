@@ -8,6 +8,7 @@ a {
 }
 html {
   height: 100%;
+  background-color: #181818;
 }
 
 body {
@@ -65,11 +66,11 @@ body {
 #mainHeaderMinus1 {
   text-align: center;
   padding: 8px 0px;
-  background-color: #141414;
+  background-color: #080808;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: normal;
 }
 
@@ -270,7 +271,7 @@ h2 {
   width: 0%;
   max-width: 350px;
   min-height: 100vh;
-  background-color: #161616;
+  background-color: #181818;
   transition-duration: 0.3s;
   z-index: 100;
   white-space: nowrap;
@@ -295,10 +296,11 @@ h2 {
 .eventLink {
   min-width: 300;
   padding-right: 30px;
-  padding-left: 30px;
+  margin-left: 33px;
+  padding-left: 7px;
   padding-top: 12px;
   padding-bottom: 8px;
-  border-bottom: 1px solid rgba(124, 124, 124, 0.233);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.144);
   box-sizing: content-box;
 }
 
@@ -585,7 +587,7 @@ li span {
 }
 
 #closeSettings {
-  position: absolute;
+  position: fixed;
   font-size: 31px;
   right: -58px;
   top: 8px;
@@ -779,5 +781,6 @@ input:checked + .slider:before {
   }
   #closeSettings:hover {
     cursor: pointer;
+    position: absolute;
   }
 }
