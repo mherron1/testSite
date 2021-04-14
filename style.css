@@ -843,7 +843,7 @@ input:checked + .slider:before {
   margin: auto;
 }
 .y {
-  background-color: #b3b3b3;
+  background-color: #f1f1f1f8;
   height: 16px;
   text-align: center;
   color: rgb(22, 22, 22);
