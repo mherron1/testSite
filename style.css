@@ -451,19 +451,16 @@ a {
 #testDiv {
   position: absolute;
   height: 60px;
-  width: 100%;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  width: 228px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
   z-index: 1000;
-  display: none;
 }
 
 ul {
   position: absolute;
-  width: fit-content;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 147px;
   bottom: 0;
   padding-inline-start: 0px;
   margin-top: 6px;
@@ -825,4 +822,47 @@ input:checked + .slider:before {
   .setting {
     transform: scale(0.75);
   }
+}
+
+#countToggleMain {
+  display: none;
+}
+
+#countTogglePrelims {
+  display: block;
+}
+
+.x {
+  background-color: #ffffff;
+  color: #000;
+  height: 17px;
+  width: 100%;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 3px;
+  margin: auto;
+}
+.y {
+  background-color: #b3b3b3;
+  height: 16px;
+  text-align: center;
+  color: rgb(22, 22, 22);
+  width: 100%;
+  font-size: 11px;
+  font-weight: normal;
+  padding: 3px;
+  margin: auto;
+}
+
+.y:hover {
+  filter: brightness(1.1);
+}
+
+.x:hover {
+  filter: brightness(1.1);
+}
+
+#toggleContainer {
+  position: absolute;
+  top: 7px;
 }

@@ -484,8 +484,18 @@ function generateCard(i, arg) {
     if (localStorage.getItem("countdown") != "n") {
       document.querySelector("#showHideCountdown").checked = true;
       centerImageDiv.innerHTML += `
-      <div id="testDiv">
+
       <div id="countdown">
+            <div id="testDiv"><div id="toggleContainer">
+      <div id="countTogglePrelims">
+        <p class="x"> Main Card </p>
+        <p class="y"> Prelims </p>
+      </div>
+      <div id="countToggleMain">
+        <p class="y"> Main Card </p>
+        <p class="x"> Prelims </p>
+      </div>
+    </div>
             <ul>
               <li><span id="days"></span>days</li>
               <li><span id="hours"></span>Hours</li>
@@ -561,8 +571,8 @@ function generateCard(i, arg) {
             } else {
               colorA = "skyblue";
               colorB = "skyblue";
-              rightOdds = "EVS";
-              leftOdds = "EVS";
+              rightOdds = "evs";
+              leftOdds = "evs";
             }
             if (leftOdds === 100 || leftOdds === "100") {
               leftOdds = "";
@@ -578,8 +588,8 @@ function generateCard(i, arg) {
             } else {
               colorA = "skyblue";
               colorB = "skyblue";
-              rightOdds = "EVS";
-              leftOdds = "EVS";
+              rightOdds = "evs";
+              leftOdds = "evs";
             }
           }
         }
@@ -672,8 +682,8 @@ function generateCard(i, arg) {
             } else {
               colorA = "skyblue";
               colorB = "skyblue";
-              rightOdds = "EVS";
-              leftOdds = "EVS";
+              rightOdds = "evs";
+              leftOdds = "evs";
             }
             if (leftOdds === 100 || leftOdds === "100") {
               leftOdds = "";
@@ -689,8 +699,8 @@ function generateCard(i, arg) {
             } else {
               colorA = "skyblue";
               colorB = "skyblue";
-              rightOdds = "EVS";
-              leftOdds = "EVS";
+              rightOdds = "evs";
+              leftOdds = "evs";
             }
           }
         }
