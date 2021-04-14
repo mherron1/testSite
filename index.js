@@ -379,6 +379,7 @@ function resetDivCSS() {
 }
 
 function toggleSettings() {
+  console.log("hi");
   //window.navigator.vibrate(40);
   $("#hamburger-1").toggle();
 
@@ -398,10 +399,10 @@ function toggleSettings() {
   }
 
   let settingsDiv = document.querySelector("#settings");
-  if (settingsDiv.style.height === "100vh") {
+  if (settingsDiv.style.height === "100%") {
     $("#settings").css("height", "0vh");
   } else {
-    $("#settings").css("height", "100vh");
+    $("#settings").css("height", "100%");
   }
 }
 

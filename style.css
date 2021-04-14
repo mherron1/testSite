@@ -21,8 +21,19 @@ body {
   overflow: auto;
 }
 
-#wideHeader {
-  display: none;
+#sharing {
+  position: absolute;
+  width: 60%;
+  bottom: 25px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialIcon {
+  max-height: 50px;
+  border-radius: 50%;
 }
 
 #displaycard {
@@ -276,8 +287,8 @@ body {
 
 .eventLink {
   min-width: 300;
-  padding-right: 30px;
-  margin-left: 33px;
+  padding-right: 10px;
+  margin-left: 18px;
   padding-left: 7px;
   padding-top: 12px;
   padding-bottom: 8px;
