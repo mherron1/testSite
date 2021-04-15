@@ -844,7 +844,7 @@ li span {
   top: 0;
   left: 8%;
 
-  background-color: rgb(49, 49, 49);
+  background-color: rgba(224, 224, 224, 0.247);
 }
 
 #sharing {
