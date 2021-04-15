@@ -851,24 +851,25 @@ li span {
 }
 
 #shareContainer {
+  position: absolute;
   bottom: 0;
-  padding: 7px;
-  height: 120px;
+  padding-top: 5px;
+  height: 125px;
   width: 100%;
+  margin: 0 auto;
   background-color: none;
   text-align: center;
-  position: absolute;
   font-size: 18px;
 }
 
 #sharePartition {
   position: absolute;
-  height: 1px;
+  height: 0px;
   width: 80%;
   top: 0;
   left: 8%;
 
-  background-color: rgba(224, 224, 224, 0.247);
+  background-color: rgba(233, 233, 233, 0.432);
 }
 
 #sharing {
