@@ -332,12 +332,11 @@ body {
   min-width: 80px;
 }
 
-/*hamburger*/
 .hamburger {
   position: absolute;
-  right: 3px;
-  top: 3px;
-  transform: scale(0.6) translateY(-6px);
+  right: 0px;
+  top: 1px;
+  transform: scale(0.5) translateY(-6px);
   z-index: 1000;
   -webkit-tap-highlight-color: transparent;
   transition-duration: 0s;
@@ -954,7 +953,7 @@ li span {
 }
 
 .socialIcon {
-  max-height: 50px;
+  max-height: 45px;
   border-radius: 50%;
 }
 

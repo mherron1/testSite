@@ -302,9 +302,9 @@ body {
 
 .hamburger {
   position: absolute;
-  right: 1px;
-  top: 0px;
-  transform: scale(0.6) translateY(-6px);
+  right: 0px;
+  top: 1px;
+  transform: scale(0.5) translateY(-6px);
   z-index: 1000;
   -webkit-tap-highlight-color: transparent;
   transition-duration: 0s;
@@ -440,8 +440,10 @@ a {
   position: absolute;
   background-color: white;
   width: 100%;
+  max-width: 420px;
   height: 0vh;
   bottom: 0;
+  right: 0;
   z-index: 100000;
   transition: 0.4s;
   overflow: hidden;
