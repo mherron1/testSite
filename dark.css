@@ -495,7 +495,7 @@ a {
 }
 
 #settingsHeader {
-  margin-top: 85px;
+  margin-top: 50px;
   margin-bottom: 20px;
   width: 100%;
   text-align: center;
@@ -700,7 +700,7 @@ input:checked + .slider:before {
     max-height: 40px;
   }
   #settingsHeader {
-    margin-top: 55px;
+    margin-top: 45px;
     margin-bottom: 20px;
     width: 100%;
     text-align: center;
@@ -780,7 +780,7 @@ input:checked + .slider:before {
   position: absolute;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-color: #242424
+  background-color: #242424;
   color: white;
   height: 55px;
   width: 205px;
@@ -802,7 +802,7 @@ ul {
 
 li {
   font-family: arial;
-  background-color: #242424
+  background-color: #242424;
   display: inline-block;
   text-align: center;
   font-size: 9px;
@@ -866,8 +866,8 @@ li span {
   width: 20px;
   left: -20px;
   bottom: -7px;
-  border-right: 7px solid #242424
-  border-bottom: 7px solid #242424
+  border-right: 7px solid #242424;
+  border-bottom: 7px solid #242424;
   border-bottom-right-radius: 15px;
 }
 
@@ -878,15 +878,15 @@ li span {
   width: 20px;
   right: -20px;
   bottom: -7px;
-  border-left: 7px solid #242424
-  border-bottom: 7px solid #242424
+  border-left: 7px solid #242424;
+  border-bottom: 7px solid #242424;
   border-bottom-left-radius: 15px;
 }
 
 #shareContainer {
   bottom: 0;
-  padding: 10px;
-  height: 100px;
+  padding: 7px;
+  height: 110px;
   width: 80%;
   background-color: none;
   text-align: center;
@@ -899,7 +899,7 @@ li span {
   height: 2px;
   width: 90%;
   top: -10px;
-  left:10%;
+  left: 10%;
   background-color: rgba(63, 63, 63, 0.445);
 }
 
