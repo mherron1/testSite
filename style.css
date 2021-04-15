@@ -663,53 +663,8 @@ input:checked + .slider:before {
     max-height: 190px;
     min-height: 190px;
   }
-}
-@media only screen and (min-width: 750px) {
-  html {
-    zoom: 1.2;
-    height: 100%;
-    background-color: #ebebeb;
-  }
-  body {
-    max-width: 750px;
-    min-height: 1300px;
-  }
-  #sideNav {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0%;
-    width: 260px;
-    max-width: 260px;
-    background-color: white;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    min-height: 1300px;
-  }
-  #content {
-    border-right: 1px solid black;
-    min-height: 1300px;
-  }
+
   #settings {
-    top: 0;
-    transition-duration: 0s;
-    width: 260px;
-    right: 0;
-  }
-  .setting {
-    margin-left: 10px;
-  }
-  #settingsIcon:hover {
-    cursor: pointer;
-  }
-  #closeSettings:hover {
-    cursor: pointer;
-  }
-  #closeSettings {
-    position: absolute;
-  }
-  .setting {
-    transform: scale(0.75);
   }
 }
 
@@ -809,7 +764,7 @@ li span {
 #toggleIcon1Plus1,
 #toggleIcon2Plus1 {
   font-size: 11px;
-  margin-top: 14px;
+  margin-top: 12px;
   margin-left: 10px;
 }
 
@@ -846,8 +801,8 @@ li span {
   position: absolute;
   width: 107%;
   height: 1px;
-  background-color: rgb(226, 226, 226);
-  bottom: 0px;
+  background-color: rgb(238, 238, 238);
+  bottom: 3px;
   left: -7px;
   z-index: 10000;
 }
@@ -904,4 +859,27 @@ li span {
   opacity: 0.05;
   z-index: 100;
   display: none;
+}
+
+@media only screen and (min-width: 475px) {
+  body {
+    max-width: 475px;
+  }
+
+  #settings {
+    position: fixed;
+    left: auto;
+    right: auto;
+    max-width: 475px;
+    width: 475px;
+  }
+  #closeSettings {
+    position: absolute;
+  }
+  #closeSettings:hover {
+    cursor: pointer;
+  }
+  #settingsIcon:hover {
+    cursor: pointer;
+  }
 }

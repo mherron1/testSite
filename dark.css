@@ -769,9 +769,11 @@ input:checked + .slider:before {
   #closeSettings:hover {
     cursor: pointer;
   }
+
   #closeSettings {
     position: absolute;
   }
+
   .setting {
     transform: scale(1);
   }
@@ -783,7 +785,7 @@ input:checked + .slider:before {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.616);
   color: white;
-  height: 68px;
+  height: 65px;
   width: 100%;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -817,12 +819,12 @@ li {
 li span {
   background-color: rgba(255, 255, 255, 0.849);
   color: black;
-  height: 45px;
+  height: 40px;
   display: block;
-  font-size: 33px;
+  font-size: 30px;
   font-weight: normal;
-  width: 50px;
-  line-height: 45px;
+  width: 45px;
+  line-height: 43px;
   margin: 2px;
 }
 
@@ -860,7 +862,7 @@ li span {
   width: 100%;
   font-weight: normal;
   font-size: 15px;
-  margin-left: 8px;
+  margin-left: 4px;
 }
 
 .y:hover {
@@ -873,10 +875,10 @@ li span {
   background-color: silver;
   color: black;
   position: absolute;
-  height: 43px;
-  width: 70px;
+  height: 38px;
+  width: 60px;
   top: 9px;
-  left: 70px;
+  left: 80px;
   cursor: pointer;
 }
 
@@ -887,8 +889,8 @@ li span {
 #toggleIcon1Plus1,
 #toggleIcon2Plus1 {
   font-size: 15px;
-  margin-left: 18px;
-  margin-top: 3px;
+  margin-left: 10px;
+  margin-top: 2px;
   color: rgb(0, 0, 0);
 }
 
@@ -970,18 +972,29 @@ li span {
   transform: translateY(6px);
 }
 
-@media only screen and (max-width: 405px) {
+@media only screen and (max-width: 460px) {
   #toggleContainer,
   #toggleContainerMinus1,
   #toggleContainerPlus1 {
-    left: 50px;
+    left: 60px;
   }
 }
 
-@media only screen and (max-width: 355px) {
+@media only screen and (max-width: 409px) {
   #toggleContainer,
   #toggleContainerMinus1,
   #toggleContainerPlus1 {
-    left: 25px;
+    left: 45px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #toggleContainer,
+  #toggleContainerMinus1,
+  #toggleContainerPlus1 {
+    left: 30px;
+  }
+  ul {
+    transform: translateX(-60px);
   }
 }
