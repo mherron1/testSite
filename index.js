@@ -511,7 +511,6 @@ function generateCard(i, arg) {
       document.querySelector("#showHideCountdown").checked = true;
       centerImageDiv.innerHTML += `
 
-      
       <div id="testDiv" onclick="countdownToggle()">
 
         <div id="toggleContainer">
@@ -543,7 +542,10 @@ function generateCard(i, arg) {
           <li><span id="minutes2"></span>Minutes</li>
         </ul>
       </div>
+      <div id="leftCurve"></div>
+      <div id="rightCurve"></div>
   
+     
       `;
 
       setCountdown();

@@ -451,68 +451,6 @@ a {
   transform: translateY(-13px) rotate(-45deg);
 }
 
-#testDiv {
-  position: absolute;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background-color: white;
-  height: 45px;
-  width: 200px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  bottom: 0px;
-  z-index: 1000;
-}
-
-ul {
-  position: absolute;
-  width: 135px;
-  bottom: 0;
-  padding-inline-start: 0px;
-  margin-top: 6px;
-  margin-bottom: 0px;
-  right: 0;
-  padding: 6px 0;
-  padding-bottom: 0;
-}
-
-li {
-  font-family: arial;
-  color: black;
-  background-color: white;
-  display: inline-block;
-  text-align: center;
-  font-size: 9px;
-  font-weight: bold;
-  list-style-type: none;
-  text-transform: uppercase;
-  padding-bottom: 3px;
-}
-
-li span {
-  height: 26px;
-  border-radius: 1px;
-  display: block;
-  font-size: 24px;
-  font-weight: normal;
-  width: 30px;
-  color: #000;
-  margin: 2px 0px;
-  padding: 0px 3px;
-}
-
-#dim {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-color: black;
-  opacity: 0.25;
-  z-index: 100;
-  display: none;
-}
-
 #settings {
   position: absolute;
   background-color: white;
@@ -789,6 +727,55 @@ input:checked + .slider:before {
   }
 }
 
+#testDiv {
+  position: absolute;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  height: 50px;
+  width: 205px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
+  z-index: 1000;
+}
+
+ul {
+  position: absolute;
+  width: 135px;
+  bottom: 0;
+  padding-inline-start: 0px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  right: 0;
+  padding: 6px 0;
+  padding-bottom: 0;
+}
+
+li {
+  font-family: arial;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  font-size: 9px;
+  font-weight: bold;
+  list-style-type: none;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+}
+
+li span {
+  height: 26px;
+  border-radius: 1px;
+  display: block;
+  font-size: 24px;
+  font-weight: normal;
+  width: 30px;
+  margin: 2px 0px;
+  padding: 0px 3px;
+}
+
 #countToggleMain {
   display: none;
   width: 60px;
@@ -802,26 +789,49 @@ input:checked + .slider:before {
 }
 
 .y {
-  background-color: #35e40000;
-  color: rgb(0, 0, 0);
   height: 20px;
   font-weight: bold;
   width: 100%;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .y:hover {
   filter: brightness(1.1);
 }
 
-.x:hover {
-  filter: brightness(1.1);
-}
-
 #toggleContainer {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 9px;
+  left: 8px;
   cursor: pointer;
+}
+
+#toggleIcon1,
+#toggleIcon2 {
+  font-size: 11px;
+}
+
+#leftCurve {
+  position: absolute;
+  background-color: none;
+  height: 20px;
+  width: 20px;
+  left: -20px;
+  bottom: -5px;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  border-bottom-right-radius: 15px;
+}
+
+#rightCurve {
+  position: absolute;
+  background-color: none;
+  height: 20px;
+  width: 20px;
+  right: -20px;
+  bottom: -5px;
+  border-left: 5px solid white;
+  border-bottom: 5px solid white;
+  border-bottom-left-radius: 15px;
 }
