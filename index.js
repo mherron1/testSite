@@ -506,7 +506,7 @@ function generateCard(i, arg) {
 
   ///////////////////////////////countdown
 
-  if (arg === "Minus1") {
+  if (arg === "") {
     let centerImageDiv = document.querySelector("#imageContainer");
     if (localStorage.getItem("countdown") != "n") {
       document.querySelector("#showHideCountdown").checked = true;

@@ -866,3 +866,7 @@ li span {
   margin: 6px;
   transform: translateY(6px);
 }
+
+#countdown2 {
+  display: none;
+}
