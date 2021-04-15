@@ -78,7 +78,8 @@ body {
 #mainHeader,
 #mainHeaderPlus1,
 #mainHeaderMinus1 {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: normal;
   padding: 8px;
   text-align: center;
 }
