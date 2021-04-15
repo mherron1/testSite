@@ -240,7 +240,7 @@ body {
   top: 0;
   right: 0%;
   width: 0%;
-  max-width: 350px;
+  max-width: 300px;
   min-height: 100vh;
   background-color: rgb(247, 247, 247);
   transition-duration: 0.3s;
@@ -277,8 +277,8 @@ body {
   padding-right: 10px;
   margin-left: 18px;
   padding-left: 7px;
-  padding-top: 12px;
-  padding-bottom: 8px;
+  padding-top: 11px;
+  padding-bottom: 7px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.158);
   box-sizing: content-box;
 }
@@ -606,7 +606,7 @@ input:checked + .slider:before {
   }
 
   #hamburger-1 {
-    top: -6px;
+    top: 0;
   }
 
   #mainCard,
@@ -885,7 +885,7 @@ li span {
 }
 
 .socialIcon {
-  max-height: 50px;
+  max-height: 45px;
   border-radius: 50%;
 }
 

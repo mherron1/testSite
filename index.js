@@ -19,12 +19,6 @@ if (localStorage.getItem("oddsType") !== null) {
 let i = 0;
 let events = data2;
 
-if (visualViewport.width > 1000) {
-  document.querySelector("#sideNav").classList.add("notransitions");
-  document.querySelector("#hamburger-1").style.display = "none";
-  generateLinks();
-}
-
 create();
 
 function create() {
@@ -415,9 +409,6 @@ function toggleSettings() {
     closeSettings.style.opacity = "0";
     closeSettings.style.right = "-58px";
   } else {
-    if (screen.width < 750) {
-      toggleSideNav();
-    }
     closeSettings.style.opacity = "1";
     closeSettings.style.right = "7px";
   }
