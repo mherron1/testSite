@@ -775,12 +775,16 @@ input:checked + .slider:before {
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
+  background-color: #242424c9;
+  border-top: 5px solid #181818;
+  border-left: 5px solid #181818;
+  border-right: 5px solid #181818;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-color: #242424c9;
+  box-sizing: border-box;
   color: white;
   height: 55px;
-  width: 205px;
+  width: 200px;
   margin-left: 50%;
   transform: translateX(-50%);
   bottom: -1px;
@@ -885,10 +889,10 @@ li span {
   background-color: none;
   height: 20px;
   width: 20px;
-  left: -20px;
+  left: -25px;
   bottom: -5px;
-  border-right: 5px solid #242424;
-  border-bottom: 5px solid #242424;
+  border-right: 5px solid #181818;
+  border-bottom: 5px solid #181818;
   border-bottom-right-radius: 15px;
 }
 
@@ -899,10 +903,10 @@ li span {
   background-color: none;
   height: 20px;
   width: 20px;
-  right: -20px;
+  right: -25px;
   bottom: -5px;
-  border-left: 5px solid #242424;
-  border-bottom: 5px solid #242424;
+  border-left: 5px solid #181818;
+  border-bottom: 5px solid #181818;
   border-bottom-left-radius: 15px;
 }
 

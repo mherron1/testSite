@@ -738,7 +738,6 @@ ul {
 
 li {
   font-family: arial;
-  background-color: white;
   display: inline-block;
   text-align: center;
   font-size: 9px;
@@ -779,6 +778,8 @@ li span {
   height: 20px;
   font-weight: bold;
   width: 100%;
+  margin-top: 0px;
+  margin-left: 5px;
   font-weight: normal;
   font-size: 14px;
 }
@@ -803,6 +804,7 @@ li span {
 #toggleIcon1Plus1,
 #toggleIcon2Plus1 {
   font-size: 11px;
+  margin-top: 14px;
 }
 
 #leftCurve,
@@ -885,6 +887,8 @@ li span {
   transform: translateY(6px);
 }
 
-#countdown2 {
+#countdown2,
+#countdown2Minus1,
+#countdown2Plus1 {
   display: none;
 }
