@@ -781,8 +781,8 @@ input:checked + .slider:before {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color: #141414;
-  color: silver;
-  height: 50px;
+  color: white;
+  height: 55px;
   width: 205px;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -795,11 +795,8 @@ ul {
   width: 135px;
   bottom: 0;
   padding-inline-start: 0px;
-  margin-top: 6px;
-  margin-bottom: 0px;
+  top: 0;
   right: 0;
-  padding: 6px 0;
-  padding-bottom: 0;
 }
 
 li {
@@ -818,11 +815,11 @@ li span {
   height: 26px;
   border-radius: 1px;
   display: block;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: normal;
   width: 30px;
   margin: 2px 0px;
-  padding: 0px 3px;
+  padding: 2px 3px;
 }
 
 #countToggleMain {
