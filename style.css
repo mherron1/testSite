@@ -75,7 +75,7 @@ body {
 #mainHeaderPlus1,
 #mainHeaderMinus1 {
   font-size: 20px;
-  padding: 4px;
+  padding: 8px;
   text-align: center;
 }
 
@@ -316,9 +316,9 @@ body {
 
 .hamburger {
   position: absolute;
-  right: 0;
+  right: 1px;
   top: 0px;
-  transform: scale(0.5) translateY(-15px);
+  transform: scale(0.6) translateY(-6px);
   z-index: 1000;
   -webkit-tap-highlight-color: transparent;
   transition-duration: 0s;
