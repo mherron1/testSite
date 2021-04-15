@@ -882,3 +882,14 @@ li span {
   border-bottom: 7px solid black;
   border-bottom-left-radius: 15px;
 }
+
+#shareContainer {
+  bottom: 0;
+  padding: 10px;
+  height: 90px;
+  width: 90%;
+  background-color: none;
+  text-align: center;
+  position: absolute;
+  font-size: 18px;
+}

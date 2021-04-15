@@ -1074,4 +1074,169 @@ let data = [
     "UFC 261",
     "9",
   ],
+  [
+    "Ultimate Fighting Championship",
+    1618700400000,
+    "",
+    [
+      {
+        fighterA: "Robert Whittaker",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/17398-robert-whittaker",
+        rankA: "#1",
+        recordA: "22-5-0 ",
+        weight: "185",
+        recordB: " 17-6-0",
+        rankB: "#9",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/41355-kelvin-gastelum",
+        fighterB: "Kelvin Gastelum",
+      },
+      {
+        fighterA: "Drakkar Klose",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/29515-drakkar-klose",
+        rankA: "#21",
+        recordA: "11-2-1 ",
+        weight: "155",
+        recordB: " 28-18-0",
+        rankB: "#21",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/jeremy-stephens-lil-heathen",
+        fighterB: "Jeremy Stephens",
+      },
+      {
+        fighterA: "Andrei Arlovski",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/andrei-arlovski-the-pitbull",
+        rankA: "#17",
+        recordA: "30-20-0 ",
+        weight: "265",
+        recordB: " 15-6-0",
+        rankB: "#33",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/55773-chase-sherman",
+        fighterB: "Chase Sherman",
+      },
+      {
+        fighterA: "Abdul Razak Alhassan",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/59306-abdul-razak-alhassan",
+        rankA: "#47",
+        recordA: "10-3-0 ",
+        weight: "185",
+        recordB: " 4-1-0",
+        rankB: "#138",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/111323-jacob-malkoun",
+        fighterB: "Jacob Malkoun",
+      },
+      {
+        fighterA: "Luis Pena",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/76885-luis-pena",
+        rankA: "#59",
+        recordA: "8-3-0 ",
+        weight: "155",
+        recordB: " 6-1-0",
+        rankB: "#117",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/81884-alex-munoz",
+        fighterB: "Alex Munoz",
+      },
+      {
+        fighterA: "Tracy Cortez",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/63711-tracy-cortez",
+        rankA: "#20",
+        recordA: "8-1-0 ",
+        weight: "125",
+        recordB: " 7-3-0",
+        rankB: "#79",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/15102-justine-kish",
+        fighterB: "Justine Kish",
+      },
+      {
+        fighterA: "Alexander Romanov",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/144301-alexander-romanov",
+        rankA: "#23",
+        recordA: "13-0-0 ",
+        weight: "265",
+        recordB: " 10-1-0",
+        rankB: "#27",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/158561-juan-francisco-espino-trota",
+        fighterB: "Juan Espino",
+      },
+      {
+        fighterA: "Jessica Penne",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/jessica-pene",
+        rankA: "#48",
+        recordA: "12-5-0 ",
+        weight: "115",
+        recordB: " 5-0-0",
+        rankB: "#179",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/133312-lupita-godinez",
+        fighterB: "Lupita Godinez",
+      },
+      {
+        fighterA: "Gerald Meerschaert",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/6018-gerald-meerschaert-the-machine",
+        rankA: "#25",
+        recordA: "31-14-0 ",
+        weight: "185",
+        recordB: " 15-4-0",
+        rankB: "#43",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/42863-bartosz-fabinski",
+        fighterB: "Bartosz Fabiński",
+      },
+      {
+        fighterA: "Zarah Fairn",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/98694-zarah-fairn",
+        rankA: "#19",
+        recordA: "6-4-0 ",
+        weight: "135",
+        recordB: " 7-1-0",
+        rankB: "#26",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/61258-josiane-nunes",
+        fighterB: "Josiane Nunes",
+      },
+      {
+        fighterA: "Austin Hubbard",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/67931-austin-hubbard",
+        rankA: "#71",
+        recordA: "12-5-0 ",
+        weight: "155",
+        recordB: " 8-2-0",
+        rankB: "#16",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/109057-dakota-bush",
+        fighterB: "Dakota Bush",
+      },
+      {
+        fighterA: "Tony Gravely",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/80780-tony-gravely-lamar",
+        rankA: "#57",
+        recordA: "20-6-0 ",
+        weight: "135",
+        recordB: " 15-7-0",
+        rankB: "#131",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/13551-Anthony-Birchak",
+        fighterB: "Anthony Birchak",
+      },
+    ],
+    "UFC Fight Night",
+    "7",
+  ],
 ];

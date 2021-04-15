@@ -224,6 +224,7 @@ function generateLinks() {
          <div class="eventLinkDate">${date}</div>
          <div class="eventLinkText">${events[i][4]}</div>
       </div>
+      
   `;
   }
 }
