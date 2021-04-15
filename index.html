@@ -26,6 +26,14 @@
   <div id="displayCard">
     <div id="sideNav">
       <div id="eventList"></div>
+    </div>
+  
+    <div onclick="toggleSideNav()" class="hamburger" id="hamburger-1">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+    <div id="settings" >
       <div id="shareContainer">
         <div id=sharePartition></div>
         <div><span><i class="material-icons" id="shareIcon">share</i></span>Share</div>
@@ -37,14 +45,6 @@
           <img src="images/socialImages/facebookIcon.jpg" class="socialIcon">
         </div>
       </div>
-    </div>
-  
-    <div onclick="toggleSideNav()" class="hamburger" id="hamburger-1">
-      <span class="line"></span>
-      <span class="line"></span>
-      <span class="line"></span>
-    </div>
-    <div id="settings" >
       <i class="material-icons" id="closeSettings" onclick="changeSettings()">close</i>
       <h3 id="settingsHeader">Settings</h3>
         <div class="setting">
