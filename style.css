@@ -74,8 +74,9 @@ body {
 #mainHeader,
 #mainHeaderPlus1,
 #mainHeaderMinus1 {
+  font-size: 20px;
+  padding: 4px;
   text-align: center;
-  padding: 8px 0px;
 }
 
 #imageContainer,
@@ -315,11 +316,12 @@ body {
 
 .hamburger {
   position: absolute;
-  top: 0;
-  right: 0px;
-  transform: scale(0.5);
+  right: 0;
+  top: 0px;
+  transform: scale(0.5) translateY(-15px);
   z-index: 1000;
   -webkit-tap-highlight-color: transparent;
+  transition-duration: 0s;
 }
 
 a {
@@ -576,12 +578,7 @@ li span {
   position: fixed;
   font-size: 31px;
   right: -58px;
-  top: 8px;
-}
-
-h2 {
-  font-size: 20px;
-  font-weight: normal;
+  top: 6px;
 }
 
 .switch {
@@ -765,11 +762,7 @@ input:checked + .slider:before {
     width: 100%;
     text-align: center;
   }
-  #mainHeader {
-    font-size: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
+
   #imageContainer {
     max-height: 190px;
     min-height: 190px;
