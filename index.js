@@ -613,8 +613,8 @@ function generateCard(i, arg) {
             } else {
               colorA = "skyblue";
               colorB = "skyblue";
-              rightOdds = "evs";
-              leftOdds = "evs";
+              rightOdds = "EVS";
+              leftOdds = "EVS";
             }
             if (leftOdds === 100 || leftOdds === "100") {
               leftOdds = "";
@@ -628,10 +628,10 @@ function generateCard(i, arg) {
             } else if (leftOdds > rightOdds && leftOdds >= 2) {
               colorA = "#CD5C5C";
             } else {
-              colorA = "skyblue";
-              colorB = "skyblue";
-              rightOdds = "evs";
-              leftOdds = "evs";
+              colorA = "#6082B6";
+              colorB = "#6082B6";
+              rightOdds = "EVS";
+              leftOdds = "EVS";
             }
           }
         }
@@ -644,7 +644,7 @@ function generateCard(i, arg) {
       <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
     </div>
     <div class="detailsLeft${arg}">
-    <div style="color: ${colorA}; font-size:0.9rem;">${leftOdds}</div>        
+    <div style="color: ${colorA}; font-size:0.9rem; font-weight:bold;">${leftOdds}</div>        
     <div>${events[i][3][j].rankA}</div>
       <div>${events[i][3][j].recordA}</div>
     </div>
@@ -660,7 +660,7 @@ function generateCard(i, arg) {
     <div class="detailsRight${arg}">
       <div>${events[i][3][j].recordB}</div>
       <div>${events[i][3][j].rankB}</div>
-      <div style="color: ${colorB}; font-size:0.9rem;">${rightOdds}</div>        
+      <div style="color: ${colorB}; font-size:0.9rem; font-weight:bold;">${rightOdds}</div>        
       </div>
   </div>
   `;
@@ -724,8 +724,8 @@ function generateCard(i, arg) {
             } else {
               colorA = "skyblue";
               colorB = "skyblue";
-              rightOdds = "evs";
-              leftOdds = "evs";
+              rightOdds = "EVS";
+              leftOdds = "EVS";
             }
             if (leftOdds === 100 || leftOdds === "100") {
               leftOdds = "";
@@ -741,8 +741,8 @@ function generateCard(i, arg) {
             } else {
               colorA = "skyblue";
               colorB = "skyblue";
-              rightOdds = "evs";
-              leftOdds = "evs";
+              rightOdds = "EVS";
+              leftOdds = "EVS";
             }
           }
         }
@@ -755,7 +755,7 @@ function generateCard(i, arg) {
         <a href="${events[i][3][j].fighterALink}">${events[i][3][j].fighterA}</a>
       </div>
       <div class="detailsLeft${arg}">
-      <div style="color: ${colorA}; font-size:0.9rem;">${leftOdds}</div>        
+      <div style="color: ${colorA}; font-size:0.9rem; font-weight:bold;">${leftOdds}</div>        
       <div>${events[i][3][j].rankA}</div>
         <div>${events[i][3][j].recordA}</div>
       </div>
@@ -771,7 +771,7 @@ function generateCard(i, arg) {
       <div class="detailsRight${arg}">
         <div>${events[i][3][j].recordB}</div>
         <div>${events[i][3][j].rankB}</div>
-        <div style="color: ${colorB}; font-size:0.9rem;">${rightOdds}</div>        
+        <div style="color: ${colorB}; font-size:0.9rem; font-weight:bold;">${rightOdds}</div>        
         </div>
     </div>
     `;
