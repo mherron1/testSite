@@ -729,11 +729,11 @@ input:checked + .slider:before {
 
 #testDiv {
   position: absolute;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  height: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #141414;
+  color: white;
+  height: 55px;
   width: 205px;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -746,16 +746,13 @@ ul {
   width: 135px;
   bottom: 0;
   padding-inline-start: 0px;
-  margin-top: 6px;
-  margin-bottom: 0px;
+  top: 0;
   right: 0;
-  padding: 6px 0;
-  padding-bottom: 0;
 }
 
 li {
   font-family: arial;
-  background-color: white;
+  background-color: #141414;
   display: inline-block;
   text-align: center;
   font-size: 9px;
@@ -769,11 +766,11 @@ li span {
   height: 26px;
   border-radius: 1px;
   display: block;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: normal;
   width: 30px;
   margin: 2px 0px;
-  padding: 0px 3px;
+  padding: 2px 3px;
 }
 
 #countToggleMain {
@@ -819,8 +816,8 @@ li span {
   width: 20px;
   left: -20px;
   bottom: -5px;
-  border-right: 5px solid white;
-  border-bottom: 5px solid white;
+  border-right: 5px solid #141414;
+  border-bottom: 5px solid #141414;
   border-bottom-right-radius: 15px;
 }
 
@@ -831,7 +828,7 @@ li span {
   width: 20px;
   right: -20px;
   bottom: -5px;
-  border-left: 5px solid white;
-  border-bottom: 5px solid white;
+  border-left: 5px solid #141414;
+  border-bottom: 5px solid #141414;
   border-bottom-left-radius: 15px;
 }
