@@ -891,3 +891,15 @@ li span {
   margin: 6px;
   transform: translateY(6px);
 }
+
+#dim {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.05;
+  z-index: 100;
+  display: none;
+}

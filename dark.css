@@ -75,7 +75,7 @@ body {
 #mainHeaderMinus1 {
   font-size: 22px;
   font-weight: normal;
-  padding: 8px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -99,7 +99,7 @@ body {
 #eventPosterPlus1,
 #eventPosterMinus1 {
   position: relative;
-  top: 0;
+  top: -10px;
   width: 100vw;
   max-width: 475px;
   z-index: 100;
@@ -116,7 +116,7 @@ body {
 #mainTimeMinus1 {
   text-align: center;
   position: relative;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 6px;
   font-weight: bold;
   font-size: 1.1rem;
@@ -191,7 +191,7 @@ body {
 #prelimsCardPlus1,
 #prelimsCardMinus1 {
   display: grid;
-  grid-template-columns: 45% 10% 45%;
+  grid-template-columns: 45% 9% 45%;
   width: 100%;
   font-size: 1.1rem;
   padding-bottom: 120px;
@@ -200,9 +200,10 @@ body {
 .left,
 .leftPlus1,
 .leftMinus1 {
-  padding: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   text-align: right;
-  padding-right: 8px;
+  padding-right: 6px;
   background-color: #242424;
 }
 
@@ -215,7 +216,10 @@ body {
 .middle,
 .middlePlus1,
 .middleMinus1 {
-  padding: 8px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 4px;
+  padding-right: 4px;
   text-align: center;
   background-color: #242424;
   border-right: 4px solid black;
@@ -230,9 +234,9 @@ body {
 .right,
 .rightPlus1,
 .rightMinus1 {
-  padding: 7px;
+  padding: 6px;
   text-align: left;
-  padding-left: 8px;
+  padding-left: 6px;
   background-color: #242424;
 }
 
@@ -331,8 +335,8 @@ body {
 /*hamburger*/
 .hamburger {
   position: absolute;
-  right: 1px;
-  top: 0px;
+  right: 3px;
+  top: 3px;
   transform: scale(0.6) translateY(-6px);
   z-index: 1000;
   -webkit-tap-highlight-color: transparent;
@@ -431,7 +435,7 @@ a {
 }
 
 .hamburger .line {
-  width: 45px;
+  width: 40px;
   height: 5px;
   background-color: white;
   display: block;
@@ -702,8 +706,8 @@ input:checked + .slider:before {
   }
 
   #imageContainer {
-    max-height: 190px;
-    min-height: 190px;
+    max-height: 210px;
+    min-height: 210px;
   }
 }
 
@@ -775,13 +779,10 @@ input:checked + .slider:before {
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
-  background-color: #141414;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background-color: #141414;
+  background-color: rgba(0, 0, 0, 0.616);
   color: white;
-  height: 60px;
-  width: 235px;
+  height: 65px;
+  width: 100%;
   margin-left: 50%;
   transform: translateX(-50%);
   bottom: 0px;
@@ -794,7 +795,8 @@ ul {
   width: 165x;
   bottom: 0;
   top: 5px;
-  right: 13px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 li {
@@ -811,7 +813,7 @@ li {
 }
 
 li span {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.849);
   color: black;
   height: 37px;
   display: block;
@@ -855,7 +857,7 @@ li span {
   font-weight: bold;
   width: 100%;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .y:hover {
@@ -866,8 +868,9 @@ li span {
 #toggleContainerMinus1,
 #toggleContainerPlus1 {
   position: absolute;
+  height: 40px;
   top: 8px;
-  left: 8px;
+  left: 35px;
   cursor: pointer;
 }
 
@@ -877,7 +880,9 @@ li span {
 #toggleIcon2Minus1,
 #toggleIcon1Plus1,
 #toggleIcon2Plus1 {
-  font-size: 11px;
+  font-size: 13px;
+  margin-left: 0px;
+  color: white;
 }
 
 #leftCurve,
