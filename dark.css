@@ -775,7 +775,7 @@ input:checked + .slider:before {
   position: absolute;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-color: #242424e8;
+  background-color: #242424c9;
   color: white;
   height: 55px;
   width: 205px;

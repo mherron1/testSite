@@ -224,7 +224,6 @@ function generateLinks() {
          <div class="eventLinkDate">${date}</div>
          <div class="eventLinkText">${events[i][4]}</div>
       </div>
-      
   `;
   }
 }
@@ -506,7 +505,7 @@ function generateCard(i, arg) {
 
   ///////////////////////////////countdown
 
-  if (arg === "") {
+  if (arg === "Minus1") {
     let centerImageDiv = document.querySelector("#imageContainer");
     if (localStorage.getItem("countdown") != "n") {
       document.querySelector("#showHideCountdown").checked = true;
@@ -545,7 +544,8 @@ function generateCard(i, arg) {
       </div>
       <div id="leftCurve"></div>
       <div id="rightCurve"></div>
-      <div id="line"></div>
+     
+      
   
      
       `;
