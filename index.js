@@ -544,6 +544,7 @@ function generateCard(i, arg) {
       </div>
       <div id="leftCurve"></div>
       <div id="rightCurve"></div>
+      <div id="line"></div>
   
      
       `;

@@ -832,3 +832,12 @@ li span {
   border-bottom: 5px solid white;
   border-bottom-left-radius: 15px;
 }
+#line {
+  position: absolute;
+  width: 107%;
+  height: 1px;
+  background-color: rgba(226, 226, 226, 0.555);
+  bottom: 0px;
+  left: -7px;
+  z-index: 10000;
+}
