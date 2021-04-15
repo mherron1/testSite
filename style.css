@@ -820,7 +820,7 @@ li span {
   position: absolute;
   width: 107%;
   height: 1px;
-  background-color: rgba(226, 226, 226, 0.555);
+  background-color: rgb(226, 226, 226);
   bottom: 0px;
   left: -7px;
   z-index: 10000;
@@ -844,7 +844,7 @@ li span {
   top: 0;
   left: 8%;
 
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(49, 49, 49);
 }
 
 #sharing {
