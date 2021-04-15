@@ -711,7 +711,9 @@ input:checked + .slider:before {
   }
 }
 
-#testDiv {
+#testDiv,
+#testDivMinus1,
+#testDivPlus1 {
   position: absolute;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -757,13 +759,17 @@ li span {
   padding: 2px 3px;
 }
 
-#countToggleMain {
+#countToggleMain,
+#countToggleMainMinus1,
+#countToggleMainPlus1 {
   display: none;
   width: 60px;
   text-align: center;
 }
 
-#countTogglePrelims {
+#countTogglePrelims,
+#countTogglePrelimsMinus1,
+#countTogglePrelimsPlus1 {
   display: block;
   width: 60px;
   text-align: center;
@@ -781,7 +787,9 @@ li span {
   filter: brightness(1.1);
 }
 
-#toggleContainer {
+#countdown2,
+#countdown2Minus1,
+#countdown2Plus {
   position: absolute;
   top: 9px;
   left: 8px;
@@ -789,11 +797,17 @@ li span {
 }
 
 #toggleIcon1,
-#toggleIcon2 {
+#toggleIcon2,
+#toggleIcon1Minus1,
+#toggleIcon2Minus1,
+#toggleIcon1Plus1,
+#toggleIcon2Plus1 {
   font-size: 11px;
 }
 
-#leftCurve {
+#leftCurve,
+#leftCurveMinus1,
+#leftCurvePlus1 {
   position: absolute;
   background-color: none;
   height: 20px;
@@ -805,7 +819,9 @@ li span {
   border-bottom-right-radius: 15px;
 }
 
-#rightCurve {
+#rightCurve,
+#rightCurveMinus1,
+#rightCurvePlus {
   position: absolute;
   background-color: none;
   height: 20px;
@@ -816,7 +832,9 @@ li span {
   border-bottom: 5px solid white;
   border-bottom-left-radius: 15px;
 }
-#line {
+#line,
+#lineMinus1,
+#linePlus1 {
   position: absolute;
   width: 107%;
   height: 1px;
