@@ -505,7 +505,7 @@ function generateCard(i, arg) {
 
   ///////////////////////////////countdown
 
-  if (arg === "") {
+  if (arg === "Minus1") {
     let centerImageDiv = document.querySelector("#imageContainer");
     if (localStorage.getItem("countdown") != "n") {
       document.querySelector("#showHideCountdown").checked = true;
@@ -549,11 +549,6 @@ function generateCard(i, arg) {
       `;
 
       setCountdown();
-      if (screen.width < 1000) {
-        setTimeout(() => {
-          $("#testDiv").fadeIn(200);
-        }, 200);
-      }
     }
   }
 
