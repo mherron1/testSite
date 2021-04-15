@@ -775,15 +775,14 @@ input:checked + .slider:before {
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
-  background-color: #242424c9;
-
+  background-color: #000000da;
   box-sizing: border-box;
   color: white;
   height: 50px;
   width: 200px;
   margin-left: 50%;
   transform: translateX(-50%);
-  bottom: -1px;
+  bottom: 6px;
   font-weight: normal;
   z-index: 1000;
 }
@@ -823,7 +822,7 @@ li span {
 #countToggleMain,
 #countToggleMainMinus1,
 #countToggleMainPlus1 {
-  display: none;
+  display: block;
   width: 60px;
   text-align: center;
 }
@@ -831,21 +830,21 @@ li span {
 #countTogglePrelims,
 #countTogglePrelimsMinus1,
 #countTogglePrelimsPlus1 {
-  display: block;
+  display: none;
   width: 60px;
   text-align: center;
 }
 
-#countdown2,
-#countdown2Minus1,
-#countdown2Plus {
-  display: none;
+#countdownMain,
+#countdownMainMinus1,
+#countdownMainPlus {
+  display: block;
 }
 
-#countdown,
-#countdownMinus1,
-#countdownPlus1 {
-  display: block;
+#countdownPrelims,
+#countdownPrelimsMinus1,
+#countdownPrelimsPlus1 {
+  display: none;
 }
 
 .y {

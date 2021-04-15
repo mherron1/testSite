@@ -341,9 +341,9 @@ function setCountdown(i, arg) {
     hour = minute * 60,
     day = hour * 24;
 
-  document.getElementById("days").innerText = "-";
-  document.getElementById("hours").innerText = "-";
-  document.getElementById("minutes").innerText = "-";
+  document.getElementById("days2").innerText = "-";
+  document.getElementById("hours2").innerText = "-";
+  document.getElementById("minutes2").innerText = "-";
 
   if (arg === "") {
     x = setInterval(function () {
@@ -353,13 +353,13 @@ function setCountdown(i, arg) {
         distance = 0;
       }
       if (distance > 8.64e9) {
-        document.getElementById("days").style.width = "42px";
+        document.getElementById("days2").style.width = "42px";
       }
-      (document.getElementById("days").innerText = Math.floor(distance / day)),
-        (document.getElementById("hours").innerText = Math.floor(
+      (document.getElementById("days2").innerText = Math.floor(distance / day)),
+        (document.getElementById("hours2").innerText = Math.floor(
           (distance % day) / hour
         )),
-        (document.getElementById("minutes").innerText = Math.floor(
+        (document.getElementById("minutes2").innerText = Math.floor(
           (distance % hour) / minute
         ));
     }, second);
@@ -367,9 +367,9 @@ function setCountdown(i, arg) {
 
   let prelimCountdown = events[i][1] - 1800000 * events[i][5];
 
-  document.getElementById("days2").innerText = "-";
-  document.getElementById("hours2").innerText = "-";
-  document.getElementById("minutes2").innerText = "-";
+  document.getElementById("days").innerText = "-";
+  document.getElementById("hours").innerText = "-";
+  document.getElementById("minutes").innerText = "-";
 
   y = setInterval(function () {
     let now = new Date().getTime(),
@@ -378,13 +378,13 @@ function setCountdown(i, arg) {
       distance2 = 0;
     }
     if (distance2 > 8.64e9) {
-      document.getElementById("days2").style.width = "42px";
+      document.getElementById("days").style.width = "42px";
     }
-    (document.getElementById("days2").innerText = Math.floor(distance2 / day)),
-      (document.getElementById("hours2").innerText = Math.floor(
+    (document.getElementById("days").innerText = Math.floor(distance2 / day)),
+      (document.getElementById("hours").innerText = Math.floor(
         (distance2 % day) / hour
       )),
-      (document.getElementById("minutes2").innerText = Math.floor(
+      (document.getElementById("minutes").innerText = Math.floor(
         (distance2 % hour) / minute
       ));
   }, second);
@@ -520,17 +520,17 @@ function generateCard(i, arg) {
   
             <div id="countTogglePrelims${arg}">
             <i class="fa fa-exchange" id="toggleIcon2${arg}"></i>
-              <p class="y"> Main</p>
+              <p class="y"> Prelims </p>
             </div>
   
           <div id="countToggleMain${arg}">
           <i class="fa fa-exchange" id="toggleIcon1${arg}"></i>
-            <p class="y"> Prelims </p>
+            <p class="y"> Main </p>
           </div>
             
         </div>
   
-        <div id="countdown${arg}">
+        <div id="countdownPrelims${arg}">
           <ul>
             <li><span id="days${arg}"></span>days</li>
             <li><span id="hours${arg}"></span>Hours</li>
@@ -538,7 +538,7 @@ function generateCard(i, arg) {
           </ul>
         </div>
         
-        <div id="countdown2${arg}">
+        <div id="countdownMain${arg}">
           <ul>
             <li><span id="days2${arg}"></span>days</li>
             <li><span id="hours2${arg}"></span>Hours</li>
@@ -549,7 +549,9 @@ function generateCard(i, arg) {
         <div id="rightCurve${arg}"></div>
         `;
 
-    setCountdown(i, arg);
+    if (arg === "") {
+      setCountdown(i, arg);
+    }
   }
 
   //////////////////////////////
@@ -950,10 +952,10 @@ function toggleCountDown() {
 
 const countdownToggle = function () {
   console.log("fired");
-  var x = document.getElementById("countdown");
-  var y = document.getElementById("countdown2");
-  var z = document.getElementById("countTogglePrelims");
-  var w = document.getElementById("countToggleMain");
+  var x = document.getElementById("countdownPrelims");
+  var y = document.getElementById("countdownMain");
+  var z = document.getElementById("countToggleMain");
+  var w = document.getElementById("countTogglePrelims");
   if (y.style.display === "none") {
     y.style.display = "block";
     x.style.display = "none";

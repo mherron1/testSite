@@ -761,7 +761,7 @@ li span {
 #countToggleMain,
 #countToggleMainMinus1,
 #countToggleMainPlus1 {
-  display: none;
+  display: block;
   width: 60px;
   text-align: center;
 }
@@ -769,7 +769,7 @@ li span {
 #countTogglePrelims,
 #countTogglePrelimsMinus1,
 #countTogglePrelimsPlus1 {
-  display: block;
+  display: none;
   width: 60px;
   text-align: center;
 }
@@ -788,13 +788,16 @@ li span {
   filter: brightness(1.1);
 }
 
-#countdown2,
-#countdown2Minus1,
-#countdown2Plus {
-  position: absolute;
-  top: 9px;
-  left: 8px;
-  cursor: pointer;
+#countdownMain,
+#countdownMainMinus1,
+#countdownMainPlus {
+  display: block;
+}
+
+#countdownPrelims,
+#countdownPrelimsMinus1,
+#countdownPrelimsPlus1 {
+  display: none;
 }
 
 #toggleIcon1,
@@ -805,6 +808,7 @@ li span {
 #toggleIcon2Plus1 {
   font-size: 11px;
   margin-top: 14px;
+  margin-left: 10px;
 }
 
 #leftCurve,
@@ -885,10 +889,4 @@ li span {
 #shareIcon {
   margin: 6px;
   transform: translateY(6px);
-}
-
-#countdown2,
-#countdown2Minus1,
-#countdown2Plus1 {
-  display: none;
 }
