@@ -121,10 +121,10 @@ body {
 #mainTimeMinus1 {
   text-align: center;
   position: relative;
-  padding: 5px;
-  padding-top: px;
+  margin: 10px;
+  padding-bottom: 5px;
   font-weight: bold;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   color: #d2af4b;
   border-bottom: 4px solid black;
 

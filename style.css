@@ -731,8 +731,8 @@ input:checked + .slider:before {
   position: absolute;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: #141414;
-  color: white;
+  background-color: white;
+  color: black;
   height: 55px;
   width: 205px;
   margin-left: 50%;
@@ -752,7 +752,7 @@ ul {
 
 li {
   font-family: arial;
-  background-color: #141414;
+  background-color: white;
   display: inline-block;
   text-align: center;
   font-size: 9px;
@@ -816,8 +816,8 @@ li span {
   width: 20px;
   left: -20px;
   bottom: -5px;
-  border-right: 5px solid #141414;
-  border-bottom: 5px solid #141414;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
   border-bottom-right-radius: 15px;
 }
 
@@ -828,7 +828,7 @@ li span {
   width: 20px;
   right: -20px;
   bottom: -5px;
-  border-left: 5px solid #141414;
-  border-bottom: 5px solid #141414;
+  border-left: 5px solid white;
+  border-bottom: 5px solid white;
   border-bottom-left-radius: 15px;
 }
