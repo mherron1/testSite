@@ -333,7 +333,7 @@ document.addEventListener("keydown", function (e) {
 
 /////////////////////////////////// countdowns
 
-function setCountdown() {
+function setCountdown(i, arg) {
   let mainCountdown = events[i][1];
 
   const second = 1000,
@@ -345,23 +345,25 @@ function setCountdown() {
   document.getElementById("hours").innerText = "-";
   document.getElementById("minutes").innerText = "-";
 
-  x = setInterval(function () {
-    let now = new Date().getTime(),
-      distance = mainCountdown - now;
-    if (distance < 0) {
-      distance = 0;
-    }
-    if (distance > 8.64e9) {
-      document.getElementById("days").style.width = "42px";
-    }
-    (document.getElementById("days").innerText = Math.floor(distance / day)),
-      (document.getElementById("hours").innerText = Math.floor(
-        (distance % day) / hour
-      )),
-      (document.getElementById("minutes").innerText = Math.floor(
-        (distance % hour) / minute
-      ));
-  }, second);
+  if (arg === "") {
+    x = setInterval(function () {
+      let now = new Date().getTime(),
+        distance = mainCountdown - now;
+      if (distance < 0) {
+        distance = 0;
+      }
+      if (distance > 8.64e9) {
+        document.getElementById("days").style.width = "42px";
+      }
+      (document.getElementById("days").innerText = Math.floor(distance / day)),
+        (document.getElementById("hours").innerText = Math.floor(
+          (distance % day) / hour
+        )),
+        (document.getElementById("minutes").innerText = Math.floor(
+          (distance % hour) / minute
+        ));
+    }, second);
+  }
 
   let prelimCountdown = events[i][1] - 1800000 * events[i][5];
 
@@ -505,53 +507,49 @@ function generateCard(i, arg) {
 
   ///////////////////////////////countdown
 
-  if (arg === "Minus1") {
-    let centerImageDiv = document.querySelector("#imageContainer");
-    if (localStorage.getItem("countdown") != "n") {
-      document.querySelector("#showHideCountdown").checked = true;
-      centerImageDiv.innerHTML += `
+  let imageDiv = document.querySelector(`#imageContainer${arg}`);
 
-      <div id="testDiv" onclick="countdownToggle()">
+  if (localStorage.getItem("countdown") != "n") {
+    document.querySelector("#showHideCountdown").checked = true;
 
-        <div id="toggleContainer">
+    imageDiv.innerHTML += `
 
-          <div id="countTogglePrelims">
-          <i class="fa fa-exchange" id="toggleIcon2"></i>
-            <p class="y"> Main</p>
-          </div>
-
-        <div id="countToggleMain">
-        <i class="fa fa-exchange" id="toggleIcon1"></i>
-          <p class="y"> Prelims </p>
-        </div>
-          
-      </div>
-
-      <div id="countdown">
-        <ul>
-          <li><span id="days"></span>days</li>
-          <li><span id="hours"></span>Hours</li>
-          <li><span id="minutes"></span>Minutes</li>
-        </ul>
-      </div>
-      
-      <div id="countdown2">
-        <ul>
-          <li><span id="days2"></span>days</li>
-          <li><span id="hours2"></span>Hours</li>
-          <li><span id="minutes2"></span>Minutes</li>
-        </ul>
-      </div>
-      <div id="leftCurve"></div>
-      <div id="rightCurve"></div>
-     
-      
+        <div id="testDiv${arg}" onclick="countdownToggle()">
   
-     
-      `;
+          <div id="toggleContainer${arg}">
+  
+            <div id="countTogglePrelims${arg}">
+            <i class="fa fa-exchange" id="toggleIcon2${arg}"></i>
+              <p class="y"> Main</p>
+            </div>
+  
+          <div id="countToggleMain${arg}">
+          <i class="fa fa-exchange" id="toggleIcon1${arg}"></i>
+            <p class="y"> Prelims </p>
+          </div>
+            
+        </div>
+  
+        <div id="countdown${arg}">
+          <ul>
+            <li><span id="days${arg}"></span>days</li>
+            <li><span id="hours${arg}"></span>Hours</li>
+            <li><span id="minutes${arg}"></span>Minutes</li>
+          </ul>
+        </div>
+        
+        <div id="countdown2${arg}">
+          <ul>
+            <li><span id="days2${arg}"></span>days</li>
+            <li><span id="hours2${arg}"></span>Hours</li>
+            <li><span id="minutes2${arg}"></span>Minutes</li>
+          </ul>
+        </div>
+        <div id="leftCurve${arg}"></div>
+        <div id="rightCurve${arg}"></div>
+        `;
 
-      setCountdown();
-    }
+    setCountdown(i, arg);
   }
 
   //////////////////////////////
