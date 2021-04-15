@@ -32,11 +32,6 @@ body {
   justify-content: space-around;
 }
 
-.socialIcon {
-  max-height: 50px;
-  border-radius: 50%;
-}
-
 #wideHeader {
   display: none;
 }
@@ -886,8 +881,8 @@ li span {
 #shareContainer {
   bottom: 0;
   padding: 7px;
-  height: 110px;
-  width: 80%;
+  height: 120px;
+  width: 100%;
   background-color: none;
   text-align: center;
   position: absolute;
@@ -896,15 +891,30 @@ li span {
 
 #sharePartition {
   position: absolute;
-  height: 2px;
-  width: 90%;
-  top: -10px;
-  left: 10%;
-  background-color: rgba(63, 63, 63, 0.445);
+  height: 1px;
+  width: 80%;
+  top: 0;
+  left: 8%;
+
+  background-color: rgb(49, 49, 49);
+}
+
+#sharing {
+  position: absolute;
+  width: 70%;
+  bottom: 15px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialIcon {
+  max-height: 50px;
+  border-radius: 50%;
 }
 
 #shareIcon {
-  margin: 5px;
-  font-size: 20px;
-  transform: translateY(3px);
+  margin: 6px;
+  transform: translateY(6px);
 }

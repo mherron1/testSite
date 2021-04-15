@@ -21,21 +21,6 @@ body {
   overflow: auto;
 }
 
-#sharing {
-  position: absolute;
-  width: 60%;
-  bottom: 25px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: space-around;
-}
-
-.socialIcon {
-  max-height: 50px;
-  border-radius: 50%;
-}
-
 #displaycard {
   position: relative;
   overflow: hidden;
@@ -840,11 +825,12 @@ li span {
   left: -7px;
   z-index: 10000;
 }
+
 #shareContainer {
   bottom: 0;
   padding: 7px;
-  height: 110px;
-  width: 80%;
+  height: 120px;
+  width: 100%;
   background-color: none;
   text-align: center;
   position: absolute;
@@ -854,15 +840,29 @@ li span {
 #sharePartition {
   position: absolute;
   height: 1px;
-  width: 90%;
-  top: -10px;
-  left: 25px;
+  width: 80%;
+  top: 0;
+  left: 8%;
 
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(49, 49, 49);
+}
+
+#sharing {
+  position: absolute;
+  width: 70%;
+  bottom: 15px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialIcon {
+  max-height: 50px;
+  border-radius: 50%;
 }
 
 #shareIcon {
-  margin: 5px;
-  font-size: 20px;
-  transform: translateY(3px);
+  margin: 6px;
+  transform: translateY(6px);
 }
