@@ -512,18 +512,18 @@ function generateCard(i, arg) {
       centerImageDiv.innerHTML += `
 
       
-      <div id="testDiv">
+      <div id="testDiv" onclick="countdownToggle()">
 
-        <div id="toggleContainer" onclick="countdownToggle()">
+        <div id="toggleContainer">
 
           <div id="countTogglePrelims">
-            <p class="x"> Main Card </p>
-            <p class="y"> Prelims </p>
+          <i class="fa fa-exchange" id="toggleIcon2"></i>
+            <p class="y"> Main</p>
           </div>
 
         <div id="countToggleMain">
-          <p class="y"> Main Card </p>
-          <p class="x"> Prelims </p>
+        <i class="fa fa-exchange" id="toggleIcon1"></i>
+          <p class="y"> Prelims </p>
         </div>
           
       </div>
@@ -741,8 +741,8 @@ function generateCard(i, arg) {
             } else {
               colorA = "skyblue";
               colorB = "skyblue";
-              rightOdds = "EVS";
-              leftOdds = "EVS";
+              rightOdds = "evs";
+              leftOdds = "evs";
             }
           }
         }

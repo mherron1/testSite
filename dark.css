@@ -472,8 +472,11 @@ a {
 
 #testDiv {
   position: absolute;
-  height: 60px;
-  width: 225px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #141414;
+  height: 45px;
+  width: 200px;
   margin-left: 50%;
   transform: translateX(-50%);
   bottom: 0px;
@@ -482,19 +485,20 @@ a {
 
 ul {
   position: absolute;
-  width: 147px;
+  width: 135px;
   bottom: 0;
   padding-inline-start: 0px;
   margin-top: 6px;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
   right: 0;
   padding: 6px 0;
+  padding-bottom: 0;
 }
 
 li {
   font-family: arial;
-  color: rgb(17, 17, 17);
-  background-color: #e2e2e2;
+  color: white;
+  background-color: #141414;
   display: inline-block;
   text-align: center;
   font-size: 9px;
@@ -508,45 +512,12 @@ li span {
   height: 26px;
   border-radius: 1px;
   display: block;
-  font-size: 27px;
-  font-weight: lighter;
+  font-size: 24px;
+  font-weight: normal;
   width: 30px;
-  color: rgb(44, 44, 44);
-  margin: 3px;
-  padding: 0px 5px;
-}
-
-#mainCountdown {
-  max-width: 200px;
-  text-align: center;
-  margin: 10px auto;
-}
-
-.x {
-  background-color: #f3f3f3;
-  color: #000;
-  width: 100%;
-  font-weight: normal;
-  font-size: 13px;
-  padding: 2px;
-  margin: auto;
-}
-.y {
-  background-color: #000000;
-  color: #8b8b8b;
-  width: 100%;
-  font-size: 13px;
-  font-weight: normal;
-  padding: 2px;
-  margin: auto;
-}
-
-.y:hover {
-  filter: brightness(1.1);
-}
-
-.x:hover {
-  filter: brightness(1.1);
+  color: white;
+  margin: 2px 0px;
+  padding: 0px 3px;
 }
 
 #dim {
@@ -857,35 +828,24 @@ input:checked + .slider:before {
 
 #countToggleMain {
   display: none;
-  width: 70px;
+  width: 60px;
   text-align: center;
 }
 
 #countTogglePrelims {
   display: block;
-  width: 70px;
+  width: 60px;
   text-align: center;
 }
 
-.x {
-  background-color: #e2e2e2;
-  color: rgb(201, 201, 201);
-  height: 19px;
-  width: 100%;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 17px;
-  margin: auto;
-}
 .y {
-  background-color: #e2e2e2;
-  color: rgb(0, 0, 0);
-  height: 18px;
+  background-color: #35e40000;
+  color: white;
+  height: 20px;
+  font-weight: bold;
   width: 100%;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 17px;
-  margin: auto;
+  font-size: 16px;
 }
 
 .y:hover {
@@ -898,6 +858,13 @@ input:checked + .slider:before {
 
 #toggleContainer {
   position: absolute;
-  top: 7px;
+  top: 5px;
+  left: 5px;
   cursor: pointer;
+}
+
+#toggleIcon1,
+#toggleIcon2 {
+  font-size: 13px;
+  color: white;
 }
