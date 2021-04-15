@@ -83,8 +83,8 @@ body {
 #imageContainerPlus1,
 #imageContainerMinus1 {
   position: relative;
-  max-height: 190px;
-  min-height: 190px;
+  max-height: 210px;
+  min-height: 210px;
   overflow: hidden;
 }
 
@@ -775,11 +775,11 @@ input:checked + .slider:before {
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
-  background-color: #000000da;
+  background-color: #181818;
   box-sizing: border-box;
   color: white;
-  height: 50px;
-  width: 200px;
+  height: 60px;
+  width: 230px;
   margin-left: 50%;
   transform: translateX(-50%);
   bottom: 6px;
@@ -789,41 +789,41 @@ input:checked + .slider:before {
 
 ul {
   position: absolute;
-  width: 135px;
+  width: 165x;
   bottom: 0;
-  padding-inline-start: 0px;
-  top: 0;
-  right: 0;
+  top: 5px;
+  right: 5px;
 }
 
 li {
   font-family: arial;
-
+  color: white;
   display: inline-block;
   text-align: center;
   font-size: 9px;
+  margin: 2px 2px;
   font-weight: bold;
   list-style-type: none;
   text-transform: uppercase;
-  padding-bottom: 3px;
+  width: 45px;
 }
 
 li span {
-  height: 24px;
-  border-radius: 1px;
+  background-color: white;
+  color: black;
+  height: 37px;
   display: block;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: normal;
-  width: 30px;
-  margin: 2px 0px;
-  padding: 2px 3px;
+  width: 45px;
+  line-height: 40px;
 }
 
 #countToggleMain,
 #countToggleMainMinus1,
 #countToggleMainPlus1 {
   display: block;
-  width: 60px;
+  width: 50px;
   text-align: center;
 }
 
@@ -831,7 +831,7 @@ li span {
 #countTogglePrelimsMinus1,
 #countTogglePrelimsPlus1 {
   display: none;
-  width: 60px;
+  width: 50px;
   text-align: center;
 }
 
