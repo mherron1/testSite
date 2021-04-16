@@ -253,10 +253,7 @@ sideNav.ontransitionstart = () => {
 };
 
 function selectCard(index) {
-  if (screen.width < 1000) {
-    toggleSideNav();
-  }
-
+  toggleSideNav();
   i = index;
   //navigator.vibrate(40);
   pausecomp(50);
@@ -442,7 +439,9 @@ function toggleSettings() {
     $("#settings").css("position", "absolute");
     $("#settings").css("height", "0vh");
     $("#settings").css("top", "100%");
-    toggleSideNav();
+    if (screen.width < 824) {
+      toggleSideNav();
+    }
   } else {
     $("#settings").css("height", "110%");
     $("#settings").css("top", "-30px");
@@ -833,6 +832,10 @@ function generateCard(i, arg) {
       $(".detailsRightPlus1").css("display", "none");
       $(".detailsMiddlePlus1").css("display", "none");
     }
+  }
+
+  if (screen.width > 824) {
+    generateLinks();
   }
 }
 
