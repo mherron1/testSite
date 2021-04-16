@@ -599,7 +599,9 @@ input:checked + .slider:before {
     font-size: 1.1rem;
   }
   .socialIcon {
-    max-height: 40px;
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50%;
   }
 }
 
@@ -658,8 +660,11 @@ input:checked + .slider:before {
     font-size: 1rem;
   }
   .socialIcon {
-    max-height: 40px;
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50%;
   }
+
   #settingsHeader {
     margin-top: 45px;
     margin-bottom: 20px;
@@ -849,7 +854,8 @@ li span {
 }
 
 .socialIcon {
-  max-height: 45px;
+  max-height: 50px;
+  max-width: 50px;
   border-radius: 50%;
 }
 
