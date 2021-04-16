@@ -243,6 +243,7 @@ function generateLinks() {
       </div>
   `;
   }
+  eventList.innerHTML += `<br><br><br><br>`;
 }
 
 let sideNav = document.querySelector("#sideNav");

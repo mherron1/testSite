@@ -44,7 +44,7 @@ body {
 #content {
   position: absolute;
   left: 0;
-  background-color: #121212;
+  background-color: #141414;
   height: 100vh;
   z-index: 10;
 }
@@ -73,9 +73,9 @@ body {
 #mainHeader,
 #mainHeaderPlus1,
 #mainHeaderMinus1 {
-  font-size: 22px;
+  font-size: 23px;
   font-weight: normal;
-  padding: 10px;
+  padding: 11px;
   text-align: center;
 }
 
@@ -299,7 +299,7 @@ body {
 }
 
 #eventList {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-top: 75px;
   text-align: right;
 }
@@ -307,8 +307,8 @@ body {
 .eventLink {
   min-width: 300;
   padding-right: 25px;
-  margin-left: 50px;
-  padding-left: 7px;
+  margin-left: 20px;
+  padding-left: 15px;
   padding-top: 11px;
   padding-bottom: 7px;
   border-bottom: 1px solid #2c2c2c;
@@ -329,7 +329,7 @@ body {
 .eventLinkDate {
   position: absolute;
   font-weight: normal;
-  left: 60px;
+  left: 25px;
 }
 .eventIcons {
   position: absolute;
@@ -337,13 +337,15 @@ body {
   left: 15px;
   transform: translateY(-2px);
   border-radius: 50%;
+  display: none;
 }
 
 .hamburger {
   position: absolute;
-  right: 0px;
-  top: 1px;
-  transform: scale(0.5) translateY(-6px);
+  background-color: #141414;
+  right: 6px;
+  top: 4px;
+  transform: scale(0.55) translateY(-6px);
   z-index: 1000;
   -webkit-tap-highlight-color: transparent;
   transition-duration: 0s;
@@ -441,7 +443,7 @@ a {
 }
 
 .hamburger .line {
-  width: 40px;
+  width: 48px;
   height: 5px;
   background-color: white;
   display: block;
@@ -653,10 +655,6 @@ input:checked + .slider:before {
     padding: 6px;
     padding-top: 9px;
     font-size: 0.9rem;
-  }
-
-  #hamburger-1 {
-    top: -6px;
   }
 
   #mainCard,
