@@ -183,14 +183,14 @@ function showPoster() {
 function toggleSideNav() {
   //navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.width === "300px") {
+  if (sideNav.style.width === "325px") {
     $("#hamburger-1").toggleClass("is-active");
     eventList.innerHTML = ``;
     sideNav.style.width = "0%";
     $("#dim").fadeOut(300);
   } else {
     $("#hamburger-1").toggleClass("is-active");
-    sideNav.style.width = "300px";
+    sideNav.style.width = "325px";
     $("#dim").fadeIn(300);
     generateLinks();
   }

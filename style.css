@@ -241,7 +241,7 @@ body {
   top: 0;
   right: 0%;
   width: 0%;
-  max-width: 300px;
+  max-width: 325px;
   min-height: 100vh;
   background-color: rgb(247, 247, 247);
   transition-duration: 0.3s;
@@ -301,10 +301,6 @@ body {
   left: 15px;
   transform: translateY(-2px);
   border-radius: 50%;
-}
-
-.eventLinkText {
-  min-width: 80px;
 }
 
 /*hamburger*/
