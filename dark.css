@@ -519,7 +519,7 @@ a {
   font-size: 30px;
   color: rgb(223, 223, 223);
   margin-right: 75%;
-  transform: translateY(-60px);
+  transform: translateY(-30px);
 }
 
 #closeSettings {
@@ -786,7 +786,7 @@ input:checked + .slider:before {
   width: 205px;
   margin-left: 50%;
   transform: translateX(-50%);
-  bottom: 10px;
+  bottom: 12px;
   z-index: 1000;
 }
 
