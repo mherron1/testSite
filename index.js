@@ -430,14 +430,15 @@ function toggleSettings() {
   }
 
   let settingsDiv = document.querySelector("#settings");
-  if (settingsDiv.style.height === "100%") {
+  if (settingsDiv.style.height === "110%") {
     $("#settings").css("position", "absolute");
     $("#settings").css("height", "0vh");
     $("#settings").css("top", "100%");
     toggleSideNav();
   } else {
-    $("#settings").css("height", "100%");
-    $("#settings").css("top", "-50px");
+    $("#settings").css("height", "110%");
+    $("#settings").css("top", "-30px");
+    $("#settings").css("bottom", "-30px");
     $("#settings").css("position", "fixed");
   }
 }

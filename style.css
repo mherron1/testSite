@@ -119,12 +119,6 @@ body {
   display: none;
 }
 
-#expandLess,
-#expandPlus1,
-#expandMinus1:hover {
-  cursor: pointer;
-  display: none;
-}
 #expandMore,
 #expandPlus1,
 #expandMinus1 {
@@ -134,6 +128,13 @@ body {
   right: 6px;
   bottom: -4px;
   color: black;
+}
+
+#expandLess,
+#expandPlus1,
+#expandMinus1:hover {
+  cursor: pointer;
+  display: none;
 }
 
 #mainCard,
@@ -446,7 +447,7 @@ a {
   background-color: white;
   width: 100%;
   max-width: 420px;
-  height: 0%;
+  height: 0;
   top: 100%;
   bottom: 0;
   right: 0;
@@ -456,7 +457,7 @@ a {
 }
 
 #settingsHeader {
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 20px;
   width: 100%;
   text-align: center;
@@ -654,7 +655,7 @@ input:checked + .slider:before {
     margin-right: 30px;
   }
   .eventLink {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
   }
   .socialIcon {
     max-height: 40px;
@@ -815,7 +816,7 @@ li span {
 
 #shareContainer {
   position: absolute;
-  bottom: 10px;
+  bottom: 50px;
   padding-top: 5px;
   height: 125px;
   width: 100%;
@@ -872,6 +873,10 @@ li span {
     max-width: 475px;
   }
 
+  #shareContainer {
+    bottom: 100px;
+  }
+
   #settings {
     position: fixed;
     left: auto;
@@ -881,6 +886,7 @@ li span {
   }
   #closeSettings {
     position: absolute;
+    top: 50px;
   }
   #closeSettings:hover {
     cursor: pointer;
