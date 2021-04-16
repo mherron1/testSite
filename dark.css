@@ -971,10 +971,44 @@ li span {
   }
 }
 
+#shareIconTop {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: silver;
+}
+
+#shareIconTop:hover {
+  cursor: pointer;
+}
+
+#sharingTop {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  width: 50px;
+  height: 104px;
+  top: 49px;
+  left: 0px;
+  z-index: 10000000;
+  background-color: rgba(36, 36, 36, 0.555);
+  padding: 4px;
+
+  border-bottom-right-radius: 6px;
+}
+
+.r {
+  border-radius: 6%;
+}
+
 @media only screen and (min-width: 825px) {
   html {
     background-color: rgb(131, 131, 131);
     overflow-y: unset;
+  }
+
+  #shareIconTop {
+    display: none;
   }
 
   body {
@@ -998,7 +1032,7 @@ li span {
   #sideNav {
     min-width: 350px;
     background-color: rgba(0, 0, 0, 0.87);
-    border-left: 2px solid black;
+
     box-sizing: border-box;
   }
 
@@ -1045,34 +1079,4 @@ li span {
   #settingsIcon:hover {
     cursor: pointer;
   }
-}
-
-#shareIconTop {
-  position: absolute;
-  left: 20px;
-  top: 10px;
-  color: silver;
-}
-
-#shareIconTop:hover {
-  cursor: pointer;
-}
-
-#sharingTop {
-  position: absolute;
-  display: none;
-  flex-direction: column;
-  width: 50px;
-  height: 104px;
-  top: 49px;
-  left: 0px;
-  z-index: 10000000;
-  background-color: rgba(36, 36, 36, 0.555);
-  padding: 4px;
-
-  border-bottom-right-radius: 6px;
-}
-
-.r {
-  border-radius: 6%;
 }

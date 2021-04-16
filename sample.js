@@ -57,19 +57,6 @@ let data = [
         fighterB: "Desiree Yanez",
       },
       {
-        fighterA: "Julius Anglickas",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/119297-julius-anglickas",
-        rankA: "#4",
-        recordA: "9-1-0 ",
-        weight: "205",
-        recordB: " 12-6-0",
-        rankB: "#131",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/gregory-milliard",
-        fighterB: "Gregory Milliard",
-      },
-      {
         fighterA: "Julia Budd",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/julia-budd-the-jewel",
@@ -81,6 +68,19 @@ let data = [
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/10739-dayana-silva",
         fighterB: "Dayana Silva",
+      },
+      {
+        fighterA: "Julius Anglickas",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/119297-julius-anglickas",
+        rankA: "#4",
+        recordA: "9-1-0 ",
+        weight: "205",
+        recordB: " 12-6-0",
+        rankB: "#131",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/gregory-milliard",
+        fighterB: "Gregory Milliard",
       },
       {
         fighterA: "Steve Mowry",
