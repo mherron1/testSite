@@ -181,16 +181,17 @@ function showPoster() {
 }
 
 function toggleSideNav() {
+  console.log("called");
   //navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.width === "75%") {
+  if (sideNav.style.width === "300px") {
     $("#hamburger-1").toggleClass("is-active");
     eventList.innerHTML = ``;
     sideNav.style.width = "0%";
     $("#dim").fadeOut(300);
   } else {
     $("#hamburger-1").toggleClass("is-active");
-    sideNav.style.width = "75%";
+    sideNav.style.width = "300px";
     $("#dim").fadeIn(300);
     generateLinks();
   }
@@ -398,6 +399,7 @@ function resetDivCSS() {
 }
 
 function toggleSettings() {
+  toggleSideNav();
   //window.navigator.vibrate(40);
   $("#hamburger-1").toggle();
 

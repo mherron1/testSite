@@ -99,7 +99,7 @@ body {
 #eventPosterPlus1,
 #eventPosterMinus1 {
   position: relative;
-  top: -10px;
+  top: 0px;
   width: 100vw;
   max-width: 475px;
   z-index: 100;
@@ -783,11 +783,12 @@ input:checked + .slider:before {
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
-  background-color: #141414;
-  color: white;
+  background-color: hsl(0, 0%, 82%);
+
+  color: black;
   height: 50px;
-  width: 205px;
-  transform: scale(0.78) translateX(17%) translateY(9px);
+  width: 210px;
+  transform: scale(0.9) translateX(10%) translateY(3px);
   bottom: 0px;
   right: 0;
   z-index: 1000;
@@ -795,7 +796,7 @@ input:checked + .slider:before {
 
 ul {
   position: absolute;
-  width: 135px;
+  width: 155px;
   bottom: 0;
   padding-inline-start: 0px;
   top: 0px;
@@ -810,7 +811,7 @@ li {
   font-weight: bold;
   list-style-type: none;
   text-transform: uppercase;
-  padding-bottom: 3px;
+  padding: 3px 3px;
 }
 
 li span {
@@ -820,7 +821,7 @@ li span {
   font-size: 25px;
   font-weight: lighter;
   width: 30px;
-  margin: 2px 0px;
+  margin: 0px 0px;
   padding: 2px 3px;
 }
 
