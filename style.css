@@ -276,7 +276,7 @@ body {
 
 .eventLink {
   min-width: 300;
-  padding-right: 25px;
+  padding-right: 10px;
   margin-left: 50px;
   padding-left: 7px;
   padding-top: 11px;
@@ -574,13 +574,12 @@ input:checked + .slider:before {
     font-size: 1.05rem;
   }
   #eventList {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-top: 75px;
     text-align: right;
   }
 
   .eventLink {
-    min-width: 300;
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
     padding-top: 8px;
@@ -597,7 +596,7 @@ input:checked + .slider:before {
     margin-right: 30px;
   }
   .eventLink {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .socialIcon {
     max-height: 40px;
@@ -633,7 +632,7 @@ input:checked + .slider:before {
     font-size: 0.9rem;
   }
   #eventList {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     margin-top: 75px;
     text-align: right;
   }
@@ -656,7 +655,7 @@ input:checked + .slider:before {
     margin-right: 30px;
   }
   .eventLink {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .socialIcon {
     max-height: 40px;
@@ -667,7 +666,9 @@ input:checked + .slider:before {
     width: 100%;
     text-align: center;
   }
-  #imageContainer {
+  #imageContainer,
+  #imageContainerMinus1,
+  #imageContainerPlus1 {
     max-height: 190px;
     min-height: 190px;
   }

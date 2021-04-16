@@ -488,13 +488,17 @@ function generateCard(i, arg) {
 
   ////////////event date
   let eventTimeLocal = new Date(events[i][1]);
+  let mSecsPrelims = 1800000 * events[i][5];
+  let prelimCardTime = new Date(eventTimeLocal - mSecsPrelims);
+
   times.forEach((item) => {
     let temp =
-      new Date(events[i][1]).toString().split(" ")[1] +
-      new Date(events[i][1]).toString().split(" ")[2];
+      new Date(events[i][1] - 36000000).toString().split(" ")[1] +
+      new Date(events[i][1] - 36000000).toString().split(" ")[2];
 
     if (temp.toLowerCase() === item.date && events[i][0] === item.promo) {
       eventTimeLocal = item.time;
+      prelimCardTime = item.prelims;
     }
   });
 
@@ -515,8 +519,7 @@ function generateCard(i, arg) {
  <i class="material-icons noSelect" id="expandLess" onclick="toggleD()">expand_less</i>
   <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
    `;
-  let mSecsPrelims = 1800000 * events[i][5];
-  let prelimCardTime = new Date(eventTimeLocal - mSecsPrelims);
+
   prelimsCardTime = prelimCardTime.toLocaleString([], {
     month: "short",
     day: "numeric",
