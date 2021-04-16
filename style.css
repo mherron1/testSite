@@ -446,12 +446,12 @@ a {
   background-color: white;
   width: 100%;
   max-width: 420px;
-  height: 0vh;
-  top: 0;
+  height: 0%;
+  top: 100%;
   bottom: 0;
   right: 0;
   z-index: 100000;
-  transition: 0.2s;
+  transition: 0.3s;
   overflow: hidden;
 }
 
