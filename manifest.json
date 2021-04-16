@@ -5,7 +5,7 @@
     "scope": "/",
     "start_url": "/",
     "name": "mmaFightCards.org",
-    "short_name": "mmaFightCards.org",
+    "short_name": "",
     "icons": [
         {
             "src": "images/appIcons/icon-192x192.png",
