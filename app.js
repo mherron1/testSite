@@ -797,9 +797,10 @@ let assets = [
 
 let times = [
   {
-    date: "apr18",
+    date: "apr17",
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 03, 18, 03, 00, 00),
+    videos: ["PJaavS9CtWU"],
   },
 ];
 

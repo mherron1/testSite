@@ -1,3 +1,10 @@
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("/service_worker.js")
+    .then((reg) => console.log())
+    .catch((err) => console.log());
+}
+
 if (localStorage.getItem("dark-mode") !== null) {
   if (localStorage.getItem("dark-mode") === "y") {
     let darkMode = document.querySelector("#darkInput");
