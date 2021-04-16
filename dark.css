@@ -496,6 +496,7 @@ a {
   max-width: 420px;
   height: 0;
   top: 100%;
+  padding-top: 8px;
   bottom: 0;
   right: 0;
   z-index: 100000;
@@ -512,10 +513,12 @@ a {
 
 .setting {
   display: grid;
-  grid-template-columns: auto 50px;
-  padding: 15px;
-  padding-left: 30px;
-  border-top: 1px solid rgba(226, 226, 226, 0.178);
+  grid-template-columns: auto 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top: 1px solid rgba(138, 138, 138, 0.144);
   box-sizing: border-box;
 }
 
@@ -597,6 +600,12 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.setting {
+  font-size: 1.1rem;
+  padding: 9px;
+  margin: 8px;
+}
+
 @media only screen and (max-width: 405px) {
   #mainTime,
   #mainTimeMinus1,
@@ -616,36 +625,36 @@ input:checked + .slider:before {
   #prelimsCard,
   #prelimsCardMinus1,
   #prelimsCardPlus1 {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
   #eventList {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-top: 75px;
     text-align: right;
   }
 
   .eventLink {
-    min-width: 300;
     border-right: 15px solid transparent;
-    padding-top: 10px;
-    padding-bottom: 6px;
+    border-left: 15px solid transparent;
+    padding-top: 8px;
+    padding-bottom: 4px;
     box-sizing: content-box;
   }
   .setting {
     font-size: 1.1rem;
     padding: 9px;
-    margin-left: 15px;
+    margin: 8px;
   }
   .switch {
     transform: scale(1.1);
     margin-right: 30px;
   }
   .eventLink {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .socialIcon {
-    max-height: 45px;
-    max-width: 45px;
+    max-height: 50px;
+    max-width: 50px;
     border-radius: 50%;
   }
 }
@@ -657,6 +666,10 @@ input:checked + .slider:before {
     padding: 6px;
     padding-top: 9px;
     font-size: 0.9rem;
+  }
+
+  #hamburger-1 {
+    top: 0;
   }
 
   #mainCard,
@@ -682,6 +695,8 @@ input:checked + .slider:before {
 
   .eventLink {
     min-width: 300;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
     padding-top: 12px;
     padding-bottom: 8px;
     box-sizing: content-box;
@@ -698,25 +713,26 @@ input:checked + .slider:before {
   .eventLink {
     font-size: 1rem;
   }
-
-  .eventDate {
-    font-size: 1rem;
-  }
   .socialIcon {
-    max-height: 45px;
-    max-width: 45px;
+    max-height: 50px;
+    max-width: 50px;
     border-radius: 50%;
   }
+
   #settingsHeader {
     margin-top: 45px;
     margin-bottom: 20px;
     width: 100%;
     text-align: center;
   }
+  #imageContainer,
+  #imageContainerMinus1,
+  #imageContainerPlus1 {
+    max-height: 190px;
+    min-height: 190px;
+  }
 
-  #imageContainer {
-    max-height: 210px;
-    min-height: 210px;
+  #settings {
   }
 }
 
