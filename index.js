@@ -400,7 +400,6 @@ function resetDivCSS() {
 }
 
 function toggleSettings() {
-  toggleSideNav();
   //window.navigator.vibrate(40);
   $("#hamburger-1").toggle();
 
@@ -420,6 +419,7 @@ function toggleSettings() {
   if (settingsDiv.style.height === "100%") {
     $("#settings").css("position", "absolute");
     $("#settings").css("height", "0vh");
+    toggleSideNav();
   } else {
     $("#settings").css("height", "100%");
     $("#settings").css("position", "fixed");

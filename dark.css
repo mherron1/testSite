@@ -488,7 +488,7 @@ a {
   height: 0vh;
   bottom: 0;
   z-index: 100000;
-  transition: 0.4s;
+  transition: 0.2s;
   overflow: hidden;
 }
 
