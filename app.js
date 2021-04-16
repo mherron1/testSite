@@ -774,13 +774,32 @@ let ufcRankings = [
 ];
 
 let assets = [
-  "jun26.jpg",
-  "may08.jpg",
-  "apr25.jpg",
-  "may16.jpg",
-  "apr18.jpg",
-  "apr23.jpg",
+  "apr16.jpg",
+  "apr17.jpg",
   "apr22.jpg",
+  "apr23.jpg",
+  "apr24.jpg",
+  "apr25.jpg",
+  "apr29.jpg",
+  "may01.jpg",
+  "may06.jpg",
+  "may07.jpg",
+  "may08.jpg",
+  "may15.jpg",
+  "may21.jpg",
+  "may22.jpg",
+  "jun10.jpg",
+  "jun12.jpg",
+  "jun26.jpg",
+  "jul10.jpg",
+];
+
+let times = [
+  {
+    date: "apr18",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2021, 03, 18, 03, 00, 00),
+  },
 ];
 
 data2.forEach((event) => {
@@ -790,8 +809,8 @@ data2.forEach((event) => {
   }
 
   let tempTime =
-    new Date(event[1]).toString().split(" ")[1] +
-    new Date(event[1]).toString().split(" ")[2] +
+    new Date(event[1] - 36000000).toString().split(" ")[1] +
+    new Date(event[1] - 36000000).toString().split(" ")[2] +
     ".jpg";
   if (assets.indexOf(tempTime.toLowerCase()) > -1) {
     event[2] =

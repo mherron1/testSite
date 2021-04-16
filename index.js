@@ -181,7 +181,6 @@ function showPoster() {
 }
 
 function toggleSideNav() {
-  console.log("called");
   //navigator.vibrate(40);
   let sideNav = document.querySelector("#sideNav");
   if (sideNav.style.width === "300px") {
@@ -207,8 +206,8 @@ function generateLinks() {
   `;
 
   let eventLimit = events.length;
-  if (events.length > 15) {
-    eventLimit = 15;
+  if (events.length > 25) {
+    eventLimit = 25;
   }
 
   for (let i = 0; i < eventLimit; i++) {
@@ -462,8 +461,17 @@ function generateCard(i, arg) {
 `;
 
   ////////////event date
-
   let eventTimeLocal = new Date(events[i][1]);
+  times.forEach((item) => {
+    let temp =
+      new Date(events[i][1]).toString().split(" ")[1] +
+      new Date(events[i][1]).toString().split(" ")[2];
+
+    if (temp.toLowerCase() === item.date && events[i][0] === item.promo) {
+      eventTimeLocal = item.time;
+    }
+  });
+
   let mainTime = document.querySelector(`#mainTime${arg}`);
   let prelimsTime = document.querySelector(`#prelimsTime${arg}`);
 
@@ -482,7 +490,7 @@ function generateCard(i, arg) {
   <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
    `;
   let mSecsPrelims = 1800000 * events[i][5];
-  let prelimCardTime = new Date(events[i][1] - mSecsPrelims);
+  let prelimCardTime = new Date(eventTimeLocal - mSecsPrelims);
   prelimsCardTime = prelimCardTime.toLocaleString([], {
     month: "short",
     day: "numeric",
