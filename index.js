@@ -470,7 +470,8 @@ function generateCard(i, arg) {
   let content = document.querySelector(`#content${arg}`);
   content.innerHTML = `
 <h2 style="background-color:none" id="mainHeader${arg}"></h2>
-<div id="imageContainer${arg}"></div>
+<div id="imageContainer${arg}">
+</div>
 <div id="mainTime${arg}"></div>
 <div id="mainCard${arg}"></div> 
 <div id="prelimsTime${arg}"></div>
@@ -479,6 +480,8 @@ function generateCard(i, arg) {
 
   let mainHeader = document.querySelector(`#mainHeader${arg}`);
   mainHeader.textContent += `${events[i][4]}`;
+
+  mainHeader.innerHTML += `<div><span><i class="material-icons" id="shareIconTop" onclick="showShareButtons()">share</i></span></div>`;
 
   let imageContainer = document.querySelector(`#imageContainer${arg}`);
   imageContainer.innerHTML = `
@@ -543,7 +546,6 @@ function generateCard(i, arg) {
     document.querySelector("#showHideCountdown").checked = true;
 
     imageDiv.innerHTML += `
-
         <div id="testDiv${arg}" onclick="countdownToggle()">
   
           <div id="toggleContainer${arg}">
@@ -1002,3 +1004,15 @@ const countdownToggle = function () {
     z.style.display = "none";
   }
 };
+
+function showShareButtons() {
+  let sharingBtns = document.querySelector("#sharingTop");
+  if (sharingBtns.style.display === "block") {
+    sharingBtns.style.display = "none";
+  } else {
+    sharingBtns.style.display = "block";
+    setTimeout(() => {
+      sharingBtns.style.display = "none";
+    }, 5000);
+  }
+}

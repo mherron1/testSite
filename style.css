@@ -60,6 +60,7 @@ body {
 #mainHeader,
 #mainHeaderPlus1,
 #mainHeaderMinus1 {
+  position: relative;
   font-size: 23px;
   font-weight: normal;
   padding: 11px;
@@ -809,7 +810,7 @@ li span {
   }
 
   #hamburger-1 {
-    top: 0;
+    top: 6;
   }
 
   #mainCard,
@@ -1007,4 +1008,31 @@ li span {
   #settingsIcon:hover {
     cursor: pointer;
   }
+}
+
+#shareIconTop {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+#shareIconTop:hover {
+  cursor: pointer;
+}
+
+#sharingTop {
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  width: 50px;
+  height: 104px;
+  top: 49px;
+  left: 0px;
+  z-index: 10000000;
+  background-color: rgba(0, 0, 0, 0.315);
+  padding: 4px;
+  border-bottom-right-radius: 6px;
+}
+
+.r {
+  border-radius: 6%;
 }
