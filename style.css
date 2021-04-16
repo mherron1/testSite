@@ -167,9 +167,9 @@ body {
 .left,
 .leftPlus1,
 .leftMinus1 {
-  padding: 7px;
+  padding: 6px;
   text-align: right;
-  padding-right: 8px;
+  padding-right: 6px;
   background-color: white;
 }
 
@@ -182,7 +182,7 @@ body {
 .middle,
 .middlePlus1,
 .middleMinus1 {
-  padding: 8px;
+  padding: 6px;
   text-align: center;
   background-color: white;
 }
@@ -195,9 +195,9 @@ body {
 .right,
 .rightPlus1,
 .rightMinus1 {
-  padding: 7px;
+  padding: 6px;
   text-align: left;
-  padding-left: 8px;
+  padding-left: 6px;
   background-color: white;
 }
 
@@ -275,8 +275,8 @@ body {
 
 .eventLink {
   min-width: 300;
-  padding-right: 10px;
-  margin-left: 18px;
+  padding-right: 25px;
+  margin-left: 50px;
   padding-left: 7px;
   padding-top: 11px;
   padding-bottom: 7px;
@@ -291,8 +291,16 @@ body {
 }
 
 .eventLinkDate {
-  float: left;
+  position: absolute;
   font-weight: normal;
+  left: 50px;
+}
+.eventIcons {
+  position: absolute;
+  max-height: 25px;
+  left: 15px;
+  transform: translateY(-2px);
+  border-radius: 50%;
 }
 
 .eventLinkText {

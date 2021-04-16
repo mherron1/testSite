@@ -213,10 +213,25 @@ function generateLinks() {
   for (let i = 0; i < eventLimit; i++) {
     let dateString = new Date(events[i][1] - 18000000).toString();
 
+    let org = "ufc";
+
+    if (events[i][0].includes("Bell")) {
+      org = "bellator";
+    }
+    if (events[i][0].includes("Prof")) {
+      org = "pfl";
+    }
+    if (events[i][0].includes("ONE")) {
+      org = "one";
+    }
+
     let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
     eventList.innerHTML += `  
       <div class="eventLink" onclick="selectCard(${i})">
          <div class="eventLinkDate">${date}</div>
+          <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
+      
+
          <div class="eventLinkText">${events[i][4]}</div>
       </div>
   `;
