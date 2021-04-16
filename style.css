@@ -605,83 +605,6 @@ input:checked + .slider:before {
   }
 }
 
-@media only screen and (max-width: 365px) {
-  #mainTime,
-  #mainTimeMinus1,
-  #mainTimePlus1 {
-    padding: 6px;
-    padding-top: 9px;
-    font-size: 0.9rem;
-  }
-
-  #hamburger-1 {
-    top: 0;
-  }
-
-  #mainCard,
-  #mainCardMinus1,
-  #mainCardPlus1 {
-    font-size: 0.9rem;
-  }
-  #prelimsTime,
-  #prelimsTimeMinus1,
-  #prelimsTimePlus1 {
-    font-size: 0.9rem;
-  }
-  #prelimsCard,
-  #prelimsCardMinus1,
-  #prelimsCardPlus1 {
-    font-size: 0.9rem;
-  }
-  #eventList {
-    font-size: 1.1rem;
-    margin-top: 75px;
-    text-align: right;
-  }
-
-  .eventLink {
-    min-width: 300;
-    border-right: 15px solid transparent;
-    border-left: 15px solid transparent;
-    padding-top: 12px;
-    padding-bottom: 8px;
-    box-sizing: content-box;
-  }
-  .setting {
-    font-size: 0.9rem;
-    padding: 9px;
-    margin-left: 15px;
-  }
-  .switch {
-    transform: scale(0.9);
-    margin-right: 30px;
-  }
-  .eventLink {
-    font-size: 1rem;
-  }
-  .socialIcon {
-    max-height: 50px;
-    max-width: 50px;
-    border-radius: 50%;
-  }
-
-  #settingsHeader {
-    margin-top: 45px;
-    margin-bottom: 20px;
-    width: 100%;
-    text-align: center;
-  }
-  #imageContainer,
-  #imageContainerMinus1,
-  #imageContainerPlus1 {
-    max-height: 190px;
-    min-height: 190px;
-  }
-
-  #settings {
-  }
-}
-
 #testDiv,
 #testDivMinus1,
 #testDivPlus1 {
@@ -874,6 +797,83 @@ li span {
   opacity: 0.5;
   z-index: 100;
   display: none;
+}
+
+@media only screen and (max-width: 365px) {
+  #mainTime,
+  #mainTimeMinus1,
+  #mainTimePlus1 {
+    padding: 6px;
+    padding-top: 9px;
+    font-size: 0.9rem;
+  }
+
+  #hamburger-1 {
+    top: 0;
+  }
+
+  #mainCard,
+  #mainCardMinus1,
+  #mainCardPlus1 {
+    font-size: 0.9rem;
+  }
+  #prelimsTime,
+  #prelimsTimeMinus1,
+  #prelimsTimePlus1 {
+    font-size: 0.9rem;
+  }
+  #prelimsCard,
+  #prelimsCardMinus1,
+  #prelimsCardPlus1 {
+    font-size: 0.9rem;
+  }
+  #eventList {
+    font-size: 1.1rem;
+    margin-top: 75px;
+    text-align: right;
+  }
+
+  .eventLink {
+    min-width: 300;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    box-sizing: content-box;
+  }
+  .setting {
+    font-size: 0.9rem;
+    padding: 9px;
+    margin-left: 15px;
+  }
+  .switch {
+    transform: scale(0.9);
+    margin-right: 30px;
+  }
+  .eventLink {
+    font-size: 1rem;
+  }
+  .socialIcon {
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50%;
+  }
+
+  #settingsHeader {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  #imageContainer,
+  #imageContainerMinus1,
+  #imageContainerPlus1 {
+    max-height: 190px;
+    min-height: 190px;
+  }
+
+  #settings {
+  }
 }
 
 @media only screen and (min-width: 475px) {
