@@ -783,56 +783,52 @@ input:checked + .slider:before {
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.616);
+  background-color: #141414;
   color: white;
-  height: 65px;
-  width: 100%;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  height: 50px;
+  width: 205px;
+  transform: scale(0.78) translateX(17%) translateY(9px);
   bottom: 0px;
-  font-weight: normal;
+  right: 0;
   z-index: 1000;
 }
 
 ul {
   position: absolute;
-  width: 165x;
+  width: 135px;
   bottom: 0;
-  top: 4px;
-  left: 50%;
-  transform: translateX(-50%);
+  padding-inline-start: 0px;
+  top: 0px;
+  right: 0;
 }
 
 li {
   font-family: arial;
-  color: white;
   display: inline-block;
   text-align: center;
   font-size: 9px;
-  margin: 2px 2px;
   font-weight: bold;
   list-style-type: none;
   text-transform: uppercase;
-  width: 45px;
+  padding-bottom: 3px;
 }
 
 li span {
-  background-color: rgba(255, 255, 255, 0.849);
-  color: black;
-  height: 40px;
+  height: 26px;
+  border-radius: 1px;
   display: block;
-  font-size: 30px;
-  font-weight: normal;
-  width: 45px;
-  line-height: 43px;
-  margin: 2px;
+  font-size: 25px;
+  font-weight: lighter;
+  width: 30px;
+  margin: 2px 0px;
+  padding: 2px 3px;
 }
 
 #countToggleMain,
 #countToggleMainMinus1,
 #countToggleMainPlus1 {
   display: block;
-  width: 50px;
+  width: 60px;
   text-align: center;
 }
 
@@ -840,8 +836,22 @@ li span {
 #countTogglePrelimsMinus1,
 #countTogglePrelimsPlus1 {
   display: none;
-  width: 50px;
+  width: 60px;
   text-align: center;
+}
+
+.y {
+  height: 20px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 5px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.y:hover {
+  filter: brightness(1.1);
 }
 
 #countdownMain,
@@ -856,78 +866,15 @@ li span {
   display: none;
 }
 
-.y {
-  height: 20px;
-  font-weight: bold;
-  width: 100%;
-  font-weight: normal;
-  font-size: 15px;
-  margin-left: 4px;
-}
-
-.y:hover {
-  filter: brightness(1.1);
-}
-
-#toggleContainer,
-#toggleContainerMinus1,
-#toggleContainerPlus1 {
-  background-color: silver;
-  color: black;
-  position: absolute;
-  height: 38px;
-  width: 60px;
-  top: 9px;
-  left: 80px;
-  cursor: pointer;
-}
-
 #toggleIcon1,
 #toggleIcon2,
 #toggleIcon1Minus1,
 #toggleIcon2Minus1,
 #toggleIcon1Plus1,
 #toggleIcon2Plus1 {
-  font-size: 15px;
+  font-size: 14px;
+  margin-top: 8px;
   margin-left: 10px;
-  margin-top: 2px;
-  color: rgb(0, 0, 0);
-}
-
-#leftCurve,
-#leftCurveMinus1,
-#leftCurvePlus1 {
-  position: absolute;
-  background-color: none;
-  height: 20px;
-  width: 20px;
-  left: -25px;
-  bottom: -5px;
-  border-bottom-right-radius: 15px;
-}
-
-#rightCurve,
-#rightCurveMinus1,
-#rightCurvePlus {
-  position: absolute;
-  background-color: none;
-  height: 20px;
-  width: 20px;
-  right: -25px;
-  bottom: -5px;
-  border-bottom-left-radius: 15px;
-}
-
-#line,
-#lineMinus1,
-#linePlus1 {
-  position: absolute;
-  width: 50%;
-  height: 1px;
-  background-color: rgb(0, 0, 0);
-  bottom: 0px;
-  left: -7px;
-  z-index: 10000;
 }
 
 #shareContainer {
@@ -970,31 +917,4 @@ li span {
 #shareIcon {
   margin: 6px;
   transform: translateY(6px);
-}
-
-@media only screen and (max-width: 460px) {
-  #toggleContainer,
-  #toggleContainerMinus1,
-  #toggleContainerPlus1 {
-    left: 60px;
-  }
-}
-
-@media only screen and (max-width: 409px) {
-  #toggleContainer,
-  #toggleContainerMinus1,
-  #toggleContainerPlus1 {
-    left: 45px;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-  #toggleContainer,
-  #toggleContainerMinus1,
-  #toggleContainerPlus1 {
-    left: 30px;
-  }
-  ul {
-    transform: translateX(-60px);
-  }
 }
