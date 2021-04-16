@@ -187,11 +187,11 @@ function toggleSideNav() {
     $("#hamburger-1").toggleClass("is-active");
     eventList.innerHTML = ``;
     sideNav.style.width = "0%";
-    $("#dim").fadeOut(300);
+    $("#dim").fadeOut(200);
   } else {
     $("#hamburger-1").toggleClass("is-active");
     sideNav.style.width = "325px";
-    $("#dim").fadeIn(300);
+    $("#dim").fadeIn(400);
     generateLinks();
   }
 }

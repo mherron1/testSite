@@ -482,7 +482,7 @@ a {
   top: 0;
   bottom: 0;
   background-color: black;
-  opacity: 0.05;
+  opacity: 0.2;
   z-index: 100;
   display: none;
 }
@@ -741,6 +741,17 @@ input:checked + .slider:before {
   }
   body {
     max-width: 475px;
+  }
+  #dim {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0;
+    z-index: 100;
+    display: none;
   }
 
   #content {
