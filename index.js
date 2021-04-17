@@ -348,66 +348,6 @@ document.addEventListener("keydown", function (e) {
 
 /////////////////////////////////// countdowns
 
-function setCountdown(i, arg) {
-  var p = new Date();
-  var utc_offset2 = p.getTimezoneOffset();
-
-  let mainCountdown = events[i][1] + 10800000;
-  console.log(new Date(mainCountdown));
-
-  const second = 1000,
-    minute = second * 60,
-    hour = minute * 60,
-    day = hour * 24;
-
-  document.getElementById("days2").innerText = "-";
-  document.getElementById("hours2").innerText = "-";
-  document.getElementById("minutes2").innerText = "-";
-
-  if (arg === "") {
-    x = setInterval(function () {
-      let now = new Date().getTime(),
-        distance = mainCountdown - now;
-      if (distance < 0) {
-        distance = 0;
-      }
-      if (distance > 8.64e9) {
-        document.getElementById("days2").style.width = "42px";
-      }
-      (document.getElementById("days2").innerText = Math.floor(distance / day)),
-        (document.getElementById("hours2").innerText = Math.floor(
-          (distance % day) / hour
-        )),
-        (document.getElementById("minutes2").innerText = Math.floor(
-          (distance % hour) / minute
-        ));
-    }, second);
-  }
-
-  let prelimCountdown = events[i][1];
-  document.getElementById("days").innerText = "-";
-  document.getElementById("hours").innerText = "-";
-  document.getElementById("minutes").innerText = "-";
-
-  y = setInterval(function () {
-    let now = new Date().getTime(),
-      distance2 = prelimCountdown - now;
-    if (distance2 < 0) {
-      distance2 = 0;
-    }
-    if (distance2 > 8.64e9) {
-      document.getElementById("days").style.width = "42px";
-    }
-    (document.getElementById("days").innerText = Math.floor(distance2 / day)),
-      (document.getElementById("hours").innerText = Math.floor(
-        (distance2 % day) / hour
-      )),
-      (document.getElementById("minutes").innerText = Math.floor(
-        (distance2 % hour) / minute
-      ));
-  }, second);
-}
-
 //////////////////////////////////////////////////////////
 
 function resetDivCSS() {
@@ -523,7 +463,7 @@ function generateCard(i, arg) {
   });
 
   mainTime.textContent = `Main: ${mainCardTime}`;
-  eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() + utc_offset);
+
   mainTime.innerHTML += `
  <i class="material-icons noSelect" id="expandLess" onclick="toggleD()">expand_less</i>
   <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
@@ -541,7 +481,6 @@ function generateCard(i, arg) {
   if (parseInt(events[i][5]) > 0) {
     prelimsTime.style.visibility = "visible";
     prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
-    prelimCardTime.setMinutes(prelimCardTime.getMinutes() + utc_offset);
   } else {
     prelimsTime.style.visibility = "hidden";
   }
@@ -590,8 +529,12 @@ function generateCard(i, arg) {
         `;
 
     if (arg === "") {
-      setCountdown(i, arg);
+      setMainCountdown(eventTimeLocal);
+      setPrelimsCountdown(prelimCardTime);
     }
+
+    eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() + utc_offset);
+    prelimCardTime.setMinutes(prelimCardTime.getMinutes() + utc_offset);
   }
 
   //////////////////////////////
@@ -995,7 +938,6 @@ function toggleCountDown() {
 }
 
 const countdownToggle = function () {
-  console.log("fired");
   var x = document.getElementById("countdownPrelims");
   var y = document.getElementById("countdownMain");
   var z = document.getElementById("countToggleMain");
@@ -1023,4 +965,66 @@ function showShareButtons() {
       sharingBtns.style.display = "none";
     }, 5000);
   }
+}
+
+function setMainCountdown(time) {
+  let mainCountdown = time.getTime();
+
+  const second = 1000,
+    minute = second * 60,
+    hour = minute * 60,
+    day = hour * 24;
+
+  document.getElementById("days2").innerText = "-";
+  document.getElementById("hours2").innerText = "-";
+  document.getElementById("minutes2").innerText = "-";
+
+  x = setInterval(function () {
+    let now = new Date().getTime(),
+      distance = mainCountdown - now;
+    if (distance < 0) {
+      distance = 0;
+    }
+    if (distance > 8.64e9) {
+      document.getElementById("days2").style.width = "42px";
+    }
+    (document.getElementById("days2").innerText = Math.floor(distance / day)),
+      (document.getElementById("hours2").innerText = Math.floor(
+        (distance % day) / hour
+      )),
+      (document.getElementById("minutes2").innerText = Math.floor(
+        (distance % hour) / minute
+      ));
+  }, second);
+}
+
+function setPrelimsCountdown(time) {
+  let prelimCountdown = time.getTime();
+
+  const second = 1000,
+    minute = second * 60,
+    hour = minute * 60,
+    day = hour * 24;
+
+  document.getElementById("days").innerText = "-";
+  document.getElementById("hours").innerText = "-";
+  document.getElementById("minutes").innerText = "-";
+
+  y = setInterval(function () {
+    let now = new Date().getTime(),
+      distance2 = prelimCountdown - now;
+    if (distance2 < 0) {
+      distance2 = 0;
+    }
+    if (distance2 > 8.64e9) {
+      document.getElementById("days").style.width = "42px";
+    }
+    (document.getElementById("days").innerText = Math.floor(distance2 / day)),
+      (document.getElementById("hours").innerText = Math.floor(
+        (distance2 % day) / hour
+      )),
+      (document.getElementById("minutes").innerText = Math.floor(
+        (distance2 % hour) / minute
+      ));
+  }, second);
 }
