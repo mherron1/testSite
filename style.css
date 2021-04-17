@@ -1069,4 +1069,8 @@ li span {
     filter: brightness(110%);
     transform: scale(1.05);
   }
+  .hamburger {
+    position: absolute;
+    background-color: transparent;
+  }
 }
