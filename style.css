@@ -482,7 +482,7 @@ a {
 }
 #closeSettings {
   position: fixed;
-  font-size: 33px;
+  font-size: 35px;
   right: -58px;
   top: 6px;
 }
@@ -769,9 +769,9 @@ li span {
 
 #sharing {
   position: absolute;
-  width: 30%;
+  width: 40%;
   bottom: 15px;
-  margin-left: 50%;
+  margin-left: 52%;
   transform: translateX(-50%);
   display: flex;
   justify-content: space-around;

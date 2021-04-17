@@ -431,7 +431,7 @@ function toggleSettings() {
     closeSettings.style.right = "-58px";
   } else {
     closeSettings.style.opacity = "1";
-    closeSettings.style.right = "7px";
+    closeSettings.style.right = "12px";
   }
 
   let settingsDiv = document.querySelector("#settings");
