@@ -349,7 +349,11 @@ document.addEventListener("keydown", function (e) {
 /////////////////////////////////// countdowns
 
 function setCountdown(i, arg) {
-  let mainCountdown = events[i][1];
+  var p = new Date();
+  var utc_offset2 = p.getTimezoneOffset();
+
+  let mainCountdown = events[i][1] + 10800000;
+  console.log(new Date(mainCountdown));
 
   const second = 1000,
     minute = second * 60,
@@ -380,8 +384,7 @@ function setCountdown(i, arg) {
     }, second);
   }
 
-  let prelimCountdown = events[i][1] - 1800000 * events[i][5];
-
+  let prelimCountdown = events[i][1];
   document.getElementById("days").innerText = "-";
   document.getElementById("hours").innerText = "-";
   document.getElementById("minutes").innerText = "-";
