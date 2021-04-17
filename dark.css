@@ -342,6 +342,7 @@ body {
 
 .hamburger {
   position: absolute;
+  background-color: #141414;
   right: 6px;
   top: 4px;
   transform: scale(0.55) translateY(-6px);
@@ -1078,4 +1079,60 @@ li span {
   #settingsIcon:hover {
     cursor: pointer;
   }
+}
+
+#leftArrow {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  margin-right: 50%;
+  transform: translateX(-350px);
+  color: rgb(233, 233, 233);
+  font-size: 200px;
+  z-index: 100000000;
+}
+
+#rightArrow {
+  position: fixed;
+  left: 0;
+  top: 35%;
+  margin-left: 50%;
+  transform: translateX(350px);
+  color: rgb(233, 233, 233);
+  font-size: 200px;
+  z-index: 100000000;
+}
+
+#leftArrow:hover {
+  cursor: pointer;
+  font-size: 200px;
+  color: rgb(197, 197, 197);
+}
+
+#rightArrow:hover {
+  cursor: pointer;
+  font-size: 200px;
+  color: rgb(197, 197, 197);
+}
+
+#keyboard {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-left: 50%;
+  margin-bottom: 5px;
+  transform: translateX(300px);
+  font-weight: 18px;
+}
+
+#leftArrow {
+  display: none;
+}
+
+#rightArrow {
+  display: none;
+}
+
+#keyboard {
+  display: none;
 }
