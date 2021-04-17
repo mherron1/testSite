@@ -39,6 +39,12 @@ let times = [
     time: new Date(2021, 03, 22, 02, 00, 00),
     prelims: new Date(2021, 03, 22, 02, 0, 00),
   },
+  {
+    date: "apr24",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2021, 03, 25, 02, 00, 00),
+    prelims: new Date(2021, 03, 24, 22, 00, 00),
+  },
 ];
 
 let data2 = data.sort((a, b) => {
