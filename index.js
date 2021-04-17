@@ -439,7 +439,7 @@ function toggleSettings() {
     $("#settings").css("position", "absolute");
     $("#settings").css("height", "0vh");
     $("#settings").css("top", "100%");
-    if (screen.width < 824) {
+    if (screen.width < 474) {
       toggleSideNav();
     }
   } else {
@@ -836,7 +836,7 @@ function generateCard(i, arg) {
     }
   }
 
-  if (screen.width > 824) {
+  if (screen.width > 474) {
     generateLinks();
   }
 }

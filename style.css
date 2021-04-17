@@ -877,63 +877,6 @@ li span {
   }
 }
 
-@media only screen and (min-width: 475px) {
-  html {
-    background-color: white;
-    overflow-y: scroll;
-  }
-
-  body {
-    margin-top: 4vh;
-    max-width: 475px;
-    height: 90vh;
-    box-shadow: 0 0 15px 0px;
-  }
-
-  #content {
-    height: 90vh;
-    box-shadow: 0 0 15px 0px;
-  }
-
-  #expandMore {
-    cursor: pointer;
-  }
-
-  #dim {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: -200px;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 100;
-    display: none;
-  }
-
-  #shareContainer {
-    bottom: 100px;
-  }
-
-  #settings {
-    position: fixed;
-    left: auto;
-    right: auto;
-    max-width: 475px;
-    width: 475px;
-  }
-  #closeSettings {
-    position: absolute;
-    top: 50px;
-  }
-  #closeSettings:hover {
-    cursor: pointer;
-  }
-  #settingsIcon:hover {
-    cursor: pointer;
-  }
-}
-
 #shareIconTop {
   position: absolute;
   left: 20px;
@@ -961,7 +904,7 @@ li span {
   border-radius: 6%;
 }
 
-@media only screen and (min-width: 825px) {
+@media only screen and (min-width: 8825px) {
   html {
     background-color: rgb(236, 236, 236);
     overflow-y: unset;
@@ -1037,5 +980,77 @@ li span {
 
   #shareIconTop {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 475px) {
+  html {
+    background-color: white;
+  }
+
+  body {
+    margin-top: 0vh;
+    max-width: 475px;
+    height: 125vh;
+    box-shadow: 0 0 15px 0px;
+  }
+  #darkModeToggle {
+    display: none;
+  }
+
+  #content {
+    height: 125vh;
+    box-shadow: 0 0 15px 0px;
+  }
+
+  #expandMore {
+    cursor: pointer;
+  }
+
+  #dim {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: -200px;
+    background-color: black;
+    opacity: 0;
+    z-index: 100;
+    display: none;
+  }
+
+  #shareContainer {
+    bottom: 100px;
+  }
+
+  #settings {
+    position: fixed;
+    left: auto;
+    right: auto;
+    max-width: 475px;
+    width: 475px;
+  }
+  #closeSettings {
+    position: absolute;
+    top: 50px;
+  }
+  #closeSettings:hover {
+    cursor: pointer;
+  }
+  #settingsIcon:hover {
+    cursor: pointer;
+  }
+  #sharingTop {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: 50px;
+    height: 104px;
+    top: 50px;
+    left: 0px;
+    z-index: 10000000;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 4px;
+    border-bottom-right-radius: 6px;
   }
 }
