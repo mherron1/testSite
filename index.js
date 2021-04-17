@@ -488,6 +488,9 @@ function generateCard(i, arg) {
 `;
 
   ////////////event date
+  var d = new Date();
+  var utc_offset = d.getTimezoneOffset();
+
   let eventTimeLocal = new Date(events[i][1]);
   let mSecsPrelims = 1800000 * events[i][5];
   let prelimCardTime = new Date(eventTimeLocal - mSecsPrelims);
@@ -506,6 +509,7 @@ function generateCard(i, arg) {
   let mainTime = document.querySelector(`#mainTime${arg}`);
   let prelimsTime = document.querySelector(`#prelimsTime${arg}`);
 
+  eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() - utc_offset);
   mainCardTime = eventTimeLocal.toLocaleString([], {
     month: "short",
     day: "numeric",
@@ -516,11 +520,12 @@ function generateCard(i, arg) {
   });
 
   mainTime.textContent = `Main: ${mainCardTime}`;
+  eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() + utc_offset);
   mainTime.innerHTML += `
  <i class="material-icons noSelect" id="expandLess" onclick="toggleD()">expand_less</i>
   <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
    `;
-
+  prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
   prelimsCardTime = prelimCardTime.toLocaleString([], {
     month: "short",
     day: "numeric",
@@ -533,6 +538,7 @@ function generateCard(i, arg) {
   if (parseInt(events[i][5]) > 0) {
     prelimsTime.style.visibility = "visible";
     prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
+    prelimCardTime.setMinutes(prelimCardTime.getMinutes() + utc_offset);
   } else {
     prelimsTime.style.visibility = "hidden";
   }
