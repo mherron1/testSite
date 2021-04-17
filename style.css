@@ -301,7 +301,7 @@ body {
   position: absolute;
   max-height: 25px;
   left: 15px;
-  transform: translateY(-2px);
+  transform: translateY(-4px);
   border-radius: 50%;
 }
 
