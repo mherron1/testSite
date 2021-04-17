@@ -1057,4 +1057,11 @@ li span {
     padding: 4px;
     border-bottom-right-radius: 6px;
   }
+
+  #testDiv:hover {
+    cursor: pointer;
+  }
+  .r:hover {
+    filter: brightness(110%);
+  }
 }
