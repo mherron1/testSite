@@ -1016,9 +1016,9 @@ li span {
     left: 0;
     right: 0;
     top: 0;
-    bottom: -200px;
+    height: 125vh;
     background-color: black;
-    opacity: 0;
+    opacity: 0.2;
     z-index: 100;
     display: none;
   }
@@ -1063,5 +1063,10 @@ li span {
   }
   .r:hover {
     filter: brightness(110%);
+    transform: scale(1.05);
+  }
+  .socialIcon:hover {
+    filter: brightness(110%);
+    transform: scale(1.05);
   }
 }
