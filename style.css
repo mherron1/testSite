@@ -299,9 +299,9 @@ body {
 }
 .eventIcons {
   position: absolute;
-  max-height: 25px;
+  max-height: 30px;
   left: 15px;
-  transform: translateY(-4px);
+  transform: translateY(-7px);
   border-radius: 50%;
 }
 

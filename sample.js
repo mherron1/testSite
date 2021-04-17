@@ -47,11 +47,11 @@ let data = [
         fighterA: "Abdul Razak Alhassan",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/59306-abdul-razak-alhassan",
-        rankA: "#47",
+        rankA: "#46",
         recordA: "10-3-0 ",
         weight: "185",
         recordB: " 4-1-0",
-        rankB: "#138",
+        rankB: "#145",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/111323-jacob-malkoun",
         fighterB: "Jacob Malkoun",
@@ -77,7 +77,7 @@ let data = [
         recordA: "8-1-0 ",
         weight: "125",
         recordB: " 7-3-0",
-        rankB: "#79",
+        rankB: "#86",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/15102-justine-kish",
         fighterB: "Justine Kish",
@@ -86,11 +86,11 @@ let data = [
         fighterA: "Alexander Romanov",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/144301-alexander-romanov",
-        rankA: "#23",
+        rankA: "#24",
         recordA: "13-0-0 ",
         weight: "265",
         recordB: " 10-1-0",
-        rankB: "#27",
+        rankB: "#28",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/158561-juan-francisco-espino-trota",
         fighterB: "Juan Espino",
@@ -99,7 +99,7 @@ let data = [
         fighterA: "Jessica Penne",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/jessica-pene",
-        rankA: "#48",
+        rankA: "#53",
         recordA: "12-5-0 ",
         weight: "115",
         recordB: " 5-0-0",
@@ -112,11 +112,11 @@ let data = [
         fighterA: "Gerald Meerschaert",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/6018-gerald-meerschaert-the-machine",
-        rankA: "#25",
+        rankA: "#27",
         recordA: "31-14-0 ",
         weight: "185",
         recordB: " 15-4-0",
-        rankB: "#43",
+        rankB: "#45",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/42863-bartosz-fabinski",
         fighterB: "Bartosz Fabiński",
@@ -125,7 +125,7 @@ let data = [
         fighterA: "Austin Hubbard",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/67931-austin-hubbard",
-        rankA: "#70",
+        rankA: "#73",
         recordA: "12-5-0 ",
         weight: "155",
         recordB: " 8-2-0",
@@ -133,19 +133,6 @@ let data = [
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/109057-dakota-bush",
         fighterB: "Dakota Bush",
-      },
-      {
-        fighterA: "Zarah Fairn",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/98694-zarah-fairn",
-        rankA: "#19",
-        recordA: "6-4-0 ",
-        weight: "135",
-        recordB: " 7-1-0",
-        rankB: "#26",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/61258-josiane-nunes",
-        fighterB: "Josiane Nunes",
       },
       {
         fighterA: "Tony Gravely",
@@ -162,7 +149,7 @@ let data = [
       },
     ],
     "UFC Fight Night",
-    "7",
+    "6",
   ],
   [
     "ONE Championship",
