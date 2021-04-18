@@ -26,24 +26,35 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 03, 18, 02, 00, 00),
     prelims: new Date(2021, 03, 17, 23, 00, 00),
-  },
-  {
-    date: "apr23",
-    promo: "Professional Fighters League",
-    time: new Date(2021, 03, 24, 01, 00, 00),
-    prelims: new Date(2021, 03, 23, 21, 30, 00),
+    videos: ["VFYmEMsqKVQ"],
   },
   {
     date: "apr21",
     promo: "ONE Championship",
     time: new Date(2021, 03, 22, 02, 00, 00),
     prelims: new Date(2021, 03, 22, 02, 0, 00),
+    videos: ["Zh81prvqqiQ"],
+  },
+  {
+    date: "apr23",
+    promo: "Professional Fighters League",
+    time: new Date(2021, 03, 24, 01, 00, 00),
+    prelims: new Date(2021, 03, 23, 21, 30, 00),
+    videos: ["iaY2jYsM2z8"],
   },
   {
     date: "apr24",
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 03, 25, 02, 00, 00),
     prelims: new Date(2021, 03, 24, 22, 00, 00),
+    videos: ["LBiQ2X9zS90"],
+  },
+  {
+    date: "jul10",
+    promo: "Ultimate Fighting Championship",
+    time: false,
+    prelims: false,
+    videos: ["Of1Rp3iPpX0"],
   },
 ];
 

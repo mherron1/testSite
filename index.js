@@ -415,6 +415,7 @@ function toggleStyleSheets() {
 }
 
 function generateCard(i, arg) {
+  let videos = [];
   if (i < 0) {
     i = events.length - 1;
   } else if (i > events.length - 1) {
@@ -429,6 +430,7 @@ function generateCard(i, arg) {
 <div id="mainCard${arg}"></div> 
 <div id="prelimsTime${arg}"></div>
 <div id="prelimsCard${arg}"></div> 
+<div id="videoGallery${arg}"></div>
 `;
 
   let mainHeader = document.querySelector(`#mainHeader${arg}`);
@@ -455,8 +457,12 @@ function generateCard(i, arg) {
       new Date(events[i][1] - 36000000).toString().split(" ")[2];
 
     if (temp.toLowerCase() === item.date && events[i][0] === item.promo) {
-      eventTimeLocal = item.time;
-      prelimCardTime = item.prelims;
+      if (item.time) {
+        eventTimeLocal = item.time;
+        prelimCardTime = item.prelims;
+      }
+
+      videos = item.videos;
     }
   });
 
@@ -804,6 +810,13 @@ function generateCard(i, arg) {
   if (screen.width > 474) {
     generateLinks();
   }
+
+  let videoGallery = document.querySelector(`#videoGallery${arg}`);
+
+  for (let v = 0; v < videos.length; v++) {
+    videoGallery.innerHTML += `<div class="youtube-player" data-id="${videos[0]}"></div>`;
+  }
+  initYouTubeVideos();
 }
 
 function changeSettings() {
@@ -1066,4 +1079,43 @@ function make(e) {
   vibrate();
   console.log("vibrate");
   // e.preventDefault();   // to not go to href url uncoment this
+}
+
+/*
+ * Light YouTube Embeds by @labnol
+ * Credit: https://www.labnol.org/
+ */
+
+function labnolIframe(div) {
+  var iframe = document.createElement("iframe");
+  iframe.setAttribute(
+    "src",
+    "https://www.youtube.com/embed/" + div.dataset.id + "?autoplay=1&rel=0"
+  );
+  iframe.setAttribute("frameborder", "0");
+  iframe.setAttribute("allowfullscreen", "1");
+  iframe.setAttribute(
+    "allow",
+    "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  );
+  div.parentNode.replaceChild(iframe, div);
+}
+
+function initYouTubeVideos() {
+  var playerElements = document.getElementsByClassName("youtube-player");
+  for (var n = 0; n < playerElements.length; n++) {
+    var videoId = playerElements[n].dataset.id;
+    var div = document.createElement("div");
+    div.setAttribute("data-id", videoId);
+    var thumbNode = document.createElement("img");
+    thumbNode.src = "//i.ytimg.com/vi/ID/hqdefault.jpg".replace("ID", videoId);
+    div.appendChild(thumbNode);
+    var playButton = document.createElement("div");
+    playButton.setAttribute("class", "play");
+    div.appendChild(playButton);
+    div.onclick = function () {
+      labnolIframe(this);
+    };
+    playerElements[n].appendChild(div);
+  }
 }
