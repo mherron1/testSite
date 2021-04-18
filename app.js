@@ -51,6 +51,8 @@ let data2 = data.sort((a, b) => {
   return a[1] - b[1];
 });
 
+data2.push(data2.shift());
+
 data2.forEach((event) => {
   for (let i = 0; i < event[3].length; i++) {
     event[3][i].rankA = "";
