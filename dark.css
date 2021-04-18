@@ -1137,8 +1137,10 @@ li span {
   display: none;
 }
 
-#videoGallery {
-  margin: 50px auto;
+#videoGallery,
+#videoGalleryMinus1,
+#videoGalleryPlus1 {
+  margin: 30px auto;
   width: 90%;
   margin-bottom: 50px;
 }
