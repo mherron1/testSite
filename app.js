@@ -78,3 +78,10 @@ data2.forEach((event) => {
     event[2] = "images/defaults/placeholder.jpg";
   }
 });
+
+let android = false;
+var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+if (isAndroid) {
+  android = true;
+}
