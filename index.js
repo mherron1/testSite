@@ -961,6 +961,7 @@ function toggleCountDown() {
 }
 
 const countdownToggle = function () {
+  vibrate();
   var x = document.getElementById("countdownPrelims");
   var y = document.getElementById("countdownMain");
   var z = document.getElementById("countToggleMain");
