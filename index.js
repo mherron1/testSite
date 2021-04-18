@@ -952,6 +952,7 @@ function toggelOddsType() {
 }
 
 function toggleCountDown() {
+  vibrate();
   if (document.querySelector("#showHideCountdown").checked === true) {
     localStorage.setItem("countdown", "y");
   } else {
