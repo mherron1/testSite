@@ -97,9 +97,7 @@ function back() {
 }
 function toggleD() {
   /////////////////////
-  if (android) {
-    navigator.vibrate(40);
-  }
+  vibrate();
   ///////////////////////
 
   let detailsLeft = document.querySelectorAll(`.detailsLeft`);
@@ -194,9 +192,7 @@ function showPoster() {
 
 function toggleSideNav() {
   /////////////////////
-  if (android) {
-    navigator.vibrate(40);
-  }
+  vibrate();
   ///////////////////////
   let sideNav = document.querySelector("#sideNav");
   if (sideNav.style.width === "325px") {
@@ -265,9 +261,7 @@ function selectCard(index) {
   toggleSideNav();
   i = index;
   /////////////////////
-  if (android) {
-    navigator.vibrate(40);
-  }
+  vibrate();
   ///////////////////////
   pausecomp(50);
   create();
@@ -376,9 +370,7 @@ function resetDivCSS() {
 
 function toggleSettings() {
   /////////////////////
-  if (android) {
-    navigator.vibrate(40);
-  }
+  vibrate();
   ///////////////////////
   $("#hamburger-1").toggle();
 
@@ -411,9 +403,7 @@ function toggleSettings() {
 
 function toggleStyleSheets() {
   /////////////////////
-  if (android) {
-    navigator.vibrate(40);
-  }
+  vibrate();
   ///////////////////////
 
   let stylesheet = document.getElementById("pagestyle");
@@ -818,9 +808,7 @@ function generateCard(i, arg) {
 
 function changeSettings() {
   /////////////////////
-  if (android) {
-    navigator.vibrate(40);
-  }
+  vibrate();
   ///////////////////////
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
@@ -884,9 +872,7 @@ function changeSettings() {
 
 function forceToggleAll() {
   /////////////////////
-  if (android) {
-    navigator.vibrate(40);
-  }
+  vibrate();
   ///////////////////////
   let all = document.querySelector("#allInput");
   let ufc = document.querySelector("#ufcInput");
@@ -912,9 +898,7 @@ function forceToggleAll() {
 
 function forceToggle() {
   /////////////////////
-  if (android) {
-    navigator.vibrate(40);
-  }
+  vibrate();
   ///////////////////////
 
   let all = document.querySelector("#allInput");
@@ -935,9 +919,7 @@ function forceToggle() {
 
 function showDetailsSettings() {
   /////////////////////
-  if (android) {
-    navigator.vibrate(40);
-  }
+  vibrate();
   ///////////////////////
   if (localStorage.getItem("details") === "y") {
     localStorage.setItem("details", "n");
@@ -996,6 +978,7 @@ const countdownToggle = function () {
 };
 
 function showShareButtons() {
+  vibrate();
   let sharingBtns = document.querySelector("#sharingTop");
   if (sharingBtns.style.display === "block") {
     sharingBtns.style.display = "none";
@@ -1067,4 +1050,12 @@ function setPrelimsCountdown(time) {
         (distance2 % hour) / minute
       ));
   }, second);
+}
+
+function vibrate() {
+  /////////////////////
+  if (android) {
+    navigator.vibrate(40);
+  }
+  ///////////////////////
 }
