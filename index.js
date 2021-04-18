@@ -535,6 +535,9 @@ function generateCard(i, arg) {
 
     eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() + utc_offset);
     prelimCardTime.setMinutes(prelimCardTime.getMinutes() + utc_offset);
+  } else {
+    eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() + utc_offset);
+    prelimCardTime.setMinutes(prelimCardTime.getMinutes() + utc_offset);
   }
 
   //////////////////////////////
