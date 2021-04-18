@@ -637,7 +637,7 @@ function generateCard(i, arg) {
     mainCard.innerHTML += `
   <div class="left">
     <div>
-      <a href="${events[i][3][j].fighterALink}" target="_blank" onclick="vibrate()">${events[i][3][j].fighterA}</a>
+      <a href="${events[i][3][j].fighterALink}" target="_blank" onclick="make(event)"">${events[i][3][j].fighterA}</a>
     </div>
     <div class="detailsLeft${arg}">
     <div style="color: ${colorA}; font-size:0.9rem; font-weight:bold;">${leftOdds}</div>        
@@ -1059,4 +1059,9 @@ function vibrate() {
     navigator.vibrate(40);
   }
   ///////////////////////
+}
+
+function make(e) {
+  vibrate();
+  // e.preventDefault();   // to not go to href url uncoment this
 }
