@@ -208,7 +208,7 @@ function toggleSideNav() {
 function generateLinks() {
   let eventList = document.querySelector("#eventList");
   eventList.innerHTML = `
-  <i class="material-icons" id ="settingsIcon" onclick="toggleSettings()">tune</i>
+  <i class="material-icons" id ="settingsIcon" onclick="toggleSettings()">settings</i>
   
   `;
 
