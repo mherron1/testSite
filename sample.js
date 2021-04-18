@@ -18,19 +18,6 @@ let data = [
         fighterB: "Kelvin Gastelum",
       },
       {
-        fighterA: "Drakkar Klose",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/29515-drakkar-klose",
-        rankA: "#21",
-        recordA: "11-2-1 ",
-        weight: "155",
-        recordB: " 28-18-0",
-        rankB: "#21",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/jeremy-stephens-lil-heathen",
-        fighterB: "Jeremy Stephens",
-      },
-      {
         fighterA: "Andrei Arlovski",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/andrei-arlovski-the-pitbull",
@@ -51,23 +38,10 @@ let data = [
         recordA: "10-3-0 ",
         weight: "185",
         recordB: " 4-1-0",
-        rankB: "#145",
+        rankB: "#146",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/111323-jacob-malkoun",
         fighterB: "Jacob Malkoun",
-      },
-      {
-        fighterA: "Luis Pena",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/76885-luis-pena",
-        rankA: "#59",
-        recordA: "8-3-0 ",
-        weight: "155",
-        recordB: " 6-1-0",
-        rankB: "#117",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/81884-alex-munoz",
-        fighterB: "Alex Munoz",
       },
       {
         fighterA: "Tracy Cortez",
@@ -83,6 +57,19 @@ let data = [
         fighterB: "Justine Kish",
       },
       {
+        fighterA: "Luis Pena",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/76885-luis-pena",
+        rankA: "#60",
+        recordA: "8-3-0 ",
+        weight: "155",
+        recordB: " 6-1-0",
+        rankB: "#117",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/81884-alex-munoz",
+        fighterB: "Alex Munoz",
+      },
+      {
         fighterA: "Alexander Romanov",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/144301-alexander-romanov",
@@ -90,7 +77,7 @@ let data = [
         recordA: "13-0-0 ",
         weight: "265",
         recordB: " 10-1-0",
-        rankB: "#28",
+        rankB: "#30",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/158561-juan-francisco-espino-trota",
         fighterB: "Juan Espino",
@@ -103,7 +90,7 @@ let data = [
         recordA: "12-5-0 ",
         weight: "115",
         recordB: " 5-0-0",
-        rankB: "#179",
+        rankB: "#180",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/133312-lupita-godinez",
         fighterB: "Lupita Godinez",
@@ -116,7 +103,7 @@ let data = [
         recordA: "31-14-0 ",
         weight: "185",
         recordB: " 15-4-0",
-        rankB: "#45",
+        rankB: "#44",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/42863-bartosz-fabinski",
         fighterB: "Bartosz Fabiński",
@@ -125,7 +112,7 @@ let data = [
         fighterA: "Austin Hubbard",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/67931-austin-hubbard",
-        rankA: "#73",
+        rankA: "#70",
         recordA: "12-5-0 ",
         weight: "155",
         recordB: " 8-2-0",
@@ -135,21 +122,21 @@ let data = [
         fighterB: "Dakota Bush",
       },
       {
-        fighterA: "Tony Gravely",
+        fighterA: "Tony Gravely ",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/80780-tony-gravely-lamar",
-        rankA: "#57",
-        recordA: "20-6-0 ",
+        rankA: "#n/a",
+        recordA: "",
         weight: "135",
-        recordB: " 15-7-0",
-        rankB: "#131",
+        recordB: "",
+        rankB: "#n/a",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/13551-Anthony-Birchak",
-        fighterB: "Anthony Birchak",
+        fighterB: " Anthony Birchak",
       },
     ],
     "UFC Fight Night",
-    "6",
+    "5",
   ],
   [
     "ONE Championship",
