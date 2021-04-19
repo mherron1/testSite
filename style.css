@@ -879,13 +879,13 @@ li span {
 #shareIconTop {
   position: fixed;
   left: 20px;
-  top: 10px;
+  top: 11px;
 }
 
 #settingsIconTop {
   position: fixed;
   left: 80px;
-  top: 10px;
+  top: 12px;
 }
 
 #shareIconTop:hover {
@@ -1208,8 +1208,6 @@ li span {
 @media only screen and (min-width: 475px) {
   #shareIconTop {
     position: absolute;
-    left: 20px;
-    top: 10px;
   }
   #settingsIconTop {
     position: absolute;

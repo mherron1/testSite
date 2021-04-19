@@ -1013,7 +1013,7 @@ li span {
 #shareIconTop {
   position: absolute;
   left: 15px;
-  top: 10px;
+  top: 11px;
   color: silver;
 }
 
@@ -1239,15 +1239,9 @@ li span {
 @media only screen and (min-width: 475px) {
   #shareIconTop {
     position: absolute;
-    left: 20px;
-    top: 10px;
-    color: silver;
   }
 
   #settingsIconTop {
     position: absolute;
-    left: 80px;
-    top: 10px;
-    color: silver;
   }
 }
