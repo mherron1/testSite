@@ -651,7 +651,7 @@ function generateCard(i, arg) {
       }
     }
 
-    if (arg === "") {
+    /*  if (arg === "") {
       let name1 = events[i][3][j].fighterA;
       let name2 = events[i][3][j].fighterB;
 
@@ -672,7 +672,7 @@ function generateCard(i, arg) {
           }
         }
       });
-    }
+    }*/
 
     mainCard.innerHTML += `
   <div class="left">
@@ -783,7 +783,7 @@ function generateCard(i, arg) {
       }
     }
 
-    if (arg === "") {
+    /* if (arg === "") {
       let name1 = events[i][3][j].fighterA;
       let name2 = events[i][3][j].fighterB;
 
@@ -801,7 +801,7 @@ function generateCard(i, arg) {
           }
         }
       });
-    }
+    }*/
 
     prelimsCard.innerHTML += `
     <div class="left">
