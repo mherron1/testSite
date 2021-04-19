@@ -1011,7 +1011,7 @@ li span {
 }
 
 #shareIconTop {
-  position: absolute;
+  position: fixed;
   left: 20px;
   top: 10px;
   color: silver;
@@ -1224,4 +1224,13 @@ li span {
   position: absolute;
   background: url("images/youtubePlay.png") no-repeat;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 475px) {
+  #shareIconTop {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: silver;
+  }
 }
