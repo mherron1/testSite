@@ -172,7 +172,9 @@ data2.forEach((event) => {
         if (a.get(item.name)[0][0] > 0.78) {
           event[3][j].rankA = `#${item.rank}`;
           if (event[3][j].rankA === "#C") {
-            event[3][j].rankA = `<span style="color:orange">C</span>`;
+            event[3][
+              j
+            ].rankA = `<span style="color:orange; font-weight:bold;">C</span>`;
           }
         }
       }
