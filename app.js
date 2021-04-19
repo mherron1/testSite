@@ -129,11 +129,6 @@ let data2 = data.sort((a, b) => {
 //data2.push(data2.shift());
 
 data2.forEach((event) => {
-  for (let i = 0; i < event[3].length; i++) {
-    event[3][i].rankA = "";
-    event[3][i].rankB = "";
-  }
-
   let tempTime =
     new Date(event[1] - 36000000).toString().split(" ")[1] +
     new Date(event[1] - 36000000).toString().split(" ")[2] +
