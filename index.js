@@ -965,6 +965,7 @@ function pausecomp(millis) {
 }
 
 function toggelOddsType() {
+  vibrate();
   if (localStorage.getItem("oddsType") === "line") {
     localStorage.setItem("oddsType", "decimal");
   } else {
