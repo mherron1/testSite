@@ -1011,13 +1011,23 @@ li span {
 }
 
 #shareIconTop {
-  position: fixed;
-  left: 20px;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  color: silver;
+}
+
+#settingsIconTop {
+  position: absolute;
+  left: 60px;
   top: 10px;
   color: silver;
 }
 
 #shareIconTop:hover {
+  cursor: pointer;
+}
+#settingsIconTop:hover {
   cursor: pointer;
 }
 
@@ -1230,6 +1240,13 @@ li span {
   #shareIconTop {
     position: absolute;
     left: 20px;
+    top: 10px;
+    color: silver;
+  }
+
+  #settingsIconTop {
+    position: absolute;
+    left: 80px;
     top: 10px;
     color: silver;
   }

@@ -881,7 +881,17 @@ li span {
   left: 20px;
   top: 10px;
 }
+
+#settingsIconTop {
+  position: fixed;
+  left: 80px;
+  top: 10px;
+}
+
 #shareIconTop:hover {
+  cursor: pointer;
+}
+#settingsIconTop:hover {
   cursor: pointer;
 }
 
@@ -978,6 +988,9 @@ li span {
   }
 
   #shareIconTop {
+    display: none;
+  }
+  #settingsIconTop {
     display: none;
   }
 }
@@ -1197,5 +1210,8 @@ li span {
     position: absolute;
     left: 20px;
     top: 10px;
+  }
+  #settingsIconTop {
+    position: absolute;
   }
 }

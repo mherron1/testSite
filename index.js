@@ -446,7 +446,8 @@ function generateCard(i, arg) {
   let mainHeader = document.querySelector(`#mainHeader${arg}`);
   mainHeader.textContent += `${events[i][4]}`;
 
-  mainHeader.innerHTML += `<div><span><i class="material-icons" id="shareIconTop" onclick="showShareButtons()">share</i></span></div>`;
+  mainHeader.innerHTML += `<div><span><i class="material-icons" id="shareIconTop" onclick="showShareButtons()">share</i></span></div>
+  <i class="material-icons" id ="settingsIconTop" onclick="toggleSettings()">settings</i>`;
 
   let imageContainer = document.querySelector(`#imageContainer${arg}`);
   imageContainer.innerHTML = `
