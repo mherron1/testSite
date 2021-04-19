@@ -113,6 +113,13 @@ let times = [
     prelims: false,
     videos: ["Of1Rp3iPpX0"],
   },
+  {
+    date: "jul17",
+    promo: "Ultimate Fighting Championship",
+    time: false,
+    prelims: false,
+    videos: ["b7CotB8o_tg"],
+  },
 ];
 
 let data2 = data.sort((a, b) => {
