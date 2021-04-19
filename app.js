@@ -50,6 +50,20 @@ let times = [
     videos: ["LBiQ2X9zS90"],
   },
   {
+    date: "may01",
+    promo: "Ultimate Fighting Championship",
+    time: false,
+    prelims: false,
+    videos: ["-w_NAOO7jzY"],
+  },
+  {
+    date: "may15",
+    promo: "Ultimate Fighting Championship",
+    time: false,
+    prelims: false,
+    videos: ["tYalY6IQTHc"],
+  },
+  {
     date: "jul10",
     promo: "Ultimate Fighting Championship",
     time: false,
