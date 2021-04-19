@@ -886,6 +886,7 @@ li span {
   position: fixed;
   left: 68px;
   top: 12px;
+  display: none;
 }
 
 #shareIconTop:hover {
