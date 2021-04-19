@@ -18,6 +18,7 @@ let assets = [
   "jun19.jpg",
   "jun26.jpg",
   "jul10.jpg",
+  "jul17.jpg",
 ];
 
 let times = [
@@ -118,7 +119,7 @@ let data2 = data.sort((a, b) => {
   return a[1] - b[1];
 });
 
-data2.push(data2.shift());
+//data2.push(data2.shift());
 
 data2.forEach((event) => {
   for (let i = 0; i < event[3].length; i++) {
