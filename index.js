@@ -651,6 +651,29 @@ function generateCard(i, arg) {
       }
     }
 
+    if (arg === "") {
+      let name1 = events[i][3][j].fighterA;
+      let name2 = events[i][3][j].fighterB;
+
+      ufcRankings.forEach((item) => {
+        a = FuzzySet([name1]);
+        if (a.get(item.name) != null) {
+          if (a.get(item.name)[0][0] > 0.78) {
+            events[i][3][j].rankA = `#${item.rank}`;
+            if (events[i][3][j].rankA === "#C") {
+              events[i][3][j].rankA = `<span style="color:orange">C</span>`;
+            }
+          }
+        }
+        a = FuzzySet([name2]);
+        if (a.get(item.name) != null) {
+          if (a.get(item.name)[0][0] > 0.78) {
+            events[i][3][j].rankB = `#${item.rank}`;
+          }
+        }
+      });
+    }
+
     mainCard.innerHTML += `
   <div class="left">
     <div>
@@ -658,7 +681,7 @@ function generateCard(i, arg) {
     </div>
     <div class="detailsLeft${arg}">
     <div style="color: ${colorA}; font-size:0.9rem; font-weight:bold;">${leftOdds}</div>        
-    <div>${events[i][3][j].rankA}</div>
+    <div >${events[i][3][j].rankA}</div>
       <div>${events[i][3][j].recordA}</div>
     </div>
   </div>
@@ -680,8 +703,6 @@ function generateCard(i, arg) {
   }
 
   ////////////////////////////Prelims
-
-  let numPrelims = events[0][5];
 
   let prelimsCard = document.querySelector(`#prelimsCard${arg}`);
 
@@ -760,6 +781,26 @@ function generateCard(i, arg) {
           }
         }
       }
+    }
+
+    if (arg === "") {
+      let name1 = events[i][3][j].fighterA;
+      let name2 = events[i][3][j].fighterB;
+
+      ufcRankings.forEach((item) => {
+        a = FuzzySet([name1]);
+        if (a.get(item.name) != null) {
+          if (a.get(item.name)[0][0] > 0.78) {
+            events[i][3][j].rankA = `#${item.rank}`;
+          }
+        }
+        a = FuzzySet([name2]);
+        if (a.get(item.name) != null) {
+          if (a.get(item.name)[0][0] > 0.78) {
+            events[i][3][j].rankB = `#${item.rank}`;
+          }
+        }
+      });
     }
 
     prelimsCard.innerHTML += `
