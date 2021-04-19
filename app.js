@@ -1,7 +1,7 @@
 let assets = [
   "apr16.jpg",
   "apr17.jpg",
-  "apr22.jpg",
+  "apr21.jpg",
   "apr23.jpg",
   "apr24.jpg",
   "apr25.jpg",
