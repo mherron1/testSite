@@ -160,30 +160,3 @@ var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
 if (isAndroid) {
   android = true;
 }
-
-data2.forEach((event) => {
-  for (j = 0; j < event[3].length; j++) {
-    let name1 = event[3][j].fighterA;
-    let name2 = event[3][j].fighterB;
-
-    ufcRankings.forEach((item) => {
-      a = FuzzySet([name1]);
-      if (a.get(item.name) != null) {
-        if (a.get(item.name)[0][0] > 0.78) {
-          event[3][j].rankA = `#${item.rank}`;
-          if (event[3][j].rankA === "#C") {
-            event[3][
-              j
-            ].rankA = `<span style="color:orange; font-weight:bold; font-size:15px;">C</span>`;
-          }
-        }
-      }
-      a = FuzzySet([name2]);
-      if (a.get(item.name) != null) {
-        if (a.get(item.name)[0][0] > 0.78) {
-          event[3][j].rankB = `#${item.rank}`;
-        }
-      }
-    });
-  }
-});
