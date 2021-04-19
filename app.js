@@ -174,7 +174,7 @@ data2.forEach((event) => {
           if (event[3][j].rankA === "#C") {
             event[3][
               j
-            ].rankA = `<span style="color:orange; font-weight:bold;">C</span>`;
+            ].rankA = `<span style="color:orange; font-weight:bold; font-size:15px;">C</span>`;
           }
         }
       }
