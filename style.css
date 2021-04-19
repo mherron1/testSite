@@ -605,7 +605,6 @@ input:checked + .slider:before {
   }
 }
 
-#testDiv,
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
@@ -619,7 +618,7 @@ input:checked + .slider:before {
   transform: translateX(-50%);
   bottom: 12px;
   z-index: 1000;
-  box-shadow: 0 0 5px 0px;
+  box-shadow: 0 0 3px 0px;
 }
 
 ul {
