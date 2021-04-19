@@ -814,7 +814,10 @@ function generateCard(i, arg) {
   let videoGallery = document.querySelector(`#videoGallery${arg}`);
 
   for (let v = 0; v < videos.length; v++) {
-    videoGallery.innerHTML += `<div class="youtube-player" data-id="${videos[0]}"></div>`;
+    videoGallery.innerHTML += `<div class="youtube-player" data-id="${videos[0]}"></div>
+    <br>
+    <br>
+    <br>`;
   }
   initYouTubeVideos();
 }

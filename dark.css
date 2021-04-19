@@ -45,14 +45,14 @@ body {
   position: absolute;
   left: 0;
   background-color: #141414;
-  height: 100vh;
+  min-height: 100vh;
   z-index: 10;
 }
 #contentMinus1 {
   position: absolute;
   background-color: #141414;
   max-width: 475px;
-  height: 100vh;
+  min-height: 100vh;
   display: none;
   z-index: 1;
 }
@@ -60,7 +60,7 @@ body {
   position: absolute;
   background-color: #141414;
   max-width: 475px;
-  height: 100vh;
+  min-height: 100vh;
   display: none;
   z-index: 1;
 }
@@ -924,11 +924,11 @@ li span {
   body {
     margin-top: 0vh;
     max-width: 475px;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   #content {
-    height: 100vh;
+    min-height: 100vh;
     box-shadow: 0 0 15px 0px;
   }
 
@@ -1016,7 +1016,7 @@ li span {
     max-width: 825px;
 
     max-height: unset;
-    height: 125vh;
+    min-height: 125vh;
   }
 
   #hamburger-1 {
@@ -1026,7 +1026,7 @@ li span {
   #content {
     box-shadow: 0 0 0px 0px;
     max-height: unset;
-    height: 125vh;
+    min-height: 125vh;
   }
 
   #sideNav {

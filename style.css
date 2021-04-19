@@ -31,7 +31,7 @@ body {
   position: absolute;
   left: 0;
   background-color: #f8f8f8;
-  height: 100vh;
+  min-height: 100vh;
   z-index: 10;
 }
 
@@ -39,7 +39,7 @@ body {
   position: absolute;
   background-color: #f8f8f8;
   max-width: 475px;
-  height: 100vh;
+  min-height: 100vh;
   display: none;
   z-index: 1;
 }
@@ -47,7 +47,7 @@ body {
   position: absolute;
   background-color: #f8f8f8;
   max-width: 475px;
-  height: 100vh;
+  min-height: 100vh;
   display: none;
   z-index: 1;
 }
@@ -914,7 +914,7 @@ li span {
     max-width: 825px;
     box-shadow: 0 0 3px 1px;
     max-height: unset;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   #hamburger-1 {
@@ -924,7 +924,7 @@ li span {
   #content {
     box-shadow: 0 0 0px 0px;
     max-height: unset;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   #sideNav {
@@ -990,7 +990,7 @@ li span {
   body {
     margin-top: 0vh;
     max-width: 475px;
-    height: 125vh;
+    min-height: 125vh;
     box-shadow: 0 0 15px 0px;
   }
   #darkModeToggle {
@@ -1002,7 +1002,7 @@ li span {
   }
 
   #content {
-    height: 125vh;
+    min-height: 125vh;
     box-shadow: 0 0 15px 0px;
   }
 
@@ -1015,7 +1015,7 @@ li span {
     left: 0;
     right: 0;
     top: 0;
-    height: 125vh;
+    min-height: 125vh;
     background-color: black;
     opacity: 0.2;
     z-index: 100;
