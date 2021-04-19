@@ -4,7 +4,7 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "mmaFightCards.org",
+    "name": "mmafightcards.org",
     "short_name": "MMAFightCards",
     "icons": [
         {
