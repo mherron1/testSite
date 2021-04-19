@@ -993,9 +993,6 @@ li span {
     min-height: 125vh;
     box-shadow: 0 0 15px 0px;
   }
-  #darkModeToggle {
-    display: none;
-  }
 
   #sideNav {
     background-color: rgb(255, 255, 255);

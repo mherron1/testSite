@@ -64,7 +64,17 @@ function create() {
       }
     });
   } else {
-    forceToggleAll();
+    filterArr.push("Ultimate");
+    filterArr.push("Bellator");
+    document.querySelector("#ufcInput").checked = true;
+    document.querySelector("#bellatorInput").checked = true;
+    events = events.filter((event) => {
+      for (p = 0; p < filterArr.length; p++) {
+        if (event[0].includes(filterArr[p])) {
+          return true;
+        }
+      }
+    });
   }
 
   var highestTimeoutId = setTimeout(";");
