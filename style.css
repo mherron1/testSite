@@ -1213,3 +1213,9 @@ li span {
     position: absolute;
   }
 }
+
+#beltIcon {
+  position: absolute;
+  top: -5px;
+  right: -43px;
+}

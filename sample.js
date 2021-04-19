@@ -3673,9 +3673,9 @@ data.forEach((event) => {
         if (a.get(item.name)[0][0] > 0.78) {
           event[3][j].rankA = `#${item.rank}`;
           if (event[3][j].rankA === "#C") {
-            event[3][
-              j
-            ].rankA = `<img src="images/beltPic.png" width="35" height="15">`;
+            event[3][j].rankA = `<span style="color: orange;">C</span> 
+            `;
+            /* <img id= "beltIcon" src="images/beltPic.png" width="40" height="19">*/
           }
         }
       }

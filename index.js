@@ -652,7 +652,7 @@ function generateCard(i, arg) {
     }
 
     mainCard.innerHTML += `
-  <div class="left">
+  <div class="left" style = "position:relative;">
     <div>
       <a href="${events[i][3][j].fighterALink}" target="_blank">${events[i][3][j].fighterA}</a>
     </div>
@@ -761,6 +761,7 @@ function generateCard(i, arg) {
     }
 
     prelimsCard.innerHTML += `
+    
     <div class="left">
       <div>
         <a href="${events[i][3][j].fighterALink}" target="_blank" >${events[i][3][j].fighterA}</a>
@@ -785,6 +786,7 @@ function generateCard(i, arg) {
         <div style="color: ${colorB}; font-size:0.9rem; font-weight:bold;">${rightOdds}</div>        
         </div>
     </div>
+    
     `;
   }
 
