@@ -1246,3 +1246,8 @@ li span {
     position: absolute;
   }
 }
+
+#champ {
+  color: rgb(214, 182, 93);
+  font-weight: bold;
+}

@@ -1219,3 +1219,8 @@ li span {
   top: -5px;
   right: -43px;
 }
+
+#champ {
+  color: rgb(252, 164, 0);
+  font-weight: bold;
+}
