@@ -295,14 +295,14 @@ function touchMove(evt) {
   touch = evt.touches[0];
   var changeX = startingX - touch.clientX;
 
-  if (changeX > 50) {
+  if (changeX > 50 && i != events.length - 1) {
     swiping = true;
     changeX -= 50;
 
     content1.style.left = -changeX + "px";
     contentPlus1.style.display = "block";
     evt.preventDefault();
-  } else if (changeX < -50) {
+  } else if (changeX < -50 && i != 0) {
     swiping = true;
     changeX += 50;
     content1.style.left = -changeX + "px";
@@ -319,7 +319,7 @@ function touchEnd(evt) {
     content1.style.left = 0;
     content1.classList.add("notransition");
     contentPlus1.style.display = "none";
-  } else if (changeX > 0) {
+  } else if (changeX > 0 && i != events.length - 1) {
     content1.style.transition = "all .2s";
     content1.style.left = "-102%";
     content1.classList.add("notransition");
@@ -331,7 +331,7 @@ function touchEnd(evt) {
 
     create();
     // location.href = `./?${newPage}`;
-  } else if (changeX < 0) {
+  } else if (changeX < 0 && i != 0) {
     content1.style.transition = "all .2s";
     content1.style.left = "+102%";
     content1.classList.add("notransition");
