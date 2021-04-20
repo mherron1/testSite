@@ -91,19 +91,16 @@ function create() {
 ////////////////////////////////  End of card function
 
 function next() {
-  i++;
-  if (i > events.length - 1) {
-    i = 0;
+  if (i < events.length - 1) {
+    i++;
+    create();
   }
-  create();
 }
 function back() {
-  i--;
-  if (i < 0) {
-    i = events.length - 1;
+  if (i > 0) {
+    i--;
+    create();
   }
-
-  create();
 }
 function toggleD() {
   /////////////////////
