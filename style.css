@@ -1013,7 +1013,7 @@ li span {
 
   #content {
     min-height: 125vh;
-    box-shadow: 0 0 15px 0px;
+    box-shadow: 0 0 5px 0px;
   }
 
   #expandMore {
