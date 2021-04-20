@@ -83,9 +83,9 @@ function create() {
   }
 
   resetDivCSS();
-  generateCard(i, "");
   generateCard(i - 1, "Minus1");
   generateCard(i + 1, "Plus1");
+  generateCard(i, "");
 }
 
 ////////////////////////////////  End of card function
@@ -828,6 +828,19 @@ function generateCard(i, arg) {
     <br>`;
   }
   initYouTubeVideos();
+
+  /////////////////////hide  navigathion arrows
+
+  if (i === 0) {
+    document.querySelector("#leftArrow").style.visibility = "hidden";
+  } else {
+    document.querySelector("#leftArrow").style.visibility = "visible";
+  }
+  if (i === events.length - 1) {
+    document.querySelector("#rightArrow").style.visibility = "hidden";
+  } else {
+    document.querySelector("#rightArrow").style.visibility = "visible";
+  }
 }
 
 function changeSettings() {
