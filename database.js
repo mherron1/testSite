@@ -71,7 +71,7 @@ let data = [
       },
     ],
     "ONE on TNT 3",
-    "",
+    "3",
   ],
   [
     "Professional Fighters League",
