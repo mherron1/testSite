@@ -1158,6 +1158,7 @@ li span {
   max-width: 100%;
   background: #000;
   margin: 0px;
+  border: 2px solid black;
 }
 
 .youtube-player iframe {
@@ -1166,6 +1167,7 @@ li span {
   left: 0;
   width: 100%;
   height: 100%;
+
   z-index: 100;
   background: transparent;
 }
@@ -1174,10 +1176,11 @@ li span {
   object-fit: cover;
   display: block;
   left: 0;
-  bottom: 0;
+  bottom: 1px;
+
   margin: auto;
   max-width: 100%;
-  width: 100%;
+  width: 99%;
   position: absolute;
   right: 0;
   top: 0;
