@@ -1,7 +1,26 @@
 const puppeteer = require("puppeteer");
 
 let events = [
+  "https://www.tapology.com/fightcenter/events/76643-one-championship",
+  "https://www.tapology.com/fightcenter/events/73514-pfl-2021-1",
   "https://www.tapology.com/fightcenter/events/76694-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/76801-one-on-tnt-4",
+  "https://www.tapology.com/fightcenter/events/73515-pfl-2021-2",
+  "https://www.tapology.com/fightcenter/events/76888-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/73516-pfl-2021-3",
+  "https://www.tapology.com/fightcenter/events/77132-bellator-258-archuleta-vs-pettis",
+  "https://www.tapology.com/fightcenter/events/76941-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/77263-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/77893-bellator-259",
+  "https://www.tapology.com/fightcenter/events/77264-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/77535-one-championship",
+  "https://www.tapology.com/fightcenter/events/77692-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/73517-pfl-2021-4",
+  "https://www.tapology.com/fightcenter/events/77570-ufc-263",
+  "https://www.tapology.com/fightcenter/events/77656-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/77763-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/78106-ufc-264",
+  "https://www.tapology.com/fightcenter/events/78542-bellator-260",
 ];
 
 //getEventURLs();
