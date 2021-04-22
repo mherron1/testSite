@@ -3303,6 +3303,119 @@ let data = [
     "Bellator 260",
     "2",
   ],
+  [
+    "Ultimate Fighting Championship",
+    1626559200000,
+    "",
+    [
+      {
+        fighterA: "Marion Reneau",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/37101-marion-reneau",
+        rankA: "#14",
+        recordA: "9-7-1 ",
+        weight: "135",
+        recordB: " 18-7-0",
+        rankB: "#98",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/miesha-tate-takedown",
+        fighterB: "Miesha Tate",
+      },
+      {
+        fighterA: "Ode Osbourne",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/50154-ode-osbourne",
+        rankA: "#101",
+        recordA: "9-3-0 ",
+        weight: "125",
+        recordB: " 14-1-0",
+        rankB: "#15",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/84737-amir-albazi",
+        fighterB: "Amir Albazi",
+      },
+      {
+        fighterA: "Khalid Taha",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/49979-khalid-taha",
+        rankA: "#59",
+        recordA: "13-3-0 ",
+        weight: "135",
+        recordB: " 16-4-0",
+        rankB: "#85",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/85896-sergey-morozov",
+        fighterB: "Sergey Morozov",
+      },
+      {
+        fighterA: "Guram Kutateladze",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/44544-guram-katateladze",
+        rankA: "#45",
+        recordA: "12-2-0 ",
+        weight: "155",
+        recordB: " 9-3-1",
+        rankB: "#68",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/17923-don-madge-magic-man",
+        fighterB: "Don Madge",
+      },
+      {
+        fighterA: "Cameron Else",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/35737-cameron-else",
+        rankA: "#123",
+        recordA: "10-5-0 ",
+        weight: "135",
+        recordB: " 12-4-0",
+        rankB: "#127",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/17086-aaron-phillips",
+        fighterB: "Aaron Phillips",
+      },
+      {
+        fighterA: "Billy Quarantillo",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/42701-billy-quarantillo",
+        rankA: "#41",
+        recordA: "15-3-0 ",
+        weight: "145",
+        recordB: " 11-3-0",
+        rankB: "#48",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/60086-herbert-burns",
+        fighterB: "Herbert Burns",
+      },
+      {
+        fighterA: "Francisco Figueiredo",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/22009-francisco-nazareno-junior-mingau",
+        rankA: "#32",
+        recordA: "12-3-1 ",
+        weight: "125",
+        recordB: " 12-5-0",
+        rankB: "#39",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/36176-malcom-gordon",
+        fighterB: "Malcolm Gordon",
+      },
+      {
+        fighterA: "Anderson dos Santos",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/50759-anderson-berlingeri-berinja",
+        rankA: "#74",
+        recordA: "21-8-0 ",
+        weight: "135",
+        recordB: " 11-1-0",
+        rankB: "#45",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/46875-miles-johns",
+        fighterB: "Miles Johns",
+      },
+    ],
+    "UFC Fight Night",
+    "7",
+  ],
 ];
 
 var FuzzySet = (function () {
