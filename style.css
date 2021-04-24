@@ -997,7 +997,7 @@ li span {
 
 @media only screen and (min-width: 475px) {
   html {
-    background-color: white;
+    background-color: rgb(201, 201, 201);
   }
 
   body {
