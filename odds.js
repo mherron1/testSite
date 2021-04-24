@@ -1,7 +1,7 @@
 let odds = [
   { name: "Ariane Carnelossi", odds: "1.44" },
   { name: "Na Liang", odds: "2.87" },
-  { name: "Jeffrey Molina", odds: "1.91" },
+  { name: "Jeff Molina", odds: "1.91" },
   { name: "Qileng Aori", odds: "2.00" },
   { name: "Zhu Rong", odds: "1.40" },
   { name: "Rodrigo Vargas", odds: "3.00" },
@@ -14,7 +14,7 @@ let odds = [
   { name: "Brendan Allen", odds: "1.68" },
   { name: "Karl Roberson", odds: "2.40" },
   { name: "Dwight Grant", odds: "1.50" },
-  { name: "Stefan Sekulic", odds: "2.80" },
+  { name: "Stefan Sekulić", odds: "2.80" },
   { name: "Alex Oliveira", odds: "2.30" },
   { name: "Randy Brown", odds: "1.69" },
   { name: "Anthony Smith", odds: "2.70" },
