@@ -306,7 +306,7 @@ body {
 .eventLink {
   min-width: 300;
   padding-right: 25px;
-  margin-left: 0px;
+  margin-left: 20px;
   padding-left: 15px;
   padding-top: 11px;
   padding-bottom: 7px;
@@ -328,15 +328,15 @@ body {
 .eventLinkDate {
   position: absolute;
   font-weight: normal;
-  left: 60px;
+  left: 25px;
 }
 .eventIcons {
   position: absolute;
-  max-height: 30px;
+  max-height: 25px;
   left: 15px;
-  transform: translateY(-7px);
+  transform: translateY(-2px);
   border-radius: 50%;
-  filter: brightness(0.6);
+  display: none;
 }
 
 .hamburger {
@@ -739,7 +739,7 @@ input:checked + .slider:before {
   position: absolute;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.884);
   color: black;
   height: 50px;
   width: 205px;
