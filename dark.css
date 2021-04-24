@@ -739,7 +739,7 @@ input:checked + .slider:before {
   position: absolute;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-  background-color: rgba(255, 255, 255, 0.884);
+  background-color: rgba(255, 255, 255, 0.95);
   color: black;
   height: 50px;
   width: 205px;
