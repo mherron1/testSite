@@ -109,4 +109,6 @@ let odds = [
   { name: "Jessica. Eye", odds: "2.70" },
   { name: "Maycee Barber", odds: "2.50" },
   { name: "Miranda Maverick", odds: "1.57" },
+  { name: "Israel Adesanya", odds: "1.44" },
+  { name: "Marvin Vettori", odds: "2.95" },
 ];
