@@ -306,7 +306,7 @@ body {
 .eventLink {
   min-width: 300;
   padding-right: 25px;
-  margin-left: 20px;
+  margin-left: 0px;
   padding-left: 15px;
   padding-top: 11px;
   padding-bottom: 7px;
@@ -328,15 +328,15 @@ body {
 .eventLinkDate {
   position: absolute;
   font-weight: normal;
-  left: 25px;
+  left: 60px;
 }
 .eventIcons {
   position: absolute;
-  max-height: 25px;
+  max-height: 30px;
   left: 15px;
-  transform: translateY(-2px);
+  transform: translateY(-7px);
   border-radius: 50%;
-  display: none;
+  filter: brightness(0.6);
 }
 
 .hamburger {
