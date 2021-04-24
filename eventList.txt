@@ -1,6 +1,3 @@
-  "https://www.tapology.com/fightcenter/events/76103-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/76643-one-championship",
-  "https://www.tapology.com/fightcenter/events/73514-pfl-2021-1",
   "https://www.tapology.com/fightcenter/events/76694-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/76801-one-on-tnt-4",
   "https://www.tapology.com/fightcenter/events/73515-pfl-2021-2",
