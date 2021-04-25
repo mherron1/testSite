@@ -112,8 +112,8 @@ let data2 = data.sort((a, b) => {
 
 data2.forEach((event) => {
   let tempTime =
-    new Date(event[1] - 50400000).toString().split(" ")[1] +
-    new Date(event[1] - 50400000).toString().split(" ")[2] +
+    new Date(event[1] - 36400000).toString().split(" ")[1] +
+    new Date(event[1] - 36400000).toString().split(" ")[2] +
     ".jpg";
   if (assets.indexOf(tempTime.toLowerCase()) > -1) {
     event[2] =
