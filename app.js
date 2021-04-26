@@ -26,17 +26,24 @@ let assets = [
 
 let times = [
   {
-    date: "apr24",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2021, 03, 25, 02, 00, 00),
-    prelims: new Date(2021, 03, 24, 22, 00, 00),
-    videos: ["RPotluj5LU4"],
+    date: "apr29",
+    promo: "Professional Fighters League",
+    time: new Date(2021, 03, 30, 01, 00, 00),
+    prelims: new Date(2021, 03, 29, 21, 30, 00),
+    videos: ["POxIkp6Ly7A"],
+  },
+  {
+    date: "apr28",
+    promo: "ONE Championship",
+    time: new Date(2021, 03, 29, 02, 00, 00),
+    prelims: new Date(2021, 03, 29, 00, 30, 00),
+    videos: [],
   },
   {
     date: "may01",
     promo: "Ultimate Fighting Championship",
-    time: false,
-    prelims: false,
+    time: new Date(2021, 04, 02, 02, 00, 00),
+    prelims: new Date(2021, 04, 01, 23, 00, 00),
     videos: ["-w_NAOO7jzY"],
   },
   {
