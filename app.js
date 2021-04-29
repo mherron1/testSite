@@ -10,7 +10,6 @@ let assets = [
   "may01.jpg",
   "may06.jpg",
   "may07.jpg",
-  "may08.jpg",
   "may15.jpg",
   "may21.jpg",
   "may22.jpg",
@@ -27,18 +26,11 @@ let assets = [
 
 let times = [
   {
-    date: "apr28",
-    promo: "ONE Championship",
-    time: new Date(2021, 03, 29, 02, 00, 00),
-    prelims: new Date(2021, 03, 29, 00, 30, 00),
-    videos: ["rHVyUYyh6iM"],
-  },
-  {
     date: "apr29",
     promo: "Professional Fighters League",
     time: new Date(2021, 03, 30, 01, 00, 00),
     prelims: new Date(2021, 03, 29, 21, 30, 00),
-    videos: ["a89D6g5MZ90"],
+    videos: ["FUWCeynwEHs"],
   },
   {
     date: "may01",
