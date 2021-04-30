@@ -1,12 +1,4 @@
 let assets = [
-  "apr16.jpg",
-  "apr17.jpg",
-  "apr21.jpg",
-  "apr23.jpg",
-  "apr24.jpg",
-  "apr25.jpg",
-  "apr28.jpg",
-  "apr29.jpg",
   "may01.jpg",
   "may06.jpg",
   "may07.jpg",
@@ -26,18 +18,11 @@ let assets = [
 
 let times = [
   {
-    date: "apr29",
-    promo: "Professional Fighters League",
-    time: new Date(2021, 03, 30, 01, 00, 00),
-    prelims: new Date(2021, 03, 29, 21, 30, 00),
-    videos: ["FYT4KjHmUHI"],
-  },
-  {
     date: "may01",
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 04, 02, 02, 00, 00),
     prelims: new Date(2021, 04, 01, 23, 00, 00),
-    videos: ["-w_NAOO7jzY"],
+    videos: ["j6RqdippPjQ"],
   },
   {
     date: "may06",
