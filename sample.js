@@ -805,7 +805,7 @@ let data = [
         fighterA: "Ion Cutelaba",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/34843-ion-cutelaba",
-        rankA: "#20",
+        rankA: "#22",
         recordA: "15-6-0 ",
         weight: "205",
         recordB: " 14-5-0",
@@ -818,7 +818,7 @@ let data = [
         fighterA: "Sean Strickland",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/6055-sean-strickland-tarzan",
-        rankA: "#17",
+        rankA: "#20",
         recordA: "22-3-0 ",
         weight: "185",
         recordB: " 22-4-0",
@@ -835,29 +835,16 @@ let data = [
         recordA: "12-4-0 ",
         weight: "135",
         recordB: " 19-3-1",
-        rankB: "#62",
+        rankB: "#65",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/22124-cody-stamann",
         fighterB: "Cody Stamann",
       },
       {
-        fighterA: "Poliana Botelho",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/72267-poliana-botelho",
-        rankA: "#62",
-        recordA: "8-3-0 ",
-        weight: "125",
-        recordB: " 6-2-0",
-        rankB: "#41",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/114251-luana-carolina-dread",
-        fighterB: "Luana Carolina",
-      },
-      {
         fighterA: "Randa Markos",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/20984-randa-markos",
-        rankA: "#23",
+        rankA: "#20",
         recordA: "10-10-1 ",
         weight: "115",
         recordB: " 8-1-0",
@@ -867,40 +854,40 @@ let data = [
         fighterB: "Luana Pinheiro",
       },
       {
-        fighterA: "Gabriel Benítez",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/27087-gabriel-benitez-moggly",
-        rankA: "#66",
-        recordA: "22-8-0 ",
-        weight: "145",
-        recordB: " 10-4-0",
-        rankB: "#97",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/40655-jonathan-pearce",
-        fighterB: "Jonathan Pearce",
-      },
-      {
         fighterA: "Kai Kamaka III",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/74838-kai-kamaka-iii-boy",
-        rankA: "#108",
+        rankA: "#110",
         recordA: "8-3-0 ",
         weight: "145",
         recordB: " 14-8-0",
-        rankB: "#131",
+        rankB: "#132",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/91387-tj-brown",
         fighterB: "TJ Brown",
       },
       {
+        fighterA: "Poliana Botelho",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/72267-poliana-botelho",
+        rankA: "#31",
+        recordA: "8-3-0 ",
+        weight: "125",
+        recordB: " 6-2-0",
+        rankB: "#54",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/114251-luana-carolina-dread",
+        fighterB: "Luana Carolina",
+      },
+      {
         fighterA: "Sam Hughes",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/140901-sam-hughes",
-        rankA: "#90",
+        rankA: "#52",
         recordA: "5-2-0 ",
         weight: "115",
         recordB: " 5-2-0",
-        rankB: "#24",
+        rankB: "#23",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/174166-looma-lookboonmee",
         fighterB: "Loma Lookboonmee",
@@ -909,11 +896,11 @@ let data = [
         fighterA: "KB Bhullar",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/20965-kb-bhullar",
-        rankA: "#108",
+        rankA: "#116",
         recordA: "8-1-0 ",
         weight: "185",
         recordB: " 12-4-0",
-        rankB: "#76",
+        rankB: "#92",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/72348-andreas-mihalidis",
         fighterB: "Andreas Michailidis",
@@ -926,7 +913,7 @@ let data = [
         recordA: "13-4-0 ",
         weight: "145",
         recordB: " 9-2-0",
-        rankB: "#90",
+        rankB: "#91",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/80697-felipe-colares-caboco",
         fighterB: "Felipe Colares",
@@ -1091,6 +1078,19 @@ let data = [
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/17135-sergio-pettis",
         fighterB: "Sergio Pettis",
+      },
+      {
+        fighterA: "Anthony Johnson",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/anthony-johnson-rumble",
+        rankA: "#58",
+        recordA: "22-6-0 ",
+        weight: "205",
+        recordB: " 7-2-0",
+        rankB: "#18",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/133511-jose-augusto-azevedo-gugu",
+        fighterB: "Jose Augusto Azevedo",
       },
       {
         fighterA: "Patricky Pitbull",
