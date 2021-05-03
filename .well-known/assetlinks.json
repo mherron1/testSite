@@ -1,5 +1,5 @@
 [{
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target" : { "namespace": "android_app", "package_name": "org.mmafightcards.twa",
-                 "sha256_cert_fingerprints": ["36:93:DC:5A:DC:C4:4B:B2:07:8B:42:40:00:D9:70:94:CD:D7:16:3A:34:AA:FE:39:D5:C4:AB:A3:75:04:8F:4B"] }
+                 "sha256_cert_fingerprints": ["D6:6C:F3:08:5F:95:E4:57:0F:73:28:CA:A5:2E:F0:0E:0E:CD:04:AE:EF:97:07:65:34:69:D3:EB:7A:47:56:BB"] }
   }]
