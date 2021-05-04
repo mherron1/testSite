@@ -107,7 +107,10 @@ data2.forEach((event) => {
     new Date(event[1] - 50000000).toString().split(" ")[1] +
     new Date(event[1] - 50000000).toString().split(" ")[2] +
     ".jpg";
-  if (assets.indexOf(tempTime.toLowerCase()) > -1) {
+  if (
+    assets.indexOf(tempTime.toLowerCase()) > -1 &&
+    event[0] != "ONE Championship"
+  ) {
     event[2] =
       "images/eventImages/" + assets[assets.indexOf(tempTime.toLowerCase())];
   } else if (event[0].includes("Ultimate")) {
