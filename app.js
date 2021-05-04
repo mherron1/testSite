@@ -43,7 +43,14 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: false,
     prelims: false,
-    videos: ["0rZe1C96VF0"],
+    videos: [],
+  },
+  {
+    date: "may15",
+    promo: "ONE Championship",
+    time: new Date(2021, 04, 15, 14, 00, 00),
+    prelims: new Date(2021, 04, 15, 14, 00, 00),
+    videos: [],
   },
   {
     date: "may15",
@@ -97,8 +104,8 @@ let data2 = data.sort((a, b) => {
 
 data2.forEach((event) => {
   let tempTime =
-    new Date(event[1] - 36400000).toString().split(" ")[1] +
-    new Date(event[1] - 36400000).toString().split(" ")[2] +
+    new Date(event[1] - 50000000).toString().split(" ")[1] +
+    new Date(event[1] - 50000000).toString().split(" ")[2] +
     ".jpg";
   if (assets.indexOf(tempTime.toLowerCase()) > -1) {
     event[2] =
