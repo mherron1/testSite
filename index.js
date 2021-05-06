@@ -1144,3 +1144,7 @@ function initYouTubeVideos() {
     playerElements[n].appendChild(div);
   }
 }
+
+if (android === true) {
+  document.querySelector("#rateReview").style.display = "block";
+}

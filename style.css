@@ -1228,3 +1228,7 @@ li span {
   font-weight: bold;
   font-size: 15px;
 }
+
+#rateReview {
+  display: none;
+}
