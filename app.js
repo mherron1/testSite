@@ -28,8 +28,8 @@ let times = [
   {
     date: "may06",
     promo: "Professional Fighters League",
-    time: false,
-    prelims: false,
+    time: new Date(2021, 04, 07, 01, 00, 00),
+    prelims: new Date(2021, 04, 06, 21, 30, 00),
     videos: ["POxIkp6Ly7A"],
   },
   {
