@@ -1252,6 +1252,9 @@ li span {
   font-size: 15px;
 }
 
-.rateReview {
+#rateReview {
+  display: none;
+}
+#rateReview2 {
   display: none;
 }
