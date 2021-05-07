@@ -450,6 +450,10 @@ function generateCard(i, arg) {
       </div>
 `;
 
+  if (android === true) {
+    document.querySelector("#rateReview2").style.display = "block";
+  }
+
   let mainHeader = document.querySelector(`#mainHeader${arg}`);
   mainHeader.textContent += `${events[i][4]}`;
 
@@ -1157,7 +1161,4 @@ function initYouTubeVideos() {
 
 if (android === true) {
   document.querySelector("#rateReview").style.display = "block";
-}
-if (android === true) {
-  document.querySelector("#rateReview2").style.display = "block";
 }
