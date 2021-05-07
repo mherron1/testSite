@@ -438,21 +438,8 @@ function generateCard(i, arg) {
 <div id="prelimsTime${arg}"></div>
 <div id="prelimsCard${arg}"></div> 
 <div id="videoGallery${arg}"></div>
-<br>
-<br>
-<br>
-<br>
-<div style ="position:absolute; bottom:10px;left:15px;">
-<p><a href="mailto:mmafightcards.org@gmail.com">Contact</a></p>
-  </div>
-  <div id="rateReview2" style ="position:absolute; bottom:10px;right:15px;">
-    <p><a href="https://play.google.com/store/apps/details?id=org.mmafightcards.twa" target="_blank">Rate & Review</a></p>
-      </div>
-`;
 
-  if (android === true) {
-    document.querySelector("#rateReview2").style.display = "block";
-  }
+`;
 
   let mainHeader = document.querySelector(`#mainHeader${arg}`);
   mainHeader.textContent += `${events[i][4]}`;
