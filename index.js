@@ -607,6 +607,7 @@ function generateCard(i, arg) {
         if (
           name1.length === fighterA.length &&
           name1[0] === fighterA[0] &&
+          name1[name1.length - 2] === fighterA[fighterA.length - 2] &&
           name1[name1.length - 1] === fighterA[fighterA.length - 1]
         ) {
           leftOdds = item.odds;
@@ -614,6 +615,7 @@ function generateCard(i, arg) {
         if (
           name1.length === fighterB.length &&
           name1[0] === fighterB[0] &&
+          name1[name1.length - 2] === fighterB[fighterB.length - 2] &&
           name1[name1.length - 1] === fighterB[fighterB.length - 1]
         ) {
           rightOdds = item.odds;

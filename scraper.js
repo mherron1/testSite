@@ -17,6 +17,10 @@ let events = [
   "https://www.tapology.com/fightcenter/events/78106-ufc-264",
   "https://www.tapology.com/fightcenter/events/78542-bellator-260",
   "https://www.tapology.com/fightcenter/events/78130-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/78477-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/78698-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/78675-ufc-265",
+  "https://www.tapology.com/fightcenter/events/78601-ufc-266",
 ];
 
 //getEventURLs();
