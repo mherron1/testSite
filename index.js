@@ -1149,9 +1149,6 @@ function setPrelimsCountdown(time) {
 function vibrate() {
   /////////////////////
   if (android) {
-    if (haptics === "on") {
-      console.log("vibrate");
-    }
     navigator.vibrate(40);
   }
   ///////////////////////
