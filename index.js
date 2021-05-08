@@ -23,6 +23,28 @@ if (localStorage.getItem("oddsType") !== null) {
   }
 }
 
+let hapticsToggleSwitch = document.querySelector("#hapticsToggleSwitch");
+hapticsToggleSwitch.style.visibility = "hidden";
+if (android === true) {
+  hapticsToggleSwitch.style.visibility = "visible";
+}
+
+if (localStorage.getItem("haptics") !== null) {
+  if (localStorage.getItem("haptics") === "off") {
+    haptics = "off";
+    let hapticsToggle = document.querySelector("#hapticsToggle");
+    hapticsToggle.checked = false;
+  } else {
+    localStorage.setItem("haptics", "on");
+    let hapticsToggle = document.querySelector("#hapticsToggle");
+    hapticsToggle.checked = true;
+  }
+} else {
+  localStorage.setItem("haptics", "on");
+  let hapticsToggle = document.querySelector("#hapticsToggle");
+  hapticsToggle.checked = true;
+}
+
 let i = 0;
 let events = data2;
 
@@ -991,7 +1013,7 @@ function pausecomp(millis) {
   } while (curDate - date < millis);
 }
 
-function toggelOddsType() {
+function toggleOddsType() {
   vibrate();
   if (localStorage.getItem("oddsType") === "line") {
     localStorage.setItem("oddsType", "decimal");
@@ -1003,6 +1025,21 @@ function toggelOddsType() {
     oddsType = "line";
   } else {
     oddsType = "dec";
+  }
+}
+
+function toggleHaptics() {
+  vibrate();
+  if (localStorage.getItem("haptics") === "on") {
+    localStorage.setItem("haptics", "off");
+  } else {
+    localStorage.setItem("haptics", "on");
+  }
+
+  if (haptics === "on") {
+    haptics = "off";
+  } else {
+    haptics = "on";
   }
 }
 
@@ -1112,7 +1149,9 @@ function setPrelimsCountdown(time) {
 function vibrate() {
   /////////////////////
   if (android) {
-    navigator.vibrate(40);
+    if (haptics === "on") {
+      navigator.vibrate(40);
+    }
   }
   ///////////////////////
 }
