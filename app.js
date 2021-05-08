@@ -21,32 +21,11 @@ let assets = [
 
 let times = [
   {
-    date: "may01",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2021, 04, 02, 02, 00, 00),
-    prelims: new Date(2021, 04, 01, 23, 00, 00),
-    videos: ["j6RqdippPjQ"],
-  },
-  {
-    date: "may06",
-    promo: "Professional Fighters League",
-    time: new Date(2021, 04, 07, 01, 00, 00),
-    prelims: new Date(2021, 04, 06, 21, 30, 00),
-    videos: ["POxIkp6Ly7A"],
-  },
-  {
-    date: "may07",
-    promo: "Bellator MMA",
-    time: new Date(2021, 04, 08, 01, 00, 00),
-    prelims: new Date(2021, 04, 07, 21, 30, 00),
-    videos: ["JaDkuPVK_9g"],
-  },
-  {
     date: "may08",
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 04, 09, 00, 00, 00),
-    prelims: new Date(2021, 04, 08, 21, 00, 00),
-    videos: ["HtGIVhVhx_8"],
+    prelims: new Date(2021, 04, 08, 22, 00, 00),
+    videos: ["at-vk-r-R6s"],
   },
   {
     date: "may15",
