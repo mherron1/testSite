@@ -1150,9 +1150,9 @@ function vibrate() {
   /////////////////////
   if (android) {
     if (haptics === "on") {
-      navigator.vibrate(40);
       console.log("vibrate");
     }
+    navigator.vibrate(40);
   }
   ///////////////////////
 }
