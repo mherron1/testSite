@@ -1159,7 +1159,6 @@ function vibrate() {
 
 function make(e) {
   vibrate();
-  console.log("vibrate");
   // e.preventDefault();   // to not go to href url uncoment this
 }
 
