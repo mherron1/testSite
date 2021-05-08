@@ -996,7 +996,6 @@ li span {
 @media only screen and (min-width: 475px) {
   html {
     background-color: rgb(201, 201, 201);
-    zoom: 1.1;
   }
 
   body {
