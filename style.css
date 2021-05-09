@@ -1228,3 +1228,11 @@ li span {
 #rateReview {
   display: none;
 }
+
+h4 {
+}
+h4:hover {
+  background-color: transparent !important;
+  color: black !important;
+  cursor: auto !important;
+}

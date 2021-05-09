@@ -1255,3 +1255,12 @@ li span {
 #rateReview {
   display: none;
 }
+
+h4 {
+  color: #d2af4b;
+}
+h4:hover {
+  background-color: transparent !important;
+  color: #d2af4b !important;
+  cursor: auto !important;
+}
