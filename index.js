@@ -26,7 +26,7 @@ if (localStorage.getItem("oddsType") !== null) {
 let hapticsToggleSwitch = document.querySelector("#hapticsToggleSwitch");
 hapticsToggleSwitch.style.visibility = "hidden";
 if (android === true) {
-  hapticsToggleSwitch.style.visibility = "visible";
+  //hapticsToggleSwitch.style.visibility = "visible";
 }
 
 if (localStorage.getItem("haptics") !== null) {
