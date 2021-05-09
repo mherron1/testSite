@@ -280,7 +280,7 @@ function generateLinks() {
   `;
     }
   }
-  eventList.innerHTML += `<h3 style = "margin-top: 12px;" class = "eventLink">Recent Event</h3>`;
+  eventList.innerHTML += `<h4 style = "margin-top: 12px;" class = "eventLink">Recent Event</h4>`;
 
   let r = events.length - 1;
   let dateString = new Date(events[r][1] - 18000000).toString();
