@@ -25,7 +25,7 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 04, 09, 00, 00, 00),
     prelims: new Date(2021, 04, 08, 22, 00, 00),
-    videos: ["at-vk-r-R6s"],
+    videos: [],
   },
   {
     date: "may15",
@@ -82,7 +82,7 @@ let data2 = data.sort((a, b) => {
   return a[1] - b[1];
 });
 
-//data2.push(data2.shift());
+data2.push(data2.shift());
 
 data2.forEach((event) => {
   let tempTime =
@@ -114,5 +114,3 @@ var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
 if (isAndroid) {
   android = true;
 }
-
-let haptics = "on";

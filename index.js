@@ -26,7 +26,7 @@ if (localStorage.getItem("oddsType") !== null) {
 let hapticsToggleSwitch = document.querySelector("#hapticsToggleSwitch");
 hapticsToggleSwitch.style.visibility = "hidden";
 if (android === true) {
-  //hapticsToggleSwitch.style.visibility = "visible";
+  hapticsToggleSwitch.style.visibility = "visible";
 }
 
 if (localStorage.getItem("haptics") !== null) {
@@ -119,7 +119,7 @@ function next() {
   }
 }
 function back() {
-  if (i > 0) {
+  if (i >= 0) {
     i--;
     create();
   }
@@ -267,7 +267,9 @@ function generateLinks() {
     }
 
     let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
-    eventList.innerHTML += `  
+
+    if (i != events.length - 1) {
+      eventList.innerHTML += `  
       <div class="eventLink" onclick="selectCard(${i})">
          <div class="eventLinkDate">${date}</div>
           <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
@@ -276,7 +278,35 @@ function generateLinks() {
          <div class="eventLinkText">${events[i][4]}</div>
       </div>
   `;
+    }
   }
+  eventList.innerHTML += `<h3 style = "margin-top: 12px;" class = "eventLink">Recent Event</h3>`;
+
+  let r = events.length - 1;
+  let dateString = new Date(events[r][1] - 18000000).toString();
+
+  let org = "ufc";
+
+  if (events[r][0].includes("Bell")) {
+    org = "bellator";
+  }
+  if (events[r][0].includes("Prof")) {
+    org = "pfl";
+  }
+  if (events[r][0].includes("ONE")) {
+    org = "one";
+  }
+
+  let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
+
+  eventList.innerHTML += `  
+      <div class="eventLink" onclick="selectCard(${r})">
+         <div class="eventLinkDate">${date}</div>
+          <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
+      
+
+         <div class="eventLinkText">${events[r][4]}</div>
+      </div>`;
   eventList.innerHTML += `<br><br><br><br>`;
 }
 
@@ -314,14 +344,14 @@ function touchMove(evt) {
   touch = evt.touches[0];
   var changeX = startingX - touch.clientX;
 
-  if (changeX > 50 && i != events.length - 1) {
+  if (changeX > 50 && i != events.length - 2) {
     swiping = true;
     changeX -= 50;
 
     content1.style.left = -changeX + "px";
     contentPlus1.style.display = "block";
     evt.preventDefault();
-  } else if (changeX < -50 && i != 0) {
+  } else if (changeX < -50 && i != events.length - 1) {
     swiping = true;
     changeX += 50;
     content1.style.left = -changeX + "px";
@@ -338,7 +368,7 @@ function touchEnd(evt) {
     content1.style.left = 0;
     content1.classList.add("notransition");
     contentPlus1.style.display = "none";
-  } else if (changeX > 0 && i != events.length - 1) {
+  } else if (changeX > 0 && i != events.length - 2) {
     content1.style.transition = "all .2s";
     content1.style.left = "-102%";
     content1.classList.add("notransition");
@@ -350,7 +380,7 @@ function touchEnd(evt) {
 
     create();
     // location.href = `./?${newPage}`;
-  } else if (changeX < 0 && i != 0) {
+  } else if (changeX < 0 && i != events.length - 1) {
     content1.style.transition = "all .2s";
     content1.style.left = "+102%";
     content1.classList.add("notransition");
@@ -870,12 +900,12 @@ function generateCard(i, arg) {
 
   /////////////////////hide  navigathion arrows
 
-  if (i === 0) {
+  if (i === events.length - 1) {
     document.querySelector("#leftArrow").style.visibility = "hidden";
   } else {
     document.querySelector("#leftArrow").style.visibility = "visible";
   }
-  if (i === events.length - 1) {
+  if (i === events.length - 2) {
     document.querySelector("#rightArrow").style.visibility = "hidden";
   } else {
     document.querySelector("#rightArrow").style.visibility = "visible";
