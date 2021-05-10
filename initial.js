@@ -6,7 +6,7 @@ let data = [
   {
     fighterA: 'Brandon Vera',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/brandon-vera-the-truth',
-    rankA: '#79',
+    rankA: '#84',
     recordA: '16-8-0 ',
     weight: '265',
     recordB: ' 10-1-0',
@@ -32,46 +32,35 @@ let data = [
     recordA: '5-6-0 ',
     weight: '115',
     recordB: ' 4-0-0',
-    rankB: '#44',
+    rankB: '#43',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/240108-ritu-phogat',
     fighterB: 'Ritu Phogat'
   },
   {
     fighterA: 'Ayaka Miura',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/68336-miura-ayaka',
-    rankA: '#8',
+    rankA: '#1',
     recordA: '10-3-0 ',
     weight: '128',
     recordB: ' 4-0-1',
-    rankB: '#20',
+    rankB: '#6',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/135748-rayane-bastos',
     fighterB: 'Rayane Bastos'
   },
   {
     fighterA: 'Gary Mangat',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/20894-gary-mangat',
-    rankA: '#5',
+    rankA: '#n/a',
     recordA: '15-3-0 ',
     weight: '145',
     recordB: ' 6-2-0',
-    rankB: '#52',
+    rankB: '#n/a',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/148755-roshan-mainam',
     fighterB: 'Roshan Mainam'
-  },
-  {
-    fighterA: 'Anthony Do',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/62297-anthony-do',
-    rankA: '#n/a',
-    recordA: '7-4-0 ',
-    weight: '127',
-    recordB: ' 5-6-1',
-    rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/153596-hui-liang',
-    fighterB: 'Hui Liang'
   }
 ]
 ,"ONE Championship",
-"3"
+"2"
 ],
 ["Ultimate Fighting Championship",
 1620511200000,
@@ -629,68 +618,68 @@ let data = [
   {
     fighterA: 'Jingnan Xiong',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/78550-jingnan-xiong',
-    rankA: '#56',
+    rankA: '#65',
     recordA: '15-2-0 ',
     weight: '125',
     recordB: ' 6-2-0',
-    rankB: '#42',
+    rankB: '#63',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/52114-michelle-nicolini',
     fighterB: 'Michelle Nicolini'
   },
   {
+    fighterA: 'Anissa Meksen',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/240698-anissa-meksen',
+    rankA: '#1',
+    recordA: 'Villeurbanne, FR ',
+    weight: '125',
+    recordB: ' Aosta, Aosta',
+    rankB: '#61',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/261292-martine-michieletto',
+    fighterB: 'Martine Michieletto'
+  },
+  {
     fighterA: 'Seo Hee Ham',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/10097-seo-hee-ham',
-    rankA: '#1',
+    rankA: '#2',
     recordA: '23-8-0 ',
     weight: '115',
     recordB: ' 8-0-0',
-    rankB: '#59',
+    rankB: '#45',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/170743-denice-zamboanga',
     fighterB: 'Denice Zamboanga'
   },
   {
     fighterA: 'Alyona Rassohyna',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/64137-alyona-rassohyna',
-    rankA: '#2',
+    rankA: '#28',
     recordA: '13-4-0 ',
     weight: '115',
     recordB: ' 5-1-0',
-    rankB: '#44',
+    rankB: '#1',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/210910-stamp',
     fighterB: 'Stamp Fairtex'
   },
   {
-    fighterA: 'Bo Meng',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/120312-bo-meng',
-    rankA: '#24',
-    recordA: '17-5-0 ',
-    weight: '115',
-    recordB: ' 4-0-0',
-    rankB: '#140',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/240108-ritu-phogat',
-    fighterB: 'Ritu Phogat'
-  },
-  {
     fighterA: 'Itsuki Hirata',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/205347-itsuki-hirata',
-    rankA: '#28',
+    rankA: '#25',
     recordA: '4-0-0 ',
     weight: '115',
     recordB: ' 5-1-0',
-    rankB: '#1',
+    rankB: '#135',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/79480-alyse-anderson',
     fighterB: 'Alyse Anderson'
   },
   {
-    fighterA: 'Anissa Meksen',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/240698-anissa-meksen',
+    fighterA: 'Bo Meng',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/120312-bo-meng',
     rankA: '#n/a',
-    recordA: 'Villeurbanne, FR ',
-    weight: '125',
-    recordB: ' Aosta, Aosta',
+    recordA: '17-5-0 ',
+    weight: '115',
+    recordB: ' 4-0-0',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/261292-martine-michieletto',
-    fighterB: 'Martine Michieletto'
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/240108-ritu-phogat',
+    fighterB: 'Ritu Phogat'
   }
 ]
 ,"ONE Championship",

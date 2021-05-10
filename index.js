@@ -114,7 +114,7 @@ function create() {
 ////////////////////////////////  End of card function
 
 function next() {
-  if (i < events.length - 1) {
+  if (i < events.length - 2) {
     i++;
     create();
     showResults = false;
