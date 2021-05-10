@@ -55,10 +55,12 @@ function create() {
   events = data2;
   let filterArr = [];
   if (localStorage.getItem("ufc") !== null) {
-    if (localStorage.getItem("ufc") === "y") {
+    if (true) {
       filterArr.push("Ultimate");
       document.querySelector("#ufcInput").checked = true;
     }
+    document.querySelector("#ufcInput").checked = true;
+
     if (localStorage.getItem("bellator") === "y") {
       filterArr.push("Bellator");
       document.querySelector("#bellatorInput").checked = true;
