@@ -117,6 +117,7 @@ function create() {
 
 function next() {
   if (i < events.length - 2) {
+    console.log("test");
     i++;
     create();
     showResults = false;
@@ -983,8 +984,8 @@ function changeSettings() {
     one.checked === false &&
     pfl.checked === false
   ) {
-    all.checked = true;
-    forceToggleAll();
+    //all.checked = true;
+    //forceToggleAll();
   }
 
   toggleSettings();
