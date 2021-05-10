@@ -947,6 +947,7 @@ function generateCard(i, arg) {
 
   if (i === events.length - 1) {
     document.querySelector("#leftArrow").style.visibility = "hidden";
+    document.querySelector("#testDiv").style.visibility = "hidden";
   } else {
     document.querySelector("#leftArrow").style.visibility = "visible";
   }
