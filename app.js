@@ -127,5 +127,9 @@ data2[data2.length - 1][3].forEach((bout) => {
     let temp = bout.fighterA;
     bout.fighterA = bout.fighterB;
     bout.fighterB = temp;
+
+    let tempLink = bout.fighterALink;
+    bout.fighterALink = bout.fighterBLink;
+    bout.fighterBLink = tempLink;
   }
 });
