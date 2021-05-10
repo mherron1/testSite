@@ -14,6 +14,7 @@ if (localStorage.getItem("dark-mode") !== null) {
 }
 
 let oddsType = "line";
+let showResults = false;
 
 if (localStorage.getItem("oddsType") !== null) {
   if (localStorage.getItem("oddsType") === "decimal") {
@@ -484,6 +485,7 @@ function generateCard(i, arg) {
   content.innerHTML = `
 <h2 style="background-color:none" id="mainHeader${arg}"></h2>
 <div id="imageContainer${arg}">
+
 </div>
 <div id="mainTime${arg}"></div>
 <div id="mainCard${arg}"></div> 
@@ -717,8 +719,28 @@ function generateCard(i, arg) {
       }
     }
 
+    let snippetA = "";
+    let snippetB = "";
+
+    if (i === events.length - 1) {
+      if (showResults) {
+        winners.forEach((winner) => {
+          if (winner === events[i][3][j].fighterA) {
+            snippetA = "winnerGreen";
+            snippetB = "loserRed";
+          }
+        });
+        winners.forEach((winner) => {
+          if (winner === events[i][3][j].fighterB) {
+            snippetB = "winnerGreen";
+            snippetA = "loserRed";
+          }
+        });
+      }
+    }
+
     mainCard.innerHTML += `
-  <div class="left" style = "position:relative;">
+  <div class="left ${snippetA}" >
     <div>
       <a href="${events[i][3][j].fighterALink}" target="_blank">${events[i][3][j].fighterA}</a>
     </div>
@@ -732,7 +754,7 @@ function generateCard(i, arg) {
    <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
   </div>
    
-  <div  class="right">
+  <div  class="right ${snippetB}" >
     <div>
       <a href="${events[i][3][j].fighterBLink}" target="_blank" >${events[i][3][j].fighterB}</a>
       
@@ -826,9 +848,29 @@ function generateCard(i, arg) {
       }
     }
 
+    snippetA = "";
+    snippetB = "";
+
+    if (i === events.length - 1) {
+      if (showResults) {
+        winners.forEach((winner) => {
+          if (winner === events[i][3][j].fighterA) {
+            snippetA = "winnerGreen";
+            snippetB = "loserRed";
+          }
+        });
+        winners.forEach((winner) => {
+          if (winner === events[i][3][j].fighterB) {
+            snippetB = "winnerGreen";
+            snippetA = "loserRed";
+          }
+        });
+      }
+    }
+
     prelimsCard.innerHTML += `
     
-    <div class="left">
+    <div class="left ${snippetA}" >
       <div>
         <a href="${events[i][3][j].fighterALink}" target="_blank" >${events[i][3][j].fighterA}</a>
       </div>
@@ -842,7 +884,7 @@ function generateCard(i, arg) {
      <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
     </div>
      
-    <div  class="right">
+    <div  class="right  ${snippetB}" >
       <div>
         <a href="${events[i][3][j].fighterBLink}" target="_blank" >${events[i][3][j].fighterB}</a>
         
@@ -909,6 +951,12 @@ function generateCard(i, arg) {
     document.querySelector("#rightArrow").style.visibility = "hidden";
   } else {
     document.querySelector("#rightArrow").style.visibility = "visible";
+  }
+
+  if (i === events.length - 1) {
+    document.querySelector("#showResults").style.display = "block";
+  } else {
+    document.querySelector("#showResults").style.display = "none";
   }
 }
 
@@ -1230,4 +1278,13 @@ function initYouTubeVideos() {
 
 if (android === true) {
   document.querySelector("#rateReview").style.display = "block";
+}
+
+function toggleResults() {
+  if (showResults) {
+    showResults = false;
+  } else {
+    showResults = true;
+  }
+  create();
 }

@@ -114,3 +114,18 @@ var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
 if (isAndroid) {
   android = true;
 }
+
+let winners = [];
+
+data2[data2.length - 1][3].forEach((bout) => {
+  winners.push(bout.fighterA);
+  bout.rankA = "";
+  bout.rankB = "";
+
+  let rand = Math.floor(Math.random() * 10);
+  if (rand % 2 == 0) {
+    let temp = bout.fighterA;
+    bout.fighterA = bout.fighterB;
+    bout.fighterB = temp;
+  }
+});
