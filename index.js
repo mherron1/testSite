@@ -117,12 +117,14 @@ function next() {
   if (i < events.length - 1) {
     i++;
     create();
+    showResults = false;
   }
 }
 function back() {
   if (i >= 0) {
     i--;
     create();
+    showResults = false;
   }
 }
 function toggleD() {
@@ -324,6 +326,7 @@ function selectCard(index) {
   vibrate();
   ///////////////////////
   pausecomp(50);
+  showResults = false;
   create();
 
   document.querySelector("#hamburger-1").classList = "hamburger";
@@ -378,7 +381,7 @@ function touchEnd(evt) {
     if (i > events.length - 1) {
       i = 0;
     }
-
+    showResults = false;
     create();
     // location.href = `./?${newPage}`;
   } else if (changeX < 0 && i != events.length - 1) {
@@ -391,7 +394,7 @@ function touchEnd(evt) {
       i = events.length - 1;
     }
     swiping = false;
-
+    showResults = false;
     create();
     //location.href = `./?${newPage1}`;
   }
