@@ -116,9 +116,14 @@ function create() {
 ////////////////////////////////  End of card function
 
 function next() {
-  if (i < events.length - 2) {
-    console.log("test");
+  if (i === events.length - 1) {
+    i == -1;
+  }
+  if (i != events.length - 2) {
     i++;
+    if (i === events.length) {
+      i = 0;
+    }
     create();
     showResults = false;
   }
