@@ -1138,7 +1138,6 @@ let data = [
     "UFC Fight Night",
     "10",
   ],
-
   [
     "ONE Championship",
     1622248200000,
@@ -1429,6 +1428,28 @@ let data = [
     ],
     "UFC Fight Night",
     "9",
+  ],
+  [
+    "Professional Fighters League",
+    1623360600000,
+    "",
+    [
+      {
+        fighterA: "Claressa Shields",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/200636-claressa-shields",
+        rankA: "#n/a",
+        recordA: "0-0-0 ",
+        weight: "155",
+        recordB: " 3-6-0",
+        rankB: "#n/a",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/49588-britney-elkin",
+        fighterB: "Brittney Elkin",
+      },
+    ],
+    "PFL 2021 #4",
+    "0",
   ],
   [
     "Ultimate Fighting Championship",
@@ -2163,156 +2184,78 @@ let data = [
     "4",
   ],
   [
-    "Ultimate Fighting Championship",
-    1626559200000,
+    "Bellator MMA",
+    1623459600000,
     "",
     [
       {
-        fighterA: "Marion Reneau",
+        fighterA: "Douglas Lima",
         fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/37101-marion-reneau",
-        rankA: "#15",
-        recordA: "9-7-1 ",
-        weight: "135",
-        recordB: " 18-7-0",
-        rankB: "#67",
+          "https://www.tapology.com/fightcenter/fighters/douglas-lima-the-phenom",
+        rankA: "#94",
+        recordA: "32-8-0 ",
+        weight: "170",
+        recordB: " 25-0-0",
+        rankB: "#48",
         fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/miesha-tate-takedown",
-        fighterB: "Miesha Tate",
+          "https://www.tapology.com/fightcenter/fighters/81129-yaroslav-amosov",
+        fighterB: "Yaroslav Amosov",
       },
       {
-        fighterA: "Rodolfo Vieira",
+        fighterA: "Ty-wan Claxton",
         fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/148791-rodolfo-vieira-srour-the-black-belt-hunter",
-        rankA: "#37",
-        recordA: "7-1-0 ",
-        weight: "185",
-        recordB: " 13-2-0",
-        rankB: "#89",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/34864-dustin-stoltzfus",
-        fighterB: "Dustin Stoltzfus",
-      },
-      {
-        fighterA: "Ode Osbourne",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/50154-ode-osbourne",
-        rankA: "#101",
-        recordA: "9-3-0 ",
-        weight: "125",
-        recordB: " 14-1-0",
-        rankB: "#14",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/84737-amir-albazi",
-        fighterB: "Amir Albazi",
-      },
-      {
-        fighterA: "Khalid Taha",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/49979-khalid-taha",
-        rankA: "#60",
-        recordA: "13-3-0 ",
-        weight: "135",
-        recordB: " 16-4-0",
-        rankB: "#92",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/85896-sergey-morozov",
-        fighterB: "Sergey Morozov",
-      },
-      {
-        fighterA: "Guram Kutateladze",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/44544-guram-katateladze",
-        rankA: "#48",
-        recordA: "12-2-0 ",
-        weight: "155",
-        recordB: " 9-3-1",
-        rankB: "#79",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/17923-don-madge-magic-man",
-        fighterB: "Don Madge",
-      },
-      {
-        fighterA: "Cameron Else",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/35737-cameron-else",
-        rankA: "#133",
-        recordA: "10-5-0 ",
-        weight: "135",
-        recordB: " 12-4-0",
-        rankB: "#132",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/17086-aaron-phillips",
-        fighterB: "Aaron Phillips",
-      },
-      {
-        fighterA: "Billy Quarantillo",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/42701-billy-quarantillo",
-        rankA: "#38",
-        recordA: "15-3-0 ",
+          "https://www.tapology.com/fightcenter/fighters/108498-tywan-claxton",
+        rankA: "#",
+        recordA: "6-2-0 ",
         weight: "145",
-        recordB: " 11-3-0",
-        rankB: "#53",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/60086-herbert-burns",
-        fighterB: "Herbert Burns",
-      },
-      {
-        fighterA: "Francisco Figueiredo",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/22009-francisco-nazareno-junior-mingau",
-        rankA: "#31",
-        recordA: "12-3-1 ",
-        weight: "125",
-        recordB: " 12-5-0",
-        rankB: "#38",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/36176-malcom-gordon",
-        fighterB: "Malcolm Gordon",
-      },
-      {
-        fighterA: "Anderson dos Santos",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/50759-anderson-berlingeri-berinja",
-        rankA: "#75",
-        recordA: "21-8-0 ",
-        weight: "135",
-        recordB: " 11-1-0",
-        rankB: "#49",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/46875-miles-johns",
-        fighterB: "Miles Johns",
-      },
-      {
-        fighterA: "Amanda Lemos",
-        fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/87845-amanda-lemos-amandinha",
-        rankA: "#15",
-        recordA: "9-1-1 ",
-        weight: "115",
-        recordB: " 10-1-0",
+        recordB: " 11-0-0",
         rankB: "#1",
         fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/78224-montserrat-conejo-ruiz-toquinha",
-        fighterB: "Montserrat Ruiz",
+          "https://www.tapology.com/fightcenter/fighters/45007-justin-gonzales",
+        fighterB: "Justin Gonzales",
       },
       {
-        fighterA: "Phil Hawes",
+        fighterA: "Nick Newell",
         fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/63542-phil-hawes",
-        rankA: "#42",
-        recordA: "11-2-0 ",
-        weight: "185",
-        recordB: " 7-2-0",
-        rankB: "#54",
+          "https://www.tapology.com/fightcenter/fighters/nick-newell-notorious",
+        rankA: "#144",
+        recordA: "16-3-0 ",
+        weight: "155",
+        recordB: " 9-3-0",
+        rankB: "#2",
         fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/152086-deron-winn",
-        fighterB: "Deron Winn",
+          "https://www.tapology.com/fightcenter/fighters/111830-bobby-king",
+        fighterB: "Bobby King",
+      },
+      {
+        fighterA: "Lucas Brennan",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/162427-lucas-brennan",
+        rankA: "#29",
+        recordA: "4-0-0 ",
+        weight: "145",
+        recordB: " 4-3-0",
+        rankB: "#71",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/79533-matt-skibicki",
+        fighterB: "Matthew Skibicki",
+      },
+      {
+        fighterA: "Amanda Bell",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/33220-amanda-bell",
+        rankA: "#16",
+        recordA: "7-7-0 ",
+        weight: "145",
+        recordB: " 4-2-0",
+        rankB: "#44",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/134452-marina-mokhnatkina",
+        fighterB: "Marina Mokhnatkina",
       },
     ],
-    "UFC Fight Night",
-    "9",
+    "Bellator 260",
+    "4",
   ],
   [
     "Ultimate Fighting Championship",
