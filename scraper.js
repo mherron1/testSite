@@ -1,10 +1,7 @@
 const puppeteer = require("puppeteer");
 
 let events = [
-  "https://www.tapology.com/fightcenter/events/78930-one-championship-dangal",
-  "https://www.tapology.com/fightcenter/events/76941-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/77263-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/77893-bellator-259",
   "https://www.tapology.com/fightcenter/events/77264-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/77535-one-championship",
   "https://www.tapology.com/fightcenter/events/77692-ufc-fight-night",
@@ -19,6 +16,10 @@ let events = [
   "https://www.tapology.com/fightcenter/events/78698-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/78675-ufc-265",
   "https://www.tapology.com/fightcenter/events/78601-ufc-266",
+  "https://www.tapology.com/fightcenter/events/79075-bellator-261",
+  "https://www.tapology.com/fightcenter/events/78930-one-championship-dangal",
+  "https://www.tapology.com/fightcenter/events/77893-bellator-259",
+  "https://www.tapology.com/fightcenter/events/76941-ufc-fight-night",
 ];
 
 //getEventURLs();
