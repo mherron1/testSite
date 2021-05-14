@@ -32,13 +32,13 @@ let times = [
     promo: "ONE Championship",
     time: new Date(2021, 04, 15, 14, 00, 00),
     prelims: new Date(2021, 04, 15, 14, 00, 00),
-    videos: ["S54PdOslsH0"],
+    videos: ["NSzVUjVl-3A"],
   },
   {
     date: "may15",
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 04, 16, 02, 00, 00),
-    prelims: new Date(2021, 04, 15, 22, 00, 00),
+    prelims: new Date(2021, 04, 15, 22, 30, 00),
     videos: ["tYalY6IQTHc"],
   },
   {
