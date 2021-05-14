@@ -831,7 +831,7 @@ let data = [
         fighterA: "Shane Burgos",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/37627-shane-burgos",
-        rankA: "#11",
+        rankA: "#10",
         recordA: "13-2-0 ",
         weight: "145",
         recordB: " 21-9-0",
@@ -848,7 +848,7 @@ let data = [
         recordA: "26-9-0 ",
         weight: "185",
         recordB: " 20-4-0",
-        rankB: "#32",
+        rankB: "#33",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/38116-andr-muniz-sergipano",
         fighterB: "André Muniz",
@@ -861,7 +861,7 @@ let data = [
         recordA: "12-2-0 ",
         weight: "145",
         recordB: " 11-5-2",
-        rankB: "#45",
+        rankB: "#42",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/15643-landan-vanata",
         fighterB: "Lando Vannata",
@@ -870,7 +870,7 @@ let data = [
         fighterA: "Jamie Pickett",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/38304-jamie-pickett",
-        rankA: "#103",
+        rankA: "#102",
         recordA: "11-5-0 ",
         weight: "185",
         recordB: " 11-1-0",
@@ -909,7 +909,7 @@ let data = [
         fighterA: "Kevin Aguilar",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/kevin-aguilar",
-        rankA: "#101",
+        rankA: "#105",
         recordA: "17-4-0 ",
         weight: "145",
         recordB: " 11-1-0",
@@ -926,7 +926,7 @@ let data = [
         recordA: "14-6-0 ",
         weight: "155",
         recordB: " 18-8-0",
-        rankB: "#52",
+        rankB: "#50",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/38606-christos-giagos-the-spartan",
         fighterB: "Christos Giagos",
@@ -2687,9 +2687,22 @@ let data = [
           "https://www.tapology.com/fightcenter/fighters/48686-istela-nunes",
         fighterB: "Istela Nunes",
       },
+      {
+        fighterA: "Collin Anglin",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/119395-collin-anglin",
+        rankA: "#1",
+        recordA: "8-1-0 ",
+        weight: "145",
+        recordB: " 5-1-0",
+        rankB: "#33",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/75671-melsik-bagdasaryan",
+        fighterB: "Melsik Baghdasaryan",
+      },
     ],
     "UFC Fight Night",
-    "3",
+    "4",
   ],
   [
     "Ultimate Fighting Championship",
@@ -2708,6 +2721,19 @@ let data = [
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/julianna-pena-the-venezuelan-vixen",
         fighterB: "Julianna Peña",
+      },
+      {
+        fighterA: "Uriah Hall",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/uriah-hall",
+        rankA: "#9",
+        recordA: "17-9-0 ",
+        weight: "185",
+        recordB: " 23-3-0",
+        rankB: "#14",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/6055-sean-strickland-tarzan",
+        fighterB: "Sean Strickland",
       },
       {
         fighterA: "Drako Rodriguez",
