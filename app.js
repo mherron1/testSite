@@ -29,17 +29,10 @@ let times = [
   },
   {
     date: "may15",
-    promo: "ONE Championship",
-    time: new Date(2021, 04, 15, 11, 00, 00),
-    prelims: new Date(2021, 04, 15, 10, 00, 00),
-    videos: ["NSzVUjVl-3A"],
-  },
-  {
-    date: "may15",
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 04, 16, 02, 00, 00),
     prelims: new Date(2021, 04, 15, 22, 30, 00),
-    videos: ["bSoLJpOv0EA"],
+    videos: ["oUbppEvy27s"],
   },
   {
     date: "may21",
@@ -89,10 +82,7 @@ data2.forEach((event) => {
     new Date(event[1] - 50000000).toString().split(" ")[1] +
     new Date(event[1] - 50000000).toString().split(" ")[2] +
     ".jpg";
-  if (
-    assets.indexOf(tempTime.toLowerCase()) > -1 &&
-    event[0] != "ONE Championship"
-  ) {
+  if (assets.indexOf(tempTime.toLowerCase()) > -1) {
     event[2] =
       "images/eventImages/" + assets[assets.indexOf(tempTime.toLowerCase())];
   } else if (event[0].includes("Ultimate")) {
