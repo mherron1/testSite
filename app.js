@@ -56,6 +56,13 @@ let times = [
     videos: ["0M_GdyetqFk"],
   },
   {
+    date: "jun12",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2021, 05, 13, 02, 00, 00),
+    prelims: new Date(2021, 05, 12, 22, 30, 00),
+    videos: ["7nTaNCQP10Q"],
+  },
+  {
     date: "jul10",
     promo: "Ultimate Fighting Championship",
     time: false,
