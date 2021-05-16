@@ -32,7 +32,7 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 04, 16, 02, 00, 00),
     prelims: new Date(2021, 04, 15, 22, 30, 00),
-    videos: ["oUbppEvy27s"],
+    videos: [],
   },
   {
     date: "may21",
