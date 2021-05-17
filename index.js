@@ -1214,7 +1214,7 @@ function setPrelimsCountdown(time) {
 function vibrate() {
   /////////////////////
   if (android) {
-    navigator.vibrate(40);
+    // navigator.vibrate(40);
   }
   ///////////////////////
 }
