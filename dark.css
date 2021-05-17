@@ -1136,8 +1136,8 @@ li span {
   top: 35%;
   margin-right: 50%;
   transform: translateX(-350px);
-  color: rgb(170, 170, 170);
-  font-size: 200px;
+  color: rgb(105, 105, 105);
+  font-size: 100px;
   z-index: 100000000;
 }
 
@@ -1147,20 +1147,21 @@ li span {
   top: 35%;
   margin-left: 50%;
   transform: translateX(350px);
-  color: rgb(170, 170, 170);
-  font-size: 200px;
+  color: rgb(105, 105, 105);
+  font-size: 100px;
+  font-size: 100px;
   z-index: 100000000;
 }
 
 #leftArrow:hover {
   cursor: pointer;
-  font-size: 200px;
+  font-size: 100px;
   color: rgb(228, 228, 228);
 }
 
 #rightArrow:hover {
   cursor: pointer;
-  font-size: 200px;
+  font-size: 100px;
   color: rgb(228, 228, 228);
 }
 
@@ -1278,14 +1279,20 @@ h4:hover {
 
 #showResults {
   position: absolute;
+  background-color: rgb(221, 221, 221);
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+  width: 205px;
   font-size: 17px;
   padding: 5px;
-  top: 200px;
+  bottom: 12px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 25;
-  display: none;
+  z-index: 25000000;
+  display: block;
 }
+
 #showResults:hover {
   cursor: pointer;
 }
