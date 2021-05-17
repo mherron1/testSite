@@ -1279,7 +1279,8 @@ h4:hover {
 
 #showResults {
   position: absolute;
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(31, 31, 31);
+  color: white;
   border-radius: 5px;
   border: none;
   height: 35px;
