@@ -740,7 +740,7 @@ input:checked + .slider:before {
   border-radius: 5px;
   border: 2px solid rgba(70, 70, 70, 0.671);
 
-  background-color: rgba(20, 20, 20, 0.808);
+  background-color: rgba(20, 20, 20, 0.908);
   color: white;
   height: 50px;
   width: 205px;
@@ -1288,7 +1288,7 @@ h4:hover {
 
   border: 2px solid rgba(70, 70, 70, 0.671);
 
-  background-color: rgba(20, 20, 20, 0.808);
+  background-color: rgba(20, 20, 20, 0.908);
   color: white;
   height: 50px;
   width: 205px;
