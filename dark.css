@@ -926,8 +926,12 @@ li span {
   }
 
   #sideNav {
-    background-color: rgb(70, 70, 70);
+    background-color: rgba(0, 0, 0, 0.92);
     color: white;
+  }
+
+  .eventLink {
+    border-bottom: 1px solid rgb(24, 24, 24);
   }
 
   #content {
@@ -1279,11 +1283,11 @@ h4:hover {
 
 #showResults {
   position: absolute;
-  background-color: rgb(31, 31, 31);
+  background-color: black;
   color: white;
   border-radius: 5px;
   border: none;
-  height: 35px;
+  height: 40px;
   width: 150px;
   font-size: 17px;
   padding: 5px;
@@ -1296,4 +1300,7 @@ h4:hover {
 
 #showResults:hover {
   cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
 }
