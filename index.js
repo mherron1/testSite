@@ -24,54 +24,37 @@ if (localStorage.getItem("oddsType") !== null) {
   }
 }
 
-let hapticsToggleSwitch = document.querySelector("#hapticsToggleSwitch");
-hapticsToggleSwitch.style.visibility = "hidden";
-if (android === true) {
-  //hapticsToggleSwitch.style.visibility = "visible";
-}
-
-if (localStorage.getItem("haptics") !== null) {
-  if (localStorage.getItem("haptics") === "off") {
-    haptics = "off";
-    let hapticsToggle = document.querySelector("#hapticsToggle");
-    hapticsToggle.checked = false;
-  } else {
-    localStorage.setItem("haptics", "on");
-    let hapticsToggle = document.querySelector("#hapticsToggle");
-    hapticsToggle.checked = true;
-  }
-} else {
-  localStorage.setItem("haptics", "on");
-  let hapticsToggle = document.querySelector("#hapticsToggle");
-  hapticsToggle.checked = true;
-}
-
 let i = 0;
 let events = data2;
+let notFirst = true;
+let notLast = true;
 
 create();
 
 function create() {
   events = data2;
+  let numRes = 0;
   let filterArr = [];
   if (localStorage.getItem("ufc") !== null) {
-    if (true) {
+    if (localStorage.getItem("ufc") === "y") {
       filterArr.push("Ultimate");
       document.querySelector("#ufcInput").checked = true;
+      numRes += 1;
     }
-    document.querySelector("#ufcInput").checked = true;
-
     if (localStorage.getItem("bellator") === "y") {
       filterArr.push("Bellator");
       document.querySelector("#bellatorInput").checked = true;
+      numRes += 1;
     }
     if (localStorage.getItem("one") === "y") {
       filterArr.push("ONE");
       document.querySelector("#oneInput").checked = true;
+      numRes += 1;
     }
     if (localStorage.getItem("pfl") === "y") {
       filterArr.push("Professional");
       document.querySelector("#pflInput").checked = true;
+      numRes += 1;
     }
     if (
       localStorage.getItem("pfl") === "y" &&
@@ -102,6 +85,25 @@ function create() {
     });
   }
 
+  for (let q = 0; q < numRes; q++) {
+    events.push(events.shift());
+  }
+
+  if (i === events.length - numRes) {
+    document.querySelector("#leftArrow").style.display = "none";
+    notFirst = false;
+  } else {
+    document.querySelector("#leftArrow").style.display = "block";
+    notFirst = true;
+  }
+  if (i === events.length - (numRes + 1)) {
+    document.querySelector("#rightArrow").style.display = "none";
+    notLast = false;
+  } else {
+    document.querySelector("#rightArrow").style.display = "block";
+    notLast = true;
+  }
+
   var highestTimeoutId = setTimeout(";");
   for (var k = 0; k < highestTimeoutId; k++) {
     clearTimeout(k);
@@ -116,24 +118,20 @@ function create() {
 ////////////////////////////////  End of card function
 
 function next() {
-  if (i === events.length - 1) {
-    i == -1;
+  i++;
+  if (i === events.length) {
+    i = 0;
   }
-  if (i != events.length - 2) {
-    i++;
-    if (i === events.length) {
-      i = 0;
-    }
-    create();
-    showResults = false;
-  }
+  create();
+  showResults = false;
 }
 function back() {
-  if (i >= 0) {
-    i--;
-    create();
-    showResults = false;
+  i--;
+  if (i < 0) {
+    i = events.length - 1;
   }
+  create();
+  showResults = false;
 }
 function toggleD() {
   /////////////////////
@@ -263,62 +261,63 @@ function generateLinks() {
   }
 
   for (let i = 0; i < eventLimit; i++) {
-    let dateString = new Date(events[i][1] - 18000000).toString();
+    let nowEpoch = new Date().getTime();
+    if (new Date(events[i][1]) - nowEpoch > 0) {
+      let dateString = new Date(events[i][1] - 18000000).toString();
 
-    let org = "ufc";
+      let org = "ufc";
 
-    if (events[i][0].includes("Bell")) {
-      org = "bellator";
-    }
-    if (events[i][0].includes("Prof")) {
-      org = "pfl";
-    }
-    if (events[i][0].includes("ONE")) {
-      org = "one";
-    }
+      if (events[i][0].includes("Bell")) {
+        org = "bellator";
+      }
+      if (events[i][0].includes("Prof")) {
+        org = "pfl";
+      }
+      if (events[i][0].includes("ONE")) {
+        org = "one";
+      }
 
-    let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
-
-    if (i != events.length - 1) {
+      let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
       eventList.innerHTML += `  
-      <div class="eventLink" onclick="selectCard(${i})">
-         <div class="eventLinkDate">${date}</div>
-          <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
-      
-
-         <div class="eventLinkText">${events[i][4]}</div>
-      </div>
-  `;
+        <div class="eventLink" onclick="selectCard(${i})">
+           <div class="eventLinkDate">${date}</div>
+            <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
+        
+           <div class="eventLinkText">${events[i][4]}</div>
+        </div>
+    `;
     }
   }
-  eventList.innerHTML += `<h4 style = "margin-top: 12px;" class = "eventLink">Recent Event</h4>`;
+  eventList.innerHTML += `<br><br>`;
+  eventList.innerHTML += `<h4 style = "margin-top: 12px;" class = "eventLink">Recent Events</h4>`;
+  for (let i = 0; i < eventLimit; i++) {
+    let nowEpoch = new Date().getTime();
+    if (new Date(events[i][1]) - nowEpoch < 0) {
+      let dateString = new Date(events[i][1] - 18000000).toString();
 
-  let r = events.length - 1;
-  let dateString = new Date(events[r][1] - 18000000).toString();
+      let org = "ufc";
 
-  let org = "ufc";
+      if (events[i][0].includes("Bell")) {
+        org = "bellator";
+      }
+      if (events[i][0].includes("Prof")) {
+        org = "pfl";
+      }
+      if (events[i][0].includes("ONE")) {
+        org = "one";
+      }
 
-  if (events[r][0].includes("Bell")) {
-    org = "bellator";
+      let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
+      eventList.innerHTML += `  
+        <div class="eventLink" onclick="selectCard(${i})">
+           <div class="eventLinkDate">${date}</div>
+            <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
+        
+           <div class="eventLinkText">${events[i][4]}</div>
+        </div>
+    `;
+    }
   }
-  if (events[r][0].includes("Prof")) {
-    org = "pfl";
-  }
-  if (events[r][0].includes("ONE")) {
-    org = "one";
-  }
-
-  let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
-
-  eventList.innerHTML += `  
-      <div class="eventLink" onclick="selectCard(${r})">
-         <div class="eventLinkDate">${date}</div>
-          <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
-      
-
-         <div class="eventLinkText">${events[r][4]}</div>
-      </div>`;
-  eventList.innerHTML += `<br><br><br><br>`;
 }
 
 let sideNav = document.querySelector("#sideNav");
@@ -352,27 +351,26 @@ function touchStart(evt) {
 var touch;
 let swiping = false;
 
-function touchMove(evt) {
+const touchMove = (evt) => {
   touch = evt.touches[0];
   var changeX = startingX - touch.clientX;
-
-  if (changeX > 50 && i != events.length - 2) {
+  if (changeX > 50 && notLast) {
     swiping = true;
     changeX -= 50;
 
     content1.style.left = -changeX + "px";
     contentPlus1.style.display = "block";
     evt.preventDefault();
-  } else if (changeX < -50 && i != events.length - 1) {
+  } else if (changeX < -50 && notFirst) {
     swiping = true;
     changeX += 50;
     content1.style.left = -changeX + "px";
     contentMinus1.style.display = "block";
     evt.preventDefault();
   }
-}
+};
 
-function touchEnd(evt) {
+const touchEnd = (evt) => {
   var changeX = startingX - evt.changedTouches[0].clientX;
   var third = screen.width / 4;
   if (changeX < third && changeX > -third) {
@@ -380,7 +378,7 @@ function touchEnd(evt) {
     content1.style.left = 0;
     content1.classList.add("notransition");
     contentPlus1.style.display = "none";
-  } else if (changeX > 0 && i != events.length - 2) {
+  } else if (changeX > 0 && notLast) {
     content1.style.transition = "all .2s";
     content1.style.left = "-102%";
     content1.classList.add("notransition");
@@ -392,7 +390,7 @@ function touchEnd(evt) {
     showResults = false;
     create();
     // location.href = `./?${newPage}`;
-  } else if (changeX < 0 && i != events.length - 1) {
+  } else if (changeX < 0 && notFirst) {
     content1.style.transition = "all .2s";
     content1.style.left = "+102%";
     content1.classList.add("notransition");
@@ -402,11 +400,11 @@ function touchEnd(evt) {
       i = events.length - 1;
     }
     swiping = false;
-    showResults = false;
+
     create();
     //location.href = `./?${newPage1}`;
   }
-}
+};
 
 //////////////////////// Key Mapping
 
@@ -496,29 +494,13 @@ function generateCard(i, arg) {
   content.innerHTML = `
 <h2 style="background-color:none" id="mainHeader${arg}"></h2>
 <div id="imageContainer${arg}">
-
 </div>
 <div id="mainTime${arg}"></div>
 <div id="mainCard${arg}"></div> 
 <div id="prelimsTime${arg}"></div>
 <div id="prelimsCard${arg}"></div> 
 <div id="videoGallery${arg}"></div>
-<br>
-<br>
-<br>
-
-<div style ="position:absolute; bottom:10px;left:15px;">
-  <p><a href="mailto:mmafightcards.org@gmail.com">Contact</a></p>
-    </div>
-
 `;
-
-  if (android === true) {
-    content.innerHTML += `
-    <div id="rateReview" style ="position:absolute; bottom:10px;right:15px; display: block;">
-      <p><a href="https://play.google.com/store/apps/details?id=org.mmafightcards.twa" target="_blank">Rate & Review</a></p>
-        </div>`;
-  }
 
   let mainHeader = document.querySelector(`#mainHeader${arg}`);
   mainHeader.textContent += `${events[i][4]}`;
@@ -597,7 +579,9 @@ function generateCard(i, arg) {
   if (localStorage.getItem("countdown") != "n") {
     document.querySelector("#showHideCountdown").checked = true;
 
-    imageDiv.innerHTML += `
+    let nowEpoch = new Date().getTime();
+    if (new Date(events[i][1]) - nowEpoch > 0) {
+      imageDiv.innerHTML += `
         <div id="testDiv${arg}" onclick="countdownToggle()">
   
           <div id="toggleContainer${arg}">
@@ -632,6 +616,44 @@ function generateCard(i, arg) {
         <div id="leftCurve${arg}"></div>
         <div id="rightCurve${arg}"></div>
         `;
+    } else {
+      imageDiv.innerHTML += `
+      <button id ="showResults"  onclick="toggleResults()">Show Results</button>
+      <div id="testDiv${arg}" style = "visibility:hidden;" onclick="countdownToggle()">
+
+        <div id="toggleContainer${arg}">
+
+          <div id="countTogglePrelims${arg}">
+          <i class="fa fa-exchange" id="toggleIcon2${arg}"></i>
+            <p class="y"> Prelims </p>
+          </div>
+
+        <div id="countToggleMain${arg}">
+        <i class="fa fa-exchange" id="toggleIcon1${arg}"></i>
+          <p class="y"> Main </p>
+        </div>
+          
+      </div>
+
+      <div id="countdownPrelims${arg}">
+        <ul>
+          <li><span id="days${arg}"></span>days</li>
+          <li><span id="hours${arg}"></span>Hours</li>
+          <li><span id="minutes${arg}"></span>Minutes</li>
+        </ul>
+      </div>
+      
+      <div id="countdownMain${arg}">
+        <ul>
+          <li><span id="days2${arg}"></span>days</li>
+          <li><span id="hours2${arg}"></span>Hours</li>
+          <li><span id="minutes2${arg}"></span>Minutes</li>
+        </ul>
+      </div>
+      <div id="leftCurve${arg}"></div>
+      <div id="rightCurve${arg}"></div>
+      `;
+    }
 
     if (arg === "") {
       setMainCountdown(eventTimeLocal);
@@ -672,7 +694,6 @@ function generateCard(i, arg) {
         if (
           name1.length === fighterA.length &&
           name1[0] === fighterA[0] &&
-          name1[name1.length - 2] === fighterA[fighterA.length - 2] &&
           name1[name1.length - 1] === fighterA[fighterA.length - 1]
         ) {
           leftOdds = item.odds;
@@ -680,7 +701,6 @@ function generateCard(i, arg) {
         if (
           name1.length === fighterB.length &&
           name1[0] === fighterB[0] &&
-          name1[name1.length - 2] === fighterB[fighterB.length - 2] &&
           name1[name1.length - 1] === fighterB[fighterB.length - 1]
         ) {
           rightOdds = item.odds;
@@ -733,25 +753,19 @@ function generateCard(i, arg) {
     let snippetA = "";
     let snippetB = "";
 
-    if (i === events.length - 1) {
-      if (showResults) {
-        winners.forEach((winner) => {
-          if (winner === events[i][3][j].fighterA) {
-            snippetA = "winnerGreen";
-            snippetB = "loserRed";
-          }
-        });
-        winners.forEach((winner) => {
-          if (winner === events[i][3][j].fighterB) {
-            snippetB = "winnerGreen";
-            snippetA = "loserRed";
-          }
-        });
+    if (showResults) {
+      if (winners.includes(events[i][3][j].fighterA)) {
+        snippetA = "winnerGreen";
+        snippetB = "loserRed";
+      }
+      if (winners.includes(events[i][3][j].fighterB)) {
+        snippetB = "winnerGreen";
+        snippetA = "loserRed";
       }
     }
 
     mainCard.innerHTML += `
-  <div class="left ${snippetA}" >
+  <div class="left ${snippetA}" style = "position:relative;">
     <div>
       <a href="${events[i][3][j].fighterALink}" target="_blank">${events[i][3][j].fighterA}</a>
     </div>
@@ -765,7 +779,7 @@ function generateCard(i, arg) {
    <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
   </div>
    
-  <div  class="right ${snippetB}" >
+  <div  class="right ${snippetB}">
     <div>
       <a href="${events[i][3][j].fighterBLink}" target="_blank" >${events[i][3][j].fighterB}</a>
       
@@ -851,8 +865,8 @@ function generateCard(i, arg) {
             } else {
               colorA = "skyblue";
               colorB = "skyblue";
-              rightOdds = "evs";
-              leftOdds = "evs";
+              rightOdds = "EVS";
+              leftOdds = "EVS";
             }
           }
         }
@@ -862,27 +876,21 @@ function generateCard(i, arg) {
     snippetA = "";
     snippetB = "";
 
-    if (i === events.length - 1) {
-      if (showResults) {
-        winners.forEach((winner) => {
-          if (winner === events[i][3][j].fighterA) {
-            snippetA = "winnerGreen";
-            snippetB = "loserRed";
-          }
-        });
-        winners.forEach((winner) => {
-          if (winner === events[i][3][j].fighterB) {
-            snippetB = "winnerGreen";
-            snippetA = "loserRed";
-          }
-        });
+    if (showResults) {
+      if (winners.includes(events[i][3][j].fighterA)) {
+        snippetA = "winnerGreen";
+        snippetB = "loserRed";
+      }
+      if (winners.includes(events[i][3][j].fighterB)) {
+        snippetB = "winnerGreen";
+        snippetA = "loserRed";
       }
     }
 
     prelimsCard.innerHTML += `
     
-    <div class="left ${snippetA}" >
-      <div>
+    <div class="left ${snippetA}" style = "position:relative;">
+    <div>
         <a href="${events[i][3][j].fighterALink}" target="_blank" >${events[i][3][j].fighterA}</a>
       </div>
       <div class="detailsLeft${arg}">
@@ -895,7 +903,7 @@ function generateCard(i, arg) {
      <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
     </div>
      
-    <div  class="right  ${snippetB}" >
+    <div class="right ${snippetB}" style = "position:relative;">
       <div>
         <a href="${events[i][3][j].fighterBLink}" target="_blank" >${events[i][3][j].fighterB}</a>
         
@@ -952,24 +960,6 @@ function generateCard(i, arg) {
   initYouTubeVideos();
 
   /////////////////////hide  navigathion arrows
-
-  if (i === events.length - 1) {
-    document.querySelector("#leftArrow").style.visibility = "hidden";
-    document.querySelector("#testDiv").style.visibility = "hidden";
-  } else {
-    document.querySelector("#leftArrow").style.visibility = "visible";
-  }
-  if (i === events.length - 2) {
-    document.querySelector("#rightArrow").style.visibility = "hidden";
-  } else {
-    document.querySelector("#rightArrow").style.visibility = "visible";
-  }
-
-  if (i === events.length - 1) {
-    document.querySelector("#showResults").style.display = "block";
-  } else {
-    document.querySelector("#showResults").style.display = "none";
-  }
 }
 
 function changeSettings() {
@@ -989,8 +979,8 @@ function changeSettings() {
     one.checked === false &&
     pfl.checked === false
   ) {
-    //all.checked = true;
-    //forceToggleAll();
+    all.checked = true;
+    forceToggleAll();
   }
 
   toggleSettings();
@@ -1103,7 +1093,7 @@ function pausecomp(millis) {
   } while (curDate - date < millis);
 }
 
-function toggleOddsType() {
+function toggelOddsType() {
   vibrate();
   if (localStorage.getItem("oddsType") === "line") {
     localStorage.setItem("oddsType", "decimal");
@@ -1115,21 +1105,6 @@ function toggleOddsType() {
     oddsType = "line";
   } else {
     oddsType = "dec";
-  }
-}
-
-function toggleHaptics() {
-  vibrate();
-  if (localStorage.getItem("haptics") === "on") {
-    localStorage.setItem("haptics", "off");
-  } else {
-    localStorage.setItem("haptics", "on");
-  }
-
-  if (haptics === "on") {
-    haptics = "off";
-  } else {
-    haptics = "on";
   }
 }
 
@@ -1239,13 +1214,14 @@ function setPrelimsCountdown(time) {
 function vibrate() {
   /////////////////////
   if (android) {
-    //navigator.vibrate(40);
+    navigator.vibrate(40);
   }
   ///////////////////////
 }
 
 function make(e) {
   vibrate();
+  console.log("vibrate");
   // e.preventDefault();   // to not go to href url uncoment this
 }
 
@@ -1286,10 +1262,6 @@ function initYouTubeVideos() {
     };
     playerElements[n].appendChild(div);
   }
-}
-
-if (android === true) {
-  document.querySelector("#rateReview").style.display = "block";
 }
 
 function toggleResults() {

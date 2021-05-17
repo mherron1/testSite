@@ -994,7 +994,7 @@ li span {
 
 @media only screen and (min-width: 475px) {
   html {
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(228, 228, 228);
   }
 
   body {
@@ -1082,35 +1082,35 @@ li span {
 #leftArrow {
   position: fixed;
   right: 0;
-  top: 35%;
+  top: 40%;
   margin-right: 50%;
   transform: translateX(-350px);
-  color: rgb(233, 233, 233);
-  font-size: 200px;
+  color: white;
+  font-size: 100px;
   z-index: 100000000;
 }
 
 #rightArrow {
   position: fixed;
   left: 0;
-  top: 35%;
+  top: 40%;
   margin-left: 50%;
   transform: translateX(350px);
-  color: rgb(233, 233, 233);
-  font-size: 200px;
+  color: white;
+  font-size: 100px;
   z-index: 100000000;
 }
 
 #leftArrow:hover {
   cursor: pointer;
-  font-size: 200px;
-  color: rgb(253, 253, 253);
+  font-size: 100px;
+  color: rgb(224, 14, 14);
 }
 
 #rightArrow:hover {
   cursor: pointer;
-  font-size: 200px;
-  color: rgb(253, 253, 253);
+  font-size: 100px;
+  color: rgb(224, 14, 14);
 }
 
 #keyboard {
@@ -1230,6 +1230,7 @@ li span {
 
 h4 {
 }
+
 h4:hover {
   background-color: transparent !important;
   color: black !important;
@@ -1248,16 +1249,20 @@ h4:hover {
 
 #showResults {
   position: absolute;
-
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+  width: 205px;
   font-size: 17px;
   padding: 5px;
-  top: 200px;
+  bottom: 12px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 25;
-  display: none;
+  z-index: 25000000;
+  display: block;
 }
 
 #showResults:hover {
   cursor: pointer;
-}z
+}

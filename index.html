@@ -39,7 +39,6 @@
 <body>
 
   <div id="dim"  ontouchstart="toggleSideNav()"></div>
-  <button id ="showResults" onclick="toggleResults()">Show Results</button>
 
   <div id="sharingTop">
     <a href ="https://api.whatsapp.com/send?text=https://mmafightcards.org/"><img src="images/socialImages/whatsApp.jpg" width="50" height="50" class="r"></a>
@@ -82,7 +81,7 @@
         </div>
         <div class="setting">
           <div >UFC</div>
-          <label class="switch" style = "display: none !important;">
+          <label class="switch">
             <input type="checkbox" id="ufcInput"  onclick="forceToggle()"  checked  >
             <span class="slider round"></span>
           </label>
@@ -161,12 +160,12 @@
   
  
 
-  <i class="	fa fa-angle-left" id="leftArrow" onclick="back()" ></i>
-  <i class="	fa fa-angle-right" id="rightArrow" onclick="next()"  ></i>
+  <i class="	fa fa-chevron-circle-left" id="leftArrow" onclick="back()" ></i>
+  <i class="	fa fa-chevron-circle-right" id="rightArrow" onclick="next()"  ></i>
   <p id="keyboard">Keyboard: Left-Right-Enter</p>
   
 
-  <div id="testDiv"></div>
+ 
 </body>
 
 <script src="index.js"></script>
