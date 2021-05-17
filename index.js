@@ -122,20 +122,24 @@ function create() {
 ////////////////////////////////  End of card function
 
 function next() {
-  i++;
-  if (i === events.length) {
-    i = 0;
+  if (notLast) {
+    i++;
+    if (i === events.length) {
+      i = 0;
+    }
+    create();
+    showResults = false;
   }
-  create();
-  showResults = false;
 }
 function back() {
-  i--;
-  if (i < 0) {
-    i = events.length - 1;
+  if (notFirst) {
+    i--;
+    if (i < 0) {
+      i = events.length - 1;
+    }
+    create();
+    showResults = false;
   }
-  create();
-  showResults = false;
 }
 function toggleD() {
   /////////////////////
