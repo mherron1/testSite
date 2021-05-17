@@ -74,8 +74,12 @@ function create() {
   } else {
     filterArr.push("Ultimate");
     filterArr.push("Bellator");
+
     document.querySelector("#ufcInput").checked = true;
+    numRes += 1;
     document.querySelector("#bellatorInput").checked = true;
+    numRes += 1;
+
     events = events.filter((event) => {
       for (p = 0; p < filterArr.length; p++) {
         if (event[0].includes(filterArr[p])) {
