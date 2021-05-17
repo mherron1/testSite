@@ -292,7 +292,7 @@ function generateLinks() {
     `;
     }
   }
-  eventList.innerHTML += `<br><br>`;
+  eventList.innerHTML += `<br>`;
   eventList.innerHTML += `<h4 style = "margin-top: 12px;" class = "eventLink">Recent Events</h4>`;
   for (let i = 0; i < eventLimit; i++) {
     let nowEpoch = new Date().getTime();
@@ -322,6 +322,7 @@ function generateLinks() {
     `;
     }
   }
+  eventList.innerHTML += `<br><br>`;
 }
 
 let sideNav = document.querySelector("#sideNav");
@@ -404,7 +405,7 @@ const touchEnd = (evt) => {
       i = events.length - 1;
     }
     swiping = false;
-
+    showResults = false;
     create();
     //location.href = `./?${newPage1}`;
   }
