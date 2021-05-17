@@ -1202,6 +1202,15 @@ li span {
   }
 }
 
+@media only screen and (max-width: 1000px) {
+  #rightArrow {
+    opacity: 0%;
+  }
+  #leftArrow {
+    opacity: 0%;
+  }
+}
+
 #beltIcon {
   position: absolute;
   top: -5px;
