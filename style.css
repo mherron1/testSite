@@ -1105,11 +1105,11 @@ li span {
 
 #keyboard {
   position: fixed;
-  left: 0;
-  bottom: 0;
-  margin-left: 50%;
+  right: 20px;
+  bottom: 5px;
+
   margin-bottom: 5px;
-  transform: translateX(300px);
+
   font-weight: 18px;
 }
 
