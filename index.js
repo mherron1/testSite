@@ -1115,7 +1115,7 @@ function pausecomp(millis) {
   } while (curDate - date < millis);
 }
 
-function toggelOddsType() {
+function toggleOddsType() {
   vibrate();
   if (localStorage.getItem("oddsType") === "line") {
     localStorage.setItem("oddsType", "decimal");
