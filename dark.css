@@ -1283,12 +1283,12 @@ h4:hover {
 
 #showResults {
   position: absolute;
-  background-color: black;
-  color: white;
   border-radius: 5px;
   border: none;
-  height: 40px;
-  width: 150px;
+  background-color: rgb(221, 221, 221);
+  color: black;
+  height: 50px;
+  width: 205px;
   font-size: 17px;
   padding: 5px;
   bottom: 12px;
@@ -1300,7 +1300,5 @@ h4:hover {
 
 #showResults:hover {
   cursor: pointer;
-  background-color: rgb(0, 0, 0);
-  color: white;
   border: none;
 }
