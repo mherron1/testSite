@@ -118,6 +118,9 @@ data2.forEach((event) => {
         let tempName = fight.fighterA;
         fight.fighterA = fight.fighterB;
         fight.fighterB = tempName;
+        let tempLink = fight.fighterALink;
+        fight.fighterALink = fight.fighterBLink;
+        fight.fighterBLink = tempLink;
       }
     });
   }
