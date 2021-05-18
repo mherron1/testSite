@@ -1141,7 +1141,7 @@ li span {
   top: 40%;
   margin-right: 50%;
   transform: translateX(-350px);
-  color: rgb(105, 105, 105);
+  color: rgb(99, 99, 99);
   font-size: 100px;
   z-index: 100000000;
 }
@@ -1152,7 +1152,7 @@ li span {
   top: 40%;
   margin-left: 50%;
   transform: translateX(350px);
-  color: rgb(105, 105, 105);
+  color: rgb(99, 99, 99);
   font-size: 100px;
   font-size: 100px;
   z-index: 100000000;
@@ -1161,13 +1161,13 @@ li span {
 #leftArrow:hover {
   cursor: pointer;
   font-size: 100px;
-  color: rgb(228, 228, 228);
+  color: rgb(150, 150, 150);
 }
 
 #rightArrow:hover {
   cursor: pointer;
   font-size: 100px;
-  color: rgb(228, 228, 228);
+  color: rgb(150, 150, 150);
 }
 
 #keyboard {
