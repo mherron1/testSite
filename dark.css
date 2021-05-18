@@ -490,7 +490,7 @@ a {
 
 #settings {
   position: absolute;
-  background-color: rgba(22, 22, 22, 0.932);
+  background-color: rgba(22, 22, 22, 1);
   width: 100%;
   max-width: 420px;
   height: 0;
