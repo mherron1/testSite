@@ -599,8 +599,10 @@ input:checked + .slider:before {
 #testDivPlus1 {
   position: absolute;
   border-radius: 5px;
+  border: 2px solid rgb(245, 245, 245);
+
   background-color: rgba(255, 255, 255, 1);
-  color: black;
+
   height: 50px;
   width: 205px;
   margin-left: 50%;
@@ -1251,7 +1253,7 @@ h4:hover {
   position: absolute;
   background-color: white;
   border-radius: 5px;
-  border: none;
+  border: 2px solid rgb(245, 245, 245);
   background-color: rgba(255, 255, 255, 1);
   color: black;
   height: 50px;

@@ -640,7 +640,7 @@ function generateCard(i, arg) {
         `;
     } else {
       imageDiv.innerHTML += `
-      <button id ="showResults"  onclick="toggleResults()">Show Results</button>
+      <button id ="showResults"  onclick="toggleResults()">Show/Hide Results</button>
       <div id="testDiv${arg}" style = "visibility:hidden;" onclick="countdownToggle()">
 
         <div id="toggleContainer${arg}">
