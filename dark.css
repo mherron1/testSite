@@ -1319,3 +1319,7 @@ h4:hover {
 .draw {
   background-color: rgba(67, 120, 233, 0.288) !important;
 }
+
+#footerDiv {
+  background-color: #202020;
+}
