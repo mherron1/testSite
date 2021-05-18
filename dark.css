@@ -1315,3 +1315,7 @@ h4:hover {
     opacity: 0%;
   }
 }
+
+.draw {
+  background-color: rgba(67, 120, 233, 0.288) !important;
+}

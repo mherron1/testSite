@@ -140,7 +140,7 @@
     time: "3 Rounds",
   },
   {
-    winner: "",
+    winner: "Fabrício Werdum ",
     method: "No Contest",
     time: "2:32 Round 1",
   },

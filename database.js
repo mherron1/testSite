@@ -1656,8 +1656,6 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "#4",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/mike-chandler",
         fighterB: " Michael Chandler",
         winner: "Charles Oliveira ",
         method: "ko/tko",
@@ -1672,8 +1670,6 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "#5",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/tony-ferguson-el-cucuy",
         fighterB: " Tony Ferguson",
         winner: "Beneil Dariush ",
         method: "decision",
@@ -1688,8 +1684,6 @@ let data = [
         weight: "135",
         recordB: "",
         rankB: "#8",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/29221-matt-schnell",
         fighterB: " Matt Schnell",
         winner: "Rogério Bontorin ",
         method: "decision",
@@ -1704,8 +1698,6 @@ let data = [
         weight: "125",
         recordB: "",
         rankB: "#7",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/106437-viviane-araujo-vivi",
         fighterB: " Viviane Araujo",
         winner: "Katlyn Chookagian ",
         method: "decision",
@@ -1720,8 +1712,6 @@ let data = [
         weight: "145",
         recordB: "",
         rankB: "#11",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/37627-shane-burgos",
         fighterB: " Shane Burgos",
         winner: "Edson Barboza ",
         method: "ko/tko",
@@ -1736,8 +1726,6 @@ let data = [
         weight: "185",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/ronaldo-souza-jacare",
         fighterB: " Ronaldo Souza",
         winner: "André Muniz ",
         method: "submission",
@@ -1752,8 +1740,6 @@ let data = [
         weight: "145",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/23283-michael-grundy",
         fighterB: " Mike Grundy",
         winner: "Lando Vannata ",
         method: "decision",
@@ -1768,8 +1754,6 @@ let data = [
         weight: "185",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/38304-jamie-pickett",
         fighterB: " Jamie Pickett",
         winner: "Jordan Wright ",
         method: "ko/tko",
@@ -1784,8 +1768,6 @@ let data = [
         weight: "125",
         recordB: "",
         rankB: "#12",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/119417-antonia-schevchenko",
         fighterB: " Antonina Shevchenko",
         winner: "Andrea Lee ",
         method: "submission",
@@ -1800,8 +1782,6 @@ let data = [
         weight: "125",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/53505-gina-mazany-danger",
         fighterB: " Gina Mazany",
         winner: "Priscila Cachoeira ",
         method: "ko/tko",
@@ -1816,8 +1796,6 @@ let data = [
         weight: "145",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/kevin-aguilar",
         fighterB: " Kevin Aguilar",
         winner: "Tucker Lutz ",
         method: "decision",
@@ -1832,8 +1810,6 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/17490-sean-soriano",
         fighterB: " Sean Soriano",
         winner: "Christos Giagos ",
         method: "submission",
@@ -1857,8 +1833,10 @@ let data = [
         weight: "265",
         recordB: "",
         rankB: "",
-        fighterBLink: null,
         fighterB: " Renan Ferreira",
+        winner: "Fabrício Werdum ",
+        method: "No Contest",
+        timing: "2:32 Round 1",
       },
       {
         fighterA: "Kayla Harrison ",
@@ -1869,8 +1847,6 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/68151-mariana-morais",
         fighterB: " Mariana Morais",
         winner: "Kayla Harrison ",
         method: "ko/tko",
@@ -1885,8 +1861,6 @@ let data = [
         weight: "265",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/156538-mohammed-usman",
         fighterB: " Mohammed Usman",
         winner: "Brandon Sayles ",
         method: "submission",
@@ -1901,8 +1875,6 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/234848-julija-pajic",
         fighterB: " Julija Pajić",
         winner: "Larissa Pacheco ",
         method: "ko/tko",
@@ -1917,8 +1889,6 @@ let data = [
         weight: "265",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/43151-ante-delija-walking-trouble",
         fighterB: " Ante Delija",
         winner: "B. Cappelozza ",
         method: "ko/tko",
@@ -1933,8 +1903,6 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/4847-cindy-dandois-battlecat",
         fighterB: " Cindy Dandois",
         winner: "Kaitlin Young ",
         method: "decision",
@@ -1949,8 +1917,6 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/107012-laura-sanchez",
         fighterB: " Laura Sanchez",
         winner: "Genah Fabian ",
         method: "decision",
@@ -1965,8 +1931,6 @@ let data = [
         weight: "265",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/37293-mo-dereese",
         fighterB: " Mo DeReese",
         winner: "Denis Goltsov ",
         method: "ko/tko",
@@ -1981,8 +1945,6 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/127379-yelena",
         fighterB: " Helena Kolesnyk",
         winner: "Taylor Guardado ",
         method: "decision",
@@ -1997,8 +1959,6 @@ let data = [
         weight: "170",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/51102-kyron-bowen",
         fighterB: " Kyron Bowen",
         winner: "Magomed Umalatov ",
         method: "ko/tko",
@@ -2022,8 +1982,6 @@ let data = [
         weight: "265",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/brandon-vera-the-truth",
         fighterB: " Brandon Vera",
         winner: "Arjan Bhullar ",
         method: "ko/tko",
@@ -2038,8 +1996,6 @@ let data = [
         weight: "145",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/238896-sean-clancy",
         fighterB: " Sean Clancy",
         winner: "Tawanchai PK Saenchai ",
         method: "ko/tko",
@@ -2054,8 +2010,6 @@ let data = [
         weight: "115",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/240108-ritu-phogat",
         fighterB: " Ritu Phogat",
         winner: "Bi Nguyen ",
         method: "decision",
@@ -2070,8 +2024,6 @@ let data = [
         weight: "128",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/135748-rayane-bastos",
         fighterB: " Rayane Bastos",
         winner: "Ayaka Miura ",
         method: "submission",
@@ -2086,8 +2038,6 @@ let data = [
         weight: "145",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/148755-roshan-mainam",
         fighterB: " Roshan Mainam",
         winner: "Gary Mangat ",
         method: "decision",
@@ -2111,8 +2061,6 @@ let data = [
         weight: "135",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/52666-juan-archuleta",
         fighterB: " Juan Archuleta",
         winner: "Sergio Pettis ",
         method: "decision",
@@ -2127,8 +2075,6 @@ let data = [
         weight: "205",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/133511-jose-augusto-azevedo-gugu",
         fighterB: " Jose Augusto Azevedo",
         winner: "Anthony Johnson ",
         method: "ko/tko",
@@ -2143,8 +2089,6 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/patricky-freire-pitbull",
         fighterB: " Patricky Pitbull",
         winner: "Peter Queally ",
         method: "ko/tko",
@@ -2159,8 +2103,6 @@ let data = [
         weight: "175",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/21266-derek-anderson",
         fighterB: " Derek Anderson",
         winner: "Michael Page ",
         method: "ko/tko",
@@ -2175,7 +2117,6 @@ let data = [
         weight: "135",
         recordB: "",
         rankB: "",
-        fighterBLink: "https://www.tapology.com/fightcenter/fighters/josh-hill",
         fighterB: " Josh Hill",
         winner: "Raufeon Stots ",
         method: "decision",
@@ -2190,8 +2131,6 @@ let data = [
         weight: "185",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/36249-rafael-carvalho",
         fighterB: " Rafael Carvalho",
         winner: "Lorenz Larkin ",
         method: "decision",
@@ -2206,8 +2145,6 @@ let data = [
         weight: "135",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/64619-albert-morales",
         fighterB: " Albert Morales",
         winner: "Patchy Mix ",
         method: "submission",
@@ -2222,8 +2159,6 @@ let data = [
         weight: "185",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/daniel-madrid-blackout",
         fighterB: " Daniel Madrid",
         winner: "Johnny Eblen ",
         method: "ko/tko",
@@ -2238,8 +2173,6 @@ let data = [
         weight: "135",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/25837-henry-corrales",
         fighterB: " Henry Corrales",
         winner: "Johnny Campbell ",
         method: "submission",
@@ -2254,8 +2187,6 @@ let data = [
         weight: "145",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/112608-weber-almeida",
         fighterB: " Weber Almeida",
         winner: "Johnny Soto ",
         method: "decision",
@@ -2270,8 +2201,6 @@ let data = [
         weight: "135",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/23052-blaine-shutt",
         fighterB: " Blaine Shutt",
         winner: "Erik Perez ",
         method: "decision",

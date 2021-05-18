@@ -789,13 +789,16 @@ function generateCard(i, arg) {
         events[i][3][j].rankA =
           events[i][3][j].method + ",  " + events[i][3][j].timing;
         events[i][3][j].rankB = "";
-      }
-      if (events[i][3][j].fighterB === events[i][3][j].winner) {
+      } else if (events[i][3][j].fighterB === events[i][3][j].winner) {
         snippetB = "winnerGreen";
         snippetA = "loserRed";
         events[i][3][j].rankA = "";
         events[i][3][j].rankB =
           events[i][3][j].method + ",  " + events[i][3][j].timing;
+      }
+      if (events[i][3][j].method === "No Contest") {
+        snippetB = "draw";
+        snippetA = "draw";
       }
     }
 

@@ -1270,3 +1270,7 @@ h4:hover {
 #showResults:hover {
   cursor: pointer;
 }
+
+.draw {
+  background-color: rgba(135, 206, 250, 0.616) !important;
+}
