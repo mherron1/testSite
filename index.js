@@ -775,14 +775,27 @@ function generateCard(i, arg) {
     let snippetA = "";
     let snippetB = "";
 
+    if (new Date(events[i][1]) - nowEpochX < 0) {
+      events[i][3][j].rankA = "";
+      events[i][3][j].rankB = "";
+    }
+
     if (showResults) {
-      if (winners.includes(events[i][3][j].fighterA)) {
+      events[i][3][j].rankA = "";
+      events[i][3][j].rankB = "";
+      if (events[i][3][j].fighterA === events[i][3][j].winner) {
         snippetA = "winnerGreen";
         snippetB = "loserRed";
+        events[i][3][j].rankA =
+          events[i][3][j].method + ",  " + events[i][3][j].timing;
+        events[i][3][j].rankB = "";
       }
-      if (winners.includes(events[i][3][j].fighterB)) {
+      if (events[i][3][j].fighterB === events[i][3][j].winner) {
         snippetB = "winnerGreen";
         snippetA = "loserRed";
+        events[i][3][j].rankA = "";
+        events[i][3][j].rankB =
+          events[i][3][j].method + ",  " + events[i][3][j].timing;
       }
     }
 
@@ -897,15 +910,25 @@ function generateCard(i, arg) {
 
     snippetA = "";
     snippetB = "";
+    if (new Date(events[i][1]) - nowEpochX < 0) {
+      events[i][3][j].rankA = "";
+      events[i][3][j].rankB = "";
+    }
 
     if (showResults) {
-      if (winners.includes(events[i][3][j].fighterA)) {
+      if (events[i][3][j].fighterA === events[i][3][j].winner) {
         snippetA = "winnerGreen";
         snippetB = "loserRed";
+        events[i][3][j].rankA =
+          events[i][3][j].method + ",  " + events[i][3][j].timing;
+        events[i][3][j].rankB = "";
       }
-      if (winners.includes(events[i][3][j].fighterB)) {
+      if (events[i][3][j].fighterB === events[i][3][j].winner) {
         snippetB = "winnerGreen";
         snippetA = "loserRed";
+        events[i][3][j].rankA = "";
+        events[i][3][j].rankB =
+          events[i][3][j].method + ",  " + events[i][3][j].timing;
       }
     }
 

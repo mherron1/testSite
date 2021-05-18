@@ -111,8 +111,7 @@ data2.forEach((event) => {
   if (new Date(event[1]) - nowEpochX < 0) {
     event[3].forEach((fight) => {
       winners.push(fight.fighterA);
-      fight.rankA = "";
-      fight.rankB = "";
+
       let rand = Math.floor(Math.random() * 10);
       if (rand % 2 === 0) {
         let tempName = fight.fighterA;
