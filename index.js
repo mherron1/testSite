@@ -512,14 +512,15 @@ function generateCard(i, arg) {
 <br>
 <br>
 <br>
-<div style ="position:absolute; bottom:10px;left:15px;">
+
+<div style ="position:absolute;padding:10px; bottom:0;left:0; right:0; background-color:#f3f3f3">
   <p><a href="mailto:mmafightcards.org@gmail.com">Contact</a></p>
     </div>
 `;
 
   if (android === true) {
     content.innerHTML += `
-    <div id="rateReview" style ="position:absolute; bottom:10px;right:15px; display: block;">
+    <div id="rateReview" style ="position:absolute; bottom:10px;right:15px; display: block; z-index:">
       <p><a href="https://play.google.com/store/apps/details?id=org.mmafightcards.twa" target="_blank">Rate & Review</a></p>
         </div>`;
   }
