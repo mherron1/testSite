@@ -1178,6 +1178,7 @@ li span {
   margin-bottom: 5px;
 
   font-weight: 18px;
+  display: none;
 }
 
 #videoGallery,
