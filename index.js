@@ -513,16 +513,16 @@ function generateCard(i, arg) {
 <br>
 <br>
 
-<div id="footerDiv" class="noselect" style ="position:absolute;padding:10px;padding-bottom:15px; bottom:0;left:0; right:0;>
+<div style ="position:absolute; bottom:10px;left:15px;">
   <p><a href="mailto:mmafightcards.org@gmail.com">Contact</a></p>
     </div>
 `;
 
   if (android === true) {
     content.innerHTML += `
-    <div id="rateReview" class="noselect" style ="position:absolute; bottom:15px;right:15px; display: block; z-index:">
-      <p><a href="https://play.google.com/store/apps/details?id=org.mmafightcards.twa" target="_blank">Rate & Review</a></p>
-        </div>`;
+    <div id="rateReview" style ="position:absolute; bottom:10px;right:15px; display: block;">
+    <p><a href="https://play.google.com/store/apps/details?id=org.mmafightcards.twa" target="_blank">Rate & Review</a></p>
+      </div>`;
   }
 
   let mainHeader = document.querySelector(`#mainHeader${arg}`);
