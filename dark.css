@@ -1322,4 +1322,9 @@ h4:hover {
 
 #footerDiv {
   background-color: #202020;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
 }

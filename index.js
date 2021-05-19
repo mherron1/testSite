@@ -513,7 +513,7 @@ function generateCard(i, arg) {
 <br>
 <br>
 
-<div style ="position:absolute; bottom:10px;left:15px;">
+<div id="footerDiv">
   <p><a href="mailto:mmafightcards.org@gmail.com">Contact</a></p>
     </div>
 `;
