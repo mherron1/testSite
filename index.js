@@ -298,7 +298,7 @@ function generateLinks() {
   }
   eventList.innerHTML += `<br>`;
   eventList.innerHTML += `<h4 style = "margin-top: 12px;" class = "eventLink">Recent Events</h4>`;
-  for (let i = 0; i < eventLimit; i++) {
+  for (let i = events.length - 1; i >= 0; i--) {
     let nowEpoch = new Date().getTime();
     if (new Date(events[i][1]) - nowEpoch < 0) {
       let dateString = new Date(events[i][1] - 18000000).toString();
