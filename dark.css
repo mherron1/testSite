@@ -1275,10 +1275,12 @@ h4:hover {
 
 .winnerGreen {
   background-color: rgb(5, 65, 32) !important;
+  margin-bottom: 3px;
 }
 
 .loserRed {
   background-color: rgb(116, 11, 11) !important;
+  margin-bottom: 3px;
 }
 
 #showResults {
