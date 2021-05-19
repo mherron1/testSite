@@ -782,6 +782,7 @@ function generateCard(i, arg) {
 
     let snippetA = "";
     let snippetB = "";
+    let snippetC = "";
 
     if (new Date(events[i][1]) - nowEpochX < 0) {
       events[i][3][j].rankA = "";
@@ -794,12 +795,14 @@ function generateCard(i, arg) {
       if (events[i][3][j].fighterA === events[i][3][j].winner) {
         snippetA = "winnerGreen";
         snippetB = "loserRed";
+        snippetC = "vsRes";
         events[i][3][j].rankA =
           events[i][3][j].method + ",  " + events[i][3][j].timing;
         events[i][3][j].rankB = "";
       } else if (events[i][3][j].fighterB === events[i][3][j].winner) {
         snippetB = "winnerGreen";
         snippetA = "loserRed";
+        snippetC = "vsRes";
         events[i][3][j].rankA = "";
         events[i][3][j].rankB =
           events[i][3][j].method + ",  " + events[i][3][j].timing;
@@ -821,7 +824,7 @@ function generateCard(i, arg) {
       <div>${events[i][3][j].recordA}</div>
     </div>
   </div>
-  <div  class="middle">vs
+  <div  class="middle ${snippetC}">vs
    <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
   </div>
    
@@ -919,27 +922,36 @@ function generateCard(i, arg) {
       }
     }
 
-    snippetA = "";
-    snippetB = "";
+    let snippetA = "";
+    let snippetB = "";
+    let snippetC = "";
+
     if (new Date(events[i][1]) - nowEpochX < 0) {
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
     }
 
     if (showResults) {
+      events[i][3][j].rankA = "";
+      events[i][3][j].rankB = "";
       if (events[i][3][j].fighterA === events[i][3][j].winner) {
         snippetA = "winnerGreen";
         snippetB = "loserRed";
+        snippetC = "vsRes";
         events[i][3][j].rankA =
           events[i][3][j].method + ",  " + events[i][3][j].timing;
         events[i][3][j].rankB = "";
-      }
-      if (events[i][3][j].fighterB === events[i][3][j].winner) {
+      } else if (events[i][3][j].fighterB === events[i][3][j].winner) {
         snippetB = "winnerGreen";
         snippetA = "loserRed";
+        snippetC = "vsRes";
         events[i][3][j].rankA = "";
         events[i][3][j].rankB =
           events[i][3][j].method + ",  " + events[i][3][j].timing;
+      }
+      if (events[i][3][j].method === "No Contest") {
+        snippetB = "draw";
+        snippetA = "draw";
       }
     }
 
@@ -955,7 +967,7 @@ function generateCard(i, arg) {
         <div>${events[i][3][j].recordA}</div>
       </div>
     </div>
-    <div  class="middle">vs
+    <div  class="middle ${snippetC}">vs
      <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
     </div>
      

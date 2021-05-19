@@ -1249,6 +1249,11 @@ h4:hover {
   margin-bottom: 3px;
 }
 
+.vsRes {
+  margin-bottom: 3px;
+  background-color: #f8f8f8;
+}
+
 #showResults {
   position: absolute;
   background-color: white;
