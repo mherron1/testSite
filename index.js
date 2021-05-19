@@ -605,6 +605,7 @@ function generateCard(i, arg) {
     let nowEpoch = new Date().getTime();
     if (new Date(events[i][1]) - nowEpoch > 0) {
       imageDiv.innerHTML += `
+      
         <div id="testDiv${arg}" onclick="countdownToggle()">
   
           <div id="toggleContainer${arg}">
@@ -641,7 +642,7 @@ function generateCard(i, arg) {
         `;
     } else {
       imageDiv.innerHTML += `
-      <button id ="showResults"  onclick="toggleResults()">Show/Hide Results</button>
+      <button id ="showResults" onclick="toggleResults()">Show/Hide Results</button>
       <div id="testDiv${arg}" style = "visibility:hidden;" onclick="countdownToggle()">
 
         <div id="toggleContainer${arg}">
@@ -688,6 +689,12 @@ function generateCard(i, arg) {
   } else {
     eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() + utc_offset);
     prelimCardTime.setMinutes(prelimCardTime.getMinutes() + utc_offset);
+    let nowEpoch = new Date().getTime();
+    if (new Date(events[i][1]) - nowEpoch < 0) {
+      imageDiv.innerHTML += `
+      <button id ="showResults" onclick="toggleResults()">Show/Hide Results</button>
+      `;
+    }
   }
 
   //////////////////////////////
