@@ -1135,7 +1135,7 @@ li span {
 #videoGalleryPlus1 {
   margin: 60px auto;
   width: 90%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .youtube-player {
@@ -1288,4 +1288,11 @@ h4:hover {
   left: 0;
   right: 0;
   padding: 10px;
+}
+
+#broadcastInfo {
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  top: -40px;
 }

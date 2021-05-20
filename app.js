@@ -110,7 +110,15 @@ data2.forEach((event) => {
     event[2] = "images/defaults/placeholder.jpg";
   }
 
+  if (event[6].includes("|")) {
+    event[6] = "Broadcast: Main Card : " + event[6].split("|").join(",");
+  } else if (event[6] === "") {
+  } else {
+    event[6] = "Broadcast: " + event[6];
+  }
+
   if (new Date(event[1]) - nowEpochX < 0) {
+    event[6] = "";
     event[3].forEach((fight) => {
       winners.push(fight.fighterA);
 

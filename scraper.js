@@ -99,6 +99,17 @@ function getCard(url) {
       return posterSRC;
     });
 
+    const broadCast = await page.evaluate(() => {
+      let broadCast = document
+        .querySelector(
+          "#content > div.details.details_with_poster.clearfix > div.right > ul > li:nth-child(2)"
+        )
+        .innerText.split(" ")
+        .slice(2)
+        .join(" ");
+      return broadCast;
+    });
+
     const fighterANames = await page.evaluate(() => {
       let a = document.querySelectorAll(".fightCardFighterName.left");
       const b = [...a];
@@ -162,6 +173,7 @@ function getCard(url) {
     h = fighterBLink;
     t = eventDate;
     p = poster;
+    bc = broadCast;
     eventName = eventTitle;
     promo = promotion;
     n = numPrelims;
@@ -223,7 +235,8 @@ function getCard(url) {
     console.log("'',");
     console.log(fightCard);
     console.log(`,"${eventName}",`);
-    console.log(`"${n}"`);
+    console.log(`"${n}",`);
+    console.log(`"${bc}"`);
     console.log("],");
   }, 14000);
 }

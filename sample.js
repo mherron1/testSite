@@ -946,6 +946,7 @@ let data = [
     ],
     "UFC Fight Night",
     "7",
+    "ESPN+",
   ],
   [
     "Ultimate Fighting Championship",
@@ -1137,6 +1138,7 @@ let data = [
     ],
     "UFC Fight Night",
     "9",
+    "ESPN+",
   ],
   [
     "Ultimate Fighting Championship",
@@ -1340,6 +1342,7 @@ let data = [
     ],
     "UFC 263",
     "10",
+    "Pay Per View | Prelims: ESPN",
   ],
   [
     "Ultimate Fighting Championship",
@@ -1530,6 +1533,7 @@ let data = [
     ],
     "UFC Fight Night",
     "8",
+    "ESPN+",
   ],
   [
     "Ultimate Fighting Championship",
@@ -1682,6 +1686,7 @@ let data = [
     ],
     "UFC Fight Night",
     "7",
+    "ESPN+",
   ],
   [
     "Ultimate Fighting Championship",
@@ -1821,6 +1826,7 @@ let data = [
     ],
     "UFC 264",
     "7",
+    "Pay Per View | Prelims: ESPN",
   ],
   [
     "Ultimate Fighting Championship",
@@ -2012,6 +2018,7 @@ let data = [
     ],
     "UFC Fight Night",
     "10",
+    "ESPN+",
   ],
   [
     "Ultimate Fighting Championship",
@@ -2138,6 +2145,7 @@ let data = [
     ],
     "UFC Fight Night",
     "5",
+    "ESPN+",
   ],
   [
     "Ultimate Fighting Championship",
@@ -2225,6 +2233,7 @@ let data = [
     ],
     "UFC Fight Night",
     "6",
+    "ESPN+",
   ],
   [
     "Ultimate Fighting Championship",
@@ -2286,6 +2295,7 @@ let data = [
     ],
     "UFC 265",
     "2",
+    "Pay Per View | Prelims: ESPN",
   ],
   [
     "Ultimate Fighting Championship",
@@ -2321,6 +2331,7 @@ let data = [
     ],
     "UFC Fight Night",
     "1",
+    "ESPN+",
   ],
   [
     "Ultimate Fighting Championship",
@@ -2418,9 +2429,23 @@ let data = [
           "https://www.tapology.com/fightcenter/fighters/129509-austin-lingo",
         fighterB: "Austin Lingo",
       },
+      {
+        fighterA: "Clay Guida",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/clay-guida-the-carpenter",
+        rankA: "#34",
+        recordA: "36-20-0 ",
+        weight: "155",
+        recordB: " 10-0-0",
+        rankB: "#42",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/52290-mark-overgaard-madsen",
+        fighterB: "Mark O. Madsen",
+      },
     ],
     "UFC Fight Night",
-    "4",
+    "5",
+    "ESPN+",
   ],
   [
     "Ultimate Fighting Championship",
@@ -2508,6 +2533,7 @@ let data = [
     ],
     "UFC Fight Night",
     "4",
+    "ESPN+",
   ],
   [
     "Ultimate Fighting Championship",
@@ -2530,6 +2556,7 @@ let data = [
     ],
     "UFC 266",
     "0",
+    "Pay Per View | Prelims: ESPN",
   ],
   [
     "ONE Championship",
@@ -2617,6 +2644,7 @@ let data = [
     ],
     "ONE Championship",
     "0",
+    "",
   ],
   [
     "Bellator MMA",
@@ -2640,11 +2668,11 @@ let data = [
         fighterA: "Darrion Caldwell",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/31762-darrion-caldwell",
-        rankA: "#78",
+        rankA: "#80",
         recordA: "14-4-0 ",
         weight: "135",
         recordB: " 20-5-0",
-        rankB: "#70",
+        rankB: "#68",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/19870-leandro-higo",
         fighterB: "Leandro Higo",
@@ -2653,11 +2681,11 @@ let data = [
         fighterA: "Fabian Edwards",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/106608-fabian-edwards",
-        rankA: "#81",
+        rankA: "#74",
         recordA: "9-1-0 ",
         weight: "185",
         recordB: " 10-0-0",
-        rankB: "#88",
+        rankB: "#78",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/39902-austin-vandeford",
         fighterB: "Austin Vanderford",
@@ -2670,7 +2698,7 @@ let data = [
         recordA: "14-2-0 ",
         weight: "170",
         recordB: " 11-4-0",
-        rankB: "#11",
+        rankB: "#6",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/141574-maycon-mendona",
         fighterB: "Maycon Mendonça",
@@ -2696,7 +2724,7 @@ let data = [
         recordA: "23-13-0 ",
         weight: "155",
         recordB: " 16-3-0",
-        rankB: "#96",
+        rankB: "#89",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/nate-andrews",
         fighterB: "Nate Andrews",
@@ -2722,7 +2750,7 @@ let data = [
         recordA: "1-0-0 ",
         weight: "125",
         recordB: " 1-1-0",
-        rankB: "#691",
+        rankB: "#692",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/199479-kristina-katsikis",
         fighterB: "Kristina Katsikis",
@@ -2744,7 +2772,7 @@ let data = [
         fighterA: "Valerie Loureda",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/186801-valerie-loureda",
-        rankA: "#86",
+        rankA: "#84",
         recordA: "3-0-0 ",
         weight: "125",
         recordB: " 2-1-0",
@@ -2783,11 +2811,11 @@ let data = [
         fighterA: "Brett Johns",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/22153-brett-johns",
-        rankA: "#37",
+        rankA: "#34",
         recordA: "17-2-0 ",
         weight: "135",
         recordB: " 10-1-0",
-        rankB: "#10",
+        rankB: "#2",
         fighterBLink:
           "https://www.tapology.com/fightcenter/fighters/191637-danny-sabatello",
         fighterB: "Danny Sabatello",
@@ -2808,6 +2836,7 @@ let data = [
     ],
     "Bellator 259",
     "9",
+    "Showtime",
   ],
   [
     "Bellator MMA",
@@ -2921,6 +2950,7 @@ let data = [
     ],
     "Bellator 260",
     "6",
+    "Showtime",
   ],
   [
     "Bellator MMA",
@@ -2995,6 +3025,7 @@ let data = [
     ],
     "Bellator 261",
     "4",
+    "Showtime",
   ],
   [
     "Professional Fighters League",
@@ -3147,6 +3178,7 @@ let data = [
     ],
     "PFL 2021 #4",
     "7",
+    "ESPN 2 | Prelims: ESPN+",
   ],
   [
     "Ultimate Fighting Championship",
@@ -3300,6 +3332,7 @@ let data = [
     ],
     "UFC 262",
     "7",
+    "Pay Per View | Prelims: ESPN",
   ],
   [
     "Professional Fighters League",
@@ -3429,6 +3462,7 @@ let data = [
     ],
     "PFL 2021 #3",
     "6",
+    "ESPN | Prelims: ESPN+",
   ],
   [
     "ONE Championship",
@@ -3498,6 +3532,7 @@ let data = [
     ],
     "ONE Championship",
     "2",
+    "",
   ],
   [
     "Bellator MMA",
@@ -3639,6 +3674,7 @@ let data = [
     ],
     "Bellator 258",
     "7",
+    "Showtime",
   ],
 ];
 
