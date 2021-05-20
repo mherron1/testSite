@@ -1338,6 +1338,9 @@ h4:hover {
 
 #broadcastInfo {
   position: absolute;
-  text-align: left;
+  text-align: center;
+  font-size: 1rem;
+  left: 0;
+  right: 0;
   top: -40px;
 }
