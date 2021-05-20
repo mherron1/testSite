@@ -1278,6 +1278,7 @@ h4:hover {
 
 .draw {
   background-color: rgba(135, 206, 250, 0.616) !important;
+  margin-bottom: 3px;
 }
 
 #footerDiv {

@@ -807,7 +807,7 @@ function generateCard(i, arg) {
         events[i][3][j].rankB =
           events[i][3][j].method + ",  " + events[i][3][j].timing;
       }
-      if (events[i][3][j].method === "No Contest") {
+      if (events[i][3][j].method === "ends in a no contest") {
         snippetB = "draw";
         snippetA = "draw";
       }
