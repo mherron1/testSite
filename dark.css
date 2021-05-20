@@ -573,11 +573,11 @@ a {
 }
 
 input:checked + .slider {
-  background-color: #a88f8f;
+  background-color: #ffffff;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #ecb7b7;
+  box-shadow: 0 0 1px #ffffff;
 }
 
 input:checked + .slider:before {
