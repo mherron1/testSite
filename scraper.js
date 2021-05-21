@@ -42,6 +42,7 @@ function asyncGetCards() {
       asyncGetCards(index);
     } else if ((index = events.length)) {
       console.log("]");
+      console.log("module.exports = data;");
     }
   });
 }
