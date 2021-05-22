@@ -1340,7 +1340,11 @@ h4:hover {
   position: absolute;
   text-align: center;
   font-size: 0.9rem;
-  left: 0;
-  right: 0;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: #242424;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
   top: -40px;
 }
