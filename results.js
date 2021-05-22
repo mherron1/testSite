@@ -78,79 +78,88 @@
     b_Link: "https://www.tapology.com/fightcenter/fighters/17490-sean-soriano",
   },
   {
-    winner: "Sergio Pettis ",
-    method: "decision",
-    time: "5 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/52666-juan-archuleta",
-  },
-  {
-    winner: "Anthony Johnson ",
+    winner: "Cris Cyborg ",
     method: "ko/tko",
-    time: "1:30 Round 2",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/133511-jose-augusto-azevedo-gugu",
+    time: "4:51 Round 5",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/leslie-smith",
   },
   {
-    winner: "Peter Queally ",
-    method: "ko/tko",
-    time: "5:00 Round 2",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/patricky-freire-pitbull",
-  },
-  {
-    winner: "Michael Page ",
-    method: "ko/tko",
-    time: "5:00 Round 1",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/21266-derek-anderson",
-  },
-  {
-    winner: "Raufeon Stots ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/josh-hill",
-  },
-  {
-    winner: "Lorenz Larkin ",
+    winner: "Leandro Higo ",
     method: "decision",
     time: "3 Rounds",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/36249-rafael-carvalho",
+      "https://www.tapology.com/fightcenter/fighters/31762-darrion-caldwell",
   },
   {
-    winner: "Patchy Mix ",
+    winner: "Austin Vanderford ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/106608-fabian-edwards",
+  },
+  {
+    winner: "Jaleel Willis ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/141574-maycon-mendona",
+  },
+  {
+    winner: "Hannah Guy ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/186801-valerie-loureda",
+  },
+  {
+    winner: "Saad Awad ",
+    method: "ko/tko",
+    time: "3:16 Round 1",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/nate-andrews",
+  },
+  {
+    winner: "Grant Neal ",
     method: "submission",
-    time: "2:40 Round 3",
+    time: "4:20 Round 1",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/64619-albert-morales",
+      "https://www.tapology.com/fightcenter/fighters/40296-tyree-fortune-x-man",
   },
   {
-    winner: "Johnny Eblen ",
+    winner: "Sumiko Inaba ",
     method: "ko/tko",
-    time: "2:44 Round 1",
+    time: "3:35 Round 3",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/daniel-madrid-blackout",
+      "https://www.tapology.com/fightcenter/fighters/199479-kristina-katsikis",
   },
   {
-    winner: "Johnny Campbell ",
+    winner: "Aviv Gozali ",
     method: "submission",
-    time: "4:12 Round 2",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/25837-henry-corrales",
+    time: "1:17 Round 1",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/41264-sean-felton",
   },
   {
-    winner: "Johnny Soto ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/112608-weber-almeida",
+    winner: "Davion Franklin ",
+    method: "ko/tko",
+    time: "2:02 Round 1",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/tyler-king",
   },
   {
-    winner: "Erik Perez ",
+    winner: "Leah McCourt ",
+    method: "submission",
+    time: "2:42 Round 2",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/67815-janay-harding",
+  },
+  {
+    winner: "Danny Sabatello ",
     method: "decision",
     time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/23052-blaine-shutt",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/22153-brett-johns",
+  },
+  {
+    winner: "Alexander Shabliy ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/52606-alfie-davies",
   },
   {
     winner: "Arjan Bhullar ",
