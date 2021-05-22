@@ -116,7 +116,7 @@ data2.forEach((event) => {
     event[6] = "Broadcast: " + event[6];
   }
 
-  if (new Date(event[1]) - nowEpochX < 0) {
+  if (new Date(event[1]) - nowEpochX < -21600000) {
     event[6] = "";
     event[3].forEach((fight) => {
       winners.push(fight.fighterA);

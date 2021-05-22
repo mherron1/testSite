@@ -609,7 +609,7 @@ function generateCard(i, arg) {
     document.querySelector("#showHideCountdown").checked = true;
 
     let nowEpoch = new Date().getTime();
-    if (new Date(events[i][1]) - nowEpoch > -21600000) {
+    if (new Date(events[i][1]) - nowEpoch > -25000000) {
       imageDiv.innerHTML += `
       
         <div id="testDiv${arg}" onclick="countdownToggle()">
@@ -790,7 +790,7 @@ function generateCard(i, arg) {
     let snippetB = "";
     let snippetC = "";
 
-    if (new Date(events[i][1]) - nowEpochX < 0) {
+    if (new Date(events[i][1]) - nowEpochX < -21600000) {
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
     }
@@ -932,7 +932,7 @@ function generateCard(i, arg) {
     let snippetB = "";
     let snippetC = "";
 
-    if (new Date(events[i][1]) - nowEpochX < 0) {
+    if (new Date(events[i][1]) - nowEpochX < -21600000) {
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
     }

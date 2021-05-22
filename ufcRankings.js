@@ -516,7 +516,7 @@ let ufcRankings = [
     rank: "10",
   },
   {
-    name: "Yan Xiaonan",
+    name: "Xiaonan Yan ",
     rank: "11",
   },
   {
@@ -544,7 +544,7 @@ let ufcRankings = [
     rank: "2",
   },
   {
-    name: "Yan Xiaonan",
+    name: "Xiaonan Yan",
     rank: "3",
   },
   {
