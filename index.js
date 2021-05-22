@@ -609,7 +609,7 @@ function generateCard(i, arg) {
     document.querySelector("#showHideCountdown").checked = true;
 
     let nowEpoch = new Date().getTime();
-    if (new Date(events[i][1]) - nowEpoch > 0) {
+    if (new Date(events[i][1]) - nowEpoch > -21600000) {
       imageDiv.innerHTML += `
       
         <div id="testDiv${arg}" onclick="countdownToggle()">
