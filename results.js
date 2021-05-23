@@ -1,81 +1,85 @@
-[
+let resultsList = [
   {
-    winner: "Charles Oliveira ",
-    method: "ko/tko",
-    time: "0:19 Round 2",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/mike-chandler",
+    winner: "Rob Font ",
+    method: "decision",
+    time: "5 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/21780-cody-garbrandt-no-love",
   },
   {
-    winner: "Beneil Dariush ",
+    winner: "Carla Esparza ",
+    method: "ko/tko",
+    time: "2:58 Round 2",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/12602-xiao-nan-yang-fury",
+  },
+  {
+    winner: "Jared Vanderaa ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/152336-justin-tafa",
+  },
+  {
+    winner: "Norma Dumont ",
     method: "decision",
     time: "3 Rounds",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/tony-ferguson-el-cucuy",
+      "https://www.tapology.com/fightcenter/fighters/37314-felicia-spencer",
   },
   {
-    winner: "Rogério Bontorin ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/29221-matt-schnell",
-  },
-  {
-    winner: "Katlyn Chookagian ",
+    winner: "Ricardo Ramos ",
     method: "decision",
     time: "3 Rounds",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/106437-viviane-araujo-vivi",
+      "https://www.tapology.com/fightcenter/fighters/25872-william-algeo-honey-badger",
   },
   {
-    winner: "Edson Barboza ",
-    method: "ko/tko",
-    time: "1:16 Round 3",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/37627-shane-burgos",
+    winner: "Jack Hermansson ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/142325-edmen-shahbazyan",
   },
   {
-    winner: "André Muniz ",
+    winner: "Ben Rothwell ",
     method: "submission",
-    time: "3:59 Round 1",
+    time: "2:07 Round 2",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/ronaldo-souza-jacare",
+      "https://www.tapology.com/fightcenter/fighters/8196-chris-barnett-beast-boy",
   },
   {
-    winner: "Lando Vannata ",
+    winner: "Court McGee ",
     method: "decision",
     time: "3 Rounds",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/23283-michael-grundy",
+      "https://www.tapology.com/fightcenter/fighters/claudio-henrique-da-silva-mineiro",
   },
   {
-    winner: "Jordan Wright ",
+    winner: "Bruno Silva ",
     method: "ko/tko",
-    time: "1:04 Round 1",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/38304-jamie-pickett",
-  },
-  {
-    winner: "Andrea Lee ",
-    method: "submission",
-    time: "4:52 Round 2",
+    time: "1:00 Round 1",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/119417-antonia-schevchenko",
+      "https://www.tapology.com/fightcenter/fighters/91412-victor-rodrigez",
   },
   {
-    winner: "Priscila Cachoeira ",
-    method: "ko/tko",
-    time: "4:51 Round 2",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/53505-gina-mazany-danger",
-  },
-  {
-    winner: "Tucker Lutz ",
+    winner: "Joshua Culibao ",
     method: "decision",
     time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/kevin-aguilar",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/132976-yilan-sha",
   },
   {
-    winner: "Christos Giagos ",
+    winner: "David Dvořák ",
     method: "submission",
-    time: "3:59 Round 2",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/17490-sean-soriano",
+    time: "2:18 Round 1",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/87976-juancamilo-ronderos",
+  },
+  {
+    winner: "Damir Ismagulov ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/38728-rafael-alves-rafa-thai",
   },
   {
     winner: "Cris Cyborg ",
@@ -260,3 +264,5 @@
     b_Link: "https://www.tapology.com/fightcenter/fighters/51102-kyron-bowen",
   },
 ];
+
+module.exports = resultsList;
