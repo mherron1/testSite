@@ -74,7 +74,12 @@ function create() {
   } else {
     filterArr.push("Ultimate");
     filterArr.push("Bellator");
-
+    filterArr.push("Professional");
+    filterArr.push("ONE");
+    document.querySelector("#oneInput").checked = true;
+    numRes += 1;
+    document.querySelector("#pflInput").checked = true;
+    numRes += 1;
     document.querySelector("#ufcInput").checked = true;
     numRes += 1;
     document.querySelector("#bellatorInput").checked = true;
@@ -1017,6 +1022,8 @@ function generateCard(i, arg) {
       $(".detailsRightPlus1").css("display", "none");
       $(".detailsMiddlePlus1").css("display", "none");
     }
+  } else {
+    showDetailsSettings();
   }
 
   if (screen.width > 474) {
