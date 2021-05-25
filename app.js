@@ -29,6 +29,13 @@ let times = [
     videos: [],
   },
   {
+    date: "may28",
+    promo: "ONE Championship",
+    time: new Date(2021, 04, 28, 13, 00, 00),
+    prelims: new Date(2021, 04, 28, 13, 00, 00),
+    videos: [],
+  },
+  {
     date: "may15",
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 04, 16, 02, 00, 00),
@@ -92,8 +99,8 @@ data2.forEach((event) => {
     new Date(event[1] - 50000000).toString().split(" ")[2] +
     ".jpg";
   if (
-    assets.indexOf(tempTime.toLowerCase()) > -1 &&
-    event[0] != "ONE Championship"
+    assets.indexOf(tempTime.toLowerCase()) > -1 /* &&
+    event[0] != "ONE Championship"*/
   ) {
     event[2] =
       "images/eventImages/" + assets[assets.indexOf(tempTime.toLowerCase())];

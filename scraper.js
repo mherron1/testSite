@@ -22,6 +22,9 @@ let events = [
   "https://www.tapology.com/fightcenter/events/77263-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/73516-pfl-2021-3",
   "https://www.tapology.com/fightcenter/events/78930-one-championship-dangal",
+  "https://www.tapology.com/fightcenter/events/79370-one-championship-full-blast",
+  "https://www.tapology.com/fightcenter/events/73518-pfl-2021-5",
+  "https://www.tapology.com/fightcenter/events/79368-bellator-262-velasquez-vs-kielholtz",
 ];
 
 //getEventURLs();
