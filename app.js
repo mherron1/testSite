@@ -25,7 +25,7 @@ let times = [
     promo: "ONE Championship",
     time: new Date(2021, 04, 28, 12, 30, 00),
     prelims: new Date(2021, 04, 28, 12, 30, 00),
-    videos: ["PLjk5s5K2aM"],
+    videos: ["nv_7tPm4MFU"],
   },
   {
     date: "may21",
@@ -115,7 +115,7 @@ data2.forEach((event) => {
     event[6] = "Broadcast: " + event[6];
   }
 
-  if (new Date(event[1]) - nowEpochX < 0) {
+  if (new Date(event[1]) - nowEpochX < -14400000) {
     event[6] = "";
     event[3].forEach((fight) => {
       winners.push(fight.fighterA);
