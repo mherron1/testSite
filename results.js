@@ -166,37 +166,37 @@ let resultsList = [
     b_Link: "https://www.tapology.com/fightcenter/fighters/52606-alfie-davies",
   },
   {
-    winner: "Arjan Bhullar ",
+    winner: "Saemapetch Fairtex ",
     method: "ko/tko",
-    time: "4:27 Round 2",
+    time: "2:07 Round 1",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/brandon-vera-the-truth",
+      "https://www.tapology.com/fightcenter/fighters/234463-kulabdam-sor-jor-piek-uthai-left-meteorite",
   },
   {
-    winner: "Tawanchai PK Saenchai ",
+    winner: "Wei Xie ",
     method: "ko/tko",
-    time: "0:35 Round 3",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/238896-sean-clancy",
+    time: "5:00 Round 2",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/106818-kantharaj-shankar",
   },
   {
-    winner: "Bi Nguyen ",
+    winner: "Miles Simson ",
     method: "decision",
     time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/240108-ritu-phogat",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/234457-santino-verbeek",
   },
   {
-    winner: "Ayaka Miura ",
+    winner: "Edward Kelly ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/88931-ahmed-faris",
+  },
+  {
+    winner: "Anthony Do ",
     method: "submission",
-    time: "2:58 Round 1",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/135748-rayane-bastos",
-  },
-  {
-    winner: "Gary Mangat ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/148755-roshan-mainam",
+    time: "3:55 Round 2",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/153596-hui-liang",
   },
   {
     winner: "Fabrício Werdum ",

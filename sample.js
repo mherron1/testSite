@@ -775,7 +775,7 @@ let ufcRankings = [
 let nowEpochX = new Date().getTime();
 
 data.forEach((event) => {
-  if (new Date(event[1]) - nowEpochX < -14400000) {
+  if (new Date(event[1]) - nowEpochX < 0) {
     event[3].forEach((bout) => {
       resultsList.forEach((res) => {
         if (bout.fighterA === res.winner) {

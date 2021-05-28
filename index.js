@@ -795,7 +795,7 @@ function generateCard(i, arg) {
     let snippetB = "";
     let snippetC = "";
 
-    if (new Date(events[i][1]) - nowEpochX < -14400000) {
+    if (new Date(events[i][1]) - nowEpochX < 0) {
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
     }
@@ -937,7 +937,7 @@ function generateCard(i, arg) {
     let snippetB = "";
     let snippetC = "";
 
-    if (new Date(events[i][1]) - nowEpochX < -14400000) {
+    if (new Date(events[i][1]) - nowEpochX < 0) {
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
     }
