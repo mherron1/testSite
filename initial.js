@@ -191,7 +191,7 @@ let data = [
   {
     fighterA: 'Duško Todorović',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/114625-duko-todorovi',
-    rankA: '#47',
+    rankA: '#46',
     recordA: '10-1-0 ',
     weight: '185',
     recordB: ' 9-3-0',
@@ -259,7 +259,7 @@ let data = [
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/36092-allan-patrick-nuguete',
     rankA: '#54',
     recordA: '15-3-0 ',
-    weight: '170',
+    weight: '155',
     recordB: ' 10-1-0',
     rankB: '#86',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/168430-mason-jones-the-dragon',
@@ -1535,11 +1535,11 @@ let data = [
   {
     fighterA: 'Brian Kelleher',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/13751-Brian-Kelleher',
-    rankA: '#58',
+    rankA: '#50',
     recordA: '22-12-0 ',
     weight: '135',
     recordB: ' 8-2-0',
-    rankB: '#92',
+    rankB: '#93',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/37541-domingo-pilarte-el-nino',
     fighterB: 'Domingo Pilarte'
   },
@@ -1594,7 +1594,7 @@ let data = [
     recordA: '36-20-0 ',
     weight: '155',
     recordB: ' 10-0-0',
-    rankB: '#42',
+    rankB: '#44',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/52290-mark-overgaard-madsen',
     fighterB: 'Mark O. Madsen'
   },
@@ -1608,10 +1608,32 @@ let data = [
     rankB: '#78',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/103191-sasha-palatnikov',
     fighterB: 'Sasha Palatnikov'
+  },
+  {
+    fighterA: 'Bea Malecki',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/156566-bea-malecki',
+    rankA: '#29',
+    recordA: '2-0-0 ',
+    weight: '135',
+    recordB: ' 7-1-0',
+    rankB: '#23',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/61258-josiane-nunes',
+    fighterB: 'Josiane Nunes'
+  },
+  {
+    fighterA: 'Mana Martinez',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/43358-leomana-martinez',
+    rankA: '#2',
+    recordA: '8-2-0 ',
+    weight: '135',
+    recordB: ' 5-2-0',
+    rankB: '#23',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/78843-jesse-strader',
+    fighterB: 'Jesse Strader'
   }
 ]
 ,"UFC Fight Night",
-"6",
+"8",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -1665,11 +1687,11 @@ let data = [
   {
     fighterA: 'Mario Bautista',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/33428-mario-bautista',
-    rankA: '#47',
+    rankA: '#49',
     recordA: '8-2-0 ',
     weight: '135',
     recordB: ' 8-5-0',
-    rankB: '#106',
+    rankB: '#97',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/12196-guido-canetti-ninja',
     fighterB: 'Guido Cannetti'
   },
@@ -1683,10 +1705,21 @@ let data = [
     rankB: '#73',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/32088-jamall-emmers',
     fighterB: 'Jamall Emmers'
+  },
+  {
+    fighterA: 'Dustin Jacoby',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/15069-dustin-jacoby',
+    rankA: '#29',
+    recordA: '14-5-1 ',
+    weight: '205',
+    recordB: ' 23-7-0',
+    rankB: '#1',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/96632-askar-mozharov',
+    fighterB: 'Askar Mozharov'
   }
 ]
 ,"UFC Fight Night",
-"4",
+"5",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
