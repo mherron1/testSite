@@ -275,7 +275,7 @@ function generateLinks() {
 
   for (let i = 0; i < eventLimit; i++) {
     let nowEpoch = new Date().getTime();
-    if (new Date(events[i][1]) - nowEpoch > -50000000) {
+    if (new Date(events[i][1]) - nowEpoch > 0) {
       let dateString = new Date(events[i][1] - 18000000).toString();
 
       let org = "ufc";
@@ -305,7 +305,7 @@ function generateLinks() {
   eventList.innerHTML += `<h4 style = "margin-top: 12px;" class = "eventLink">Recent Events</h4>`;
   for (let i = events.length - 1; i >= 0; i--) {
     let nowEpoch = new Date().getTime();
-    if (new Date(events[i][1]) - nowEpoch < -50000000) {
+    if (new Date(events[i][1]) - nowEpoch < 0) {
       let dateString = new Date(events[i][1] - 18000000).toString();
 
       let org = "ufc";
@@ -614,7 +614,7 @@ function generateCard(i, arg) {
     document.querySelector("#showHideCountdown").checked = true;
 
     let nowEpoch = new Date().getTime();
-    if (new Date(events[i][1]) - nowEpoch > -50000000) {
+    if (new Date(events[i][1]) - nowEpoch > 0) {
       imageDiv.innerHTML += `
       
         <div id="testDiv${arg}" onclick="countdownToggle()">
@@ -795,7 +795,7 @@ function generateCard(i, arg) {
     let snippetB = "";
     let snippetC = "";
 
-    if (new Date(events[i][1]) - nowEpochX < 28800000) {
+    if (new Date(events[i][1]) - nowEpochX < 0) {
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
     }
@@ -937,7 +937,7 @@ function generateCard(i, arg) {
     let snippetB = "";
     let snippetC = "";
 
-    if (new Date(events[i][1]) - nowEpochX < 28800000) {
+    if (new Date(events[i][1]) - nowEpochX < 0) {
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
     }
