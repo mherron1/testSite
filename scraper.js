@@ -22,6 +22,8 @@ let events = [
   "https://www.tapology.com/fightcenter/events/79370-one-championship-full-blast",
   "https://www.tapology.com/fightcenter/events/73518-pfl-2021-5",
   "https://www.tapology.com/fightcenter/events/79368-bellator-262-velasquez-vs-kielholtz",
+  "https://www.tapology.com/fightcenter/events/73519-pfl-2021-6",
+  "https://www.tapology.com/fightcenter/events/79371-one-championship-full-blast-2",
 ];
 
 //getEventURLs();
