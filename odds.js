@@ -1,186 +1,278 @@
 let odds = [
-{ name: 'Antonio Carlos Junior', odds: '1.59' }
+{ name: 'Brittney Elkin', odds: '3.30' }
 ,
-{ name: 'Jake Collier', odds: '2.4' }
+{ name: 'Claressa Shields', odds: '1.37' }
 ,
-{ name: 'Fares Ziam', odds: '1.74' }
+{ name: 'Alex Martinez', odds: '3.60' }
 ,
-{ name: 'Luigi Vendramini', odds: '2.05' }
+{ name: 'Nathan Schulte', odds: '1.29' }
 ,
-{ name: 'Chase Hooper', odds: '1.87' }
+{ name: 'Natan Schulte', odds: '1.26' }
 ,
-{ name: 'Steven Peterson', odds: '1.87' }
+{ name: 'Raush Manfio', odds: '4.00' }
 ,
-{ name: 'Alexis Davis', odds: '2.66' }
+{ name: 'Brendan Loughnane', odds: '1.31' }
 ,
-{ name: 'Pannie Kianzad', odds: '1.52' }
+{ name: 'Tyler Diamond', odds: '3.65' }
 ,
-{ name: 'Hakeem Dawodu', odds: '3.05' }
+{ name: 'Bobby Moffett', odds: '3.00' }
 ,
-{ name: 'Movsar Evloev', odds: '1.41' }
+{ name: 'Bubba Jenkins', odds: '1.42' }
 ,
-{ name: 'Joanne Calderwood', odds: '1.69' }
+{ name: 'Alex Martinez', odds: '2.95' }
 ,
-{ name: 'Lauren Murphy', odds: '2.15' }
+{ name: 'Anthony Pettis', odds: '1.43' }
 ,
-{ name: 'Darren Stewart', odds: '2.25' }
+{ name: 'Clay Collard', odds: '1.45' }
 ,
-{ name: 'Eryk Anders', odds: '1.65' }
+{ name: 'Joilton Lutterbach', odds: '2.80' }
 ,
-{ name: 'Brad Riddell', odds: '2.05' }
+{ name: 'Marcin Held', odds: '1.74' }
 ,
-{ name: 'Drew Dober', odds: '1.74' }
+{ name: 'Olivier Aubin-Mercier', odds: '2.15' }
 ,
-{ name: 'Jamahal Hill', odds: '1.33' }
+{ name: 'Jesse Stirn', odds: '7.50' }
 ,
-{ name: 'Paul Craig', odds: '3.4' }
+{ name: 'Lance Palmer', odds: '1.10' }
 ,
-{ name: 'Belal Muhammad', odds: '1.43' }
+{ name: 'Akhmed Aliev', odds: '1.54' }
 ,
-{ name: 'Demian Maia', odds: '2.95' }
+{ name: 'Loik Radzhabov', odds: '2.60' }
+,
+{ name: 'Movlid Khaybulaev', odds: '1.20' }
+,
+{ name: 'Sheymon Moraes', odds: '5.00' }
+,
+{ name: 'Arman Ospanov', odds: '1.87' }
+,
+{ name: 'Chris Wade', odds: '1.95' }
+,
+{ name: 'Douglas Lima', odds: '1.83' }
+,
+{ name: 'Yaroslav Amosov', odds: '2.00' }
+,
+{ name: 'Aaron Pico', odds: '1.20' }
+,
+{ name: 'Aiden Lee', odds: '5.00' }
+,
+{ name: 'Demarques Jackson', odds: '1.91' }
+,
+{ name: 'Mark Lemminger', odds: '1.91' }
+,
+{ name: 'Jason Jackson', odds: '1.41' }
+,
+{ name: 'Paul Daley', odds: '3.05' }
+,
+{ name: 'Ilara Joanne', odds: '4.60' }
+,
+{ name: 'Vanessa Porto', odds: '1.22' }
+,
+{ name: 'Justin Gonzales', odds: '1.83' }
+,
+{ name: 'Tywan Claxton', odds: '2.00' }
+,
+{ name: 'Bobby King', odds: '2.15' }
+,
+{ name: 'Nick Newell', odds: '1.74' }
+,
+{ name: 'Lucas Brennan', odds: '1.11' }
+,
+{ name: 'Matt Skibicki', odds: '7.00' }
+,
+{ name: 'Amanda Bell', odds: '1.83' }
+,
+{ name: 'Marina Mokhnatkina', odds: '2.00' }
+,
+{ name: 'Alex Polizzi', odds: '1.40' }
+,
+{ name: 'Gustavo Trujillo', odds: '3.10' }
+,
+{ name: 'Kyle Crutchmer', odds: '1.83' }
+,
+{ name: 'Levan Chokheli', odds: '2.00' }
+,
+{ name: 'Israel Adesanya', odds: '1.39' }
+,
+{ name: 'Marvin Vettori', odds: '3.15' }
+,
+{ name: 'Brandon Moreno', odds: '2.90' }
+,
+{ name: 'Deiveson Figueiredo', odds: '1.43' }
 ,
 { name: 'Leon Edwards', odds: '1.17' }
 ,
-{ name: 'Nate Diaz', odds: '5.1' }
+{ name: 'Nate Diaz', odds: '5.50' }
 ,
-{ name: 'Brandon Moreno', odds: '2.8' }
+{ name: 'Belal Muhammad', odds: '1.43' }
 ,
-{ name: 'Deiveson Figueiredo', odds: '1.4' }
+{ name: 'Demian Maia', odds: '2.90' }
 ,
-{ name: 'Israel Adesanya', odds: '1.36' }
+{ name: 'Jamahal Hill', odds: '1.36' }
 ,
-{ name: 'Marvin Vettori', odds: '3.2' }
+{ name: 'Paul Craig', odds: '3.40' }
 ,
-{ name: 'Chan-Sung Jung', odds: '1.85' }
+{ name: 'Brad Riddell', odds: '2.20' }
+,
+{ name: 'Drew Dober', odds: '1.71' }
+,
+{ name: 'Joanne Calderwood', odds: '1.69' }
+,
+{ name: 'Lauren Murphy', odds: '2.25' }
+,
+{ name: 'Hakeem Dawodu', odds: '2.95' }
+,
+{ name: 'Movsar Evloev', odds: '1.43' }
+,
+{ name: 'Darren Stewart', odds: '2.25' }
+,
+{ name: 'Eryk Anders', odds: '1.69' }
+,
+{ name: 'Carlos Felipe', odds: '1.59' }
+,
+{ name: 'Jake Collier', odds: '2.50' }
+,
+{ name: 'Chase Hooper', odds: '1.95' }
+,
+{ name: 'Steven Peterson', odds: '1.87' }
+,
+{ name: 'Fares Ziam', odds: '1.74' }
+,
+{ name: 'Luigi Vendramini', odds: '2.15' }
+,
+{ name: 'Alexis Davis', odds: '2.65' }
+,
+{ name: 'Pannie Kianzad', odds: '1.53' }
+,
+{ name: 'Chan Sung Jung', odds: '1.87' }
 ,
 { name: 'Dan Ige', odds: '1.95' }
 ,
-{ name: 'Aleksei Oleinik', odds: '2.9' }
+{ name: 'Dhiego Lima', odds: '1.63' }
 ,
-{ name: 'Sergey Spivak', odds: '1.44' }
+{ name: 'Matt Brown', odds: '2.40' }
 ,
-{ name: 'David Grant', odds: '3.4' }
+{ name: 'Davey Grant', odds: '3.40' }
 ,
-{ name: 'Marlon Vera', odds: '1.35' }
+{ name: 'Marlon Vera', odds: '1.36' }
 ,
-{ name: 'Dheigo Lima', odds: '1.58' }
+{ name: 'Tagir Ulanbekov', odds: '1.31' }
 ,
-{ name: 'Matt Brown', odds: '2.45' }
+{ name: 'Tyson Nam', odds: '3.60' }
 ,
-{ name: 'Danny Roberts', odds: '2.7' }
+{ name: 'Aleksei Oliynyk', odds: '2.75' }
 ,
-{ name: 'Tim Means', odds: '1.5' }
+{ name: 'Serghei Spivac', odds: '1.48' }
 ,
-{ name: 'Joaquim Silva', odds: '1.8' }
+{ name: 'Kanako Murata', odds: '2.30' }
 ,
-{ name: 'Rick Glenn', odds: '2.04' }
+{ name: 'Virna Jandiroba', odds: '1.67' }
 ,
 { name: 'Bruno Silva', odds: '1.69' }
 ,
 { name: 'Wellington Turman', odds: '2.25' }
 ,
-{ name: "Casey O'Neill", odds: '1.95' }
+{ name: 'Josh Parisian', odds: '1.67' }
 ,
-{ name: 'Lara Procopio', odds: '1.87' }
+{ name: 'Roque Martinez', odds: '2.30' }
 ,
-{ name: 'Khaos Williams', odds: '1.58' }
+{ name: 'Julian Erosa', odds: '2.20' }
 ,
-{ name: 'Matthew Lopez', odds: '2.42' }
+{ name: 'Seungwoo Choi', odds: '1.71' }
 ,
-{ name: 'Julian Erosa', odds: '2.15' }
+{ name: "Casey O'Neill", odds: '1.87' }
 ,
-{ name: 'Seung-Woo Choi', odds: '1.74' }
+{ name: 'Lara Procopio', odds: '1.95' }
 ,
-{ name: 'Anthony Hernandez', odds: '2.5' }
+{ name: 'Joaquim Silva', odds: '1.77' }
 ,
-{ name: 'Punahele Soriano', odds: '1.55' }
+{ name: 'Rick Glenn', odds: '2.10' }
 ,
-{ name: 'Damir Hadzovic', odds: '1.72' }
+{ name: 'Khaos Williams', odds: '1.59' }
 ,
-{ name: 'Yancy Medeiros', odds: '2.15' }
+{ name: 'Matthew Semelsberger', odds: '2.50' }
 ,
-{ name: 'Maxim Grishin', odds: '1.96' }
+{ name: 'Danny Roberts', odds: '2.70' }
+,
+{ name: 'Tim Means', odds: '1.50' }
+,
+{ name: 'Aleksa Camur', odds: '1.41' }
+,
+{ name: 'Nicolae Negumereanu', odds: '3.05' }
+,
+{ name: 'Alexander Volkov', odds: '2.40' }
+,
+{ name: 'Ciryl Gane', odds: '1.63' }
+,
+{ name: 'Su Mudaerji', odds: '1.63' }
+,
+{ name: 'Tim Elliott', odds: '2.40' }
+,
+{ name: 'Maxim Grishin', odds: '1.95' }
 ,
 { name: 'Ovince St. Preux', odds: '1.87' }
 ,
-{ name: 'Su Mudaerji', odds: '1.61' }
+{ name: 'Danilo Marques', odds: '1.59' }
 ,
-{ name: 'Tim Elliott', odds: '2.36' }
+{ name: 'Ed Herman', odds: '2.50' }
 ,
-{ name: 'Danilo Marques', odds: '1.61' }
+{ name: 'Michel Prazeres', odds: '2.70' }
 ,
-{ name: 'Ed Herman', odds: '2.36' }
+{ name: 'Shavkat Rakhmonov', odds: '1.50' }
 ,
-{ name: 'Michel Prazeres', odds: '2.5' }
+{ name: 'Charles Rosa', odds: '1.63' }
 ,
-{ name: 'Shavkat Rakhmonov', odds: '1.55' }
-,
-{ name: 'Charles Rosa', odds: '1.6' }
-,
-{ name: 'Justin Jaynes', odds: '2.38' }
+{ name: 'Justin Jaynes', odds: '2.40' }
 ,
 { name: 'Raoni Barcelos', odds: '1.43' }
 ,
-{ name: 'Timur Valiev', odds: '2.88' }
+{ name: 'Timur Valiev', odds: '2.90' }
 ,
-{ name: 'Ramazan Emeev', odds: '1.72' }
+{ name: 'Ramazan Emeev', odds: '1.67' }
 ,
-{ name: 'Warlley Alves', odds: '2.15' }
+{ name: 'Warlley Alves', odds: '2.30' }
 ,
-{ name: 'Jai Herbert', odds: '2.88' }
+{ name: 'Isaac Villanueva', odds: '2.75' }
 ,
-{ name: 'Renato Moicano', odds: '1.43' }
+{ name: 'Marcin Prachnio', odds: '1.48' }
 ,
-{ name: 'Ike Villanueva', odds: '2.8' }
+{ name: 'Jai Herbert', odds: '3.15' }
 ,
-{ name: 'Marcin Prachnio', odds: '1.45' }
+{ name: 'Renato Moicano', odds: '1.39' }
 ,
-{ name: 'Alexander Volkov', odds: '2.35' }
+{ name: 'Damir Hadzovic', odds: '1.67' }
 ,
-{ name: 'Ciryl Gane', odds: '1.64' }
+{ name: 'Yancy Medeiros', odds: '2.30' }
 ,
 { name: 'Conor McGregor', odds: '1.87' }
 ,
-{ name: 'Dustin Poirier', odds: '1.91' }
+{ name: 'Dustin Poirier', odds: '1.95' }
 ,
-{ name: 'Gilbert Burns', odds: '2.1' }
+{ name: 'Gilbert Burns', odds: '2.10' }
 ,
-{ name: 'Stephen Thompson', odds: '1.76' }
+{ name: 'Stephen Thompson', odds: '1.77' }
 ,
-{ name: 'Max Holloway', odds: '1.25' }
+{ name: 'Jennifer Maia', odds: '1.53' }
 ,
-{ name: 'Yair Rodriguez', odds: '4.1' }
+{ name: 'Jessica Eye', odds: '2.65' }
 ,
-{ name: 'Cory Sandhagen', odds: '1.61' }
+{ name: 'Max Holloway', odds: '1.23' }
 ,
-{ name: 'T.J. Dillashaw', odds: '2.36' }
+{ name: 'Yair Rodriguez', odds: '4.25' }
 ,
-{ name: 'José Aldo', odds: '1.72' }
+{ name: 'Alan Baudot', odds: '3.75' }
 ,
-{ name: 'Pedro Munhoz', odds: '2.15' }
+{ name: 'Rodrigo Nascimento', odds: '1.27' }
 ,
-{ name: 'Amanda Nunes', odds: '1.14' }
+{ name: 'Maycee Barber', odds: '2.30' }
 ,
-{ name: 'Julianna Pena', odds: '6' }
+{ name: 'Miranda Maverick', odds: '1.67' }
 ,
-{ name: 'Darren Till', odds: '1.72' }
+{ name: 'Amanda Nunes', odds: '1.13' }
 ,
-{ name: 'Derek Brunson', odds: '2.15' }
+{ name: 'Julianna Pena', odds: '6.25' }
 ,
-{ name: 'Jared Cannonier', odds: '1.42' }
-,
-{ name: 'Kelvin Gastelum', odds: '2.95' }
-,
-{ name: 'Glover Teixeira', odds: '3.1' }
+{ name: 'Glover Teixeira', odds: '3.00' }
 ,
 { name: 'Jan Blachowicz', odds: '1.38' }
-,
-{ name: 'Johnny Walker', odds: '2.32' }
-,
-{ name: 'Thiago Santos', odds: '1.62' }
-,
-{ name: 'Francis Ngannou', odds: '1.53' }
-,
-{ name: 'Jon Jones', odds: '2.55' }
 ,
 ]
