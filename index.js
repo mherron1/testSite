@@ -504,6 +504,12 @@ function generateCard(i, arg) {
   } else if (i > events.length - 1) {
     i = 0;
   }
+
+  let broadcastStyle = "";
+  if (events[i][6].length < 2) {
+    broadcastStyle = "style = 'background-color: transparent;'";
+  }
+
   let content = document.querySelector(`#content${arg}`);
   content.innerHTML = `
 <h2 style="background-color:none" id="mainHeader${arg}"></h2>
@@ -523,7 +529,7 @@ function generateCard(i, arg) {
 <br>
 
 <div id="footerDiv">
-<div id="broadcastInfo"> ${events[i][6]}</div>
+<div id="broadcastInfo" ${broadcastStyle}> ${events[i][6]}</div>
 
   <p><a href="mailto:mmafightcards.org@gmail.com">Contact</a></p>
     </div>
