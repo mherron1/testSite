@@ -251,10 +251,6 @@ let odds = [
 ,
 { name: 'Stephen Thompson', odds: '1.77' }
 ,
-{ name: 'Jennifer Maia', odds: '1.53' }
-,
-{ name: 'Jessica Eye', odds: '2.65' }
-,
 { name: 'Max Holloway', odds: '1.23' }
 ,
 { name: 'Yair Rodriguez', odds: '4.25' }
