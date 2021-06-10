@@ -1146,7 +1146,7 @@ li span {
   max-width: 100%;
   background: #000;
   margin: 0px;
-  box-shadow: 0px 0px 5px 0px #838383;
+  box-shadow: 0px 0px 5px 0px #353535;
 }
 
 .youtube-player iframe {
@@ -1296,7 +1296,7 @@ h4:hover {
   font-size: 0.9rem;
   margin-left: 50%;
   transform: translateX(-50%);
-  background-color: #f1f1f1;
+  background-color: #e7e7e7;
   border-radius: 0px;
   padding: 8px;
   padding-left: 7px;
