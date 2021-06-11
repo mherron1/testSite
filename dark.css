@@ -596,7 +596,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-@media only screen and (max-width: 405px) {
+@media only screen and (max-width: 475px) {
   #mainTime,
   #mainTimeMinus1,
   #mainTimePlus1 {
@@ -605,7 +605,7 @@ input:checked + .slider:before {
   #mainCard,
   #mainCardMinus1,
   #mainCardPlus1 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   #prelisTime,
   #prelisTimeMinus1,
@@ -615,7 +615,7 @@ input:checked + .slider:before {
   #prelimsCard,
   #prelimsCardMinus1,
   #prelimsCardPlus1 {
-    font-size: 1.05rem;
+    font-size: 0.9rem;
   }
   #eventList {
     font-size: 1.1rem;
