@@ -2121,70 +2121,6 @@ let data = [
 "5",
 "ESPN 2 | Prelims: ESPN+"
 ],
-["ONE Championship",
-1622248200000,
-'',
-[
-  {
-    fighterA: 'Saemapetch Fairtex ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/217179-saemapetch-fairtex',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '145',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' K. Sor Jor Piek-U-Thai'
-  },
-  {
-    fighterA: 'Wei Xie ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/153595-wei-xie',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '135',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' K. Agasa'
-  },
-  {
-    fighterA: 'Miles Simson ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/245492-miles-simson-the-punisher',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '185',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Santino Verbeek'
-  },
-  {
-    fighterA: 'Edward Kelly ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/49914-edward-kelly',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '155',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Ahmed Faress'
-  },
-  {
-    fighterA: 'Anthony Do ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/62297-anthony-do',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '127',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Hui Liang'
-  }
-]
-,"ONE Championship",
-"0",
-"Internet Stream"
-],
 ["Professional Fighters League",
 1623965400000,
 '',
@@ -2459,48 +2395,48 @@ let data = [
 '',
 [
   {
-    fighterA: 'M. Petchyindee',
+    fighterA: 'M. Petchyindee ',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/234461-mongkolpetch',
-    rankA: '#4',
+    rankA: '#n/a',
     recordA: '',
     weight: '138',
-    recordB: ' Bonneuil-sur-M., FR',
-    rankB: '#13',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/208716-elias-mahmoudi-the-sniper',
-    fighterB: 'Elias Mahmoudi'
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Elias Mahmoudi'
   },
   {
-    fighterA: 'Ben Wilhelm',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/193733-ben-wilhelm',
+    fighterA: 'Tsogookhuu Amarsanaa ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/127190-sugofu-agchamar',
     rankA: '#n/a',
-    recordA: '4-0-0 ',
+    recordA: '',
     weight: '170',
-    recordB: ' 5-2-0',
+    recordB: '',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/127190-sugofu-agchamar',
-    fighterB: 'Tsogookhuu Amarsanaa'
+    fighterBLink: null,
+    fighterB: ' Ben Wilhelm'
   },
   {
-    fighterA: 'Jia Wen Ma',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/105594-jia-wen-ma',
+    fighterA: 'Chang Min Yoon ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/85027-chang-min-yoon',
     rankA: '#n/a',
-    recordA: '6-3-0 ',
+    recordA: '',
     weight: '155',
-    recordB: ' 4-1-0',
+    recordB: '',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/85027-chang-min-yoon',
-    fighterB: 'Chang Min Yoon'
+    fighterBLink: null,
+    fighterB: ' Jia Wen Ma'
   },
   {
-    fighterA: 'Wenfeng Wang',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/79167-wenfeng-wang',
+    fighterA: 'Taiki Naito ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/153314-taiki-naito',
     rankA: '#n/a',
     recordA: '',
     weight: '135',
     recordB: '',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/153314-taiki-naito',
-    fighterB: 'Taiki Naito'
+    fighterBLink: null,
+    fighterB: ' Wenfeng Wang'
   }
 ]
 ,"ONE Championship",

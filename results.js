@@ -169,37 +169,29 @@ let resultsList = [
     b_Link: "https://www.tapology.com/fightcenter/fighters/52606-alfie-davies",
   },
   {
-    winner: "Saemapetch Fairtex ",
-    method: "ko/tko",
-    time: "2:07 Round 1",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/234463-kulabdam-sor-jor-piek-uthai-left-meteorite",
-  },
-  {
-    winner: "Wei Xie ",
-    method: "ko/tko",
-    time: "5:00 Round 2",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/106818-kantharaj-shankar",
-  },
-  {
-    winner: "Miles Simson ",
+    winner: "M. Petchyindee ",
     method: "decision",
     time: "3 Rounds",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/234457-santino-verbeek",
+      "https://www.tapology.com/fightcenter/fighters/208716-elias-mahmoudi-the-sniper",
   },
   {
-    winner: "Edward Kelly ",
+    winner: "Tsogookhuu Amarsanaa ",
     method: "decision",
     time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/88931-ahmed-faris",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/193733-ben-wilhelm",
   },
   {
-    winner: "Anthony Do ",
+    winner: "Chang Min Yoon ",
     method: "submission",
-    time: "3:55 Round 2",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/153596-hui-liang",
+    time: "1:46 Round 1",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/105594-jia-wen-ma",
+  },
+  {
+    winner: "Taiki Naito ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/79167-wenfeng-wang",
   },
   {
     winner: "Claressa Shields ",

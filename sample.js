@@ -775,6 +775,12 @@ let ufcRankings = [
 let nowEpochX = new Date().getTime();
 
 data.forEach((event) => {
+  //tempFix
+
+  if (event[1] === 1623457800000) {
+    event[1] = new Date(2021, 05, 11, 12, 30, 00).getTime();
+  }
+
   if (new Date(event[1]) - nowEpochX < 0) {
     event[3].forEach((bout) => {
       resultsList.forEach((res) => {

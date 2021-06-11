@@ -18,7 +18,6 @@ let events = [
   "https://www.tapology.com/fightcenter/events/78542-bellator-260",
   "https://www.tapology.com/fightcenter/events/79075-bellator-261",
   "https://www.tapology.com/fightcenter/events/73517-pfl-2021-4",
-  "https://www.tapology.com/fightcenter/events/79370-one-championship-full-blast",
   "https://www.tapology.com/fightcenter/events/73518-pfl-2021-5",
   "https://www.tapology.com/fightcenter/events/79368-bellator-262-velasquez-vs-kielholtz",
   "https://www.tapology.com/fightcenter/events/73519-pfl-2021-6",

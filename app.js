@@ -82,6 +82,12 @@ let times = [
     videos: ["b7CotB8o_tg"],
   },
 ];
+//tempFix
+data.forEach((event) => {
+  if (event[1] === 1623457800000) {
+    event[1] = new Date(2021, 05, 11, 12, 30, 00).getTime();
+  }
+});
 
 let data2 = data.sort((a, b) => {
   return a[1] - b[1];
