@@ -127,6 +127,14 @@ function create() {
 ////////////////////////////////  End of card function
 
 function next() {
+  let sideNav = document.querySelector("#sideNav");
+  if (sideNav.style.width === "325px") {
+    $("#hamburger-1").toggleClass("is-active");
+    eventList.innerHTML = ``;
+    sideNav.style.width = "0%";
+    $("#dim").fadeOut(200);
+  }
+
   if (notLast) {
     i++;
     if (i === events.length) {
@@ -137,6 +145,14 @@ function next() {
   }
 }
 function back() {
+  let sideNav = document.querySelector("#sideNav");
+  if (sideNav.style.width === "325px") {
+    $("#hamburger-1").toggleClass("is-active");
+    eventList.innerHTML = ``;
+    sideNav.style.width = "0%";
+    $("#dim").fadeOut(200);
+  }
+
   if (notFirst) {
     i--;
     if (i < 0) {
