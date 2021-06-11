@@ -19,11 +19,11 @@ let assets = [
 
 let times = [
   {
-    date: "may28",
+    date: "jun11",
     promo: "ONE Championship",
-    time: new Date(2021, 04, 28, 12, 30, 00),
-    prelims: new Date(2021, 04, 28, 12, 30, 00),
-    videos: ["nv_7tPm4MFU"],
+    time: new Date(2021, 05, 11, 12, 30, 00),
+    prelims: new Date(2021, 05, 11, 12, 30, 00),
+    videos: [],
   },
   {
     date: "may21",
@@ -52,6 +52,13 @@ let times = [
     time: new Date(2021, 05, 11, 02, 00, 00),
     prelims: new Date(2021, 05, 10, 23, 00, 00),
     videos: ["bBqUoDGvL3E"],
+  },
+  {
+    date: "jun11",
+    promo: "Bellator MMA",
+    time: new Date(2021, 05, 12, 01, 00, 00),
+    prelims: new Date(2021, 05, 11, 22, 00, 00),
+    videos: [],
   },
   {
     date: "jun12",
