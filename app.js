@@ -72,7 +72,7 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: false,
     prelims: false,
-    videos: ["Of1Rp3iPpX0"],
+    videos: ["HZhklqDQ4EY"],
   },
   {
     date: "jul17",
@@ -80,6 +80,13 @@ let times = [
     time: false,
     prelims: false,
     videos: ["b7CotB8o_tg"],
+  },
+  {
+    date: "jun19",
+    promo: "Ultimate Fighting Championship",
+    time: false,
+    prelims: false,
+    videos: ["hiHD_j4n-fY"],
   },
 ];
 //tempFix
