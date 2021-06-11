@@ -551,7 +551,7 @@ input:checked + .slider:before {
   #mainCard,
   #mainCardMinus1,
   #mainCardPlus1 {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   #prelisTime,
   #prelisTimeMinus1,
@@ -561,7 +561,7 @@ input:checked + .slider:before {
   #prelimsCard,
   #prelimsCardMinus1,
   #prelimsCardPlus1 {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   #eventList {
     font-size: 1.1rem;
