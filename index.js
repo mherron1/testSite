@@ -805,8 +805,8 @@ function generateCard(i, arg) {
             } else {
               colorA = "green";
               colorB = "green";
-              rightOdds = "-110";
-              leftOdds = "-110";
+              rightOdds = "1.95";
+              leftOdds = "1.95";
             }
           }
         }
@@ -947,8 +947,8 @@ function generateCard(i, arg) {
             } else {
               colorA = "green ";
               colorB = "green ";
-              rightOdds = "-110";
-              leftOdds = "-110";
+              rightOdds = "1.95";
+              leftOdds = "1.95";
             }
           }
         }
