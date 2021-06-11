@@ -786,10 +786,10 @@ function generateCard(i, arg) {
               leftOdds = "+" + parseInt((leftOdds - 1) * 100);
               rightOdds = parseInt(-100 / (rightOdds - 1));
             } else {
-              colorA = "skyblue";
-              colorB = "skyblue";
-              rightOdds = "EVS";
-              leftOdds = "EVS";
+              colorA = "green ";
+              colorB = "green ";
+              rightOdds = "-110";
+              leftOdds = "-110";
             }
             if (leftOdds === 100 || leftOdds === "100") {
               leftOdds = "";
@@ -803,10 +803,10 @@ function generateCard(i, arg) {
             } else if (leftOdds > rightOdds && leftOdds >= 2) {
               colorA = "#CD5C5C";
             } else {
-              colorA = "#6082B6";
-              colorB = "#6082B6";
-              rightOdds = "EVS";
-              leftOdds = "EVS";
+              colorA = "green";
+              colorB = "green";
+              rightOdds = "-110";
+              leftOdds = "-110";
             }
           }
         }
@@ -928,10 +928,10 @@ function generateCard(i, arg) {
               leftOdds = "+" + parseInt((leftOdds - 1) * 100);
               rightOdds = parseInt(-100 / (rightOdds - 1));
             } else {
-              colorA = "skyblue";
-              colorB = "skyblue";
-              rightOdds = "EVS";
-              leftOdds = "EVS";
+              colorA = "green ";
+              colorB = "green ";
+              rightOdds = "-110";
+              leftOdds = "-110";
             }
             if (leftOdds === 100 || leftOdds === "100") {
               leftOdds = "";
@@ -945,10 +945,10 @@ function generateCard(i, arg) {
             } else if (leftOdds > rightOdds && leftOdds >= 2) {
               colorA = "#CD5C5C";
             } else {
-              colorA = "skyblue";
-              colorB = "skyblue";
-              rightOdds = "EVS";
-              leftOdds = "EVS";
+              colorA = "green ";
+              colorB = "green ";
+              rightOdds = "-110";
+              leftOdds = "-110";
             }
           }
         }
