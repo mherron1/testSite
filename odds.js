@@ -153,8 +153,6 @@ let odds = [
   { name: "Dustin Poirier", odds: "1.95" },
   { name: "Gilbert Burns", odds: "2.10" },
   { name: "Stephen Thompson", odds: "1.77" },
-  { name: "Jennifer Maia", odds: "1.53" },
-  { name: "Jessica Eye", odds: "2.65" },
   { name: "Max Holloway", odds: "1.23" },
   { name: "Yair Rodriguez", odds: "4.25" },
   { name: "Alan Baudot", odds: "3.75" },
