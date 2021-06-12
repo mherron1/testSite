@@ -626,7 +626,7 @@ input:checked + .slider:before {
   .eventLink {
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
-    padding-top: 8px;
+    padding-top: 12px;
     padding-bottom: 4px;
     box-sizing: content-box;
   }
