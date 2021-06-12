@@ -577,12 +577,12 @@ input:checked + .slider:before {
     box-sizing: content-box;
   }
   .setting {
-    font-size: 1.1rem;
-    padding: 9px;
+    font-size: 1.2rem;
+    padding: 12px;
     margin-left: 15px;
   }
   .switch {
-    transform: scale(1.1);
+    transform: scale(1.2);
     margin-right: 30px;
   }
 
@@ -830,12 +830,12 @@ li span {
     box-sizing: content-box;
   }
   .setting {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 9px;
     margin-left: 15px;
   }
   .switch {
-    transform: scale(0.9);
+    transform: scale(1);
     margin-right: 30px;
   }
   .eventLink {
@@ -848,7 +848,7 @@ li span {
   }
 
   #settingsHeader {
-    margin-top: 45px;
+    margin-top: 80px;
     margin-bottom: 20px;
     width: 100%;
     text-align: center;
