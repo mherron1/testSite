@@ -9,6 +9,7 @@ let assets = [
   "jun10.jpg",
   "jun11.jpg",
   "jun12.jpg",
+  "jun17.jpg",
   "jun19.jpg",
   "jun26.jpg",
   "jul10.jpg",
@@ -18,27 +19,6 @@ let assets = [
 ];
 
 let times = [
-  {
-    date: "jun11",
-    promo: "ONE Championship",
-    time: new Date(2021, 05, 11, 12, 30, 00),
-    prelims: new Date(2021, 05, 11, 12, 30, 00),
-    videos: [],
-  },
-  {
-    date: "may21",
-    promo: "Bellator MMA",
-    time: new Date(2021, 04, 22, 01, 00, 00),
-    prelims: new Date(2021, 04, 21, 22, 00, 00),
-    videos: ["EPGP6ddJs70"],
-  },
-  {
-    date: "may22",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2021, 04, 22, 23, 00, 00),
-    prelims: new Date(2021, 04, 22, 20, 00, 00),
-    videos: ["OH_fMnfYqpY"],
-  },
   {
     date: "jun05",
     promo: "Ultimate Fighting Championship",
@@ -55,6 +35,13 @@ let times = [
   },
   {
     date: "jun11",
+    promo: "ONE Championship",
+    time: new Date(2021, 05, 11, 12, 30, 00),
+    prelims: new Date(2021, 05, 11, 12, 30, 00),
+    videos: [],
+  },
+  {
+    date: "jun11",
     promo: "Bellator MMA",
     time: new Date(2021, 05, 12, 01, 00, 00),
     prelims: new Date(2021, 05, 11, 22, 00, 00),
@@ -66,6 +53,27 @@ let times = [
     time: new Date(2021, 05, 13, 02, 00, 00),
     prelims: new Date(2021, 05, 12, 22, 30, 00),
     videos: ["RA7DcV5SRgQ"],
+  },
+  {
+    date: "jun17",
+    promo: "Professional Fighters League",
+    time: new Date(2021, 05, 18, 01, 00, 00),
+    prelims: new Date(2021, 05, 17, 21, 30, 00),
+    videos: ["hiHD_j4n-fY"],
+  },
+  {
+    date: "jun19",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2021, 05, 19, 23, 00, 00),
+    prelims: new Date(2021, 05, 19, 20, 00, 00),
+    videos: ["hiHD_j4n-fY"],
+  },
+  {
+    date: "jun25",
+    promo: "Bellator MMA",
+    time: new Date(2021, 05, 26, 01, 00, 00),
+    prelims: new Date(2021, 05, 25, 22, 00, 00),
+    videos: ["hiHD_j4n-fY"],
   },
   {
     date: "jul10",
@@ -80,13 +88,6 @@ let times = [
     time: false,
     prelims: false,
     videos: ["b7CotB8o_tg"],
-  },
-  {
-    date: "jun19",
-    promo: "Ultimate Fighting Championship",
-    time: false,
-    prelims: false,
-    videos: ["hiHD_j4n-fY"],
   },
 ];
 //tempFix
