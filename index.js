@@ -408,6 +408,7 @@ const touchEnd = (evt) => {
     content1.style.left = 0;
     content1.classList.add("notransition");
     contentPlus1.style.display = "none";
+    contentMinus1.style.display = "none";
   } else if (changeX > 0 && notLast) {
     content1.style.transition = "all .2s";
     content1.style.left = "-102%";
