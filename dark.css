@@ -1353,10 +1353,9 @@ h4:hover {
 }
 
 .donBtn {
-  position: absolute;
-  bottom: 110px;
-  left: 50%;
-  transform: translateX(-50%) scale(1.2);
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
 }
 
 @media only screen and (min-width: 1000px) {
