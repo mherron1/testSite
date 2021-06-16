@@ -1316,6 +1316,6 @@ h4:hover {
     bottom: 15px;
     left: 30px;
     transform: scale(1);
-    filter: grayscale(100%);
+    filter: grayscale(50%);
   }
 }
