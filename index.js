@@ -1247,9 +1247,9 @@ function showShareButtons() {
     sharingBtns.style.display = "none";
   } else {
     sharingBtns.style.display = "block";
-    setTimeout(() => {
+    /*setTimeout(() => {
       sharingBtns.style.display = "none";
-    }, 5000);
+    }, 5000);*/
   }
 }
 
