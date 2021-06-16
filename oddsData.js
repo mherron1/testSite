@@ -1,378 +1,90 @@
 let obj = [
   {
-    "5Dimes": "Douglas Lima",
-    BetWay: "-110",
+    "5Dimes": "Gleison Tibau",
+    BetWay: "600",
   },
   {
-    "5Dimes": "Yaroslav Amosov",
-    BetWay: "-110",
+    "5Dimes": "Rory Macdonald",
+    BetWay: "-1050",
   },
   {
-    "5Dimes": "Jason Jackson",
-    BetWay: "-305",
+    "5Dimes": "Nikolay Aleksakhin",
+    BetWay: "-160",
   },
   {
-    "5Dimes": "Paul Daley",
-    BetWay: "253",
+    "5Dimes": "Ray Cooper III",
+    BetWay: "130",
   },
   {
-    "5Dimes": "Aaron Pico",
-    BetWay: "-670",
+    "5Dimes": "Dan Spohn",
+    BetWay: "310",
   },
   {
-    "5Dimes": "Aiden Lee",
-    BetWay: "485",
+    "5Dimes": "Emiliano Sordi",
+    BetWay: "-400",
   },
   {
-    "5Dimes": "Demarques Jackson",
-    BetWay: "110",
-  },
-  {
-    "5Dimes": "Mark Lemminger",
-    BetWay: "-130",
-  },
-  {
-    "5Dimes": "Kyle Crutchmer",
-    BetWay: "-165",
-  },
-  {
-    "5Dimes": "Levan Chokheli",
-    BetWay: "145",
-  },
-  {
-    "5Dimes": "Justin Gonzales",
-    BetWay: "-140",
-  },
-  {
-    "5Dimes": "Tywan Claxton",
-    BetWay: "120",
-  },
-  {
-    "5Dimes": "Bobby King",
-    BetWay: "-105",
-  },
-  {
-    "5Dimes": "Nick Newell",
-    BetWay: "-115",
-  },
-  {
-    "5Dimes": "Lucas Brennan",
-    BetWay: "-1250",
-  },
-  {
-    "5Dimes": "Matt Skibicki",
-    BetWay: "800",
-  },
-  {
-    "5Dimes": "Amanda Bell",
-    BetWay: "-135",
-  },
-  {
-    "5Dimes": "Marina Mokhnatkina",
-    BetWay: "115",
-  },
-  {
-    "5Dimes": "Alex Polizzi",
-    BetWay: "-230",
-  },
-  {
-    "5Dimes": "Gustavo Trujillo",
-    BetWay: "190",
-  },
-  {
-    "5Dimes": "Last change: 58 min ago",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "ACA 124: GALIEV VS. BATISTAJune 11th",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "5Dimes",
-  },
-  {
-    "5Dimes": "Herdeson Batista",
-    BetWay: "-250",
-  },
-  {
-    "5Dimes": "Vener Galiev",
-    BetWay: "190",
-  },
-  {
-    "5Dimes": "Murad Kalamov",
-    BetWay: "-215",
-  },
-  {
-    "5Dimes": "Walter Pereira Jr",
-    BetWay: "170",
-  },
-  {
-    "5Dimes": "Amirkhan Guliev",
-    BetWay: "-675",
-  },
-  {
-    "5Dimes": "Roman Gudochkin",
-    BetWay: "450",
-  },
-  {
-    "5Dimes": "Alan Gomes",
-    BetWay: "100",
-  },
-  {
-    "5Dimes": "Lenar Suleymanov",
-    BetWay: "-130",
-  },
-  {
-    "5Dimes": "Makharbek Karginov",
-    BetWay: "-185",
-  },
-  {
-    "5Dimes": "Nikita Chistyakov",
-    BetWay: "155",
-  },
-  {
-    "5Dimes": "Abubakar Mestoev",
-    BetWay: "-215",
-  },
-  {
-    "5Dimes": "Egor Golubtsov",
-    BetWay: "170",
-  },
-  {
-    "5Dimes": "Akhmed Musakaev",
-    BetWay: "-150",
-  },
-  {
-    "5Dimes": "Mukhitdin Kholov",
-    BetWay: "120",
-  },
-  {
-    "5Dimes": "Denis Silva",
-    BetWay: "160",
-  },
-  {
-    "5Dimes": "Pavel Gordeev",
-    BetWay: "-195",
-  },
-  {
-    "5Dimes": "Altynbek Mamashev",
-    BetWay: "-115",
-  },
-  {
-    "5Dimes": "Vasily Kurochkin",
-    BetWay: "-115",
-  },
-  {
-    "5Dimes": "Aslan Shogov",
-    BetWay: "-175",
-  },
-  {
-    "5Dimes": "Osimkhon Rakhmonov",
-    BetWay: "145",
-  },
-  {
-    "5Dimes": "Arseniy Yatsynov",
-    BetWay: "160",
-  },
-  {
-    "5Dimes": "Sergey Yakovlev",
-    BetWay: "-195",
-  },
-  {
-    "5Dimes": "Last change: 11 hr 18 min ago",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "UWC MEXICO 27: TORRES VS. CANADAJune 11th",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "5Dimes",
-  },
-  {
-    "5Dimes": "Carlos Canada",
-    BetWay: "260",
-  },
-  {
-    "5Dimes": "Manuel Torres",
-    BetWay: "-350",
-  },
-  {
-    "5Dimes": "Aaroon Canarte",
+    "5Dimes": "Cezar Ferreira",
     BetWay: "-325",
   },
   {
-    "5Dimes": "Alexander Barahona",
+    "5Dimes": "Chris Camozzi",
     BetWay: "250",
   },
   {
-    "5Dimes": "Braian Gonzalez",
-    BetWay: "-205",
-  },
-  {
-    "5Dimes": "Paul Marquez",
-    BetWay: "165",
-  },
-  {
-    "5Dimes": "Guilherme Antunes",
-    BetWay: "-270",
-  },
-  {
-    "5Dimes": "Patrick Faeh",
-    BetWay: "210",
-  },
-  {
-    "5Dimes": "Manuel Reyna",
-    BetWay: "200",
-  },
-  {
-    "5Dimes": "Santiago Prieto",
-    BetWay: "-260",
-  },
-  {
-    "5Dimes": "David Enriquez",
-    BetWay: "280",
-  },
-  {
-    "5Dimes": "Rene Hernandez",
-    BetWay: "-370",
-  },
-  {
-    "5Dimes": "Last change: 1 hr 17 min ago",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "UFC 263: ADESANYA VS. VETTORI 2June 12th",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "5Dimes",
-  },
-  {
-    "5Dimes": "Israel Adesanya",
-    BetWay: "-235",
-  },
-  {
-    "5Dimes": "Marvin Vettori",
-    BetWay: "215",
-  },
-  {
-    "5Dimes": "Brandon Moreno",
-    BetWay: "177",
-  },
-  {
-    "5Dimes": "Deiveson Figueiredo",
-    BetWay: "-192",
-  },
-  {
-    "5Dimes": "Leon Edwards",
-    BetWay: "-545",
-  },
-  {
-    "5Dimes": "Nate Diaz",
-    BetWay: "465",
-  },
-  {
-    "5Dimes": "Belal Muhammad",
-    BetWay: "-215",
-  },
-  {
-    "5Dimes": "Demian Maia",
-    BetWay: "195",
-  },
-  {
-    "5Dimes": "Jamahal Hill",
+    "5Dimes": "Antonio Carlos Junior",
     BetWay: "-255",
   },
   {
-    "5Dimes": "Paul Craig",
-    BetWay: "235",
+    "5Dimes": "Vinicius Magalhaes",
+    BetWay: "195",
   },
   {
-    "5Dimes": "Brad Riddell",
-    BetWay: "130",
+    "5Dimes": "Cory Hendricks",
+    BetWay: "190",
   },
   {
-    "5Dimes": "Drew Dober",
-    BetWay: "-140",
+    "5Dimes": "Marthin Hamlet",
+    BetWay: "-250",
   },
   {
-    "5Dimes": "Darren Stewart",
-    BetWay: "130",
+    "5Dimes": "Jason Ponet",
+    BetWay: "310",
   },
   {
-    "5Dimes": "Eryk Anders",
-    BetWay: "-140",
+    "5Dimes": "Joao Zeferino",
+    BetWay: "-400",
   },
   {
-    "5Dimes": "Hakeem Dawodu",
-    BetWay: "200",
+    "5Dimes": "Curtis Millender",
+    BetWay: "700",
   },
   {
-    "5Dimes": "Movsar Evloev",
-    BetWay: "-220",
+    "5Dimes": "Magomed Magomedkerimov",
+    BetWay: "-1300",
   },
   {
-    "5Dimes": "Joanne Calderwood",
-    BetWay: "-125",
+    "5Dimes": "Jordan Young",
+    BetWay: "-390",
   },
   {
-    "5Dimes": "Lauren Murphy",
-    BetWay: "115",
+    "5Dimes": "Tom Lawlor",
+    BetWay: "300",
   },
   {
-    "5Dimes": "Alexis Davis",
-    BetWay: "180",
+    "5Dimes": "Aleksei Kunchenko",
+    BetWay: "-165",
   },
   {
-    "5Dimes": "Pannie Kianzad",
-    BetWay: "-195",
+    "5Dimes": "Sadibou Sy",
+    BetWay: "135",
   },
   {
-    "5Dimes": "Chase Hooper",
-    BetWay: "105",
-  },
-  {
-    "5Dimes": "Steven Peterson",
-    BetWay: "-115",
-  },
-  {
-    "5Dimes": "Matt Frevola",
-    BetWay: "-205",
-  },
-  {
-    "5Dimes": "Terrance McKinney",
-    BetWay: "188",
-  },
-  {
-    "5Dimes": "Fares Ziam",
-    BetWay: "-120",
-  },
-  {
-    "5Dimes": "Luigi Vendramini",
-    BetWay: "110",
-  },
-  {
-    "5Dimes": "Carlos Felipe",
-    BetWay: "-160",
-  },
-  {
-    "5Dimes": "Jake Collier",
-    BetWay: "150",
-  },
-  {
-    "5Dimes": "Event props",
+    "5Dimes": "Last change: 6 min ago",
     BetWay: "",
   },
   {
-    "5Dimes": "Last change: < 1 min ago",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "EFC 86June 12th",
+    "5Dimes": "AMC 102June 18th",
     BetWay: "",
   },
   {
@@ -380,91 +92,223 @@ let obj = [
     BetWay: "5Dimes",
   },
   {
-    "5Dimes": "Alain Ilunga",
-    BetWay: "-265",
-  },
-  {
-    "5Dimes": "Anicet Kanyeba",
-    BetWay: "205",
-  },
-  {
-    "5Dimes": "Robert Simbowe",
-    BetWay: "200",
-  },
-  {
-    "5Dimes": "Rocky Ilunga",
-    BetWay: "-260",
-  },
-  {
-    "5Dimes": "August Kayambala",
-    BetWay: "-365",
-  },
-  {
-    "5Dimes": "Warren Richards",
-    BetWay: "275",
-  },
-  {
-    "5Dimes": "Elvis Ngwalangwala",
-    BetWay: "160",
-  },
-  {
-    "5Dimes": "Tapiwa Katikati",
-    BetWay: "-195",
-  },
-  {
-    "5Dimes": "Jean-Marie Kabeya",
-    BetWay: "265",
-  },
-  {
-    "5Dimes": "Shannon van Tonder",
-    BetWay: "-355",
-  },
-  {
-    "5Dimes": "Igeu Kabesa",
-    BetWay: "-260",
-  },
-  {
-    "5Dimes": "Reinaldo Ekson",
-    BetWay: "200",
-  },
-  {
-    "5Dimes": "Matunga Djikasa",
-    BetWay: "-120",
-  },
-  {
-    "5Dimes": "Ricky Misholas",
-    BetWay: "-110",
-  },
-  {
-    "5Dimes": "Gian Souza",
-    BetWay: "-120",
-  },
-  {
-    "5Dimes": "Luthando Biko",
-    BetWay: "-110",
-  },
-  {
-    "5Dimes": "Francois Cundari",
-    BetWay: "375",
-  },
-  {
-    "5Dimes": "Mzwandile Hlongwa",
-    BetWay: "-515",
-  },
-  {
-    "5Dimes": "Adrian Sanchez",
-    BetWay: "-160",
-  },
-  {
-    "5Dimes": "Roderique Kena",
-    BetWay: "130",
-  },
-  {
-    "5Dimes": "Last change: 3 hr 1 min ago",
+    "5Dimes": "Ilya Gunenko",
     BetWay: "",
   },
   {
-    "5Dimes": "UFC ON ESPN 25: KOREAN ZOMBIE VS. IGEJune 19th",
+    "5Dimes": "Viktor Vecherin",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Armen Petrosyan",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Hasan Yousefi",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Edgar Sargsyan",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Gusein Gadzhiev",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Makhmud Gaziev",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Maxim Butorin",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Dalgat Magomedragimov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Gennady Karnaukhov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Andrey Laptev",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Zayundin Suleymanov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Konstantin Podoynitsin",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Magerram Gasanzade",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Mikhail Allakhverdian",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Stepan Kamshilov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "David Barkhudaryan",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Vyacheslav Vasilevskiy",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Murodali Salimov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Tumer Ondar",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Muratbek Kasymbay",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Vasily Kozlov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Mikhail Tarkhanov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Murad Nukkhadiev",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Last change: 2 hr 26 min ago",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "EFC 37June 18th",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "",
+    BetWay: "5Dimes",
+  },
+  {
+    "5Dimes": "Ricardo Tirloni",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Shamil Zavurov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Dmitry Mikhailidy",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Ramin Sultanov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Akhkubeg Omarov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Baymurat Saytiev",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Makkasharip Zaynukov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Thiago Silva",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Shakhban Alkhasov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Yuriy Ermolenko",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Jora Ayvazyan",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Zhyrgalbek Emilbekov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Roman Avdalyan",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Zhasulan Akimzhanov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Dadahon Khasanov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Radzhabali Fayziddin",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Denis Izmodenov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Isatay Temirov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Mikhail Malyutin",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Umidjon Musaev",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Shamil Magomedov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Vitaly Radionov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Ilmiyamin Dzhavatov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Sanzhar Adilov",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Diyar Nurgozhay",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Vadim Litvin",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Last change: 3 hr 32 min ago",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "UFC ON ESPN: THE KOREAN ZOMBIE VS. IGEJune 19th",
     BetWay: "",
   },
   {
@@ -480,84 +324,44 @@ let obj = [
     BetWay: "-110",
   },
   {
-    "5Dimes": "Davey Grant",
-    BetWay: "210",
-  },
-  {
-    "5Dimes": "Marlon Vera",
-    BetWay: "-250",
-  },
-  {
     "5Dimes": "Aleksei Oliynyk",
-    BetWay: "185",
+    BetWay: "180",
   },
   {
     "5Dimes": "Serghei Spivac",
-    BetWay: "-225",
+    BetWay: "-220",
   },
   {
     "5Dimes": "Bruno Silva",
-    BetWay: "-145",
+    BetWay: "-140",
   },
   {
     "5Dimes": "Wellington Turman",
-    BetWay: "125",
-  },
-  {
-    "5Dimes": "Kanako Murata",
-    BetWay: "135",
-  },
-  {
-    "5Dimes": "Virna Jandiroba",
-    BetWay: "-155",
+    BetWay: "120",
   },
   {
     "5Dimes": "Julian Erosa",
-    BetWay: "110",
+    BetWay: "125",
   },
   {
     "5Dimes": "Seungwoo Choi",
-    BetWay: "-130",
+    BetWay: "-145",
   },
   {
-    "5Dimes": "Danny Roberts",
-    BetWay: "170",
+    "5Dimes": "Davey Grant",
+    BetWay: "175",
   },
   {
-    "5Dimes": "Tim Means",
-    BetWay: "-200",
+    "5Dimes": "Marlon Vera",
+    BetWay: "-210",
   },
   {
-    "5Dimes": "Josh Parisian",
-    BetWay: "-130",
+    "5Dimes": "Kanako Murata",
+    BetWay: "115",
   },
   {
-    "5Dimes": "Roque Martinez",
-    BetWay: "110",
-  },
-  {
-    "5Dimes": "Casey O'Neill",
-    BetWay: "100",
-  },
-  {
-    "5Dimes": "Lara Procopio",
-    BetWay: "-120",
-  },
-  {
-    "5Dimes": "Joaquim Silva",
-    BetWay: "-115",
-  },
-  {
-    "5Dimes": "Rick Glenn",
-    BetWay: "-105",
-  },
-  {
-    "5Dimes": "Khaos Williams",
-    BetWay: "-170",
-  },
-  {
-    "5Dimes": "Matthew Semelsberger",
-    BetWay: "150",
+    "5Dimes": "Virna Jandiroba",
+    BetWay: "-135",
   },
   {
     "5Dimes": "Aleksa Camur",
@@ -569,10 +373,50 @@ let obj = [
   },
   {
     "5Dimes": "Dhiego Lima",
-    BetWay: "",
+    BetWay: "-160",
   },
   {
     "5Dimes": "Matt Brown",
+    BetWay: "140",
+  },
+  {
+    "5Dimes": "Khaos Williams",
+    BetWay: "-155",
+  },
+  {
+    "5Dimes": "Matthew Semelsberger",
+    BetWay: "135",
+  },
+  {
+    "5Dimes": "Josh Parisian",
+    BetWay: "-130",
+  },
+  {
+    "5Dimes": "Roque Martinez",
+    BetWay: "110",
+  },
+  {
+    "5Dimes": "Joaquim Silva",
+    BetWay: "-130",
+  },
+  {
+    "5Dimes": "Rick Glenn",
+    BetWay: "110",
+  },
+  {
+    "5Dimes": "Casey O'Neill",
+    BetWay: "130",
+  },
+  {
+    "5Dimes": "Lara Procopio",
+    BetWay: "-150",
+  },
+  {
+    "5Dimes": "Danny Roberts",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Tim Means",
     BetWay: "",
   },
   {
@@ -584,11 +428,119 @@ let obj = [
     BetWay: "",
   },
   {
-    "5Dimes": "Last change: 32 min ago",
+    "5Dimes": "Last change: 10 min ago",
     BetWay: "",
   },
   {
-    "5Dimes": "UFC FIGHT NIGHT 190: GANE VS. VOLKOVJune 26th",
+    "5Dimes": "OKTAGON 25June 19th",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "",
+    BetWay: "5Dimes",
+  },
+  {
+    "5Dimes": "Kamil Minda",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Martin Buday",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Giulia Chinello",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Monika Chochlikova",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Jakub Bahnik",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Ron Becker",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Frantisek Fodor",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Tomas Fiala",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Al Matavao",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Samuel Kristofic",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Arda Adas",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Ronald Paradeiser",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Abdel Rahmane Driai",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Zdenek Polivka",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Marta Waliczek",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Rizlen Zouak",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Bojan Velickovic",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Emmanuel Dawa",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Daniel Hromek",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Vaclav Holota",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Karol Rysavy",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Marek Bartl",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Anatoly Tarasenko",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Jan Fajk",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Last change: 11 hr 14 min ago",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "UFC FIGHT NIGHT: GANE VS. VOLKOVJune 26th",
     BetWay: "",
   },
   {
@@ -604,12 +556,92 @@ let obj = [
     BetWay: "-160",
   },
   {
+    "5Dimes": "Danilo Marques",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Kennedy Nzechukwu",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Anthony Hernandez",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Punahele Soriano",
+    BetWay: "",
+  },
+  {
+    "5Dimes": "Michel Prazeres",
+    BetWay: "210",
+  },
+  {
+    "5Dimes": "Shavkat Rakhmonov",
+    BetWay: "-250",
+  },
+  {
     "5Dimes": "Maxim Grishin",
     BetWay: "-105",
   },
   {
     "5Dimes": "Ovince St. Preux",
     BetWay: "-115",
+  },
+  {
+    "5Dimes": "Charles Rosa",
+    BetWay: "-165",
+  },
+  {
+    "5Dimes": "Justin Jaynes",
+    BetWay: "145",
+  },
+  {
+    "5Dimes": "Raoni Barcelos",
+    BetWay: "-210",
+  },
+  {
+    "5Dimes": "Timur Valiev",
+    BetWay: "175",
+  },
+  {
+    "5Dimes": "Nicolas Dalby",
+    BetWay: "-250",
+  },
+  {
+    "5Dimes": "Sergey Khandozhko",
+    BetWay: "210",
+  },
+  {
+    "5Dimes": "Ramazan Emeev",
+    BetWay: "-145",
+  },
+  {
+    "5Dimes": "Warlley Alves",
+    BetWay: "125",
+  },
+  {
+    "5Dimes": "Jai Herbert",
+    BetWay: "205",
+  },
+  {
+    "5Dimes": "Renato Moicano",
+    BetWay: "-245",
+  },
+  {
+    "5Dimes": "Isaac Villanueva",
+    BetWay: "180",
+  },
+  {
+    "5Dimes": "Marcin Prachnio",
+    BetWay: "-220",
+  },
+  {
+    "5Dimes": "Damir Hadzovic",
+    BetWay: "-145",
+  },
+  {
+    "5Dimes": "Yancy Medeiros",
+    BetWay: "125",
   },
   {
     "5Dimes": "Su Mudaerji",
@@ -621,86 +653,14 @@ let obj = [
   },
   {
     "5Dimes": "Danilo Marques",
-    BetWay: "-175",
+    BetWay: "",
   },
   {
     "5Dimes": "Ed Herman",
-    BetWay: "155",
-  },
-  {
-    "5Dimes": "Michel Prazeres",
-    BetWay: "175",
-  },
-  {
-    "5Dimes": "Shavkat Rakhmonov",
-    BetWay: "-210",
-  },
-  {
-    "5Dimes": "Charles Rosa",
-    BetWay: "-170",
-  },
-  {
-    "5Dimes": "Justin Jaynes",
-    BetWay: "150",
-  },
-  {
-    "5Dimes": "Raoni Barcelos",
-    BetWay: "-210",
-  },
-  {
-    "5Dimes": "Timur Valiev",
-    BetWay: "175",
-  },
-  {
-    "5Dimes": "Ramazan Emeev",
-    BetWay: "-150",
-  },
-  {
-    "5Dimes": "Warlley Alves",
-    BetWay: "130",
-  },
-  {
-    "5Dimes": "Nicolas Dalby",
-    BetWay: "-255",
-  },
-  {
-    "5Dimes": "Sergey Khandozhko",
-    BetWay: "215",
-  },
-  {
-    "5Dimes": "Isaac Villanueva",
-    BetWay: "180",
-  },
-  {
-    "5Dimes": "Marcin Prachnio",
-    BetWay: "-220",
-  },
-  {
-    "5Dimes": "Jai Herbert",
-    BetWay: "205",
-  },
-  {
-    "5Dimes": "Renato Moicano",
-    BetWay: "-245",
-  },
-  {
-    "5Dimes": "Damir Hadzovic",
-    BetWay: "-150",
-  },
-  {
-    "5Dimes": "Yancy Medeiros",
-    BetWay: "130",
-  },
-  {
-    "5Dimes": "Anthony Hernandez",
     BetWay: "",
   },
   {
-    "5Dimes": "Punahele Soriano",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "Last change: 2 hr 48 min ago",
+    "5Dimes": "Last change: 26 min ago",
     BetWay: "",
   },
   {
@@ -713,11 +673,43 @@ let obj = [
   },
   {
     "5Dimes": "Conor McGregor",
-    BetWay: "-115",
+    BetWay: "100",
   },
   {
     "5Dimes": "Dustin Poirier",
-    BetWay: "-105",
+    BetWay: "-120",
+  },
+  {
+    "5Dimes": "Ilia Topuria",
+    BetWay: "-295",
+  },
+  {
+    "5Dimes": "Ryan Hall",
+    BetWay: "235",
+  },
+  {
+    "5Dimes": "Louis Smolka",
+    BetWay: "320",
+  },
+  {
+    "5Dimes": "Sean O'Malley",
+    BetWay: "-425",
+  },
+  {
+    "5Dimes": "Kevin Lee",
+    BetWay: "155",
+  },
+  {
+    "5Dimes": "Sean Brady",
+    BetWay: "-185",
+  },
+  {
+    "5Dimes": "Irene Aldana",
+    BetWay: "-155",
+  },
+  {
+    "5Dimes": "Yana Kunitskaya",
+    BetWay: "125",
   },
   {
     "5Dimes": "Gilbert Burns",
@@ -728,6 +720,46 @@ let obj = [
     BetWay: "-130",
   },
   {
+    "5Dimes": "Carlos Condit",
+    BetWay: "140",
+  },
+  {
+    "5Dimes": "Max Griffin",
+    BetWay: "-170",
+  },
+  {
+    "5Dimes": "Michel Pereira",
+    BetWay: "-165",
+  },
+  {
+    "5Dimes": "Niko Price",
+    BetWay: "135",
+  },
+  {
+    "5Dimes": "Jerome Rivera",
+    BetWay: "315",
+  },
+  {
+    "5Dimes": "Zhalgas Zhumagulov",
+    BetWay: "-410",
+  },
+  {
+    "5Dimes": "Dricus Du Plessis",
+    BetWay: "-120",
+  },
+  {
+    "5Dimes": "Trevin Giles",
+    BetWay: "-110",
+  },
+  {
+    "5Dimes": "Alen Amedovski",
+    BetWay: "-185",
+  },
+  {
+    "5Dimes": "Hu Yaozong",
+    BetWay: "155",
+  },
+  {
     "5Dimes": "Jennifer Maia",
     BetWay: "-190",
   },
@@ -736,11 +768,27 @@ let obj = [
     BetWay: "165",
   },
   {
-    "5Dimes": "Last change: 17 hr 45 min ago",
+    "5Dimes": "Greg Hardy",
+    BetWay: "120",
+  },
+  {
+    "5Dimes": "Tai Tuivasa",
+    BetWay: "-150",
+  },
+  {
+    "5Dimes": "Brad Tavares",
+    BetWay: "-180",
+  },
+  {
+    "5Dimes": "Omari Akhmedov",
+    BetWay: "150",
+  },
+  {
+    "5Dimes": "Last change: 52 min ago",
     BetWay: "",
   },
   {
-    "5Dimes": "UFC FIGHT NIGHT 191July 17th",
+    "5Dimes": "UFC ON ESPN: HOLLOWAY VS. RODRIGUEZJuly 17th",
     BetWay: "",
   },
   {
@@ -764,11 +812,11 @@ let obj = [
     BetWay: "-365",
   },
   {
-    "5Dimes": "Last change: 1 day 5 hr ago",
+    "5Dimes": "Last change: 15 hr 47 min ago",
     BetWay: "",
   },
   {
-    "5Dimes": "UFC FIGHT NIGHT 193July 24th",
+    "5Dimes": "UFC ON ESPN: SANDHAGEN VS. DILLASHAWJuly 24th",
     BetWay: "",
   },
   {
@@ -792,7 +840,7 @@ let obj = [
     BetWay: "-150",
   },
   {
-    "5Dimes": "Last change: 2 days ago",
+    "5Dimes": "Last change: 3 days ago",
     BetWay: "",
   },
   {
@@ -820,11 +868,11 @@ let obj = [
     BetWay: "",
   },
   {
-    "5Dimes": "Last change: 4 days ago",
+    "5Dimes": "Last change: 8 days ago",
     BetWay: "",
   },
   {
-    "5Dimes": "UFC FIGHT NIGHT: BRUNSON VS. TILLAugust 14th",
+    "5Dimes": "UFC FIGHT NIGHT 192August 14th",
     BetWay: "",
   },
   {
@@ -840,11 +888,11 @@ let obj = [
     BetWay: "",
   },
   {
-    "5Dimes": "Last change: 4 days ago",
+    "5Dimes": "Last change: 2 days ago",
     BetWay: "",
   },
   {
-    "5Dimes": "UFC FIGHT NIGHT: CANNONIER VS. GASTELUMAugust 21st",
+    "5Dimes": "UFC ON ESPN: CANNONIER VS. GASTELUMAugust 21st",
     BetWay: "",
   },
   {
@@ -860,11 +908,11 @@ let obj = [
     BetWay: "",
   },
   {
-    "5Dimes": "Last change: 1 day 11 hr ago",
+    "5Dimes": "Last change: 2 days ago",
     BetWay: "",
   },
   {
-    "5Dimes": "UFC 266September 4th",
+    "5Dimes": "UFC 266September 25th",
     BetWay: "",
   },
   {
@@ -873,23 +921,11 @@ let obj = [
   },
   {
     "5Dimes": "Glover Teixeira",
-    BetWay: "200",
+    BetWay: "190",
   },
   {
     "5Dimes": "Jan Blachowicz",
-    BetWay: "-260",
-  },
-  {
-    "5Dimes": "Last change: 5 days ago",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "UFC FIGHT NIGHT: SANTOS VS. WALKERSeptember 25th",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "5Dimes",
+    BetWay: "-250",
   },
   {
     "5Dimes": "Johnny Walker",
