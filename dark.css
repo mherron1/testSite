@@ -1354,7 +1354,7 @@ h4:hover {
 
 .donBtn {
   margin-left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) scale(1.2);
   width: 100px;
 }
 
