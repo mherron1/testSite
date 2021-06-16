@@ -1356,5 +1356,15 @@ h4:hover {
   position: absolute;
   bottom: 110px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) scale(1.2);
+}
+
+@media only screen and (min-width: 1000px) {
+  .donBtn {
+    position: fixed;
+    bottom: 15px;
+    left: 30px;
+    transform: scale(1);
+    filter: grayscale(100%);
+  }
 }
