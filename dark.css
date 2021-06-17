@@ -1355,7 +1355,7 @@ h4:hover {
   margin-left: 50%;
   transform: translateX(-50%);
   width: 100px;
-  filter: grayscale(50%);
+  filter: grayscale(100%);
 }
 
 @media only screen and (min-width: 1000px) {
@@ -1365,6 +1365,6 @@ h4:hover {
     bottom: 15px;
     left: 30px;
     transform: scale(1);
-    filter: grayscale(50%);
+    filter: grayscale(100%);
   }
 }
