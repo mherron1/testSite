@@ -1306,7 +1306,7 @@ h4:hover {
 .donBtn {
   margin-left: 50%;
   transform: translateX(-50%);
-  filter: grayscale(50%);
+  filter: grayscale(20%);
   width: 100px;
 }
 
