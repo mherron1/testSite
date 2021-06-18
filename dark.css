@@ -86,6 +86,8 @@ body {
   max-height: 210px;
   min-height: 210px;
   overflow: hidden;
+  box-shadow: 0px 0px 4px 0px black;
+  margin-bottom: 15px;
 }
 
 .notransition {
@@ -607,9 +609,9 @@ input:checked + .slider:before {
   #mainCardPlus1 {
     font-size: 1rem;
   }
-  #prelisTime,
-  #prelisTimeMinus1,
-  #prelisTimePlus1 {
+  #prelimsTime,
+  #prelimsTimeMinus1,
+  #prelimsTimePlus1 {
     font-size: 1.05rem;
   }
   #prelimsCard,
