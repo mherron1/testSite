@@ -75,7 +75,7 @@ body {
   min-height: 210px;
   overflow: hidden;
   box-shadow: 0px 0px 4px 0px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .notransition {
@@ -137,8 +137,8 @@ body {
   grid-template-columns: 45% 10% 45%;
   width: 100%;
   font-size: 1.1rem;
-  box-shadow: 0px 0px 4px 0px;
-  margin-bottom: 20px;
+  box-shadow: 0px 0px 2px 0px;
+  margin-bottom: 15px;
 }
 
 #prelimsTime,
@@ -157,7 +157,7 @@ body {
   grid-template-columns: 45% 10% 45%;
   width: 100%;
   font-size: 1.1rem;
-  box-shadow: 0px 0px 4px 0px;
+  box-shadow: 0px 0px 2px 0px;
 }
 
 .left,
