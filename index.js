@@ -845,6 +845,10 @@ function generateCard(i, arg) {
         snippetB = "draw";
         snippetA = "draw";
       }
+      if (events[i][3][j].method === "ends in a draw") {
+        snippetB = "draw";
+        snippetA = "draw";
+      }
     }
 
     mainCard.innerHTML += `
