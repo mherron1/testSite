@@ -202,44 +202,44 @@ let data = [
   {
     fighterA: 'Julian Erosa',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/18497-julian-erosa',
-    rankA: '#27',
+    rankA: '#28',
     recordA: '25-8-0 ',
     weight: '145',
     recordB: ' 9-3-0',
-    rankB: '#57',
+    rankB: '#65',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/108867-seung-woo-choi',
     fighterB: 'Seung Woo Choi'
   },
   {
     fighterA: 'Wellington Turman',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/70129-wellington-turman-fofo',
-    rankA: '#43',
+    rankA: '#46',
     recordA: '16-4-0 ',
     weight: '185',
     recordB: ' 19-6-0',
-    rankB: '#92',
+    rankB: '#96',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/59819-bruno-silva-blindado',
     fighterB: 'Bruno Silva'
   },
   {
     fighterA: 'Dhiego Lima',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/dhiego-lima',
-    rankA: '#51',
+    rankA: '#50',
     recordA: '15-8-0 ',
     weight: '170',
     recordB: ' 22-18-0',
-    rankB: '#64',
+    rankB: '#65',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/28-matt-brown-the-immortal',
     fighterB: 'Matt Brown'
   },
   {
     fighterA: 'Nick Negumereanu',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/142000-nick-negumereanu',
-    rankA: '#99',
+    rankA: '#137',
     recordA: '9-1-0 ',
     weight: '205',
     recordB: ' 6-1-0',
-    rankB: '#46',
+    rankB: '#48',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/90744-aleksa-camur',
     fighterB: 'Aleksa Camur'
   },
@@ -257,11 +257,11 @@ let data = [
   {
     fighterA: 'Matt Semelsberger',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/98220-matthew-semelsberger',
-    rankA: '#62',
+    rankA: '#57',
     recordA: '8-2-0 ',
     weight: '170',
     recordB: ' 11-2-0',
-    rankB: '#35',
+    rankB: '#38',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/97154-kalinn-williams',
     fighterB: 'Khaos Williams'
   },
@@ -272,29 +272,29 @@ let data = [
     recordA: '13-4-0 ',
     weight: '265',
     recordB: ' 15-7-2',
-    rankB: '#110',
+    rankB: '#109',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/11092-roque-martinez',
     fighterB: 'Roque Martinez'
   },
   {
     fighterA: 'Joaquim Silva',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/58797-joaquim-silva-netto-bjj',
-    rankA: '#57',
+    rankA: '#61',
     recordA: '11-2-0 ',
     weight: '155',
     recordB: ' 21-6-1',
-    rankB: '#73',
+    rankB: '#64',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/17746-rick-glenn',
     fighterB: 'Ricky Glenn'
   },
   {
     fighterA: 'Lara Procópio',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/67543-lara-procopio',
-    rankA: '#36',
+    rankA: '#35',
     recordA: '7-1-0 ',
     weight: '125',
     recordB: ' 6-0-0',
-    rankB: '#35',
+    rankB: '#37',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/74768-casey-oneill',
     fighterB: "Casey O'Neill"
   }
@@ -1165,10 +1165,21 @@ let data = [
     rankB: '#8',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/57525-angela-hill-overkill',
     fighterB: 'Angela Hill'
+  },
+  {
+    fighterA: 'Ed Herman',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/ed-herman-short-fuse',
+    rankA: '#29',
+    recordA: '25-14-0 ',
+    weight: '205',
+    recordB: ' 10-2-0',
+    rankB: '#27',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/69032-alonzo-menifield',
+    fighterB: 'Alonzo Menifield'
   }
 ]
 ,"UFC 265",
-"5",
+"6",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
