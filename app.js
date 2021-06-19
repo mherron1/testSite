@@ -1,3 +1,9 @@
+let delay = 0;
+
+if (true) {
+  delay = -22000000;
+}
+
 let assets = [
   "may01.jpg",
   "may06.jpg",
