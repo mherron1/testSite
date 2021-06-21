@@ -17,6 +17,7 @@ let assets = [
   "jun12.jpg",
   "jun17.jpg",
   "jun19.jpg",
+  "jun25.jpg",
   "jun26.jpg",
   "jul10.jpg",
   "jul17.jpg",
@@ -124,7 +125,7 @@ data2.forEach((event) => {
     ".jpg";
   if (
     assets.indexOf(tempTime.toLowerCase()) > -1 &&
-    event[0] != "ONE Championship"
+    event[0] != "Professional Fighters League"
   ) {
     event[2] =
       "images/eventImages/" + assets[assets.indexOf(tempTime.toLowerCase())];
