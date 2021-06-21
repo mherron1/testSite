@@ -82,7 +82,14 @@ let times = [
     promo: "Bellator MMA",
     time: new Date(2021, 05, 26, 01, 00, 00),
     prelims: new Date(2021, 05, 25, 22, 00, 00),
-    videos: [],
+    videos: ["M1F_8nQh--s"],
+  },
+  {
+    date: "jun25",
+    promo: "Professional Fighters League",
+    time: new Date(2021, 05, 26, 02, 00, 00),
+    prelims: new Date(2021, 05, 25, 22, 00, 00),
+    videos: ["LJD9sIN2l48"],
   },
   {
     date: "jun26",
@@ -103,7 +110,7 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: false,
     prelims: false,
-    videos: ["b7CotB8o_tg"],
+    videos: ["Th4hu3ruG7Q"],
   },
 ];
 //tempFix
