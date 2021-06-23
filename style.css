@@ -111,23 +111,27 @@ body {
   font-size: 1.1rem;
 }
 
-#expandMore,
-#expandPlus1,
-#expandMinus1 {
+#expandMore {
   position: absolute;
   font-size: 30px;
   font-weight: lighter;
   right: 6px;
   bottom: -4px;
   color: black;
-  display: block;
 }
 
-#expandLess,
-#expandPlus1,
-#expandMinus1:hover {
-  cursor: pointer;
+#expandLess {
+  position: absolute;
+  font-size: 30px;
+  font-weight: lighter;
+  right: 6px;
+  bottom: -4px;
+  color: black;
   display: none;
+}
+
+.hide {
+  display: none !important;
 }
 
 #mainCard,

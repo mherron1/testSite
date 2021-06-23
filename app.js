@@ -17,7 +17,6 @@ let assets = [
   "jun12.jpg",
   "jun17.jpg",
   "jun19.jpg",
-  "jun25.jpg",
   "jun26.jpg",
   "jul10.jpg",
   "jul16.jpg",
@@ -94,8 +93,8 @@ let times = [
   {
     date: "jun26",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2021, 05, 27, 01, 00, 00),
-    prelims: new Date(2021, 05, 26, 22, 00, 00),
+    time: new Date(2021, 05, 26, 20, 00, 00),
+    prelims: new Date(2021, 05, 26, 17, 00, 00),
     videos: ["kBc82zZsupY"],
   },
   {
