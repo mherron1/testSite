@@ -1,4015 +1,1027 @@
 let obj = [
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Timothy Johnson",
+    row2: "240",
   },
   {
-    "5Dimes": "Chan Sung Jung",
-    BetWay: "110",
+    row1: "Valentin Moldavsky",
+    row2: "-300",
   },
   {
-    "5Dimes": "Dan Ige",
-    BetWay: "-135",
+    row1: "Daniel Weichel",
+    row2: "",
   },
   {
-    "5Dimes": "Aleksei Oliynyk",
-    BetWay: "190",
+    row1: "Keoni Diggs",
+    row2: "",
   },
   {
-    "5Dimes": "Serghei Spivac",
-    BetWay: "-225",
+    row1: "Kana Watanabe",
+    row2: "190",
   },
   {
-    "5Dimes": "Davey Grant",
-    BetWay: "180",
+    row1: "Liz Carmouche",
+    row2: "-225",
   },
   {
-    "5Dimes": "Marlon Vera",
-    BetWay: "-225",
+    row1: "Ben Parrish",
+    row2: "",
   },
   {
-    "5Dimes": "Julian Erosa",
-    BetWay: "125",
+    row1: "Christian Edwards",
+    row2: "",
   },
   {
-    "5Dimes": "Seungwoo Choi",
-    BetWay: "-150",
+    row1: "Myles Jury",
+    row2: "120",
   },
   {
-    "5Dimes": "Bruno Silva",
-    BetWay: "-125",
+    row1: "Sidney Outlaw",
+    row2: "-145",
   },
   {
-    "5Dimes": "Wellington Turman",
-    BetWay: "105",
+    row1: "Lance Wright",
+    row2: "230",
   },
   {
-    "5Dimes": "Dhiego Lima",
-    BetWay: "-185",
+    row1: "Taylor Johnson",
+    row2: "-275",
   },
   {
-    "5Dimes": "Matt Brown",
-    BetWay: "150",
+    row1: "Bobby Lee",
+    row2: "",
   },
   {
-    "5Dimes": "Aleksa Camur",
-    BetWay: "-250",
+    row1: "Soren Bak",
+    row2: "",
   },
   {
-    "5Dimes": "Nicolae Negumereanu",
-    BetWay: "200",
+    row1: "Cody Matthews",
+    row2: "",
   },
   {
-    "5Dimes": "Kanako Murata",
-    BetWay: "115",
+    row1: "Jaylon Bates",
+    row2: "",
   },
   {
-    "5Dimes": "Virna Jandiroba",
-    BetWay: "-140",
+    row1: "John de Jesus",
+    row2: "",
   },
   {
-    "5Dimes": "Khaos Williams",
-    BetWay: "-155",
+    row1: "John Texeira",
+    row2: "",
   },
   {
-    "5Dimes": "Matthew Semelsberger",
-    BetWay: "130",
+    row1: "Corey Samuels",
+    row2: "",
   },
   {
-    "5Dimes": "Josh Parisian",
-    BetWay: "-145",
+    row1: "Isaiah Hokit",
+    row2: "",
   },
   {
-    "5Dimes": "Roque Martinez",
-    BetWay: "120",
+    row1: "Last change: < 1 min ago",
+    row2: "",
   },
   {
-    "5Dimes": "Joaquim Silva",
-    BetWay: "-135",
+    row1: "BABILON MMA 23: STAWOWY VS. VALTONENJune 25th",
+    row2: "",
   },
   {
-    "5Dimes": "Rick Glenn",
-    BetWay: "110",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "Casey O'Neill",
-    BetWay: "145",
+    row1: "Adam Rybczynski",
+    row2: "",
   },
   {
-    "5Dimes": "Lara Procopio",
-    BetWay: "-175",
+    row1: "Filip Lamparski",
+    row2: "",
   },
   {
-    "5Dimes": "Last change: < 1 min ago",
-    BetWay: "",
+    row1: "Konrad Rusinski",
+    row2: "",
   },
   {
-    "5Dimes": "OKTAGON 25: MINDA VS. BUDAYJune 19th",
-    BetWay: "",
+    row1: "Tomasz Skrodzillo",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Kacper Brozdziak",
+    row2: "",
   },
   {
-    "5Dimes": "Kamil Minda",
-    BetWay: "",
+    row1: "Lukasz Siwiec",
+    row2: "",
   },
   {
-    "5Dimes": "Martin Buday",
-    BetWay: "",
+    row1: "Anita Bekus",
+    row2: "",
   },
   {
-    "5Dimes": "Karol Rysavy",
-    BetWay: "",
+    row1: "Eliza Kuczynska",
+    row2: "",
   },
   {
-    "5Dimes": "Marek Bartl",
-    BetWay: "",
+    row1: "Marcin Kalata",
+    row2: "",
   },
   {
-    "5Dimes": "Al Matavao",
-    BetWay: "",
+    row1: "Mateusz Lazowski",
+    row2: "",
   },
   {
-    "5Dimes": "Samuel Kristofic",
-    BetWay: "",
+    row1: "Roza Gumienna",
+    row2: "",
   },
   {
-    "5Dimes": "Bojan Velickovic",
-    BetWay: "",
+    row1: "Vladena Yavorska",
+    row2: "",
   },
   {
-    "5Dimes": "Emmanuel Dawa",
-    BetWay: "",
+    row1: "Filip Stawowy",
+    row2: "",
   },
   {
-    "5Dimes": "Giulia Chinello",
-    BetWay: "",
+    row1: "Toni Valtonen",
+    row2: "",
   },
   {
-    "5Dimes": "Monika Chochlikova",
-    BetWay: "",
+    row1: "Last change: 27 min ago",
+    row2: "",
   },
   {
-    "5Dimes": "Arda Adas",
-    BetWay: "",
+    row1: "CW 124: SARDARI VS. MCCOLGANJune 25th",
+    row2: "",
   },
   {
-    "5Dimes": "Ronald Paradeiser",
-    BetWay: "",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "Abdel Rahmane Driai",
-    BetWay: "",
+    row1: "Cameron Hardy",
+    row2: "",
   },
   {
-    "5Dimes": "Zdenek Polivka",
-    BetWay: "",
+    row1: "Dominique Wooding",
+    row2: "",
   },
   {
-    "5Dimes": "Marta Waliczek",
-    BetWay: "",
+    row1: "Aaron Khalid",
+    row2: "",
   },
   {
-    "5Dimes": "Rizlen Zouak",
-    BetWay: "",
+    row1: "Jesse Urholin",
+    row2: "",
   },
   {
-    "5Dimes": "Frantisek Fodor",
-    BetWay: "",
+    row1: "Harry Hardwick",
+    row2: "",
   },
   {
-    "5Dimes": "Tomas Fiala",
-    BetWay: "",
+    row1: "Jean N'doye",
+    row2: "",
   },
   {
-    "5Dimes": "Daniel Hromek",
-    BetWay: "",
+    row1: "Dylan Hazan",
+    row2: "",
   },
   {
-    "5Dimes": "Vaclav Holota",
-    BetWay: "",
+    row1: "Josh Reed",
+    row2: "",
   },
   {
-    "5Dimes": "Jakub Bahnik",
-    BetWay: "",
+    row1: "David Bear",
+    row2: "",
   },
   {
-    "5Dimes": "Ron Becker",
-    BetWay: "",
+    row1: "Justin Burlinson",
+    row2: "",
   },
   {
-    "5Dimes": "Last change: 4 hr 41 min ago",
-    BetWay: "",
+    row1: "Agy Sardari",
+    row2: "",
   },
   {
-    "5Dimes": "UAE WARRIORSJune 19th",
-    BetWay: "",
+    row1: "Joe McColgan",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Brian Bouland",
+    row2: "",
   },
   {
-    "5Dimes": "Jesse Arnett",
-    BetWay: "",
+    row1: "Nathan Fletcher",
+    row2: "",
   },
   {
-    "5Dimes": "Ray Borg",
-    BetWay: "",
+    row1: "Edward Walls",
+    row2: "",
   },
   {
-    "5Dimes": "Attila Korkmaz",
-    BetWay: "",
+    row1: "Steve Aimable",
+    row2: "",
   },
   {
-    "5Dimes": "Martun Mezhlumyan",
-    BetWay: "",
+    row1: "Dean Trueman",
+    row2: "",
   },
   {
-    "5Dimes": "Carolina Jimenez",
-    BetWay: "",
+    row1: "George Hardwick",
+    row2: "",
   },
   {
-    "5Dimes": "Lucrezia Ria",
-    BetWay: "",
+    row1: "Luke Shanks",
+    row2: "",
   },
   {
-    "5Dimes": "Arbi Emiev",
-    BetWay: "",
+    row1: "Nicolas Leblond",
+    row2: "",
   },
   {
-    "5Dimes": "John Mitchell",
-    BetWay: "",
+    row1: "Last change: 11 min ago",
+    row2: "",
   },
   {
-    "5Dimes": "Ali Al Qaisi",
-    BetWay: "",
+    row1: "PFL WEEK 6June 25th",
+    row2: "",
   },
   {
-    "5Dimes": "Mark Acoba",
-    BetWay: "",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "Amiran Gogoladze",
-    BetWay: "",
+    row1: "Lance Palmer",
+    row2: "110",
   },
   {
-    "5Dimes": "Handesson Ferreira",
-    BetWay: "",
+    row1: "Movlid Khaybulaev",
+    row2: "-135",
   },
   {
-    "5Dimes": "Acoidan Duque",
-    BetWay: "",
+    row1: "Brandon Sayles",
+    row2: "200",
   },
   {
-    "5Dimes": "Daniel Skibinski",
-    BetWay: "",
+    row1: "Denis Goltsov",
+    row2: "-250",
   },
   {
-    "5Dimes": "Andre Fialho",
-    BetWay: "",
+    row1: "Anthony Pettis",
+    row2: "-200",
   },
   {
-    "5Dimes": "Sang Hoon Yoo",
-    BetWay: "",
+    row1: "Raush Manfio",
+    row2: "170",
   },
   {
-    "5Dimes": "Azizbek Satibaldiev",
-    BetWay: "",
+    row1: "Cindy Dandois",
+    row2: "1200",
   },
   {
-    "5Dimes": "Victor Nunes",
-    BetWay: "",
+    row1: "Kayla Harrison",
+    row2: "-3000",
   },
   {
-    "5Dimes": "Gianni Melillo",
-    BetWay: "",
+    row1: "Jamelle Jones",
+    row2: "160",
   },
   {
-    "5Dimes": "Mohammed Karaki",
-    BetWay: "",
+    row1: "Klidson Abreu",
+    row2: "-190",
   },
   {
-    "5Dimes": "Last change: 12 hr 50 min ago",
-    BetWay: "",
+    row1: "Bruno Cappelozza",
+    row2: "-275",
   },
   {
-    "5Dimes": "UFC FIGHT NIGHT 190: GANE VS. VOLKOVJune 26th",
-    BetWay: "",
+    row1: "Muhammed Dereese",
+    row2: "210",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Ante Delija",
+    row2: "-400",
   },
   {
-    "5Dimes": "Alexander Volkov",
-    BetWay: "135",
+    row1: "Chandler Cole",
+    row2: "300",
   },
   {
-    "5Dimes": "Ciryl Gane",
-    BetWay: "-160",
+    row1: "Larissa Moreira Pacheco",
+    row2: "-650",
   },
   {
-    "5Dimes": "Danilo Marques",
-    BetWay: "-120",
+    row1: "Olena Kolesnyk",
+    row2: "450",
   },
   {
-    "5Dimes": "Kennedy Nzechukwu",
-    BetWay: "100",
+    row1: "Renan Ferreira",
+    row2: "-250",
   },
   {
-    "5Dimes": "Nicolas Dalby",
-    BetWay: "140",
+    row1: "Stuart Austin",
+    row2: "200",
   },
   {
-    "5Dimes": "Tim Means",
-    BetWay: "-165",
+    row1: "Genah Fabian",
+    row2: "-275",
   },
   {
-    "5Dimes": "Andre Fili",
-    BetWay: "-225",
+    row1: "Julija Pajic",
+    row2: "210",
   },
   {
-    "5Dimes": "Daniel Pineda",
-    BetWay: "190",
+    row1: "Laura Sanchez",
+    row2: "120",
   },
   {
-    "5Dimes": "Maxim Grishin",
-    BetWay: "",
+    row1: "Taylor Guardado",
+    row2: "-145",
   },
   {
-    "5Dimes": "Ovince St. Preux",
-    BetWay: "",
+    row1: "Kaitlin Young",
+    row2: "-225",
   },
   {
-    "5Dimes": "Ramazan Emeev",
-    BetWay: "-140",
+    row1: "Mariana Morais",
+    row2: "190",
   },
   {
-    "5Dimes": "Warlley Alves",
-    BetWay: "115",
+    row1: "Last change: 1 hr 31 min ago",
+    row2: "",
   },
   {
-    "5Dimes": "Damir Hadzovic",
-    BetWay: "-150",
+    row1: "UFC FIGHT NIGHT 190: GANE VS. VOLKOVJune 26th",
+    row2: "",
   },
   {
-    "5Dimes": "Yancy Medeiros",
-    BetWay: "125",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "Julia Avila",
-    BetWay: "-375",
+    row1: "Alexander Volkov",
+    row2: "140",
   },
   {
-    "5Dimes": "Julija Stoliarenko",
-    BetWay: "280",
+    row1: "Ciryl Gane",
+    row2: "-165",
   },
   {
-    "5Dimes": "Jai Herbert",
-    BetWay: "200",
+    row1: "Ovince St. Preux",
+    row2: "150",
   },
   {
-    "5Dimes": "Renato Moicano",
-    BetWay: "-250",
+    row1: "Tanner Boser",
+    row2: "-185",
   },
   {
-    "5Dimes": "Michel Prazeres",
-    BetWay: "200",
+    row1: "Andre Fili",
+    row2: "-225",
   },
   {
-    "5Dimes": "Shavkat Rakhmonov",
-    BetWay: "-250",
+    row1: "Daniel Pineda",
+    row2: "190",
   },
   {
-    "5Dimes": "Charles Rosa",
-    BetWay: "-175",
+    row1: "Danilo Marques",
+    row2: "105",
   },
   {
-    "5Dimes": "Justin Jaynes",
-    BetWay: "145",
+    row1: "Kennedy Nzechukwu",
+    row2: "-125",
   },
   {
-    "5Dimes": "Raoni Barcelos",
-    BetWay: "-250",
+    row1: "Nicolas Dalby",
+    row2: "115",
   },
   {
-    "5Dimes": "Timur Valiev",
-    BetWay: "200",
+    row1: "Tim Means",
+    row2: "-140",
   },
   {
-    "5Dimes": "Isaac Villanueva",
-    BetWay: "180",
+    row1: "Jai Herbert",
+    row2: "200",
   },
   {
-    "5Dimes": "Marcin Prachnio",
-    BetWay: "-225",
+    row1: "Renato Moicano",
+    row2: "-250",
   },
   {
-    "5Dimes": "Su Mudaerji",
-    BetWay: "",
+    row1: "Raoni Barcelos",
+    row2: "-225",
   },
   {
-    "5Dimes": "Tim Elliott",
-    BetWay: "",
+    row1: "Timur Valiev",
+    row2: "180",
   },
   {
-    "5Dimes": "Last change: 57 min ago",
-    BetWay: "",
+    row1: "Michel Prazeres",
+    row2: "240",
   },
   {
-    "5Dimes": "UFC 264: POIRIER VS. MCGREGOR 3July 10th",
-    BetWay: "",
+    row1: "Shavkat Rakhmonov",
+    row2: "-300",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Jeremiah Wells",
+    row2: "",
   },
   {
-    "5Dimes": "Conor McGregor",
-    BetWay: "-110",
+    row1: "Warlley Alves",
+    row2: "",
   },
   {
-    "5Dimes": "Dustin Poirier",
-    BetWay: "-110",
+    row1: "Isaac Villanueva",
+    row2: "160",
   },
   {
-    "5Dimes": "Gilbert Burns",
-    BetWay: "115",
+    row1: "Marcin Prachnio",
+    row2: "-190",
   },
   {
-    "5Dimes": "Stephen Thompson",
-    BetWay: "-140",
+    row1: "Julia Avila",
+    row2: "-375",
   },
   {
-    "5Dimes": "Louis Smolka",
-    BetWay: "310",
+    row1: "Julija Stoliarenko",
+    row2: "280",
   },
   {
-    "5Dimes": "Sean O'Malley",
-    BetWay: "-400",
+    row1: "Charles Rosa",
+    row2: "-175",
   },
   {
-    "5Dimes": "Jennifer Maia",
-    BetWay: "-200",
+    row1: "Justin Jaynes",
+    row2: "145",
   },
   {
-    "5Dimes": "Jessica Eye",
-    BetWay: "165",
+    row1: "Damir Hadzovic",
+    row2: "",
   },
   {
-    "5Dimes": "Ilia Topuria",
-    BetWay: "-250",
+    row1: "Yancy Medeiros",
+    row2: "",
   },
   {
-    "5Dimes": "Ryan Hall",
-    BetWay: "200",
+    row1: "Last change: 3 min ago",
+    row2: "",
   },
   {
-    "5Dimes": "Irene Aldana",
-    BetWay: "-150",
+    row1: "CW 125June 26th",
+    row2: "",
   },
   {
-    "5Dimes": "Yana Kunitskaya",
-    BetWay: "125",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "Greg Hardy",
-    BetWay: "120",
+    row1: "Scott Malone",
+    row2: "",
   },
   {
-    "5Dimes": "Tai Tuivasa",
-    BetWay: "-145",
+    row1: "Serdar Altas",
+    row2: "",
   },
   {
-    "5Dimes": "Kevin Lee",
-    BetWay: "150",
+    row1: "Coner Hignett",
+    row2: "",
   },
   {
-    "5Dimes": "Sean Brady",
-    BetWay: "-175",
+    row1: "Gerardo Fanny",
+    row2: "",
   },
   {
-    "5Dimes": "Jerome Rivera",
-    BetWay: "290",
+    row1: "James Hendin",
+    row2: "",
   },
   {
-    "5Dimes": "Zhalgas Zhumagulov",
-    BetWay: "-375",
+    row1: "Paull McBain",
+    row2: "",
   },
   {
-    "5Dimes": "Dricus Du Plessis",
-    BetWay: "-110",
+    row1: "Tobias Harila",
+    row2: "",
   },
   {
-    "5Dimes": "Trevin Giles",
-    BetWay: "-110",
+    row1: "William Gomis",
+    row2: "",
   },
   {
-    "5Dimes": "Carlos Condit",
-    BetWay: "150",
+    row1: "Marcus Lewis",
+    row2: "",
   },
   {
-    "5Dimes": "Max Griffin",
-    BetWay: "-175",
+    row1: "Scott Pedersen",
+    row2: "",
   },
   {
-    "5Dimes": "Michel Pereira",
-    BetWay: "-165",
+    row1: "Decky McAleenan",
+    row2: "",
   },
   {
-    "5Dimes": "Niko Price",
-    BetWay: "140",
+    row1: "Steve McIntosh",
+    row2: "",
   },
   {
-    "5Dimes": "Brad Tavares",
-    BetWay: "-160",
+    row1: "Ian Garry",
+    row2: "",
   },
   {
-    "5Dimes": "Omari Akhmedov",
-    BetWay: "135",
+    row1: "Jack Grant",
+    row2: "",
   },
   {
-    "5Dimes": "Alen Amedovski",
-    BetWay: "-175",
+    row1: "Ciaran Mulholland",
+    row2: "",
   },
   {
-    "5Dimes": "Hu Yaozong",
-    BetWay: "150",
+    row1: "Connor Wilson",
+    row2: "",
   },
   {
-    "5Dimes": "Last change: 1 hr 21 min ago",
-    BetWay: "",
+    row1: "Last change: 11 hr 49 min ago",
+    row2: "",
   },
   {
-    "5Dimes": "UFC ON ESPN 26July 17th",
-    BetWay: "",
+    row1: "FEN 35: LOTOS FIGHT NIGHT 6June 26th",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "Max Holloway",
-    BetWay: "",
+    row1: "Adam Kowalski",
+    row2: "",
   },
   {
-    "5Dimes": "Yair Rodriguez",
-    BetWay: "",
+    row1: "Marcin Filipczak",
+    row2: "",
   },
   {
-    "5Dimes": "Alan Baudot",
-    BetWay: "275",
+    row1: "Jose Barrios Vargas",
+    row2: "",
   },
   {
-    "5Dimes": "Rodrigo Nascimento",
-    BetWay: "-350",
+    row1: "Kamil Kraska",
+    row2: "",
   },
   {
-    "5Dimes": "Last change: 11 hr 20 min ago",
-    BetWay: "",
+    row1: "Krzysztof Gajek",
+    row2: "",
   },
   {
-    "5Dimes": "UFC ON ESPN: SANDHAGEN VS. DILLASHAWJuly 24th",
-    BetWay: "",
+    row1: "Mariusz Joniak",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Damian Bujkowski",
+    row2: "",
   },
   {
-    "5Dimes": "Cory Sandhagen",
-    BetWay: "-165",
+    row1: "Pawel Biernat",
+    row2: "",
   },
   {
-    "5Dimes": "T.J. Dillashaw",
-    BetWay: "135",
+    row1: "Kamil Lebkowski",
+    row2: "",
   },
   {
-    "5Dimes": "Maycee Barber",
-    BetWay: "140",
+    row1: "Patryk Dunski",
+    row2: "",
   },
   {
-    "5Dimes": "Miranda Maverick",
-    BetWay: "-165",
+    row1: "Bartosz Szewczyk",
+    row2: "",
   },
   {
-    "5Dimes": "Last change: 11 hr 20 min ago",
-    BetWay: "",
+    row1: "Kacper Miklasz",
+    row2: "",
   },
   {
-    "5Dimes": "BELLATORJuly 31st",
-    BetWay: "",
+    row1: "Adrian Zielinski",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Aleksandr Gorshechnik",
+    row2: "",
   },
   {
-    "5Dimes": "A.J. McKee",
-    BetWay: "",
+    row1: "Last change: 17 min ago",
+    row2: "",
   },
   {
-    "5Dimes": "Patricky Freire",
-    BetWay: "",
+    row1: "UFC 264: POIRIER VS. MCGREGOR 3July 10th",
+    row2: "",
   },
   {
-    "5Dimes": "Last change: 1 day 19 hr ago",
-    BetWay: "",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "UFC 265August 7th",
-    BetWay: "",
+    row1: "Conor McGregor",
+    row2: "-110",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Dustin Poirier",
+    row2: "-110",
   },
   {
-    "5Dimes": "Amanda Nunes",
-    BetWay: "-700",
+    row1: "Gilbert Burns",
+    row2: "115",
   },
   {
-    "5Dimes": "Julianna Pena",
-    BetWay: "500",
+    row1: "Stephen Thompson",
+    row2: "-140",
   },
   {
-    "5Dimes": "Jose Aldo",
-    BetWay: "-140",
+    row1: "Louis Smolka",
+    row2: "310",
   },
   {
-    "5Dimes": "Pedro Munhoz",
-    BetWay: "115",
+    row1: "Sean O'Malley",
+    row2: "-400",
   },
   {
-    "5Dimes": "Last change: 11 hr 19 min ago",
-    BetWay: "",
+    row1: "Greg Hardy",
+    row2: "120",
   },
   {
-    "5Dimes": "UFC FIGHT NIGHT 192August 14th",
-    BetWay: "",
+    row1: "Tai Tuivasa",
+    row2: "-145",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Irene Aldana",
+    row2: "-150",
   },
   {
-    "5Dimes": "Darren Till",
-    BetWay: "-140",
+    row1: "Yana Kunitskaya",
+    row2: "125",
   },
   {
-    "5Dimes": "Derek Brunson",
-    BetWay: "115",
+    row1: "Jennifer Maia",
+    row2: "-200",
   },
   {
-    "5Dimes": "Last change: 11 hr 20 min ago",
-    BetWay: "",
+    row1: "Jessica Eye",
+    row2: "165",
   },
   {
-    "5Dimes": "UFC ON ESPN: CANNONIER VS. GASTELUMAugust 21st",
-    BetWay: "",
+    row1: "Kevin Lee",
+    row2: "150",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Sean Brady",
+    row2: "-175",
   },
   {
-    "5Dimes": "Jared Cannonier",
-    BetWay: "-250",
+    row1: "Ilia Topuria",
+    row2: "-225",
   },
   {
-    "5Dimes": "Kelvin Gastelum",
-    BetWay: "195",
+    row1: "Ryan Hall",
+    row2: "180",
   },
   {
-    "5Dimes": "Last change: 11 hr 20 min ago",
-    BetWay: "",
+    row1: "Carlos Condit",
+    row2: "150",
   },
   {
-    "5Dimes": "UFC 266September 25th",
-    BetWay: "",
+    row1: "Max Griffin",
+    row2: "-185",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Dricus Du Plessis",
+    row2: "-105",
   },
   {
-    "5Dimes": "",
-    BetWay: "BetMGM",
+    row1: "Trevin Giles",
+    row2: "-115",
   },
   {
-    "5Dimes": "Johnny Walker",
-    BetWay: "130",
+    row1: "Michel Pereira",
+    row2: "-165",
   },
   {
-    "5Dimes": "Thiago Santos",
-    BetWay: "-160",
+    row1: "Niko Price",
+    row2: "140",
   },
   {
-    "5Dimes": "Glover Teixeira",
-    BetWay: "200",
+    row1: "Jerome Rivera",
+    row2: "290",
   },
   {
-    "5Dimes": "Jan Blachowicz",
-    BetWay: "-250",
+    row1: "Zhalgas Zhumagulov",
+    row2: "-375",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Brad Tavares",
+    row2: "-160",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Omari Akhmedov",
+    row2: "135",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Alen Amedovski",
+    row2: "-175",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Hu Yaozong",
+    row2: "150",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Last change: 2 hr 29 min ago",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "UFC ON ESPN 26July 17th",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Max Holloway",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Yair Rodriguez",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Marion Reneau",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Miesha Tate",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Islam Makhachev",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Thiago Moises",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Amir Albazi",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Ode Osbourne",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Jeremy Stephens",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Mateusz Gamrot",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Dustin Stoltzfus",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Rodolfo Vieira",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Khalid Taha",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Sergey Morozov",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Billy Quarantillo",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Herbert Burns",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Don Madge",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Guram Kutateladze",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Alan Baudot",
+    row2: "275",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Rodrigo Nascimento",
+    row2: "-350",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Amanda Lemos",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Montserrat Ruiz",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Francisco Figueredo",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Malcolm Gordon",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Abubakar Nurmagomedov",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Daniel Rodriguez",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Deron Winn",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Phil Hawes",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Anderson Dos Santos",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Miles Johns",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Last change: 13 hr 24 min ago",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "UFC ON ESPN: SANDHAGEN VS. DILLASHAWJuly 24th",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Cory Sandhagen",
+    row2: "-165",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "T.J. Dillashaw",
+    row2: "135",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Maycee Barber",
+    row2: "140",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Miranda Maverick",
+    row2: "-165",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Last change: 2 days ago",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "BELLATORJuly 31st",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "A.J. McKee",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Patricky Freire",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Last change: 6 days ago",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "UFC 265August 7th",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Amanda Nunes",
+    row2: "-700",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Julianna Pena",
+    row2: "500",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Jose Aldo",
+    row2: "-140",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Pedro Munhoz",
+    row2: "115",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Last change: 4 days ago",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "UFC FIGHT NIGHT 192August 14th",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Darren Till",
+    row2: "-140",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Derek Brunson",
+    row2: "115",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Last change: 4 days ago",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "UFC ON ESPN: CANNONIER VS. GASTELUMAugust 21st",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Jared Cannonier",
+    row2: "-250",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Kelvin Gastelum",
+    row2: "195",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Last change: 4 days ago",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "UFC 266September 25th",
+    row2: "",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "",
+    row2: "BetMGM",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Johnny Walker",
+    row2: "130",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Thiago Santos",
+    row2: "-160",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Glover Teixeira",
+    row2: "200",
   },
   {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
-  },
-  {
-    "5Dimes": "",
-    BetWay: "",
+    row1: "Jan Blachowicz",
+    row2: "-250",
   },
 ];
 
 console.log("let odds = [");
 
 obj.forEach((row) => {
-  if (row["5Dimes"] === "" || row.BetWay === "") {
+  if (row.row1 === "" || row.row2 === "") {
     return;
   } else {
-    let fighterName = row["5Dimes"];
+    let fighterName = row.row1;
     let fighterOdds = 0;
 
-    if (parseInt(row.BetWay) > 0) {
-      fighterOdds = parseInt(row.BetWay) / 100 + 1;
+    if (parseInt(row.row2) > 0) {
+      fighterOdds = parseInt(row.row2) / 100 + 1;
     } else {
-      fighterOdds = -100 / parseInt(row.BetWay) + 1;
+      fighterOdds = -100 / parseInt(row.row2) + 1;
     }
 
     let fighterObject = {
