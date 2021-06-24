@@ -112,7 +112,8 @@ data2.forEach((event) => {
     ".jpg";
   if (
     assets.indexOf(tempTime.toLowerCase()) > -1 &&
-    event[0] != "Professional Fighters League"
+    event[0] != "Professional Fighters League" &&
+    event[0] != "ONE Championship"
   ) {
     event[2] =
       "images/eventImages/" + assets[assets.indexOf(tempTime.toLowerCase())];
