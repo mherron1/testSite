@@ -28,20 +28,6 @@ let assets = [
 
 let times = [
   {
-    date: "jun05",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2021, 05, 05, 23, 00, 00),
-    prelims: new Date(2021, 05, 05, 20, 00, 00),
-    videos: ["5G3M93bUg7E"],
-  },
-  {
-    date: "jun10",
-    promo: "Professional Fighters League",
-    time: new Date(2021, 05, 11, 02, 00, 00),
-    prelims: new Date(2021, 05, 10, 23, 00, 00),
-    videos: ["bBqUoDGvL3E"],
-  },
-  {
     date: "jun11",
     promo: "ONE Championship",
     time: new Date(2021, 05, 11, 12, 30, 00),
@@ -54,13 +40,6 @@ let times = [
     time: new Date(2021, 05, 12, 01, 00, 00),
     prelims: new Date(2021, 05, 11, 22, 00, 00),
     videos: ["M-kufERKXCA"],
-  },
-  {
-    date: "jun12",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2021, 05, 13, 02, 00, 00),
-    prelims: new Date(2021, 05, 12, 22, 30, 00),
-    videos: ["RA7DcV5SRgQ"],
   },
   {
     date: "jun17",
@@ -95,7 +74,7 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 05, 26, 20, 00, 00),
     prelims: new Date(2021, 05, 26, 17, 00, 00),
-    videos: ["kBc82zZsupY"],
+    videos: ["Lehc_v635rs"],
   },
   {
     date: "jul10",
@@ -128,8 +107,8 @@ let winners = [];
 
 data2.forEach((event) => {
   let tempTime =
-    new Date(event[1] - 50000000).toString().split(" ")[1] +
-    new Date(event[1] - 50000000).toString().split(" ")[2] +
+    new Date(event[1] - 40000000).toString().split(" ")[1] +
+    new Date(event[1] - 40000000).toString().split(" ")[2] +
     ".jpg";
   if (
     assets.indexOf(tempTime.toLowerCase()) > -1 &&
