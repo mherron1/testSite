@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  position: fixed;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   margin: 0 auto;
@@ -71,11 +72,12 @@ body {
 #imageContainerPlus1,
 #imageContainerMinus1 {
   position: relative;
-  max-height: 210px;
   min-height: 210px;
   overflow: hidden;
   box-shadow: 0px 0px 4px 0px;
   margin-bottom: 15px;
+  width: 100vw;
+  max-width: 475px;
 }
 
 .notransition {
@@ -88,7 +90,7 @@ body {
 #eventPoster,
 #eventPosterPlus1,
 #eventPosterMinus1 {
-  position: relative;
+  position: absolute;
   top: 0;
   width: 100vw;
   max-width: 475px;
