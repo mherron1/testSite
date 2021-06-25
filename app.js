@@ -67,7 +67,7 @@ let times = [
     promo: "Professional Fighters League",
     time: new Date(2021, 05, 26, 02, 00, 00),
     prelims: new Date(2021, 05, 25, 22, 00, 00),
-    videos: ["LJD9sIN2l48"],
+    videos: ["rnkOf9a3Pds"],
   },
   {
     date: "jun26",
