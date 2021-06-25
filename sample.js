@@ -781,6 +781,9 @@ let nowEpochX = new Date().getTime();
 data.forEach((event) => {
   //tempFix
 
+  let newDateTime = new Date(event[1]).toString();
+  event.push(`${newDateTime.split(" ")[1]} ${newDateTime.split(" ")[2]}`);
+
   if (event[1] === 1623457800000) {
     event[1] = new Date(2021, 05, 11, 12, 30, 00).getTime();
   }

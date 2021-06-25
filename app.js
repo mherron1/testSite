@@ -106,10 +106,7 @@ let nowEpochX = new Date().getTime();
 let winners = [];
 
 data2.forEach((event) => {
-  let tempTime =
-    new Date(event[1] - 40000000).toString().split(" ")[1] +
-    new Date(event[1] - 40000000).toString().split(" ")[2] +
-    ".jpg";
+  let tempTime = event[7].split(" ").join("") + ".jpg";
   if (
     assets.indexOf(tempTime.toLowerCase()) > -1 &&
     event[0] != "Professional Fighters League" &&
