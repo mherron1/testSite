@@ -579,9 +579,7 @@ function generateCard(i, arg) {
   let prelimCardTime = new Date(eventTimeLocal - mSecsPrelims);
 
   times.forEach((item) => {
-    let temp =
-      new Date(events[i][1] - 30000000).toString().split(" ")[1] +
-      new Date(events[i][1] - 30000000).toString().split(" ")[2];
+    let temp = events[i][7].split(" ").join("");
 
     if (temp.toLowerCase() === item.date && events[i][0] === item.promo) {
       if (item.time) {
