@@ -580,8 +580,8 @@ function generateCard(i, arg) {
 
   times.forEach((item) => {
     let temp =
-      new Date(events[i][1] - 46800000).toString().split(" ")[1] +
-      new Date(events[i][1] - 46800000).toString().split(" ")[2];
+      new Date(events[i][1] - 30000000).toString().split(" ")[1] +
+      new Date(events[i][1] - 30000000).toString().split(" ")[2];
 
     if (temp.toLowerCase() === item.date && events[i][0] === item.promo) {
       if (item.time) {
