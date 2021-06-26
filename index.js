@@ -127,6 +127,7 @@ function create() {
 ////////////////////////////////  End of card function
 
 function next() {
+  showResults = false;
   let sideNav = document.querySelector("#sideNav");
   if (sideNav.style.width === "325px") {
     $("#hamburger-1").toggleClass("is-active");
@@ -141,10 +142,10 @@ function next() {
       i = 0;
     }
     create();
-    showResults = false;
   }
 }
 function back() {
+  showResults = false;
   let sideNav = document.querySelector("#sideNav");
   if (sideNav.style.width === "325px") {
     $("#hamburger-1").toggleClass("is-active");
@@ -159,7 +160,6 @@ function back() {
       i = events.length - 1;
     }
     create();
-    showResults = false;
   }
 }
 function toggleD() {
