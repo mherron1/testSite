@@ -76,71 +76,71 @@ let resultsList = [
     time: "2:54 Round 3",
     b_Link: "https://www.tapology.com/fightcenter/fighters/67543-lara-procopio",
   },
+
   {
-    winner: "Yaroslav Amosov ",
+    winner: "Valentin Moldavsky ",
     method: "decision",
     time: "5 Rounds",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/douglas-lima-the-phenom",
+      "https://www.tapology.com/fightcenter/fighters/45020-timothy-johnson",
   },
   {
-    winner: "Jason Jackson ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/paul-daley-semtex",
-  },
-  {
-    winner: "Aaron Pico ",
-    method: "submission",
-    time: "1:33 Round 3",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/68589-aiden-lee",
-  },
-  {
-    winner: "Mark Lemminger ",
+    winner: "Liz Carmouche ",
     method: "ko/tko",
-    time: "3:29 Round 2",
+    time: "0:35 Round 1",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/67287-demarques-jackson",
+      "https://www.tapology.com/fightcenter/fighters/168540-kana-watanabe",
   },
   {
-    winner: "Kyle Crutchmer ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/198568-levan-chokheli",
-  },
-  {
-    winner: "Justin Gonzales ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/108498-tywan-claxton",
-  },
-  {
-    winner: "Bobby King ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/nick-newell-notorious",
-  },
-  {
-    winner: "Lucas Brennan ",
+    winner: "Sidney Outlaw ",
     method: "submission",
-    time: "1:54 Round 1",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/79533-matt-skibicki",
+    time: "4:44 Round 3",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/11278-myles-jury-the-fury",
   },
   {
-    winner: "Marina Mokhnatkina ",
+    winner: "Daniel Weichel ",
     method: "decision",
     time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/33220-amanda-bell",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/69075-keoni-diggs",
   },
   {
-    winner: "Alex Polizzi ",
-    method: "submission",
-    time: "4:22 Round 1",
+    winner: "Christian Edwards ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/156999-simon-binyom",
+  },
+  {
+    winner: "John De Jesus ",
+    method: "decision",
+    time: "3 Rounds",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/115305-gustavo-trujillo",
+      "https://www.tapology.com/fightcenter/fighters/28052-jhon-teixeira-da-conceicao-macapa",
+  },
+  {
+    winner: "Taylor Johnson ",
+    method: "submission",
+    time: "2:58 Round 1",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/42161-lance-wright",
+  },
+  {
+    winner: "Jaylon Bates ",
+    method: "submission",
+    time: "4:04 Round 2",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/142941-cody-matthews",
+  },
+  {
+    winner: "Corey Samuels ",
+    method: "ko/tko",
+    time: "0:10 Round 1",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/293885-isaiah-hokit",
+  },
+  {
+    winner: "Soren Bak ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/107233-bobby-lee",
   },
   {
     winner: "M. Petchyindee ",
@@ -167,72 +167,83 @@ let resultsList = [
     time: "3 Rounds",
     b_Link: "https://www.tapology.com/fightcenter/fighters/79167-wenfeng-wang",
   },
+
   {
-    winner: "Gleison Tibau ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/rory-macdonald-the-waterboy",
-  },
-  {
-    winner: "Ray Cooper III ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/46082-nikolay-aleksakhin",
-  },
-  {
-    winner: "Emiliano Sordi ",
-    method: "ends in a draw",
-    time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/13645-dan-spohn",
-  },
-  {
-    winner: "Chris Camozzi ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/cesar-jesus-ferreira-mutante",
-  },
-  {
-    winner: "Antônio Carlos Júnior ",
-    method: "ends in a no contest",
-    time: "2:45 Round 1",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/vinicius-magalhaes-pezao",
-  },
-  {
-    winner: "Cory Hendricks ",
+    winner: "Kayla Harrison ",
     method: "submission",
-    time: "4:09 Round 3",
+    time: "4:43 Round 1",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/144571-marthin-hamlet-nielsen",
+      "https://www.tapology.com/fightcenter/fighters/4847-cindy-dandois-battlecat",
   },
   {
-    winner: "João Zeferino ",
-    method: "submission",
-    time: "2:16 Round 2",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/16853-jason-ponet",
-  },
-  {
-    winner: "Magomed Magomedkerimov ",
-    method: "submission",
-    time: "1:57 Round 1",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/52092-curtis-millender",
-  },
-  {
-    winner: "Tom Lawlor ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/40938-jordan-young",
-  },
-  {
-    winner: "Sadibou Sy ",
+    winner: "Raush Manfio ",
     method: "decision",
     time: "3 Rounds",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/60556-alexei-kunchenko",
+      "https://www.tapology.com/fightcenter/fighters/anthony-pettis-showtime",
+  },
+  {
+    winner: "Movlid Khaybulaev ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/20661-lance-palmer",
+  },
+  {
+    winner: "Denis Goltsov ",
+    method: "ko/tko",
+    time: "1:24 Round 3",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/18826-brandon-sayles",
+  },
+  {
+    winner: "B. Cappelozza ",
+    method: "ko/tko",
+    time: "2:21 Round 1",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/37293-mo-dereese",
+  },
+  {
+    winner: "Larissa Pacheco ",
+    method: "ko/tko",
+    time: "4:48 Round 1",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/127379-yelena",
+  },
+  {
+    winner: "Ante Delija ",
+    method: "ko/tko",
+    time: "4:39 Round 1",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/95294-chandler-cole",
+  },
+  {
+    winner: "Genah Fabian ",
+    method: "ko/tko",
+    time: "4:16 Round 2",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/234848-julija-pajic",
+  },
+  {
+    winner: "Renan Ferreira ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/carl-seumanutafa",
+  },
+  {
+    winner: "Taylor Guardado ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/107012-laura-sanchez",
+  },
+  {
+    winner: "Mariana Morais ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/kaitlin-young",
+  },
+  {
+    winner: "Jamelle Jones ",
+    method: "ko/tko",
+    time: "1:43 Round 1",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/63237-klidson-farias-de-abreu",
   },
 ];
 
