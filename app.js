@@ -5,25 +5,19 @@ if (true) {
 }
 
 let assets = [
-  "may01.jpg",
-  "may06.jpg",
-  "may07.jpg",
-  "may08.jpg",
-  "may22.jpg",
-  "may28.jpg",
-  "jun05.jpg",
-  "jun10.jpg",
-  "jun11.jpg",
-  "jun12.jpg",
-  "jun17.jpg",
-  "jun19.jpg",
-  "jun26.jpg",
-  "jul10.jpg",
-  "jul16.jpg",
-  "jul17.jpg",
-  "jul24.jpg",
-  "aug07.jpg",
-  "sep25.jpg",
+  "jun25-p.jpg",
+  "jun25-b.jpg",
+  "jun26-u.jpg",
+  "jul10-u.jpg",
+  "jul16-b.jpg",
+  "jul17-u.jpg",
+  "jul24-u.jpg",
+  "jul31-u.jpg",
+  "jul31-b.jpg",
+  "aug07-u.jpg",
+  "aug21-u.jpg",
+  "sep25-u.jpg",
+  "oct02-u.jpg",
 ];
 
 let times = [
@@ -106,12 +100,9 @@ let nowEpochX = new Date().getTime();
 let winners = [];
 
 data2.forEach((event) => {
-  let tempTime = event[7].split(" ").join("") + ".jpg";
-  if (
-    assets.indexOf(tempTime.toLowerCase()) > -1 &&
-    event[0] != "Professional Fighters League" &&
-    event[0] != "ONE Championship"
-  ) {
+  let tempTime =
+    event[7].split(" ").join("") + "-" + event[0][0].split(" ")[0] + ".jpg";
+  if (assets.indexOf(tempTime.toLowerCase()) > -1) {
     event[2] =
       "images/eventImages/" + assets[assets.indexOf(tempTime.toLowerCase())];
   } else if (event[0].includes("Ultimate")) {
