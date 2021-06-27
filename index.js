@@ -619,8 +619,9 @@ function generateCard(i, arg) {
   mainTime.textContent = `Main: ${mainCardTime}`;
 
   mainTime.innerHTML += `
-  <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_less</i>
+  <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
    `;
+
   prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
   prelimsCardTime = prelimCardTime.toLocaleString([], {
     month: "short",
@@ -1049,6 +1050,14 @@ function generateCard(i, arg) {
       $(".detailsLeftPlus1").css("display", "flex");
       $(".detailsRightPlus1").css("display", "flex");
       $(".detailsMiddlePlus1").css("display", "flex");
+
+      console.log("test");
+
+      mainTime.textContent = `Main: ${mainCardTime}`;
+
+      mainTime.innerHTML += `
+      <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_less</i>
+       `;
     } else if (localStorage.getItem("details") === "n") {
       let details = document.querySelector("#details");
       details.checked = false;
