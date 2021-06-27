@@ -171,8 +171,20 @@ function toggleD() {
   detailsLeft.forEach((detail) => {
     if (detail.style.display === "flex") {
       detail.style.display = "none";
+
+      mainTime.textContent = `Main: ${mainCardTime}`;
+
+      mainTime.innerHTML += `
+      <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
+       `;
     } else {
       detail.style.display = "flex";
+
+      mainTime.textContent = `Main: ${mainCardTime}`;
+
+      mainTime.innerHTML += `
+      <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_less</i>
+       `;
     }
   });
   let detailsRight = document.querySelectorAll(`.detailsRight`);
@@ -607,8 +619,7 @@ function generateCard(i, arg) {
   mainTime.textContent = `Main: ${mainCardTime}`;
 
   mainTime.innerHTML += `
- <i class="material-icons noSelect" id="expandLess" onclick="toggleD()">expand_less</i>
-  <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
+  <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_less</i>
    `;
   prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
   prelimsCardTime = prelimCardTime.toLocaleString([], {
