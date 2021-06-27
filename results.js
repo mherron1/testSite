@@ -1,80 +1,86 @@
 let resultsList = [
   {
-    winner: "Chan Sung Jung ",
+    winner: "Ciryl Gane ",
     method: "decision",
     time: "5 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/21178-dan-ige",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/alexander-volkov",
   },
   {
-    winner: "Sergey Spivak ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/alexey-oleinik",
-  },
-  {
-    winner: "Marlon Vera ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/18815-david-grant",
-  },
-  {
-    winner: "Seung Woo Choi ",
+    winner: "Tanner Boser ",
     method: "ko/tko",
-    time: "1:37 Round 1",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/18497-julian-erosa",
+    time: "2:31 Round 2",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/ovince-st-preux",
   },
   {
-    winner: "Bruno Silva ",
-    method: "ko/tko",
-    time: "4:45 Round 1",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/70129-wellington-turman-fofo",
-  },
-  {
-    winner: "Matt Brown ",
-    method: "ko/tko",
-    time: "3:02 Round 2",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/dhiego-lima",
-  },
-  {
-    winner: "Nick Negumereanu ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/90744-aleksa-camur",
-  },
-  {
-    winner: "Virna Jandiroba ",
-    method: "ko/tko",
-    time: "5:00 Round 2",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/129348-kanako-murata",
-  },
-  {
-    winner: "Khaos Williams ",
+    winner: "Timur Valiev ",
     method: "decision",
     time: "3 Rounds",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/98220-matthew-semelsberger",
+      "https://www.tapology.com/fightcenter/fighters/30448-raoni-barcellos",
   },
   {
-    winner: "Josh Parisian ",
+    winner: "Andre Fili ",
+    method: "ends in a no contest",
+    time: "0:46 Round 2",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/daniel-pineda",
+  },
+  {
+    winner: "Tim Means ",
     method: "decision",
     time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/11092-roque-martinez",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/18302-nicolas-dalby",
   },
   {
-    winner: "Ricky Glenn ",
-    method: "ko/tko",
-    time: "0:37 Round 1",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/58797-joaquim-silva-netto-bjj",
-  },
-  {
-    winner: "Casey O'Neill ",
+    winner: "Renato Moicano ",
     method: "submission",
-    time: "2:54 Round 3",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/67543-lara-procopio",
+    time: "4:34 Round 2",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/70002-jai-herbert",
+  },
+  {
+    winner: "Kennedy Nzechukwu ",
+    method: "ko/tko",
+    time: "0:20 Round 3",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/136649-danilo-marques",
+  },
+  {
+    winner: "Shavkat Rakhmonov ",
+    method: "submission",
+    time: "2:10 Round 2",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/24379-michel-richard-dos-prazeres",
+  },
+  {
+    winner: "Jeremiah Wells ",
+    method: "ko/tko",
+    time: "0:30 Round 2",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/37561-warley-alves",
+  },
+  {
+    winner: "Marcin Prachnio ",
+    method: "ko/tko",
+    time: "0:56 Round 2",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/isaac-villanueva",
+  },
+  {
+    winner: "Julia Avila ",
+    method: "submission",
+    time: "4:19 Round 3",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/54390-julia-stoliarenko",
+  },
+  {
+    winner: "Charles Rosa ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/46234-justin-jaynes",
+  },
+  {
+    winner: "Damir Hadžović ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/yancy-medeiros-frisson",
   },
 
   {
