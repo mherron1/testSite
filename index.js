@@ -1404,3 +1404,13 @@ function toggleResults() {
   }
   create();
 }
+
+function toggleDonatePopup() {
+  let donatePopup = document.querySelector(".donatePopup");
+
+  if (donatePopup.style.display === "block") {
+    donatePopup.style.display = "none";
+  } else {
+    donatePopup.style.display = "block";
+  }
+}
