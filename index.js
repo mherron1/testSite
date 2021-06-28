@@ -766,18 +766,18 @@ function generateCard(i, arg) {
           .toLowerCase();
 
         if (
+          name1[2] === fighterA[2] &&
           name1[1] === fighterA[1] &&
           name1[0] === fighterA[0] &&
-          name1[name1.length - 1] === fighterA[fighterA.length - 1] &&
-          name1[name1.length - 2] === fighterA[fighterA.length - 2]
+          name1[name1.length - 1] === fighterA[fighterA.length - 1]
         ) {
           leftOdds = item.odds;
         }
         if (
           name1[1] === fighterB[1] &&
           name1[0] === fighterB[0] &&
-          name1[name1.length - 1] === fighterB[fighterB.length - 1] &&
-          name1[name1.length - 2] === fighterB[fighterB.length - 2]
+          name1[2] === fighterB[2] &&
+          name1[name1.length - 1] === fighterB[fighterB.length - 1]
         ) {
           rightOdds = item.odds;
         }
@@ -1050,8 +1050,6 @@ function generateCard(i, arg) {
       $(".detailsLeftPlus1").css("display", "flex");
       $(".detailsRightPlus1").css("display", "flex");
       $(".detailsMiddlePlus1").css("display", "flex");
-
-      console.log("test");
 
       mainTime.textContent = `Main: ${mainCardTime}`;
 

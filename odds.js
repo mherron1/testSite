@@ -1,119 +1,11 @@
 let odds = [
-{ name: 'Timothy Johnson', odds: '3.40' }
-,
-{ name: 'Valentin Moldavsky', odds: '1.33' }
-,
-{ name: 'Kana Watanabe', odds: '2.90' }
-,
-{ name: 'Liz Carmouche', odds: '1.44' }
-,
-{ name: 'Myles Jury', odds: '2.20' }
-,
-{ name: 'Sidney Outlaw', odds: '1.69' }
-,
-{ name: 'Lance Wright', odds: '3.30' }
-,
-{ name: 'Taylor Johnson', odds: '1.36' }
-,
-{ name: 'Lance Palmer', odds: '2.10' }
-,
-{ name: 'Movlid Khaybulaev', odds: '1.74' }
-,
-{ name: 'Brandon Sayles', odds: '3.00' }
-,
-{ name: 'Denis Goltsov', odds: '1.40' }
-,
-{ name: 'Anthony Pettis', odds: '1.50' }
-,
-{ name: 'Raush Manfio', odds: '2.70' }
-,
-{ name: 'Cindy Dandois', odds: '13.00' }
-,
-{ name: 'Kayla Harrison', odds: '1.03' }
-,
-{ name: 'Jamelle Jones', odds: '2.60' }
-,
-{ name: 'Klidson Abreu', odds: '1.53' }
-,
-{ name: 'Bruno Cappelozza', odds: '1.36' }
-,
-{ name: 'Muhammed Dereese', odds: '3.10' }
-,
-{ name: 'Ante Delija', odds: '1.25' }
-,
-{ name: 'Chandler Cole', odds: '4.00' }
-,
-{ name: 'Larissa Moreira Pacheco', odds: '1.15' }
-,
-{ name: 'Olena Kolesnyk', odds: '5.50' }
-,
-{ name: 'Renan Ferreira', odds: '1.40' }
-,
-{ name: 'Stuart Austin', odds: '3.00' }
-,
-{ name: 'Genah Fabian', odds: '1.36' }
-,
-{ name: 'Julija Pajic', odds: '3.10' }
-,
-{ name: 'Laura Sanchez', odds: '2.20' }
-,
-{ name: 'Taylor Guardado', odds: '1.69' }
-,
-{ name: 'Kaitlin Young', odds: '1.44' }
-,
-{ name: 'Mariana Morais', odds: '2.90' }
-,
-{ name: 'Alexander Volkov', odds: '2.40' }
-,
-{ name: 'Ciryl Gane', odds: '1.61' }
-,
-{ name: 'Ovince St. Preux', odds: '2.50' }
-,
-{ name: 'Tanner Boser', odds: '1.54' }
-,
-{ name: 'Andre Fili', odds: '1.44' }
-,
-{ name: 'Daniel Pineda', odds: '2.90' }
-,
-{ name: 'Danilo Marques', odds: '2.05' }
-,
-{ name: 'Kennedy Nzechukwu', odds: '1.80' }
-,
-{ name: 'Nicolas Dalby', odds: '2.15' }
-,
-{ name: 'Tim Means', odds: '1.71' }
-,
-{ name: 'Jai Herbert', odds: '3.00' }
-,
-{ name: 'Renato Moicano', odds: '1.40' }
-,
-{ name: 'Raoni Barcelos', odds: '1.44' }
-,
-{ name: 'Timur Valiev', odds: '2.80' }
-,
-{ name: 'Michel Prazeres', odds: '3.40' }
-,
-{ name: 'Shavkat Rakhmonov', odds: '1.33' }
-,
-{ name: 'Isaac Villanueva', odds: '2.60' }
-,
-{ name: 'Marcin Prachnio', odds: '1.53' }
-,
-{ name: 'Julia Avila', odds: '1.27' }
-,
-{ name: 'Julija Stoliarenko', odds: '3.80' }
-,
-{ name: 'Charles Rosa', odds: '1.57' }
-,
-{ name: 'Justin Jaynes', odds: '2.45' }
-,
 { name: 'Conor McGregor', odds: '1.91' }
 ,
 { name: 'Dustin Poirier', odds: '1.91' }
 ,
-{ name: 'Gilbert Burns', odds: '2.15' }
+{ name: 'Gilbert Burns', odds: '2.30' }
 ,
-{ name: 'Stephen Thompson', odds: '1.71' }
+{ name: 'Stephen Thompson', odds: '1.65' }
 ,
 { name: 'Louis Smolka', odds: '4.10' }
 ,
@@ -130,10 +22,6 @@ let odds = [
 { name: 'Jennifer Maia', odds: '1.50' }
 ,
 { name: 'Jessica Eye', odds: '2.65' }
-,
-{ name: 'Kevin Lee', odds: '2.50' }
-,
-{ name: 'Sean Brady', odds: '1.57' }
 ,
 { name: 'Ilia Topuria', odds: '1.44' }
 ,
@@ -155,9 +43,9 @@ let odds = [
 ,
 { name: 'Zhalgas Zhumagulov', odds: '1.27' }
 ,
-{ name: 'Brad Tavares', odds: '1.63' }
+{ name: 'Brad Tavares', odds: '1.57' }
 ,
-{ name: 'Omari Akhmedov', odds: '2.35' }
+{ name: 'Omari Akhmedov', odds: '2.45' }
 ,
 { name: 'Alen Amedovski', odds: '1.57' }
 ,
@@ -167,6 +55,50 @@ let odds = [
 ,
 { name: 'Rodrigo Nascimento', odds: '1.29' }
 ,
+{ name: 'Marion Reneau', odds: '2.15' }
+,
+{ name: 'Miesha Tate', odds: '1.74' }
+,
+{ name: 'Jeremy Stephens', odds: '3.20' }
+,
+{ name: 'Mateusz Gamrot', odds: '1.36' }
+,
+{ name: 'Dustin Stoltzfus', odds: '2.90' }
+,
+{ name: 'Rodolfo Vieira', odds: '1.44' }
+,
+{ name: 'Khalid Taha', odds: '1.61' }
+,
+{ name: 'Sergey Morozov', odds: '2.35' }
+,
+{ name: 'Don Madge', odds: '2.55' }
+,
+{ name: 'Guram Kutateladze', odds: '1.54' }
+,
+{ name: 'Anderson Dos Santos', odds: '2.45' }
+,
+{ name: 'Miles Johns', odds: '1.57' }
+,
+{ name: 'Deron Winn', odds: '3.20' }
+,
+{ name: 'Phil Hawes', odds: '1.36' }
+,
+{ name: 'Francisco Figueredo', odds: '1.29' }
+,
+{ name: 'Malcolm Gordon', odds: '3.60' }
+,
+{ name: 'Amanda Lemos', odds: '1.20' }
+,
+{ name: 'Montserrat Ruiz', odds: '4.75' }
+,
+{ name: 'Abubakar Nurmagomedov', odds: '2.00' }
+,
+{ name: 'Daniel Rodriguez', odds: '1.83' }
+,
+{ name: 'Islam Makhachev', odds: '1.15' }
+,
+{ name: 'Thiago Moises', odds: '5.50' }
+,
 { name: 'Cory Sandhagen', odds: '1.61' }
 ,
 { name: 'T.J. Dillashaw', odds: '2.35' }
@@ -175,9 +107,9 @@ let odds = [
 ,
 { name: 'Miranda Maverick', odds: '1.61' }
 ,
-{ name: 'Amanda Nunes', odds: '1.14' }
+{ name: 'Amanda Nunes', odds: '1.13' }
 ,
-{ name: 'Julianna Pena', odds: '6.00' }
+{ name: 'Julianna Pena', odds: '6.25' }
 ,
 { name: 'Jose Aldo', odds: '1.71' }
 ,
