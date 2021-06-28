@@ -1362,11 +1362,11 @@ h4:hover {
     bottom: 25%;
     padding-top: 40px;
     padding-bottom: 15px;
-    font-size: 0.8rem;
-    height: 300px;
+    font-size: 1rem;
+    height: 275px;
     width: unset;
     width: 100%;
-    background-color: #ececec;
+    background-color: #e7e7e7;
     color: rgb(0, 0, 0);
     border: 0px solid black;
     display: none;
