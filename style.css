@@ -1373,3 +1373,7 @@ h4:hover {
     word-break: break-all;
   }
 }
+
+#closeDonatePopup:hover {
+  cursor: pointer;
+}
