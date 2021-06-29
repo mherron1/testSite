@@ -764,6 +764,17 @@ let data = [
 '',
 [
   {
+    fighterA: 'Derrick Lewis',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/14023-derrick-lewis-the-black-beast',
+    rankA: '#3',
+    recordA: '25-7-0 ',
+    weight: '265',
+    recordB: ' 9-0-0',
+    rankB: '#4',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/187819-cyril-gane-real-c',
+    fighterB: 'Ciryl Gane'
+  },
+  {
     fighterA: 'Amanda Nunes',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/amanda-nunes-lioness-of-the-ring',
     rankA: '#1',
@@ -799,33 +810,33 @@ let data = [
   {
     fighterA: 'Drako Rodriguez',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/108711-drako-rodriguez',
-    rankA: '#127',
+    rankA: '#97',
     recordA: '7-2-0 ',
     weight: '135',
     recordB: ' 9-5-0',
-    rankB: '#124',
+    rankB: '#137',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/91401-vince-morales',
     fighterB: 'Vince Morales'
   },
   {
     fighterA: 'Johnny Munoz Jr.',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/79600-john-munoz-jr',
-    rankA: '#198',
+    rankA: '#140',
     recordA: '10-1-0 ',
     weight: '135',
     recordB: ' 7-3-0',
-    rankB: '#146',
+    rankB: '#162',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/140010-james-krause-simmons',
     fighterB: 'Jamey Simmons'
   },
   {
     fighterA: 'Victoria Leonardo',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/102107-victoria-leonardo',
-    rankA: '#45',
+    rankA: '#47',
     recordA: '8-3-0 ',
     weight: '125',
     recordB: ' 6-0-2',
-    rankB: '#30',
+    rankB: '#29',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/164565-melissa-gatto',
     fighterB: 'Melissa Gatto'
   },
@@ -843,22 +854,22 @@ let data = [
   {
     fighterA: 'Tecia Torres',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/32610-tecia-torres-the-tiny-tornado',
-    rankA: '#9',
+    rankA: '#8',
     recordA: '12-5-0 ',
     weight: '115',
     recordB: ' 13-9-0',
-    rankB: '#8',
+    rankB: '#10',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/57525-angela-hill-overkill',
     fighterB: 'Angela Hill'
   },
   {
     fighterA: 'Ed Herman',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/ed-herman-short-fuse',
-    rankA: '#29',
+    rankA: '#27',
     recordA: '25-14-0 ',
     weight: '205',
     recordB: ' 10-2-0',
-    rankB: '#27',
+    rankB: '#23',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/69032-alonzo-menifield',
     fighterB: 'Alonzo Menifield'
   },
@@ -1279,17 +1290,6 @@ let data = [
 1632621600000,
 '',
 [
-  {
-    fighterA: 'Jan Błachowicz',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/jan-blachowicz',
-    rankA: '#1',
-    recordA: '28-8-0 ',
-    weight: '205',
-    recordB: ' 32-7-0',
-    rankB: '#2',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/glover-teixeira',
-    fighterB: 'Glover Teixeira'
-  },
   {
     fighterA: 'Alexander Volkanovski',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/41705-alex-volkanski',
