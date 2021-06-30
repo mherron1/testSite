@@ -1392,6 +1392,26 @@ let data = [
 "2",
 "ESPN+"
 ],
+["Ultimate Fighting Championship",
+1635649200000,
+'',
+[
+  {
+    fighterA: 'Jan Błachowicz',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/jan-blachowicz',
+    rankA: '#1',
+    recordA: '28-8-0 ',
+    weight: '205',
+    recordB: ' 32-7-0',
+    rankB: '#3',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/glover-teixeira',
+    fighterB: 'Glover Teixeira'
+  }
+]
+,"UFC 267",
+"0",
+"Pay Per View | Prelims: ESPN"
+],
 ["Bellator MMA",
 1624660200000,
 '',
