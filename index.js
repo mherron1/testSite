@@ -769,7 +769,8 @@ function generateCard(i, arg) {
           name1[2] === fighterA[2] &&
           name1[1] === fighterA[1] &&
           name1[0] === fighterA[0] &&
-          name1[name1.length - 1] === fighterA[fighterA.length - 1]
+          name1[name1.length - 1] === fighterA[fighterA.length - 1] &&
+          name1[name1.length - 3] === fighterA[fighterA.length - 3]
         ) {
           leftOdds = item.odds;
         }
@@ -777,7 +778,8 @@ function generateCard(i, arg) {
           name1[1] === fighterB[1] &&
           name1[0] === fighterB[0] &&
           name1[2] === fighterB[2] &&
-          name1[name1.length - 1] === fighterB[fighterB.length - 1]
+          name1[name1.length - 1] === fighterB[fighterB.length - 1] &&
+          name1[name1.length - 3] === fighterB[fighterB.length - 3]
         ) {
           rightOdds = item.odds;
         }
@@ -914,6 +916,7 @@ function generateCard(i, arg) {
           .toLowerCase();
 
         if (
+          name1[2] === fighterA[2] &&
           name1[1] === fighterA[1] &&
           name1[0] === fighterA[0] &&
           name1[name1.length - 1] === fighterA[fighterA.length - 1] &&
@@ -924,6 +927,7 @@ function generateCard(i, arg) {
         if (
           name1[1] === fighterB[1] &&
           name1[0] === fighterB[0] &&
+          name1[2] === fighterB[2] &&
           name1[name1.length - 1] === fighterB[fighterB.length - 1] &&
           name1[name1.length - 2] === fighterB[fighterB.length - 2]
         ) {
