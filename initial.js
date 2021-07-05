@@ -2040,146 +2040,58 @@ let data = [
 "8",
 "ESPN 2 | Prelims: ESPN+"
 ],
-["Professional Fighters League",
-1624658400000,
+["ONE Championship",
+1623457800000,
 '',
 [
   {
-    fighterA: 'Kayla Harrison ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/34265-kayla-harrison',
+    fighterA: 'M. Petchyindee ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/234461-mongkolpetch',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '138',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Elias Mahmoudi'
+  },
+  {
+    fighterA: 'Tsogookhuu Amarsanaa ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/127190-sugofu-agchamar',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '170',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Ben Wilhelm'
+  },
+  {
+    fighterA: 'Chang Min Yoon ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/85027-chang-min-yoon',
     rankA: '#n/a',
     recordA: '',
     weight: '155',
     recordB: '',
     rankB: '#n/a',
     fighterBLink: null,
-    fighterB: ' Cindy Dandois'
+    fighterB: ' Jia Wen Ma'
   },
   {
-    fighterA: 'Raush Manfio ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/41763-raush-manfio',
+    fighterA: 'Taiki Naito ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/153314-taiki-naito',
     rankA: '#n/a',
     recordA: '',
-    weight: '155',
+    weight: '135',
     recordB: '',
     rankB: '#n/a',
     fighterBLink: null,
-    fighterB: ' Anthony Pettis'
-  },
-  {
-    fighterA: 'Movlid Khaybulaev ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/68161-mavlidin-khaibulaev',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '145',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Lance Palmer'
-  },
-  {
-    fighterA: 'Denis Goltsov ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/13594-Denis-Goltsov',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '265',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Brandon Sayles'
-  },
-  {
-    fighterA: 'B. Cappelozza ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/24968-bruno-cappelozza',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '265',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Mo DeReese'
-  },
-  {
-    fighterA: 'Larissa Pacheco ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/56249-larissa-pacheco',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '155',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Helena Kolesnyk'
-  },
-  {
-    fighterA: 'Ante Delija ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/43151-ante-delija-walking-trouble',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '265',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Chandler Cole'
-  },
-  {
-    fighterA: 'Genah Fabian ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/114565-genah-fabian',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '155',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Julija Pajić'
-  },
-  {
-    fighterA: 'Renan Ferreira ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/87738-renan-pobrema',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '265',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Carl Seumanutafa'
-  },
-  {
-    fighterA: 'Taylor Guardado ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/32612-taylor-stratford-no-mercy',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '155',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Laura Sanchez'
-  },
-  {
-    fighterA: 'Mariana Morais ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/68151-mariana-morais',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '155',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Kaitlin Young'
-  },
-  {
-    fighterA: 'Jamelle Jones ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/49923-jamelle-jones',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '265',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Klidson Abreu'
+    fighterB: ' Wenfeng Wang'
   }
 ]
-,"PFL 2021 #6",
-"8",
-"ESPN 2 | Prelims: ESPN+"
+,"ONE Championship",
+"0",
+"Internet Stream"
 ],
 ["Ultimate Fighting Championship",
 1633816800000,
