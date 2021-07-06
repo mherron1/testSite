@@ -95,4 +95,6 @@ let odds = [
   { name: "Thiago Santos", odds: "1.63" },
   { name: "Glover Teixeira", odds: "3.10" },
   { name: "Jan Blachowicz", odds: "1.38" },
+  { name: "Islam Makhachev", odds: "1.15" },
+  { name: "Thiago Moises", odds: "5.25" },
 ];
