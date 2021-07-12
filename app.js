@@ -56,7 +56,7 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 06, 11, 02, 00, 00),
     prelims: new Date(2021, 06, 10, 22, 00, 00),
-    videos: ["k5QT0ORxw7g"],
+    videos: ["03wKL7Y4IzA"],
   },
   {
     date: "jul17",
@@ -64,6 +64,13 @@ let times = [
     time: new Date(2021, 06, 18, 02, 00, 00),
     prelims: new Date(2021, 06, 17, 23, 00, 00),
     videos: ["Th4hu3ruG7Q"],
+  },
+  {
+    date: "aug07",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2021, 07, 08, 02, 00, 00),
+    prelims: new Date(2021, 07, 07, 22, 00, 00),
+    videos: ["WKmi414prVU"],
   },
 ];
 //tempFix
