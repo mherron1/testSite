@@ -52,11 +52,11 @@ let ufcRankings = [
     rank: 12,
   },
   {
-    name: "Sumudaerji",
+    name: "Matheus Nicolau",
     rank: 13,
   },
   {
-    name: "Matheus Nicolau",
+    name: "Sumudaerji",
     rank: 14,
   },
   {
@@ -152,11 +152,11 @@ let ufcRankings = [
     rank: 5,
   },
   {
-    name: "Josh Emmett",
+    name: "Arnold Allen",
     rank: 6,
   },
   {
-    name: "Arnold Allen",
+    name: "Josh Emmett",
     rank: 7,
   },
   {
@@ -172,11 +172,11 @@ let ufcRankings = [
     rank: 10,
   },
   {
-    name: "Sodiq Yusuff",
+    name: "Bryce Mitchell",
     rank: 11,
   },
   {
-    name: "Bryce Mitchell",
+    name: "Sodiq Yusuff",
     rank: 12,
   },
   {
@@ -188,7 +188,7 @@ let ufcRankings = [
     rank: 14,
   },
   {
-    name: "Alex Caceres",
+    name: "Ilia Topuria",
     rank: 15,
   },
   {
@@ -212,15 +212,15 @@ let ufcRankings = [
     rank: 4,
   },
   {
-    name: "Conor McGregor",
+    name: "Tony Ferguson",
     rank: 5,
   },
   {
-    name: "Tony Ferguson",
+    name: "Rafael Dos Anjos",
     rank: 6,
   },
   {
-    name: "Rafael Dos Anjos",
+    name: "Conor McGregor",
     rank: 7,
   },
   {
@@ -276,11 +276,11 @@ let ufcRankings = [
     rank: 4,
   },
   {
-    name: "Vicente Luque",
+    name: "Michael Chiesa",
     rank: 5,
   },
   {
-    name: "Michael Chiesa",
+    name: "Vicente Luque",
     rank: 6,
   },
   {
@@ -368,11 +368,11 @@ let ufcRankings = [
     rank: 11,
   },
   {
-    name: "Chris Weidman",
+    name: "Brad Tavares",
     rank: 12,
   },
   {
-    name: "Omari Akhmedov",
+    name: "Chris Weidman",
     rank: 13,
   },
   {
@@ -380,7 +380,7 @@ let ufcRankings = [
     rank: 14,
   },
   {
-    name: "Brad Tavares",
+    name: "Omari Akhmedov",
     rank: 15,
   },
   {
@@ -492,15 +492,15 @@ let ufcRankings = [
     rank: 10,
   },
   {
-    name: "Walt Harris",
+    name: "Blagoy Ivanov",
     rank: 11,
   },
   {
-    name: "Tom Aspinall",
+    name: "Walt Harris",
     rank: 12,
   },
   {
-    name: "Blagoy Ivanov",
+    name: "Tom Aspinall",
     rank: 13,
   },
   {
@@ -596,11 +596,11 @@ let ufcRankings = [
     rank: 4,
   },
   {
-    name: "Marina Rodriguez",
+    name: "Mackenzie Dern",
     rank: 5,
   },
   {
-    name: "Mackenzie Dern",
+    name: "Marina Rodriguez",
     rank: 6,
   },
   {
@@ -668,11 +668,11 @@ let ufcRankings = [
     rank: 6,
   },
   {
-    name: "Jessica Eye",
+    name: "Viviane Araujo",
     rank: 7,
   },
   {
-    name: "Viviane Araujo",
+    name: "Jessica Eye",
     rank: 8,
   },
   {
@@ -692,11 +692,11 @@ let ufcRankings = [
     rank: 12,
   },
   {
-    name: "Maycee Barber",
+    name: "Miranda Maverick",
     rank: 13,
   },
   {
-    name: "Miranda Maverick",
+    name: "Maycee Barber",
     rank: 14,
   },
   {
@@ -724,11 +724,11 @@ let ufcRankings = [
     rank: 4,
   },
   {
-    name: "Yana Kunitskaya",
+    name: "Julianna Peña",
     rank: 5,
   },
   {
-    name: "Julianna Peña",
+    name: "Yana Kunitskaya",
     rank: 6,
   },
   {
@@ -744,11 +744,11 @@ let ufcRankings = [
     rank: 9,
   },
   {
-    name: "Pannie Kianzad",
+    name: "Lina Lansberg",
     rank: 10,
   },
   {
-    name: "Lina Lansberg",
+    name: "Pannie Kianzad",
     rank: 11,
   },
   {
@@ -760,11 +760,11 @@ let ufcRankings = [
     rank: 13,
   },
   {
-    name: "Karol Rosa",
+    name: "Julia Avila",
     rank: 14,
   },
   {
-    name: "Julia Avila",
+    name: "Karol Rosa",
     rank: 15,
   },
   {
