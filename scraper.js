@@ -17,6 +17,7 @@ let events = [
   "https://www.tapology.com/fightcenter/events/79368-bellator-262-velasquez-vs-kielholtz",
   "https://www.tapology.com/fightcenter/events/79728-bellator-263",
   "https://www.tapology.com/fightcenter/events/80138-bellator-264-mousasi-vs-salter",
+  "https://www.tapology.com/fightcenter/events/80135-bellator",
   "https://www.tapology.com/fightcenter/events/79757-pfl-2021-7-playoffs",
   "https://www.tapology.com/fightcenter/events/79758-pfl-2021-8-playoffs",
   "https://www.tapology.com/fightcenter/events/79759-pfl-2021-9-playoffs",
