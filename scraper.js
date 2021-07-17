@@ -14,7 +14,6 @@ let events = [
   "https://www.tapology.com/fightcenter/events/79693-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/80222-ufc-267",
   "https://www.tapology.com/fightcenter/events/80131-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/79368-bellator-262-velasquez-vs-kielholtz",
   "https://www.tapology.com/fightcenter/events/79728-bellator-263",
   "https://www.tapology.com/fightcenter/events/80138-bellator-264-mousasi-vs-salter",
   "https://www.tapology.com/fightcenter/events/80135-bellator",
@@ -22,7 +21,7 @@ let events = [
   "https://www.tapology.com/fightcenter/events/79758-pfl-2021-8-playoffs",
   "https://www.tapology.com/fightcenter/events/79759-pfl-2021-9-playoffs",
   "https://www.tapology.com/fightcenter/events/78106-ufc-264",
-  "https://www.tapology.com/fightcenter/events/79075-bellator-261",
+  "https://www.tapology.com/fightcenter/events/79368-bellator-262-velasquez-vs-kielholtz",
   "https://www.tapology.com/fightcenter/events/73519-pfl-2021-6",
   "https://www.tapology.com/fightcenter/events/79371-one-championship-full-blast-2",
 ];
