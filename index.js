@@ -1419,4 +1419,6 @@ function toggleDonatePopup() {
   }
 }
 
-console.log("conor tap like chicken");
+console.log("Hi there!");
+console.log("I hope you find this website useful.");
+console.log("Have a nice day!");
