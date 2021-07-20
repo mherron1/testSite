@@ -1418,3 +1418,5 @@ function toggleDonatePopup() {
     donatePopup.style.display = "block";
   }
 }
+
+console.log("conor tap like chicken");
