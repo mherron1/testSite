@@ -1426,3 +1426,13 @@ h4:hover {
 #closeDonatePopup:hover {
   cursor: pointer;
 }
+
+#paypalLink {
+  background-color: #ffc63c;
+  color: black;
+  padding: 8px;
+  width: 100px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.603);
+}
