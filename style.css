@@ -1408,14 +1408,14 @@ h4:hover {
   transition-duration: 0.6s;
 }
 #navImageLeft:hover {
-  transform: scale(1.02);
+  transform: scale(1);
 }
 #navImageRight {
   width: 350px;
   transition-duration: 0.6s;
 }
 #navImageRight:hover {
-  transform: scale(1.02);
+  transform: scale(1);
 }
 
 #leftArrow {
@@ -1423,7 +1423,8 @@ h4:hover {
   width: 350px;
   overflow: hidden;
   opacity: 0.85;
-  box-shadow: 0px 2px 3px rgb(0, 0, 0);
+  box-shadow: 10px 5px 10px rgb(79, 79, 79);
+  transform: perspective(250px) rotateY(-5deg) translateX(-350px);
 }
 #leftArrow:hover {
   opacity: 1;
@@ -1433,7 +1434,8 @@ h4:hover {
   width: 350px;
   overflow: hidden;
   opacity: 0.85;
-  box-shadow: 0px 2px 3px rgb(0, 0, 0);
+  box-shadow: -10px 5px 10px rgb(79, 79, 79);
+  transform: perspective(250px) rotateY(5deg) translateX(350px);
 }
 
 #rightArrow:hover {
