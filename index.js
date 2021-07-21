@@ -865,6 +865,11 @@ function generateCard(i, arg) {
       }
     }
 
+    if (!events[i][3][j].recordA.includes("-")) {
+      events[i][3][j].recordA = "";
+      events[i][3][j].recordB = "";
+    }
+
     mainCard.innerHTML += `
   <div class="left ${snippetA}" style = "position:relative;">
     <div>
