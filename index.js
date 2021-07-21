@@ -5,6 +5,13 @@ if ("serviceWorker" in navigator) {
     .catch((err) => console.log());
 }
 
+let android = false;
+var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+if (isAndroid) {
+  android = true;
+}
+
 if (localStorage.getItem("dark-mode") !== null) {
   if (localStorage.getItem("dark-mode") === "y") {
     let darkMode = document.querySelector("#darkInput");

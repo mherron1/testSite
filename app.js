@@ -31,7 +31,6 @@ let times = [
     prelims: new Date(2021, 05, 11, 12, 30, 00),
     videos: [],
   },
-
   {
     date: "jun25",
     promo: "Professional Fighters League",
@@ -59,6 +58,13 @@ let times = [
     time: new Date(2021, 06, 24, 23, 00, 00),
     prelims: new Date(2021, 06, 24, 20, 00, 00),
     videos: ["4lnHHdoL2kI"],
+  },
+  {
+    date: "jul30",
+    promo: "ONE Championship",
+    time: new Date(2021, 06, 30, 12, 30, 00),
+    prelims: new Date(2021, 06, 30, 12, 30, 00),
+    videos: [],
   },
   {
     date: "aug07",
@@ -124,10 +130,3 @@ data2.forEach((event) => {
     });
   }
 });
-
-let android = false;
-var ua = navigator.userAgent.toLowerCase();
-var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
-if (isAndroid) {
-  android = true;
-}
