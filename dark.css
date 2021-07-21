@@ -739,7 +739,7 @@ input:checked + .slider:before {
 #testDivPlus1 {
   position: absolute;
   border-radius: 5px;
-  border: 2px solid rgba(70, 70, 70, 0.671);
+  border: 2px solid rgba(68, 68, 68, 0.418);
 
   background-color: rgba(20, 20, 20, 0.908);
   color: white;
@@ -1005,8 +1005,6 @@ li span {
     cursor: pointer;
   }
   #testDiv:active {
-    border: 1px solid rgba(0, 0, 0, 0.438);
-    margin-bottom: 1px;
   }
   .r:hover {
     filter: brightness(110%);
