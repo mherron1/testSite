@@ -1463,26 +1463,31 @@ h4:hover {
   height: 190px;
   width: 350px;
   overflow: hidden;
-  opacity: 0.85;
-  box-shadow: 10px 5px 10px rgb(0, 0, 0);
-  border: 2px solid rgb(49, 49, 49);
+  opacity: 0.75;
+  box-shadow: 7px 5px 10px rgb(0, 0, 0);
   transform: perspective(250px) rotateY(-5deg) translateX(-350px);
 }
 #leftArrow:hover {
   opacity: 1;
 }
+#leftArrow:active {
+  box-shadow: 4px 3px 5px rgb(0, 0, 0);
+}
+
 #rightArrow {
   height: 190px;
   width: 350px;
   overflow: hidden;
-  opacity: 0.85;
-  box-shadow: -10px 5px 10px rgb(0, 0, 0);
-  border: 2px solid rgb(49, 49, 49);
-  transform: perspective(250px) rotateY(5deg) translateX(350px);
+  opacity: 0.75;
+  box-shadow: -7px 5px 10px rgb(0, 0, 0);
+  transform: perspective(250px) rotateY(6deg) translateX(350px);
 }
 
 #rightArrow:hover {
-  opacity: 1;
+  opacity: 01;
+}
+#rightArrow:active {
+  box-shadow: -4px 3px 5px rgb(0, 0, 0);
 }
 
 #navBlocks {
@@ -1513,4 +1518,13 @@ h4:hover {
   transform: translateX(-50%);
   z-index: 100;
   display: none;
+}
+
+@media only screen and (max-width: 1025px) {
+  #rightArrow {
+    opacity: 0%;
+  }
+  #leftArrow {
+    opacity: 0%;
+  }
 }
