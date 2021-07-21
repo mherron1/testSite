@@ -991,7 +991,7 @@ li span {
 
 @media only screen and (min-width: 475px) {
   html {
-    background-color: #d6d6d6;
+    background-color: #9b9b9b;
   }
 
   body {
@@ -1440,4 +1440,43 @@ h4:hover {
 
 #rightArrow:hover {
   opacity: 01;
+}
+
+#navBlocks {
+  display: none;
+}
+
+#navEventTitleLeft {
+  background-color: black;
+  padding: 4px 10px;
+  color: white;
+  position: absolute;
+  font-size: 1.2rem;
+  bottom: 5px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: none;
+}
+
+#navEventTitleRight {
+  background-color: black;
+  padding: 4px 10px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 1.2rem;
+  bottom: 5px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  #rightArrow {
+    opacity: 0%;
+  }
+  #leftArrow {
+    opacity: 0%;
+  }
 }

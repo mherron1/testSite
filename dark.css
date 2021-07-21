@@ -1482,5 +1482,35 @@ h4:hover {
 }
 
 #rightArrow:hover {
-  opacity: 01;
+  opacity: 1;
+}
+
+#navBlocks {
+  display: none;
+}
+
+#navEventTitleLeft {
+  background-color: black;
+  padding: 4px 10px;
+  color: white;
+  position: absolute;
+  font-size: 1.2rem;
+  bottom: 5px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: none;
+}
+
+#navEventTitleRight {
+  background-color: black;
+  padding: 4px 10px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 1.2rem;
+  bottom: 5px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: none;
 }

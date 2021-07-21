@@ -1106,9 +1106,15 @@ function generateCard(i, arg) {
   /////////////////////hide  navigathion arrows
   if (arg === "Plus1") {
     document.querySelector("#navImageRight").src = `${events[i][2]}`;
+    document.querySelector(
+      "#navEventTitleRight"
+    ).textContent = `${events[i][4]}`;
   }
   if (arg === "Minus1") {
     document.querySelector("#navImageLeft").src = `${events[i][2]}`;
+    document.querySelector(
+      "#navEventTitleLeft"
+    ).textContent = `${events[i][4]}`;
   }
 }
 
@@ -1440,3 +1446,7 @@ function toggleDonatePopup() {
 console.log("Hi there!");
 console.log("I hope you find this website useful.");
 console.log("Have a nice day!");
+
+setTimeout(() => {
+  document.getElementById("navBlocks").style.display = "block";
+}, 1000);
