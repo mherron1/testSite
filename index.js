@@ -1104,6 +1104,12 @@ function generateCard(i, arg) {
   initYouTubeVideos();
 
   /////////////////////hide  navigathion arrows
+  if (arg === "Plus1") {
+    document.querySelector("#navImageRight").src = `${events[i][2]}`;
+  }
+  if (arg === "Minus1") {
+    document.querySelector("#navImageLeft").src = `${events[i][2]}`;
+  }
 }
 
 function changeSettings() {

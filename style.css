@@ -1085,18 +1085,19 @@ li span {
 #leftArrow {
   position: fixed;
   right: 0;
-  top: 40%;
+  top: 35%;
   margin-right: 50%;
   transform: translateX(-350px);
   color: white;
   font-size: 100px;
   z-index: 100000000;
+  overflow: hidden;
 }
 
 #rightArrow {
   position: fixed;
   left: 0;
-  top: 40%;
+  top: 35%;
   margin-left: 50%;
   transform: translateX(350px);
   color: white;
@@ -1400,4 +1401,41 @@ h4:hover {
 
 #paypalLink:active {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.753);
+}
+
+#navImageLeft {
+  width: 350px;
+  transition-duration: 0.6s;
+}
+#navImageLeft:hover {
+  transform: scale(1.02);
+}
+#navImageRight {
+  width: 350px;
+  transition-duration: 0.6s;
+}
+#navImageRight:hover {
+  transform: scale(1.02);
+}
+
+#leftArrow {
+  height: 190px;
+  width: 350px;
+  overflow: hidden;
+  opacity: 0.85;
+  box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+#leftArrow:hover {
+  opacity: 1;
+}
+#rightArrow {
+  height: 190px;
+  width: 350px;
+  overflow: hidden;
+  opacity: 0.85;
+  box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+
+#rightArrow:hover {
+  opacity: 01;
 }
