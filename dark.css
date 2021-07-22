@@ -8,7 +8,7 @@ a {
 }
 html {
   height: 100%;
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
 }
 
 body {
@@ -918,14 +918,14 @@ li span {
 
 @media only screen and (min-width: 475px) {
   html {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(34, 34, 34);
   }
 
   body {
     margin-top: 0vh;
     max-width: 475px;
     min-height: 125vh;
-    box-shadow: 0px 0px 3px 0px rgb(94, 94, 94);
+    box-shadow: 0px 0px 3px 0px rgb(22, 22, 22);
   }
 
   #sideNav {
@@ -1376,7 +1376,7 @@ h4:hover {
 .openDonate {
   background-color: #000000;
   color: white;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(177, 177, 177);
   text-align: center;
   padding: 5px;
 }
@@ -1460,7 +1460,7 @@ h4:hover {
 }
 
 #leftArrow {
-  height: 190px;
+  height: 225px;
   width: 350px;
   overflow: hidden;
   opacity: 0.75;
@@ -1475,7 +1475,7 @@ h4:hover {
 }
 
 #rightArrow {
-  height: 190px;
+  height: 225px;
   width: 350px;
   overflow: hidden;
   opacity: 0.75;
@@ -1495,29 +1495,46 @@ h4:hover {
 }
 
 #navEventTitleLeft {
-  background-color: black;
-  padding: 4px 10px;
-  color: white;
-  position: absolute;
-  font-size: 1.2rem;
-  bottom: 5px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  z-index: 100;
-  display: none;
-}
-
-#navEventTitleRight {
-  background-color: black;
+  background-color: rgba(77, 77, 77, 0.795);
   padding: 4px 10px;
   color: rgb(255, 255, 255);
   position: absolute;
   font-size: 1.2rem;
-  bottom: 5px;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-left: 50%;
   transform: translateX(-50%);
   z-index: 100;
-  display: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#navEventTitleRight {
+  background-color: rgba(77, 77, 77, 0.795);
+  padding: 4px 10px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 1.2rem;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#navImageRight {
+  position: absolute;
+  top: 42px;
+}
+#navImageLeft {
+  position: absolute;
+  top: 42px;
 }
 
 @media only screen and (max-width: 1025px) {

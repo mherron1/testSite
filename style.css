@@ -1419,7 +1419,7 @@ h4:hover {
 }
 
 #leftArrow {
-  height: 190px;
+  height: 225px;
   width: 350px;
   overflow: hidden;
   opacity: 0.85;
@@ -1434,7 +1434,7 @@ h4:hover {
 }
 
 #rightArrow {
-  height: 190px;
+  height: 225px;
   width: 350px;
   overflow: hidden;
   opacity: 0.85;
@@ -1454,29 +1454,46 @@ h4:hover {
 }
 
 #navEventTitleLeft {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.795);
   padding: 4px 10px;
-  color: white;
+  color: rgb(0, 0, 0);
   position: absolute;
   font-size: 1.2rem;
-  bottom: 5px;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-left: 50%;
   transform: translateX(-50%);
   z-index: 100;
-  display: none;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 #navEventTitleRight {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.795);
   padding: 4px 10px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   position: absolute;
   font-size: 1.2rem;
-  bottom: 5px;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-left: 50%;
   transform: translateX(-50%);
   z-index: 100;
-  display: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#navImageRight {
+  position: absolute;
+  top: 41px;
+}
+#navImageLeft {
+  position: absolute;
+  top: 41px;
 }
 
 @media only screen and (max-width: 1025px) {
