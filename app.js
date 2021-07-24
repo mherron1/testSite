@@ -74,6 +74,13 @@ let times = [
     prelims: new Date(2021, 07, 07, 22, 00, 00),
     videos: ["WKmi414prVU"],
   },
+  {
+    date: "aug13",
+    promo: "ONE Championship",
+    time: new Date(2021, 07, 13, 12, 30, 00),
+    prelims: new Date(2021, 07, 13, 12, 30, 00),
+    videos: [],
+  },
 ];
 //tempFix
 data.forEach((event) => {
