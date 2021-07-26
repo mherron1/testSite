@@ -1445,14 +1445,14 @@ h4:hover {
 }
 
 #navImageLeft {
-  width: 350px;
+  width: 375px;
   transition-duration: 0.6s;
 }
 #navImageLeft:hover {
   transform: scale(1);
 }
 #navImageRight {
-  width: 350px;
+  width: 375px;
   transition-duration: 0.6s;
 }
 #navImageRight:hover {
@@ -1460,12 +1460,14 @@ h4:hover {
 }
 
 #leftArrow {
-  height: 225px;
-  width: 350px;
+  height: 250px;
+  width: 375px;
   overflow: hidden;
   opacity: 0.75;
   box-shadow: 7px 5px 10px rgb(0, 0, 0);
   transform: perspective(250px) rotateY(-5deg) translateX(-350px);
+  border-radius: 15px;
+  overflow: hidden;
 }
 #leftArrow:hover {
   opacity: 1;
@@ -1475,12 +1477,14 @@ h4:hover {
 }
 
 #rightArrow {
-  height: 225px;
-  width: 350px;
+  height: 250px;
+  width: 375px;
   overflow: hidden;
   opacity: 0.75;
   box-shadow: -7px 5px 10px rgb(0, 0, 0);
   transform: perspective(250px) rotateY(6deg) translateX(350px);
+  border-radius: 7px;
+  overflow: hidden;
 }
 
 #rightArrow:hover {
@@ -1495,11 +1499,11 @@ h4:hover {
 }
 
 #navEventTitleLeft {
-  background-color: rgba(77, 77, 77, 0.795);
+  background-color: rgb(19, 19, 19);
   padding: 4px 10px;
   color: rgb(255, 255, 255);
   position: absolute;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   top: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1512,11 +1516,11 @@ h4:hover {
 }
 
 #navEventTitleRight {
-  background-color: rgba(77, 77, 77, 0.795);
+  background-color: rgb(19, 19, 19);
   padding: 4px 10px;
   color: rgb(255, 255, 255);
   position: absolute;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   top: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
