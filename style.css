@@ -991,7 +991,12 @@ li span {
 
 @media only screen and (min-width: 475px) {
   html {
-    background-color: #d1d1d1;
+    background-image: linear-gradient(
+      to right,
+      rgb(172, 172, 172),
+      rgb(202, 202, 202),
+      rgb(172, 172, 172)
+    );
   }
 
   body {
