@@ -1376,7 +1376,7 @@ h4:hover {
 .openDonate {
   background-color: #000000;
   color: white;
-  border: 1px solid rgb(109, 109, 109);
+  border: 1px solid rgb(41, 41, 41);
   text-align: center;
   padding: 5px;
 }
@@ -1483,7 +1483,7 @@ h4:hover {
   opacity: 0.75;
   box-shadow: -7px 5px 10px rgb(0, 0, 0);
   transform: perspective(250px) rotateY(6deg) translateX(350px);
-  border-radius: 7px;
+  border-radius: 15px;
   overflow: hidden;
 }
 
