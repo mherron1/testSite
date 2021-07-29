@@ -1321,6 +1321,26 @@ let data = [
 "6",
 "ESPN+"
 ],
+["Ultimate Fighting Championship",
+1636254000000,
+'',
+[
+  {
+    fighterA: 'Kamaru Usman',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/39265-kamarudeen-usman',
+    rankA: '#1',
+    recordA: '19-1-0 ',
+    weight: '170',
+    recordB: ' 16-2-0',
+    rankB: '#2',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/23634-colby-covington',
+    fighterB: 'Colby Covington'
+  }
+]
+,"UFC 268",
+"0",
+"Pay Per View | Prelims: ESPN"
+],
 ["Bellator MMA",
 1627772400000,
 '',
@@ -1780,7 +1800,7 @@ let data = [
     rankA: '#149',
     recordA: '',
     weight: '125',
-    recordB: '',
+    recordB: ' Bangkok, TH',
     rankB: '#',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/290062-prajanchai-pksaenchai',
     fighterB: 'Prajanchai PK Saenchai'

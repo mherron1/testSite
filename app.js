@@ -1,7 +1,7 @@
 let delay = 0;
 
-if (false) {
-  delay = -40000000;
+if (true) {
+  delay = -120000000;
 }
 
 let assets = [
@@ -18,10 +18,12 @@ let assets = [
   "aug07-u.jpg",
   "aug13-b.jpg",
   "aug21-u.jpg",
+  "aug28-u.jpg",
   "sep25-u.jpg",
   "oct02-u.jpg",
   "oct23-b.jpg",
-  "oct30-u.jpg",
+  "oct31-u.jpg",
+  "nov06-u.jpg",
 ];
 
 let times = [
@@ -72,7 +74,7 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 06, 31, 22, 00, 00),
     prelims: new Date(2021, 06, 31, 20, 00, 00),
-    videos: ["Lt6gRJuwgZw"],
+    videos: ["IZxJK6pDkd4"],
   },
   {
     date: "aug07",
@@ -86,6 +88,13 @@ let times = [
     promo: "ONE Championship",
     time: new Date(2021, 07, 13, 12, 30, 00),
     prelims: new Date(2021, 07, 13, 12, 30, 00),
+    videos: [],
+  },
+  {
+    date: "oct31",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2021, 09, 31, 02, 00, 00),
+    prelims: new Date(2021, 09, 30, 23, 00, 00),
     videos: [],
   },
 ];
