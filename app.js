@@ -67,7 +67,7 @@ let times = [
     promo: "ONE Championship",
     time: new Date(2021, 06, 30, 12, 30, 00),
     prelims: new Date(2021, 06, 30, 12, 30, 00),
-    videos: [],
+    videos: ["0Azxuhd3lQo"],
   },
   {
     date: "jul31",
@@ -81,7 +81,7 @@ let times = [
     promo: "Bellator MMA",
     time: new Date(2021, 07, 01, 01, 00, 00),
     prelims: new Date(2021, 06, 31, 22, 00, 00),
-    videos: [],
+    videos: ["LoBoFtwQIHk"],
   },
   {
     date: "aug07",
