@@ -18,13 +18,12 @@ let events = [
   "https://www.tapology.com/fightcenter/events/79757-pfl-2021-7-playoffs",
   "https://www.tapology.com/fightcenter/events/79758-pfl-2021-8-playoffs",
   "https://www.tapology.com/fightcenter/events/79759-pfl-2021-9-playoffs",
-  "https://www.tapology.com/fightcenter/events/81069-one-championship-battleground",
   "https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
   "https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   "https://www.tapology.com/fightcenter/events/78477-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/79368-bellator-262-velasquez-vs-kielholtz",
   "https://www.tapology.com/fightcenter/events/73519-pfl-2021-6",
-  "https://www.tapology.com/fightcenter/events/79371-one-championship-full-blast-2",
+  "https://www.tapology.com/fightcenter/events/81069-one-championship-battleground",
 ];
 //getEventURLs();
 

@@ -137,31 +137,43 @@ let resultsList = [
       "https://www.tapology.com/fightcenter/fighters/48590-nicholas-giulietti",
   },
   {
-    winner: "M. Petchyindee ",
+    winner: "Prajanchai PK Saenchai ",
     method: "decision",
-    time: "3 Rounds",
+    time: "5 Rounds",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/208716-elias-mahmoudi-the-sniper",
+      "https://www.tapology.com/fightcenter/fighters/219793-sam-a-gaiyanghadao",
   },
   {
-    winner: "Tsogookhuu Amarsanaa ",
+    winner: "Aung La N Sang ",
+    method: "ko/tko",
+    time: "3:45 Round 1",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/34208-leandro-athaide",
+  },
+  {
+    winner: "Gustavo Balart ",
     method: "decision",
     time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/193733-ben-wilhelm",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/49052-ryuto-sawada",
   },
   {
-    winner: "Chang Min Yoon ",
+    winner: "Ritu Phogat ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/123154-heqin-lin",
+  },
+  {
+    winner: "Jeremy Pacatiw ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/122798-rui-chen",
+  },
+  {
+    winner: "Victoria Lee ",
     method: "submission",
-    time: "1:46 Round 1",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/105594-jia-wen-ma",
+    time: "3:22 Round 1",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/190503-luping-wang",
   },
-  {
-    winner: "Taiki Naito ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/79167-wenfeng-wang",
-  },
-
   {
     winner: "Kayla Harrison ",
     method: "submission",
