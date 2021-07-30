@@ -167,17 +167,6 @@ let data = [
     fighterB: 'Ciryl Gane'
   },
   {
-    fighterA: 'Amanda Nunes',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/amanda-nunes-lioness-of-the-ring',
-    rankA: '#1',
-    recordA: '21-4-0 ',
-    weight: '135',
-    recordB: ' 10-4-0',
-    rankB: '#4',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/julianna-pena-the-venezuelan-vixen',
-    fighterB: 'Julianna Peña'
-  },
-  {
     fighterA: 'José Aldo',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/jose-aldo-junior',
     rankA: '#7',
@@ -261,18 +250,18 @@ let data = [
     recordA: '15-6-0 ',
     weight: '125',
     recordB: ' 9-3-0',
-    rankB: '#96',
+    rankB: '#105',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/50154-ode-osbourne',
     fighterB: 'Ode Osbourne'
   },
   {
     fighterA: 'Miles Johns',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/46875-miles-johns',
-    rankA: '#53',
+    rankA: '#55',
     recordA: '11-1-0 ',
     weight: '135',
     recordB: ' 21-8-0',
-    rankB: '#73',
+    rankB: '#74',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/50759-anderson-berlingeri-berinja',
     fighterB: 'Anderson dos Santos'
   },
@@ -290,22 +279,22 @@ let data = [
   {
     fighterA: 'Drako Rodriguez',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/108711-drako-rodriguez',
-    rankA: '#101',
+    rankA: '#143',
     recordA: '7-2-0 ',
     weight: '135',
     recordB: ' 9-5-0',
-    rankB: '#120',
+    rankB: '#121',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/91401-vince-morales',
     fighterB: 'Vince Morales'
   },
   {
     fighterA: 'Johnny Munoz Jr.',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/79600-john-munoz-jr',
-    rankA: '#151',
+    rankA: '#145',
     recordA: '10-1-0 ',
     weight: '135',
     recordB: ' 7-3-0',
-    rankB: '#145',
+    rankB: '#143',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/140010-james-krause-simmons',
     fighterB: 'Jamey Simmons'
   }
@@ -894,10 +883,21 @@ let data = [
     rankB: '#60',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/57170-ala-tengheili',
     fighterB: 'Heili Alateng'
+  },
+  {
+    fighterA: 'Emily Whitmire',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/33183-emily-whitmire',
+    rankA: '#34',
+    recordA: '4-4-0 ',
+    weight: '115',
+    recordB: ' 6-1-0',
+    rankB: '#1',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/81574-cory-mckenna',
+    fighterB: 'Cory McKenna'
   }
 ]
 ,"UFC Fight Night",
-"6",
+"7",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",

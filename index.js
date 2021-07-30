@@ -1449,4 +1449,4 @@ console.log("Have a nice day!");
 
 setTimeout(() => {
   document.getElementById("navBlocks").style.display = "block";
-}, 1000);
+}, 500);
