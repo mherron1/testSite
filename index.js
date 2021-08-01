@@ -613,15 +613,20 @@ function generateCard(i, arg) {
   let mainTime = document.querySelector(`#mainTime${arg}`);
   let prelimsTime = document.querySelector(`#prelimsTime${arg}`);
 
-  eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() - utc_offset);
-  mainCardTime = eventTimeLocal.toLocaleString([], {
-    month: "short",
-    day: "numeric",
-    weekday: "short",
-    hour: "2-digit",
-    minute: "2-digit",
-    timeZoneName: "short",
-  });
+  if (events[i][1] - nowEpochX < 1209600000) {
+    eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() - utc_offset);
+    mainCardTime = eventTimeLocal.toLocaleString([], {
+      month: "short",
+      day: "numeric",
+      weekday: "short",
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZoneName: "short",
+    });
+  } else {
+    eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() - utc_offset);
+    mainCardTime = events[i][7];
+  }
 
   mainTime.textContent = `Main: ${mainCardTime}`;
 
@@ -629,15 +634,20 @@ function generateCard(i, arg) {
   <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
    `;
 
-  prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
-  prelimsCardTime = prelimCardTime.toLocaleString([], {
-    month: "short",
-    day: "numeric",
-    weekday: "short",
-    hour: "2-digit",
-    minute: "2-digit",
-    timeZoneName: "short",
-  });
+  if (events[i][1] - nowEpochX < 1209600000) {
+    prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
+    prelimsCardTime = prelimCardTime.toLocaleString([], {
+      month: "short",
+      day: "numeric",
+      weekday: "short",
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZoneName: "short",
+    });
+  } else {
+    prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
+    prelimsCardTime = events[i][7];
+  }
 
   if (parseInt(events[i][5]) > 0) {
     prelimsTime.style.visibility = "visible";
