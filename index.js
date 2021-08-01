@@ -624,7 +624,7 @@ function generateCard(i, arg) {
       timeZoneName: "short",
     });
   } else {
-    eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() - utc_offset);
+    eventTimeLocal.setMinutes(eventTimeLocal.getMinutes());
     mainCardTime = events[i][7];
   }
 
@@ -633,7 +633,6 @@ function generateCard(i, arg) {
   mainTime.innerHTML += `
   <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
    `;
-
   if (events[i][1] - nowEpochX < 1209600000) {
     prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
     prelimsCardTime = prelimCardTime.toLocaleString([], {
@@ -646,7 +645,7 @@ function generateCard(i, arg) {
     });
   } else {
     prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
-    prelimsCardTime = events[i][7];
+    prelimsCardTime = "";
   }
 
   if (parseInt(events[i][5]) > 0) {
