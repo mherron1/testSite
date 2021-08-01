@@ -79,8 +79,8 @@ let times = [
   {
     date: "jul31",
     promo: "Bellator MMA",
-    time: new Date(2021, 07, 01, 01, 00, 00),
-    prelims: new Date(2021, 06, 31, 22, 00, 00),
+    time: new Date(2021, 07, 01, 02, 00, 00),
+    prelims: new Date(2021, 06, 31, 23, 00, 00),
     videos: ["LoBoFtwQIHk"],
   },
   {
