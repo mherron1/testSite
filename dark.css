@@ -930,7 +930,7 @@ li span {
     margin-top: 0vh;
     max-width: 475px;
     min-height: 125vh;
-    box-shadow: 0px 0px 3px 0px rgb(22, 22, 22);
+    box-shadow: 0px 0px 8px 2px rgb(0, 0, 0);
   }
 
   #sideNav {
