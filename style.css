@@ -1429,7 +1429,7 @@ h4:hover {
   overflow: hidden;
   opacity: 0.9;
   box-shadow: 7px 5px 10px rgb(0, 0, 0);
-  transform: perspective(250px) rotateY(-5deg) translateX(-1350px);
+  transform: perspective(250px) rotateY(-5deg) translateX(-750px);
   border-radius: 15px;
   overflow: hidden;
   transition-duration: 0.8s;
@@ -1447,7 +1447,7 @@ h4:hover {
   overflow: hidden;
   opacity: 0.9;
   box-shadow: -7px 5px 10px rgb(0, 0, 0);
-  transform: perspective(250px) rotateY(6deg) translateX(1350px);
+  transform: perspective(250px) rotateY(6deg) translateX(750px);
   border-radius: 15px;
   overflow: hidden;
   transition-duration: 0.8s;
