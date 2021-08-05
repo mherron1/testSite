@@ -1470,9 +1470,10 @@ h4:hover {
   overflow: hidden;
   opacity: 0.75;
   box-shadow: 7px 5px 10px rgb(0, 0, 0);
-  transform: perspective(250px) rotateY(-5deg) translateX(-350px);
+  transform: perspective(250px) rotateY(-5deg) translateX(-1350px);
   border-radius: 15px;
   overflow: hidden;
+  transition-duration: 0.8s;
 }
 #leftArrow:hover {
   opacity: 1;
@@ -1487,9 +1488,10 @@ h4:hover {
   overflow: hidden;
   opacity: 0.75;
   box-shadow: -7px 5px 10px rgb(0, 0, 0);
-  transform: perspective(250px) rotateY(6deg) translateX(350px);
+  transform: perspective(250px) rotateY(6deg) translateX(1350px);
   border-radius: 15px;
   overflow: hidden;
+  transition-duration: 0.8s;
 }
 
 #rightArrow:hover {
@@ -1500,7 +1502,8 @@ h4:hover {
 }
 
 #navBlocks {
-  display: none;
+  opacity: 0;
+  transition-duration: 0.8s;
 }
 
 #navEventTitleLeft {
