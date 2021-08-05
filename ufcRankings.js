@@ -48,19 +48,19 @@ let ufcRankings = [
     rank: 11,
   },
   {
-    name: "Raulian Paiva",
+    name: "Matheus Nicolau",
     rank: 12,
   },
   {
-    name: "Matheus Nicolau",
+    name: "Sumudaerji",
     rank: 13,
   },
   {
-    name: "Sumudaerji",
+    name: "Amir Albazi",
     rank: 14,
   },
   {
-    name: "Amir Albazi",
+    name: "Tyson Nam",
     rank: 15,
   },
   {
@@ -72,55 +72,55 @@ let ufcRankings = [
     rank: 1,
   },
   {
-    name: "Cory Sandhagen",
+    name: "TJ Dillashaw",
     rank: 2,
   },
   {
-    name: "Rob Font",
+    name: "Cory Sandhagen",
     rank: 3,
   },
   {
-    name: "Jose Aldo",
+    name: "Rob Font",
     rank: 4,
   },
   {
-    name: "Cody Garbrandt",
+    name: "Jose Aldo",
     rank: 5,
   },
   {
-    name: "Marlon Moraes",
+    name: "Cody Garbrandt",
     rank: 6,
   },
   {
-    name: "Frankie Edgar",
+    name: "Marlon Moraes",
     rank: 7,
   },
   {
-    name: "Pedro Munhoz",
+    name: "Frankie Edgar",
     rank: 8,
   },
   {
-    name: "Dominick Cruz",
+    name: "Pedro Munhoz",
     rank: 9,
   },
   {
-    name: "Merab Dvalishvili",
+    name: "Dominick Cruz",
     rank: 10,
   },
   {
-    name: "Raphael Assuncao",
+    name: "Merab Dvalishvili",
     rank: 11,
   },
   {
-    name: "Jimmie Rivera",
+    name: "Raphael Assuncao",
     rank: 12,
   },
   {
-    name: "Marlon Vera",
+    name: "Jimmie Rivera",
     rank: 13,
   },
   {
-    name: "Kyler Phillips",
+    name: "Marlon Vera",
     rank: 14,
   },
   {
@@ -212,15 +212,15 @@ let ufcRankings = [
     rank: 4,
   },
   {
-    name: "Tony Ferguson",
+    name: "Islam Makhachev",
     rank: 5,
   },
   {
-    name: "Rafael Dos Anjos",
+    name: "Tony Ferguson",
     rank: 6,
   },
   {
-    name: "Conor McGregor",
+    name: "Rafael Dos Anjos",
     rank: 7,
   },
   {
@@ -228,7 +228,7 @@ let ufcRankings = [
     rank: 8,
   },
   {
-    name: "Islam Makhachev",
+    name: "Conor McGregor",
     rank: 9,
   },
   {
@@ -248,11 +248,11 @@ let ufcRankings = [
     rank: 13,
   },
   {
-    name: "Thiago Moises",
+    name: "Arman Tsarukyan",
     rank: 14,
   },
   {
-    name: "Arman Tsarukyan",
+    name: "Thiago Moises",
     rank: 15,
   },
   {
@@ -352,7 +352,7 @@ let ufcRankings = [
     rank: 7,
   },
   {
-    name: "Uriah Hall",
+    name: "Sean Strickland",
     rank: 8,
   },
   {
@@ -360,19 +360,19 @@ let ufcRankings = [
     rank: 9,
   },
   {
-    name: "Edmen Shahbazyan",
+    name: "Uriah Hall",
     rank: 10,
   },
   {
-    name: "Sean Strickland",
+    name: "Edmen Shahbazyan",
     rank: 11,
   },
   {
-    name: "Brad Tavares",
+    name: "Chris Weidman",
     rank: 12,
   },
   {
-    name: "Chris Weidman",
+    name: "Brad Tavares",
     rank: 13,
   },
   {
@@ -380,7 +380,7 @@ let ufcRankings = [
     rank: 14,
   },
   {
-    name: "Omari Akhmedov",
+    name: "Andre Muniz",
     rank: 15,
   },
   {
@@ -492,11 +492,11 @@ let ufcRankings = [
     rank: 10,
   },
   {
-    name: "Blagoy Ivanov",
+    name: "Walt Harris",
     rank: 11,
   },
   {
-    name: "Walt Harris",
+    name: "Blagoy Ivanov",
     rank: 12,
   },
   {
@@ -596,11 +596,11 @@ let ufcRankings = [
     rank: 4,
   },
   {
-    name: "Mackenzie Dern",
+    name: "Marina Rodriguez",
     rank: 5,
   },
   {
-    name: "Marina Rodriguez",
+    name: "Mackenzie Dern",
     rank: 6,
   },
   {
@@ -692,11 +692,11 @@ let ufcRankings = [
     rank: 12,
   },
   {
-    name: "Miranda Maverick",
+    name: "Maycee Barber",
     rank: 13,
   },
   {
-    name: "Maycee Barber",
+    name: "Miranda Maverick",
     rank: 14,
   },
   {
@@ -736,35 +736,35 @@ let ufcRankings = [
     rank: 7,
   },
   {
-    name: "Sara McMann",
+    name: "Miesha Tate",
     rank: 8,
   },
   {
-    name: "Macy Chiasson",
+    name: "Sara McMann",
     rank: 9,
   },
   {
-    name: "Lina Lansberg",
+    name: "Macy Chiasson",
     rank: 10,
   },
   {
-    name: "Pannie Kianzad",
+    name: "Lina Lansberg",
     rank: 11,
   },
   {
-    name: "Marion Reneau",
+    name: "Pannie Kianzad",
     rank: 12,
   },
   {
-    name: "Sijara Eubanks",
+    name: "Julia Avila",
     rank: 13,
   },
   {
-    name: "Julia Avila",
+    name: "Karol Rosa",
     rank: 14,
   },
   {
-    name: "Karol Rosa",
+    name: "Alexis Davis",
     rank: 15,
   },
   {

@@ -91,7 +91,7 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 07, 08, 02, 00, 00),
     prelims: new Date(2021, 07, 07, 22, 00, 00),
-    videos: ["ExogBz2mGu4"],
+    videos: ["VbYU54MYfF0"],
   },
   {
     date: "aug13",
@@ -108,12 +108,6 @@ let times = [
     videos: [],
   },
 ];
-//tempFix
-data.forEach((event) => {
-  if (event[1] === 1623457800000) {
-    event[1] = new Date(2021, 05, 11, 12, 30, 00).getTime();
-  }
-});
 
 let data2 = data.sort((a, b) => {
   return a[1] - b[1];
