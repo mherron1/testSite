@@ -1457,5 +1457,9 @@ console.log("I hope you find this website useful.");
 console.log("Have a nice day!");
 
 setTimeout(() => {
-  document.getElementById("navBlocks").style.display = "block";
-}, 500);
+  document.getElementById("navBlocks").style.opacity = 1;
+  document.getElementById("rightArrow").style.transform =
+    "perspective(250px) rotateY(6deg) translateX(350px)";
+  document.getElementById("leftArrow").style.transform =
+    "perspective(250px) rotateY(-5deg) translateX(-350px)";
+}, 0);
