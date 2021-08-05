@@ -1433,6 +1433,7 @@ h4:hover {
   border-radius: 15px;
   overflow: hidden;
   transition-duration: 0.8s;
+  z-index: 1;
 }
 #leftArrow:hover {
   opacity: 1;
@@ -1451,6 +1452,7 @@ h4:hover {
   border-radius: 15px;
   overflow: hidden;
   transition-duration: 0.8s;
+  z-index: 1;
 }
 
 #rightArrow:hover {
@@ -1526,4 +1528,8 @@ h4:hover {
     z-index: 10;
     box-shadow: 0px 0px 3px 0px black;
   }
+}
+
+#content {
+  z-index: 10;
 }
