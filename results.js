@@ -1,69 +1,91 @@
 let resultsList = [
   {
-    winner: "Sean Strickland ",
-    method: "decision",
-    time: "5 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/uriah-hall",
-  },
-  {
-    winner: "Cheyanne Buys ",
+    winner: "Ciryl Gane ",
     method: "ko/tko",
-    time: "1:00 Round 1",
+    time: "4:11 Round 3",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/137395-gloria-de-paula-glorinha",
+      "https://www.tapology.com/fightcenter/fighters/14023-derrick-lewis-the-black-beast",
   },
   {
-    winner: "Jared Gooden ",
+    winner: "José Aldo ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/5243-pedro-munoz-pedrinho",
+  },
+  {
+    winner: "Vicente Luque ",
+    method: "submission",
+    time: "3:25 Round 1",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/15253-mike-chiesa-maverick",
+  },
+  {
+    winner: "Tecia Torres ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/57525-angela-hill-overkill",
+  },
+  {
+    winner: "Yadong Song ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/63593-casey-kenny",
+  },
+  {
+    winner: "Rafael Fiziev ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/bobby-green-king",
+  },
+  {
+    winner: "Vince Morales ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/108711-drako-rodriguez",
+  },
+  {
+    winner: "Alonzo Menifield ",
+    method: "decision",
+    time: "3 Rounds",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/ed-herman-short-fuse",
+  },
+  {
+    winner: "Jessica Penne ",
+    method: "submission",
+    time: "4:32 Round 1",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/35968-karolina-kowalkiewicz",
+  },
+  {
+    winner: "Manel Kape ",
     method: "ko/tko",
-    time: "1:08 Round 1",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/95449-niklas-stolze",
+    time: "4:44 Round 1",
+    b_Link: "https://www.tapology.com/fightcenter/fighters/50154-ode-osbourne",
   },
   {
-    winner: "Melsik Baghdasaryan ",
+    winner: "Miles Johns ",
     method: "ko/tko",
-    time: "1:50 Round 2",
+    time: "1:16 Round 3",
     b_Link:
-      "https://www.tapology.com/fightcenter/fighters/119395-collin-anglin",
+      "https://www.tapology.com/fightcenter/fighters/50759-anderson-berlingeri-berinja",
   },
   {
-    winner: "Jason Witt ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/16876-bryan-barberena",
-  },
-  {
-    winner: "Chris Gruetzemacher ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/105452-rafael-garcia-gifted",
-  },
-  {
-    winner: "Danny Chavez ",
-    method: "ends in a draw",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/74838-kai-kamaka-iii-boy",
-  },
-  {
-    winner: "Jinh Yu Frey ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/81569-ashley-yoder",
-  },
-  {
-    winner: "Zarrukh Adashev ",
-    method: "decision",
-    time: "3 Rounds",
-    b_Link:
-      "https://www.tapology.com/fightcenter/fighters/ryan-benoit-baby-face",
-  },
-  {
-    winner: "Philip Rowe ",
+    winner: "Melissa Gatto ",
     method: "ko/tko",
-    time: "4:21 Round 2",
-    b_Link: "https://www.tapology.com/fightcenter/fighters/67420-orion-cosce",
+    time: "5:00 Round 2",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/102107-victoria-leonardo",
+  },
+  {
+    winner: "Johnny Munoz Jr. ",
+    method: "submission",
+    time: "2:35 Round 2",
+    b_Link:
+      "https://www.tapology.com/fightcenter/fighters/140010-james-krause-simmons",
   },
   {
     winner: "AJ McKee Jr. ",
