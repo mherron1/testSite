@@ -17,6 +17,8 @@ let assets = [
   "jul31-b.jpg",
   "aug07-u.jpg",
   "aug13-b.jpg",
+  "aug13-o.jpg",
+  "aug13-p.jpg",
   "aug20-b.jpg",
   "aug21-u.jpg",
   "aug28-u.jpg",
@@ -31,53 +33,19 @@ let assets = [
 
 let times = [
   {
-    date: "jun11",
-    promo: "ONE Championship",
-    time: new Date(2021, 05, 11, 12, 30, 00),
-    prelims: new Date(2021, 05, 11, 12, 30, 00),
-    videos: [],
-  },
-  {
     date: "jun25",
     promo: "Professional Fighters League",
     time: new Date(2021, 05, 26, 02, 00, 00),
     prelims: new Date(2021, 05, 25, 22, 00, 00),
     videos: ["rnkOf9a3Pds"],
   },
-  {
-    date: "jul16",
-    promo: "Bellator MMA",
-    time: new Date(2021, 06, 17, 01, 00, 00),
-    prelims: new Date(2021, 06, 16, 22, 00, 00),
-    videos: ["jF9MUhp460U"],
-  },
-  {
-    date: "jul17",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2021, 06, 18, 02, 00, 00),
-    prelims: new Date(2021, 06, 17, 23, 00, 00),
-    videos: ["m8bzzO1XnvI"],
-  },
-  {
-    date: "jul24",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2021, 06, 24, 23, 00, 00),
-    prelims: new Date(2021, 06, 24, 20, 00, 00),
-    videos: ["RPwZk3T4kaI"],
-  },
+
   {
     date: "jul30",
     promo: "ONE Championship",
     time: new Date(2021, 06, 30, 12, 30, 00),
     prelims: new Date(2021, 06, 30, 12, 30, 00),
     videos: ["0Azxuhd3lQo"],
-  },
-  {
-    date: "jul31",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2021, 07, 01, 01, 00, 00),
-    prelims: new Date(2021, 06, 31, 22, 00, 00),
-    videos: ["IZxJK6pDkd4"],
   },
   {
     date: "jul31",
@@ -101,6 +69,20 @@ let times = [
     videos: [],
   },
   {
+    date: "aug13",
+    promo: "Professional Fighters League",
+    time: new Date(2021, 07, 14, 01, 00, 00),
+    prelims: new Date(2021, 07, 13, 21, 30, 00),
+    videos: ["HVxCo6Z7XRM"],
+  },
+  {
+    date: "aug13",
+    promo: "Bellator MMA",
+    time: new Date(2021, 07, 14, 01, 00, 00),
+    prelims: new Date(2021, 07, 13, 22, 00, 00),
+    videos: ["U2CxMzcO1vI"],
+  },
+  {
     date: "oct31",
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 09, 31, 02, 00, 00),
@@ -109,7 +91,7 @@ let times = [
   },
 ];
 
-let data2 = data.sort((a, b) => {
+data2 = data.sort((a, b) => {
   return a[1] - b[1];
 });
 
