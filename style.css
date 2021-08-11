@@ -243,7 +243,7 @@ body {
   max-width: 325px;
   min-height: 100vh;
   background-color: rgb(247, 247, 247);
-  transition: ease-in-out 0.35s;
+  transition-duration: 0.3s;
   z-index: 100;
   white-space: nowrap;
   overflow: hidden;
