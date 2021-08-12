@@ -249,6 +249,19 @@ let data = [
         fighterB: "Wellington Turman",
       },
       {
+        fighterA: "Kevin Lee",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/23860-kevin-lee",
+        rankA: "#11",
+        recordA: "18-6-0 ",
+        weight: "170",
+        recordB: " 15-2-0",
+        rankB: "",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/61421-daniel-rodriguez",
+        fighterB: "Daniel Rodriguez",
+      },
+      {
         fighterA: "Mario Bautista",
         fighterALink:
           "https://www.tapology.com/fightcenter/fighters/33428-mario-bautista",
@@ -1567,9 +1580,22 @@ let data = [
           "https://www.tapology.com/fightcenter/fighters/96311-marcelo-golm",
         fighterB: "Marcelo Golm",
       },
+      {
+        fighterA: "Kevin Ferguson Jr.",
+        fighterALink:
+          "https://www.tapology.com/fightcenter/fighters/128152-kevin-ferguson-jr-baby-slice",
+        rankA: "",
+        recordA: "3-3-0 ",
+        weight: "155",
+        recordB: " 5-2-0",
+        rankB: "",
+        fighterBLink:
+          "https://www.tapology.com/fightcenter/fighters/125174-cody-lincoln",
+        fighterB: "Cody Lincoln",
+      },
     ],
     "Bellator 265",
-    "6",
+    "7",
     "Showtime",
     "Aug 20",
   ],
@@ -1857,17 +1883,17 @@ let data = [
         fighterB: "Alex Martinez",
       },
       {
-        fighterA: "Curtis Millender",
+        fighterA: "Gleison Tibau",
         fighterALink:
-          "https://www.tapology.com/fightcenter/fighters/52092-curtis-millender",
+          "https://www.tapology.com/fightcenter/fighters/gleison-tibau",
         rankA: "",
-        recordA: "18-8-0 ",
+        recordA: "35-15-0 ",
         weight: "170",
-        recordB: " 35-15-0",
+        recordB: " 15-8-0",
         rankB: "",
         fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/gleison-tibau",
-        fighterB: "Gleison Tibau",
+          "https://www.tapology.com/fightcenter/fighters/24441-micah-terrill",
+        fighterB: "Micah Terrill",
       },
       {
         fighterA: "Olivier Aubin-Mercier",
@@ -1888,7 +1914,7 @@ let data = [
           "https://www.tapology.com/fightcenter/fighters/brett-cooper",
         rankA: "",
         recordA: "27-15-0 ",
-        weight: "155",
+        weight: "170",
         recordB: " 10-5-0",
         rankB: "",
         fighterBLink:
@@ -1902,11 +1928,11 @@ let data = [
         rankA: "",
         recordA: "10-0-0 ",
         weight: "170",
-        recordB: " 15-8-0",
+        recordB: " 25-9-1",
         rankB: "",
         fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/24441-micah-terrill",
-        fighterB: "Micah Terrill",
+          "https://www.tapology.com/fightcenter/fighters/31763-leandro-silva-buscape",
+        fighterB: "Leandro Silva",
       },
       {
         fighterA: "Kyron Bowen",
@@ -2211,7 +2237,7 @@ let data = [
   ],
   [
     "ONE Championship",
-    1628890100000,
+    1628857800000,
     "",
     [
       {
@@ -2831,12 +2857,8 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/4847-cindy-dandois-battlecat",
+        fighterBLink: null,
         fighterB: " Cindy Dandois",
-        winner: "Kayla Harrison ",
-        method: "submission",
-        timing: "4:43 Round 1",
       },
       {
         fighterA: "Raush Manfio ",
@@ -2847,12 +2869,8 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/anthony-pettis-showtime",
+        fighterBLink: null,
         fighterB: " Anthony Pettis",
-        winner: "Raush Manfio ",
-        method: "decision",
-        timing: "3 Rounds",
       },
       {
         fighterA: "Movlid Khaybulaev ",
@@ -2863,12 +2881,8 @@ let data = [
         weight: "145",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/20661-lance-palmer",
+        fighterBLink: null,
         fighterB: " Lance Palmer",
-        winner: "Movlid Khaybulaev ",
-        method: "decision",
-        timing: "3 Rounds",
       },
       {
         fighterA: "Denis Goltsov ",
@@ -2879,12 +2893,8 @@ let data = [
         weight: "265",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/18826-brandon-sayles",
+        fighterBLink: null,
         fighterB: " Brandon Sayles",
-        winner: "Denis Goltsov ",
-        method: "ko/tko",
-        timing: "1:24 Round 3",
       },
       {
         fighterA: "B. Cappelozza ",
@@ -2895,12 +2905,8 @@ let data = [
         weight: "265",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/37293-mo-dereese",
+        fighterBLink: null,
         fighterB: " Mo DeReese",
-        winner: "B. Cappelozza ",
-        method: "ko/tko",
-        timing: "2:21 Round 1",
       },
       {
         fighterA: "Larissa Pacheco ",
@@ -2911,12 +2917,8 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/127379-yelena",
+        fighterBLink: null,
         fighterB: " Helena Kolesnyk",
-        winner: "Larissa Pacheco ",
-        method: "ko/tko",
-        timing: "4:48 Round 1",
       },
       {
         fighterA: "Ante Delija ",
@@ -2927,12 +2929,8 @@ let data = [
         weight: "265",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/95294-chandler-cole",
+        fighterBLink: null,
         fighterB: " Chandler Cole",
-        winner: "Ante Delija ",
-        method: "ko/tko",
-        timing: "4:39 Round 1",
       },
       {
         fighterA: "Genah Fabian ",
@@ -2943,12 +2941,8 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/234848-julija-pajic",
+        fighterBLink: null,
         fighterB: " Julija Pajić",
-        winner: "Genah Fabian ",
-        method: "ko/tko",
-        timing: "4:16 Round 2",
       },
       {
         fighterA: "Renan Ferreira ",
@@ -2959,12 +2953,8 @@ let data = [
         weight: "265",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/carl-seumanutafa",
+        fighterBLink: null,
         fighterB: " Carl Seumanutafa",
-        winner: "Renan Ferreira ",
-        method: "decision",
-        timing: "3 Rounds",
       },
       {
         fighterA: "Taylor Guardado ",
@@ -2975,12 +2965,8 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/107012-laura-sanchez",
+        fighterBLink: null,
         fighterB: " Laura Sanchez",
-        winner: "Taylor Guardado ",
-        method: "decision",
-        timing: "3 Rounds",
       },
       {
         fighterA: "Mariana Morais ",
@@ -2991,12 +2977,8 @@ let data = [
         weight: "155",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/kaitlin-young",
+        fighterBLink: null,
         fighterB: " Kaitlin Young",
-        winner: "Mariana Morais ",
-        method: "decision",
-        timing: "3 Rounds",
       },
       {
         fighterA: "Jamelle Jones ",
@@ -3007,12 +2989,8 @@ let data = [
         weight: "265",
         recordB: "",
         rankB: "",
-        fighterBLink:
-          "https://www.tapology.com/fightcenter/fighters/63237-klidson-farias-de-abreu",
+        fighterBLink: null,
         fighterB: " Klidson Abreu",
-        winner: "Jamelle Jones ",
-        method: "ko/tko",
-        timing: "1:43 Round 1",
       },
     ],
     "PFL 2021 #6",
