@@ -66,7 +66,7 @@ let times = [
     promo: "ONE Championship",
     time: new Date(2021, 07, 13, 12, 30, 00),
     prelims: new Date(2021, 07, 13, 12, 30, 00),
-    videos: [],
+    videos: ["ArmS7WGoQZQ"],
   },
   {
     date: "aug13",
