@@ -1,6 +1,6 @@
 let delay = 0;
 
-if (true) {
+if (false) {
   delay = -28800000;
 }
 
@@ -33,33 +33,18 @@ let assets = [
 
 let times = [
   {
-    date: "jun25",
-    promo: "Professional Fighters League",
-    time: new Date(2021, 05, 26, 02, 00, 00),
-    prelims: new Date(2021, 05, 25, 22, 00, 00),
-    videos: ["rnkOf9a3Pds"],
-  },
-
-  {
-    date: "jul30",
-    promo: "ONE Championship",
-    time: new Date(2021, 06, 30, 12, 30, 00),
-    prelims: new Date(2021, 06, 30, 12, 30, 00),
-    videos: ["0Azxuhd3lQo"],
-  },
-  {
-    date: "jul31",
-    promo: "Bellator MMA",
-    time: new Date(2021, 07, 01, 02, 00, 00),
-    prelims: new Date(2021, 06, 31, 23, 00, 00),
-    videos: ["LoBoFtwQIHk"],
-  },
-  {
     date: "aug07",
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 07, 08, 02, 00, 00),
     prelims: new Date(2021, 07, 07, 22, 00, 00),
     videos: ["VbYU54MYfF0"],
+  },
+  {
+    date: "aug21",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2021, 07, 22, 02, 00, 00),
+    prelims: new Date(2021, 07, 21, 23, 00, 00),
+    videos: [],
   },
   {
     date: "aug13",
@@ -69,17 +54,45 @@ let times = [
     videos: ["ArmS7WGoQZQ"],
   },
   {
+    date: "aug27",
+    promo: "ONE Championship",
+    time: new Date(2021, 07, 27, 12, 30, 00),
+    prelims: new Date(2021, 07, 27, 12, 30, 00),
+    videos: [],
+  },
+  {
     date: "aug13",
     promo: "Professional Fighters League",
     time: new Date(2021, 07, 14, 01, 00, 00),
-    prelims: new Date(2021, 07, 13, 21, 30, 00),
+    prelims: new Date(2021, 07, 13, 22, 00, 00),
     videos: ["HVxCo6Z7XRM"],
+  },
+  {
+    date: "aug19",
+    promo: "Professional Fighters League",
+    time: new Date(2021, 07, 20, 01, 00, 00),
+    prelims: new Date(2021, 07, 19, 21, 30, 00),
+    videos: [],
+  },
+  {
+    date: "aug27",
+    promo: "Professional Fighters League",
+    time: new Date(2021, 07, 28, 02, 00, 00),
+    prelims: new Date(2021, 07, 27, 22, 30, 00),
+    videos: [],
   },
   {
     date: "aug13",
     promo: "Bellator MMA",
     time: new Date(2021, 07, 14, 01, 00, 00),
     prelims: new Date(2021, 07, 14, 00, 30, 00),
+    videos: ["U2CxMzcO1vI"],
+  },
+  {
+    date: "aug20",
+    promo: "Bellator MMA",
+    time: new Date(2021, 07, 21, 01, 00, 00),
+    prelims: new Date(2021, 07, 20, 22, 00, 00),
     videos: ["U2CxMzcO1vI"],
   },
   {
