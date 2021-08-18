@@ -1549,15 +1549,15 @@ let data = [
     fighterB: 'Jamelle Jones'
   },
   {
-    fighterA: 'Larissa Pacheco',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/56249-larissa-pacheco',
+    fighterA: 'Taylor Guardado',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/32612-taylor-stratford-no-mercy',
     rankA: '#60',
-    recordA: '15-4-0 ',
+    recordA: '2-1-0 ',
     weight: '155',
-    recordB: ' 2-1-0',
+    recordB: ' 17-11-0',
     rankB: '#1',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/32612-taylor-stratford-no-mercy',
-    fighterB: 'Taylor Guardado'
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/68151-mariana-morais',
+    fighterB: 'Mariana Morais'
   },
   {
     fighterA: 'Denis Goltsov',
@@ -1566,31 +1566,20 @@ let data = [
     recordA: '27-6-0 ',
     weight: '265',
     recordB: ' 18-4-0',
-    rankB: '#10',
+    rankB: '#121',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/43151-ante-delija-walking-trouble',
     fighterB: 'Ante Delija'
   },
   {
     fighterA: 'Renan Ferreira',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/87738-renan-pobrema',
-    rankA: '#3',
+    rankA: '#1773',
     recordA: '7-2-0 ',
     weight: '265',
     recordB: ' 15-6-0',
-    rankB: '#121',
+    rankB: '#10',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/29260-stuart-austin',
     fighterB: 'Stuart Austin'
-  },
-  {
-    fighterA: 'Kaitlin Young',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/kaitlin-young',
-    rankA: '#1773',
-    recordA: '12-11-1 ',
-    weight: '155',
-    recordB: ' 5-2-0',
-    rankB: '#5',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/134452-marina-mokhnatkina',
-    fighterB: 'Marina Mokhnatkina'
   },
   {
     fighterA: 'Carl Seumanutafa',
@@ -1599,20 +1588,20 @@ let data = [
     recordA: '12-13-0 ',
     weight: '265',
     recordB: ' 8-4-0',
-    rankB: '#n/a',
+    rankB: '#5',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/37293-mo-dereese',
     fighterB: 'Mo DeReese'
   },
   {
-    fighterA: 'Claudia Zamora',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/189685-claudia-zamora',
+    fighterA: 'Kaitlin Young',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/kaitlin-young',
     rankA: '#n/a',
-    recordA: '3-1-0 ',
+    recordA: '12-11-1 ',
     weight: '155',
-    recordB: ' 17-11-0',
+    recordB: ' 5-2-0',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/68151-mariana-morais',
-    fighterB: 'Mariana Morais'
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/134452-marina-mokhnatkina',
+    fighterB: 'Marina Mokhnatkina'
   },
   {
     fighterA: 'Miranda Barber',
@@ -1638,7 +1627,7 @@ let data = [
   }
 ]
 ,"PFL 2021 #8",
-"6",
+"5",
 "ESPN | Prelims: ESPN+"
 ],
 ["Professional Fighters League",
