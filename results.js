@@ -147,73 +147,66 @@ let resultsList = [
 }
 ,
 {
-  winner: 'Ray Cooper III ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/rory-macdonald-the-waterboy'
-}
-,
-{
-  winner: 'Magomed Magomedkerimov ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/56067-sadibou-sy'
-}
-,
-{
-  winner: 'Raush Manfio ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/18435-clay-collard'
-}
-,
-{
-  winner: 'Loik Radzhabov ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/44049-alex-martinez'
-}
-,
-{
-  winner: 'Gleison Tibau ',
-  time: '2:18 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/24441-micah-terrill'
-}
-,
-{
-  winner: 'Olivier Aubin-Mercier ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/17572-darrell-horcher-the-saint'
-}
-,
-{
-  winner: 'Brett Cooper ',
-  time: '2:32 Round 1',
+  winner: 'Kayla Harrison ',
+  time: '4:01 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/59679-tyler-hill'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/114565-genah-fabian'
 }
 ,
 {
-  winner: 'Magomed Umalatov ',
+  winner: 'B. Cappelozza ',
+  time: '1:33 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/49923-jamelle-jones'
+}
+,
+{
+  winner: 'Taylor Guardado ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/31763-leandro-silva-buscape'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/68151-mariana-morais'
 }
 ,
 {
-  winner: 'Michael Lombardo ',
-  time: '3:42 Round 1',
+  winner: 'Ante Delija ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/13594-Denis-Goltsov'
+}
+,
+{
+  winner: 'Renan Ferreira ',
+  time: '0:31 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/51102-kyron-bowen'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/29260-stuart-austin'
 }
 ,
 {
-  winner: 'Elvin Espinoza ',
-  time: '2:45 Round 1',
+  winner: 'Mo DeReese ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/carl-seumanutafa'
+}
+,
+{
+  winner: 'Marina Mokhnatkina ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/189685-claudia-zamora'
+}
+,
+{
+  winner: 'Amanda Leve ',
+  time: '4:18 Round 1',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/53572-hopeton-stewart'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/116516-miranda-kay-barber'
+}
+,
+{
+  winner: 'Christian Lohsen ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/42491-jonas-flok'
 }
 ,
 {
