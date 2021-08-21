@@ -91,59 +91,66 @@ let resultsList = [
 }
 ,
 {
-  winner: 'Gegard Mousasi ',
-  time: '2:07 Round 3',
+  winner: 'Cheick Kongo ',
+  time: '4:59 Round 2',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/sergei-kharitonov-the-paratrooper'
+}
+,
+{
+  winner: 'Logan Storley ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/109429-dante-schiro'
+}
+,
+{
+  winner: 'Marcelo Golm ',
+  time: '4:57 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/john-salter'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/121832-billy-swanson-big'
 }
 ,
 {
-  winner: 'Andrey Koreshkov ',
+  winner: 'Jornel Lugo ',
+  time: '5:00 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/117289-keith-lee'
+}
+,
+{
+  winner: 'Fabio Aguiar ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/sabah-homasi-the-punisher'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/123465-taylor-johnson'
 }
 ,
 {
-  winner: 'Raufeon Stots ',
+  winner: 'Mike Hamel ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/36037-magomed-magomedov'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/49264-bryce-logan'
 }
 ,
 {
-  winner: 'Davion Franklin ',
-  time: '0:21 Round 1',
+  winner: 'Archie Colgan ',
+  time: '4:04 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/42459-everett-cummings'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/102032-ben-simons'
 }
 ,
 {
-  winner: 'Khadzhimurat Bestaev ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/163665-jered-gwerder-ty'
+  winner: 'Duane Johnson ',
+  time: '1:04 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/26877-deven-fisher'
 }
 ,
 {
-  winner: 'Pam Sorenson ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/47021-roberta-paim'
-}
-,
-{
-  winner: 'Jeffrey Glossner ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/171614-fabricio-ruiz'
-}
-,
-{
-  winner: 'Jon McNeil ',
-  time: '3:57 Round 3',
+  winner: 'Bailey Schoenfelder ',
+  time: '4:11 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/196449-orlando-mendoza'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/49671-korey-moegenburg'
 }
 ,
 {
