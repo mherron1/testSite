@@ -284,8 +284,7 @@ body {
   width: 0%;
   max-width: 325px;
   min-height: 100vh;
-  background-color: #3333334f;
-  backdrop-filter: blur(10px);
+  background-color: black;
   transition-duration: 0.3s;
   z-index: 100;
   white-space: nowrap;
@@ -934,8 +933,7 @@ li span {
   }
 
   #sideNav {
-    background-color: #3333334f;
-    backdrop-filter: blur(10px);
+    background-color: black;
     color: white;
   }
 
@@ -1094,8 +1092,7 @@ li span {
 
   #sideNav {
     min-width: 350px;
-    background-color: #3333334f;
-    backdrop-filter: blur(10px);
+    background-color: black;
     box-sizing: border-box;
   }
 
