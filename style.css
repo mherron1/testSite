@@ -242,7 +242,8 @@ body {
   width: 0%;
   max-width: 325px;
   min-height: 100vh;
-  background-color: rgb(247, 247, 247);
+  background-color: rgba(255, 255, 255, 0.651);
+  backdrop-filter: blur(10px);
   transition-duration: 0.3s;
   z-index: 100;
   white-space: nowrap;
@@ -443,7 +444,8 @@ a {
 
 #settings {
   position: absolute;
-  background-color: white;
+  background-color: rgba(187, 187, 187, 0.651);
+  backdrop-filter: blur(10px);
   width: 100%;
   max-width: 420px;
   height: 0;
@@ -467,7 +469,7 @@ a {
   grid-template-columns: auto 50px;
   padding: 15px;
   padding-left: 30px;
-  border-top: 1px solid rgba(226, 226, 226, 0.178);
+  border-top: 2px solid rgba(42, 42, 42, 0.068);
   box-sizing: border-box;
 }
 
@@ -933,7 +935,8 @@ li span {
 
   #sideNav {
     min-width: 350px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.651);
+    backdrop-filter: blur(10px);
     box-sizing: border-box;
   }
 
@@ -1006,7 +1009,8 @@ li span {
   }
 
   #sideNav {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.651);
+    backdrop-filter: blur(10px);
   }
 
   #content {
