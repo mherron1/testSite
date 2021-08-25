@@ -324,6 +324,9 @@ function generateLinks() {
       if (events[i][0].includes("ONE")) {
         org = "one";
       }
+      if (events[i][4].includes("Paul")) {
+        org = "special";
+      }
 
       let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
       eventList.innerHTML += `  

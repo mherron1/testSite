@@ -125,6 +125,9 @@ data2.forEach((event) => {
   } else {
     event[2] = "images/defaults/placeholder.jpg";
   }
+  if (event[4].includes("Paul")) {
+    event[2] = "images/eventImages/special.jpg";
+  }
 
   if (event[6].includes("|")) {
     event[6] = "Broadcast: Main Card : " + event[6].split("|").join(",");
