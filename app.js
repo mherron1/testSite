@@ -127,6 +127,7 @@ data2.forEach((event) => {
   }
   if (event[4].includes("Paul")) {
     event[2] = "images/eventImages/special.jpg";
+    event[1] = 1630278000000;
   }
 
   if (event[6].includes("|")) {
