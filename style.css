@@ -242,7 +242,7 @@ body {
   width: 0%;
   max-width: 325px;
   min-height: 100vh;
-  background-color: rgba(255, 255, 255, 0.651);
+  background-color: rgba(255, 255, 255, 0.363);
   backdrop-filter: blur(10px);
   transition-duration: 0.3s;
   z-index: 100;
