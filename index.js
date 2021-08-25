@@ -510,13 +510,12 @@ function toggleSettings() {
     $("#settings").css("position", "absolute");
     $("#settings").css("height", "0vh");
     $("#settings").css("top", "100%");
-
-    toggleSideNav();
   } else {
     $("#settings").css("height", "110%");
     $("#settings").css("top", "-30px");
     $("#settings").css("bottom", "-30px");
     $("#settings").css("position", "fixed");
+    toggleSideNav();
   }
 }
 
