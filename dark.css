@@ -1343,7 +1343,7 @@ h4:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 30px;
+  padding: 10px;
 }
 
 #broadcastInfo {
@@ -1452,8 +1452,9 @@ h4:hover {
 
 #paypalLink2 {
   position: absolute;
-  right: 50px;
-  top: 9px;
+  right: 50%;
+  transform: translateX(50%);
+  top: -65px;
   background-color: silver;
   color: black;
   text-align: center;
@@ -1592,7 +1593,7 @@ h4:hover {
   z-index: 10;
 }
 
-.contactBtn {
+#contactBtn {
   position: absolute;
   left: 50px;
   top: 10px;
