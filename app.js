@@ -19,6 +19,7 @@ let assets = [
   "aug27-p.jpg",
   "aug27-o.jpg",
   "aug28-u.jpg",
+  "sep04-u.jpg",
   "sep25-u.jpg",
   "oct01-b.jpg",
   "oct02-u.jpg",
@@ -48,7 +49,14 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 07, 29, 02, 00, 00),
     prelims: new Date(2021, 07, 28, 23, 00, 00),
-    videos: ["5YQcqZUgcXI"],
+    videos: ["zYJYgWIbt80"],
+  },
+  {
+    date: "sep04",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2021, 08, 04, 20, 00, 00),
+    prelims: new Date(2021, 08, 04, 17, 30, 00),
+    videos: ["R9EQZ3ynOtc"],
   },
   {
     date: "aug13",
@@ -83,7 +91,7 @@ let times = [
     promo: "Professional Fighters League",
     time: new Date(2021, 07, 28, 02, 00, 00),
     prelims: new Date(2021, 07, 27, 22, 30, 00),
-    videos: [],
+    videos: ["kWs4ffia0xI"],
   },
   {
     date: "aug13",
