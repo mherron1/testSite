@@ -1414,17 +1414,17 @@ h4:hover {
   right: 50%;
   transform: translateX(50%);
   top: -50px;
-  background-color: #e6e6e6;
+  background-color: #ffc63c;
   text-align: center;
   color: rgb(0, 0, 0);
   padding: 8px;
   width: 140px;
-  border-radius: 20px;
-  box-shadow: 0px 1px 2px rgb(0, 0, 0);
+  border-radius: 00px;
+  box-shadow: 0px 0px 0px rgb(0, 0, 0);
 }
 
 #paypalLink2:active {
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.753);
+  box-shadow: 0px 0px 0px rgb(0, 0, 0);
 }
 
 #contactBtn {
