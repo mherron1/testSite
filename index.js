@@ -56,7 +56,7 @@ function create() {
     if (localStorage.getItem("one") === "y") {
       filterArr.push("ONE");
       document.querySelector("#oneInput").checked = true;
-      numRes += 1;
+      numRes += 0;
     }
     if (localStorage.getItem("pfl") === "y") {
       filterArr.push("Professional");
@@ -84,7 +84,7 @@ function create() {
     filterArr.push("Professional");
     filterArr.push("ONE");
     document.querySelector("#oneInput").checked = true;
-    numRes += 1;
+    numRes += 0;
     document.querySelector("#pflInput").checked = true;
     numRes += 1;
     document.querySelector("#ufcInput").checked = true;

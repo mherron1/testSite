@@ -209,40 +209,5 @@ let resultsList = [
   b_Link: 'https://www.tapology.com/fightcenter/fighters/42491-jonas-flok'
 }
 ,
-{
-  winner: 'Lipeng Zhang ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/16123-eduard-folayang-landslide'
-}
-,
-{
-  winner: 'Alex Silva ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/123522-li-tao-miao'
-}
-,
-{
-  winner: 'Thomas Narmo ',
-  time: '4:07 Round 2',
-  method: 'ends in a no contest',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/52574-alain-ngalani'
-}
-,
-{
-  winner: 'Eko Roni Saputra ',
-  time: '0:10 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/133476-pengshuai-liu'
-}
-,
-{
-  winner: 'Rahul Raju ',
-  time: '3:54 Round 2',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/182132-otgonbaatar-nergui'
-}
-,
 ]
 module.exports = resultsList;

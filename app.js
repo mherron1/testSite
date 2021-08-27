@@ -124,6 +124,10 @@ let nowEpochX = new Date().getTime();
 let winners = [];
 
 data2.forEach((event) => {
+  if (event[0] === "Most Valuable Promotions") {
+    event[0] = "Ultimate Fighting Championship";
+  }
+
   let tempTime =
     event[7].split(" ").join("") + "-" + event[0][0].split(" ")[0] + ".jpg";
   if (assets.indexOf(tempTime.toLowerCase()) > -1) {

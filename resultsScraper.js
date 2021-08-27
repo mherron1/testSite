@@ -4,7 +4,7 @@ let events = [
   "https://www.tapology.com/fightcenter/events/79118-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/81234-bellator-265-kongo-vs-kharitonov",
   "https://www.tapology.com/fightcenter/events/79758-pfl-2021-8-playoffs",
-  "https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
+  // "https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
 ];
 //getEventURLs();
 
