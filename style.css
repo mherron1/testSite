@@ -444,8 +444,8 @@ a {
 
 #settings {
   position: absolute;
-  background-color: rgba(187, 187, 187, 0.651);
-  backdrop-filter: blur(10px);
+  background-color: rgba(250, 250, 250, 1);
+
   width: 100%;
   max-width: 420px;
   height: 0;
