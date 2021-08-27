@@ -1452,9 +1452,9 @@ h4:hover {
 
 #paypalLink2 {
   position: absolute;
-  right: 25px;
-  top: 11px;
-  background-color: #ffc63c;
+  right: 50px;
+  top: 9px;
+  background-color: silver;
   color: black;
   text-align: center;
   padding: 8px;
@@ -1594,8 +1594,8 @@ h4:hover {
 
 .contactBtn {
   position: absolute;
-  left: 25px;
-  top: 12px;
+  left: 50px;
+  top: 10px;
   background-color: silver;
   color: black !important;
   text-align: center;

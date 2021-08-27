@@ -1413,13 +1413,13 @@ h4:hover {
 
 #paypalLink2 {
   position: absolute;
-  right: 25px;
-  top: 9px;
-  background-color: #ffc63c;
+  right: 50px;
+  top: 7px;
+  background-color: #ffffff;
   text-align: center;
   padding: 8px;
   width: 140px;
-  border-radius: 0px;
+  border-radius: 20px;
 
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.705);
 }
@@ -1430,13 +1430,13 @@ h4:hover {
 
 .contactBtn {
   position: absolute;
-  left: 25px;
-  top: 10px;
+  left: 50px;
+  top: 7px;
   background-color: #ffffff;
   text-align: center;
   padding: 8px;
   width: 80px;
-  border-radius: 0px;
+  border-radius: 20px;
 
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.705);
 }
