@@ -558,18 +558,23 @@ function generateCard(i, arg) {
 <div id="prelimsTime${arg}"></div>
 <div id="prelimsCard${arg}"></div> 
 <div id="videoGallery${arg}"></div>
-
-<br>
-<br>
-<br>
-<br>
-
-<br>
-
-<div id="footerDiv">
 <div id="broadcastInfo" ${broadcastStyle}> ${events[i][6]}</div>
 
-  <p><a href="mailto:mmafightcards.org@gmail.com">Contact</a></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+
+
+<div id="footerDiv">
+<a target="_blank"
+href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
+<div id="paypalLink2">Buy me a beer 🍻</div></a>
+
+  <p class="contactBtn"><a href="mailto:mmafightcards.org@gmail.com" style="color:black;">Contact</a></p>
     </div>
 `;
 
