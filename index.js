@@ -578,12 +578,12 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
     </div>
 `;
 
-  if (android === true) {
+  /*if (android === true) {
     content.innerHTML += `
     <div id="rateReview" style ="position:absolute; bottom:10px;right:15px; display: block;">
     <p><a href="https://play.google.com/store/apps/details?id=org.mmafightcards.twa" target="_blank">Rate & Review</a></p>
       </div>`;
-  }
+  }*/
 
   let mainHeader = document.querySelector(`#mainHeader${arg}`);
   mainHeader.textContent += `${events[i][4]}`;
