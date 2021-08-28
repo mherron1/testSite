@@ -1,419 +1,27 @@
 let obj = [
   {
-    row1: "Cheick Kongo",
-    row2: "-106",
-  },
-  {
-    row1: "Sergei Kharitonov",
+    row1: "Edson Barboza",
     row2: "-116",
   },
   {
-    row1: "Dante Schiro",
-    row2: "1080",
+    row1: "Giga Chikadze",
+    row2: "-102",
   },
   {
-    row1: "Logan Storley",
-    row2: "-1800",
+    row1: "Bryan Battle",
+    row2: "-164",
   },
   {
-    row1: "Jornel Lugo",
-    row2: "-188",
-  },
-  {
-    row1: "Keith Lee",
-    row2: "154",
-  },
-  {
-    row1: "Billy Swanson",
-    row2: "320",
-  },
-  {
-    row1: "Marcelo Golm",
-    row2: "-440",
-  },
-  {
-    row1: "Fabio Aguiar",
-    row2: "192",
-  },
-  {
-    row1: "Taylor Johnson",
-    row2: "-245",
-  },
-  {
-    row1: "Bryce Logan",
-    row2: "-170",
-  },
-  {
-    row1: "Mike Hamel",
+    row1: "Gilbert Urbina",
     row2: "138",
   },
   {
-    row1: "Archie Colgan",
-    row2: "-1200",
+    row1: "Brady Hiestand",
+    row2: "138",
   },
   {
-    row1: "Ben Simons",
-    row2: "690",
-  },
-  {
-    row1: "Deven Fisher",
-    row2: "380",
-  },
-  {
-    row1: "Duane Johnson",
-    row2: "-550",
-  },
-  {
-    row1: "Bailey Schoenfelder",
-    row2: "",
-  },
-  {
-    row1: "Kory Moegenburg",
-    row2: "",
-  },
-  {
-    row1: "Jeff Nielsen",
-    row2: "",
-  },
-  {
-    row1: "Kory Moegenburg",
-    row2: "",
-  },
-  {
-    row1: "Bailey Schoenfelder",
-    row2: "-750",
-  },
-  {
-    row1: "Kevin Childs",
-    row2: "500",
-  },
-  {
-    row1: "Last change: 8 min ago",
-    row2: "",
-  },
-  {
-    row1: "UFC ON ESPN: CANNONIER VS. GASTELUMAugust 21st",
-    row2: "",
-  },
-  {
-    row1: "",
-    row2: "FanDuel",
-  },
-  {
-    row1: "Jared Cannonier",
-    row2: "-144",
-  },
-  {
-    row1: "Kelvin Gastelum",
-    row2: "122",
-  },
-  {
-    row1: "Clay Guida",
-    row2: "146",
-  },
-  {
-    row1: "Mark Madsen",
-    row2: "-174",
-  },
-  {
-    row1: "Chase Sherman",
-    row2: "-190",
-  },
-  {
-    row1: "Parker Porter",
-    row2: "160",
-  },
-  {
-    row1: "Saidyokub Kakharamonov",
-    row2: "124",
-  },
-  {
-    row1: "Trevin Jones",
-    row2: "-146",
-  },
-  {
-    row1: "Alexandre Pantoja",
-    row2: "-178",
-  },
-  {
-    row1: "Brandon Royval",
-    row2: "150",
-  },
-  {
-    row1: "Austin Hubbard",
-    row2: "-108",
-  },
-  {
-    row1: "Vinc Pichel",
-    row2: "-108",
-  },
-  {
-    row1: "Austin Lingo",
-    row2: "104",
-  },
-  {
-    row1: "Luis Saldana",
-    row2: "-122",
-  },
-  {
-    row1: "Brian Kelleher",
-    row2: "-174",
-  },
-  {
-    row1: "Domingo Pilarte",
-    row2: "146",
-  },
-  {
-    row1: "Fabio Cherant",
-    row2: "146",
-  },
-  {
-    row1: "William Knight",
-    row2: "-174",
-  },
-  {
-    row1: "Bea Malecki",
-    row2: "-162",
-  },
-  {
-    row1: "Josiane Nunes",
-    row2: "136",
-  },
-  {
-    row1: "Ignacio Bahamondes",
-    row2: "124",
-  },
-  {
-    row1: "Roosevelt Roberts",
-    row2: "-146",
-  },
-  {
-    row1: "Ramiz Brahimaj",
-    row2: "-136",
-  },
-  {
-    row1: "Sasha Palatnikov",
-    row2: "116",
-  },
-  {
-    row1: "Last change: < 1 min ago",
-    row2: "",
-  },
-  {
-    row1: "BRAVE CF 53August 21st",
-    row2: "",
-  },
-  {
-    row1: "",
-    row2: "FanDuel",
-  },
-  {
-    row1: "Lucas Martins",
-    row2: "",
-  },
-  {
-    row1: "Olzhas Eskarayev",
-    row2: "",
-  },
-  {
-    row1: "Lucas Martins",
-    row2: "",
-  },
-  {
-    row1: "Mohamed Grabinski",
-    row2: "",
-  },
-  {
-    row1: "Aleksander Doskalchuk",
-    row2: "",
-  },
-  {
-    row1: "Asu Almabaev",
-    row2: "",
-  },
-  {
-    row1: "Akhmed Magomedov",
-    row2: "",
-  },
-  {
-    row1: "Ilyar Askhanov",
-    row2: "",
-  },
-  {
-    row1: "Roger Sampaio",
-    row2: "",
-  },
-  {
-    row1: "Vasiliy Takhtay",
-    row2: "",
-  },
-  {
-    row1: "Bair Shtepin",
-    row2: "",
-  },
-  {
-    row1: "Brad Katona",
-    row2: "",
-  },
-  {
-    row1: "Azat Maksum",
-    row2: "",
-  },
-  {
-    row1: "Flavio de Queiroz",
-    row2: "",
-  },
-  {
-    row1: "Nurzhan Akishev",
-    row2: "",
-  },
-  {
-    row1: "Tae Kyun Kim",
-    row2: "",
-  },
-  {
-    row1: "Last change: 5 min ago",
-    row2: "",
-  },
-  {
-    row1: "PFL 9August 27th",
-    row2: "",
-  },
-  {
-    row1: "",
-    row2: "FanDuel",
-  },
-  {
-    row1: "Bubba Jenkins",
-    row2: "-184",
-  },
-  {
-    row1: "Chris Wade",
-    row2: "154",
-  },
-  {
-    row1: "Brendan Loughnane",
-    row2: "152",
-  },
-  {
-    row1: "Movlid Khaybulaev",
-    row2: "-180",
-  },
-  {
-    row1: "Cezar Ferreira",
-    row2: "120",
-  },
-  {
-    row1: "Marthin Hamlet",
-    row2: "-142",
-  },
-  {
-    row1: "Antonio Carlos Junior",
-    row2: "-158",
-  },
-  {
-    row1: "Emiliano Sordi",
-    row2: "134",
-  },
-  {
-    row1: "Lazar Stojadinovic",
-    row2: "",
-  },
-  {
-    row1: "Sheymon Moraes",
-    row2: "",
-  },
-  {
-    row1: "Chris Camozzi",
-    row2: "",
-  },
-  {
-    row1: "Cory Hendricks",
-    row2: "",
-  },
-  {
-    row1: "Anthony Dizy",
-    row2: "",
-  },
-  {
-    row1: "Jesse Stirn",
-    row2: "",
-  },
-  {
-    row1: "Bobby Moffett",
-    row2: "",
-  },
-  {
-    row1: "Jason Knight",
-    row2: "",
-  },
-  {
-    row1: "Alejandro Flores",
-    row2: "",
-  },
-  {
-    row1: "Carl Deaton",
-    row2: "",
-  },
-  {
-    row1: "Genah Fabian",
-    row2: "1100",
-  },
-  {
-    row1: "Kayla Harrison",
-    row2: "-2200",
-  },
-  {
-    row1: "Bruno Cappelozza",
-    row2: "-215",
-  },
-  {
-    row1: "Jamelle Jones",
-    row2: "180",
-  },
-  {
-    row1: "Ante Delija",
-    row2: "235",
-  },
-  {
-    row1: "Denis Goltsov",
-    row2: "-290",
-  },
-  {
-    row1: "Last change: 1 hr 55 min ago",
-    row2: "",
-  },
-  {
-    row1: "UFC ON ESPN: BARBOZA VS. CHIKADZEAugust 28th",
-    row2: "",
-  },
-  {
-    row1: "",
-    row2: "FanDuel",
-  },
-  {
-    row1: "Edson Barboza",
-    row2: "-104",
-  },
-  {
-    row1: "Giga Chikadze",
-    row2: "-112",
-  },
-  {
-    row1: "Alex Perez",
-    row2: "-270",
-  },
-  {
-    row1: "Matt Schnell",
-    row2: "220",
-  },
-  {
-    row1: "Sam Alvey",
-    row2: "134",
-  },
-  {
-    row1: "Wellington Turman",
-    row2: "-158",
+    row1: "Ricky Turcios",
+    row2: "-164",
   },
   {
     row1: "Daniel Rodriguez",
@@ -424,83 +32,335 @@ let obj = [
     row2: "-146",
   },
   {
+    row1: "Andre Petroski",
+    row2: "-560",
+  },
+  {
+    row1: "Micheal Gillmore",
+    row2: "420",
+  },
+  {
     row1: "Gerald Meerschaert",
-    row2: "330",
+    row2: "460",
   },
   {
     row1: "Makhmud Muradov",
-    row2: "-420",
+    row2: "-620",
   },
   {
-    row1: "Antonio Braga Neto",
-    row2: "",
-  },
-  {
-    row1: "Razak Al-Hassan",
-    row2: "",
+    row1: "Abdul Razak Alhassan",
+    row2: "198",
   },
   {
     row1: "Alessio Di Chirico",
-    row2: "154",
+    row2: "-240",
   },
   {
-    row1: "Aliaskhab Khizriev",
-    row2: "-184",
+    row1: "Sam Alvey",
+    row2: "112",
   },
   {
-    row1: "Jamall Emmers",
-    row2: "-130",
-  },
-  {
-    row1: "Pat Sabatini",
-    row2: "108",
+    row1: "Wellington Turman",
+    row2: "-132",
   },
   {
     row1: "Darren Stewart",
-    row2: "154",
+    row2: "164",
   },
   {
     row1: "Dustin Jacoby",
-    row2: "-184",
+    row2: "-196",
   },
   {
-    row1: "Kevin Croom",
-    row2: "124",
+    row1: "Jj Aldrich",
+    row2: "-360",
   },
   {
-    row1: "Marcelo Rojo",
-    row2: "-146",
+    row1: "Vanessa Demopoulos",
+    row2: "290",
   },
   {
-    row1: "Jj Aldrich.",
-    row2: "210",
+    row1: "Jamall Emmers",
+    row2: "-156",
   },
   {
-    row1: "Tracy Cortez",
-    row2: "-255",
+    row1: "Pat Sabatini",
+    row2: "132",
   },
   {
     row1: "Guido Cannetti",
-    row2: "350",
+    row2: "230",
   },
   {
-    row1: "Mario Bautista",
-    row2: "-450",
+    row1: "Mana Martinez",
+    row2: "-280",
   },
   {
-    row1: "Ketlen Vieira",
-    row2: "-245",
-  },
-  {
-    row1: "Sara McMann",
-    row2: "200",
-  },
-  {
-    row1: "Last change: 24 min ago",
+    row1: "Last change: 8 min ago",
     row2: "",
   },
   {
-    row1: "DANA WHITE’S CONTENDER SERIESAugust 31st",
+    row1: "ACAAugust 28th",
+    row2: "",
+  },
+  {
+    row1: "",
+    row2: "FanDuel",
+  },
+  {
+    row1: "Abdul-Rahman Dzhanaev",
+    row2: "",
+  },
+  {
+    row1: "Artem Frolov",
+    row2: "",
+  },
+  {
+    row1: "Diego Brandao",
+    row2: "",
+  },
+  {
+    row1: "Salman Zhamaldaev",
+    row2: "",
+  },
+  {
+    row1: "Andrey Goncharov",
+    row2: "",
+  },
+  {
+    row1: "Apti Bimarzaev",
+    row2: "",
+  },
+  {
+    row1: "Azamat Kerefov",
+    row2: "",
+  },
+  {
+    row1: "Rasul Albaskhanov",
+    row2: "",
+  },
+  {
+    row1: "Andrey Koshkin",
+    row2: "",
+  },
+  {
+    row1: "Murad Abdulaev",
+    row2: "",
+  },
+  {
+    row1: "Azamat Pshukov",
+    row2: "",
+  },
+  {
+    row1: "Kurban Gadzhiev",
+    row2: "",
+  },
+  {
+    row1: "Mukhomad Vakhaev",
+    row2: "",
+  },
+  {
+    row1: "Raphael Pessoa",
+    row2: "",
+  },
+  {
+    row1: "Islam Meshev",
+    row2: "",
+  },
+  {
+    row1: "Oleg Borisov",
+    row2: "",
+  },
+  {
+    row1: "Lom-Ali Nalgiev",
+    row2: "",
+  },
+  {
+    row1: "Mukhamed Kokov",
+    row2: "",
+  },
+  {
+    row1: "Adlan Ibragimov",
+    row2: "",
+  },
+  {
+    row1: "Elkhan Musaev",
+    row2: "",
+  },
+  {
+    row1: "Arkadiy Osipyan",
+    row2: "",
+  },
+  {
+    row1: "Davlatmand Chuponov",
+    row2: "",
+  },
+  {
+    row1: "Last change: 2 hr 50 min ago",
+    row2: "",
+  },
+  {
+    row1: "HIGH LEAGUEAugust 28th",
+    row2: "",
+  },
+  {
+    row1: "",
+    row2: "FanDuel",
+  },
+  {
+    row1: "Lexy Chaplin",
+    row2: "",
+  },
+  {
+    row1: "Natalia Karczmarczyk",
+    row2: "",
+  },
+  {
+    row1: "Aniela Bogusz",
+    row2: "",
+  },
+  {
+    row1: "Ewa Brodnicka",
+    row2: "",
+  },
+  {
+    row1: "Adrian Salamon",
+    row2: "",
+  },
+  {
+    row1: "Maciej Rataj",
+    row2: "",
+  },
+  {
+    row1: "Jakub Piotrowicz",
+    row2: "",
+  },
+  {
+    row1: "Piotr Witczak",
+    row2: "",
+  },
+  {
+    row1: "Gabriel Bystrzycki",
+    row2: "",
+  },
+  {
+    row1: "Josef Bratan",
+    row2: "",
+  },
+  {
+    row1: "Jakub Nowaczkiewicz",
+    row2: "",
+  },
+  {
+    row1: "Przemyslaw Kolarczyk",
+    row2: "",
+  },
+  {
+    row1: "Last change: 14 hr 13 min ago",
+    row2: "",
+  },
+  {
+    row1: "FURY FC 49August 29th",
+    row2: "",
+  },
+  {
+    row1: "",
+    row2: "FanDuel",
+  },
+  {
+    row1: "Peter Caballero",
+    row2: "",
+  },
+  {
+    row1: "Timothy Lewis",
+    row2: "",
+  },
+  {
+    row1: "Eddie Torres",
+    row2: "",
+  },
+  {
+    row1: "John Yannis",
+    row2: "",
+  },
+  {
+    row1: "Justin Governale",
+    row2: "",
+  },
+  {
+    row1: "Justin Linn",
+    row2: "",
+  },
+  {
+    row1: "Frank Meno",
+    row2: "",
+  },
+  {
+    row1: "Josh Rosen",
+    row2: "",
+  },
+  {
+    row1: "Avery Brooks",
+    row2: "",
+  },
+  {
+    row1: "Michael Patterson",
+    row2: "",
+  },
+  {
+    row1: "Juan Adams",
+    row2: "",
+  },
+  {
+    row1: "Richard Odoms",
+    row2: "",
+  },
+  {
+    row1: "Robert Casper",
+    row2: "",
+  },
+  {
+    row1: "Robert Rodriguez",
+    row2: "",
+  },
+  {
+    row1: "Chris Kuntschik",
+    row2: "",
+  },
+  {
+    row1: "Stephen Perez",
+    row2: "",
+  },
+  {
+    row1: "Joe Saucedo",
+    row2: "",
+  },
+  {
+    row1: "Kaleb Petereit",
+    row2: "",
+  },
+  {
+    row1: "Fatima Mallett",
+    row2: "",
+  },
+  {
+    row1: "Kenia Rosas",
+    row2: "",
+  },
+  {
+    row1: "Dean Fraire",
+    row2: "",
+  },
+  {
+    row1: "Victor Gonzalez",
+    row2: "",
+  },
+  {
+    row1: "Last change: 15 hr 44 min ago",
+    row2: "",
+  },
+  {
+    row1: "DWCS WEEK 1August 31st",
     row2: "",
   },
   {
@@ -516,27 +376,19 @@ let obj = [
     row2: "",
   },
   {
-    row1: "Joanderson Brito",
-    row2: "",
-  },
-  {
-    row1: "Khusein Askhabov",
-    row2: "",
-  },
-  {
-    row1: "Victor Altamirano",
-    row2: "",
-  },
-  {
-    row1: "Vinicius Salvador",
-    row2: "",
-  },
-  {
     row1: "A.J. Fletcher",
     row2: "",
   },
   {
     row1: "Leonardo Damiani",
+    row2: "",
+  },
+  {
+    row1: "Diego Lopes",
+    row2: "",
+  },
+  {
+    row1: "Joanderson Brito",
     row2: "",
   },
   {
@@ -548,7 +400,7 @@ let obj = [
     row2: "",
   },
   {
-    row1: "Last change: 2 days ago",
+    row1: "Last change: 7 hr 10 min ago",
     row2: "",
   },
   {
@@ -561,14 +413,118 @@ let obj = [
   },
   {
     row1: "Darren Till",
-    row2: "-152",
+    row2: "-164",
   },
   {
     row1: "Derek Brunson",
-    row2: "128",
+    row2: "138",
   },
   {
-    row1: "Last change: 1 day 4 hr ago",
+    row1: "Sergei Pavlovich",
+    row2: "164",
+  },
+  {
+    row1: "Tom Aspinall",
+    row2: "-196",
+  },
+  {
+    row1: "Ariane Lipski",
+    row2: "102",
+  },
+  {
+    row1: "Mandy Bohm",
+    row2: "-120",
+  },
+  {
+    row1: "Khalil Rountree Jr.",
+    row2: "124",
+  },
+  {
+    row1: "Modestas Bukauskas",
+    row2: "-146",
+  },
+  {
+    row1: "Luigi Vendramini",
+    row2: "124",
+  },
+  {
+    row1: "Paddy Pimblett",
+    row2: "-146",
+  },
+  {
+    row1: "Charles Jourdain",
+    row2: "",
+  },
+  {
+    row1: "Julian Erosa",
+    row2: "",
+  },
+  {
+    row1: "Alex Perez",
+    row2: "-310",
+  },
+  {
+    row1: "Matt Schnell",
+    row2: "250",
+  },
+  {
+    row1: "Ji Yeon Kim",
+    row2: "-108",
+  },
+  {
+    row1: "Molly McCann",
+    row2: "-108",
+  },
+  {
+    row1: "Dalcha Lungiambula",
+    row2: "120",
+  },
+  {
+    row1: "Marc-Andre Barriault",
+    row2: "-142",
+  },
+  {
+    row1: "Jonathan Martinez",
+    row2: "-154",
+  },
+  {
+    row1: "Marcelo Rojo",
+    row2: "130",
+  },
+  {
+    row1: "Jack Shore",
+    row2: "",
+  },
+  {
+    row1: "Liudvik Sholinian",
+    row2: "",
+  },
+  {
+    row1: "Alex Morono",
+    row2: "",
+  },
+  {
+    row1: "David Zawada",
+    row2: "",
+  },
+  {
+    row1: "Jack Shore",
+    row2: "-225",
+  },
+  {
+    row1: "Zviad Lazishvili",
+    row2: "188",
+  },
+  {
+    row1: "David Zawada",
+    row2: "-136",
+  },
+  {
+    row1: "Sergey Khandozhko",
+    row2: "116",
+  },
+  {
+    row1: "Last change: 1 hr 49 min ago",
     row2: "",
   },
   {
@@ -604,14 +560,6 @@ let obj = [
     row2: "",
   },
   {
-    row1: "Aleksandar Rakas",
-    row2: "",
-  },
-  {
-    row1: "Tomasz Romanowski",
-    row2: "",
-  },
-  {
     row1: "Emilia Czerwinska",
     row2: "",
   },
@@ -628,6 +576,14 @@ let obj = [
     row2: "",
   },
   {
+    row1: "Aleksandar Rakas",
+    row2: "",
+  },
+  {
+    row1: "Tomasz Romanowski",
+    row2: "",
+  },
+  {
     row1: "Damian Piwowarczyk",
     row2: "",
   },
@@ -636,7 +592,23 @@ let obj = [
     row2: "",
   },
   {
-    row1: "Last change: 9 hr 23 min ago",
+    row1: "Darko Stosic",
+    row2: "",
+  },
+  {
+    row1: "Michal Andryszak",
+    row2: "",
+  },
+  {
+    row1: "Armen-Stepanyan",
+    row2: "",
+  },
+  {
+    row1: "Michal Domin",
+    row2: "",
+  },
+  {
+    row1: "Last change: 3 days ago",
     row2: "",
   },
   {
@@ -688,7 +660,7 @@ let obj = [
     row2: "",
   },
   {
-    row1: "Last change: 2 days ago",
+    row1: "Last change: 10 days ago",
     row2: "",
   },
   {
@@ -724,14 +696,6 @@ let obj = [
     row2: "-1000",
   },
   {
-    row1: "Cynthia Calvillo",
-    row2: "",
-  },
-  {
-    row1: "Jessica Andrade",
-    row2: "",
-  },
-  {
     row1: "Nick Diaz",
     row2: "-102",
   },
@@ -748,7 +712,107 @@ let obj = [
     row2: "270",
   },
   {
-    row1: "Last change: 1 day 4 hr ago",
+    row1: "Cynthia Calvillo",
+    row2: "220",
+  },
+  {
+    row1: "Jessica Andrade",
+    row2: "-270",
+  },
+  {
+    row1: "Daniel Hooker",
+    row2: "-196",
+  },
+  {
+    row1: "Nasrat Haqparast",
+    row2: "164",
+  },
+  {
+    row1: "Chris Daukaus",
+    row2: "-166",
+  },
+  {
+    row1: "Shamil Abdurakhimov",
+    row2: "140",
+  },
+  {
+    row1: "Marlon Moraes",
+    row2: "176",
+  },
+  {
+    row1: "Merab Dvalishvili",
+    row2: "-210",
+  },
+  {
+    row1: "Roxanne Modafferi",
+    row2: "270",
+  },
+  {
+    row1: "Taila Santos",
+    row2: "-335",
+  },
+  {
+    row1: "Jalin Turner",
+    row2: "108",
+  },
+  {
+    row1: "Uros Medic",
+    row2: "-126",
+  },
+  {
+    row1: "Martin Sano Jr.",
+    row2: "280",
+  },
+  {
+    row1: "Matthew Semelsberger",
+    row2: "-350",
+  },
+  {
+    row1: "Jonathan Pearce",
+    row2: "124",
+  },
+  {
+    row1: "Omar Morales",
+    row2: "-146",
+  },
+  {
+    row1: "Manon Fiorot",
+    row2: "-225",
+  },
+  {
+    row1: "Mayra Bueno Silva",
+    row2: "188",
+  },
+  {
+    row1: "Karl Roberson",
+    row2: "-108",
+  },
+  {
+    row1: "Nicholas Maximov",
+    row2: "-108",
+  },
+  {
+    row1: "Last change: 58 min ago",
+    row2: "",
+  },
+  {
+    row1: "UFC FIGHT NIGHT 194October 9th",
+    row2: "",
+  },
+  {
+    row1: "",
+    row2: "FanDuel",
+  },
+  {
+    row1: "Mackenzie Dern",
+    row2: "-146",
+  },
+  {
+    row1: "Marina Rodriguez",
+    row2: "124",
+  },
+  {
+    row1: "Last change: 4 days ago",
     row2: "",
   },
   {
@@ -766,14 +830,6 @@ let obj = [
   {
     row1: "Petr Yan",
     row2: "-335",
-  },
-  {
-    row1: "Glover Teixeira",
-    row2: "210",
-  },
-  {
-    row1: "Jan Blachowicz",
-    row2: "-260",
   },
   {
     row1: "Tai Tuivasa",
@@ -800,6 +856,14 @@ let obj = [
     row2: "108",
   },
   {
+    row1: "Glover Teixeira",
+    row2: "210",
+  },
+  {
+    row1: "Jan Blachowicz",
+    row2: "-260",
+  },
+  {
     row1: "Khamzat Chimaev",
     row2: "-350",
   },
@@ -808,7 +872,15 @@ let obj = [
     row2: "280",
   },
   {
-    row1: "Last change: 1 day 4 hr ago",
+    row1: "Magomed Ankalaev",
+    row2: "-290",
+  },
+  {
+    row1: "Volkan Oezdemir",
+    row2: "235",
+  },
+  {
+    row1: "Last change: 2 days ago",
     row2: "",
   },
   {
@@ -829,11 +901,11 @@ let obj = [
   },
   {
     row1: "Justin Gaethje",
-    row2: "-158",
+    row2: "-174",
   },
   {
     row1: "Michael Chandler",
-    row2: "134",
+    row2: "146",
   },
 ];
 console.log("let odds = [");
