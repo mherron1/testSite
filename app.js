@@ -1,6 +1,6 @@
 let delay = 0;
 
-if (true) {
+if (false) {
   delay = -28800000;
 }
 
@@ -20,6 +20,8 @@ let assets = [
   "aug27-o.jpg",
   "aug28-u.jpg",
   "sep04-u.jpg",
+  "sep18-u.jpg",
+  "sep18-b.jpg",
   "sep25-u.jpg",
   "oct01-b.jpg",
   "oct02-u.jpg",
