@@ -1310,15 +1310,15 @@ h4:hover {
 }
 
 #broadcastInfo {
+  display: inline-block;
   text-align: center;
   font-size: 0.9rem;
   margin-left: 50%;
-  transform: translate(-50%, -20px);
-  background-color: #e7e7e7;
-  border-radius: 0px;
-  padding: 8px;
-  padding-left: 7px;
-  padding-right: 7px;
+  transform: translateX(-50%);
+  border-bottom: 1px solid rgb(0, 0, 0);
+
+  padding: 3px;
+  top: -80px;
 }
 
 .donBtn {
