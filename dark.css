@@ -1338,7 +1338,6 @@ h4:hover {
 }
 
 #footerDiv {
-  background-color: #202020;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1452,13 +1451,12 @@ h4:hover {
   position: absolute;
   right: 8px;
   top: 5px;
-  background-color: #4b4b4b;
+  background-color: #ffc63c;
   text-align: center;
   color: rgb(0, 0, 0);
   padding: 4px;
   width: 140px;
   border-radius: 2px;
-  color: rgb(255, 255, 255);
 
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.705);
 }
