@@ -1301,12 +1301,13 @@ h4:hover {
 }
 
 #footerDiv {
-  background-color: #dfdfdf;
+  background-color: #ffffff00;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   height: 40px;
+  border-top: 1px solid rgba(68, 68, 68, 0.055);
 }
 
 #broadcastInfo {
