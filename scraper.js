@@ -9,6 +9,7 @@ let events = [
   "https://www.tapology.com/fightcenter/events/80131-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/81402-ufc-268-usman-vs-covington-2",
   "https://www.tapology.com/fightcenter/events/81601-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/80539-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/81602-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/82179-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/81603-ufc-fight-night",
