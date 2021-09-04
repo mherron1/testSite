@@ -1450,11 +1450,11 @@ h4:hover {
 #paypalLink2 {
   position: absolute;
   right: 8px;
-  top: 5px;
+  top: 3px;
   background-color: #ffc63c;
   text-align: center;
   color: rgb(0, 0, 0);
-  padding: 4px;
+  padding: 5px;
   width: 140px;
   border-radius: 2px;
 
