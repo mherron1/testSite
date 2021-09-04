@@ -61,17 +61,10 @@ let times = [
     videos: ["tIcIC3L2RX8"],
   },
   {
-    date: "aug13",
-    promo: "ONE Championship",
-    time: new Date(2021, 07, 13, 12, 30, 00),
-    prelims: new Date(2021, 07, 13, 12, 30, 00),
-    videos: ["ArmS7WGoQZQ"],
-  },
-  {
-    date: "aug27",
-    promo: "ONE Championship",
-    time: new Date(2021, 07, 27, 12, 30, 00),
-    prelims: new Date(2021, 07, 27, 12, 30, 00),
+    date: "sep18",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2021, 08, 18, 23, 00, 00),
+    prelims: new Date(2021, 08, 18, 20, 00, 00),
     videos: [],
   },
   {
@@ -108,6 +101,13 @@ let times = [
     time: new Date(2021, 07, 21, 01, 00, 00),
     prelims: new Date(2021, 07, 20, 22, 00, 00),
     videos: ["zI75KXeP0hU"],
+  },
+  {
+    date: "sep18",
+    promo: "Bellator MMA",
+    time: new Date(2021, 08, 19, 01, 00, 00),
+    prelims: new Date(2021, 08, 18, 21, 00, 00),
+    videos: [],
   },
   {
     date: "oct31",
