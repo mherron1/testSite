@@ -544,8 +544,9 @@ function generateCard(i, arg) {
   }
 
   let broadcastStyle = "";
+
   if (events[i][6].length < 2) {
-    broadcastStyle = "style = 'background-color: transparent;'";
+    broadcastStyle = "style = 'background-color: transparent; border:none;'";
   }
 
   let content = document.querySelector(`#content${arg}`);
