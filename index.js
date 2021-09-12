@@ -1496,7 +1496,7 @@ setTimeout(() => {
 let searchResults = document.getElementById("searchResults");
 let searchValue = document.getElementById("searchInput");
 
-function openSearchContainer() {
+const openSearchContainer = () => {
   searchResults.innerHTML = "";
   searchValue.value = "";
   $("#searchContainer").toggle();
@@ -1509,7 +1509,7 @@ function openSearchContainer() {
     sideNav.style.width = "0%";
     $("#dim").fadeOut(200);
   }
-}
+};
 
 function searchFighters() {
   searchResults.innerHTML = "";
