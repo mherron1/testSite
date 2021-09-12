@@ -1458,10 +1458,6 @@ function initYouTubeVideos() {
   }
 }
 
-if (android === true) {
-  document.querySelector("#rateReview").style.display = "block";
-}
-
 function toggleResults() {
   if (showResults) {
     showResults = false;
@@ -1510,6 +1506,10 @@ const openSearchContainer = () => {
     $("#dim").fadeOut(200);
   }
 };
+
+document
+  .getElementById("searchIcon")
+  .addEventListener("click", openSearchContainer);
 
 function searchFighters() {
   searchResults.innerHTML = "";
