@@ -1586,6 +1586,8 @@ h4:hover {
   left: 70px;
   font-size: 20px;
   z-index: 10;
+  background-color: transparent;
+  border: none;
 }
 
 #searchIcon:hover {

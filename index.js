@@ -1511,6 +1511,10 @@ document
   .getElementById("searchIcon")
   .addEventListener("click", openSearchContainer);
 
+document
+  .getElementById("searchIcon")
+  .addEventListener("tap", openSearchContainer);
+
 function searchFighters() {
   searchResults.innerHTML = "";
   let searchValue = document.getElementById("searchInput");
