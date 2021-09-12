@@ -9,7 +9,7 @@ a {
 html {
   height: 100%;
   width: 100%;
-  background-color: #f8f8f8;
+  background-color: #000000;
 }
 
 body {
@@ -205,6 +205,7 @@ body {
 .rightMinus1:nth-child(odd) {
   background-color: rgb(241, 241, 241);
 }
+
 .detailsLeft,
 .detailsLeftPlus1,
 .detailsLeftMinus1 {
@@ -214,6 +215,7 @@ body {
   font-size: 0.9rem;
   display: none;
 }
+
 .detailsRight,
 .detailsRightPlus1,
 .detailsRightMinus1 {
@@ -223,6 +225,7 @@ body {
   font-size: 0.9rem;
   display: none;
 }
+
 .detailsMiddle,
 .detailsMiddleMinus1,
 .detailsMiddlePlus1 {
@@ -268,6 +271,7 @@ body {
   position: absolute;
   left: 0;
 }
+
 #shareSquare {
   color: black;
 }
@@ -294,6 +298,7 @@ body {
   font-weight: normal;
   left: 60px;
 }
+
 .eventIcons {
   position: absolute;
   max-height: 30px;
@@ -303,7 +308,6 @@ body {
 }
 
 /*hamburger*/
-
 .hamburger {
   position: absolute;
   background-color: none;
@@ -319,46 +323,53 @@ a {
   text-decoration: none;
 }
 
-/* GRID */
-
 .twelve {
   width: 100%;
 }
+
 .eleven {
   width: 91.53%;
 }
+
 .ten {
   width: 83.06%;
 }
+
 .nine {
   width: 74.6%;
 }
+
 .eight {
   width: 66.13%;
 }
+
 .seven {
   width: 57.66%;
 }
+
 .six {
   width: 49.2%;
 }
+
 .five {
   width: 40.73%;
 }
+
 .four {
   width: 32.26%;
 }
+
 .three {
   width: 23.8%;
 }
+
 .two {
   width: 15.33%;
 }
+
 .one {
   width: 6.866%;
 }
-
-/* COLUMNS */
 
 .col {
   display: block;
@@ -378,8 +389,6 @@ a {
   text-align: center;
 }
 
-/* CLEARFIX */
-
 .cf:before,
 .cf:after {
   content: " ";
@@ -393,8 +402,6 @@ a {
 .cf {
   *zoom: 1;
 }
-
-/* ALL */
 
 .row .three {
   padding: 80px 30px;
@@ -420,8 +427,6 @@ a {
 .hamburger:hover {
   cursor: pointer;
 }
-
-/* ONE */
 
 #hamburger-1.is-active .line:nth-child(2) {
   opacity: 0;
@@ -912,7 +917,7 @@ li span {
 
 @media only screen and (min-width: 8825px) {
   html {
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(0, 0, 0);
     overflow-y: unset;
   }
 
@@ -992,12 +997,7 @@ li span {
 
 @media only screen and (min-width: 475px) {
   html {
-    background-image: linear-gradient(
-      to right,
-      rgb(172, 172, 172),
-      rgb(202, 202, 202),
-      rgb(172, 172, 172)
-    );
+    background-color: black;
   }
 
   body {
@@ -1465,7 +1465,7 @@ h4:hover {
   opacity: 0.9;
   box-shadow: 7px 5px 10px rgb(0, 0, 0);
   transform: perspective(250px) rotateY(-5deg) translateX(-750px);
-  border-radius: 15px;
+  border-radius: 5px;
   overflow: hidden;
 
   z-index: 1;
@@ -1484,7 +1484,7 @@ h4:hover {
   opacity: 0.9;
   box-shadow: -7px 5px 10px rgb(0, 0, 0);
   transform: perspective(250px) rotateY(6deg) translateX(750px);
-  border-radius: 15px;
+  border-radius: 5px;
   overflow: hidden;
 
   z-index: 1;
@@ -1575,5 +1575,67 @@ h4:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgb(185, 185, 185);
+  background-color: rgb(206, 206, 206);
+}
+
+#searchIcon {
+  position: absolute;
+  top: 12px;
+  z-index: 10000;
+  left: 70px;
+  font-size: 20px;
+}
+
+#searchIcon:hover {
+  cursor: pointer;
+}
+
+#searchContainer {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  background-color: rgba(233, 233, 233, 0.939);
+  border: 15px solid #f8f8f8;
+  z-index: 10000;
+  display: none;
+  overflow: hidden;
+}
+
+#searchInput {
+  width: 300px;
+  margin-top: 75px;
+  font-size: 18px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.searchResultsItem {
+  width: 90%;
+  font-size: 16px;
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 2px;
+  border-bottom: 1px solid #fdfdfd;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.searchResultsItem:hover {
+  cursor: pointer;
+  background-color: rgb(238, 105, 105);
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+#closeSearch {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 35px;
+}
+#closeSearch:hover {
+  cursor: pointer;
 }

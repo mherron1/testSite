@@ -131,6 +131,22 @@ function create() {
   generateCard(i, "");
 }
 
+let fighterArray = [];
+events.forEach((ev, index) => {
+  ev[3].forEach((bout) => {
+    fighterArray.push({
+      fighter: bout.fighterA,
+      date: ev[7],
+      index: index,
+    });
+    fighterArray.push({
+      fighter: bout.fighterB,
+      date: ev[7],
+      index: index,
+    });
+  });
+});
+
 ////////////////////////////////  End of card function
 
 function next() {
@@ -513,6 +529,7 @@ function toggleSettings() {
     $("#settings").css("position", "absolute");
     $("#settings").css("height", "0vh");
     $("#settings").css("top", "100%");
+    window.location = "/";
   } else {
     $("#settings").css("height", "110%");
     $("#settings").css("top", "-30px");
@@ -1475,3 +1492,56 @@ setTimeout(() => {
   document.getElementById("leftArrow").style.transform =
     "perspective(250px) rotateY(-5deg) translateX(-350px)";
 }, 0);
+
+let searchResults = document.getElementById("searchResults");
+let searchValue = document.getElementById("searchInput");
+
+$("#searchIcon").click(function () {
+  searchResults.innerHTML = "";
+  searchValue.value = "";
+  $("#searchContainer").toggle();
+
+  //ensure sidena is closed when opening search
+  let sideNav = document.querySelector("#sideNav");
+  if (sideNav.style.width === "325px") {
+    $("#hamburger-1").toggleClass("is-active");
+    eventList.innerHTML = ``;
+    sideNav.style.width = "0%";
+    $("#dim").fadeOut(200);
+  }
+});
+
+function searchFighters() {
+  searchResults.innerHTML = "";
+  let searchValue = document.getElementById("searchInput");
+
+  if (searchValue.value.length > 1) {
+    fighterArray.forEach((entry) => {
+      if (
+        entry.fighter.toLowerCase().includes(searchValue.value.toLowerCase())
+      ) {
+        console.log(entry.fighter + " " + entry.date + " " + entry.index);
+        searchResults.innerHTML += `
+      <div>
+      <li onclick="searchSelect(${entry.index})" class="searchResultsItem">${entry.fighter}</li>
+      </div>
+      
+      `;
+      }
+    });
+  }
+}
+
+function searchSelect(w) {
+  i = w;
+  ///////////////////////
+  pausecomp(50);
+  showResults = false;
+  create();
+
+  $("#searchContainer").toggle();
+}
+
+$("#closeSearch").click(function () {
+  $("#searchContainer").toggle();
+});
