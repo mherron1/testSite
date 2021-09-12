@@ -1505,6 +1505,7 @@ const openSearchContainer = () => {
     sideNav.style.width = "0%";
     $("#dim").fadeOut(200);
   }
+  searchValue.focus();
 };
 
 document
