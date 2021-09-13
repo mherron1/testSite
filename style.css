@@ -593,12 +593,16 @@ input:checked + .slider:before {
   }
   .setting {
     font-size: 1.2rem;
-    padding: 12px;
+
+    margin-top: 8px;
+    margin-bottom: 7px;
+    padding: 8px;
     margin-left: 15px;
+    margin-right: 5px;
   }
   .switch {
-    transform: scale(1.2);
-    margin-right: 30px;
+    transform: scale(1.3);
+    margin-right: 0px;
   }
 
   .socialIcon {
@@ -847,10 +851,12 @@ li span {
     font-size: 1rem;
     padding: 9px;
     margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 6px;
   }
   .switch {
-    transform: scale(1.1);
-    margin-right: 30px;
+    transform: scale(1);
   }
   .eventLink {
     font-size: 1rem;
