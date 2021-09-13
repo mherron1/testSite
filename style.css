@@ -1608,27 +1608,13 @@ h4:hover {
   top: 0px;
   left: 0;
   right: 0;
-  bottom: 0%;
-  background-color: rgba(233, 233, 233, 0.966);
+  min-height: 100%;
+  max-height: 100%;
+  background-color: rgba(233, 233, 233, 0.926);
   border: 0px solid #f8f8f8;
   z-index: 10000;
   display: none;
   overflow: hidden;
-}
-
-@media only screen and (max-width: 600px) {
-  #searchContainer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(233, 233, 233, 0.966);
-    border: 5px solid #f8f8f8;
-    z-index: 10000;
-    display: none;
-    overflow: hidden;
-  }
 }
 
 #searchInput {
@@ -1647,10 +1633,11 @@ h4:hover {
   font-size: 16px;
   padding: 10px;
   background-color: rgb(255, 255, 255);
-  margin-bottom: 2px;
-  border-bottom: 1px solid #fdfdfd;
+  margin-bottom: 3px;
+  border-bottom: 0px solid #fdfdfd;
   margin-left: 50%;
   transform: translateX(-50%);
+  border-radius: ;
 }
 
 .searchResultsItem:hover {
@@ -1677,13 +1664,25 @@ h4:hover {
   font-size: 13px;
   width: max-content;
 }
-
 @media only screen and (max-width: 475px) {
   .searchResultDate {
     position: absolute;
     top: 0;
     right: 5px;
-    font-size: 10px;
+    font-size: 12px;
     width: max-content;
+  }
+  #searchContainer {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    min-height: 100%;
+    max-height: unset;
+    background-color: rgba(233, 233, 233, 0.926);
+    border: 0px solid #f8f8f8;
+    z-index: 10000;
+    display: none;
+    overflow: hidden;
   }
 }

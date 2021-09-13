@@ -1525,14 +1525,13 @@ function searchFighters() {
       if (
         entry.fighter.toLowerCase().includes(searchValue.value.toLowerCase())
       ) {
-        console.log(entry.fighter + " " + entry.date + " " + entry.index);
         searchResults.innerHTML += `
-      <div>
-      <li onclick="searchSelect(${entry.index})" class="searchResultsItem">${entry.fighter}
-      <span class="searchResultDate">${entry.date}</span></li>
-      </div>
-      
-      `;
+          <div>
+          <li onclick="searchSelect(${entry.index})" class="searchResultsItem">${entry.fighter}
+          <span class="searchResultDate">${entry.date}</span></li>
+          </div>
+          
+          `;
       }
     });
   }
