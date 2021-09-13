@@ -1499,7 +1499,7 @@ h4:hover {
   opacity: 0.75;
   box-shadow: 7px 5px 10px rgb(0, 0, 0);
   transform: perspective(250px) rotateY(-5deg) translateX(-750px);
-  border-radius: 15px;
+  border-radius: 5px;
   overflow: hidden;
   z-index: 1;
 }
@@ -1517,7 +1517,7 @@ h4:hover {
   opacity: 0.75;
   box-shadow: -7px 5px 10px rgb(0, 0, 0);
   transform: perspective(250px) rotateY(6deg) translateX(750px);
-  border-radius: 15px;
+  border-radius: 5px;
   overflow: hidden;
   z-index: 1;
 }
@@ -1710,6 +1710,16 @@ h4:hover {
   position: absolute;
   top: 0;
   right: 5px;
-  font-size: 10px;
+  font-size: 13px;
   width: max-content;
+}
+
+@media only screen and (max-width: 475px) {
+  .searchResultDate {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 10px;
+    width: max-content;
+  }
 }

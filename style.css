@@ -1674,6 +1674,16 @@ h4:hover {
   position: absolute;
   top: 0;
   right: 5px;
-  font-size: 9px;
+  font-size: 13px;
   width: max-content;
+}
+
+@media only screen and (max-width: 475px) {
+  .searchResultDate {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 10px;
+    width: max-content;
+  }
 }
