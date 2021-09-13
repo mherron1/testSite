@@ -1668,8 +1668,8 @@ h4:hover {
   width: 90%;
   font-size: 16px;
   padding: 12px;
-  background-color: rgba(0, 0, 0, 0.781);
-  margin-bottom: 2px;
+  background-color: rgba(63, 63, 63, 0.781);
+  margin-bottom: 3px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.781);
   margin-left: 50%;
   transform: translateX(-50%);
