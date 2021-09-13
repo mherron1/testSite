@@ -523,7 +523,7 @@ a {
 
 #settingsIcon {
   font-size: 30px;
-  color: rgb(255, 255, 255);
+  color: silver;
   margin-right: 75%;
   transform: translateY(-30px);
 }
@@ -957,7 +957,7 @@ li span {
   }
 
   #settingsIcon {
-    color: white;
+    color: rgb(204, 204, 204);
   }
 
   #closeSettings {
@@ -1704,4 +1704,12 @@ h4:hover {
 }
 #closeSearch:hover {
   cursor: pointer;
+}
+
+.searchResultDate {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 10px;
+  width: max-content;
 }

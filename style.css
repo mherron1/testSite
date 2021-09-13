@@ -1669,3 +1669,11 @@ h4:hover {
 #closeSearch:hover {
   cursor: pointer;
 }
+
+.searchResultDate {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 9px;
+  width: max-content;
+}
