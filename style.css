@@ -1637,7 +1637,6 @@ h4:hover {
   border-bottom: 0px solid #fdfdfd;
   margin-left: 50%;
   transform: translateX(-50%);
-  border-radius: ;
 }
 
 .searchResultsItem:hover {
@@ -1674,5 +1673,6 @@ h4:hover {
   }
   #searchContainer {
     max-height: unset;
+    min-height: 100vh;
   }
 }
