@@ -1312,7 +1312,7 @@ h4:hover {
   left: 0;
   right: 0;
   height: 39px;
-  background-color: rgb(238, 238, 238);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 #broadcastInfo {
@@ -1420,12 +1420,12 @@ h4:hover {
   height: 28px;
   line-height: 28px;
   right: 8px;
-  bottom: 5px;
+  bottom: 6px;
   background-color: #ffc63c;
   text-align: center;
   color: rgb(0, 0, 0);
   width: 140px;
-  border-radius: 2px;
+  border-radius: 0px;
   color: rgb(0, 0, 0);
   box-shadow: 0px 0px 1px #000;
 }
@@ -1439,12 +1439,12 @@ h4:hover {
   height: 28px;
   line-height: 28px;
   left: 8px;
-  bottom: 5px;
+  bottom: 6px;
   background-color: #ffffff;
   text-align: center;
   color: rgb(0, 0, 0);
-  width: 75px;
-  border-radius: 2px;
+  width: 140px;
+  border-radius: 0px;
   color: rgb(0, 0, 0);
   box-shadow: 0px 0px 1px #000;
 }
