@@ -1430,15 +1430,17 @@ h4:hover {
 }
 
 #paypalLink2:hover {
-  background-color: #ececec;
+  background-color: #ffc63c;
+  color: black;
 
-  border: 1px solid #000000;
+  border: 1px solid #ffc63c;
 }
 
 #paypalLink2:active {
-  background-color: #ececec;
+  background-color: #ffc63c;
+  color: black;
 
-  border: 1px solid #000000;
+  border: 1px solid #ffc63c;
 }
 
 .contactBtn {
