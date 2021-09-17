@@ -22,6 +22,7 @@ if (localStorage.getItem("dark-mode") !== null) {
   let darkMode = document.querySelector("#darkInput");
   darkMode.checked = true;
   toggleStyleSheets();
+  localStorage.setItem("dark-mode", "y");
 }
 
 let oddsType = "line";
