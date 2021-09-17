@@ -1647,7 +1647,7 @@ h4:hover {
   width: 300px;
   font-size: 16px;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.742);
+  background-color: rgb(255, 255, 255);
   margin-bottom: 3px;
   border-bottom: 0px solid #fdfdfd;
   margin-left: 50%;
@@ -1656,9 +1656,8 @@ h4:hover {
 
 .searchResultsItem:hover {
   cursor: pointer;
-  background-color: rgb(255, 255, 255);
-  border-bottom: 0px solid rgb(221, 221, 221);
-  color: rgb(0, 0, 0);
+  color: white;
+  background-color: rgba(212, 39, 39, 0.822);
 }
 
 #closeSearch {
