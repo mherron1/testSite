@@ -135,13 +135,20 @@ function create(search_string) {
   function searchHightlight(search_string) {
     let searched = search_string;
     if (searched) {
-      let text = document.querySelector("body").innerHTML;
+      let text = document.getElementById("mainCard").innerHTML;
       let re = new RegExp(searched, "g"); // search for all instances
       let newText = text.replace(
         re,
         `<mark style="background-color:rgba(244, 247, 118, 1);">${searched}</mark>`
       );
-      document.querySelector("body").innerHTML = newText;
+      document.getElementById("mainCard").innerHTML = newText;
+      text = document.getElementById("prelimsCard").innerHTML;
+      re = new RegExp(searched, "g"); // search for all instances
+      newText = text.replace(
+        re,
+        `<mark style="background-color:rgba(244, 247, 118, 1);">${searched}</mark>`
+      );
+      document.getElementById("prelimsCard").innerHTML = newText;
     }
   }
 }
