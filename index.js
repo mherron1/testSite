@@ -1497,9 +1497,7 @@ function toggleDonatePopup() {
   }
 }
 
-console.log("Hi there!");
-console.log("I hope you find this website useful.");
-console.log("Have a nice day!");
+console.log("conor tap like chicken");
 
 setTimeout(() => {
   document.getElementById("navBlocks").style.opacity = 1;
