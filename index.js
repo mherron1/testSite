@@ -1497,7 +1497,7 @@ function toggleDonatePopup() {
   }
 }
 
-console.log("conor tap like chicken");
+console.log("Hi there!");
 
 setTimeout(() => {
   document.getElementById("navBlocks").style.opacity = 1;
