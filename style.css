@@ -1692,7 +1692,7 @@ h4:hover {
   }
   #searchContainer {
     max-height: unset;
-    min-height: 100vh;
+    min-height: 150vh;
   }
   #closeSearch {
     position: absolute;
