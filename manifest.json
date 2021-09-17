@@ -1,7 +1,7 @@
 {
     "theme_color": "#121212",
     "background_color": "#121212",
-    "display": "Fullscreen",
+    "display": "Standalone",
     "scope": "/",
     "start_url": "/",
     "name": "mmafightcards.org",
