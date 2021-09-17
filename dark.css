@@ -1461,9 +1461,10 @@ h4:hover {
 
 #paypalLink2 {
   position: absolute;
-  right: 8px;
-  top: 3px;
-  background-color: #ffc63c;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+  background-color: #ebebeb;
   text-align: center;
   color: rgb(0, 0, 0);
   padding: 5px;
@@ -1602,22 +1603,27 @@ h4:hover {
 }
 
 .contactBtn {
-  position: absolute;
-  left: 8px;
-  top: 5px;
-  background-color: #4b4b4b;
+  height: 28px;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000;
   text-align: center;
-  color: rgb(0, 0, 0);
-  padding: 5px;
-  width: 75px;
-  border-radius: 2px;
+  width: 140px;
+  border-radius: 0px;
   color: rgb(255, 255, 255);
-
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.705);
+  border: 1px solid rgb(255, 255, 255);
+}
+.contactBtn:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
 
 .contactBtn:active {
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.753);
+  background-color: #ffffff;
+  color: black;
 }
 
 #searchIcon {

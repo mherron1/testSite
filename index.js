@@ -595,8 +595,6 @@ function generateCard(i, arg) {
 <a target="_blank"
 href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
 <div id="paypalLink2">Buy me a beer 🍻</div></a>
-
-  <a href="mailto:mmafightcards.org@gmail.com" ><p class="contactBtn">Contact</p></a>
     </div>
 `;
 

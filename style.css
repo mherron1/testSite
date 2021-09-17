@@ -1417,36 +1417,49 @@ h4:hover {
 
 #paypalLink2 {
   position: absolute;
-  height: 28px;
-  line-height: 28px;
-  right: 8px;
-  bottom: 6px;
-  background-color: #ffc63c;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+  background-color: #ffffff;
   text-align: center;
   color: rgb(0, 0, 0);
+  padding: 5px;
   width: 140px;
-  border-radius: 0px;
-  color: rgb(0, 0, 0);
-  box-shadow: 0px 0px 1px #000;
+  border-radius: 0;
+  border: 1px solid #000000;
+}
+
+#paypalLink2:hover {
+  background-color: #ececec;
+
+  border: 1px solid #000000;
 }
 
 #paypalLink2:active {
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.753);
+  background-color: #ececec;
+
+  border: 1px solid #000000;
 }
 
 .contactBtn {
-  position: absolute;
   height: 28px;
   line-height: 28px;
-  left: 8px;
-  bottom: 6px;
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
   background-color: #ffffff;
   text-align: center;
   color: rgb(0, 0, 0);
   width: 140px;
-  border-radius: 0px;
+  padding: 0px;
   color: rgb(0, 0, 0);
-  box-shadow: 0px 0px 1px #000;
+  border: 1px solid black;
+}
+
+.contactBtn:hover {
+  background-color: #dd5050;
+  color: rgb(255, 255, 255);
+  border: 1px solid #dd5050;
 }
 
 .contactBtn:active {
