@@ -38,7 +38,7 @@ let notLast = true;
 
 create();
 
-function create() {
+function create(search_string) {
   events = data2;
   let numRes = 0;
   let filterArr = [];
@@ -129,6 +129,21 @@ function create() {
   generateCard(i - 1, "Minus1");
   generateCard(i + 1, "Plus1");
   generateCard(i, "");
+
+  searchHightlight(search_string);
+
+  function searchHightlight(search_string) {
+    let searched = search_string;
+    if (searched) {
+      let text = document.querySelector("body").innerHTML;
+      let re = new RegExp(searched, "g"); // search for all instances
+      let newText = text.replace(
+        re,
+        `<mark style="background-color:rgba(244, 247, 118, 1);">${searched}</mark>`
+      );
+      document.querySelector("body").innerHTML = newText;
+    }
+  }
 }
 
 let fighterArray = [];
@@ -1525,7 +1540,7 @@ function searchFighters() {
       ) {
         searchResults.innerHTML += `
           <div>
-          <li onclick="searchSelect(${entry.index})" class="searchResultsItem">${entry.fighter}
+          <li onclick="searchSelect(${entry.index} ,'${entry.fighter}' )" class="searchResultsItem">${entry.fighter}
           <span class="searchResultDate">${entry.date}</span></li>
           </div>
           
@@ -1535,12 +1550,12 @@ function searchFighters() {
   }
 }
 
-function searchSelect(w) {
+function searchSelect(w, search_string) {
   i = w;
   ///////////////////////
   pausecomp(50);
   showResults = false;
-  create();
+  create(search_string);
 
   $("#searchContainer").toggle();
 }
