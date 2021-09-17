@@ -1727,6 +1727,6 @@ h4:hover {
   }
   #searchContainer {
     max-height: unset;
-    min-height: 150vh;
+    min-height: 100vh;
   }
 }

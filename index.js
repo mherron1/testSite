@@ -18,6 +18,10 @@ if (localStorage.getItem("dark-mode") !== null) {
     darkMode.checked = true;
     toggleStyleSheets();
   }
+} else {
+  let darkMode = document.querySelector("#darkInput");
+  darkMode.checked = true;
+  toggleStyleSheets();
 }
 
 let oddsType = "line";
@@ -1497,7 +1501,7 @@ function toggleDonatePopup() {
   }
 }
 
-console.log("conor tap like chicken");
+console.log("Hi there!");
 
 setTimeout(() => {
   document.getElementById("navBlocks").style.opacity = 1;
