@@ -431,6 +431,7 @@ function selectCard(index) {
   create();
 
   document.querySelector("#hamburger-1").classList = "hamburger";
+  window.scrollTo(0, 0);
 }
 
 ////////////////////////////swiping
