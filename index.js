@@ -1566,6 +1566,7 @@ function searchSelect(w, search_string) {
   pausecomp(50);
   showResults = false;
   create(search_string);
+  window.scrollTo(0, 0);
 
   $("#searchContainer").toggle();
 }
