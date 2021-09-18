@@ -1468,7 +1468,9 @@ h4:hover {
   text-align: center;
   color: rgb(255, 255, 255);
   padding: 5px;
-  width: 140px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: max-contact;
   border-radius: 2px;
   border: 1px solid white;
 }
