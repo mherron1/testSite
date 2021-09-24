@@ -238,5 +238,5 @@ function getCard(url) {
     console.log(`"${n}",`);
     console.log(`"${bc}"`);
     console.log("],");
-  }, 14000);
+  }, 12000);
 }

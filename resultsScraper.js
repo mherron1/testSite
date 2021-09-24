@@ -100,5 +100,5 @@ function getCard(url) {
       console.log(item);
       console.log(",");
     });
-  }, 14000);
+  }, 12000);
 }
