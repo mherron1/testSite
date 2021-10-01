@@ -63,7 +63,7 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 09, 02, 23, 00, 00),
     prelims: new Date(2021, 09, 02, 20, 00, 00),
-    videos: [],
+    videos: ["E9Pah5MG868"],
   },
   {
     date: "oct31",
@@ -112,7 +112,7 @@ let times = [
     promo: "Bellator MMA",
     time: new Date(2021, 09, 01, 20, 0, 00),
     prelims: new Date(2021, 09, 01, 16, 30, 00),
-    videos: [],
+    videos: ["DdRrRrsx5KA"],
   },
 ];
 
