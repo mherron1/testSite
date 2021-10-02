@@ -12,7 +12,8 @@ let events = [
   "https://www.tapology.com/fightcenter/events/81603-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/81267-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/82070-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/81426-bellator-london-lima-vs-mvp-2",
+  "https://www.tapology.com/fightcenter/events/82805-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/82993-ufc-270",
   "https://www.tapology.com/fightcenter/events/81555-bellator-266-nemkov-vs-johnson",
   "https://www.tapology.com/fightcenter/events/81270-bellator-mma",
   "https://www.tapology.com/fightcenter/events/80135-bellator",
@@ -20,7 +21,7 @@ let events = [
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
   "https://www.tapology.com/fightcenter/events/78601-ufc-266",
-  "https://www.tapology.com/fightcenter/events/81907-bellator-266-romero-vs-davis",
+  "https://www.tapology.com/fightcenter/events/81426-bellator-london-lima-vs-mvp-2",
   "https://www.tapology.com/fightcenter/events/79759-pfl-2021-9-playoffs",
   //"https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
 ];
