@@ -667,7 +667,10 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
   let mainTime = document.querySelector(`#mainTime${arg}`);
   let prelimsTime = document.querySelector(`#prelimsTime${arg}`);
 
-  if (events[i][1] - nowEpochX < 604800000) {
+  if (
+    events[i][1] - nowEpochX < 604800000 &&
+    events[i][1] - nowEpochX > -28800000
+  ) {
     eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() - utc_offset);
     mainCardTime = eventTimeLocal.toLocaleString([], {
       month: "short",
@@ -687,7 +690,10 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
   mainTime.innerHTML += `
   <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
    `;
-  if (events[i][1] - nowEpochX < 604800000) {
+  if (
+    events[i][1] - nowEpochX < 604800000 &&
+    events[i][1] - nowEpochX > -28800000
+  ) {
     prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
     prelimsCardTime = prelimCardTime.toLocaleString([], {
       month: "short",
