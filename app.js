@@ -14,6 +14,7 @@ let assets = [
   "oct16-b.jpg",
   "oct23-b.jpg",
   "oct23-u.jpg",
+  "oct27-p.jpg",
   "oct31-u.jpg",
   "nov05-b.jpg",
   "nov06-u.jpg",
