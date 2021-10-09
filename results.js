@@ -1,170 +1,128 @@
 let resultsList = [
 {
-  winner: 'Thiago Santos ',
+  winner: 'Marina Rodriguez ',
   time: '5 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/85671-johnny-walker'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/134267'
 }
 ,
 {
-  winner: 'Kevin Holland ',
-  time: '3:43 Round 1',
-  method: 'ends in a no contest',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/16027-kyle-daukaus'
-}
-,
-{
-  winner: 'Niko Price ',
+  winner: 'Randy Brown ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/45649-alex-cowboy'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/43007-jared-gooden'
 }
 ,
 {
-  winner: 'Krzysztof Jotko ',
+  winner: 'Matheus Nicolau ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/14031-misha-cirkunov'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/13664-timothy-elliot'
 }
 ,
 {
-  winner: 'Alexander Hernandez ',
-  time: '1:20 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/33407-mike-breeden'
-}
-,
-{
-  winner: 'Jared Gordon ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/116995-joseph-solecki'
-}
-,
-{
-  winner: "Casey O'Neill ",
-  time: '4:47 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/119417-antonia-schevchenko'
-}
-,
-{
-  winner: 'Karol Rosa ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/31164-beth-correia'
-}
-,
-{
-  winner: 'Jamie Mullarkey ',
-  time: '2:51 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/31601-devonte-smith-johnny-cage'
-}
-,
-{
-  winner: 'D. Silva de Andrade ',
-  time: '2:04 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/35631-gaetano-pirello'
-}
-,
-{
-  winner: 'Stephanie Egger ',
-  time: '2:22 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/58605-shanna-young'
-}
-,
-{
-  winner: 'Alejandro Perez ',
-  time: '4:13 Round 2',
+  winner: 'Mariya Agapova ',
+  time: '0:53 Round 3',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/jhonny-eduardo'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/92893-sabina-mazo'
 }
 ,
 {
-  winner: 'Michael Page ',
+  winner: 'Chris Gutierrez ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/douglas-lima-the-phenom'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/80697-felipe-colares-caboco'
 }
 ,
 {
-  winner: 'Leah McCourt ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/108562-jessica-borga-the-black-widow'
-}
-,
-{
-  winner: 'Robert Whiteford ',
-  time: '2:50 Round 2',
-  method: 'ends in a no contest',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/10681-andrew-fisher'
-}
-,
-{
-  winner: 'Luke Trainer ',
-  time: '2:50 Round 2',
+  winner: 'Alexander Romanov ',
+  time: '4:43 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/20943-yannick-bahati'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/33826-jared-vanderaa'
 }
 ,
 {
-  winner: 'Tim Wilde ',
+  winner: 'Damon Jackson ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/23690-yves-landu'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/33009-charles-rosa'
 }
 ,
 {
-  winner: 'Lewis Long ',
-  time: '0:41 Round 1',
+  winner: 'Lupita Godinez ',
+  time: '4:14 Round 1',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/27314-mikael-dubois'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/61720-silvana-gomez-juarez-la-malvada'
 }
 ,
 {
-  winner: 'Davy Gallon ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/65802-kane-mousah-the-danger'
-}
-,
-{
-  winner: 'Elina Kallionidou ',
-  time: '2:07 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/118402-petra-castkova'
-}
-,
-{
-  winner: 'Jack Grant ',
-  time: '2:16 Round 1',
+  winner: 'Steve Garcia ',
+  time: '1:51 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/38919-nathan-jones'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/20906-charles-ontiveros'
 }
 ,
 {
-  winner: 'Fabacary Diatta ',
+  winner: 'Marina Rodriguez ',
+  time: '5 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/134267'
+}
+,
+{
+  winner: 'Randy Brown ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/40159-nathan-rose'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/43007-jared-gooden'
 }
 ,
 {
-  winner: 'Chiara Penco ',
-  time: '2:45 Round 1',
+  winner: 'Matheus Nicolau ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/13664-timothy-elliot'
+}
+,
+{
+  winner: 'Mariya Agapova ',
+  time: '0:53 Round 3',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/218772-katharina-dalisda'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/92893-sabina-mazo'
 }
 ,
 {
-  winner: 'Khurshed Kakhorov ',
+  winner: 'Chris Gutierrez ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/106431-junior-ceregat'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/80697-felipe-colares-caboco'
+}
+,
+{
+  winner: 'Alexander Romanov ',
+  time: '4:43 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/33826-jared-vanderaa'
+}
+,
+{
+  winner: 'Damon Jackson ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/33009-charles-rosa'
+}
+,
+{
+  winner: 'Lupita Godinez ',
+  time: '4:14 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/61720-silvana-gomez-juarez-la-malvada'
+}
+,
+{
+  winner: 'Steve Garcia ',
+  time: '1:51 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/20906-charles-ontiveros'
 }
 ,
 {
