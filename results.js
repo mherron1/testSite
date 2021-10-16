@@ -147,73 +147,87 @@ let resultsList = [
 }
 ,
 {
-  winner: 'Movlid Khaybulaev ',
+  winner: 'Michael Page ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/31147-brendan-loughnane'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/douglas-lima-the-phenom'
 }
 ,
 {
-  winner: 'Chris Wade ',
+  winner: 'Leah McCourt ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/17526-bubba-jenkins'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/108562-jessica-borga-the-black-widow'
 }
 ,
 {
-  winner: 'Antônio Carlos Júnior ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/24406-emiliano-sordi'
+  winner: 'Robert Whiteford ',
+  time: '2:50 Round 2',
+  method: 'ends in a no contest',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/10681-andrew-fisher'
 }
 ,
 {
-  winner: 'Marthin Hamlet ',
-  time: '0:13 Round 1',
+  winner: 'Luke Trainer ',
+  time: '2:50 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/cesar-jesus-ferreira-mutante'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/20943-yannick-bahati'
 }
 ,
 {
-  winner: 'Sheymon Moraes ',
-  time: '4:45 Round 2',
+  winner: 'Tim Wilde ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/23690-yves-landu'
+}
+,
+{
+  winner: 'Lewis Long ',
+  time: '0:41 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/27314-mikael-dubois'
+}
+,
+{
+  winner: 'Davy Gallon ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/65802-kane-mousah-the-danger'
+}
+,
+{
+  winner: 'Elina Kallionidou ',
+  time: '2:07 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/118402-petra-castkova'
+}
+,
+{
+  winner: 'Jack Grant ',
+  time: '2:16 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/lazar-stojadinovic'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/38919-nathan-jones'
 }
 ,
 {
-  winner: 'Chris Camozzi ',
+  winner: 'Fabacary Diatta ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/30232-cory-hendricks'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/40159-nathan-rose'
 }
 ,
 {
-  winner: 'Anthony Dizy ',
+  winner: 'Chiara Penco ',
+  time: '2:45 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/218772-katharina-dalisda'
+}
+,
+{
+  winner: 'Khurshed Kakhorov ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/32139-jesse-stim'
-}
-,
-{
-  winner: 'Bobby Moffett ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/19215-jason-knight'
-}
-,
-{
-  winner: 'Alejandro Flores ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/32970-carl-deaton-iii'
-}
-,
-{
-  winner: 'Brandon Jenkins ',
-  time: '2:56 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/64066-jacob-kilburn'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/106431-junior-ceregat'
 }
 ,
 ]
