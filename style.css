@@ -1705,3 +1705,9 @@ h4:hover {
     color: rgb(0, 0, 0);
   }
 }
+
+#imageContainer,
+#imageContainerMinus1,
+#imageContainerPlus1 {
+  background-color: black;
+}
