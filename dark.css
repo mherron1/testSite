@@ -1464,15 +1464,16 @@ h4:hover {
   left: 50%;
   transform: translateX(-50%);
   bottom: 30px;
-  background-color: #292929;
   text-align: center;
-  color: rgb(255, 255, 255);
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
   width: max-contact;
-  border-radius: 2px;
-  border: 1px solid white;
+  border-radius: 4px;
+  background-color: #ffc63c;
+  color: black;
+
+  border: 1px solid #ffc63c;
 }
 
 #paypalLink2:hover {
@@ -1480,6 +1481,7 @@ h4:hover {
   color: black;
 
   border: 1px solid #ffc63c;
+  filter: brightness(105%);
 }
 
 #paypalLink2:active {
@@ -1487,6 +1489,7 @@ h4:hover {
   color: black;
 
   border: 1px solid #ffc63c;
+  filter: brightness(105%);
 }
 
 #navImageLeft {
