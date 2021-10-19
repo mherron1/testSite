@@ -1735,3 +1735,9 @@ h4:hover {
     min-height: 100vh;
   }
 }
+
+#imageContainer,
+#imageContainerMinus1,
+#imageContainerPlus1 {
+  background-color: black;
+}
