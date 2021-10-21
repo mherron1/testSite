@@ -19,9 +19,11 @@ if (localStorage.getItem("dark-mode") !== null) {
     toggleStyleSheets();
   }
 } else {
+  /*
   let darkMode = document.querySelector("#darkInput");
   darkMode.checked = true;
   toggleStyleSheets();
+  */
 }
 
 let oddsType = "line";
