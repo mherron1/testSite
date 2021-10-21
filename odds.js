@@ -30,7 +30,7 @@ let odds = [
   { name: "Timothy Johnson", odds: "1.67" },
   { name: "Said Sowma", odds: "3.30" },
   { name: "Vitaly Minakov", odds: "1.33" },
-  { name: "Patrik Pietila", odds: "13.20" },
+  { name: "Patrik Pietilä", odds: "13.20" },
   { name: "Usman Nurmagomedov", odds: "1.05" },
   { name: "Anatoly Tokov", odds: "1.15" },
   { name: "Sharaf Davlatmurodov", odds: "5.30" },
