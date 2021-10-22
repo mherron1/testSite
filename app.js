@@ -26,14 +26,21 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 09, 23, 20, 00, 00),
     prelims: new Date(2021, 09, 23, 17, 00, 00),
-    videos: [],
+    videos: ["9516PBus_60"],
   },
   {
     date: "oct23",
     promo: "Bellator MMA",
-    time: new Date(2021, 09, 23, 18, 00, 00),
-    prelims: new Date(2021, 09, 23, 15, 00, 00),
-    videos: [],
+    time: new Date(2021, 09, 23, 19, 00, 00),
+    prelims: new Date(2021, 09, 23, 16, 00, 00),
+    videos: ["vHiF-ZX0RQM"],
+  },
+  {
+    date: "oct27",
+    promo: "Professional Fighters League",
+    time: new Date(2021, 09, 28, 00, 00, 00),
+    prelims: new Date(2021, 09, 27, 20, 30, 00),
+    videos: ["8Lejude1c7s"],
   },
 ];
 

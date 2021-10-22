@@ -670,7 +670,7 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
   let prelimsTime = document.querySelector(`#prelimsTime${arg}`);
 
   if (
-    events[i][1] - nowEpochX < 604800000 &&
+    events[i][1] - nowEpochX < 504800000 &&
     events[i][1] - nowEpochX > -28800000
   ) {
     eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() - utc_offset);
@@ -693,7 +693,7 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
   <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
    `;
   if (
-    events[i][1] - nowEpochX < 604800000 &&
+    events[i][1] - nowEpochX < 504800000 &&
     events[i][1] - nowEpochX > -28800000
   ) {
     prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
