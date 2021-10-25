@@ -7,18 +7,16 @@ let events = [
   "https://www.tapology.com/fightcenter/events/81602-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/82179-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/81603-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/81267-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/82070-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/82805-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/82993-ufc-270",
   "https://www.tapology.com/fightcenter/events/83243-bellator-271-cyborg-vs-kavanagh",
   "https://www.tapology.com/fightcenter/events/81270-bellator-mma",
-  "https://www.tapology.com/fightcenter/events/80135-bellator",
   "https://www.tapology.com/fightcenter/events/80968-pfl-2021-10-championships",
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
-  "https://www.tapology.com/fightcenter/events/80539-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/81555-bellator-266-nemkov-vs-johnson",
+  "https://www.tapology.com/fightcenter/events/81267-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/80135-bellator",
   "https://www.tapology.com/fightcenter/events/79759-pfl-2021-9-playoffs",
   //"https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
 ];
@@ -33,7 +31,7 @@ asyncGetCards();
 function asyncGetCards() {
   getCard(events[index]);
   const delay = (t) => new Promise((resolve) => setTimeout(resolve, t));
-  delay(18000).then(() => {
+  delay(12000).then(() => {
     index++;
     if (index < events.length) {
       asyncGetCards(index);
@@ -235,5 +233,5 @@ function getCard(url) {
     console.log(`"${n}",`);
     console.log(`"${bc}"`);
     console.log("],");
-  }, 15000);
+  }, 10000);
 }
