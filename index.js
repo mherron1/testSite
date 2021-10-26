@@ -949,7 +949,7 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
     }
 
     mainCard.innerHTML += `
-    <div class="left ${snippetA}" style = "position:relative; box-shadow:0px 0px 5px; border-radius:5px; margin-bottom:5px;">
+  <div class="left ${snippetA}" style = "position:relative;">
     <div>
       <a href="${events[i][3][j].fighterALink}" target="_blank">${events[i][3][j].fighterA}</a>
     </div>
@@ -963,8 +963,8 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
    <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
   </div>
    
-  <div class="right ${snippetB}" style = "position:relative; box-shadow:0px 0px 5px; border-radius:5px; margin-bottom:5px;">
-  <div>
+  <div  class="right ${snippetB}">
+    <div>
       <a href="${events[i][3][j].fighterBLink}" target="_blank" >${events[i][3][j].fighterB}</a>
       
     <div class="detailsRight${arg}">
@@ -1096,8 +1096,7 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
 
     prelimsCard.innerHTML += `
     
-
-    <div class="left ${snippetA}" style = "position:relative; box-shadow:0px 0px 5px; border-radius:5px; margin-bottom:5px;">
+    <div class="left ${snippetA}" style = "position:relative;">
     <div>
         <a href="${events[i][3][j].fighterALink}" target="_blank" >${events[i][3][j].fighterA}</a>
       </div>
@@ -1111,7 +1110,7 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
      <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
     </div>
      
-    <div class="right ${snippetB}" style = "position:relative; box-shadow:0px 0px 5px; border-radius:5px; margin-bottom:5px;">
+    <div class="right ${snippetB}" style = "position:relative;">
       <div>
         <a href="${events[i][3][j].fighterBLink}" target="_blank" >${events[i][3][j].fighterB}</a>
         
