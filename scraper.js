@@ -12,12 +12,11 @@ let events = [
   "https://www.tapology.com/fightcenter/events/82993-ufc-270",
   "https://www.tapology.com/fightcenter/events/83243-bellator-271-cyborg-vs-kavanagh",
   "https://www.tapology.com/fightcenter/events/81270-bellator-mma",
-  "https://www.tapology.com/fightcenter/events/80968-pfl-2021-10-championships",
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
   "https://www.tapology.com/fightcenter/events/81267-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/80135-bellator",
-  "https://www.tapology.com/fightcenter/events/79759-pfl-2021-9-playoffs",
+  "https://www.tapology.com/fightcenter/events/80968-pfl-2021-10-championships",
   //"https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
 ];
 //getEventURLs();
@@ -233,5 +232,5 @@ function getCard(url) {
     console.log(`"${n}",`);
     console.log(`"${bc}"`);
     console.log("],");
-  }, 14000);
+  }, 13000);
 }
