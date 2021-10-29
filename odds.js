@@ -1,186 +1,253 @@
 let odds = [
-  { name: "Marvin Vettori", odds: "1.63" },
-  { name: "Paulo Costa", odds: "2.30" },
-  { name: "Grant Dawson", odds: "1.25" },
-  { name: "Rick Glenn", odds: "4.00" },
-  { name: "Jessica-Rose Clark", odds: "1.67" },
-  { name: "Joselyne Edwards", odds: "2.22" },
-  { name: "Alex Caceres", odds: "3.35" },
-  { name: "Seung Woo Choi", odds: "1.33" },
-  { name: "Dwight Grant", odds: "2.10" },
-  { name: "Francisco Trinaldo", odds: "1.75" },
-  { name: "Ike Villanueva", odds: "2.94" },
-  { name: "Nicolae Negumereanu", odds: "1.41" },
-  { name: "Gregory Rodrigues", odds: "1.91" },
-  { name: "Jun Yong Park", odds: "1.91" },
-  { name: "David Onama", odds: "4.70" },
-  { name: "Mason Jones", odds: "1.19" },
-  { name: "Jamie Pickett", odds: "2.98" },
-  { name: "Laureano Staropoli", odds: "1.40" },
-  { name: "Jai Herbert", odds: "1.53" },
-  { name: "Khama Worthy", odds: "2.52" },
-  { name: "Daniel Lacerda", odds: "2.38" },
-  { name: "Jeff Molina", odds: "1.59" },
-  { name: "Livia Renata Souza", odds: "1.77" },
-  { name: "Randa Markos", odds: "2.06" },
-  { name: "Jonathan Martinez", odds: "2.68" },
-  { name: "Zviad Lazishvili", odds: "1.48" },
-  { name: "Last change: 3 min ago", odds: "NaN" },
-  { name: "Fedor Emelianenko", odds: "2.24" },
-  { name: "Timothy Johnson", odds: "1.67" },
-  { name: "Said Sowma", odds: "3.30" },
-  { name: "Vitaly Minakov", odds: "1.33" },
-  { name: "Patrik Pietilä", odds: "13.20" },
-  { name: "Usman Nurmagomedov", odds: "1.05" },
-  { name: "Anatoly Tokov", odds: "1.15" },
-  { name: "Sharaf Davlatmurodov", odds: "5.30" },
-  { name: "Aymard Guih", odds: "4.80" },
-  { name: "Vladimir Tokov", odds: "1.18" },
-  { name: "Kirill Sidelnikov", odds: "1.33" },
-  { name: "Rab Truesdale", odds: "3.30" },
-  { name: "Darina Mazdyuk", odds: "1.53" },
-  { name: "Katarzyna Sadura", odds: "2.54" },
-  { name: "Irina Alekseeva", odds: "1.74" },
-  { name: "Stephanie Page", odds: "2.12" },
-  { name: "Brian Moore", odds: "3.50" },
-  { name: "Nikita Mikhailov", odds: "1.30" },
-  { name: "Alexey Shurkevich", odds: "1.68" },
-  { name: "Grachik Bozinyan", odds: "2.20" },
-  { name: "Aiden Lee", odds: "2.76" },
-  { name: "Aleksandr Osetrov", odds: "1.45" },
-  { name: "Alexander Belikh", odds: "5.10" },
-  { name: "Gadzhi Rabadanov", odds: "1.17" },
-  { name: "Last change: 3 min ago", odds: "2.88" },
-  { name: "KSWOctober 23rd", odds: "4.80" },
-  { name: "PFL WEEK 10October 27th", odds: "1.37" },
-  { name: "Kayla Harrison", odds: "1.03" },
-  { name: "Taylor Guardado", odds: "15.00" },
-  { name: "Magomed Magomedkerimov", odds: "1.44" },
-  { name: "Ray Cooper III", odds: "2.88" },
-  { name: "Abigail Montes", odds: "4.80" },
-  { name: "Claressa Shields", odds: "1.20" },
-  { name: "Last change: 2 hr 4 min ago", odds: "1.29" },
-  { name: "UFC 267: BRACHOWICZ VS. TEIXEIRAOctober 30th", odds: "3.80" },
-  { name: "Cory Sandhagen", odds: "2.94" },
-  { name: "Petr Yan", odds: "1.42" },
-  { name: "Alexander Volkov", odds: "1.37" },
-  { name: "Marcin Tybura", odds: "3.20" },
-  { name: "Daniel Hooker", odds: "5.60" },
-  { name: "Islam Makhachev", odds: "1.16" },
-  { name: "Glover Teixeira", odds: "3.10" },
-  { name: "Jan Blachowicz", odds: "1.39" },
-  { name: "Ricardo Ramos", odds: "2.42" },
-  { name: "Zubaira Tukhugov", odds: "1.60" },
-  { name: "Albert Duraev", odds: "1.40" },
-  { name: "Roman Kopylov", odds: "3.05" },
-  { name: "Michar Oleksiejczuk", odds: "2.42" },
-  { name: "Shamil Gamzatov", odds: "1.60" },
-  { name: "Lerone Murphy", odds: "1.30" },
-  { name: "Makwan Amirkhani", odds: "3.65" },
-  { name: "Khamzat Chimaev", odds: "1.22" },
-  { name: "Li Jingliang", odds: "4.50" },
-  { name: "Damir Ismagulov", odds: "1.43" },
-  { name: "Magomed Mustafaev", odds: "2.94" },
-  { name: "Allan Nascimento", odds: "3.65" },
-  { name: "Tagir Ulanbekov", odds: "1.30" },
-  { name: "Magomed Ankalaev", odds: "1.34" },
-  { name: "Volkan Oezdemir", odds: "3.40" },
-  { name: "Amanda Ribas", odds: "1.74" },
-  { name: "Virna Jandiroba", odds: "2.16" },
-  { name: "Last change: 1 hr 20 min ago", odds: "4.60" },
-  { name: "UFC 268: USMAN VS. COVINGTON 2November 6th", odds: "NaN" },
-  { name: "Colby Covington", odds: "3.45" },
-  { name: "Kamaru Usman", odds: "1.33" },
-  { name: "Rose Namajunas", odds: "1.83" },
-  { name: "Weili Zhang", odds: "2.02" },
-  { name: "Justin Gaethje", odds: "1.57" },
-  { name: "Michael Chandler", odds: "2.46" },
-  { name: "Alex Pereira", odds: "1.42" },
-  { name: "Andreas Michailidis", odds: "2.98" },
-  { name: "Frankie Edgar", odds: "2.30" },
-  { name: "Marlon Vera", odds: "1.65" },
-  { name: "Al Iaquinta", odds: "2.24" },
-  { name: "Bobby Green", odds: "1.68" },
-  { name: "Edmen Shahbazyan", odds: "2.30" },
-  { name: "Nassourdine Imavov", odds: "1.65" },
-  { name: "Billy Quarantillo", odds: "2.64" },
-  { name: "Shane Burgos", odds: "1.51" },
-  { name: "Ian Garry", odds: "1.31" },
-  { name: "Jordan Williams", odds: "3.60" },
-  { name: "Chris Barnett", odds: "1.74" },
-  { name: "Gian Villante", odds: "2.16" },
-  { name: "Carlos Vergara", odds: "2.34" },
-  { name: "Ode' Osbourne", odds: "1.63" },
-  { name: "Chris Curtis", odds: "3.80" },
-  { name: "Phillip Hawes", odds: "1.29" },
-  { name: "Aleksa Camur", odds: "1.70" },
-  { name: "John Allan", odds: "2.20" },
-  { name: "Melsik Baghdasaryan", odds: "1.41" },
-  { name: "Tj Laramie", odds: "3.00" },
-  { name: "Germaine de Randamie", odds: "1.58" },
-  { name: "Irene Aldana", odds: "2.44" },
-  { name: "Max Holloway", odds: "1.27" },
-  { name: "Yair Rodriguez", odds: "4.00" },
-  { name: "Kevin Holland", odds: "1.93" },
-  { name: "Kyle Daukaus", odds: "1.93" },
-  { name: "Da Un Jung", odds: "1.56" },
-  { name: "Kennedy Nzechukwu.", odds: "2.46" },
-  { name: "Charles Oliveira", odds: "2.34" },
-  { name: "Dustin Poirier", odds: "1.63" },
-  { name: "Amanda Nunes", odds: "1.14" },
-  { name: "Julianna Pena", odds: "6.20" },
-  { name: "Jorge Masvidal", odds: "2.66" },
-  { name: "Leon Edwards", odds: "1.51" },
-  {
-    name: "UFC FIGHT NIGHT: LEWIS VS. DAUKAUSDecember 18th",
-    odds: "3.10",
-  },
-  { name: "Chris Daukaus", odds: "1.74" },
-  { name: "Derrick Lewis", odds: "2.16" },
-  { name: "Last change: 15 hr 38 min ago", odds: "1.29" },
-  { name: "UFCDecember 31st", odds: "3.80" },
-  { name: "Israel Adesanya", odds: "1.44" },
-  { name: "Robert Whittaker", odds: "2.88" },
-  { name: "Last change: 29 days ago", odds: "3.45" },
-  { name: "UFC 270January 22nd", odds: "1.33" },
-  { name: "Ciryl Gane", odds: "2.00" },
-  { name: "Francis Ngannou", odds: "1.85" },
-  { name: "Brandon Moreno", odds: "1.62" },
-  { name: "Deiveson Figueiredo", odds: "2.34" },
-  { name: "Sean Strickland", odds: "1.60" },
-  { name: "Ian Garry", odds: "1.31" },
-  { name: "Jordan Williams", odds: "3.60" },
-  { name: "Frankie Edgar", odds: "2.30" },
-  { name: "Marlon Vera", odds: "1.65" },
-  { name: "Edmen Shahbazyan", odds: "2.30" },
-  { name: "Nassourdine Imavov", odds: "1.65" },
-  { name: "Germaine de Randamie", odds: "1.58" },
-  { name: "Irene Aldana", odds: "2.44" },
-  { name: "Last change: 3 hr 2 min ago", odds: "1.33" },
-  {
-    name: "UFC FIGHT NIGHT: HOLLOWAY VS. RODRIGUEZNovember 13th",
-    odds: "1.79",
-  },
-  { name: "Max Holloway", odds: "1.27" },
-  { name: "Yair Rodriguez", odds: "4.00" },
-  { name: "Last change: 1 day 8 hr ago", odds: "2.40" },
-  { name: "UFC 269December 11th", odds: "1.60" },
-  { name: "Amanda Nunes", odds: "1.14" },
-  { name: "Julianna Pena", odds: "6.20" },
-  { name: "Brandon Moreno", odds: "1.62" },
-  { name: "Deiveson Figueiredo", odds: "2.34" },
-  { name: "Last change: 1 day 11 hr ago", odds: "1.65" },
-  { name: "UFCDecember 31st", odds: "1.58" },
-  { name: "Ciryl Gane", odds: "2.00" },
-  { name: "Francis Ngannou", odds: "1.85" },
-  { name: "Israel Adesanya", odds: "1.44" },
-  { name: "Robert Whittaker", odds: "2.88" },
-  { name: "Amanda Nunes", odds: "1.14" },
-  { name: "Julianna Pena", odds: "6.20" },
-  { name: "Brandon Moreno", odds: "1.62" },
-  { name: "Deiveson Figueiredo", odds: "2.34" },
-  { name: "Ciryl Gane", odds: "2.00" },
-  { name: "Francis Ngannou", odds: "1.85" },
-  { name: "Israel Adesanya", odds: "1.44" },
-  { name: "Robert Whittaker", odds: "2.88" },
-];
+{ name: 'Glover Teixeira', odds: '3.70' }
+,
+{ name: 'Jan Blachowicz', odds: '1.30' }
+,
+{ name: 'Cory Sandhagen', odds: '2.98' }
+,
+{ name: 'Petr Yan', odds: '1.42' }
+,
+{ name: 'Daniel Hooker', odds: '5.60' }
+,
+{ name: 'Islam Makhachev', odds: '1.16' }
+,
+{ name: 'Alexander Volkov', odds: '1.34' }
+,
+{ name: 'Marcin Tybura', odds: '3.35' }
+,
+{ name: 'Khamzat Chimaev', odds: '1.18' }
+,
+{ name: 'Li Jingliang', odds: '5.10' }
+,
+{ name: 'Magomed Ankalaev', odds: '1.30' }
+,
+{ name: 'Volkan Oezdemir', odds: '3.65' }
+,
+{ name: 'Amanda Ribas', odds: '1.65' }
+,
+{ name: 'Virna Jandiroba', odds: '2.30' }
+,
+{ name: 'Ricardo Ramos', odds: '2.42' }
+,
+{ name: 'Zubaira Tukhugov', odds: '1.60' }
+,
+{ name: 'Albert Duraev', odds: '1.29' }
+,
+{ name: 'Roman Kopylov', odds: '3.80' }
+,
+{ name: 'Benoit St.Denis', odds: '2.94' }
+,
+{ name: 'Elizeu Zaleski Dos Santos', odds: '1.43' }
+,
+{ name: 'Michar Oleksiejczuk', odds: '2.00' }
+,
+{ name: 'Shamil Gamzatov', odds: '1.85' }
+,
+{ name: 'Lerone Murphy', odds: '1.30' }
+,
+{ name: 'Makwan Amirkhani', odds: '3.65' }
+,
+{ name: 'Andre Petroski.', odds: '1.43' }
+,
+{ name: 'Hu Yaozong', odds: '2.94' }
+,
+{ name: 'Allan Nascimento', odds: '4.10' }
+,
+{ name: 'Tagir Ulanbekov', odds: '1.26' }
+,
+{ name: 'Last change: < 1 min ago', odds: '1.67' }
+,
+{ name: 'CFFC 102October 30th', odds: '3.30' }
+,
+{ name: 'Last change: 1 hr 7 min ago', odds: '1.74' }
+,
+{ name: 'DANA WHITE’S CONTENDER SERIESNovember 2nd', odds: '2.12' }
+,
+{ name: 'Gadzhi Omargadzhiev', odds: '1.18' }
+,
+{ name: 'Jansey Silva', odds: '5.10' }
+,
+{ name: 'Christian Quinonez', odds: '1.20' }
+,
+{ name: 'Long Xiao', odds: '4.80' }
+,
+{ name: 'Karine Silva', odds: '1.38' }
+,
+{ name: 'Qihui Yan', odds: '3.15' }
+,
+{ name: 'Kolton Englund', odds: '1.68' }
+,
+{ name: 'Manuel Torres', odds: '2.24' }
+,
+{ name: 'Bin Xie', odds: '1.37' }
+,
+{ name: 'Olivier Murad', odds: '3.20' }
+,
+{ name: 'Patricky Freire', odds: '1.49' }
+,
+{ name: 'Peter Queally', odds: '2.66' }
+,
+{ name: 'James Gallagher', odds: '3.30' }
+,
+{ name: 'Patchy Mix', odds: '1.33' }
+,
+{ name: 'Last change: 2 hr 45 min ago', odds: '1.29' }
+,
+{ name: 'ACA 131November 5th', odds: '3.80' }
+,
+{ name: 'Last change: 5 hr 35 min ago', odds: '1.34' }
+,
+{ name: 'LFA 117November 5th', odds: '3.40' }
+,
+{ name: 'Last change: 5 hr 29 min ago', odds: '2.30' }
+,
+{ name: 'UFC 268: USMAN VS. COVINGTON 2November 6th', odds: '1.65' }
+,
+{ name: 'Colby Covington', odds: '3.45' }
+,
+{ name: 'Kamaru Usman', odds: '1.33' }
+,
+{ name: 'Rose Namajunas', odds: '1.83' }
+,
+{ name: 'Zhang Weili', odds: '2.02' }
+,
+{ name: 'Justin Gaethje', odds: '1.53' }
+,
+{ name: 'Michael Chandler', odds: '2.60' }
+,
+{ name: 'Frankie Edgar', odds: '2.30' }
+,
+{ name: 'Marlon Vera', odds: '1.65' }
+,
+{ name: 'Billy Quarantillo', odds: '2.64' }
+,
+{ name: 'Shane Burgos', odds: '1.51' }
+,
+{ name: 'Alex Pereira', odds: '1.42' }
+,
+{ name: 'Andreas Michailidis', odds: '2.98' }
+,
+{ name: 'Al Iaquinta', odds: '2.24' }
+,
+{ name: 'Bobby Green', odds: '1.68' }
+,
+{ name: 'Edmen Shahbazyan', odds: '2.30' }
+,
+{ name: 'Nassourdine Imavov', odds: '1.65' }
+,
+{ name: 'Ian Garry', odds: '1.31' }
+,
+{ name: 'Jordan Williams', odds: '3.60' }
+,
+{ name: 'Chris Curtis', odds: '3.80' }
+,
+{ name: 'Phillip Hawes', odds: '1.29' }
+,
+{ name: 'Chris Barnett', odds: '1.74' }
+,
+{ name: 'Gian Villante', odds: '2.16' }
+,
+{ name: 'Aleksa Camur', odds: '1.70' }
+,
+{ name: 'John Allan', odds: '2.20' }
+,
+{ name: 'Carlos Vergara', odds: '2.34' }
+,
+{ name: "Ode' Osbourne", odds: '1.63' }
+,
+{ name: 'Last change: 7 min ago', odds: '1.63' }
+,
+{ name: 'EFC 90November 6th', odds: '1.14' }
+,
+{ name: 'Last change: 13 hr 15 min ago', odds: '3.45' }
+,
+{ name: 'CES 65November 7th', odds: '1.33' }
+,
+{ name: 'Last change: 12 hr 45 min ago', odds: '6.20' }
+,
+{
+  name: 'UFC FIGHT NIGHT: HOLLOWAY VS. RODRIGUEZNovember 13th',
+  odds: '1.62'
+}
+,
+{ name: 'Max Holloway', odds: '1.20' }
+,
+{ name: 'Yair Rodriguez', odds: '4.85' }
+,
+{ name: 'Ovince St. Preux', odds: '2.16' }
+,
+{ name: 'Philipe Lins', odds: '1.74' }
+,
+{ name: 'Ben Rothwell', odds: '1.62' }
+,
+{ name: 'Marcos Rogerio', odds: '2.36' }
+,
+{ name: 'Felicia Spencer', odds: '1.34' }
+,
+{ name: 'Leah Letson', odds: '3.35' }
+,
+{ name: 'Collin Anglin', odds: '3.20' }
+,
+{ name: 'Sean Woodson', odds: '1.37' }
+,
+{ name: 'Da Un Jung', odds: '1.75' }
+,
+{ name: 'Kennedy Nzechukwu.', odds: '2.14' }
+,
+{ name: 'Eryk Anders', odds: '1.62' }
+,
+{ name: 'Roman Dolidze', odds: '2.36' }
+,
+{ name: 'Cortney Casey', odds: '1.51' }
+,
+{ name: 'Liana Jojua', odds: '2.64' }
+,
+{ name: 'Julio Arce', odds: '2.28' }
+,
+{ name: 'Song Yadong', odds: '1.66' }
+,
+{ name: 'Joel Alvarez', odds: '2.76' }
+,
+{ name: 'Thiago Moises', odds: '1.48' }
+,
+{ name: 'Khaos Williams', odds: '2.20' }
+,
+{ name: 'Miguel Baeza', odds: '1.70' }
+,
+{ name: 'Andrea Lee', odds: '1.86' }
+,
+{ name: 'Cynthia Calvillo', odds: '1.98' }
+,
+{ name: 'Lando Vannata', odds: '1.57' }
+,
+{ name: 'Tucket Lutz', odds: '2.46' }
+,
+{ name: 'Amanda Nunes', odds: '1.14' }
+,
+{ name: 'Julianna Pena', odds: '6.20' }
+,
+{ name: 'Jorge Masvidal', odds: '2.66' }
+,
+{ name: 'Leon Edwards', odds: '1.51' }
+,
+{ name: 'Charles Oliveira', odds: '2.34' }
+,
+{ name: 'Dustin Poirier', odds: '1.63' }
+,
+{ name: 'Chris Daukaus', odds: '1.74' }
+,
+{ name: 'Derrick Lewis', odds: '2.16' }
+,
+{ name: 'Israel Adesanya', odds: '1.44' }
+,
+{ name: 'Robert Whittaker', odds: '2.88' }
+,
+{ name: 'Ciryl Gane', odds: '2.00' }
+,
+{ name: 'Francis Ngannou', odds: '1.85' }
+,
+{ name: 'Brandon Moreno', odds: '1.62' }
+,
+{ name: 'Deiveson Figueiredo', odds: '2.34' }
+,
+]
