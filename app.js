@@ -41,7 +41,7 @@ let times = [
     promo: "Bellator MMA",
     time: new Date(2021, 10, 05, 20, 30, 00),
     prelims: new Date(2021, 10, 05, 17, 30, 00),
-    videos: ["vHiF-ZX0RQM"],
+    videos: [],
   },
   {
     date: "oct27",
