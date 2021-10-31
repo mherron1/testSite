@@ -1363,7 +1363,6 @@ h4:hover {
   font-size: 0.9rem;
   margin-left: 50%;
   transform: translateX(-50%);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.329);
   border-radius: 0px;
   padding: 3px;
   top: -80px;
