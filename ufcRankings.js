@@ -576,204 +576,200 @@ let ufcRankings = [
     rank: 15,
   },
   {
-    name: "Mackenzie Dern",
-    rank: 0,
-  },
-  {
     name: "ROSE NAMAJUNAS",
-    rank: 1,
+    rank: 0,
   },
   {
     name: "Zhang Weili",
-    rank: 2,
+    rank: 1,
   },
   {
     name: "Carla Esparza",
-    rank: 3,
+    rank: 2,
   },
   {
     name: "Marina Rodriguez",
-    rank: 4,
+    rank: 3,
   },
   {
     name: "Yan Xiaonan",
-    rank: 5,
+    rank: 4,
   },
   {
     name: "Mackenzie Dern",
-    rank: 6,
+    rank: 5,
   },
   {
     name: "Nina Nunes",
-    rank: 7,
+    rank: 6,
   },
   {
     name: "Claudia Gadelha",
-    rank: 8,
+    rank: 7,
   },
   {
     name: "Tecia Torres",
-    rank: 9,
+    rank: 8,
   },
   {
     name: "Michelle Waterson",
-    rank: 10,
+    rank: 9,
   },
   {
     name: "Amanda Ribas",
-    rank: 11,
+    rank: 10,
   },
   {
     name: "Amanda Lemos",
-    rank: 12,
+    rank: 11,
   },
   {
     name: "Virna Jandiroba",
-    rank: 13,
+    rank: 12,
   },
   {
     name: "Angela Hill",
-    rank: 14,
+    rank: 13,
   },
   {
     name: "Felice Herrig",
-    rank: 15,
+    rank: 14,
   },
   {
     name: "Brianna Van Buren",
-    rank: 0,
+    rank: 15,
   },
   {
     name: "VALENTINA SHEVCHENKO",
-    rank: 1,
+    rank: 0,
   },
   {
     name: "Jessica Andrade",
-    rank: 2,
+    rank: 1,
   },
   {
     name: "Katlyn Chookagian",
-    rank: 3,
-  },
-  {
-    name: "Lauren Murphy",
-    rank: 4,
-  },
-  {
-    name: "Jennifer Maia",
-    rank: 5,
-  },
-  {
-    name: "Cynthia Calvillo",
-    rank: 6,
-  },
-  {
-    name: "Joanne Calderwood",
-    rank: 7,
-  },
-  {
-    name: "Viviane Araujo",
-    rank: 8,
-  },
-  {
-    name: "Jessica Eye",
-    rank: 9,
-  },
-  {
-    name: "Taila Santos",
-    rank: 10,
-  },
-  {
-    name: "Alexa Grasso",
-    rank: 11,
-  },
-  {
-    name: "Roxanne Modafferi",
-    rank: 12,
-  },
-  {
-    name: "Andrea Lee",
-    rank: 13,
-  },
-  {
-    name: "Maycee Barber",
-    rank: 14,
-  },
-  {
-    name: "Manon Fiorot",
-    rank: 15,
-  },
-  {
-    name: "Casey O'Neill",
-    rank: 0,
-  },
-  {
-    name: "AMANDA NUNES",
-    rank: 1,
-  },
-  {
-    name: "Germaine De Randamie",
     rank: 2,
   },
   {
-    name: "Holly Holm",
+    name: "Lauren Murphy",
     rank: 3,
   },
   {
-    name: "Irene Aldana",
+    name: "Jennifer Maia",
     rank: 4,
   },
   {
-    name: "Julianna Peña",
+    name: "Cynthia Calvillo",
     rank: 5,
   },
   {
-    name: "Aspen Ladd",
+    name: "Joanne Calderwood",
     rank: 6,
   },
   {
-    name: "Yana Kunitskaya",
+    name: "Viviane Araujo",
     rank: 7,
   },
   {
-    name: "Ketlen Vieira",
+    name: "Jessica Eye",
     rank: 8,
   },
   {
-    name: "Miesha Tate",
+    name: "Taila Santos",
     rank: 9,
   },
   {
-    name: "Raquel Pennington",
+    name: "Alexa Grasso",
     rank: 10,
   },
   {
-    name: "Sara McMann",
+    name: "Roxanne Modafferi",
     rank: 11,
   },
   {
-    name: "Macy Chiasson",
+    name: "Andrea Lee",
     rank: 12,
   },
   {
-    name: "Lina Lansberg",
+    name: "Maycee Barber",
     rank: 13,
   },
   {
-    name: "Pannie Kianzad",
+    name: "Manon Fiorot",
     rank: 14,
   },
   {
-    name: "Karol Rosa",
+    name: "Casey O'Neill",
     rank: 15,
   },
   {
-    name: "Julia Avila",
+    name: "AMANDA NUNES",
     rank: 0,
   },
   {
-    name: "AMANDA NUNES",
+    name: "Germaine De Randamie",
     rank: 1,
+  },
+  {
+    name: "Holly Holm",
+    rank: 2,
+  },
+  {
+    name: "Irene Aldana",
+    rank: 3,
+  },
+  {
+    name: "Julianna Peña",
+    rank: 4,
+  },
+  {
+    name: "Aspen Ladd",
+    rank: 5,
+  },
+  {
+    name: "Yana Kunitskaya",
+    rank: 6,
+  },
+  {
+    name: "Ketlen Vieira",
+    rank: 7,
+  },
+  {
+    name: "Miesha Tate",
+    rank: 8,
+  },
+  {
+    name: "Raquel Pennington",
+    rank: 9,
+  },
+  {
+    name: "Sara McMann",
+    rank: 10,
+  },
+  {
+    name: "Macy Chiasson",
+    rank: 11,
+  },
+  {
+    name: "Lina Lansberg",
+    rank: 12,
+  },
+  {
+    name: "Pannie Kianzad",
+    rank: 13,
+  },
+  {
+    name: "Karol Rosa",
+    rank: 14,
+  },
+  {
+    name: "Julia Avila",
+    rank: 15,
+  },
+  {
+    name: "AMANDA NUNES",
+    rank: 0,
   },
 ];
 
