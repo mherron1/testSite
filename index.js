@@ -1435,6 +1435,21 @@ function setPrelimsCountdown(time) {
       (document.getElementById("minutes").innerText = Math.floor(
         (distance2 % hour) / minute
       ));
+    if (Math.floor(distance2 / day) === 0) {
+      document.getElementById("days").innerText = "0";
+    }
+    if (Math.floor(distance2 / hour) === 0) {
+      document.getElementById("hours").innerText = "0";
+    }
+    if (Math.floor(distance2 / minute) === 0) {
+      document.getElementById("minutes").innerText = "0";
+    }
+    if (
+      Math.floor(distance2 / hour) === 0 &&
+      Math.floor(distance2 / hour) != 0
+    ) {
+      document.getElementById("minutes").style.color = "red";
+    }
   }, second);
 }
 
