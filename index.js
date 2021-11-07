@@ -1461,7 +1461,7 @@ function setPrelimsCountdown(time) {
       document.getElementById("minutes").style.color = "red";
     }
     if (distance < 0) {
-      document.getElementById("minutes").style.color = "black";
+      document.getElementById("minutes2").style.color = "black";
     }
   }, second);
 }
