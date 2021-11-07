@@ -1404,6 +1404,16 @@ function setMainCountdown(time) {
       (document.getElementById("minutes2").innerText = Math.floor(
         (distance % hour) / minute
       ));
+
+    if (
+      Math.floor(distance / hour) === 0 &&
+      Math.floor(distance / minute) > 0
+    ) {
+      document.getElementById("minutes2").style.color = "red";
+    }
+    if (distance < 0) {
+      document.getElementById("minutes2").style.color = "black";
+    }
   }, second);
 }
 
@@ -1446,9 +1456,12 @@ function setPrelimsCountdown(time) {
     }
     if (
       Math.floor(distance2 / hour) === 0 &&
-      Math.floor(distance2 / hour) != 0
+      Math.floor(distance2 / minute) > 0
     ) {
       document.getElementById("minutes").style.color = "red";
+    }
+    if (distance < 0) {
+      document.getElementById("minutes").style.color = "black";
     }
   }, second);
 }
