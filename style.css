@@ -1720,26 +1720,27 @@ h4:hover {
 .leftFighterContainer {
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   margin-left: 5px;
-  border-radius: 5px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
 }
 
 .rightFighterContainer {
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   margin-right: 5px;
-  border-radius: 5px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 .middleFighterContainer {
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   margin-left: 3px;
   margin-right: 3px;
-  border-radius: 5px;
 }
 
 #imageContainer,
