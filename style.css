@@ -168,7 +168,7 @@ body {
   padding: 6px;
   text-align: right;
   padding-right: 6px;
-  background-color: rgb(241, 241, 241);
+  background-color: white;
 }
 
 .left:nth-child(odd),
@@ -182,7 +182,7 @@ body {
 .middleMinus1 {
   padding: 6px;
   text-align: center;
-  background-color: rgb(241, 241, 241);
+  background-color: white;
 }
 
 .middle:nth-child(even),
@@ -196,7 +196,7 @@ body {
   padding: 6px;
   text-align: left;
   padding-left: 6px;
-  background-color: rgb(241, 241, 241);
+  background-color: white;
 }
 
 .right:nth-child(odd),
@@ -1717,6 +1717,8 @@ h4:hover {
   background-color: black;
 }
 
+/*
+
 .leftFighterContainer {
   position: relative;
   margin-bottom: 7px;
@@ -1724,6 +1726,7 @@ h4:hover {
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
+  box-sizing: border-box;
 }
 
 .rightFighterContainer {
@@ -1733,6 +1736,7 @@ h4:hover {
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
+  box-sizing: border-box;
 }
 
 .middleFighterContainer {
@@ -1741,6 +1745,7 @@ h4:hover {
   margin-left: 3px;
   margin-right: 3px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
+  box-sizing: border-box;
 }
 
 #imageContainer,
@@ -1749,4 +1754,7 @@ h4:hover {
   border-radius: 10px;
   margin: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
+  box-sizing: border-box;
 }
+
+*/
