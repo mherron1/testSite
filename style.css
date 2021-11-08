@@ -168,7 +168,7 @@ body {
   padding: 6px;
   text-align: right;
   padding-right: 6px;
-  background-color: white;
+  background-color: rgb(241, 241, 241);
 }
 
 .left:nth-child(odd),
@@ -182,7 +182,7 @@ body {
 .middleMinus1 {
   padding: 6px;
   text-align: center;
-  background-color: white;
+  background-color: rgb(241, 241, 241);
 }
 
 .middle:nth-child(even),
@@ -196,7 +196,7 @@ body {
   padding: 6px;
   text-align: left;
   padding-left: 6px;
-  background-color: white;
+  background-color: rgb(241, 241, 241);
 }
 
 .right:nth-child(odd),
@@ -1715,4 +1715,33 @@ h4:hover {
 }
 #rightArrow {
   background-color: black;
+}
+
+.leftFighterContainer {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.rightFighterContainer {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.middleFighterContainer {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+#imageContainer,
+#imageContainerPlus1,
+#imageContainerMinus1 {
+  border-radius: 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
