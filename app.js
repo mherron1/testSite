@@ -30,7 +30,7 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2021, 10, 07, 02, 00, 00),
     prelims: new Date(2021, 10, 06, 22, 00, 00),
-    videos: ["qEQHLxXWAqo"],
+    videos: [],
   },
   {
     date: "nov13",
@@ -51,7 +51,7 @@ let times = [
     promo: "Professional Fighters League",
     time: new Date(2021, 09, 28, 00, 00, 00),
     prelims: new Date(2021, 09, 27, 20, 30, 00),
-    videos: ["8Lejude1c7s"],
+    videos: [],
   },
 ];
 
