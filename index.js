@@ -908,6 +908,19 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
     if (new Date(events[i][1]) - nowEpochX < 0) {
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
+    } else {
+      if (events[i][3][j].fighterA.length > 16) {
+        let string = events[i][3][j].fighterA;
+        let stringArr = string.split(" ");
+        stringArr[0] = stringArr[0][0];
+        events[i][3][j].fighterA = stringArr.join(" ");
+      }
+      if (events[i][3][j].fighterB.length > 16) {
+        let string = events[i][3][j].fighterB;
+        let stringArr = string.split(" ");
+        stringArr[0] = stringArr[0][0];
+        events[i][3][j].fighterB = stringArr.join(" ");
+      }
     }
 
     if (showResults) {
@@ -941,19 +954,6 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
     if (!events[i][3][j].recordA.includes("-")) {
       events[i][3][j].recordA = "";
       events[i][3][j].recordB = "";
-    }
-
-    if (events[i][3][j].fighterA.length > 16) {
-      let string = events[i][3][j].fighterA;
-      let stringArr = string.split(" ");
-      stringArr[0] = stringArr[0][0];
-      events[i][3][j].fighterA = stringArr.join(" ");
-    }
-    if (events[i][3][j].fighterB.length > 16) {
-      let string = events[i][3][j].fighterB;
-      let stringArr = string.split(" ");
-      stringArr[0] = stringArr[0][0];
-      events[i][3][j].fighterB = stringArr.join(" ");
     }
 
     mainCard.innerHTML += `
@@ -1079,11 +1079,25 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
     if (new Date(events[i][1]) - nowEpochX < 0) {
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
+    } else {
+      if (events[i][3][j].fighterA.length > 16) {
+        let string = events[i][3][j].fighterA;
+        let stringArr = string.split(" ");
+        stringArr[0] = stringArr[0][0];
+        events[i][3][j].fighterA = stringArr.join(" ");
+      }
+      if (events[i][3][j].fighterB.length > 16) {
+        let string = events[i][3][j].fighterB;
+        let stringArr = string.split(" ");
+        stringArr[0] = stringArr[0][0];
+        events[i][3][j].fighterB = stringArr.join(" ");
+      }
     }
 
     if (showResults) {
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
+
       if (events[i][3][j].fighterA === events[i][3][j].winner) {
         snippetA = "winnerGreen";
         snippetB = "loserRed";
@@ -1103,19 +1117,6 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
         snippetB = "draw";
         snippetA = "draw";
       }
-    }
-
-    if (events[i][3][j].fighterA.length > 16) {
-      let string = events[i][3][j].fighterA;
-      let stringArr = string.split(" ");
-      stringArr[0] = stringArr[0][0];
-      events[i][3][j].fighterA = stringArr.join(" ");
-    }
-    if (events[i][3][j].fighterB.length > 16) {
-      let string = events[i][3][j].fighterB;
-      let stringArr = string.split(" ");
-      stringArr[0] = stringArr[0][0];
-      events[i][3][j].fighterB = stringArr.join(" ");
     }
 
     prelimsCard.innerHTML += `
