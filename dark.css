@@ -119,7 +119,6 @@ body {
   text-align: center;
   position: relative;
   padding-top: 4px;
-  padding-bottom: 6px;
   font-weight: bold;
   font-size: 1.1rem;
   color: #d2af4b;
@@ -225,8 +224,6 @@ body {
   padding-right: 4px;
   text-align: center;
   background-color: #242424;
-  border-right: 4px solid black;
-  border-left: 4px solid black;
 }
 
 .middle:nth-child(even),
@@ -1758,8 +1755,8 @@ h4:hover {
   margin-left: 5px;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  box-shadow: rgba(100, 100, 100, 0.05) 0px 1px 0px,
+    rgba(100, 100, 100, 0.05) 0px 0px 8px;
   box-sizing: border-box;
 }
 
@@ -1769,17 +1766,17 @@ h4:hover {
   margin-right: 5px;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  box-shadow: rgba(100, 100, 100, 0.05) 0px 1px 0px,
+    rgba(100, 100, 100, 0.05) 0px 0px 8px;
   box-sizing: border-box;
 }
 
 .middleFighterContainer {
   position: relative;
   margin-bottom: 7px;
-  margin-left: 3px;
-  margin-right: 3px;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: rgba(100, 100, 100, 0.05) 0px 1px 0px,
+    rgba(100, 100, 100, 0.05) 0px 0px 8px;
   box-sizing: border-box;
 }
