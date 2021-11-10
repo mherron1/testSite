@@ -168,15 +168,13 @@ body {
   padding: 6px;
   text-align: right;
   padding-right: 6px;
-  background-color: #d9d9d9;
-  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
+  background-color: #f1f1f1;
 }
 
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #d9d9d9;
-  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
+  background-color: #f1f1f1;
 }
 
 .middle,
@@ -184,15 +182,13 @@ body {
 .middleMinus1 {
   padding: 6px;
   text-align: center;
-  background-color: #d9d9d9;
-  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
+  background-color: #f1f1f1;
 }
 
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: #d9d9d9;
-  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
+  background-color: #f1f1f1;
 }
 .right,
 .rightPlus1,
@@ -200,15 +196,13 @@ body {
   padding: 6px;
   text-align: left;
   padding-left: 6px;
-  background-color: #d9d9d9;
-  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
+  background-color: #f1f1f1;
 }
 
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #d9d9d9;
-  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
+  background-color: #f1f1f1;
 }
 
 .detailsLeft,
@@ -1729,8 +1723,7 @@ h4:hover {
   margin-left: 5px;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 0px 6px;
   box-sizing: border-box;
 }
 
@@ -1740,8 +1733,7 @@ h4:hover {
   margin-right: 5px;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 0px 6px;
   box-sizing: border-box;
 }
 
@@ -1750,8 +1742,7 @@ h4:hover {
   margin-bottom: 7px;
   margin-left: 3px;
   margin-right: 3px;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 0px 6px;
   box-sizing: border-box;
 }
 /*
