@@ -168,13 +168,15 @@ body {
   padding: 6px;
   text-align: right;
   padding-right: 6px;
-  background-color: #f8f8f8;
+  background-color: #d9d9d9;
+  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
 }
 
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #f8f8f8;
+  background-color: #d9d9d9;
+  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
 }
 
 .middle,
@@ -182,13 +184,15 @@ body {
 .middleMinus1 {
   padding: 6px;
   text-align: center;
-  background-color: #f8f8f8;
+  background-color: #d9d9d9;
+  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
 }
 
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: #f8f8f8;
+  background-color: #d9d9d9;
+  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
 }
 .right,
 .rightPlus1,
@@ -196,13 +200,15 @@ body {
   padding: 6px;
   text-align: left;
   padding-left: 6px;
-  background-color: #f8f8f8;
+  background-color: #d9d9d9;
+  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
 }
 
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #f8f8f8;
+  background-color: #d9d9d9;
+  background-image: linear-gradient(0deg, #d9d9d9 0%, #f1f1f1 74%);
 }
 
 .detailsLeft,
@@ -1726,8 +1732,6 @@ h4:hover {
   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
     rgba(17, 17, 26, 0.1) 0px 0px 8px;
   box-sizing: border-box;
-  background-color: #d9d9d9;
-  background-image: linear-gradient(0deg, #d9d9d9 0%, #d5d5d5 74%);
 }
 
 .rightFighterContainer {
@@ -1739,8 +1743,6 @@ h4:hover {
   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
     rgba(17, 17, 26, 0.1) 0px 0px 8px;
   box-sizing: border-box;
-  background-color: #d9d9d9;
-  background-image: linear-gradient(0deg, #d9d9d9 0%, #d5d5d5 74%);
 }
 
 .middleFighterContainer {
@@ -1751,8 +1753,6 @@ h4:hover {
   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
     rgba(17, 17, 26, 0.1) 0px 0px 8px;
   box-sizing: border-box;
-  background-color: #d9d9d9;
-  background-image: linear-gradient(0deg, #d9d9d9 0%, #d5d5d5 74%);
 }
 /*
 
