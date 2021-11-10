@@ -118,12 +118,13 @@ body {
 #mainTimeMinus1 {
   text-align: center;
   position: relative;
-  padding-top: 10px;
+  padding-top: 4px;
   padding-bottom: 6px;
   font-weight: bold;
   font-size: 1.1rem;
   color: #d2af4b;
-  border-bottom: 4px solid black;
+  border-bottom: 0px solid black;
+  padding-bottom: 10px;
 
   background-color: #141414;
 }
@@ -145,7 +146,7 @@ body {
 #expandMinus1:hover {
   cursor: pointer;
   display: none;
-  bottom: 1px;
+  bottom: 5px;
 }
 #expandMore,
 #expandPlus1,
@@ -154,7 +155,6 @@ body {
   font-size: 30px;
   font-weight: lighter;
   right: 6px;
-  bottom: -4px;
   color: silver;
   bottom: 1px;
 }
@@ -163,7 +163,7 @@ body {
 #expandPlus1,
 #expandMinus1:hover {
   cursor: pointer;
-  bottom: 1px;
+  bottom: 5px;
 }
 
 #mainCard,
@@ -184,8 +184,10 @@ body {
   font-weight: bold;
   font-size: 1.15rem;
   color: #d2af4b;
-  border-bottom: 4px solid black;
-  border-top: 4px solid black;
+  border-bottom: 0px solid black;
+  border-top: 0px solid black;
+  padding: 4px;
+  padding-bottom: 10px;
   background-color: #141414;
 }
 
@@ -211,7 +213,7 @@ body {
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #181818;
+  background-color: #242424;
 }
 
 .middle,
@@ -230,7 +232,7 @@ body {
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: #181818;
+  background-color: #242424;
 }
 .right,
 .rightPlus1,
@@ -245,7 +247,7 @@ body {
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #181818;
+  background-color: #242424;
 }
 .detailsLeft,
 .detailsLeftPlus1,
@@ -1748,4 +1750,36 @@ h4:hover {
 }
 #rightArrow {
   background-color: black;
+}
+
+.leftFighterContainer {
+  position: relative;
+  margin-bottom: 7px;
+  margin-left: 5px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  box-sizing: border-box;
+}
+
+.rightFighterContainer {
+  position: relative;
+  margin-bottom: 7px;
+  margin-right: 5px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  box-sizing: border-box;
+}
+
+.middleFighterContainer {
+  position: relative;
+  margin-bottom: 7px;
+  margin-left: 3px;
+  margin-right: 3px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  box-sizing: border-box;
 }
