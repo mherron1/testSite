@@ -700,16 +700,16 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
       minute: "2-digit",
       timeZoneName: "short",
     });
+
+    if (parseInt(events[i][5]) > 0) {
+      prelimsTime.style.visibility = "visible";
+      prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
+    } else {
+      prelimsTime.textContent = `Prelims`;
+    }
   } else {
     prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
-    prelimsCardTime = "";
-  }
-
-  if (parseInt(events[i][5]) > 0) {
-    prelimsTime.style.visibility = "visible";
-    prelimsTime.textContent = `Prelims: ${prelimsCardTime}`;
-  } else {
-    prelimsTime.style.visibility = "hidden";
+    prelimsTime.textContent = `Prelims`;
   }
 
   ///////////////////////////////countdown
