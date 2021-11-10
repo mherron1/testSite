@@ -283,7 +283,7 @@ body {
   width: 0%;
   max-width: 325px;
   min-height: 100vh;
-  background-color: #242424;
+  background-color: rgba(0, 0, 0, 0.96);
   transition-duration: 0.3s;
   z-index: 100;
   white-space: nowrap;
