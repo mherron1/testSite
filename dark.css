@@ -1297,12 +1297,12 @@ h4:hover {
 
 .winnerGreen {
   background-color: rgb(5, 65, 32) !important;
-  border-bottom: 3px solid black;
+  border-bottom: 0px solid black;
 }
 
 .loserRed {
   background-color: rgb(116, 11, 11) !important;
-  border-bottom: 3px solid black;
+  border-bottom: 0px solid black;
 }
 
 .vsRes {
