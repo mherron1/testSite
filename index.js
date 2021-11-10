@@ -597,8 +597,6 @@ function generateCard(i, arg) {
 
   let content = document.querySelector(`#content${arg}`);
   content.innerHTML = `
-  <button id="searchIcon"> <i class="fa fa-search"></i> </button>
-
 <h2 style="background-color:none" id="mainHeader${arg}"></h2>
 <div id="imageContainer${arg}">
 </div>
@@ -607,19 +605,14 @@ function generateCard(i, arg) {
 <div id="prelimsTime${arg}"></div>
 <div id="prelimsCard${arg}"></div> 
 <div id="videoGallery${arg}"></div>
-<div id="broadcastInfo" ${broadcastStyle}> ${events[i][6]}</div>
+<div id="broadcastInfo" ${broadcastStyle}> 📺 ${events[i][6]}</div>
 
 <br>
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 
 <div id="footerDiv">
