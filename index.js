@@ -609,9 +609,7 @@ function generateCard(i, arg) {
 
 <br>
 <br>
-<br>
-<br>
-<br>
+
 
 
 
@@ -912,13 +910,13 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
       if (events[i][3][j].fighterA.length > 16) {
         let string = events[i][3][j].fighterA;
         let stringArr = string.split(" ");
-        stringArr[0] = stringArr[0][0];
+        stringArr[0] = stringArr[0][0] + ".";
         events[i][3][j].fighterA = stringArr.join(" ");
       }
       if (events[i][3][j].fighterB.length > 16) {
         let string = events[i][3][j].fighterB;
         let stringArr = string.split(" ");
-        stringArr[0] = stringArr[0][0];
+        stringArr[0] = stringArr[0][0] + ".";
         events[i][3][j].fighterB = stringArr.join(" ");
       }
     }
@@ -1083,13 +1081,13 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
       if (events[i][3][j].fighterA.length > 16) {
         let string = events[i][3][j].fighterA;
         let stringArr = string.split(" ");
-        stringArr[0] = stringArr[0][0];
+        stringArr[0] = stringArr[0][0] + ".";
         events[i][3][j].fighterA = stringArr.join(" ");
       }
       if (events[i][3][j].fighterB.length > 16) {
         let string = events[i][3][j].fighterB;
         let stringArr = string.split(" ");
-        stringArr[0] = stringArr[0][0];
+        stringArr[0] = stringArr[0][0] + ".";
         events[i][3][j].fighterB = stringArr.join(" ");
       }
     }

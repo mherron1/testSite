@@ -165,7 +165,7 @@ body {
 .left,
 .leftPlus1,
 .leftMinus1 {
-  padding: 4px;
+  padding: 5px;
   text-align: right;
   padding-right: 6px;
   background-color: #f8f8f8;
@@ -180,7 +180,7 @@ body {
 .middle,
 .middlePlus1,
 .middleMinus1 {
-  padding: 4px;
+  padding: 5px;
   text-align: center;
   background-color: #f8f8f8;
 }
@@ -193,7 +193,7 @@ body {
 .right,
 .rightPlus1,
 .rightMinus1 {
-  padding: 4px;
+  padding: 5px;
   text-align: left;
   padding-left: 6px;
   background-color: #f8f8f8;

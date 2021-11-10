@@ -200,8 +200,8 @@ body {
 .left,
 .leftPlus1,
 .leftMinus1 {
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: right;
   padding-right: 6px;
   background-color: #242424;
@@ -216,8 +216,8 @@ body {
 .middle,
 .middlePlus1,
 .middleMinus1 {
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 4px;
   padding-right: 4px;
   text-align: center;
@@ -232,8 +232,8 @@ body {
 .right,
 .rightPlus1,
 .rightMinus1 {
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: left;
   padding-left: 6px;
   background-color: #242424;
