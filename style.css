@@ -1407,7 +1407,6 @@ h4:hover {
   margin-left: 50%;
   transform: translateX(-50%);
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.705);
-  display: none;
 }
 
 #paypalLink:active {
@@ -1426,7 +1425,6 @@ h4:hover {
   border: 1px solid #000000;
   background-color: #e24646;
   color: white;
-  display: none;
 
   border: 1px solid #e24646;
 }
@@ -1762,3 +1760,10 @@ h4:hover {
 }
 
 */
+
+#paypalLink2 {
+  display: none;
+}
+#paypalLink {
+  display: none;
+}
