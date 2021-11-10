@@ -597,6 +597,8 @@ function generateCard(i, arg) {
 
   let content = document.querySelector(`#content${arg}`);
   content.innerHTML = `
+  <button id="searchIcon"> <i class="fa fa-search"></i> </button>
+
 <h2 style="background-color:none" id="mainHeader${arg}"></h2>
 <div id="imageContainer${arg}">
 </div>

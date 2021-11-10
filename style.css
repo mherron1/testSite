@@ -168,13 +168,13 @@ body {
   padding: 6px;
   text-align: right;
   padding-right: 6px;
-  background-color: white;
+  background-color: #f8f8f8;
 }
 
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: rgb(241, 241, 241);
+  background-color: #f8f8f8;
 }
 
 .middle,
@@ -182,13 +182,13 @@ body {
 .middleMinus1 {
   padding: 6px;
   text-align: center;
-  background-color: white;
+  background-color: #f8f8f8;
 }
 
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: rgb(241, 241, 241);
+  background-color: #f8f8f8;
 }
 .right,
 .rightPlus1,
@@ -196,13 +196,13 @@ body {
   padding: 6px;
   text-align: left;
   padding-left: 6px;
-  background-color: white;
+  background-color: #f8f8f8;
 }
 
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: rgb(241, 241, 241);
+  background-color: #f8f8f8;
 }
 
 .detailsLeft,
@@ -1717,8 +1717,6 @@ h4:hover {
   background-color: black;
 }
 
-/*
-
 .leftFighterContainer {
   position: relative;
   margin-bottom: 7px;
@@ -1747,6 +1745,7 @@ h4:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
   box-sizing: border-box;
 }
+/*
 
 #imageContainer,
 #imageContainerPlus1,
