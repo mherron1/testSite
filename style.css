@@ -168,13 +168,13 @@ body {
   padding: 6px;
   text-align: right;
   padding-right: 6px;
-  background-color: #dfdfdf;
+  background-color: #f8f8f8;
 }
 
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #dfdfdf;
+  background-color: #f8f8f8;
 }
 
 .middle,
@@ -182,13 +182,13 @@ body {
 .middleMinus1 {
   padding: 6px;
   text-align: center;
-  background-color: #dfdfdf;
+  background-color: #f8f8f8;
 }
 
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: #dfdfdf;
+  background-color: #f8f8f8;
 }
 .right,
 .rightPlus1,
@@ -196,13 +196,13 @@ body {
   padding: 6px;
   text-align: left;
   padding-left: 6px;
-  background-color: #dfdfdf;
+  background-color: #f8f8f8;
 }
 
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #dfdfdf;
+  background-color: #f8f8f8;
 }
 
 .detailsLeft,
@@ -1719,36 +1719,30 @@ h4:hover {
 
 .leftFighterContainer {
   position: relative;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
   margin-left: 5px;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   box-sizing: border-box;
 }
 
 .rightFighterContainer {
   position: relative;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
   margin-right: 5px;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   box-sizing: border-box;
 }
 
 .middleFighterContainer {
   position: relative;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
   margin-left: 3px;
   margin-right: 3px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   box-sizing: border-box;
 }
 /*
