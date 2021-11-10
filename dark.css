@@ -44,13 +44,13 @@ body {
 #content {
   position: absolute;
   left: 0;
-  background-color: #121212;
+  background-color: #000;
   min-height: 100vh;
   z-index: 10;
 }
 #contentMinus1 {
   position: absolute;
-  background-color: #121212;
+  background-color: #000;
   max-width: 475px;
   min-height: 100vh;
   display: none;
@@ -58,7 +58,7 @@ body {
 }
 #contentPlus1 {
   position: absolute;
-  background-color: #121212;
+  background-color: #000;
   max-width: 475px;
   min-height: 100vh;
   display: none;
@@ -86,7 +86,7 @@ body {
   max-height: 210px;
   min-height: 210px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .notransition {
@@ -118,14 +118,12 @@ body {
 #mainTimeMinus1 {
   text-align: center;
   position: relative;
-  padding-top: 4px;
   font-weight: bold;
   font-size: 1.1rem;
   color: #d2af4b;
   border-bottom: 0px solid black;
-  padding-bottom: 10px;
-
-  background-color: #141414;
+  margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 #expandLess,
@@ -145,7 +143,7 @@ body {
 #expandMinus1:hover {
   cursor: pointer;
   display: none;
-  bottom: 5px;
+  bottom: 0px;
 }
 #expandMore,
 #expandPlus1,
@@ -155,14 +153,14 @@ body {
   font-weight: lighter;
   right: 6px;
   color: silver;
-  bottom: 1px;
+  bottom: -2px;
 }
 
 #expandMore,
 #expandPlus1,
 #expandMinus1:hover {
   cursor: pointer;
-  bottom: 5px;
+  bottom: -2px;
 }
 
 #mainCard,
@@ -187,7 +185,7 @@ body {
   border-top: 0px solid black;
   padding: 4px;
   padding-bottom: 10px;
-  background-color: #141414;
+  background-color: #000;
 }
 
 #prelimsCard,
@@ -1550,7 +1548,7 @@ h4:hover {
 }
 
 #navEventTitleLeft {
-  background-color: rgb(19, 19, 19);
+  background-color: black;
   padding: 4px 10px;
   color: rgb(255, 255, 255);
   position: absolute;
@@ -1567,7 +1565,7 @@ h4:hover {
 }
 
 #navEventTitleRight {
-  background-color: rgb(19, 19, 19);
+  background-color: black;
   padding: 4px 10px;
   color: rgb(255, 255, 255);
   position: absolute;
@@ -1605,7 +1603,7 @@ h4:hover {
   #content {
     position: absolute;
     left: 0;
-    background-color: #121212;
+    background-color: #000;
     min-height: 100vh;
     z-index: 10;
     box-shadow: 0px 0px 10px 0px black;
@@ -1755,7 +1753,6 @@ h4:hover {
   margin-left: 5px;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   box-sizing: border-box;
 }
 
@@ -1765,7 +1762,6 @@ h4:hover {
   margin-right: 5px;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   box-sizing: border-box;
 }
 
@@ -1774,6 +1770,5 @@ h4:hover {
   margin-bottom: 7px;
   margin-left: 5px;
   margin-right: 5px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   box-sizing: border-box;
 }
