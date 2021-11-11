@@ -17,7 +17,7 @@ asyncGetCards();
 function asyncGetCards() {
   getCard(events[index]);
   const delay = (t) => new Promise((resolve) => setTimeout(resolve, t));
-  delay(18000).then(() => {
+  delay(5000).then(() => {
     index++;
     if (index < events.length) {
       asyncGetCards(index);
@@ -32,6 +32,17 @@ function getCard(url) {
   (async () => {
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
+    await page.setRequestInterception(true);
+    page.on("request", (req) => {
+      if (
+        req.resourceType() == "stylesheet" ||
+        req.resourceType() === "image"
+      ) {
+        req.abort();
+      } else {
+        req.continue();
+      }
+    });
     await page.goto(url);
 
     const fighterANames = await page.evaluate(() => {
@@ -100,5 +111,5 @@ function getCard(url) {
       console.log(item);
       console.log(",");
     });
-  }, 15000);
+  }, 4000);
 }

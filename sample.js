@@ -1,13 +1,13 @@
 const data = require("./initial.js");
 const resultsList = require("./results.js");
 const ufcRankings = require("./ufcRankings.js");
-const singleEvent = require("./tempInitial.js");
+//const singleEvent = require("./tempInitial.js");
 
-data.forEach((thing, index) => {
+/*data.forEach((thing, index) => {
   if (thing[1] === singleEvent[0][1]) {
     data[index] = singleEvent[0];
   }
-});
+});*/
 
 let nowEpochX = new Date().getTime();
 
