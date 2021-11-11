@@ -169,13 +169,13 @@ body {
   padding: 5px;
   text-align: right;
   padding-right: 6px;
-  background-color: #e1e1e1;
+  background-color: #eaeaea;
 }
 
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #e1e1e1;
+  background-color: #eaeaea;
 }
 
 .middle,
@@ -183,13 +183,13 @@ body {
 .middleMinus1 {
   padding: 5px;
   text-align: center;
-  background-color: none;
+  background-color: #eaeaea;
 }
 
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: none;
+  background-color: #eaeaea;
 }
 .right,
 .rightPlus1,
@@ -197,13 +197,13 @@ body {
   padding: 5px;
   text-align: left;
   padding-left: 6px;
-  background-color: #e1e1e1;
+  background-color: #eaeaea;
 }
 
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #e1e1e1;
+  background-color: #eaeaea;
 }
 
 .detailsLeft,
@@ -1746,6 +1746,8 @@ h4:hover {
   margin-left: 3px;
   margin-right: 3px;
   box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 /*
 
