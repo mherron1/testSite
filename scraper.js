@@ -25,7 +25,9 @@ console.log("let data = [");
 
 let index = 0;
 
-asyncGetCards();
+setTimeout(function () {
+  asyncGetCards();
+}, 32400000);
 
 function asyncGetCards() {
   getCard(events[index]);
