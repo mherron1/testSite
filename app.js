@@ -5,14 +5,8 @@ if (true) {
 }
 
 let assets = [
-  "aug27-p.jpg",
-  "oct16-u.jpg",
   "nov20-u.jpg",
-  "oct16-b.jpg",
-  "oct23-b.jpg",
-  "oct23-u.jpg",
   "oct27-p.jpg",
-  "oct30-u.jpg",
   "nov05-b.jpg",
   "nov06-u.jpg",
   "nov12-b.jpg",
@@ -21,6 +15,8 @@ let assets = [
   "dec03-b.jpg",
   "dec04-u.jpg",
   "dec11-u.jpg",
+  "dec18-u.jpg",
+  "jan15-u.jpg",
   "jan22-u.jpg",
   "feb12-u.jpg",
 ];
