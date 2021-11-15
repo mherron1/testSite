@@ -185,7 +185,7 @@ body {
   border-top: 0px solid black;
   padding: 4px;
   padding-bottom: 10px;
-  background-color: #000;
+  padding-top: 10px;
 }
 
 #prelimsCard,
@@ -210,7 +210,7 @@ body {
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #242424;
+  background-color: #181818;
 }
 
 .middle,
@@ -227,7 +227,7 @@ body {
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: #242424;
+  background-color: #181818;
 }
 .right,
 .rightPlus1,
@@ -242,7 +242,7 @@ body {
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #242424;
+  background-color: #181818;
 }
 .detailsLeft,
 .detailsLeftPlus1,
@@ -1294,18 +1294,18 @@ h4:hover {
 }
 
 .winnerGreen {
-  background-color: rgb(5, 65, 32) !important;
-  border-bottom: 0px solid black;
+  background-color: rgba(5, 65, 32, 0.867) !important;
+  margin-bottom: 3px;
 }
 
 .loserRed {
-  background-color: rgb(116, 11, 11) !important;
-  border-bottom: 0px solid black;
+  background-color: rgba(116, 11, 11, 0.753) !important;
+  margin-bottom: 3px;
 }
 
 .vsRes {
-  border-bottom: 3px solid black;
   background-color: #181818;
+  margin-bottom: 3px;
 }
 
 #showResults {
@@ -1749,26 +1749,12 @@ h4:hover {
 
 .leftFighterContainer {
   position: relative;
-  margin-bottom: 7px;
-  margin-left: 5px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  box-sizing: border-box;
 }
 
 .rightFighterContainer {
   position: relative;
-  margin-bottom: 7px;
-  margin-right: 5px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  box-sizing: border-box;
 }
 
 .middleFighterContainer {
   position: relative;
-  margin-bottom: 7px;
-  margin-left: 5px;
-  margin-right: 5px;
-  box-sizing: border-box;
 }
