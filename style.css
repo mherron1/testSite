@@ -34,6 +34,7 @@ body {
   background-color: #f8f8f8;
   min-height: 100vh;
   z-index: 10;
+  box-shadow: 0px 0px 8px 2px rgb(0, 0, 0);
 }
 
 #contentMinus1 {
@@ -168,13 +169,13 @@ body {
   padding: 5px;
   text-align: right;
   padding-right: 6px;
-  background-color: #f2f2f2;
+  background-color: #f8f8f8;
 }
 
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #f2f2f2;
+  background-color: #efefef;
 }
 
 .middle,
@@ -182,13 +183,13 @@ body {
 .middleMinus1 {
   padding: 5px;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: #f8f8f8;
 }
 
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #efefef;
 }
 .right,
 .rightPlus1,
@@ -196,13 +197,13 @@ body {
   padding: 5px;
   text-align: left;
   padding-left: 6px;
-  background-color: #f2f2f2;
+  background-color: #f8f8f8;
 }
 
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #ededed;
+  background-color: #efefef;
 }
 
 .detailsLeft,
@@ -1729,31 +1730,27 @@ h4:hover {
 
 .leftFighterContainer {
   position: relative;
-  margin-bottom: 8px;
-  margin-left: 5px;
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
-  box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 2px;
-  box-sizing: border-box;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  /*box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 2px;
+    */
 }
 
 .rightFighterContainer {
   position: relative;
-  margin-bottom: 8px;
-  margin-right: 5px;
-  border-top-right-radius: 7px;
-  border-bottom-right-radius: 7px;
-  box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 2px;
-  box-sizing: border-box;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  /*box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 2px;
+    */
 }
 
 .middleFighterContainer {
   position: relative;
-  margin-bottom: 8px;
-  margin-left: 3px;
-  margin-right: 3px;
-  box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 2px;
-  box-sizing: border-box;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  /*box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 2px;
+
+  */
 }
 /*
 
@@ -1763,7 +1760,6 @@ h4:hover {
   border-radius: 10px;
   margin: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
-  box-sizing: border-box;
 }
 
 */
