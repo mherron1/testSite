@@ -297,6 +297,17 @@ let data = [
     fighterB: 'Bryan Barberena'
   },
   {
+    fighterA: 'Brendan Allen',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/91516-brendan-allen',
+    rankA: '#13',
+    recordA: '17-4-0 ',
+    weight: '185',
+    recordB: ' 9-1-0',
+    rankB: '#47',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/147160-roman-dolidze',
+    fighterB: 'Roman Dolidze'
+  },
+  {
     fighterA: 'Claudio Puelles',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/53808-claudio-puelles',
     rankA: '#77',
@@ -319,28 +330,6 @@ let data = [
     fighterB: 'Jamahal Hill'
   },
   {
-    fighterA: 'Mallory Martin',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/66199-mallory-martin',
-    rankA: '#33',
-    recordA: '7-4-0 ',
-    weight: '115',
-    recordB: ' 10-2-0',
-    rankB: '#26',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/78224-montserrat-conejo-ruiz-toquinha',
-    fighterB: 'Montserrat Ruiz'
-  },
-  {
-    fighterA: 'Brad Tavares',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/brad-tavares',
-    rankA: '#11',
-    recordA: '19-6-0 ',
-    weight: '185',
-    recordB: ' 17-4-0',
-    rankB: '#13',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/91516-brendan-allen',
-    fighterB: 'Brendan Allen'
-  },
-  {
     fighterA: 'Zhalgas Zhumagulov',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/82310-zhalgas-zhumagalov',
     rankA: '#15',
@@ -354,11 +343,11 @@ let data = [
   {
     fighterA: 'Louis Smolka',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/38968-louis-smolka-da-last-samurai',
-    rankA: '#49',
+    rankA: '#46',
     recordA: '17-7-0 ',
     weight: '135',
     recordB: ' 10-5-0',
-    rankB: '#95',
+    rankB: '#87',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/91401-vince-morales',
     fighterB: 'Vince Morales'
   },
@@ -405,6 +394,28 @@ let data = [
     rankB: '#59',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/114625-duko-todorovi',
     fighterB: 'Duško Todorović'
+  },
+  {
+    fighterA: 'Philipe Lins',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/9874-felipe-lins-felipao',
+    rankA: '#48',
+    recordA: '14-5-0 ',
+    weight: '205',
+    recordB: ' 10-0-0',
+    rankB: '#17',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/93373-azamat-murzakanov',
+    fighterB: 'Azamat Murzakanov'
+  },
+  {
+    fighterA: 'Mallory Martin',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/66199-mallory-martin',
+    rankA: '#36',
+    recordA: '7-4-0 ',
+    weight: '115',
+    recordB: ' 6-2-0',
+    rankB: '#34',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/59694-cheyanne-vlismas',
+    fighterB: 'Cheyanne Buys'
   }
 ]
 ,"UFC Fight Night",
