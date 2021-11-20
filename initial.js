@@ -145,17 +145,6 @@ let data = [
     fighterB: 'Sean Brady'
   },
   {
-    fighterA: 'Rani Yahya',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/rani-yahya',
-    rankA: '#33',
-    recordA: '27-10-1 ',
-    weight: '135',
-    recordB: ' 17-8-0',
-    rankB: '#44',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/kyung-ho-kang',
-    fighterB: 'Kyung Ho Kang'
-  },
-  {
     fighterA: 'Joanne Wood',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/22500-joanne-calderwood',
     rankA: '#6',
@@ -165,6 +154,17 @@ let data = [
     rankB: '#10',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/74022-taila-santos',
     fighterB: 'Taila Santos'
+  },
+  {
+    fighterA: 'Rani Yahya',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/rani-yahya',
+    rankA: '#33',
+    recordA: '27-10-1 ',
+    weight: '135',
+    recordB: ' 17-8-0',
+    rankB: '#44',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/kyung-ho-kang',
+    fighterB: 'Kyung Ho Kang'
   },
   {
     fighterA: 'Adrian Yanez',
@@ -308,6 +308,17 @@ let data = [
     fighterB: 'Roman Dolidze'
   },
   {
+    fighterA: 'Alonzo Menifield',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/69032-alonzo-menifield',
+    rankA: '#24',
+    recordA: '11-2-0 ',
+    weight: '205',
+    recordB: ' 10-2-0',
+    rankB: '#33',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/120996-william-knight',
+    fighterB: 'William Knight'
+  },
+  {
     fighterA: 'Claudio Puelles',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/53808-claudio-puelles',
     rankA: '#77',
@@ -365,11 +376,11 @@ let data = [
   {
     fighterA: 'Clay Guida',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/clay-guida-the-carpenter',
-    rankA: '#45',
+    rankA: '#36',
     recordA: '36-21-0 ',
     weight: '155',
     recordB: ' 18-4-1',
-    rankB: '#26',
+    rankB: '#27',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/leonardo-santos',
     fighterB: 'Leonardo Santos'
   },
