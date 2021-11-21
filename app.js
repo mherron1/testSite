@@ -91,14 +91,14 @@ data2.forEach((event) => {
       winners.push(fight.fighterA);
 
       let rand = Math.floor(Math.random() * 10);
-      if (rand % 2 === 0) {
+      /*if (rand % 2 === 0) {
         let tempName = fight.fighterA;
         fight.fighterA = fight.fighterB;
         fight.fighterB = tempName;
         let tempLink = fight.fighterALink;
         fight.fighterALink = fight.fighterBLink;
         fight.fighterBLink = tempLink;
-      }
+      }*/
     });
   }
 });
