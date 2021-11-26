@@ -1160,6 +1160,81 @@ let data = [
 "9",
 "Pay Per View | Prelims: ESPN"
 ],
+["Ultimate Fighting Championship",
+1645311600000,
+'',
+[
+  {
+    fighterA: 'Kyle Daukaus',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/16027-kyle-daukaus',
+    rankA: '#30',
+    recordA: '10-2-0 ',
+    weight: '185',
+    recordB: ' 9-2-0',
+    rankB: '#23',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/29696-julian-marquez',
+    fighterB: 'Julian Marquez'
+  },
+  {
+    fighterA: 'Jesse Strader',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/78843-jesse-strader',
+    rankA: '#224',
+    recordA: '5-2-0 ',
+    weight: '135',
+    recordB: ' 11-5-0',
+    rankB: '#4',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/20364-chad-anheliger',
+    fighterB: 'Chad Anheliger'
+  },
+  {
+    fighterA: 'Austin Lingo',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/129509-austin-lingo',
+    rankA: '#72',
+    recordA: '9-1-0 ',
+    weight: '145',
+    recordB: ' 11-4-0',
+    rankB: '#44',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/40655-jonathan-pearce',
+    fighterB: 'Jonathan Pearce'
+  },
+  {
+    fighterA: 'Chas Skelly',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/chas-skelly',
+    rankA: '#53',
+    recordA: '18-3-0 ',
+    weight: '145',
+    recordB: ' 18-3-0',
+    rankB: '#181',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/15454-mark-striegl-mugen',
+    fighterB: 'Mark Striegl'
+  },
+  {
+    fighterA: 'Mario Bautista',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/33428-mario-bautista',
+    rankA: '#53',
+    recordA: '8-2-0 ',
+    weight: '135',
+    recordB: ' 13-4-0',
+    rankB: '#69',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/49979-khalid-taha',
+    fighterB: 'Khalid Taha'
+  },
+  {
+    fighterA: 'Nasrat Haqparast',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/48941-nasrat-haqparast',
+    rankA: '#25',
+    recordA: '13-4-0 ',
+    weight: '155',
+    recordB: ' 18-7-0',
+    rankB: '#36',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/john-makdessi-the-bull',
+    fighterB: 'John Makdessi'
+  }
+]
+,"UFC Fight Night",
+"5",
+"ESPN+"
+],
 ["Bellator MMA",
 1638576000000,
 '',
