@@ -25,15 +25,15 @@ let times = [
   {
     date: "dec04",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2021, 11, 05, 01, 00, 00),
-    prelims: new Date(2021, 11, 04, 23, 00, 00),
+    time: new Date(2021, 11, 05, 03, 00, 00),
+    prelims: new Date(2021, 11, 05, 00, 00, 00),
     videos: [],
   },
   {
     date: "dec03",
     promo: "Bellator MMA",
-    time: new Date(2021, 11, 04, 01, 00, 00),
-    prelims: new Date(2021, 11, 03, 23, 00, 00),
+    time: new Date(2021, 11, 04, 03, 00, 00),
+    prelims: new Date(2021, 11, 04, 00, 00, 00),
     videos: [],
   },
   {
