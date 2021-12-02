@@ -4,12 +4,10 @@ let events = [
   "https://www.tapology.com/fightcenter/events/82179-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/81603-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/82805-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/82070-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/82993-ufc-270",
-  "https://www.tapology.com/fightcenter/events/83288-ufc-271",
-  "https://www.tapology.com/fightcenter/bouts/617723-ufc-fight-night-beneil-benny-dariush-vs-islam-makhachev",
+  "https://www.tapology.com/fightcenter/events/82070-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/83125-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/83406-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/83288-ufc-271",
   "https://www.tapology.com/fightcenter/events/83245-bellator-mma",
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
@@ -31,7 +29,7 @@ setTimeout(function () {
 function asyncGetCards() {
   getCard(events[index]);
   const delay = (t) => new Promise((resolve) => setTimeout(resolve, t));
-  delay(13000).then(() => {
+  delay(10000).then(() => {
     index++;
     if (index < events.length) {
       asyncGetCards(index);
@@ -244,5 +242,5 @@ function getCard(url) {
     console.log(`"${n}",`);
     console.log(`"${bc}"`);
     console.log("],");
-  }, 11000);
+  }, 8000);
 }
