@@ -1,11 +1,11 @@
 const puppeteer = require("puppeteer");
 
 let events = [
+  "https://www.tapology.com/fightcenter/events/82070-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/82179-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/81603-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/82805-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/82993-ufc-270",
-  "https://www.tapology.com/fightcenter/events/82070-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/83125-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/83288-ufc-271",
   "https://www.tapology.com/fightcenter/events/83245-bellator-mma",
@@ -29,7 +29,7 @@ setTimeout(function () {
 function asyncGetCards() {
   getCard(events[index]);
   const delay = (t) => new Promise((resolve) => setTimeout(resolve, t));
-  delay(10000).then(() => {
+  delay(14000).then(() => {
     index++;
     if (index < events.length) {
       asyncGetCards(index);
@@ -242,5 +242,5 @@ function getCard(url) {
     console.log(`"${n}",`);
     console.log(`"${bc}"`);
     console.log("],");
-  }, 8000);
+  }, 12000);
 }
