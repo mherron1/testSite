@@ -912,13 +912,13 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
     } else {
-      if (events[i][3][j].fighterA.length > 16) {
+      if (events[i][3][j].fighterA.length > 50) {
         let string = events[i][3][j].fighterA;
         let stringArr = string.split(" ");
         stringArr[0] = stringArr[0][0] + ".";
         events[i][3][j].fighterA = stringArr.join(" ");
       }
-      if (events[i][3][j].fighterB.length > 16) {
+      if (events[i][3][j].fighterB.length > 50) {
         let string = events[i][3][j].fighterB;
         let stringArr = string.split(" ");
         stringArr[0] = stringArr[0][0] + ".";
@@ -1083,13 +1083,13 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
       events[i][3][j].rankA = "";
       events[i][3][j].rankB = "";
     } else {
-      if (events[i][3][j].fighterA.length > 16) {
+      if (events[i][3][j].fighterA.length > 50) {
         let string = events[i][3][j].fighterA;
         let stringArr = string.split(" ");
         stringArr[0] = stringArr[0][0] + ".";
         events[i][3][j].fighterA = stringArr.join(" ");
       }
-      if (events[i][3][j].fighterB.length > 16) {
+      if (events[i][3][j].fighterB.length > 50) {
         let string = events[i][3][j].fighterB;
         let stringArr = string.split(" ");
         stringArr[0] = stringArr[0][0] + ".";
