@@ -30,13 +30,6 @@ let times = [
     videos: ["eC5xVI5wMLw"],
   },
   {
-    date: "dec03",
-    promo: "Bellator MMA",
-    time: new Date(2021, 11, 04, 03, 00, 00),
-    prelims: new Date(2021, 11, 04, 00, 00, 00),
-    videos: ["vjLxGtkcaPs"],
-  },
-  {
     date: "oct27",
     promo: "Professional Fighters League",
     time: new Date(2021, 09, 28, 00, 00, 00),
