@@ -1,116 +1,230 @@
 let odds = [
-  { name: "Kyoji Horiguchi", odds: "1.59" },
-  { name: "Sergio Pettis", odds: "2.50" },
-  { name: "Emmanuel Sanchez", odds: "1.50" },
-  { name: "Jeremy Kennedy", odds: "2.70" },
-  { name: "Jared Scoggins", odds: "1.91" },
-  { name: "Josh Hill", odds: "1.91" },
-  { name: "Collin Huckbody", odds: "8.00" },
-  { name: "Johnny Eblen", odds: "1.09" },
-  { name: "Kyle Crutchmer", odds: "1.80" },
-  { name: "Oliver Enkamp", odds: "2.05" },
-  { name: "Levan Chokheli", odds: "1.91" },
-  { name: "Vinicius de Jesus", odds: "1.91" },
-  { name: "Alexander Shabliy", odds: "1.17" },
-  { name: "Bobby King", odds: "5.10" },
-  { name: "John de Jesus", odds: "2.65" },
-  { name: "Kai Kamaka", odds: "1.51" },
-  { name: "Killys Mota", odds: "1.83" },
-  { name: "Mike Hamel", odds: "2.00" },
-  { name: "Dan Moret", odds: "2.00" },
-  { name: "Spike Carlyle", odds: "1.83" },
-  { name: "Last change: 5 min ago", odds: "NaN" },
-  { name: "Last change: 4 hr 41 min ago", odds: "1.87" },
-  { name: "UFC FIGHT NIGHT: FONT VS. ALDODecember 4th", odds: "2.50" },
-  { name: "Jose Aldo", odds: "2.25" },
-  { name: "Rob Font", odds: "1.69" },
-  { name: "Brad Riddell", odds: "2.00" },
-  { name: "Rafael Fiziev", odds: "1.83" },
-  { name: "Clay Guida", odds: "2.55" },
-  { name: "Leo Santos", odds: "1.56" },
-  { name: "Jamahal Hill", odds: "2.40" },
-  { name: "Jimmy Crute", odds: "1.63" },
-  { name: "Brendan Allen", odds: "1.27" },
-  { name: "Chris Curtis", odds: "3.80" },
-  { name: "Duško Todorović", odds: "1.63" },
-  { name: "Maki Pitolo", odds: "2.40" },
-  { name: "Manel Kape", odds: "1.40" },
-  { name: "Zhalgas Zhumagulov", odds: "3.00" },
-  { name: "Jake Matthews", odds: "1.56" },
-  { name: "Jeremiah Wells", odds: "2.55" },
-  { name: "Alonzo Menifield", odds: "1.67" },
-  { name: "William Knight", odds: "2.30" },
-  { name: "Cheyanne Buys", odds: "1.53" },
-  { name: "Mallory Martin", odds: "2.60" },
-  { name: "Chris Gruetzemacher", odds: "1.91" },
-  { name: "Claudio Puelles", odds: "1.91" },
-  { name: "Alex Morono", odds: "1.45" },
-  { name: "Mickey Gall", odds: "2.80" },
-  { name: "Louis Smolka", odds: "1.69" },
-  { name: "Vince Morales", odds: "2.25" },
-  { name: "EFC WORLDWIDEDecember 4th", odds: "1.83" },
-  { name: "Charles Oliveira", odds: "2.40" },
-  { name: "Dustin Poirier", odds: "1.63" },
-  { name: "Amanda Nunes", odds: "1.12" },
-  { name: "Julianna Pena", odds: "6.75" },
-  { name: "Cody Garbrandt", odds: "1.59" },
-  { name: "Kai Kara France", odds: "2.50" },
-  { name: "Raulian Paiva", odds: "3.45" },
-  { name: "Sean O'Malley", odds: "1.32" },
-  { name: "Geoff Neal", odds: "1.91" },
-  { name: "Santiago Ponzinibbio", odds: "1.91" },
-  { name: "Dan Ige", odds: "2.80" },
-  { name: "Josh Emmett", odds: "1.45" },
-  { name: "Dominick Cruz", odds: "1.91" },
-  { name: "Pedro Munhoz", odds: "1.91" },
-  { name: "Augusto Sakai", odds: "1.87" },
-  { name: "Tai Tuivasa", odds: "1.95" },
-  { name: "Alex Perez", odds: "1.31" },
-  { name: "Matt Schnell", odds: "3.50" },
-  { name: "Erin Blanchfield", odds: "2.20" },
-  { name: "Miranda Maverick", odds: "1.71" },
-  { name: "Bruno Silva", odds: "1.26" },
-  { name: "Jordan Wright", odds: "3.90" },
-  { name: "Gillian Robertson", odds: "1.24" },
-  { name: "Priscila Cachoeira", odds: "4.10" },
-  { name: "Darrick Minner", odds: "2.80" },
-  { name: "Ryan Hall", odds: "1.45" },
-  { name: "Andre Muniz", odds: "1.71" },
-  { name: "Eryk Anders", odds: "2.20" },
-  { name: "Randy Costa", odds: "1.48" },
-  { name: "Tony Kelley", odds: "2.75" },
-  { name: "Chris Daukaus", odds: "1.71" },
-  { name: "Derrick Lewis", odds: "2.20" },
-  { name: "Abusupiyan Magomedov", odds: "1.71" },
-  { name: "Gerald Meerschaert", odds: "2.20" },
-  { name: "Cub Swanson", odds: "1.50" },
-  { name: "Darren Elkins", odds: "2.70" },
-  { name: "Belal Muhammad", odds: "3.00" },
-  { name: "Stephen Thompson", odds: "1.40" },
-  { name: "Amanda Lemos", odds: "1.27" },
-  { name: "Angela Hill", odds: "3.80" },
-  { name: "Carlos Diego Ferreira", odds: "2.55" },
-  { name: "Mateusz Gamrot", odds: "1.56" },
-  { name: "Don'tale Mayes", odds: "1.50" },
-  { name: "Josh Parisian", odds: "2.70" },
-  { name: "Raphael Assuncao", odds: "3.20" },
-  { name: "Ricky Simon", odds: "1.36" },
-  { name: "Julia Avila", odds: "2.15" },
-  { name: "Raquel Pennington", odds: "1.74" },
-  { name: "Andre Ewell", odds: "2.75" },
-  { name: "Charles Jourdain", odds: "1.48" },
-  { name: "Jordan Leavitt", odds: "1.95" },
-  { name: "Matt Sayles", odds: "1.87" },
-  { name: "Melissa Gatto", odds: "2.90" },
-  { name: "Sijara Eubanks", odds: "1.43" },
-  { name: "Harry Hunsucker", odds: "3.60" },
-  { name: "Justin Tafa", odds: "1.30" },
-  { name: "Last change: 3 hr 29 min ago", odds: "NaN" },
-  { name: "Last change: 24 days ago", odds: "2.88" },
-  { name: "Ciryl Gane", odds: "1.91" },
-  { name: "Francis Ngannou", odds: "1.91" },
-  { name: "Brandon Moreno", odds: "1.56" },
-  { name: "Deiveson Figueiredo", odds: "2.55" },
-  { name: "Last change: 10 hr 15 min ago", odds: "6.20" },
-  { name: "UFC FIGHT NIGHT 203February 26th", odds: "2.66" },
-];
+{ name: 'Charles Oliveira', odds: '2.40' }
+,
+{ name: 'Dustin Poirier', odds: '1.63' }
+,
+{ name: 'Amanda Nunes', odds: '1.11' }
+,
+{ name: 'Julianna Pena', odds: '7.00' }
+,
+{ name: 'Cody Garbrandt', odds: '1.65' }
+,
+{ name: 'Kai Kara France', odds: '2.35' }
+,
+{ name: 'Raulian Paiva', odds: '3.45' }
+,
+{ name: "Sean O'Malley", odds: '1.32' }
+,
+{ name: 'Geoff Neal', odds: '1.91' }
+,
+{ name: 'Santiago Ponzinibbio', odds: '1.91' }
+,
+{ name: 'Dan Ige', odds: '2.40' }
+,
+{ name: 'Josh Emmett', odds: '1.63' }
+,
+{ name: 'Dominick Cruz', odds: '1.91' }
+,
+{ name: 'Pedro Munhoz', odds: '1.91' }
+,
+{ name: 'Augusto Sakai', odds: '1.95' }
+,
+{ name: 'Tai Tuivasa', odds: '1.87' }
+,
+{ name: 'Bruno Silva', odds: '1.27' }
+,
+{ name: 'Jordan Wright', odds: '3.80' }
+,
+{ name: 'Alex Perez', odds: '1.30' }
+,
+{ name: 'Matt Schnell', odds: '3.60' }
+,
+{ name: 'Erin Blanchfield', odds: '2.30' }
+,
+{ name: 'Miranda Maverick', odds: '1.67' }
+,
+{ name: 'Gillian Robertson', odds: '1.25' }
+,
+{ name: 'Priscila Cachoeira', odds: '4.00' }
+,
+{ name: 'Darrick Minner', odds: '2.80' }
+,
+{ name: 'Ryan Hall', odds: '1.45' }
+,
+{ name: 'Andre Muniz', odds: '1.74' }
+,
+{ name: 'Eryk Anders', odds: '2.15' }
+,
+{ name: 'Randy Costa', odds: '1.53' }
+,
+{ name: 'Tony Kelley', odds: '2.60' }
+,
+{ name: 'Kent Kauppinen', odds: '1.11' }
+,
+{ name: 'Mateusz Figlak', odds: '7.00' }
+,
+{ name: 'Carlos Abreu', odds: '1.65' }
+,
+{ name: 'Dominique Wooding', odds: '2.35' }
+,
+{ name: 'Jamie Richardson', odds: '3.45' }
+,
+{ name: 'Leonardo Damiani', odds: '1.32' }
+,
+{ name: 'Luke Shanks', odds: '1.91' }
+,
+{ name: 'Sam Creasey', odds: '1.91' }
+,
+{ name: 'Aidan Stephen', odds: '2.40' }
+,
+{ name: 'Edward Walls', odds: '1.63' }
+,
+{ name: 'Mike Figlak', odds: '1.91' }
+,
+{ name: 'Stevie McIntosh', odds: '1.91' }
+,
+{ name: 'Aidan James', odds: '1.95' }
+,
+{ name: 'Tanio Pagliariccio', odds: '1.87' }
+,
+{ name: "Lone'er Kavanagh", odds: '1.27' }
+,
+{ name: 'Maximilien Vallot', odds: '3.80' }
+,
+{ name: 'Jair Junior', odds: '1.30' }
+,
+{ name: 'Tobias Harila', odds: '3.60' }
+,
+{ name: 'Aaron Aby', odds: '2.30' }
+,
+{ name: 'Samir Faiddine', odds: '1.67' }
+,
+{ name: 'Konmon Deh', odds: '1.25' }
+,
+{ name: 'Paull McBain', odds: '4.00' }
+,
+{ name: 'Belal Muhammad', odds: 'NaN' }
+,
+{ name: 'Mateusz Gamrot', odds: '1.71' }
+,
+{ name: 'Abusupiyan Magomedov', odds: '2.20' }
+,
+{ name: 'Gerald Meerschaert', odds: '1.50' }
+,
+{ name: "Don'tale Mayes", odds: '2.70' }
+,
+{ name: 'Josh Parisian', odds: '3.00' }
+,
+{ name: 'Raphael Assuncao', odds: '1.40' }
+,
+{ name: 'Ricky Simon', odds: '1.26' }
+,
+{ name: 'Julia Avila', odds: '3.90' }
+,
+{ name: 'Raquel Pennington', odds: '2.50' }
+,
+{ name: 'Andre Ewell', odds: '1.59' }
+,
+{ name: 'Matt Sayles', odds: '1.50' }
+,
+{ name: 'Melissa Gatto', odds: '2.70' }
+,
+{ name: 'Sijara Eubanks', odds: '3.20' }
+,
+{ name: 'Harry Hunsucker', odds: '1.36' }
+,
+{ name: 'Dustin Stoltzfus', odds: '2.70' }
+,
+{ name: 'Chris Daukaus', odds: '1.71' }
+,
+{ name: 'Derrick Lewis', odds: '2.20' }
+,
+{ name: 'Cub Swanson', odds: '1.50' }
+,
+{ name: 'Darren Elkins', odds: '2.70' }
+,
+{ name: 'Belal Muhammad', odds: '3.00' }
+,
+{ name: 'Stephen Thompson', odds: '1.40' }
+,
+{ name: 'Amanda Lemos', odds: '1.26' }
+,
+{ name: 'Angela Hill', odds: '3.90' }
+,
+{ name: 'Carlos Diego Ferreira', odds: '2.50' }
+,
+{ name: 'Mateusz Gamrot', odds: '1.59' }
+,
+{ name: "Don'tale Mayes", odds: '1.50' }
+,
+{ name: 'Josh Parisian', odds: '2.70' }
+,
+{ name: 'Raphael Assuncao', odds: '3.20' }
+,
+{ name: 'Ricky Simon', odds: '1.36' }
+,
+{ name: 'Andre Ewell', odds: '2.70' }
+,
+{ name: 'Charles Jourdain', odds: '1.50' }
+,
+{ name: 'Jordan Leavitt', odds: '1.95' }
+,
+{ name: 'Matt Sayles', odds: '1.87' }
+,
+{ name: 'Melissa Gatto', odds: '2.80' }
+,
+{ name: 'Sijara Eubanks', odds: '1.45' }
+,
+{ name: 'Harry Hunsucker', odds: '3.60' }
+,
+{ name: 'Justin Tafa', odds: '1.30' }
+,
+{ name: 'Roberto Soldic', odds: '1.12' }
+,
+{ name: 'Daniel Torres', odds: 'NaN' }
+,
+{ name: 'Lom-Ali Eskijew', odds: '3.45' }
+,
+{ name: 'Bartosz Rewera', odds: '1.32' }
+,
+{ name: 'Shamad Erzanukaev', odds: 'NaN' }
+,
+{ name: 'Adam Niedzwiedz', odds: '1.91' }
+,
+{ name: 'Ion Surdu', odds: '1.91' }
+,
+{ name: 'Luke Santarelli', odds: '1.59' }
+,
+{ name: 'Patryk Likus', odds: '2.50' }
+,
+{ name: 'Mateusz Legierski', odds: '1.91' }
+,
+{ name: 'Roman Szymanski', odds: '1.87' }
+,
+{ name: 'Anita Bekus', odds: 'NaN' }
+,
+{ name: 'Ciryl Gane', odds: '1.91' }
+,
+{ name: 'Francis Ngannou', odds: '1.91' }
+,
+{ name: 'Brandon Moreno', odds: '1.59' }
+,
+{ name: 'Deiveson Figueiredo', odds: '2.50' }
+,
+{ name: 'Last change: 3 hr 29 min ago', odds: 'NaN' }
+,
+{ name: 'Last change: 24 days ago', odds: '2.88' }
+,
+{ name: 'Ciryl Gane', odds: '1.91' }
+,
+{ name: 'Francis Ngannou', odds: '1.91' }
+,
+{ name: 'Brandon Moreno', odds: '1.56' }
+,
+{ name: 'Deiveson Figueiredo', odds: '2.55' }
+,
+{ name: 'Last change: 10 hr 15 min ago', odds: '6.20' }
+,
+{ name: 'UFC FIGHT NIGHT 203February 26th', odds: '2.66' }
+,
+]
