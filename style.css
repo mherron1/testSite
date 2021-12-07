@@ -1023,6 +1023,7 @@ li span {
 
   #content {
     min-height: 125vh;
+    box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);
   }
 
   #expandMore {
@@ -1590,6 +1591,7 @@ h4:hover {
     background-color: #f8f8f8;
     min-height: 100vh;
     z-index: 10;
+    box-shadow: 0px 0px 1px 0px black;
   }
 }
 
