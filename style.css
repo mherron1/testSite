@@ -141,7 +141,7 @@ body {
   display: grid;
   grid-template-columns: 45% 10% 45%;
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 #prelimsTime,
@@ -159,7 +159,7 @@ body {
   display: grid;
   grid-template-columns: 45% 10% 45%;
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .left,
