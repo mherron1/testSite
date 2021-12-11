@@ -163,7 +163,7 @@ let data = [
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
-1639261800000,
+1639263600000,
 '',
 [
   {
@@ -314,7 +314,7 @@ let data = [
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/128371-priscila-cachoeira',
     rankA: '#44',
     recordA: '10-3-0 ',
-    weight: '125',
+    weight: '129',
     recordB: ' 9-6-0',
     rankB: '#23',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/73142-gillian-robertson',
@@ -1026,11 +1026,11 @@ let data = [
   {
     fighterA: 'Makhmud Muradov',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/34702-makhmud-muradov',
-    rankA: '#21',
+    rankA: '#23',
     recordA: '25-7-0 ',
     weight: '185',
     recordB: ' 15-7-0',
-    rankB: '#52',
+    rankB: '#39',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/14031-misha-cirkunov',
     fighterB: 'Misha Cirkunov'
   },
@@ -1052,7 +1052,7 @@ let data = [
     recordA: '11-6-0 ',
     weight: '115',
     recordB: ' 6-2-0',
-    rankB: '#56',
+    rankB: '#72',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/91503-hannah-goldy-queen-of-sparta',
     fighterB: 'Hannah Goldy'
   },
@@ -1088,10 +1088,21 @@ let data = [
     rankB: '#55',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/119061-fares-ziam',
     fighterB: 'Fares Ziam'
+  },
+  {
+    fighterA: 'Gregory Rodrigues',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/78681-gregory-rodrigues-robocop',
+    rankA: '#35',
+    recordA: '11-3-0 ',
+    weight: '185',
+    recordB: ' 6-1-0',
+    rankB: '#28',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/198212-armen-petrosyan',
+    fighterB: 'Armen Petrosyan'
   }
 ]
 ,"UFC Fight Night",
-"5",
+"6",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
