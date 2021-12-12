@@ -1,93 +1,100 @@
 let resultsList = [
 {
-  winner: 'José Aldo ',
-  time: '5 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/rob-font'
-}
-,
-{
-  winner: 'Rafael Fiziev ',
-  time: '2:20 Round 3',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/146061-brad-riddell-quake'
-}
-,
-{
-  winner: 'Jamahal Hill ',
-  time: '0:48 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/126283-jim-chute'
-}
-,
-{
-  winner: 'Clay Guida ',
-  time: '1:21 Round 2',
+  winner: 'Charles Oliveira ',
+  time: '1:02 Round 3',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/leonardo-santos'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/dustin-poirier-the-diamond'
 }
 ,
 {
-  winner: 'Chris Curtis ',
-  time: '1:58 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/91516-brendan-allen'
-}
-,
-{
-  winner: 'Alex Morono ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/63731-mickey-gall'
-}
-,
-{
-  winner: 'Duško Todorović ',
-  time: '4:34 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/61535-maki-pitolo'
-}
-,
-{
-  winner: 'Manel Kape ',
-  time: '4:02 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/82310-zhalgas-zhumagalov'
-}
-,
-{
-  winner: 'Bryan Barberena ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/125166-darian-weeks'
-}
-,
-{
-  winner: 'Cheyanne Vlismas ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/66199-mallory-martin'
-}
-,
-{
-  winner: 'William Knight ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/69032-alonzo-menifield'
-}
-,
-{
-  winner: 'Claudio Puelles ',
-  time: '3:25 Round 3',
+  winner: 'Julianna Peña ',
+  time: '3:26 Round 2',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/chris-gruetzemacher-gritz'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/amanda-nunes-lioness-of-the-ring'
 }
 ,
 {
-  winner: 'Vince Morales ',
-  time: '2:02 Round 1',
+  winner: 'Geoff Neal ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/29349-santiago-ponzinibbio-el-rasta'
+}
+,
+{
+  winner: 'Kai Kara-France ',
+  time: '3:21 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/38968-louis-smolka-da-last-samurai'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/21780-cody-garbrandt-no-love'
+}
+,
+{
+  winner: "Sean O'Malley ",
+  time: '4:42 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/80405-raulian-paiva'
+}
+,
+{
+  winner: 'Josh Emmett ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/21178-dan-ige'
+}
+,
+{
+  winner: 'Dominick Cruz ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/5243-pedro-munoz-pedrinho'
+}
+,
+{
+  winner: 'Tai Tuivasa ',
+  time: '0:26 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/44468-augusto-sakai'
+}
+,
+{
+  winner: 'Bruno Silva ',
+  time: '1:28 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/105503-jordan-wright-the-beverly-hills-ninja'
+}
+,
+{
+  winner: 'André Muniz ',
+  time: '3:13 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/30666-eryk-anders'
+}
+,
+{
+  winner: 'Erin Blanchfield ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/116637-miranda-maverick'
+}
+,
+{
+  winner: 'Ryan Hall ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/19491-darrick-minner'
+}
+,
+{
+  winner: 'Tony Kelley ',
+  time: '4:15 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/65764-randy-costa'
+}
+,
+{
+  winner: 'Gillian Robertson ',
+  time: '4:59 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/128371-priscila-cachoeira'
 }
 ,
 {
