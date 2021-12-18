@@ -984,6 +984,90 @@ let data = [
 "0",
 "Pay Per View | Prelims: ESPN"
 ],
+["Bellator MMA",
+1643500800000,
+'',
+[
+  {
+    fighterA: 'Ryan Bader',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/ryan-bader-darth',
+    rankA: '#21',
+    recordA: '28-7-0 ',
+    weight: '265',
+    recordB: ' 11-1-0',
+    rankB: '#25',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/95055-valentin-moldavsky',
+    fighterB: 'Valentin Moldavsky'
+  },
+  {
+    fighterA: 'Darrion Caldwell',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/31762-darrion-caldwell',
+    rankA: '#103',
+    recordA: '14-5-0 ',
+    weight: '135',
+    recordB: ' 16-5-2',
+    rankB: '#73',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/50277-enrike-barzola-el-fuerte',
+    fighterB: 'Enrique Barzola'
+  }
+]
+,"Bellator 273",
+"0",
+"Showtime"
+],
+["Bellator MMA",
+1645815600000,
+'',
+[
+  {
+    fighterA: 'Gegard Mousasi',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/gegard-mousasi-the-dreamcatcher',
+    rankA: '#20',
+    recordA: '48-7-2 ',
+    weight: '185',
+    recordB: ' 11-0-0',
+    rankB: '#58',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/39902-austin-vandeford',
+    fighterB: 'Austin Vanderford'
+  },
+  {
+    fighterA: 'Peter Queally',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/21195-peter-quelly',
+    rankA: '#92',
+    recordA: '13-6-1 ',
+    weight: '155',
+    recordB: ' 13-4-0',
+    rankB: '#',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/65802-kane-mousah-the-danger',
+    fighterB: 'Kane Mousah'
+  },
+  {
+    fighterA: 'Charlie Leary',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/17535-charlie-leary',
+    rankA: '#305',
+    recordA: '17-11-1 ',
+    weight: '155',
+    recordB: ' 19-7-2',
+    rankB: '#13',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/50962-davy-gallon',
+    fighterB: 'Davy Gallon'
+  },
+  {
+    fighterA: 'Junior Morgan',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/66314-junior-morgan',
+    rankA: '#n/a',
+    recordA: '3-0-0 ',
+    weight: '155',
+    recordB: ' 0-0-0',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/182192-darragh-kelly',
+    fighterB: 'Darragh Kelly'
+  }
+]
+,"Bellator MMA",
+"2",
+"Showtime"
+],
 ["Professional Fighters League",
 1635366600000,
 '',

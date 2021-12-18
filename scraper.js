@@ -9,6 +9,8 @@ let events = [
   "https://www.tapology.com/fightcenter/events/83406-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/83426-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/84662-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/85140-bellator-273-bader-vs-moldavsky",
+  "https://www.tapology.com/fightcenter/events/85214-bellator-mma",
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
   "https://www.tapology.com/fightcenter/events/80968-pfl-2021-10-championships",
