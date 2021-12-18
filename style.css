@@ -1003,12 +1003,7 @@ li span {
 
 @media only screen and (min-width: 475px) {
   html {
-    background-image: linear-gradient(
-      to right,
-      rgb(41, 41, 41),
-      rgb(65, 65, 65),
-      rgb(41, 41, 41)
-    );
+    background-color: #d3d3d3;
   }
 
   body {
@@ -1605,12 +1600,6 @@ h4:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: linear-gradient(
-    to right,
-    rgb(41, 41, 41),
-    rgb(65, 65, 65),
-    rgb(41, 41, 41)
-  );
 }
 
 #searchIcon {
