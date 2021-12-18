@@ -44,7 +44,6 @@ body {
 #content {
   position: absolute;
   left: 0;
-  background-color: #000;
   min-height: 100vh;
   z-index: 10;
 }
@@ -1603,7 +1602,7 @@ h4:hover {
   #content {
     position: absolute;
     left: 0;
-    background-color: #000;
+    background-color: #060606;
     min-height: 100vh;
     z-index: 10;
     box-shadow: 0px 0px 10px 0px black;
