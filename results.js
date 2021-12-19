@@ -1,100 +1,93 @@
 let resultsList = [
 {
-  winner: 'Charles Oliveira ',
-  time: '1:02 Round 3',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/dustin-poirier-the-diamond'
+  winner: 'Derrick Lewis ',
+  time: '3:36 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/25880-christopher-daukaus'
 }
 ,
 {
-  winner: 'Julianna Peña ',
+  winner: 'Belal Muhammad ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/16753-stephen-thompson-wonderboy'
+}
+,
+{
+  winner: 'Amanda Lemos ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/57525-angela-hill-overkill'
+}
+,
+{
+  winner: 'Ricky Simón ',
+  time: '2:14 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/raphael-assuncao'
+}
+,
+{
+  winner: 'Mateusz Gamrot ',
   time: '3:26 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/carlos-ferreira'
+}
+,
+{
+  winner: 'Cub Swanson ',
+  time: '2:12 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/darren-elkins'
+}
+,
+{
+  winner: 'Gerald Meerschaert ',
+  time: '2:59 Round 3',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/amanda-nunes-lioness-of-the-ring'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/34864-dustin-stoltzfus'
 }
 ,
 {
-  winner: 'Geoff Neal ',
+  winner: 'Justin Tafa ',
+  time: '1:54 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/24519-harry-hunsucker'
+}
+,
+{
+  winner: 'Melissa Gatto ',
+  time: '0:45 Round 3',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/56532-sajara-eubanks'
+}
+,
+{
+  winner: 'Charles Jourdain ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/29349-santiago-ponzinibbio-el-rasta'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/116569-andre-ewell'
 }
 ,
 {
-  winner: 'Kai Kara-France ',
-  time: '3:21 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/21780-cody-garbrandt-no-love'
-}
-,
-{
-  winner: "Sean O'Malley ",
-  time: '4:42 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/80405-raulian-paiva'
-}
-,
-{
-  winner: 'Josh Emmett ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/21178-dan-ige'
-}
-,
-{
-  winner: 'Dominick Cruz ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/5243-pedro-munoz-pedrinho'
-}
-,
-{
-  winner: 'Tai Tuivasa ',
-  time: '0:26 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/44468-augusto-sakai'
-}
-,
-{
-  winner: 'Bruno Silva ',
-  time: '1:28 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/105503-jordan-wright-the-beverly-hills-ninja'
-}
-,
-{
-  winner: 'André Muniz ',
-  time: '3:13 Round 1',
+  winner: 'Raquel Pennington ',
+  time: '3:07 Round 2',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/30666-eryk-anders'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/77737-macy-chiasson'
 }
 ,
 {
-  winner: 'Erin Blanchfield ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/116637-miranda-maverick'
-}
-,
-{
-  winner: 'Ryan Hall ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/19491-darrick-minner'
-}
-,
-{
-  winner: 'Tony Kelley ',
-  time: '4:15 Round 2',
+  winner: "Don'Tale Mayes ",
+  time: '3:26 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/65764-randy-costa'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/86139-josh-parisian'
 }
 ,
 {
-  winner: 'Gillian Robertson ',
-  time: '4:59 Round 1',
+  winner: 'Jordan Leavitt ',
+  time: '2:05 Round 2',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/128371-priscila-cachoeira'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/75678-matt-sayles-robo'
 }
 ,
 {
