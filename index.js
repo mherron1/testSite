@@ -456,29 +456,38 @@ const touchMove = (evt) => {
     changeX -= 50;
 
     content1.style.left = -changeX + "px";
+    content1.style.top = changeX / 8 + "px";
     contentPlus1.style.display = "block";
+    contentPlus1.style.top = 50 - changeX / 8 + "px";
+    contentPlus1.style.left = 110 - changeX / 3.6 + "vw";
     evt.preventDefault();
   } else if (changeX < -50 && notFirst) {
     swiping = true;
     changeX += 50;
     content1.style.left = -changeX + "px";
+    content1.style.top = -changeX / 8 + "px";
     contentMinus1.style.display = "block";
+    contentMinus1.style.top = 50 + changeX / 8 + "px";
+    contentMinus1.style.left = -110 - changeX / 3.6 + "vw";
     evt.preventDefault();
   }
 };
 
 const touchEnd = (evt) => {
+  content1.style.top = 0;
   var changeX = startingX - evt.changedTouches[0].clientX;
   var third = screen.width / 4;
   if (changeX < third && changeX > -third) {
     content1.style.left = -changeX + "px";
     content1.style.left = 0;
+    content1.style.top = 0;
     content1.classList.add("notransition");
     contentPlus1.style.display = "none";
     contentMinus1.style.display = "none";
   } else if (changeX > 0 && notLast) {
     content1.style.transition = "all .2s";
     content1.style.left = "-102%";
+    content1.style.top = 0;
     content1.classList.add("notransition");
     contentPlus1.style.left = "0";
     i++;
