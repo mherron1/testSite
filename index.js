@@ -495,6 +495,7 @@ const touchEnd = (evt) => {
     setTimeout(function () {
       content1.classList.add("notransition");
       contentPlus1.classList.add("notransition");
+      contentMinus1.classList.add("notransition");
       contentPlus1.style.left = "0";
       i++;
       create();
@@ -511,6 +512,7 @@ const touchEnd = (evt) => {
     showResults = false;
     setTimeout(function () {
       content1.classList.add("notransition");
+      contentPlus1.classList.add("notransition");
       contentMinus1.classList.add("notransition");
       contentMinus1.style.left = "0";
       i--;
