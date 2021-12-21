@@ -458,28 +458,35 @@ const touchMove = (evt) => {
 
     content1.style.left = -changeX + "px";
     contentPlus1.style.display = "block";
+    contentPlus1.style.left = 101 - changeX / 4.15 + "vw";
     evt.preventDefault();
   } else if (changeX < -50 && notFirst) {
     swiping = true;
     changeX += 50;
     content1.style.left = -changeX + "px";
     contentMinus1.style.display = "block";
+    contentMinus1.style.left = -101 - changeX / 4.15 + "vw";
     evt.preventDefault();
   }
 };
 
 const touchEnd = (evt) => {
   content1.classList.remove("notransition");
+  contentPlus1.classList.remove("notransition");
+  contentMinus1.classList.remove("notransition");
   var changeX = startingX - evt.changedTouches[0].clientX;
   var third = screen.width / 4;
   if (changeX < third && changeX > -third) {
     content1.style.left = -changeX + "px";
     content1.style.left = 0;
     content1.classList.add("");
-    contentPlus1.style.display = "none";
-    contentMinus1.style.display = "none";
+    // contentPlus1.style.display = "none";
+    //contentMinus1.style.display = "none";
   } else if (changeX > 0 && notLast) {
     content1.style.transition = "all .2s";
+    contentPlus1.style.transition = "all .2s";
+    contentMinus1.style.transition = "all .2s";
+    contentPlus1.style.left = "0";
     content1.style.left = "-102%";
     if (i > events.length - 1) {
       i = 0;
@@ -487,6 +494,7 @@ const touchEnd = (evt) => {
     showResults = false;
     setTimeout(function () {
       content1.classList.add("notransition");
+      contentPlus1.classList.add("notransition");
       contentPlus1.style.left = "0";
       i++;
       create();
@@ -495,6 +503,7 @@ const touchEnd = (evt) => {
   } else if (changeX < 0 && notFirst) {
     content1.style.transition = "all .2s";
     content1.style.left = "+102%";
+    contentMinus1.style.left = "0";
     if (i < 0) {
       i = events.length - 1;
     }
@@ -502,6 +511,7 @@ const touchEnd = (evt) => {
     showResults = false;
     setTimeout(function () {
       content1.classList.add("notransition");
+      contentMinus1.classList.add("notransition");
       contentMinus1.style.left = "0";
       i--;
       create();
