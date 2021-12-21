@@ -449,6 +449,7 @@ var touch;
 let swiping = false;
 
 const touchMove = (evt) => {
+  content1.classList.remove("notransition");
   touch = evt.touches[0];
   var changeX = startingX - touch.clientX;
   if (changeX > 50 && notLast) {
@@ -473,33 +474,38 @@ const touchEnd = (evt) => {
   if (changeX < third && changeX > -third) {
     content1.style.left = -changeX + "px";
     content1.style.left = 0;
-    content1.classList.add("notransition");
+    content1.classList.add("");
     contentPlus1.style.display = "none";
     contentMinus1.style.display = "none";
   } else if (changeX > 0 && notLast) {
     content1.style.transition = "all .2s";
     content1.style.left = "-102%";
-    content1.classList.add("notransition");
-    contentPlus1.style.left = "0";
-    i++;
     if (i > events.length - 1) {
       i = 0;
     }
     showResults = false;
-    create();
+    setTimeout(function () {
+      content1.classList.add("notransition");
+      contentPlus1.style.left = "0";
+      i++;
+      create();
+    }, 250);
     // location.href = `./?${newPage}`;
   } else if (changeX < 0 && notFirst) {
     content1.style.transition = "all .2s";
     content1.style.left = "+102%";
-    content1.classList.add("notransition");
-    contentMinus1.style.left = "0";
-    i--;
     if (i < 0) {
       i = events.length - 1;
     }
     swiping = false;
     showResults = false;
-    create();
+    setTimeout(function () {
+      content1.classList.add("notransition");
+      contentMinus1.style.left = "0";
+      i--;
+      create();
+    }, 250);
+
     //location.href = `./?${newPage1}`;
   }
 };
