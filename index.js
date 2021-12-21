@@ -449,7 +449,7 @@ var touch;
 let swiping = false;
 
 const touchMove = (evt) => {
-  content1.classList.remove("notransition");
+  content1.classList.add("notransition");
   touch = evt.touches[0];
   var changeX = startingX - touch.clientX;
   if (changeX > 50 && notLast) {
@@ -469,6 +469,7 @@ const touchMove = (evt) => {
 };
 
 const touchEnd = (evt) => {
+  content1.classList.remove("notransition");
   var changeX = startingX - evt.changedTouches[0].clientX;
   var third = screen.width / 4;
   if (changeX < third && changeX > -third) {
