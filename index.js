@@ -504,6 +504,8 @@ const touchEnd = (evt) => {
     // location.href = `./?${newPage}`;
   } else if (changeX < 0 && notFirst) {
     content1.style.transition = "all .2s";
+    contentPlus1.style.transition = "all .2s";
+    contentMinus1.style.transition = "all .2s";
     content1.style.left = "+102%";
     contentMinus1.style.left = "0";
     if (i < 0) {
