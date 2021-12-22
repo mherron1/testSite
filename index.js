@@ -481,9 +481,8 @@ const touchEnd = (evt) => {
   if (changeX < third && changeX > -third) {
     content1.style.left = -changeX + "px";
     content1.style.left = 0;
-    content1.classList.add("");
-    // contentPlus1.style.display = "none";
-    //contentMinus1.style.display = "none";
+    contentPlus1.style.display = "none";
+    contentMinus1.style.display = "none";
   } else if (changeX > 0 && notLast) {
     content1.style.transition = "all .2s";
     contentPlus1.style.transition = "all .2s";
