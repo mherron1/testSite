@@ -1,370 +1,370 @@
 let obj = [
   {
-    row1: "Charles Oliveira",
-    row2: "110",
-  },
-  {
-    row1: "Dustin Poirier",
-    row2: "-130",
-  },
-  {
-    row1: "Amanda Nunes",
-    row2: "-1000",
-  },
-  {
-    row1: "Julianna Pena",
-    row2: "650",
-  },
-  {
-    row1: "Jorge Masvidal",
+    row1: "Jack Hermansson",
     row2: "",
   },
   {
-    row1: "Leon Edwards",
+    row1: "Sean Strickland",
     row2: "",
   },
   {
-    row1: "Geoff Neal",
-    row2: "-110",
+    row1: "Jennifer Maia",
+    row2: "140",
   },
   {
-    row1: "Santiago Ponzinibbio",
-    row2: "-110",
+    row1: "Katlyn Chookagian",
+    row2: "-160",
   },
   {
-    row1: "Cody Garbrandt",
-    row2: "-130",
+    row1: "Michel Pereira",
+    row2: "-125",
   },
   {
-    row1: "Kai Kara France",
-    row2: "110",
+    row1: "Muslim Salikhov",
+    row2: "105",
   },
   {
-    row1: "Raulian Paiva",
-    row2: "260",
-  },
-  {
-    row1: "Sean O'Malley",
-    row2: "-335",
-  },
-  {
-    row1: "Dan Ige",
+    row1: "Abdul Razak Alhassan",
     row2: "125",
   },
   {
-    row1: "Josh Emmett",
+    row1: "Joaquin Buckley",
     row2: "-145",
   },
   {
-    row1: "Dominick Cruz",
-    row2: "100",
-  },
-  {
-    row1: "Pedro Munhoz",
-    row2: "-120",
-  },
-  {
-    row1: "Augusto Sakai",
-    row2: "100",
-  },
-  {
-    row1: "Tai Tuivasa",
-    row2: "-120",
-  },
-  {
-    row1: "Bruno Silva",
-    row2: "-365",
-  },
-  {
-    row1: "Jordan Wright",
-    row2: "280",
-  },
-  {
-    row1: "Andre Muniz",
-    row2: "-165",
-  },
-  {
-    row1: "Eryk Anders",
-    row2: "145",
-  },
-  {
-    row1: "Erin Blanchfield",
-    row2: "120",
-  },
-  {
-    row1: "Miranda Maverick",
-    row2: "-140",
-  },
-  {
-    row1: "Darrick Minner",
-    row2: "170",
-  },
-  {
-    row1: "Ryan Hall",
-    row2: "-200",
-  },
-  {
-    row1: "Randy Costa",
+    row1: "Brandon Royval",
     row2: "-170",
   },
   {
-    row1: "Tony Kelley",
+    row1: "Rogerio Bontorin",
     row2: "150",
   },
   {
-    row1: "Alex Perez",
-    row2: "",
-  },
-  {
-    row1: "Matt Schnell",
-    row2: "",
-  },
-  {
-    row1: "Gillian Robertson",
-    row2: "-400",
-  },
-  {
-    row1: "Priscila Cachoeira",
-    row2: "300",
-  },
-  {
-    row1: "Event props",
-    row2: "",
-  },
-  {
-    row1: "Last change: < 1 min ago",
-    row2: "",
-  },
-  {
-    row1: "ARES FCDecember 11th",
-    row2: "-900",
-  },
-  {
-    row1: "",
-    row2: "DraftKings",
-  },
-  {
-    row1: "Daguir Imavov",
-    row2: "",
-  },
-  {
-    row1: "David Tonatiuh Crol",
-    row2: "",
-  },
-  {
-    row1: "Taylor Lapilus",
-    row2: "",
-  },
-  {
-    row1: "Wilson Reis",
-    row2: "",
-  },
-  {
-    row1: "Abdoul Abdouraguimov",
-    row2: "",
-  },
-  {
-    row1: "Luciano Contini",
-    row2: "",
-  },
-  {
-    row1: "Gisele Moreira",
-    row2: "",
-  },
-  {
-    row1: "Rizlen Zouak",
-    row2: "",
-  },
-  {
-    row1: "Emil Weber Meek",
-    row2: "",
-  },
-  {
-    row1: "Louis Glismann",
-    row2: "",
-  },
-  {
-    row1: "Daguir Imavov",
-    row2: "",
-  },
-  {
-    row1: "Jose Marcos",
-    row2: "",
-  },
-  {
-    row1: "Last change: 1 hr 28 min ago",
-    row2: "-365",
-  },
-  {
-    row1: "CAGE WARRIORS 132December 11th",
-    row2: "280",
-  },
-  {
-    row1: "",
-    row2: "DraftKings",
-  },
-  {
-    row1: "Kent Kauppinen",
-    row2: "",
-  },
-  {
-    row1: "Mateusz Figlak",
-    row2: "",
-  },
-  {
-    row1: "Carlos Abreu",
-    row2: "",
-  },
-  {
-    row1: "Dominique Wooding",
-    row2: "",
-  },
-  {
-    row1: "Luke Shanks",
-    row2: "",
-  },
-  {
-    row1: "Sam Creasey",
-    row2: "",
-  },
-  {
-    row1: "Jamie Richardson",
-    row2: "",
-  },
-  {
-    row1: "Leonardo Damiani",
-    row2: "",
-  },
-  {
-    row1: "Aaron Aby",
-    row2: "",
-  },
-  {
-    row1: "Samir Faiddine",
-    row2: "",
-  },
-  {
-    row1: "Aidan Stephen",
-    row2: "",
-  },
-  {
-    row1: "Edward Walls",
-    row2: "",
-  },
-  {
-    row1: "Konmon Deh",
-    row2: "",
-  },
-  {
-    row1: "Paull McBain",
-    row2: "",
-  },
-  {
-    row1: "Mike Figlak",
-    row2: "",
-  },
-  {
-    row1: "Stevie McIntosh",
-    row2: "",
-  },
-  {
-    row1: "Jair Junior",
-    row2: "",
-  },
-  {
-    row1: "Tobias Harila",
-    row2: "",
-  },
-  {
-    row1: "Aidan James",
-    row2: "",
-  },
-  {
-    row1: "Tanio Pagliariccio",
-    row2: "",
-  },
-  {
-    row1: "Lone'er Kavanagh",
-    row2: "",
-  },
-  {
-    row1: "Maximilien Vallot",
-    row2: "",
-  },
-  {
-    row1: "Last change: 1 hr 39 min ago",
-    row2: "",
-  },
-  {
-    row1: "UFC FIGHT NIGHT: LEWIS VS. DAUKAUSDecember 18th",
-    row2: "",
-  },
-  {
-    row1: "",
-    row2: "DraftKings",
-  },
-  {
-    row1: "Chris Daukaus",
-    row2: "-140",
-  },
-  {
-    row1: "Derrick Lewis",
-    row2: "120",
-  },
-  {
-    row1: "Belal Muhammad",
-    row2: "200",
-  },
-  {
-    row1: "Stephen Thompson",
+    row1: "Kleydson Rodrigues",
     row2: "-250",
   },
   {
-    row1: "Cub Swanson",
-    row2: "-200",
+    row1: "Zarrukh Adashev",
+    row2: "200",
   },
   {
-    row1: "Darren Elkins",
+    row1: "Bill Algeo",
+    row2: "100",
+  },
+  {
+    row1: "Joanderson Brito",
+    row2: "-120",
+  },
+  {
+    row1: "Brian Kelleher",
+    row2: "135",
+  },
+  {
+    row1: "Saidyokub Kakhramonov",
+    row2: "-155",
+  },
+  {
+    row1: "Chase Sherman",
+    row2: "105",
+  },
+  {
+    row1: "Jake Collier",
+    row2: "-125",
+  },
+  {
+    row1: "Court McGee",
+    row2: "-110",
+  },
+  {
+    row1: "Ramiz Brahimaj",
+    row2: "-110",
+  },
+  {
+    row1: "Dakota Bush",
     row2: "170",
   },
   {
-    row1: "Amanda Lemos",
-    row2: "-410",
+    row1: "Viacheslav Borshchev",
+    row2: "-200",
   },
   {
-    row1: "Angela Hill",
-    row2: "310",
+    row1: "Caio Borralho",
+    row2: "-255",
   },
   {
-    row1: "Carlos Diego Ferreira",
-    row2: "155",
+    row1: "Jamie Pickett",
+    row2: "205",
   },
   {
-    row1: "Mateusz Gamrot",
+    row1: "Silvana Gomez Juarez.",
+    row2: "-120",
+  },
+  {
+    row1: "Vanessa Demopoulos",
+    row2: "100",
+  },
+  {
+    row1: "Gabriel Benitez",
+    row2: "-200",
+  },
+  {
+    row1: "T.J. Brown",
+    row2: "170",
+  },
+  {
+    row1: "Last change: 1 hr 23 min ago",
+    row2: "",
+  },
+  {
+    row1: "UFC 270January 22nd",
+    row2: "",
+  },
+  {
+    row1: "",
+    row2: "DraftKings",
+  },
+  {
+    row1: "Ciryl Gane",
+    row2: "-115",
+  },
+  {
+    row1: "Francis Ngannou",
+    row2: "-105",
+  },
+  {
+    row1: "Brandon Moreno",
+    row2: "-165",
+  },
+  {
+    row1: "Deiveson Figueiredo",
+    row2: "145",
+  },
+  {
+    row1: "Aleksei Oleinik",
+    row2: "145",
+  },
+  {
+    row1: "Greg Hardy",
+    row2: "-165",
+  },
+  {
+    row1: "Ilia Topuria",
+    row2: "-120",
+  },
+  {
+    row1: "Movsar Evloev",
+    row2: "100",
+  },
+  {
+    row1: "Rodolfo Vieira",
+    row2: "-280",
+  },
+  {
+    row1: "Wellington Turman",
+    row2: "225",
+  },
+  {
+    row1: "Cody Stamann",
+    row2: "170",
+  },
+  {
+    row1: "Said Nurmagomedov",
+    row2: "-200",
+  },
+  {
+    row1: "Michael Morales",
+    row2: "-140",
+  },
+  {
+    row1: "Trevin Giles",
+    row2: "120",
+  },
+  {
+    row1: "Genaro Valdez",
+    row2: "170",
+  },
+  {
+    row1: "Matt Frevola",
+    row2: "-200",
+  },
+  {
+    row1: "Alexa Grasso",
+    row2: "-130",
+  },
+  {
+    row1: "Viviane Araujo",
+    row2: "110",
+  },
+  {
+    row1: "Saimon Oliveira",
+    row2: "190",
+  },
+  {
+    row1: "Tony Gravely",
+    row2: "-235",
+  },
+  {
+    row1: "Ji Yeon Kim",
+    row2: "-135",
+  },
+  {
+    row1: "Poliana Botelho",
+    row2: "115",
+  },
+  {
+    row1: "Jack Della Maddalena",
     row2: "-180",
   },
   {
-    row1: "Raphael Assuncao",
-    row2: "220",
+    row1: "Warlley Alves",
+    row2: "155",
   },
   {
-    row1: "Ricky Simon",
+    row1: "Jasmine Jasudavicius",
+    row2: "185",
+  },
+  {
+    row1: "Kay Hansen",
+    row2: "-225",
+  },
+  {
+    row1: "Last change: 1 hr 21 min ago",
+    row2: "",
+  },
+  {
+    row1: "UFC FIGHT NIGHT 202February 5th",
+    row2: "",
+  },
+  {
+    row1: "",
+    row2: "DraftKings",
+  },
+  {
+    row1: "Ian Heinisch",
+    row2: "",
+  },
+  {
+    row1: "Sam Alvey",
+    row2: "",
+  },
+  {
+    row1: "Hakeem Dawodu",
+    row2: "",
+  },
+  {
+    row1: "Michael Trizano",
+    row2: "",
+  },
+  {
+    row1: "Carlston Harris",
+    row2: "",
+  },
+  {
+    row1: "Shavkat Rakhmonov",
+    row2: "",
+  },
+  {
+    row1: "Nick Maximov",
+    row2: "",
+  },
+  {
+    row1: "Punahele Soriano",
+    row2: "",
+  },
+  {
+    row1: "Jason Witt",
+    row2: "",
+  },
+  {
+    row1: "Philip Rowe",
+    row2: "",
+  },
+  {
+    row1: "Julian Erosa",
+    row2: "",
+  },
+  {
+    row1: "Steven Peterson",
+    row2: "",
+  },
+  {
+    row1: "Danilo Marques",
+    row2: "",
+  },
+  {
+    row1: "Jailton Almeida",
+    row2: "",
+  },
+  {
+    row1: "John Castaneda",
+    row2: "",
+  },
+  {
+    row1: "Miles Johns",
+    row2: "",
+  },
+  {
+    row1: "Denys Bondar",
+    row2: "",
+  },
+  {
+    row1: "Malcolm Gordon",
+    row2: "",
+  },
+  {
+    row1: "Chidi Njokuani",
+    row2: "",
+  },
+  {
+    row1: "Marc-Andre Barriault",
+    row2: "",
+  },
+  {
+    row1: "Bryan Battle",
+    row2: "",
+  },
+  {
+    row1: "Tresean Gore",
+    row2: "",
+  },
+  {
+    row1: "Last change: 2 hr 53 min ago",
+    row2: "-410",
+  },
+  {
+    row1: "UFC FIGHT NIGHT 203February 26th",
+    row2: "310",
+  },
+  {
+    row1: "",
+    row2: "DraftKings",
+  },
+  {
+    row1: "Beneil Dariush",
+    row2: "",
+  },
+  {
+    row1: "Islam Makhachev",
+    row2: "",
+  },
+  {
+    row1: "Last change: 23 days ago",
     row2: "-275",
   },
   {
-    row1: "Julia Avila",
+    row1: "UFC FIGHT NIGHT 205March 19th",
     row2: "",
   },
   {
-    row1: "Raquel Pennington",
+    row1: "",
+    row2: "DraftKings",
+  },
+  {
+    row1: "Aleksandar Rakic",
     row2: "",
   },
   {
-    row1: "Abusupiyan Magomedov",
-    row2: "",
-  },
-  {
-    row1: "Gerald Meerschaert",
+    row1: "Jan Blachowicz",
     row2: "",
   },
   {

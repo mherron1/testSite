@@ -1,6 +1,6 @@
 let data = [
 ["Ultimate Fighting Championship",
-1642287600000,
+1642280400000,
 '',
 [
   {
@@ -636,7 +636,7 @@ let data = [
   {
     fighterA: 'Jesse Strader',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/78843-jesse-strader',
-    rankA: '#260',
+    rankA: '#213',
     recordA: '5-2-0 ',
     weight: '135',
     recordB: ' 11-5-0',
@@ -658,11 +658,11 @@ let data = [
   {
     fighterA: 'Chas Skelly',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/chas-skelly',
-    rankA: '#65',
+    rankA: '#62',
     recordA: '18-3-0 ',
     weight: '145',
     recordB: ' 18-3-0',
-    rankB: '#132',
+    rankB: '#163',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/15454-mark-striegl-mugen',
     fighterB: 'Mark Striegl'
   },
@@ -691,11 +691,11 @@ let data = [
   {
     fighterA: 'Diana Belbiţă',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/76509-diana-belbita',
-    rankA: '#53',
+    rankA: '#45',
     recordA: '14-6-0 ',
     weight: '115',
     recordB: ' 5-4-0',
-    rankB: '#66',
+    rankB: '#71',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/137395-gloria-de-paula-glorinha',
     fighterB: 'Gloria de Paula'
   }
@@ -823,13 +823,24 @@ let data = [
     recordA: '15-10-0 ',
     weight: '125',
     recordB: ' 8-1-0',
-    rankB: '#17',
+    rankB: '#13',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/136168-manon-fiorot',
     fighterB: 'Manon Fiorot'
+  },
+  {
+    fighterA: 'Maryna Moroz',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/73990-marina-moroz',
+    rankA: '#25',
+    recordA: '10-3-0 ',
+    weight: '125',
+    recordB: ' 10-2-0',
+    rankB: '#29',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/156192-mariya-agapova',
+    fighterB: 'Mariya Agapova'
   }
 ]
 ,"UFC 272",
-"0",
+"1",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Bellator MMA",
@@ -868,6 +879,17 @@ let data = [
     rankB: '#120',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/54327-jaleel-willis',
     fighterB: 'Jaleel Willis'
+  },
+  {
+    fighterA: 'Romero Cotton',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/161573-romero-cotton',
+    rankA: '#148',
+    recordA: '5-0-0 ',
+    weight: '185',
+    recordB: ' 5-0-0',
+    rankB: '#140',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/152013-dalton-rosta',
+    fighterB: 'Dalton Rosta'
   }
 ]
 ,"Bellator 273",
