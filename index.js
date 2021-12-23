@@ -474,7 +474,6 @@ const touchEnd = (evt) => {
   var changeX = startingX - evt.changedTouches[0].clientX;
   var third = screen.width / 2;
   if (changeX < third && changeX > -third) {
-    console.log("nope");
     content1.style.transition = "0.2s";
     contentPlus1.style.transition = "0.2s";
     contentMinus1.style.transition = "0.2s";
@@ -487,17 +486,27 @@ const touchEnd = (evt) => {
       content1.style.transition = "0s";
       contentPlus1.style.transition = "0s";
       contentMinus1.style.transition = "0s";
-    }, 250);
+    }, 201);
   } else if (changeX > 0 && notLast) {
-    content1.style.left = "-102%";
+    console.log("this way");
+    content1.style.transition = "0.2s";
+    contentPlus1.style.transition = "0.2s";
+    contentMinus1.style.transition = "0.2s";
+    content1.style.left = -100 + "vw";
     contentPlus1.style.left = "0";
-    i++;
-    if (i > events.length - 1) {
-      i = 0;
-    }
-    showResults = false;
-    create();
-    // location.href = `./?${newPage}`;
+    setTimeout(() => {
+      contentPlus1.style.display = "none";
+      contentMinus1.style.display = "none";
+      content1.style.transition = "0s";
+      contentPlus1.style.transition = "0s";
+      contentMinus1.style.transition = "0s";
+      i++;
+      if (i > events.length - 1) {
+        i = 0;
+      }
+      showResults = false;
+      create();
+    }, 201);
   } else if (changeX < 0 && notFirst) {
     content1.style.left = "+102%";
     contentMinus1.style.left = "0";
