@@ -487,7 +487,7 @@ const touchEnd = (evt) => {
       content1.style.transition = "0s";
       contentPlus1.style.transition = "0s";
       contentMinus1.style.transition = "0s";
-    }, 600);
+    }, 250);
   } else if (changeX > 0 && notLast) {
     content1.style.left = "-102%";
     contentPlus1.style.left = "0";
