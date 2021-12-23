@@ -488,7 +488,7 @@ a {
   position: fixed;
   font-size: 35px;
   right: -58px;
-  top: 40px;
+  top: 7px;
 }
 
 .switch {
@@ -1757,5 +1757,25 @@ h4:hover {
   display: none;
 }
 #paypalLink {
+  display: none;
+}
+
+#top_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 48px;
+  width: 60px;
+  background-color: #f8f8f8;
+  z-index: 1000;
+}
+#top_left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 48px;
+  width: 90px;
+  background-color: #f8f8f8;
+  z-index: 100000;
   display: none;
 }

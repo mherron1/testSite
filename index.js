@@ -459,9 +459,7 @@ const touchMove = (evt) => {
     swiping = true;
     changeX -= 50;
     content1.style.left = -changeX + "px";
-    content1.style.filter = "brightness(" + (100 - percentSwipe) + "%)";
     contentPlus1.style.left = "100vw";
-    contentPlus1.style.filter = "brightness(" + percentSwipe + "%)";
     contentPlus1.style.display = "block";
     contentPlus1.style.left = +screen.width + 4 - changeX + "px";
     evt.preventDefault();
@@ -469,9 +467,7 @@ const touchMove = (evt) => {
     swiping = true;
     changeX += 50;
     content1.style.left = -changeX + "px";
-    content1.style.filter = "brightness(" + (100 + percentSwipe) + "%)";
     contentMinus1.style.left = "100vw";
-    contentMinus1.style.filter = "brightness(" + -percentSwipe + "%)";
     contentMinus1.style.left = "-100vw";
     contentMinus1.style.display = "block";
     contentMinus1.style.left = -screen.width - 4 - changeX + "px";
@@ -480,9 +476,6 @@ const touchMove = (evt) => {
 };
 
 const touchEnd = (evt) => {
-  content1.style.filter = "brightness(100%)";
-  contentPlus1.style.filter = "brightness(100%)";
-  contentMinus1.style.filter = "brightness(100%)";
   var changeX = startingX - evt.changedTouches[0].clientX;
   var third = screen.width / 4;
   if (changeX < third && changeX > -third) {
