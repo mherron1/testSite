@@ -508,16 +508,26 @@ const touchEnd = (evt) => {
       create();
     }, 201);
   } else if (changeX < 0 && notFirst) {
-    content1.style.left = "+102%";
+    content1.style.transition = "0.2s";
+    contentPlus1.style.transition = "0.2s";
+    contentMinus1.style.transition = "0.2s";
+    content1.style.left = 102 + "vw";
     contentMinus1.style.left = "0";
-    i--;
-    if (i < 0) {
-      i = events.length - 1;
-    }
-    swiping = false;
-    showResults = false;
-    create();
-    //location.href = `./?${newPage1}`;
+
+    setTimeout(() => {
+      contentPlus1.style.display = "none";
+      contentMinus1.style.display = "none";
+      content1.style.transition = "0s";
+      contentPlus1.style.transition = "0s";
+      contentMinus1.style.transition = "0s";
+      i--;
+      if (i < 0) {
+        i = events.length - 1;
+      }
+      swiping = false;
+      showResults = false;
+      create();
+    }, 201);
   }
 };
 
