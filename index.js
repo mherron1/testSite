@@ -454,7 +454,6 @@ const touchMove = (evt) => {
   if (changeX > 50 && notLast) {
     swiping = true;
     changeX -= 50;
-
     content1.style.left = -changeX + "px";
     contentPlus1.style.left = "100vw";
     contentPlus1.style.display = "block";
@@ -473,16 +472,24 @@ const touchMove = (evt) => {
 
 const touchEnd = (evt) => {
   var changeX = startingX - evt.changedTouches[0].clientX;
-  var third = screen.width / 4;
+  var third = screen.width / 3;
   if (changeX < third && changeX > -third) {
-    content1.style.left = -changeX + "px";
-    content1.style.left = 0;
+    console.log("nope");
+    content1.style.transition = "0.2s";
+    contentPlus1.style.transition = "0.2s";
+    contentMinus1.style.transition = "0.2s";
+    content1.style.left = "0";
     contentMinus1.style.left = "-100vw";
     contentPlus1.style.left = "100vw";
+    setTimeout(() => {
+      contentPlus1.style.display = "none";
+      contentMinus1.style.display = "none";
+      content1.style.transition = "0s";
+      contentPlus1.style.transition = "0s";
+      contentMinus1.style.transition = "0s";
+    }, 600);
   } else if (changeX > 0 && notLast) {
-    content1.style.transition = "all .2s";
     content1.style.left = "-102%";
-    content1.classList.add("notransition");
     contentPlus1.style.left = "0";
     i++;
     if (i > events.length - 1) {
@@ -492,9 +499,7 @@ const touchEnd = (evt) => {
     create();
     // location.href = `./?${newPage}`;
   } else if (changeX < 0 && notFirst) {
-    content1.style.transition = "all .2s";
     content1.style.left = "+102%";
-    content1.classList.add("notransition");
     contentMinus1.style.left = "0";
     i--;
     if (i < 0) {
