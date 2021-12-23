@@ -472,7 +472,7 @@ const touchMove = (evt) => {
 
 const touchEnd = (evt) => {
   var changeX = startingX - evt.changedTouches[0].clientX;
-  var third = screen.width / 3;
+  var third = screen.width / 2;
   if (changeX < third && changeX > -third) {
     console.log("nope");
     content1.style.transition = "0.2s";
