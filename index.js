@@ -647,7 +647,8 @@ function generateCard(i, arg) {
 
 <br>
 <br>
-<br>
+<center><h4 style="margin-bottom:10px;">Share</h4></center>
+
 
 <div class="socialSharingContainer">
 
