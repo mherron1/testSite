@@ -1779,7 +1779,7 @@ h4:hover {
     height: 49px;
     width: 90px;
     background-color: #f8f8f8;
-    z-index: 0;
+    z-index: 25;
     display: block;
   }
 
@@ -1793,6 +1793,7 @@ h4:hover {
     background-color: transparent;
     border: none;
     color: black;
+    display: none;
   }
 }
 
