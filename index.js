@@ -632,8 +632,6 @@ function generateCard(i, arg) {
   <button id="searchIcon" onclick="openSearchContainer()">
   <i class="fa fa-search"></i>
 </button>
-<div id="lineBreakLeft"></div>
-<div id="lineBreakRight"></div>
 
 <h2 style="background-color:none" id="mainHeader${arg}"></h2>
 <div id="imageContainer${arg}">
