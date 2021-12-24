@@ -312,7 +312,7 @@ body {
 
 /*hamburger*/
 .hamburger {
-  position: fixed;
+  position: absolute;
   background-color: none;
   right: 6px;
   top: 4px;
@@ -1724,7 +1724,7 @@ h4:hover {
   margin-bottom: 0px;
   margin-left: 0px;
   /*box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 2px;
-    */
+      */
 }
 
 .rightFighterContainer {
@@ -1732,7 +1732,7 @@ h4:hover {
   margin-bottom: 0px;
   margin-left: 0px;
   /*box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 2px;
-    */
+      */
 }
 
 .middleFighterContainer {
@@ -1740,20 +1740,20 @@ h4:hover {
   margin-bottom: 0px;
   margin-left: 0px;
   /*box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 2px;
-
-  */
+  
+    */
 }
 /*
-
-#imageContainer,
-#imageContainerPlus1,
-#imageContainerMinus1 {
-  border-radius: 10px;
-  margin: 5px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
-}
-
-*/
+  
+  #imageContainer,
+  #imageContainerPlus1,
+  #imageContainerMinus1 {
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
+  }
+  
+  */
 
 #paypalLink2 {
   display: none;
@@ -1779,7 +1779,7 @@ h4:hover {
     height: 49px;
     width: 90px;
     background-color: #f8f8f8;
-    z-index: 100;
+    z-index: 0;
     display: block;
   }
 
@@ -1793,22 +1793,6 @@ h4:hover {
     background-color: transparent;
     border: none;
     color: black;
-  }
-
-  #content {
-    top: 49px;
-  }
-
-  #contentMinus1 {
-  }
-  #contentPlus1 {
-  }
-  #mainHeader {
-    position: fixed;
-    z-index: 100000;
-    width: 100%;
-    background-color: #f8f8f8;
-    top: 0;
   }
 }
 

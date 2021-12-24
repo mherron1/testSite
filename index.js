@@ -20,10 +20,10 @@ if (localStorage.getItem("dark-mode") !== null) {
   }
 } else {
   /*
-  let darkMode = document.querySelector("#darkInput");
-  darkMode.checked = true;
-  toggleStyleSheets();
-  */
+    let darkMode = document.querySelector("#darkInput");
+    darkMode.checked = true;
+    toggleStyleSheets();
+    */
 }
 
 let oddsType = "line";
@@ -226,16 +226,16 @@ function toggleD() {
       mainTime.textContent = `Main: ${mainCardTime}`;
 
       mainTime.innerHTML += `
-      <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
-       `;
+        <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
+         `;
     } else {
       detail.style.display = "flex";
 
       mainTime.textContent = `Main: ${mainCardTime}`;
 
       mainTime.innerHTML += `
-      <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_less</i>
-       `;
+        <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_less</i>
+         `;
     }
   });
   let detailsRight = document.querySelectorAll(`.detailsRight`);
@@ -343,9 +343,9 @@ function toggleSideNav() {
 function generateLinks() {
   let eventList = document.querySelector("#eventList");
   eventList.innerHTML = `
-  <i class="material-icons" id ="settingsIcon" onclick="toggleSettings()">settings</i>
-  
-  `;
+    <i class="material-icons" id ="settingsIcon" onclick="toggleSettings()">settings</i>
+    
+    `;
 
   let eventLimit = events.length;
   if (events.length > 25) {
@@ -374,13 +374,13 @@ function generateLinks() {
 
       let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
       eventList.innerHTML += `  
-        <div class="eventLink" onclick="selectCard(${i})">
-           <div class="eventLinkDate">${events[i][7]}</div>
-            <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
-        
-           <div class="eventLinkText">${events[i][4]}</div>
-        </div>
-    `;
+          <div class="eventLink" onclick="selectCard(${i})">
+             <div class="eventLinkDate">${events[i][7]}</div>
+              <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
+          
+             <div class="eventLinkText">${events[i][4]}</div>
+          </div>
+      `;
     }
   }
   eventList.innerHTML += `<br>`;
@@ -404,13 +404,13 @@ function generateLinks() {
 
       let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
       eventList.innerHTML += `  
-        <div class="eventLink" onclick="selectCard(${i})">
-           <div class="eventLinkDate">${date}</div>
-            <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
-        
-           <div class="eventLinkText">${events[i][4]}</div>
-        </div>
-    `;
+          <div class="eventLink" onclick="selectCard(${i})">
+             <div class="eventLinkDate">${date}</div>
+              <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
+          
+             <div class="eventLinkText">${events[i][4]}</div>
+          </div>
+      `;
     }
   }
   eventList.innerHTML += `<br><br>`;
@@ -629,75 +629,74 @@ function generateCard(i, arg) {
 
   let content = document.querySelector(`#content${arg}`);
   content.innerHTML = `
-  <button id="searchIcon" onclick="openSearchContainer()">
-  <i class="fa fa-search"></i>
-</button>
+    <button id="searchIcon" onclick="openSearchContainer()">
+    <i class="fa fa-search"></i>
+  </button>
+  
+  <h2 style="background-color:none" id="mainHeader${arg}"></h2>
+  <div id="imageContainer${arg}">
+  </div>
+  <div id="mainTime${arg}"></div>
+  <div id="mainCard${arg}"></div> 
+  <div id="prelimsTime${arg}"></div>
+  <div id="prelimsCard${arg}"></div> 
+  <div id="videoGallery${arg}"></div>
+  <div id="broadcastInfo" ${broadcastStyle}> ${events[i][6]}</div>
+  
+  
+  
+  <br>
+  <br><br>
 
-<h2 id="mainHeader${arg}"></h2>
-<div id="imageContainer${arg}">
-</div>
-<div id="mainTime${arg}"></div>
-<div id="mainCard${arg}"></div> 
-<div id="prelimsTime${arg}"></div>
-<div id="prelimsCard${arg}"></div> 
-<div id="videoGallery${arg}"></div>
-<div id="broadcastInfo" ${broadcastStyle}> ${events[i][6]}</div>
-
-
-
-<br>
-<br><br>
-<center><h4 style="margin-bottom:10px;">Share</h4></center>
-
-
-<div class="socialSharingContainer">
-
-<a href="https://twitter.com/intent/tweet?url=${window.location.href}" title="Twitter" target="_blank">
-				<svg class="socialSharingIcons" id="icon-twitter" viewBox="0 0 112.197 112.197"><circle cx="56.099" cy="56.098" r="56.098" fill="#1da1f2"></circle><path fill="#fff" d="M90.461 40.316a26.753 26.753.0 0 1-7.702 2.109 13.445 13.445.0 0 0 5.897-7.417 26.843 26.843.0 0 1-8.515 3.253 13.396 13.396.0 0 0-9.79-4.233c-7.404.0-13.409 6.005-13.409 13.409.0 1.051.119 2.074.349 3.056-11.144-.559-21.025-5.897-27.639-14.012a13.351 13.351.0 0 0-1.816 6.742c0 4.651 2.369 8.757 5.965 11.161a13.314 13.314.0 0 1-6.073-1.679l-.001.17c0 6.497 4.624 11.916 10.757 13.147a13.362 13.362.0 0 1-3.532.471c-.866.0-1.705-.083-2.523-.239 1.706 5.326 6.657 9.203 12.526 9.312a26.904 26.904.0 0 1-16.655 5.74c-1.08.0-2.15-.063-3.197-.188a37.929 37.929.0 0 0 20.553 6.025c24.664.0 38.152-20.432 38.152-38.153.0-.581-.013-1.16-.039-1.734a27.192 27.192.0 0 0 6.692-6.94z"></path></svg>
-			</a>
-
-<a href="https://t.me/share/url?url=${window.location.href}" title="Telegram" target="_blank">
-				<svg class="socialSharingIcons" id="icon-telegram" viewBox="0 0 512 512"><circle cx="256" cy="256" r="256" fill="#08c"></circle><path fill="#fff" d="M221.138 293.3l115.691 87.347 58.399-249.287L96.771 248.759l90.817 30.081 165.743-111.176z"></path><path fill="#d2d2d7" d="M187.588 278.84l24.873 89.504 8.677-75.044 132.193-125.636z"></path><path fill="#b9b9be" d="M258.738 321.688l-46.277 46.656 8.677-75.044z"></path></svg>
-			</a>
-
-      <a href="https://api.whatsapp.com/send?text=https://mmafightcards.org/" title="WhatsApp" target="_blank">
-      <img class="socialSharingIcons" src="https://mmafightcards.org/images/socialImages/whatsApp.jpg" ></img>
-      </a>
-
-      <a id="copyLinkElement" onclick="this.style.opacity = '1'"> <img  class="socialSharingIcons" src="https://cdn1.iconfinder.com/data/icons/web-design-and-development-50/64/110-512.png"></img></a>
-
-</div>
-
-<br>
-<br>
-
-
-
-
-<div id="footerDiv">
-<a target="_blank"
-href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
-<div id="paypalLink2">Buy me a beer 🍻</div></a>
-    </div>
-`;
+  
+  
+  <div class="socialSharingContainer">
+  
+  <a href="https://twitter.com/intent/tweet?url=${window.location.href}" title="Twitter" target="_blank">
+                  <svg class="socialSharingIcons" id="icon-twitter" viewBox="0 0 112.197 112.197"><circle cx="56.099" cy="56.098" r="56.098" fill="#1da1f2"></circle><path fill="#fff" d="M90.461 40.316a26.753 26.753.0 0 1-7.702 2.109 13.445 13.445.0 0 0 5.897-7.417 26.843 26.843.0 0 1-8.515 3.253 13.396 13.396.0 0 0-9.79-4.233c-7.404.0-13.409 6.005-13.409 13.409.0 1.051.119 2.074.349 3.056-11.144-.559-21.025-5.897-27.639-14.012a13.351 13.351.0 0 0-1.816 6.742c0 4.651 2.369 8.757 5.965 11.161a13.314 13.314.0 0 1-6.073-1.679l-.001.17c0 6.497 4.624 11.916 10.757 13.147a13.362 13.362.0 0 1-3.532.471c-.866.0-1.705-.083-2.523-.239 1.706 5.326 6.657 9.203 12.526 9.312a26.904 26.904.0 0 1-16.655 5.74c-1.08.0-2.15-.063-3.197-.188a37.929 37.929.0 0 0 20.553 6.025c24.664.0 38.152-20.432 38.152-38.153.0-.581-.013-1.16-.039-1.734a27.192 27.192.0 0 0 6.692-6.94z"></path></svg>
+              </a>
+  
+  <a href="https://t.me/share/url?url=${window.location.href}" title="Telegram" target="_blank">
+                  <svg class="socialSharingIcons" id="icon-telegram" viewBox="0 0 512 512"><circle cx="256" cy="256" r="256" fill="#08c"></circle><path fill="#fff" d="M221.138 293.3l115.691 87.347 58.399-249.287L96.771 248.759l90.817 30.081 165.743-111.176z"></path><path fill="#d2d2d7" d="M187.588 278.84l24.873 89.504 8.677-75.044 132.193-125.636z"></path><path fill="#b9b9be" d="M258.738 321.688l-46.277 46.656 8.677-75.044z"></path></svg>
+              </a>
+  
+        <a href="https://api.whatsapp.com/send?text=https://mmafightcards.org/" title="WhatsApp" target="_blank">
+        <img class="socialSharingIcons" src="https://mmafightcards.org/images/socialImages/whatsApp.jpg" ></img>
+        </a>
+  
+        <a id="copyLinkElement" onclick="this.style.opacity = '1'"> <img  class="socialSharingIcons" src="https://cdn1.iconfinder.com/data/icons/web-design-and-development-50/64/110-512.png"></img></a>
+  
+  </div>
+  
+  <br>
+  
+  
+  
+  
+  <div id="footerDiv">
+  <a target="_blank"
+  href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
+  <div id="paypalLink2">Buy me a beer 🍻</div></a>
+      </div>
+  `;
 
   /*if (android === true) {
-    content.innerHTML += `
-    <div id="rateReview" style ="position:absolute; bottom:10px;right:15px; display: block;">
-    <p><a href="https://play.google.com/store/apps/details?id=org.mmafightcards.twa" target="_blank">Rate & Review</a></p>
-      </div>`;
-  }*/
+      content.innerHTML += `
+      <div id="rateReview" style ="position:absolute; bottom:10px;right:15px; display: block;">
+      <p><a href="https://play.google.com/store/apps/details?id=org.mmafightcards.twa" target="_blank">Rate & Review</a></p>
+        </div>`;
+    }*/
 
   let mainHeader = document.querySelector(`#mainHeader${arg}`);
   mainHeader.textContent += `${events[i][4]}`;
 
   mainHeader.innerHTML += `<div><span><i class="material-icons" id="shareIconTop" onclick="showShareButtons()">share</i></span></div>
-  <i class="material-icons" id ="settingsIconTop" onclick="toggleSettings()">settings</i>`;
+    <i class="material-icons" id ="settingsIconTop" onclick="toggleSettings()">settings</i>`;
 
   let imageContainer = document.querySelector(`#imageContainer${arg}`);
   imageContainer.innerHTML = `
-<img id="eventPoster${arg}" src=${events[i][2]}>
-`;
+  <img id="eventPoster${arg}" src=${events[i][2]}>
+  `;
 
   ////////////event date
   var d = new Date();
@@ -744,8 +743,8 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
   mainTime.textContent = `Main: ${mainCardTime}`;
 
   mainTime.innerHTML += `
-  <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
-   `;
+    <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
+     `;
   if (
     events[i][1] - nowEpochX < 504800000 &&
     events[i][1] - nowEpochX > -28800000
@@ -781,8 +780,45 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
     let nowEpoch = new Date().getTime();
     if (new Date(events[i][1]) - nowEpoch > delay) {
       imageDiv.innerHTML += `
-      
-        <div id="testDiv${arg}" onclick="countdownToggle()">
+        
+          <div id="testDiv${arg}" onclick="countdownToggle()">
+    
+            <div id="toggleContainer${arg}">
+    
+              <div id="countTogglePrelims${arg}">
+              <i class="fa fa-exchange" id="toggleIcon2${arg}"></i>
+                <p class="y"> Prelims </p>
+              </div>
+    
+            <div id="countToggleMain${arg}">
+            <i class="fa fa-exchange" id="toggleIcon1${arg}"></i>
+              <p class="y"> Main </p>
+            </div>
+              
+          </div>
+    
+          <div id="countdownPrelims${arg}">
+            <ul>
+              <li><span id="days${arg}"></span>days</li>
+              <li><span id="hours${arg}"></span>Hours</li>
+              <li><span id="minutes${arg}"></span>Minutes</li>
+            </ul>
+          </div>
+          
+          <div id="countdownMain${arg}">
+            <ul>
+              <li><span id="days2${arg}"></span>days</li>
+              <li><span id="hours2${arg}"></span>Hours</li>
+              <li><span id="minutes2${arg}"></span>Minutes</li>
+            </ul>
+          </div>
+          <div id="leftCurve${arg}"></div>
+          <div id="rightCurve${arg}"></div>
+          `;
+    } else {
+      imageDiv.innerHTML += `
+        <button id ="showResults" onclick="toggleResults()">Show/Hide Results</button>
+        <div id="testDiv${arg}" style = "visibility:hidden;" onclick="countdownToggle()">
   
           <div id="toggleContainer${arg}">
   
@@ -816,43 +852,6 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
         <div id="leftCurve${arg}"></div>
         <div id="rightCurve${arg}"></div>
         `;
-    } else {
-      imageDiv.innerHTML += `
-      <button id ="showResults" onclick="toggleResults()">Show/Hide Results</button>
-      <div id="testDiv${arg}" style = "visibility:hidden;" onclick="countdownToggle()">
-
-        <div id="toggleContainer${arg}">
-
-          <div id="countTogglePrelims${arg}">
-          <i class="fa fa-exchange" id="toggleIcon2${arg}"></i>
-            <p class="y"> Prelims </p>
-          </div>
-
-        <div id="countToggleMain${arg}">
-        <i class="fa fa-exchange" id="toggleIcon1${arg}"></i>
-          <p class="y"> Main </p>
-        </div>
-          
-      </div>
-
-      <div id="countdownPrelims${arg}">
-        <ul>
-          <li><span id="days${arg}"></span>days</li>
-          <li><span id="hours${arg}"></span>Hours</li>
-          <li><span id="minutes${arg}"></span>Minutes</li>
-        </ul>
-      </div>
-      
-      <div id="countdownMain${arg}">
-        <ul>
-          <li><span id="days2${arg}"></span>days</li>
-          <li><span id="hours2${arg}"></span>Hours</li>
-          <li><span id="minutes2${arg}"></span>Minutes</li>
-        </ul>
-      </div>
-      <div id="leftCurve${arg}"></div>
-      <div id="rightCurve${arg}"></div>
-      `;
     }
 
     if (arg === "") {
@@ -868,8 +867,8 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
     let nowEpoch = new Date().getTime();
     if (new Date(events[i][1]) - nowEpoch < 0) {
       imageDiv.innerHTML += `
-      <button id ="showResults" onclick="toggleResults()">Show/Hide Results</button>
-      `;
+        <button id ="showResults" onclick="toggleResults()">Show/Hide Results</button>
+        `;
     }
   }
 
@@ -1016,34 +1015,34 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
     }
 
     mainCard.innerHTML += `
-
   
-  <div class="left ${snippetA} leftFighterContainer">
-    <div>
-      <a href="${events[i][3][j].fighterALink}" target="_blank">${events[i][3][j].fighterA}</a>
-    </div>
-    <div class="detailsLeft${arg}">
-    <div style="color: ${colorA}; font-size:0.9rem; font-weight:bold;">${leftOdds}</div>        
-    <div >${events[i][3][j].rankA}</div>
-      <div>${events[i][3][j].recordA}</div>
-    </div>
-  </div>
-  <div  class="middle ${snippetC} middleFighterContainer" >vs
-   <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
-  </div>
-   
-  <div  class="right ${snippetB} rightFighterContainer">
-    <div>
-      <a href="${events[i][3][j].fighterBLink}" target="_blank" >${events[i][3][j].fighterB}</a>
-      
-    <div class="detailsRight${arg}">
-      <div>${events[i][3][j].recordB}</div>
-      <div>${events[i][3][j].rankB}</div>
-      <div style="color: ${colorB}; font-size:0.9rem; font-weight:bold;">${rightOdds}</div>        
+    
+    <div class="left ${snippetA} leftFighterContainer">
+      <div>
+        <a href="${events[i][3][j].fighterALink}" target="_blank">${events[i][3][j].fighterA}</a>
       </div>
-  </div>
-
-  `;
+      <div class="detailsLeft${arg}">
+      <div style="color: ${colorA}; font-size:0.9rem; font-weight:bold;">${leftOdds}</div>        
+      <div >${events[i][3][j].rankA}</div>
+        <div>${events[i][3][j].recordA}</div>
+      </div>
+    </div>
+    <div  class="middle ${snippetC} middleFighterContainer" >vs
+     <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
+    </div>
+     
+    <div  class="right ${snippetB} rightFighterContainer">
+      <div>
+        <a href="${events[i][3][j].fighterBLink}" target="_blank" >${events[i][3][j].fighterB}</a>
+        
+      <div class="detailsRight${arg}">
+        <div>${events[i][3][j].recordB}</div>
+        <div>${events[i][3][j].rankB}</div>
+        <div style="color: ${colorB}; font-size:0.9rem; font-weight:bold;">${rightOdds}</div>        
+        </div>
+    </div>
+  
+    `;
   }
 
   ////////////////////////////Prelims
@@ -1179,33 +1178,33 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
     }
 
     prelimsCard.innerHTML += `
-    
-    <div class="left ${snippetA} leftFighterContainer">
-    <div>
-        <a href="${events[i][3][j].fighterALink}" target="_blank" >${events[i][3][j].fighterA}</a>
-      </div>
-      <div class="detailsLeft${arg}">
-      <div style="color: ${colorA}; font-size:0.9rem; font-weight:bold;">${leftOdds}</div>        
-      <div>${events[i][3][j].rankA}</div>
-        <div>${events[i][3][j].recordA}</div>
-      </div>
-    </div>
-    <div  class="middle ${snippetC} middleFighterContainer">vs
-     <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
-    </div>
-     
-    <div class="right ${snippetB} rightFighterContainer">
+      
+      <div class="left ${snippetA} leftFighterContainer">
       <div>
-        <a href="${events[i][3][j].fighterBLink}" target="_blank" >${events[i][3][j].fighterB}</a>
-        
-      <div class="detailsRight${arg}">
-        <div>${events[i][3][j].recordB}</div>
-        <div>${events[i][3][j].rankB}</div>
-        <div style="color: ${colorB}; font-size:0.9rem; font-weight:bold;">${rightOdds}</div>        
+          <a href="${events[i][3][j].fighterALink}" target="_blank" >${events[i][3][j].fighterA}</a>
         </div>
-    </div>
-    
-    `;
+        <div class="detailsLeft${arg}">
+        <div style="color: ${colorA}; font-size:0.9rem; font-weight:bold;">${leftOdds}</div>        
+        <div>${events[i][3][j].rankA}</div>
+          <div>${events[i][3][j].recordA}</div>
+        </div>
+      </div>
+      <div  class="middle ${snippetC} middleFighterContainer">vs
+       <div class="detailsMiddle${arg}">${events[i][3][j].weight}</div>
+      </div>
+       
+      <div class="right ${snippetB} rightFighterContainer">
+        <div>
+          <a href="${events[i][3][j].fighterBLink}" target="_blank" >${events[i][3][j].fighterB}</a>
+          
+        <div class="detailsRight${arg}">
+          <div>${events[i][3][j].recordB}</div>
+          <div>${events[i][3][j].rankB}</div>
+          <div style="color: ${colorB}; font-size:0.9rem; font-weight:bold;">${rightOdds}</div>        
+          </div>
+      </div>
+      
+      `;
   }
 
   if (localStorage.getItem("details") !== null) {
@@ -1225,8 +1224,8 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
       mainTime.textContent = `Main: ${mainCardTime}`;
 
       mainTime.innerHTML += `
-      <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_less</i>
-       `;
+        <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_less</i>
+         `;
     } else if (localStorage.getItem("details") === "n") {
       let details = document.querySelector("#details");
       details.checked = false;
@@ -1252,9 +1251,9 @@ href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
 
   for (let v = 0; v < videos.length; v++) {
     videoGallery.innerHTML += `<div class="youtube-player" data-id="${videos[0]}"></div>
-    <br>
-    <br>
-    <br>`;
+      <br>
+      <br>
+      <br>`;
   }
   initYouTubeVideos();
 
@@ -1455,8 +1454,8 @@ function showShareButtons() {
   } else {
     sharingBtns.style.display = "block";
     /*setTimeout(() => {
-      sharingBtns.style.display = "none";
-    }, 5000);*/
+        sharingBtns.style.display = "none";
+      }, 5000);*/
   }
 }
 
@@ -1669,12 +1668,12 @@ function searchFighters() {
         entry.fighter.toLowerCase().includes(searchValue.value.toLowerCase())
       ) {
         searchResults.innerHTML += `
-          <div>
-          <li onclick="searchSelect(${entry.index} ,'${entry.fighter}' )" class="searchResultsItem">${entry.fighter}
-          <span class="searchResultDate">${entry.date}</span></li>
-          </div>
-          
-          `;
+            <div>
+            <li onclick="searchSelect(${entry.index} ,'${entry.fighter}' )" class="searchResultsItem">${entry.fighter}
+            <span class="searchResultDate">${entry.date}</span></li>
+            </div>
+            
+            `;
       }
     });
   }
