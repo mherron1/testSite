@@ -1800,6 +1800,7 @@ h4:hover {
   width: 180px;
   margin-left: 50%;
   transform: translateX(-50%);
+  position: relative;
 }
 
 .socialSharingIcons {
@@ -1809,4 +1810,8 @@ h4:hover {
 
 #shareIconTop {
   display: none;
+}
+
+.linkCopied:active {
+  opacity: 0.5;
 }

@@ -648,6 +648,7 @@ function generateCard(i, arg) {
 <br>
 <br>
 <br>
+
 <div class="socialSharingContainer">
 
 <a href="https://twitter.com/intent/tweet?url=${window.location.href}" title="Twitter" target="_blank">
@@ -662,9 +663,10 @@ function generateCard(i, arg) {
       <img class="socialSharingIcons" src="https://mmafightcards.org/images/socialImages/whatsApp.jpg" ></img>
       </a>
 
-      <a id="copy-share-link" onclick="navigator.clipboard.writeText('${window.location}');"> <img src="https://pic.onlinewebfonts.com/svg/img_263402.png" style="height:40px"></img></a>
+      <a onclick="copyLink()"> <img  class="socialSharingIcons linkCopied" src="https://pic.onlinewebfonts.com/svg/img_263402.png"></img></a>
 
 </div>
+
 <br>
 <br>
 
@@ -1691,3 +1693,7 @@ function searchSelect(w, search_string) {
 $("#closeSearch").click(function () {
   $("#searchContainer").toggle();
 });
+
+const copyLink = function () {
+  navigator.clipboard.writeText(window.location);
+};

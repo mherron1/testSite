@@ -1804,3 +1804,7 @@ h4:hover {
   height: 40px;
   border-radius: 50%;
 }
+
+#shareIconTop {
+  display: none;
+}
