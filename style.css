@@ -1797,6 +1797,7 @@ h4:hover {
 }
 
 .socialSharingContainer {
+  width: 180px;
   margin-left: 50%;
   transform: translateX(-50%);
 }
