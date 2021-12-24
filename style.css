@@ -617,8 +617,8 @@ input:checked + .slider:before {
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
-  border-radius: 5px;
-  border: 2px solid rgb(245, 245, 245);
+  border-radius: 2px;
+  border: 2px solid rgba(255, 255, 255, 1);
 
   background-color: rgba(255, 255, 255, 1);
 
