@@ -658,7 +658,7 @@ function generateCard(i, arg) {
 				<svg class="socialSharingIcons" id="icon-telegram" viewBox="0 0 512 512"><circle cx="256" cy="256" r="256" fill="#08c"></circle><path fill="#fff" d="M221.138 293.3l115.691 87.347 58.399-249.287L96.771 248.759l90.817 30.081 165.743-111.176z"></path><path fill="#d2d2d7" d="M187.588 278.84l24.873 89.504 8.677-75.044 132.193-125.636z"></path><path fill="#b9b9be" d="M258.738 321.688l-46.277 46.656 8.677-75.044z"></path></svg>
 			</a>
 
-      <a href="https://t.me/share/url?url={url}&text=${window.location.href}" title="Telegram" target="_blank">
+      <a href="https://api.whatsapp.com/send?text=https://mmafightcards.org/" title="WhatsApp" target="_blank">
       <img class="socialSharingIcons" src="https://mmafightcards.org/images/socialImages/whatsApp.jpg" ></img>
       </a>
 
