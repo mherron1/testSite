@@ -633,7 +633,7 @@ function generateCard(i, arg) {
   <i class="fa fa-search"></i>
 </button>
 
-<h2 style="background-color:none" id="mainHeader${arg}"></h2>
+<h2 id="mainHeader${arg}"></h2>
 <div id="imageContainer${arg}">
 </div>
 <div id="mainTime${arg}"></div>

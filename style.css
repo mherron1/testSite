@@ -312,7 +312,7 @@ body {
 
 /*hamburger*/
 .hamburger {
-  position: absolute;
+  position: fixed;
   background-color: none;
   right: 6px;
   top: 4px;
@@ -1779,7 +1779,7 @@ h4:hover {
     height: 49px;
     width: 90px;
     background-color: #f8f8f8;
-    z-index: 0;
+    z-index: 100;
     display: block;
   }
 
@@ -1793,6 +1793,22 @@ h4:hover {
     background-color: transparent;
     border: none;
     color: black;
+  }
+
+  #content {
+    top: 49px;
+  }
+
+  #contentMinus1 {
+  }
+  #contentPlus1 {
+  }
+  #mainHeader {
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+    background-color: #f8f8f8;
+    top: 0;
   }
 }
 
