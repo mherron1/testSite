@@ -1808,3 +1808,7 @@ h4:hover {
 #shareIconTop {
   display: none;
 }
+
+.linkCopied:active {
+  opacity: 0.5;
+}

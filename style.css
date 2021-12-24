@@ -1779,25 +1779,25 @@ h4:hover {
     height: 49px;
     width: 90px;
     background-color: #f8f8f8;
-    z-index: 100;
+    z-index: 0;
     display: block;
   }
 
   #searchIcon {
-    position: fixed;
-    top: 12px;
-    z-index: 10000;
-    left: 65px;
+    position: absolute;
+    top: 14px;
+    z-index: 1;
+    left: 30px;
     font-size: 20px;
     z-index: 10;
     background-color: transparent;
     border: none;
-    color: silver;
+    color: black;
   }
 }
 
 .socialSharingContainer {
-  width: 180px;
+  width: 190px;
   margin-left: 50%;
   transform: translateX(-50%);
   position: relative;
@@ -1806,12 +1806,17 @@ h4:hover {
 .socialSharingIcons {
   height: 40px;
   border-radius: 50%;
+  padding: 0px 2px;
 }
 
 #shareIconTop {
   display: none;
 }
 
-.linkCopied:active {
+.visited {
+  display: none;
+}
+
+#copyLinkElement {
   opacity: 0.5;
 }

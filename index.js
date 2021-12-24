@@ -663,7 +663,7 @@ function generateCard(i, arg) {
       <img class="socialSharingIcons" src="https://mmafightcards.org/images/socialImages/whatsApp.jpg" ></img>
       </a>
 
-      <a onclick="copyLink()"> <img  class="socialSharingIcons linkCopied" src="https://pic.onlinewebfonts.com/svg/img_263402.png"></img></a>
+      <a id="copyLinkElement" onclick="this.style.opacity = '1'"> <img  class="socialSharingIcons" src="https://pic.onlinewebfonts.com/svg/img_263402.png"></img></a>
 
 </div>
 
@@ -1693,7 +1693,3 @@ function searchSelect(w, search_string) {
 $("#closeSearch").click(function () {
   $("#searchContainer").toggle();
 });
-
-const copyLink = function () {
-  navigator.clipboard.writeText(window.location);
-};
