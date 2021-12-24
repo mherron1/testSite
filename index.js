@@ -646,7 +646,7 @@ function generateCard(i, arg) {
 
 
 <br>
-<br>
+<br><br>
 <center><h4 style="margin-bottom:10px;">Share</h4></center>
 
 
@@ -664,7 +664,7 @@ function generateCard(i, arg) {
       <img class="socialSharingIcons" src="https://mmafightcards.org/images/socialImages/whatsApp.jpg" ></img>
       </a>
 
-      <a id="copyLinkElement" onclick="this.style.opacity = '1'"> <img  class="socialSharingIcons" src="https://pic.onlinewebfonts.com/svg/img_263402.png"></img></a>
+      <a id="copyLinkElement" onclick="this.style.opacity = '1'"> <img  class="socialSharingIcons" src="https://cdn1.iconfinder.com/data/icons/web-design-and-development-50/64/110-512.png"></img></a>
 
 </div>
 

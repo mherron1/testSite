@@ -1797,7 +1797,7 @@ h4:hover {
 }
 
 .socialSharingContainer {
-  width: 190px;
+  width: 210px;
   margin-left: 50%;
   transform: translateX(-50%);
   position: relative;
@@ -1806,7 +1806,7 @@ h4:hover {
 .socialSharingIcons {
   height: 40px;
   border-radius: 50%;
-  padding: 0px 2px;
+  padding: 0px 4px;
 }
 
 #shareIconTop {

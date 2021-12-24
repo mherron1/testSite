@@ -1795,14 +1795,17 @@ h4:hover {
 }
 
 .socialSharingContainer {
-  width: 180px;
+  width: 206px;
   margin-left: 50%;
   transform: translateX(-50%);
+  position: relative;
+  padding-top: 4px;
 }
 
 .socialSharingIcons {
   height: 40px;
   border-radius: 50%;
+  padding: 0px 4px;
 }
 
 #shareIconTop {
@@ -1814,5 +1817,5 @@ h4:hover {
 }
 
 #copyLinkElement {
-  opacity: 0.5;
+  opacity: 0.66;
 }
