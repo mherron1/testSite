@@ -1793,3 +1793,14 @@ h4:hover {
     color: silver;
   }
 }
+
+.socialSharingContainer {
+  width: 220px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.socialSharingIcons {
+  height: 40px;
+  border-radius: 50%;
+}
