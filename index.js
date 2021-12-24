@@ -461,7 +461,7 @@ const touchMove = (evt) => {
     content1.style.left = -changeX + "px";
     contentPlus1.style.left = "100vw";
     contentPlus1.style.display = "block";
-    contentPlus1.style.left = +screen.width + 4 - changeX + "px";
+    contentPlus1.style.left = +screen.width - changeX + "px";
     evt.preventDefault();
   } else if (changeX < -50 && notFirst) {
     swiping = true;
@@ -470,7 +470,7 @@ const touchMove = (evt) => {
     contentMinus1.style.left = "100vw";
     contentMinus1.style.left = "-100vw";
     contentMinus1.style.display = "block";
-    contentMinus1.style.left = -screen.width - 4 - changeX + "px";
+    contentMinus1.style.left = -screen.width - changeX + "px";
     evt.preventDefault();
   }
 };
