@@ -662,7 +662,7 @@ function generateCard(i, arg) {
       <img class="socialSharingIcons" src="https://mmafightcards.org/images/socialImages/whatsApp.jpg" ></img>
       </a>
 
-      <a href="#" id="copy-share-link">  <img class="clipboard" src="https://pic.onlinewebfonts.com/svg/img_263402.png" style="height:40px"></img></a>
+      <a id="copy-share-link" onclick="navigator.clipboard.writeText('${window.location}');"> <img src="https://pic.onlinewebfonts.com/svg/img_263402.png" style="height:40px"></img></a>
 
 </div>
 <br>
