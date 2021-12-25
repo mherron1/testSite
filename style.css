@@ -1768,13 +1768,14 @@ h4:hover {
     top: 0;
     right: 0;
     height: 49px;
-    width: 90px;
+    width: 110px;
     background-image: linear-gradient(
       to left,
       #ffffff,
       #ffffff,
       #ffffff,
       #ffffff,
+      #ffffff77,
       rgba(255, 255, 255, 0)
     );
     z-index: 25;
@@ -1784,13 +1785,14 @@ h4:hover {
     top: 0;
     left: 0;
     height: 49px;
-    width: 100px;
+    width: 110px;
     background-image: linear-gradient(
       to right,
       #ffffff,
       #ffffff,
       #ffffff,
       #ffffff,
+      #ffffff77,
       rgba(255, 255, 255, 0)
     );
     z-index: 25;
