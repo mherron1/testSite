@@ -26,11 +26,11 @@ let assets = [
 
 let times = [
   {
-    date: "dec18",
+    date: "jan22",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2021, 11, 19, 00, 00, 00),
-    prelims: new Date(2021, 11, 18, 21, 00, 00),
-    videos: [],
+    time: new Date(2022, 0, 23, 03, 00, 00),
+    prelims: new Date(2022, 0, 22, 23, 00, 00),
+    videos: ["JZOI0bhnops"],
   },
 ];
 
