@@ -1821,3 +1821,10 @@ h4:hover {
 #copyLinkElement {
   opacity: 0.5;
 }
+
+#mobileSearch {
+  position: absolute;
+  top: 12px;
+  left: 30%;
+  font-size: 22px;
+}
