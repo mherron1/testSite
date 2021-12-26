@@ -9,7 +9,6 @@ a {
 html {
   height: 100%;
   width: 100%;
-  background-color: #d7d7d7;
 }
 
 body {
@@ -1006,7 +1005,7 @@ li span {
 
 @media only screen and (min-width: 475px) {
   html {
-    background-color: #d3d3d3;
+    background-color: rgb(233, 233, 233);
   }
 
   body {
