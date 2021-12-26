@@ -325,16 +325,19 @@ function toggleSideNav() {
   vibrate();
   ///////////////////////
   let sideNav = document.querySelector("#sideNav");
-  if (sideNav.style.width === "325px") {
-    $("#hamburger-1").toggleClass("is-active");
-    eventList.innerHTML = ``;
-    sideNav.style.width = "0%";
-    $("#dim").fadeOut(200);
-  } else {
-    $("#hamburger-1").toggleClass("is-active");
-    sideNav.style.width = "325px";
-    $("#dim").fadeIn(400);
-    generateLinks();
+
+  if (screen.width < 1200) {
+    if (sideNav.style.width === "325px") {
+      $("#hamburger-1").toggleClass("is-active");
+      eventList.innerHTML = ``;
+      sideNav.style.width = "0%";
+      $("#dim").fadeOut(200);
+    } else {
+      $("#hamburger-1").toggleClass("is-active");
+      sideNav.style.width = "325px";
+      $("#dim").fadeIn(400);
+      generateLinks();
+    }
   }
 }
 
@@ -535,6 +538,89 @@ const touchEnd = (evt) => {
     }, 201);
   }
 };
+
+generateDesktopLinks();
+
+function generateDesktopLinks() {
+  let desktopLinks = document.getElementById("desktopLinks");
+  desktopLinks.innerHTML = `
+  <br>  
+      
+      <i class="material-icons" id="desktopOpenSettings" onclick="toggleSettings()">settings</i><br>
+      <br>
+  
+      <h4 style = "margin-top: 12px;" class = "eventLink">Upcoming Events</h4>
+      
+      `;
+
+  let eventLimit = events.length;
+  if (events.length > 25) {
+    eventLimit = 25;
+  }
+
+  for (let i = 0; i < eventLimit; i++) {
+    let nowEpoch = new Date().getTime();
+    if (new Date(events[i][1]) - nowEpoch > delay) {
+      let dateString = new Date(events[i][1] - 18000000).toString();
+
+      let org = "ufc";
+
+      if (events[i][0].includes("Bell")) {
+        org = "bellator";
+      }
+      if (events[i][0].includes("Prof")) {
+        org = "pfl";
+      }
+      if (events[i][0].includes("ONE")) {
+        org = "one";
+      }
+      if (events[i][4].includes("Paul")) {
+        org = "special";
+      }
+
+      let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
+      desktopLinks.innerHTML += `  
+            <div class="eventLink" onclick="selectCard(${i})">
+               <div class="eventLinkDate">${events[i][7]}</div>
+                <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
+            
+               <div class="eventLinkText">${events[i][4]}</div>
+            </div>
+        `;
+    }
+  }
+  desktopLinks.innerHTML += `<br>`;
+  desktopLinks.innerHTML += `<h4 style = "margin-top: 12px;" class = "eventLink">Recent Events</h4>`;
+  for (let i = events.length - 1; i >= 0; i--) {
+    let nowEpoch = new Date().getTime();
+    if (new Date(events[i][1]) - nowEpoch < delay) {
+      let dateString = new Date(events[i][1] - 18000000).toString();
+
+      let org = "ufc";
+
+      if (events[i][0].includes("Bell")) {
+        org = "bellator";
+      }
+      if (events[i][0].includes("Prof")) {
+        org = "pfl";
+      }
+      if (events[i][0].includes("ONE")) {
+        org = "one";
+      }
+
+      let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
+      desktopLinks.innerHTML += `  
+            <div class="eventLink" onclick="selectCard(${i})">
+               <div class="eventLinkDate">${date}</div>
+                <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
+            
+               <div class="eventLinkText">${events[i][4]}</div>
+            </div>
+        `;
+    }
+  }
+  desktopLinks.innerHTML += `<br><br>`;
+}
 
 //////////////////////// Key Mapping
 
