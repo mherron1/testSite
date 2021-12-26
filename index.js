@@ -538,8 +538,9 @@ const touchEnd = (evt) => {
     }, 201);
   }
 };
-
-generateDesktopLinks();
+if (screen.width > 1000) {
+  generateDesktopLinks();
+}
 
 function generateDesktopLinks() {
   let desktopLinks = document.getElementById("desktopLinks");
