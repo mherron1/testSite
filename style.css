@@ -1005,9 +1005,8 @@ li span {
 
 @media only screen and (min-width: 475px) {
   html {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(226, 226, 226);
   }
-
   body {
     margin-top: 0vh;
     max-width: 475px;
@@ -1849,9 +1848,6 @@ h4:hover {
 }
 
 @media only screen and (min-width: 1200px) {
-  #content {
-    min-height: 150vh;
-  }
   #desktopLinks {
     display: block;
     position: fixed;
@@ -1882,6 +1878,7 @@ h4:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-height: 150vh;
   }
 
   #desktopOpenSettings {
@@ -1893,8 +1890,14 @@ h4:hover {
   }
   #settings {
     transition: none;
+    transform: translateY(30px);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
   a {
     font-size: 16px;
+  }
+  .socialSharingContainer {
+    display: none;
   }
 }
