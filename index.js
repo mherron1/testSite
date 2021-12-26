@@ -876,7 +876,7 @@ function generateCard(i, arg) {
     
               <div id="countTogglePrelims${arg}">
               <i class="fa fa-exchange" id="toggleIcon2${arg}"></i>
-                <p class="y"> Prelims </p>
+                <p class="y"> Prelims</p>
               </div>
     
             <div id="countToggleMain${arg}">
