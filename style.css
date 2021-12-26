@@ -1878,4 +1878,7 @@ h4:hover {
   #settings {
     transition: none;
   }
+  a {
+    font-size: 16px;
+  }
 }

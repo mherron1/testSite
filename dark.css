@@ -1860,9 +1860,9 @@ h4:hover {
     position: absolute;
     width: 400px;
     height: 1000px;
-    background-color: white;
     left: 50%;
     transform: translateX(-100%);
+    color: #f8f8f8;
   }
   .hamburger {
     display: none;
@@ -1876,5 +1876,10 @@ h4:hover {
   }
   #settings {
     transition: none;
+  }
+  a {
+    color: white;
+    font-size: 16px;
+    color: #f8f8f8;
   }
 }
