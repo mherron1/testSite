@@ -545,9 +545,9 @@ function generateDesktopLinks() {
   let desktopLinks = document.getElementById("desktopLinks");
   desktopLinks.innerHTML = `
   <br>  
-      
-      <i class="material-icons" id="desktopOpenSettings" onclick="toggleSettings()">settings</i><br>
-      <br>
+  <i class="material-icons" id="desktopOpenSettings" onclick="toggleSettings()">settings</i><br>
+
+            <br>
   
       <h4 style = "margin-top: 12px;" class = "eventLink">Upcoming Events</h4>
       
@@ -619,7 +619,9 @@ function generateDesktopLinks() {
         `;
     }
   }
-  desktopLinks.innerHTML += `<br><br>`;
+  desktopLinks.innerHTML += `
+  <br>
+  <br>`;
 }
 
 //////////////////////// Key Mapping
