@@ -1849,11 +1849,14 @@ h4:hover {
 }
 
 @media only screen and (min-width: 1200px) {
+  #content {
+    min-height: 150vh;
+  }
   #desktopLinks {
     display: block;
     position: fixed;
     width: 300px;
-    height: 100%;
+    min-height: 150vh;
     background-color: rgb(245, 245, 245);
     left: 81%;
     transform: translateX(50%);
