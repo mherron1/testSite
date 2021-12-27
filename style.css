@@ -169,7 +169,7 @@ body {
 .leftMinus1 {
   padding: 5px;
   text-align: right;
-  padding-right: 6px;
+  padding-right: 0px;
   background-color: #f8f8f8;
 }
 
@@ -197,7 +197,7 @@ body {
 .rightMinus1 {
   padding: 5px;
   text-align: left;
-  padding-left: 6px;
+  padding-left: 0px;
   background-color: #f8f8f8;
 }
 
