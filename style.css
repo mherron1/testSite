@@ -213,7 +213,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   display: none;
 }
 
@@ -223,14 +223,14 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   display: none;
 }
 
 .detailsMiddle,
 .detailsMiddleMinus1,
 .detailsMiddlePlus1 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding-top: 5px;
   display: flex;
   justify-content: space-around;
@@ -567,7 +567,7 @@ input:checked + .slider:before {
   #mainCard,
   #mainCardMinus1,
   #mainCardPlus1 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   #prelimsTime,
   #prelimsTimeMinus1,
@@ -577,7 +577,7 @@ input:checked + .slider:before {
   #prelimsCard,
   #prelimsCardMinus1,
   #prelimsCardPlus1 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   #eventList {
     font-size: 1.1rem;
@@ -822,7 +822,7 @@ li span {
   #mainCard,
   #mainCardMinus1,
   #mainCardPlus1 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   #prelimsTime,
   #prelimsTimeMinus1,
@@ -832,7 +832,7 @@ li span {
   #prelimsCard,
   #prelimsCardMinus1,
   #prelimsCardPlus1 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   #eventList {
     font-size: 1.1rem;
@@ -1857,7 +1857,7 @@ h4:hover {
     transform: translateX(50%);
     text-align: right;
     padding-right: 10px;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 1px;
     border-top-left-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
