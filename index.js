@@ -1759,11 +1759,11 @@ const openSearchContainer = () => {
 };
 
 document
-  .getElementById("searchIcon")
+  .getElementById("mobileSearch")
   .addEventListener("click", openSearchContainer);
 
 document
-  .getElementById("searchIcon")
+  .getElementById("mobileSearch")
   .addEventListener("tap", openSearchContainer);
 
 function searchFighters() {
@@ -1800,4 +1800,5 @@ function searchSelect(w, search_string) {
 
 $("#closeSearch").click(function () {
   $("#searchContainer").toggle();
+  document.getElementById("searchContainer").style.display = "none";
 });
