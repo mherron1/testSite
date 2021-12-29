@@ -1622,8 +1622,8 @@ h4:hover {
   top: 0px;
   left: 0;
   right: 0;
-  min-height: 100%;
-  max-height: 100%;
+  min-height: 140vh;
+  max-height: 140vh;
   background-color: rgba(255, 255, 255, 0.845);
   border: 0px solid #f8f8f8;
   z-index: 10000;
@@ -1859,7 +1859,7 @@ h4:hover {
     padding-right: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
   }
   body {
     position: absolute;
@@ -1879,7 +1879,7 @@ h4:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
   }
 
   #desktopOpenSettings {
