@@ -992,8 +992,6 @@ function generateCard(i, arg) {
         `;
     }
   }
-  imageDiv.innerHTML += `<i class="fa fa-clock-o" id="hourGlass" onclick="showHideCountdown()"></i>;
-`;
 
   //////////////////////////////
 
@@ -1818,7 +1816,3 @@ $("#closeSearch").click(function () {
   $("#searchContainer").toggle();
   document.getElementById("searchContainer").style.display = "none";
 });
-
-function showHideCountdown() {
-  $("#testDiv").toggle();
-}
