@@ -816,6 +816,7 @@ function generateCard(i, arg) {
   let imageContainer = document.querySelector(`#imageContainer${arg}`);
   imageContainer.innerHTML = `
   <img id="eventPoster${arg}" src=${events[i][2]}>
+<br>
   `;
 
   ////////////event date
@@ -991,6 +992,8 @@ function generateCard(i, arg) {
         `;
     }
   }
+  imageDiv.innerHTML += `<i class="fa fa-clock-o" id="hourGlass" onclick="showHideCountdown()"></i>;
+`;
 
   //////////////////////////////
 
@@ -1540,6 +1543,7 @@ function toggleOddsType() {
 
 function toggleCountDown() {
   vibrate();
+  console.log();
   if (document.querySelector("#showHideCountdown").checked === true) {
     localStorage.setItem("countdown", "y");
   } else {
@@ -1814,3 +1818,7 @@ $("#closeSearch").click(function () {
   $("#searchContainer").toggle();
   document.getElementById("searchContainer").style.display = "none";
 });
+
+function showHideCountdown() {
+  $("#testDiv").toggle();
+}

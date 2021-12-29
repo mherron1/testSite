@@ -1920,3 +1920,18 @@ h4:hover {
     border-top-right-radius: 10px;
   }
 }
+
+#hourGlass {
+  position: absolute;
+  bottom: 3%;
+  right: 5%;
+  font-size: 35px;
+  color: rgba(255, 255, 255, 0.711);
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+  font-weight: 100;
+}
+
+#testDiv {
+  display: none;
+}
