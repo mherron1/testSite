@@ -1864,6 +1864,7 @@ h4:hover {
     left: 82%;
     transform: translateX(50%);
     text-align: right;
+    z-index: 10000000000;
   }
   body {
     top: 10px;
@@ -1915,7 +1916,7 @@ h4:hover {
     cursor: pointer;
   }
   #searchContainer {
-    width: 475px;
+    width: 445px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
