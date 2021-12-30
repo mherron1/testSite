@@ -326,7 +326,7 @@ function toggleSideNav() {
   ///////////////////////
   let sideNav = document.querySelector("#sideNav");
 
-  if (screen.width < 1200) {
+  if (screen.width < 750) {
     if (sideNav.style.width === "325px") {
       $("#hamburger-1").toggleClass("is-active");
       eventList.innerHTML = ``;
@@ -538,7 +538,7 @@ const touchEnd = (evt) => {
     }, 201);
   }
 };
-if (screen.width > 1000) {
+if (screen.width > 750) {
   generateDesktopLinks();
 }
 
