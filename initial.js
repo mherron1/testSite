@@ -457,13 +457,24 @@ let data = [
     recordA: '33-16-1 ',
     weight: '185',
     recordB: ' 11-3-0',
-    rankB: '#n/a',
+    rankB: '#19',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/63542-phil-hawes',
     fighterB: 'Phil Hawes'
+  },
+  {
+    fighterA: 'Alexis Davis',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/alexis-davis',
+    rankA: '#16',
+    recordA: '20-11-0 ',
+    weight: '135',
+    recordB: ' 9-5-1',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/54390-julia-stoliarenko',
+    fighterB: 'Julija Stoliarenko'
   }
 ]
 ,"UFC Fight Night",
-"10",
+"11",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -892,10 +903,21 @@ let data = [
     rankB: '#14',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/130955-tagir-ulanbekov',
     fighterB: 'Tagir Ulanbekov'
+  },
+  {
+    fighterA: 'Marina Rodriguez',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/81799-marina-rodriguez',
+    rankA: '#8',
+    recordA: '15-1-2 ',
+    weight: '115',
+    recordB: ' 13-2-0',
+    rankB: '#4',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/12602-xiao-nan-yang-fury',
+    fighterB: 'Xiaonan Yan'
   }
 ]
 ,"UFC 272",
-"3",
+"4",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
