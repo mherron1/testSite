@@ -1702,8 +1702,8 @@ h4:hover {
 
 #closeSearch {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 8px;
+  right: 13px;
   font-size: 35px;
   font-weight: bold;
 }
@@ -1928,5 +1928,9 @@ h4:hover {
   }
   #content {
     transform: translateX(35px);
+  }
+  #searchContainer {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 }
