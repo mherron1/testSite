@@ -764,13 +764,24 @@ let data = [
     fighterB: 'Misha Cirkunov'
   },
   {
+    fighterA: 'Ryan Spann',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/20908-ryan-spann',
+    rankA: '#16',
+    recordA: '19-7-0 ',
+    weight: '205',
+    recordB: ' 16-6-1',
+    rankB: '#19',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/34843-ion-cutelaba',
+    fighterB: 'Ion Cutelaba'
+  },
+  {
     fighterA: 'Ignacio Bahamondes',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/105800-ignacio-carabantes',
-    rankA: '#55',
+    rankA: '#58',
     recordA: '12-4-0 ',
     weight: '155',
     recordB: ' 18-4-0',
-    rankB: '#101',
+    rankB: '#90',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/129248-zhu-rong',
     fighterB: 'Zhu Rong'
   },
@@ -788,7 +799,7 @@ let data = [
   {
     fighterA: 'Arman Tsarukyan',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/115752-arman-tsarukyan',
-    rankA: '#14',
+    rankA: '#13',
     recordA: '17-2-0 ',
     weight: '155',
     recordB: ' 19-2-0',
@@ -1161,20 +1172,31 @@ let data = [
 '',
 [
   {
+    fighterA: 'Irene Aldana',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/60294-irene-aldana-robles',
+    rankA: '#5',
+    recordA: '13-6-0 ',
+    weight: '135',
+    recordB: ' 9-2-0',
+    rankB: '#14',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45561-aspen-ladd',
+    fighterB: 'Aspen Ladd'
+  },
+  {
     fighterA: 'Pat Sabatini',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/29210-pat-sabatini',
     rankA: '#37',
     recordA: '16-3-0 ',
     weight: '145',
     recordB: ' 13-2-0',
-    rankB: '#29',
+    rankB: '#28',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/20605-gavin-tucker',
     fighterB: 'Gavin Tucker'
   }
 ]
-,"UFC Fight Night",
+,"UFC 273",
 "1",
-"ESPN+"
+"Pay Per View | Prelims: ESPN"
 ],
 ["Bellator MMA",
 1643500800000,
