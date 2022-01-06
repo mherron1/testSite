@@ -839,13 +839,35 @@ let data = [
 '',
 [
   {
+    fighterA: 'Alexander Volkanovski',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/41705-alex-volkanski',
+    rankA: '#1',
+    recordA: '23-1-0 ',
+    weight: '145',
+    recordB: ' 23-6-0',
+    rankB: '#2',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/12723-max-holloway-lil-evil',
+    fighterB: 'Max Holloway'
+  },
+  {
+    fighterA: 'Aljamain Sterling',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/aljamain-sterling',
+    rankA: '#2',
+    recordA: '20-3-0 ',
+    weight: '135',
+    recordB: ' 16-2-0',
+    rankB: '#1',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/90075-petr-yan',
+    fighterB: 'Petr Yan'
+  },
+  {
     fighterA: 'Edson Barboza',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/edson-barboza-mendes-junior',
-    rankA: '#10',
+    rankA: '#11',
     recordA: '22-10-0 ',
     weight: '145',
     recordB: ' 14-0-0',
-    rankB: '#15',
+    rankB: '#16',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/59676-bryce-mitchell',
     fighterB: 'Bryce Mitchell'
   },
@@ -856,25 +878,25 @@ let data = [
     recordA: '15-10-0 ',
     weight: '125',
     recordB: ' 8-1-0',
-    rankB: '#13',
+    rankB: '#15',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/136168-manon-fiorot',
     fighterB: 'Manon Fiorot'
   },
   {
     fighterA: 'Maryna Moroz',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/73990-marina-moroz',
-    rankA: '#25',
+    rankA: '#30',
     recordA: '10-3-0 ',
     weight: '125',
     recordB: ' 10-2-0',
-    rankB: '#29',
+    rankB: '#28',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/156192-mariya-agapova',
     fighterB: 'Mariya Agapova'
   },
   {
     fighterA: 'Dustin Jacoby',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/15069-dustin-jacoby',
-    rankA: '#21',
+    rankA: '#22',
     recordA: '16-5-1 ',
     weight: '205',
     recordB: ' 16-4-0',
@@ -896,17 +918,28 @@ let data = [
   {
     fighterA: 'Marina Rodriguez',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/81799-marina-rodriguez',
-    rankA: '#8',
+    rankA: '#12',
     recordA: '15-1-2 ',
     weight: '115',
     recordB: ' 13-2-0',
     rankB: '#4',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/12602-xiao-nan-yang-fury',
     fighterB: 'Xiaonan Yan'
+  },
+  {
+    fighterA: 'Jalin Turner',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/68396-jalin-turner',
+    rankA: '#57',
+    recordA: '11-5-0 ',
+    weight: '155',
+    recordB: ' 14-4-0',
+    rankB: '#45',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/51640-jamie-mullarkey',
+    fighterB: 'Jamie Mullarkey'
   }
 ]
 ,"UFC 272",
-"4",
+"5",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
@@ -956,6 +989,17 @@ let data = [
     rankB: '#18',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/58362-sodiq-yusuff',
     fighterB: 'Sodiq Yusuff'
+  },
+  {
+    fighterA: 'Drew Dober',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/drew-dober',
+    rankA: '#18',
+    recordA: '23-11-0 ',
+    weight: '155',
+    recordB: ' 22-6-2',
+    rankB: '#36',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/17746-rick-glenn',
+    fighterB: 'Ricky Glenn'
   },
   {
     fighterA: 'Guido Cannetti',
@@ -1143,11 +1187,11 @@ let data = [
   {
     fighterA: 'Sara McMann',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/15591-sara-mcmann',
-    rankA: '#11',
+    rankA: '#10',
     recordA: '12-6-0 ',
     weight: '135',
     recordB: ' 15-3-0',
-    rankB: '#13',
+    rankB: '#12',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/79637-karolline-rosa-karol',
     fighterB: 'Karol Rosa'
   },
@@ -1172,10 +1216,21 @@ let data = [
     rankB: '#31',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/108867-seung-woo-choi',
     fighterB: 'Seung Woo Choi'
+  },
+  {
+    fighterA: 'Montel Jackson',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/89335-montel-jackson',
+    rankA: '#30',
+    recordA: '11-2-0 ',
+    weight: '135',
+    recordB: ' 10-2-0',
+    rankB: '#40',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/17399-danaa-batgerel',
+    fighterB: 'Danaa Batgerel'
   }
 ]
 ,"UFC Fight Night",
-"1",
+"2",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
