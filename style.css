@@ -1860,6 +1860,7 @@ h4:hover {
     background-color: none;
     left: 50%;
     transform: translateX(-110%);
+    opacity: 0.95;
   }
   .hamburger {
     display: none;

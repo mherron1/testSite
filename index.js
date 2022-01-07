@@ -1391,6 +1391,9 @@ function generateCard(i, arg) {
       "#navEventTitleLeft"
     ).textContent = `${events[i][4]}`;
   }
+
+  /*document.querySelector("html").style.backgroundImage =
+    "url(" + events[i][2] + ")";*/
 }
 
 function changeSettings() {
