@@ -17,7 +17,7 @@ body {
   position: relative;
   margin: 0 auto;
   color: rgb(20, 20, 20);
-  max-width: 475px;
+  max-width: 550px;
   height: 100%;
   overflow: auto;
 }
@@ -39,7 +39,7 @@ body {
 #contentMinus1 {
   position: absolute;
   background-color: #f8f8f8;
-  max-width: 475px;
+  max-width: 550px;
   min-height: 100vh;
   display: none;
   z-index: 1;
@@ -47,7 +47,7 @@ body {
 #contentPlus1 {
   position: absolute;
   background-color: #f8f8f8;
-  max-width: 475px;
+  max-width: 550px;
   min-height: 100vh;
   display: none;
   z-index: 1;
@@ -78,7 +78,7 @@ body {
   overflow: hidden;
   margin-bottom: 15px;
   width: 100vw;
-  max-width: 475px;
+  max-width: 550px;
 }
 
 .notransition {
@@ -94,7 +94,7 @@ body {
   position: absolute;
   top: 0;
   width: 100vw;
-  max-width: 475px;
+  max-width: 550px;
   z-index: 100;
 }
 #eventPoster,
@@ -978,9 +978,9 @@ li span {
     left: auto;
     right: auto;
     margin-top: 3px;
-    max-width: 475px;
+    max-width: 550px;
     transform: translateY(50px);
-    width: 475px;
+    width: 550px;
     transition-duration: 0s;
   }
   #closeSettings {
@@ -1003,13 +1003,13 @@ li span {
   }
 }
 
-@media only screen and (min-width: 475px) {
+@media only screen and (min-width: 550px) {
   html {
     background-color: rgb(226, 226, 226);
   }
   body {
     margin-top: 0vh;
-    max-width: 475px;
+    max-width: 550px;
     min-height: 125vh;
   }
 
@@ -1045,8 +1045,8 @@ li span {
     position: fixed;
     left: auto;
     right: auto;
-    max-width: 475px;
-    width: 475px;
+    max-width: 550px;
+    width: 550px;
   }
   #closeSettings {
     position: absolute;
@@ -1220,7 +1220,7 @@ li span {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 475px) {
+@media only screen and (min-width: 550px) {
   #shareIconTop {
     position: absolute;
   }
@@ -1579,7 +1579,7 @@ h4:hover {
   }
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 550px) {
   #content {
     position: absolute;
     left: 0;
@@ -1680,7 +1680,7 @@ h4:hover {
   font-size: 13px;
   width: max-content;
 }
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 550px) {
   .searchResultDate {
     position: absolute;
     top: 0;
@@ -1757,7 +1757,7 @@ h4:hover {
   display: none;
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 550px) {
   #top_right {
     position: absolute;
     top: 0;
@@ -1832,18 +1832,27 @@ h4:hover {
   #desktopLinks {
     display: block;
     position: fixed;
-    width: 300px;
+    width: 325px;
     min-height: 150vh;
     background-color: rgb(245, 245, 245);
-    left: 82%;
+    left: 96%;
     transform: translateX(50%);
     text-align: right;
-    padding-right: 10px;
+    padding-right: 25px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
     z-index: 10000000000;
   }
+
+  .detailsLeft {
+    margin-left: 80px;
+  }
+
+  .detailsRight {
+    margin-right: 80px;
+  }
+
   body {
     position: absolute;
     border: none;
@@ -1899,7 +1908,7 @@ h4:hover {
     cursor: pointer;
   }
   #searchContainer {
-    width: 475px;
+    width: 550px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
