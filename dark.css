@@ -1874,7 +1874,7 @@ h4:hover {
     width: 400px;
     height: 1000px;
     left: 50%;
-    transform: translateX(-100%);
+    transform: translateX(-110%);
     color: #f8f8f8;
   }
   .hamburger {
