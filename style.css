@@ -1851,14 +1851,6 @@ h4:hover {
     z-index: 10000000000;
   }
 
-  .detailsLeft {
-    margin-left: 80px;
-  }
-
-  .detailsRight {
-    margin-right: 80px;
-  }
-
   body {
     position: absolute;
     border: none;

@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
   margin-bottom: 50px;
   color: white;
-  max-width: 475px;
+  max-width: 550px;
   height: 100%;
   overflow: auto;
 }
@@ -51,7 +51,7 @@ body {
 #contentMinus1 {
   position: absolute;
   background-color: #000;
-  max-width: 475px;
+  max-width: 550px;
   min-height: 100vh;
   display: none;
   z-index: 1;
@@ -59,7 +59,7 @@ body {
 #contentPlus1 {
   position: absolute;
   background-color: #000;
-  max-width: 475px;
+  max-width: 550px;
   min-height: 100vh;
   display: none;
   z-index: 1;
@@ -103,7 +103,7 @@ body {
   background-color: black;
   top: 0px;
   width: 100vw;
-  max-width: 475px;
+  max-width: 550px;
   z-index: 100;
 }
 #eventPoster,
@@ -492,7 +492,7 @@ a {
   background-color: black;
 
   width: 100%;
-  max-width: 420px;
+  max-width: 550px;
   height: 0;
   top: 100%;
   bottom: 0;
@@ -923,19 +923,14 @@ li span {
   transform: translateY(6px);
 }
 
-@media only screen and (min-width: 475px) {
+@media only screen and (min-width: 550px) {
   html {
-    background-image: linear-gradient(
-      to right,
-      rgb(41, 41, 41),
-      rgb(65, 65, 65),
-      rgb(41, 41, 41)
-    );
+    background-color: rgb(46, 46, 46);
   }
 
   body {
     margin-top: 0vh;
-    max-width: 475px;
+    max-width: 550px;
     min-height: 125vh;
   }
 
@@ -985,8 +980,8 @@ li span {
     position: fixed;
     left: auto;
     right: auto;
-    max-width: 475px;
-    width: 475px;
+    max-width: 550px;
+    width: 550px;
   }
   #closeSettings {
     position: absolute;
@@ -1132,9 +1127,9 @@ li span {
     left: auto;
     right: auto;
     margin-top: 3px;
-    max-width: 475px;
+    max-width: 550px;
     transform: translateY(50px);
-    width: 475px;
+    width: 550px;
     transition-duration: 0s;
   }
   #closeSettings {
@@ -1264,7 +1259,7 @@ li span {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 475px) {
+@media only screen and (min-width: 550px) {
   #shareIconTop {
     position: absolute;
   }
@@ -1599,7 +1594,7 @@ h4:hover {
   }
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 550px) {
   #content {
     position: absolute;
     left: 0;
@@ -1720,7 +1715,7 @@ h4:hover {
   width: max-content;
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 550px) {
   .searchResultDate {
     position: absolute;
     top: 0;
@@ -1759,7 +1754,7 @@ h4:hover {
   position: relative;
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 550px) {
   #top_right {
     position: absolute;
     top: 0;
@@ -1847,25 +1842,32 @@ h4:hover {
 
 @media only screen and (min-width: 750px) {
   #content {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     min-height: 150vh;
   }
   #desktopLinks {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     display: block;
     position: fixed;
-    width: 300px;
+    width: 325px;
     padding-right: 12px;
     min-height: 150vh;
     background-color: rgb(0, 0, 0);
-    left: 82%;
+    left: 98%;
     transform: translateX(50%);
     text-align: right;
     z-index: 10000000000;
   }
+
+  #mainHeader {
+    background-color: #00000088;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
   body {
     top: 10px;
     position: absolute;
@@ -1888,8 +1890,8 @@ h4:hover {
   #settings {
     transition: none;
     transform: translateY(30px);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
   a {
     color: #f8f8f8;
@@ -1916,9 +1918,9 @@ h4:hover {
     cursor: pointer;
   }
   #searchContainer {
-    width: 445px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    width: 520px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 }
 
@@ -1931,7 +1933,7 @@ h4:hover {
     transform: translateX(35px);
   }
   #searchContainer {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 }
