@@ -1,83 +1,83 @@
 let obj = [
   {
     row1: "Michel Pereira",
-    row2: "1.8",
+    row2: "-125",
   },
   {
     row1: "Muslim Salikhov",
-    row2: "2.05",
+    row2: "105",
   },
   {
     row1: "Jennifer Maia",
-    row2: "2.5",
+    row2: "150",
   },
   {
     row1: "Katlyn Chookagian",
-    row2: "1.59",
+    row2: "-170",
   },
   {
     row1: "Brandon Royval",
-    row2: "1.63",
+    row2: "-160",
   },
   {
     row1: "Rogerio Bontorin",
-    row2: "2.4",
+    row2: "140",
   },
   {
     row1: "Chase Sherman",
-    row2: "2.1",
+    row2: "110",
   },
   {
     row1: "Jake Collier",
-    row2: "1.77",
+    row2: "-130",
   },
   {
     row1: "Bill Algeo",
-    row2: "2.1",
+    row2: "110",
   },
   {
     row1: "Joanderson Brito",
-    row2: "1.77",
+    row2: "-130",
   },
   {
     row1: "Brian Kelleher",
-    row2: "2.35",
+    row2: "135",
   },
   {
     row1: "Saidyokub Kakhramonov",
-    row2: "1.65",
+    row2: "-155",
   },
   {
     row1: "Court McGee",
-    row2: "1.83",
+    row2: "-120",
   },
   {
     row1: "Ramiz Brahimaj",
-    row2: "2",
+    row2: "100",
   },
   {
     row1: "Dakota Bush",
-    row2: "2.5",
+    row2: "150",
   },
   {
     row1: "Viacheslav Borshchev",
-    row2: "1.59",
+    row2: "-170",
   },
   {
     row1: "Gabriel Benitez",
-    row2: "1.53",
+    row2: "-190",
   },
   {
     row1: "T.J. Brown",
-    row2: "2.6",
+    row2: "160",
   },
   {
     row1: "Jamie Pickett",
-    row2: "2.3",
+    row2: "130",
   },
   {
     row1: "Joseph Holmes",
-    row2: "1.67",
+    row2: "-150",
   },
   {
     row1: "Abdul Razak Alhassan",
@@ -97,11 +97,11 @@ let obj = [
   },
   {
     row1: "Silvana Gomez Juarez.",
-    row2: "1.91",
+    row2: "-110",
   },
   {
     row1: "Vanessa Demopoulos",
-    row2: "1.91",
+    row2: "-110",
   },
   {
     row1: "Kleydson Rodrigues",
@@ -269,107 +269,107 @@ let obj = [
   },
   {
     row1: "Ciryl Gane",
-    row2: "1.91",
+    row2: "-110",
   },
   {
     row1: "Francis Ngannou",
-    row2: "1.91",
+    row2: "-110",
   },
   {
     row1: "Brandon Moreno",
-    row2: "1.59",
+    row2: "-170",
   },
   {
     row1: "Deiveson Figueiredo",
-    row2: "2.5",
+    row2: "150",
   },
   {
     row1: "Aleksei Oleinik",
-    row2: "2.45",
+    row2: "145",
   },
   {
     row1: "Greg Hardy",
-    row2: "1.61",
+    row2: "-165",
   },
   {
     row1: "Ilia Topuria",
-    row2: "1.8",
+    row2: "-125",
   },
   {
     row1: "Movsar Evloev",
-    row2: "2.05",
+    row2: "105",
   },
   {
     row1: "Cody Stamann",
-    row2: "2.7",
+    row2: "170",
   },
   {
     row1: "Said Nurmagomedov",
-    row2: "1.5",
+    row2: "-200",
   },
   {
     row1: "Rodolfo Vieira",
-    row2: "1.36",
+    row2: "-280",
   },
   {
     row1: "Wellington Turman",
-    row2: "3.25",
+    row2: "225",
   },
   {
     row1: "Alexa Grasso",
-    row2: "1.61",
+    row2: "-165",
   },
   {
     row1: "Viviane Araujo",
-    row2: "2.45",
+    row2: "145",
   },
   {
     row1: "Saimon Oliveira",
-    row2: "2.95",
+    row2: "195",
   },
   {
     row1: "Tony Gravely",
-    row2: "1.42",
+    row2: "-240",
   },
   {
     row1: "Michael Morales",
-    row2: "1.67",
+    row2: "-150",
   },
   {
     row1: "Trevin Giles",
-    row2: "2.3",
+    row2: "130",
   },
   {
     row1: "Genaro Valdez",
-    row2: "2.75",
+    row2: "175",
   },
   {
     row1: "Matt Frevola",
-    row2: "1.48",
+    row2: "-210",
   },
   {
     row1: "Ji Yeon Kim",
-    row2: "1.74",
+    row2: "-135",
   },
   {
     row1: "Poliana Botelho",
-    row2: "2.15",
+    row2: "115",
   },
   {
     row1: "Jack Della Maddalena",
-    row2: "1.53",
+    row2: "-190",
   },
   {
     row1: "Warlley Alves",
-    row2: "2.6",
+    row2: "160",
   },
   {
     row1: "Jasmine Jasudavicius",
-    row2: "2.95",
+    row2: "195",
   },
   {
     row1: "Kay Hansen",
-    row2: "1.42",
+    row2: "-240",
   },
   {
     row1: "Last change: 39 min ago",
@@ -385,59 +385,59 @@ let obj = [
   },
   {
     row1: "Jack Hermansson",
-    row2: "2.75",
+    row2: "175",
   },
   {
     row1: "Sean Strickland",
-    row2: "1.48",
+    row2: "-210",
   },
   {
     row1: "Chidi Njokuani",
-    row2: "2.4",
+    row2: "140",
   },
   {
     row1: "Marc-Andre Barriault",
-    row2: "1.63",
+    row2: "-160",
   },
   {
     row1: "Nick Maximov",
-    row2: "2.7",
+    row2: "170",
   },
   {
     row1: "Punahele Soriano",
-    row2: "1.5",
+    row2: "-200",
   },
   {
     row1: "Jason Witt",
-    row2: "2.5",
+    row2: "150",
   },
   {
     row1: "Philip Rowe",
-    row2: "1.59",
+    row2: "-170",
   },
   {
     row1: "John Castaneda",
-    row2: "3",
+    row2: "200",
   },
   {
     row1: "Miles Johns",
-    row2: "1.4",
+    row2: "-250",
   },
   {
     row1: "Julian Erosa",
-    row2: "1.38",
+    row2: "-265",
   },
   {
     row1: "Steven Peterson",
-    row2: "3.15",
+    row2: "215",
   },
   {
     row1: "Danilo Marques",
-    row2: "3.4",
+    row2: "240",
   },
   {
     row1: "Jailton Almeida",
-    row2: "1.33",
+    row2: "-305",
   },
   {
     row1: "Bryan Battle",
@@ -449,27 +449,27 @@ let obj = [
   },
   {
     row1: "Hakeem Dawodu",
-    row2: "1.65",
+    row2: "-155",
   },
   {
     row1: "Michael Trizano",
-    row2: "2.35",
+    row2: "135",
   },
   {
     row1: "Denys Bondar",
-    row2: "1.4",
+    row2: "-250",
   },
   {
     row1: "Malcolm Gordon",
-    row2: "3",
+    row2: "200",
   },
   {
     row1: "Carlston Harris",
-    row2: "3.25",
+    row2: "225",
   },
   {
     row1: "Shavkat Rakhmonov",
-    row2: "1.36",
+    row2: "-280",
   },
   {
     row1: "Ian Heinisch",
