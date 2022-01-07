@@ -1867,7 +1867,7 @@ h4:hover {
     height: 1000px;
     background-color: none;
     left: 50%;
-    transform: translateX(-100%);
+    transform: translateX(-110%);
   }
   .hamburger {
     display: none;
