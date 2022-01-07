@@ -1841,12 +1841,12 @@ h4:hover {
     width: 325px;
     min-height: 150vh;
     background-color: rgb(245, 245, 245);
-    left: 96%;
+    left: 97%;
     transform: translateX(50%);
     text-align: right;
     padding-right: 25px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
     z-index: 10000000000;
   }
@@ -1874,8 +1874,8 @@ h4:hover {
   }
   #content {
     min-height: 150vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
   }
 
@@ -1889,8 +1889,8 @@ h4:hover {
   #settings {
     transition: none;
     transform: translateY(30px);
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
   }
   .socialSharingContainer {
     display: none;
@@ -1915,8 +1915,8 @@ h4:hover {
   }
   #searchContainer {
     width: 550px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 }
 
