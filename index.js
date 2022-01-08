@@ -1392,7 +1392,7 @@ function generateCard(i, arg) {
     ).textContent = `${events[i][4]}`;
   }
 
-  /*document.querySelector("html").style.backgroundImage =
+  /*document.querySelector("#full_background2").style.backgroundImage =
     "url(" + events[i][2] + ")";*/
 }
 
