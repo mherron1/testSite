@@ -1392,8 +1392,8 @@ function generateCard(i, arg) {
     ).textContent = `${events[i][4]}`;
   }
 
-  /*document.querySelector("#full_background2").style.backgroundImage =
-    "url(" + events[i][2] + ")";*/
+  document.querySelector("#full_background2").style.backgroundImage =
+    "url(" + events[i][2] + ")";
 }
 
 function changeSettings() {
