@@ -1923,22 +1923,6 @@ h4:hover {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
-
-  .desktopDarkMode {
-    position: fixed;
-    top: 30px;
-    right: 30px;
-    padding: 9px 12px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 14px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 25px 0px;
-    z-index: 1000;
-    display: block;
-  }
-
-  .desktopDarkMode:hover {
-    cursor: pointer;
-  }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 820px) {
@@ -1948,5 +1932,48 @@ h4:hover {
   }
   #content {
     transform: translateX(28px);
+  }
+}
+
+.desktopDarkButtonsContainer {
+  display: none;
+}
+
+@media only screen and (min-width: 1400px) {
+  .desktopDarkButtonsContainer {
+    display: block;
+  }
+  .desktopDarkMode {
+    position: fixed;
+    max-height: 400px;
+    top: 30px;
+    right: 30px;
+    padding: 9px 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 25px 0px;
+    z-index: 1000;
+  }
+
+  .desktopDarkMode:hover {
+    cursor: pointer;
+  }
+  .desktopSearchIcon {
+    position: fixed;
+    max-height: 400px;
+    top: 30px;
+    right: 90px;
+    padding: 9px 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 25px 0px;
+    z-index: 1000;
+  }
+
+  .desktopSearchIcon:hover {
+    cursor: pointer;
+  }
+  #mobileSearch {
+    display: none;
   }
 }
