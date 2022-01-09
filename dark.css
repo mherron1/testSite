@@ -1901,7 +1901,7 @@ h4:hover {
   }
   #settings {
     transition: none;
-    transform: translateY(30px);
+    transform: translateY(40px);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
@@ -1933,7 +1933,7 @@ h4:hover {
   #searchContainer {
     width: 525px;
     height: 150vh;
-    left: 45vw;
+    left: 50vw;
     top: 10px;
     transform: translateX(-75%);
     border-top-left-radius: 15px;
