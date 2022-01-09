@@ -24,12 +24,13 @@ body {
 
 #displaycard {
   position: relative;
-  overflow: hidden;
+  top: 0;
 }
 
 #content {
   position: absolute;
   left: 0;
+  top: 0;
   background-color: #f8f8f8;
   min-height: 100vh;
   z-index: 10;
@@ -38,6 +39,7 @@ body {
 
 #contentMinus1 {
   position: absolute;
+  top: 0;
   background-color: #f8f8f8;
   max-width: 550px;
   min-height: 100vh;
@@ -46,6 +48,7 @@ body {
 }
 #contentPlus1 {
   position: absolute;
+  top: 0;
   background-color: #f8f8f8;
   max-width: 550px;
   min-height: 100vh;
@@ -1838,10 +1841,11 @@ h4:hover {
   #desktopLinks {
     display: block;
     position: fixed;
+    top: 10px;
     width: 325px;
     min-height: 150vh;
     background-color: rgb(245, 245, 245);
-    left: 97%;
+    left: 44%;
     transform: translateX(50%);
     text-align: right;
     padding-right: 25px;
@@ -1853,18 +1857,22 @@ h4:hover {
 
   body {
     position: absolute;
-    border: none;
-    width: 400px;
-    top: 10px;
-    height: 1000px;
-    background-color: none;
-    left: 50%;
-    transform: translateX(-110%);
   }
+
   .hamburger {
     display: none;
   }
+
+  #displayCard {
+    position: absolute;
+    width: 550px;
+    height: 150vh;
+    left: 45vw;
+    transform: translateX(-75%);
+  }
   #content {
+    position: absolute;
+    top: 10px;
     min-height: 150vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -1900,15 +1908,38 @@ h4:hover {
   }
   #mobileSearch {
     z-index: 1000;
-    left: 50px;
+    left: 35px;
+    top: 22px;
   }
   #mobileSearch:hover {
     cursor: pointer;
   }
   #searchContainer {
     width: 550px;
+    height: 150vh;
+    left: 45vw;
+    top: 10px;
+    transform: translateX(-75%);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .desktopDarkMode {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    padding: 9px 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 25px 0px;
+    z-index: 1000;
+    display: block;
+  }
+
+  .desktopDarkMode:hover {
+    cursor: pointer;
   }
 }
 
