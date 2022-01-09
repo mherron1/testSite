@@ -13,6 +13,7 @@ let events = [
   "https://www.tapology.com/fightcenter/events/84285-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/85306-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/85140-bellator-273-bader-vs-moldavsky",
+  "https://www.tapology.com/fightcenter/events/85305-bellator-274",
   "https://www.tapology.com/fightcenter/events/85214-bellator-mma",
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",

@@ -1326,11 +1326,11 @@ let data = [
   {
     fighterA: 'Sabah Homasi',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/sabah-homasi-the-punisher',
-    rankA: '#118',
+    rankA: '#127',
     recordA: '15-10-0 ',
     weight: '170',
     recordB: ' 15-3-0',
-    rankB: '#120',
+    rankB: '#133',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/54327-jaleel-willis',
     fighterB: 'Jaleel Willis'
   },
@@ -1399,9 +1399,139 @@ let data = [
     rankB: '#2',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/23052-blaine-shutt',
     fighterB: 'Blaine Shutt'
+  },
+  {
+    fighterA: 'Weber Almeida',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/112608-weber-almeida',
+    rankA: '#',
+    recordA: '5-1-0 ',
+    weight: '145',
+    recordB: ' 6-3-0',
+    rankB: '#352',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/47118-josh-wright',
+    fighterB: 'Josh Wright'
+  },
+  {
+    fighterA: 'Lucas Brennan',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/162427-lucas-brennan',
+    rankA: '#167',
+    recordA: '5-0-0 ',
+    weight: '145',
+    recordB: ' 5-4-0',
+    rankB: '#10',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45013-ben-lugo',
+    fighterB: 'Ben Lugo'
   }
 ]
 ,"Bellator 273",
+"7",
+"Showtime"
+],
+["Bellator MMA",
+1645311600000,
+'',
+[
+  {
+    fighterA: 'Neiman Gracie',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/53803-neiman-gracie',
+    rankA: '#57',
+    recordA: '11-2-0 ',
+    weight: '170',
+    recordB: ' 12-1-0',
+    rankB: '#75',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/109294-logan-storley-storm',
+    fighterB: 'Logan Storley'
+  },
+  {
+    fighterA: 'Andrey Koreshkov',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/18069-andrey-koreshkov-spartan',
+    rankA: '#45',
+    recordA: '24-4-0 ',
+    weight: '170',
+    recordB: ' 15-1-0',
+    rankB: '#76',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/60337-mukhamed-berkhamov',
+    fighterB: 'Mukhamed Berkhamov'
+  },
+  {
+    fighterA: 'Davion Franklin',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/239688-davion-franklin',
+    rankA: '#119',
+    recordA: '4-0-0 ',
+    weight: '265',
+    recordB: ' 8-2-0',
+    rankB: '#53',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/183184-said-sowma',
+    fighterB: 'Said Sowma'
+  },
+  {
+    fighterA: 'Veta Arteaga',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/73108-veta-arteaga',
+    rankA: '#60',
+    recordA: '6-4-0 ',
+    weight: '125',
+    recordB: ' 5-0-0',
+    rankB: '#58',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/112872-keri-anne-taylor-melendez',
+    fighterB: 'Keri Taylor-Melendez'
+  },
+  {
+    fighterA: 'Georgi Karakhanyan',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/georgi-karakhanyan-insane',
+    rankA: '#105',
+    recordA: '31-12-1 ',
+    weight: '155',
+    recordB: ' 12-4-0',
+    rankB: '#137',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/55904-adam-piccolotto',
+    fighterB: 'Adam Piccolotti'
+  },
+  {
+    fighterA: 'Mandel Nallo',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/24751-mandell-nallo',
+    rankA: '#178',
+    recordA: '8-1-0 ',
+    weight: '155',
+    recordB: ' 12-1-0',
+    rankB: '#122',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/21794-nyquill-brown',
+    fighterB: 'Nick Browne'
+  },
+  {
+    fighterA: 'Jaylon Bates',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/158199-jaylon-bates',
+    rankA: '#210',
+    recordA: '4-0-0 ',
+    weight: '135',
+    recordB: ' 6-4-0',
+    rankB: '#35',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/92651-chris-disonell',
+    fighterB: 'Chris Disonell'
+  },
+  {
+    fighterA: 'Corey Samuels',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/96370-corey-samuels',
+    rankA: '#71',
+    recordA: '3-2-0 ',
+    weight: '155',
+    recordB: ' 4-0-0',
+    rankB: '#31',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/155833-justin-montalvo',
+    fighterB: 'Justin Montalvo'
+  },
+  {
+    fighterA: 'Isaiah Hokit',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/293885-isaiah-hokit',
+    rankA: '#n/a',
+    recordA: '0-1-0 ',
+    weight: '145',
+    recordB: ' 0-1-0',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/116865-albert-birckhead',
+    fighterB: 'Albert Birckhead'
+  }
+]
+,"Bellator 274",
 "5",
 "Showtime"
 ],
