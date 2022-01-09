@@ -1846,7 +1846,7 @@ h4:hover {
     min-height: 150vh;
     background-color: rgb(245, 245, 245);
     left: 50vw;
-    transform: translateX(160px);
+    transform: translateX(95px);
     text-align: right;
     padding-right: 25px;
     border-top-right-radius: 15px;
@@ -1868,7 +1868,7 @@ h4:hover {
     width: 550px;
     height: 150vh;
     left: 50vw;
-    transform: translateX(-75%);
+    transform: translateX(-84%);
   }
   #content {
     position: absolute;
@@ -1919,9 +1919,7 @@ h4:hover {
     height: 150vh;
     left: 50vw;
     top: 10px;
-    transform: translateX(-75%);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    transform: translateX(-84%);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
