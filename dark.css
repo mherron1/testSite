@@ -1852,7 +1852,7 @@ h4:hover {
     width: 325px;
     min-height: 150vh;
     background-color: rgb(0, 0, 0);
-    left: 44%;
+    left: 46%;
     transform: translateX(50%);
     text-align: right;
     padding-right: 25px;
@@ -1880,7 +1880,7 @@ h4:hover {
     position: absolute;
     width: 550px;
     height: 150vh;
-    left: 45vw;
+    left: 47vw;
     transform: translateX(-75%);
   }
   #content {
