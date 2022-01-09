@@ -1975,8 +1975,8 @@ h4:hover {
   .desktopDarkMode {
     position: fixed;
     max-height: 400px;
-    top: 10px;
-    right: 30px;
+    top: 15px;
+    left: 125px;
     padding: 9px 12px;
     background-color: rgb(0, 0, 0);
     border-radius: 14px;
@@ -1993,8 +1993,8 @@ h4:hover {
   .desktopSearchIcon {
     position: fixed;
     max-height: 400px;
-    top: 10px;
-    right: 90px;
+    top: 15px;
+    left: 180px;
     padding: 9px 12px;
     background-color: rgb(0, 0, 0);
     border-radius: 14px;
@@ -2006,7 +2006,7 @@ h4:hover {
   .desktopSearchIcon:hover {
     cursor: pointer;
     transform: scale(1.05);
-    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 25px 0px;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 15px 0px;
   }
 
   #mobileSearch {
@@ -2025,15 +2025,16 @@ h4:hover {
 .siteLogo {
   height: 100px;
   border-radius: 10px;
-  transition: 0.4s;
+  transition: 0.2s;
   display: none;
 }
 
 .siteLogo:hover {
   height: 100px;
   border-radius: 10px;
-  transform: rotate(7deg);
+  transform: rotate(5deg);
   cursor: pointer;
+  box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 15px 0px;
 }
 
 @media only screen and (min-width: 1400px) {
