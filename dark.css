@@ -989,7 +989,7 @@ li span {
   }
   #closeSettings {
     position: absolute;
-    top: 50px;
+    top: 20px;
   }
   #closeSettings:hover {
     cursor: pointer;
