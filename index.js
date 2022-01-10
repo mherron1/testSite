@@ -722,15 +722,8 @@ function toggleSettings() {
 
 function toggleStyleSheets() {
   /////////////////////
-  console.log("hi");
+  vibrate();
   ///////////////////////
-
-  let darkSwitch = document.getElementById("darkInput");
-  if (darkSwitch.checked === true) {
-    darkSwitch.checked = false;
-  } else {
-    darkSwitch.checked = true;
-  }
 
   let stylesheet = document.getElementById("pagestyle");
   if (stylesheet.href.toString().includes("style")) {
