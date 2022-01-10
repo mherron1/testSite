@@ -402,14 +402,14 @@ let data = [
     recordA: '33-16-1 ',
     weight: '185',
     recordB: ' 11-3-0',
-    rankB: '#19',
+    rankB: '#16',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/63542-phil-hawes',
     fighterB: 'Phil Hawes'
   },
   {
     fighterA: 'Alexis Davis',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/alexis-davis',
-    rankA: '#16',
+    rankA: '#19',
     recordA: '20-11-0 ',
     weight: '135',
     recordB: ' 9-5-1',
@@ -424,24 +424,13 @@ let data = [
     recordA: '32-12-1 ',
     weight: '170',
     recordB: ' 9-2-1',
-    rankB: '#117',
+    rankB: '#n/a',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/15782-jeremiah-wells',
     fighterB: 'Jeremiah Wells'
-  },
-  {
-    fighterA: 'Aaron Rosa',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/aaron-rosa',
-    rankA: '#',
-    recordA: '18-6-0 ',
-    weight: '265',
-    recordB: ' 8-4-0',
-    rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/139094-juan-adams',
-    fighterB: 'Juan Adams'
   }
 ]
 ,"UFC Fight Night",
-"13",
+"12",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -900,7 +889,7 @@ let data = [
     recordA: '15-10-0 ',
     weight: '125',
     recordB: ' 8-1-0',
-    rankB: '#15',
+    rankB: '#14',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/136168-manon-fiorot',
     fighterB: 'Manon Fiorot'
   },
@@ -958,10 +947,21 @@ let data = [
     rankB: '#45',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/51640-jamie-mullarkey',
     fighterB: 'Jamie Mullarkey'
+  },
+  {
+    fighterA: 'Kevin Holland',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/35757-kevin-holland',
+    rankA: '#14',
+    recordA: '21-7-0 ',
+    weight: '170',
+    recordB: ' 22-11-1',
+    rankB: '#35',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45649-alex-cowboy',
+    fighterB: 'Alex Oliveira'
   }
 ]
 ,"UFC 272",
-"5",
+"6",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
@@ -1313,6 +1313,17 @@ let data = [
     rankB: '#14',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45561-aspen-ladd',
     fighterB: 'Aspen Ladd'
+  },
+  {
+    fighterA: 'Lauren Murphy',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/42982-lauren-taylor',
+    rankA: '#5',
+    recordA: '15-5-0 ',
+    weight: '125',
+    recordB: ' 19-8-0',
+    rankB: '#10',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/miesha-tate-takedown',
+    fighterB: 'Miesha Tate'
   },
   {
     fighterA: 'Pat Sabatini',
