@@ -546,7 +546,10 @@ function generateDesktopLinks() {
   let desktopLinks = document.getElementById("desktopLinks");
   desktopLinks.innerHTML = `
   <br>  
-  <i class="material-icons" id="desktopOpenSettings" onclick="toggleSettings()">settings</i><br>
+
+  <i class="fa fa-search desktopSearchIcon" onclick="document.querySelector('#searchContainer').style.display='block';"  style="font-size:20px"></i>
+
+  <i class="material-icons" id="desktopOpenSettings" onclick="toggleSettings()" style="font-size:20px">settings</i><br>
 
             <br>
   

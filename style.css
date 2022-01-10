@@ -1840,7 +1840,7 @@ h4:hover {
 
   #desktopLinks {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 30px;
     width: 325px;
     min-height: 150vh;
@@ -1860,7 +1860,7 @@ h4:hover {
   }
 
   .hamburger {
-    display: none;
+    opacity: 0;
   }
 
   #displayCard {
@@ -1878,11 +1878,19 @@ h4:hover {
     border-top-right-radius: 15px;
     box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
   }
-
   #desktopOpenSettings {
-    margin-right: 5px;
+    position: fixed;
+    max-height: 400px;
+    top: 12px;
+    right: 75px;
+    padding: 7px 10px;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgba(0, 0, 0, 0.239);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+    z-index: 1000;
+    transition: 0s;
   }
-
   #desktopOpenSettings:hover {
     cursor: pointer;
   }
@@ -1947,35 +1955,34 @@ h4:hover {
     position: fixed;
     max-height: 400px;
     top: 15px;
-    left: 125px;
+    right: 20px;
     padding: 9px 12px;
     background-color: rgb(255, 255, 255);
     border-radius: 14px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 25px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
     z-index: 1000;
   }
 
   .desktopDarkMode:hover {
     cursor: pointer;
-    transform: scale(1.05);
-    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 0px;
   }
   .desktopSearchIcon {
     position: fixed;
     max-height: 400px;
-    top: 15px;
-    left: 180px;
-    padding: 9px 12px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 14px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 25px 0px;
+    top: 12px;
+    right: 20px;
+    padding: 7px 10px;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgba(0, 0, 0, 0.239);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
     z-index: 1000;
+    transition: 0s;
   }
 
   .desktopSearchIcon:hover {
     cursor: pointer;
-    transform: scale(1.05);
-    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 15px 0px;
   }
   #mobileSearch {
     display: none;

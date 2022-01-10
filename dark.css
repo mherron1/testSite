@@ -1850,9 +1850,10 @@ h4:hover {
   #imageContainerMinus1 {
     height: 230px;
   }
+
   #desktopLinks {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 30px;
     width: 325px;
     min-height: 150vh;
@@ -1898,15 +1899,24 @@ h4:hover {
   }
 
   #desktopOpenSettings {
-    margin-right: 15px;
-    color: silver;
+    position: fixed;
+    max-height: 400px;
+    top: 12px;
+    right: 75px;
+    padding: 7px 10px;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 25px 0px;
+    z-index: 1000;
+    transition: 0s;
   }
   #desktopOpenSettings:hover {
     cursor: pointer;
   }
 
   .hamburger {
-    display: none;
+    opacity: 0;
   }
   #settings {
     transition: none;
@@ -1976,37 +1986,35 @@ h4:hover {
     position: fixed;
     max-height: 400px;
     top: 15px;
-    left: 125px;
+    right: 20px;
     padding: 9px 12px;
     background-color: rgb(0, 0, 0);
     border-radius: 14px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px 0px;
     z-index: 1000;
-    transition: 0.3s;
+    transition: 0.2s;
   }
 
   .desktopDarkMode:hover {
     cursor: pointer;
-    transform: scale(1.05);
-    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 15px 0px;
+    transform: scale(1.02);
   }
   .desktopSearchIcon {
     position: fixed;
     max-height: 400px;
-    top: 15px;
-    left: 180px;
-    padding: 9px 12px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 14px;
+    top: 12px;
+    right: 20px;
+    padding: 7px 10px;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 25px 0px;
     z-index: 1000;
-    transition: 0.3s;
+    transition: 0s;
   }
 
   .desktopSearchIcon:hover {
     cursor: pointer;
-    transform: scale(1.05);
-    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 15px 0px;
   }
 
   #mobileSearch {
@@ -2034,7 +2042,7 @@ h4:hover {
   border-radius: 10px;
   transform: rotate(5deg);
   cursor: pointer;
-  box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 15px 0px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 20px 0px;
 }
 
 @media only screen and (min-width: 1400px) {
