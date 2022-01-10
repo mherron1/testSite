@@ -1991,8 +1991,8 @@ h4:hover {
 
 .deasktopHeader {
   position: fixed;
-  top: 25px;
-  left: 25px;
+  top: 30px;
+  left: 30px;
   height: 50px;
   z-index: 10;
   display: none;
