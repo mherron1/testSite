@@ -2020,10 +2020,6 @@ h4:hover {
   .desktopSearchIcon:hover {
     cursor: pointer;
   }
-
-  #mobileSearch {
-    display: none;
-  }
 }
 .deasktopHeader {
   position: fixed;
