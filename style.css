@@ -1848,7 +1848,7 @@ h4:hover {
     width: 325px;
     min-height: 150vh;
     background-color: rgb(245, 245, 245);
-    left: 50vw;
+    left: 51.5vw;
     transform: translateX(92px);
     text-align: right;
     padding-right: 25px;
@@ -1870,7 +1870,7 @@ h4:hover {
     position: absolute;
     width: 550px;
     height: 150vh;
-    left: 49.5vw;
+    left: 51vw;
     transform: translateX(-84%);
   }
   #content {
@@ -1928,7 +1928,7 @@ h4:hover {
   #searchContainer {
     width: 550px;
     height: 150vh;
-    left: 49.5vw;
+    left: 51vw;
     top: 30px;
     transform: translateX(-84%);
     border-top-left-radius: 15px;
