@@ -2025,3 +2025,12 @@ h4:hover {
     display: block;
   }
 }
+
+@media only screen and (min-width: 800px) {
+  .socialSharingContainer2 {
+    display: block;
+    margin-left: 20px;
+    position: relative;
+    text-align: center;
+  }
+}
