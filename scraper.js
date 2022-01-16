@@ -30,7 +30,7 @@ let index = 0;
 
 setTimeout(function () {
   asyncGetCards();
-}, 5400000);
+}, 0);
 
 function asyncGetCards() {
   getCard(events[index]);
