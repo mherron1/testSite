@@ -1427,24 +1427,13 @@ let data = [
   {
     fighterA: 'Darrion Caldwell',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/31762-darrion-caldwell',
-    rankA: '#102',
+    rankA: '#73',
     recordA: '14-5-0 ',
     weight: '135',
     recordB: ' 16-5-2',
-    rankB: '#71',
+    rankB: '#74',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/50277-enrike-barzola-el-fuerte',
     fighterB: 'Enrique Barzola'
-  },
-  {
-    fighterA: 'Romero Cotton',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/161573-romero-cotton',
-    rankA: '#136',
-    recordA: '5-0-0 ',
-    weight: '185',
-    recordB: ' 5-0-0',
-    rankB: '#114',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/152013-dalton-rosta',
-    fighterB: 'Dalton Rosta'
   },
   {
     fighterA: 'Ben Parrish',
@@ -1500,6 +1489,17 @@ let data = [
     rankB: '#10',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45013-ben-lugo',
     fighterB: 'Ben Lugo'
+  },
+  {
+    fighterA: 'Dalton Rosta',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/152013-dalton-rosta',
+    rankA: '#117',
+    recordA: '5-0-0 ',
+    weight: '185',
+    recordB: ' 6-2-0',
+    rankB: '#2',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/16757-duane-johnson',
+    fighterB: 'Duane Johnson'
   }
 ]
 ,"Bellator 273",
