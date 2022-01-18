@@ -1513,11 +1513,11 @@ let data = [
   {
     fighterA: 'Neiman Gracie',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/53803-neiman-gracie',
-    rankA: '#57',
+    rankA: '#64',
     recordA: '11-2-0 ',
     weight: '170',
     recordB: ' 12-1-0',
-    rankB: '#75',
+    rankB: '#81',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/109294-logan-storley-storm',
     fighterB: 'Logan Storley'
   },
@@ -1535,24 +1535,24 @@ let data = [
   {
     fighterA: 'Davion Franklin',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/239688-davion-franklin',
-    rankA: '#119',
+    rankA: '#111',
     recordA: '4-0-0 ',
     weight: '265',
     recordB: ' 8-2-0',
-    rankB: '#53',
+    rankB: '#56',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/183184-said-sowma',
     fighterB: 'Said Sowma'
   },
   {
-    fighterA: 'Veta Arteaga',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/73108-veta-arteaga',
-    rankA: '#60',
-    recordA: '6-4-0 ',
+    fighterA: 'DeAnna Bennett',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/21841-deanna-bennett',
+    rankA: '#44',
+    recordA: '11-7-1 ',
     weight: '125',
-    recordB: ' 5-0-0',
-    rankB: '#58',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/112872-keri-anne-taylor-melendez',
-    fighterB: 'Keri Taylor-Melendez'
+    recordB: ' 7-4-0',
+    rankB: '#47',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/15102-justine-kish',
+    fighterB: 'Justine Kish'
   },
   {
     fighterA: 'Georgi Karakhanyan',
