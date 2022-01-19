@@ -121,7 +121,7 @@ let odds = [
 {"name":"Chan Sung Jung" , "odds": "3.75"},
 {"name":"undefined" , "odds": "1.61"},
 {"name":"undefined" , "odds": "1.44"},
+{"name":"undefined" , "odds": "1.73"},
 {"name":"undefined" , "odds": "86.00"},
 {"name":"undefined" , "odds": "2.35"},
-{"name":"undefined" , "odds": "2.60"},
 ]
