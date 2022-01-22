@@ -21,7 +21,7 @@ let odds = [
 {"name":"Andre Fialho" , "odds": "3.40"},
 {"name":"Brandon Moreno" , "odds": "1.60"},
 {"name":"Deiveson Figueiredo" , "odds": "2.58"},
-{"name":"Francis Ngannou" , "odds": "2.32"},
+{"name":"Francis Ngannou" , "odds": "2.25"},
 {"name":"Ciryl Gane" , "odds": "1.73"},
 {"name":"Bryan Battle" , "odds": "2.20"},
 {"name":"Tresean Gore" , "odds": "1.80"},
