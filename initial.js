@@ -420,11 +420,11 @@ let data = [
   {
     fighterA: 'Mario Bautista',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/33428-mario-bautista',
-    rankA: '#49',
+    rankA: '#48',
     recordA: '8-2-0 ',
     weight: '135',
     recordB: ' 13-4-0',
-    rankB: '#71',
+    rankB: '#70',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/49979-khalid-taha',
     fighterB: 'Khalid Taha'
   },
@@ -460,10 +460,21 @@ let data = [
     rankB: '#54',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/36808-nikolas-palhares',
     fighterB: 'Nikolas Motta'
+  },
+  {
+    fighterA: 'Parker Porter',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/parker-porter',
+    rankA: '#38',
+    recordA: '12-6-0 ',
+    weight: '265',
+    recordB: ' 8-2-0',
+    rankB: '#99',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/50336-alan-baudot',
+    fighterB: 'Alan Baudot'
   }
 ]
 ,"UFC Fight Night",
-"7",
+"8",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -1487,10 +1498,21 @@ let data = [
     rankB: '#30',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/22009-francisco-nazareno-junior-mingau',
     fighterB: 'Francisco Figueiredo'
+  },
+  {
+    fighterA: 'Mike Breeden',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/33407-mike-breeden',
+    rankA: '#3',
+    recordA: '10-4-0 ',
+    weight: '155',
+    recordB: ' 6-1-0',
+    rankB: '#115',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/121270-natan-levy',
+    fighterB: 'Natan Levy'
   }
 ]
 ,"UFC Fight Night",
-"2",
+"3",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -1535,7 +1557,7 @@ let data = [
     recordA: '28-7-0 ',
     weight: '265',
     recordB: ' 11-1-0',
-    rankB: '#28',
+    rankB: '#27',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/95055-valentin-moldavsky',
     fighterB: 'Valentin Moldavsky'
   },
@@ -1553,29 +1575,29 @@ let data = [
   {
     fighterA: 'Henry Corrales',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/25837-henry-corrales',
-    rankA: '#113',
+    rankA: '#115',
     recordA: '19-6-0 ',
     weight: '145',
     recordB: ' 10-5-0',
-    rankB: '#146',
+    rankB: '#149',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/68589-aiden-lee',
     fighterB: 'Aiden Lee'
   },
   {
     fighterA: 'Sabah Homasi',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/sabah-homasi-the-punisher',
-    rankA: '#116',
+    rankA: '#119',
     recordA: '15-10-0 ',
     weight: '170',
     recordB: ' 15-3-0',
-    rankB: '#119',
+    rankB: '#126',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/54327-jaleel-willis',
     fighterB: 'Jaleel Willis'
   },
   {
     fighterA: 'Darrion Caldwell',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/31762-darrion-caldwell',
-    rankA: '#94',
+    rankA: '#93',
     recordA: '14-5-0 ',
     weight: '135',
     recordB: ' 16-5-2',
@@ -1619,13 +1641,24 @@ let data = [
   {
     fighterA: 'Lucas Brennan',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/162427-lucas-brennan',
-    rankA: '#152',
+    rankA: '#156',
     recordA: '5-0-0 ',
     weight: '145',
     recordB: ' 5-4-0',
     rankB: '#10',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45013-ben-lugo',
     fighterB: 'Ben Lugo'
+  },
+  {
+    fighterA: 'Weber Almeida',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/112608-weber-almeida',
+    rankA: '#',
+    recordA: '5-1-0 ',
+    weight: '145',
+    recordB: ' 8-4-0',
+    rankB: '#122',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/67605-fabricio-franco-sub-zero',
+    fighterB: 'Fabricio Franco'
   },
   {
     fighterA: 'Ben Parrish',
@@ -1640,7 +1673,7 @@ let data = [
   }
 ]
 ,"Bellator 273",
-"6",
+"7",
 "Showtime"
 ],
 ["Bellator MMA",
@@ -1956,6 +1989,26 @@ let data = [
 ]
 ,"Bellator 275",
 "9",
+"Showtime"
+],
+["Bellator MMA",
+1652463000000,
+'',
+[
+  {
+    fighterA: 'Yaroslav Amosov',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/81129-yaroslav-amosov',
+    rankA: '#36',
+    recordA: '26-0-0 ',
+    weight: '170',
+    recordB: ' 20-1-0',
+    rankB: '#42',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/21208-michael-page',
+    fighterB: 'Michael Page'
+  }
+]
+,"Bellator London",
+"0",
 "Showtime"
 ],
 ["Professional Fighters League",

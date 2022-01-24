@@ -17,6 +17,7 @@ let events = [
   "https://www.tapology.com/fightcenter/events/85140-bellator-273-bader-vs-moldavsky",
   "https://www.tapology.com/fightcenter/events/85305-bellator-274",
   "https://www.tapology.com/fightcenter/events/85214-bellator-mma",
+  "https://www.tapology.com/fightcenter/events/86088-bellator-london-amosov-vs-mvp",
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
   "https://www.tapology.com/fightcenter/events/80968-pfl-2021-10-championships",
