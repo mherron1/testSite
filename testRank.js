@@ -704,4 +704,3 @@ let ufcRankings = [
             rank: 15
             },
 ]
-module.exports = ufcRankings;
