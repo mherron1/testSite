@@ -284,7 +284,7 @@ body {
   width: 0%;
   max-width: 325px;
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.96);
+  background-color: rgba(23, 23, 23, 0.96);
   transition-duration: 0.3s;
   z-index: 100;
   white-space: nowrap;
@@ -525,7 +525,7 @@ a {
   font-size: 30px;
   color: silver;
   margin-right: 75%;
-  transform: translateY(-30px);
+  transform: translateY(-20px);
 }
 #closeSettings {
   position: fixed;
