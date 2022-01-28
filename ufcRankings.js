@@ -1,10 +1,10 @@
 let ufcRankings = [
 {
-            name: "Brandon Moreno",
+            name: "Deiveson Figueiredo",
             rank: 0
             },
 {
-            name: "Deiveson Figueiredo",
+            name: "Brandon Moreno",
             rank: 1
             },
 {
@@ -100,11 +100,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Marlon Moraes",
+            name: "Pedro Munhoz",
             rank: 9
             },
 {
-            name: "Pedro Munhoz",
+            name: "Marlon Moraes",
             rank: 10
             },
 {
