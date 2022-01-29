@@ -277,17 +277,6 @@ let data = [
     fighterB: 'Mana Martinez'
   },
   {
-    fighterA: 'Ed Herman',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/ed-herman-short-fuse',
-    rankA: '#34',
-    recordA: '24-15-0 ',
-    weight: '205',
-    recordB: ' 31-9-2',
-    rankB: '#30',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/maxim-grishin',
-    fighterB: 'Maxim Grishin'
-  },
-  {
     fighterA: 'Alex Perez',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/alex-perez',
     rankA: '#6',
@@ -319,6 +308,17 @@ let data = [
     rankB: '#22',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/166857-mike-diamond-blood',
     fighterB: 'Mike Mathetha'
+  },
+  {
+    fighterA: 'William Knight',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/120996-william-knight',
+    rankA: '#25',
+    recordA: '11-2-0 ',
+    weight: '205',
+    recordB: ' 31-9-2',
+    rankB: '#31',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/maxim-grishin',
+    fighterB: 'Maxim Grishin'
   }
 ]
 ,"UFC 271",
@@ -799,11 +799,11 @@ let data = [
   {
     fighterA: 'Marlon Moraes',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/14588-marlon-moraes',
-    rankA: '#10',
+    rankA: '#11',
     recordA: '23-9-1 ',
     weight: '135',
     recordB: ' 18-5-1',
-    rankB: '#13',
+    rankB: '#14',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/47836-yadong-song',
     fighterB: 'Yadong Song'
   },
@@ -874,17 +874,6 @@ let data = [
     fighterB: 'Dalcha Lungiambula'
   },
   {
-    fighterA: 'Damon Jackson',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/39377-damon-jackson',
-    rankA: '#31',
-    recordA: '19-4-1 ',
-    weight: '145',
-    recordB: ' 9-1-1',
-    rankB: '#59',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/101823-joshua-culibao',
-    fighterB: 'Joshua Culibao'
-  },
-  {
     fighterA: 'Sabina Mazo',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/92893-sabina-mazo',
     rankA: '#43',
@@ -927,6 +916,17 @@ let data = [
     rankB: '#31',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45190-karl-robinson',
     fighterB: 'Karl Roberson'
+  },
+  {
+    fighterA: 'Damon Jackson',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/39377-damon-jackson',
+    rankA: '#31',
+    recordA: '19-4-1 ',
+    weight: '145',
+    recordB: ' 11-4-0',
+    rankB: '#47',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/66705-kamuela-kirk',
+    fighterB: 'Kamuela Kirk'
   }
 ]
 ,"UFC Fight Night",
@@ -1209,10 +1209,32 @@ let data = [
     rankB: '#23',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/84753-lerone-murphy',
     fighterB: 'Lerone Murphy'
+  },
+  {
+    fighterA: 'Marc Diakiese',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/66513-marc-diakiese',
+    rankA: '#39',
+    recordA: '14-5-0 ',
+    weight: '155',
+    recordB: ' 6-1-0',
+    rankB: '#80',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/48692-vyacheslav-borshev',
+    fighterB: 'Viacheslav Borshchev'
+  },
+  {
+    fighterA: 'Luis Saldaña',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/20577-luis-saldana',
+    rankA: '#85',
+    recordA: '15-7-0 ',
+    weight: '145',
+    recordB: ' 10-2-0',
+    rankB: '#108',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/136658-bruno-assis-karate',
+    fighterB: 'Bruno Souza'
   }
 ]
 ,"UFC Fight Night",
-"5",
+"7",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -1568,13 +1590,24 @@ let data = [
   {
     fighterA: 'Antonina Shevchenko',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/119417-antonia-schevchenko',
-    rankA: '#22',
+    rankA: '#21',
     recordA: '9-4-0 ',
     weight: '125',
     recordB: ' 10-9-0',
     rankB: '#33',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/21135-courtney-casey',
     fighterB: 'Cortney Casey'
+  },
+  {
+    fighterA: 'Donald Cerrone',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/donald-cerrone-cowboy',
+    rankA: '#52',
+    recordA: '36-16-0 ',
+    weight: '155',
+    recordB: ' 28-15-0',
+    rankB: '#102',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/joe-lauzon-j-lau',
+    fighterB: 'Joe Lauzon'
   },
   {
     fighterA: 'Gina Mazany',
