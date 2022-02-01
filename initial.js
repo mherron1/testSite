@@ -431,11 +431,11 @@ let data = [
   {
     fighterA: 'Mario Bautista',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/33428-mario-bautista',
-    rankA: '#48',
+    rankA: '#54',
     recordA: '8-2-0 ',
     weight: '135',
     recordB: ' 13-4-0',
-    rankB: '#70',
+    rankB: '#72',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/49979-khalid-taha',
     fighterB: 'Khalid Taha'
   },
@@ -482,10 +482,21 @@ let data = [
     rankB: '#99',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/50336-alan-baudot',
     fighterB: 'Alan Baudot'
+  },
+  {
+    fighterA: 'Gabriel Benítez',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/27087-gabriel-benitez-moggly',
+    rankA: '#64',
+    recordA: '22-9-0 ',
+    weight: '145',
+    recordB: ' 8-1-0',
+    rankB: '#1',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/104455-david-onama',
+    fighterB: 'David Onama'
   }
 ]
 ,"UFC Fight Night",
-"8",
+"9",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
