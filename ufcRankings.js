@@ -16,11 +16,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Alex Perez",
+            name: "Brandon Royval",
             rank: 4
             },
 {
-            name: "Brandon Royval",
+            name: "Alex Perez",
             rank: 5
             },
 {
@@ -316,7 +316,7 @@ let ufcRankings = [
             rank: 14
             },
 {
-            name: "Muslim Salikhov",
+            name: "Shavkat Rakhmonov",
             rank: 15
             },
 {
@@ -344,11 +344,11 @@ let ufcRankings = [
             rank: 5
             },
 {
-            name: "Jack Hermansson",
+            name: "Sean Strickland",
             rank: 6
             },
 {
-            name: "Sean Strickland",
+            name: "Jack Hermansson",
             rank: 7
             },
 {

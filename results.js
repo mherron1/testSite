@@ -44,7 +44,7 @@ let resultsList = [
 {
   winner: 'John Castañeda ',
   time: '1:38 Round 3',
-  method: 'ko/tko',
+  method: 'submission',
   b_Link: 'https://www.tapology.com/fightcenter/fighters/46875-miles-johns'
 }
 ,
