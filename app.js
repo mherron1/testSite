@@ -60,7 +60,7 @@ data2.forEach((event) => {
   }
 
   let tempTime =
-    event[8].split(" ").join("") + "-" + event[0][0].split(" ")[0] + ".jpg";
+    event[7].split(" ").join("") + "-" + event[0][0].split(" ")[0] + ".jpg";
   if (assets.indexOf(tempTime.toLowerCase()) > -1) {
     event[2] =
       "images/eventImages/" + assets[assets.indexOf(tempTime.toLowerCase())];

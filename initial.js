@@ -171,8 +171,7 @@ let data = [
 ]
 ,"UFC 271",
 "10",
-"Pay Per View | Prelims: ESPN",
-" Houston, Texas, United States"
+"Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
 1645304400000,
@@ -313,8 +312,7 @@ let data = [
 ]
 ,"UFC Fight Night",
 "6",
-"ESPN+",
-" Las Vegas, Nevada, United States"
+"ESPN+"
 ],
 ["Ultimate Fighting Championship",
 1645916400000,
@@ -455,8 +453,7 @@ let data = [
 ]
 ,"UFC Fight Night",
 "6",
-"ESPN+",
-" Las Vegas, Nevada, United States"
+"ESPN+"
 ],
 ["Ultimate Fighting Championship",
 1646521200000,
@@ -597,8 +594,7 @@ let data = [
 ]
 ,"UFC 272",
 "7",
-"Pay Per View | Prelims: ESPN",
-" Las Vegas, Nevada, United States"
+"Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
 1647126000000,
@@ -761,8 +757,7 @@ let data = [
 ]
 ,"UFC Fight Night",
 "9",
-"ESPN+",
-" Las Vegas, Nevada, United States"
+"ESPN+"
 ],
 ["Ultimate Fighting Championship",
 1647730800000,
@@ -914,8 +909,7 @@ let data = [
 ]
 ,"UFC Fight Night",
 "6",
-"ESPN+",
-" Endeavor"
+"ESPN+"
 ],
 ["Ultimate Fighting Championship",
 1648335600000,
@@ -1078,8 +1072,7 @@ let data = [
 ]
 ,"UFC Fight Night",
 "7",
-"ESPN+",
-" Endeavor"
+"ESPN+"
 ],
 ["Ultimate Fighting Championship",
 1649541600000,
@@ -1242,8 +1235,7 @@ let data = [
 ]
 ,"UFC 273",
 "9",
-"Pay Per View | Prelims: ESPN",
-" Jacksonville, Florida, United States"
+"Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
 1650146400000,
@@ -1362,8 +1354,7 @@ let data = [
 ]
 ,"UFC Fight Night",
 "5",
-"ESPN+",
-""
+"ESPN+"
 ],
 ["Ultimate Fighting Championship",
 1650751200000,
@@ -1482,8 +1473,7 @@ let data = [
 ]
 ,"UFC Fight Night",
 "7",
-"ESPN+",
-""
+"ESPN+"
 ],
 ["Ultimate Fighting Championship",
 1651356000000,
@@ -1580,8 +1570,7 @@ let data = [
 ]
 ,"UFC Fight Night",
 "6",
-"ESPN+",
-""
+"ESPN+"
 ],
 ["Ultimate Fighting Championship",
 1651975200000,
@@ -1656,8 +1645,7 @@ let data = [
 ]
 ,"UFC 274",
 "4",
-"Pay Per View | Prelims: ESPN",
-""
+"Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
 1652565600000,
@@ -1710,8 +1698,7 @@ let data = [
 ]
 ,"UFC Fight Night",
 "3",
-"ESPN+",
-""
+"ESPN+"
 ],
 ["Ultimate Fighting Championship",
 1653170400000,
@@ -1764,8 +1751,7 @@ let data = [
 ]
 ,"UFC Fight Night",
 "2",
-"ESPN+",
-" Las Vegas, Nevada, United States"
+"ESPN+"
 ],
 ["Bellator MMA",
 1645311600000,
@@ -1928,8 +1914,7 @@ let data = [
 ]
 ,"Bellator 274",
 "10",
-"Showtime",
-" Uncasville, Connecticut, United States"
+"Showtime"
 ],
 ["Bellator MMA",
 1645815600000,
@@ -2092,8 +2077,7 @@ let data = [
 ]
 ,"Bellator 275",
 "10",
-"Showtime",
-" Dublin, Ireland"
+"Showtime"
 ],
 ["Bellator MMA",
 1652459400000,
@@ -2179,8 +2163,7 @@ let data = [
 ]
 ,"Bellator London",
 "3",
-"Showtime",
-" London, England"
+"Showtime"
 ],
 ["Professional Fighters League",
 1635366600000,
@@ -2299,8 +2282,7 @@ let data = [
 ]
 ,"PFL 2021 #10",
 "5",
-"ESPN 2 | Prelims: ESPN+",
-" DarrenRussell"
+"ESPN 2 | Prelims: ESPN+"
 ],
 ["Ultimate Fighting Championship",
 1644094800000,
@@ -2452,8 +2434,7 @@ let data = [
 ]
 ,"UFC Fight Night",
 "7",
-"ESPN+",
-" Las Vegas, Nevada, United States"
+"ESPN+"
 ],
 ["Bellator MMA",
 1643502600000,
@@ -2572,8 +2553,7 @@ let data = [
 ]
 ,"Bellator 273",
 "6",
-"Showtime",
-" Phoenix, Arizona, United States"
+"Showtime"
 ],
 ]
 module.exports = data;
