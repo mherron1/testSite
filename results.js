@@ -160,8 +160,6 @@ let resultsList = [
   b_Link: 'https://www.tapology.com/fightcenter/fighters/55777-ben-parish'
 }
 ,
-]
-module.exports = resultsList;
 {
   winner: 'Kayla Harrison ',
   time: '4:00 Round 2',
@@ -232,3 +230,5 @@ module.exports = resultsList;
   b_Link: 'https://www.tapology.com/fightcenter/fighters/67289-nathan-williams'
 }
 ,
+]
+module.exports = resultsList;
