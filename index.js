@@ -765,7 +765,7 @@ function generateCard(i, arg) {
   <div id="prelimsCard${arg}"></div> 
   <div id="videoGallery${arg}"></div>
   <div id="broadcastInfo" ${broadcastStyle}> ${events[i][6]}</div>
-  <div id="broadcastInfo" ${broadcastStyle}> Location: ${eventsLocation}</div>
+  <!--<div id="broadcastInfo" ${broadcastStyle}> Location: ${eventsLocation}</div>-->
   
   
   
