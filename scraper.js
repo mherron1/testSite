@@ -262,7 +262,7 @@ function getCard(url) {
     console.log(fightCard);
     console.log(`,"${eventName}",`);
     console.log(`"${n}",`);
-    console.log(`"${bc}"`);
+    console.log(`"${bc}",`);
     console.log(`"${el}"`);
     console.log("],");
   }, 7000);
