@@ -98,7 +98,7 @@ let odds = [
 {"name":"Rodrigo Vargas" , "odds": "3.50"},
 {"name":"Tom Aspinall" , "odds": "2.30"},
 {"name":"Alexander Volkov" , "odds": "1.67"},
-{"name":"Jan Blachowicz" , "odds": "2.12"},
+{"name":"Jan Blachowicz" , "odds": "1.95"},
 {"name":"Aleksandar Rakic" , "odds": "1.83"},
 {"name":"Alexander Volkanovski" , "odds": "1.25"},
 {"name":"Chan Sung Jung" , "odds": "4.50"},
