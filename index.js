@@ -742,6 +742,14 @@ function generateCard(i, arg) {
     broadcastStyle = "style = 'background-color: transparent; border:none;'";
   }
 
+  let eventsLocation = events[i][7];
+  let locationArray = eventsLocation.split(",");
+  if (locationArray.length > 2) {
+    if (locationArray[2].includes("United States")) {
+      eventsLocation = locationArray[0] + "," + locationArray[1];
+    }
+  }
+
   let content = document.querySelector(`#content${arg}`);
   content.innerHTML = `
   <!--<button id="searchIcon" onclick="openSearchContainer()">
@@ -757,6 +765,7 @@ function generateCard(i, arg) {
   <div id="prelimsCard${arg}"></div> 
   <div id="videoGallery${arg}"></div>
   <div id="broadcastInfo" ${broadcastStyle}> ${events[i][6]}</div>
+  <div id="broadcastInfo" ${broadcastStyle}> Location: ${eventsLocation}</div>
   
   
   
