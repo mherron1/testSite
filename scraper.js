@@ -124,7 +124,7 @@ function getCard(url) {
       return broadCast;
     });
 
-    /*const eventLocation = await page.evaluate(() => {
+    const eventLocation = await page.evaluate(() => {
       let eventLocation = document
         .querySelector(
           "#content > div.details.details_with_poster.clearfix > div.right > ul > li:nth-child(6)"
@@ -133,7 +133,7 @@ function getCard(url) {
         .slice(1)
         .join(" ");
       return eventLocation;
-    });*/
+    });
 
     const fighterANames = await page.evaluate(() => {
       let a = document.querySelectorAll(".fightCardFighterName.left");
@@ -199,7 +199,7 @@ function getCard(url) {
     t = eventDate;
     p = poster;
     bc = broadCast;
-    //el = eventLocation;
+    el = eventLocation;
     eventName = eventTitle;
     promo = promotion;
     n = numPrelims;
@@ -262,8 +262,8 @@ function getCard(url) {
     console.log(fightCard);
     console.log(`,"${eventName}",`);
     console.log(`"${n}",`);
-    console.log(`"${bc}"`);
-    //console.log(`"${el}"`);
+    console.log(`"${bc}",`);
+    console.log(`"${el}"`);
     console.log("],");
   }, 7000);
 }

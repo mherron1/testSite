@@ -378,7 +378,7 @@ function generateLinks() {
       let date = `${dateString.split(" ")[1]} ${dateString.split(" ")[2]}`;
       eventList.innerHTML += `  
           <div class="eventLink" onclick="selectCard(${i})">
-             <div class="eventLinkDate">${events[i][7]}</div>
+             <div class="eventLinkDate">${date}</div>
               <img src="images/icons/${org}Icon.jpg" class="eventIcons"/>  
           
              <div class="eventLinkText">${events[i][4]}</div>
