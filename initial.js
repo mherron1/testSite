@@ -172,6 +172,7 @@ let data = [
 ,"UFC 271",
 "10",
 "Pay Per View | Prelims: ESPN"
+" Houston, Texas, United States"
 ],
 ["Ultimate Fighting Championship",
 1645304400000,
@@ -313,6 +314,7 @@ let data = [
 ,"UFC Fight Night",
 "8",
 "ESPN+"
+" Las Vegas, Nevada, United States"
 ],
 ["Ultimate Fighting Championship",
 1645916400000,
@@ -454,6 +456,7 @@ let data = [
 ,"UFC Fight Night",
 "10",
 "ESPN+"
+" Las Vegas, Nevada, United States"
 ],
 ["Ultimate Fighting Championship",
 1646521200000,
@@ -595,6 +598,7 @@ let data = [
 ,"UFC 272",
 "7",
 "Pay Per View | Prelims: ESPN"
+" Las Vegas, Nevada, United States"
 ],
 ["Ultimate Fighting Championship",
 1647126000000,
@@ -758,6 +762,7 @@ let data = [
 ,"UFC Fight Night",
 "9",
 "ESPN+"
+" Las Vegas, Nevada, United States"
 ],
 ["Ultimate Fighting Championship",
 1647730800000,
@@ -910,6 +915,7 @@ let data = [
 ,"UFC Fight Night",
 "6",
 "ESPN+"
+" Endeavor"
 ],
 ["Ultimate Fighting Championship",
 1648335600000,
@@ -1073,6 +1079,7 @@ let data = [
 ,"UFC Fight Night",
 "7",
 "ESPN+"
+" Endeavor"
 ],
 ["Ultimate Fighting Championship",
 1649541600000,
@@ -1236,6 +1243,7 @@ let data = [
 ,"UFC 273",
 "9",
 "Pay Per View | Prelims: ESPN"
+" Jacksonville, Florida, United States"
 ],
 ["Ultimate Fighting Championship",
 1650146400000,
@@ -1355,6 +1363,7 @@ let data = [
 ,"UFC Fight Night",
 "5",
 "ESPN+"
+""
 ],
 ["Ultimate Fighting Championship",
 1650751200000,
@@ -1474,6 +1483,7 @@ let data = [
 ,"UFC Fight Night",
 "7",
 "ESPN+"
+""
 ],
 ["Ultimate Fighting Championship",
 1651356000000,
@@ -1571,6 +1581,7 @@ let data = [
 ,"UFC Fight Night",
 "6",
 "ESPN+"
+""
 ],
 ["Ultimate Fighting Championship",
 1651975200000,
@@ -1646,6 +1657,7 @@ let data = [
 ,"UFC 274",
 "4",
 "Pay Per View | Prelims: ESPN"
+""
 ],
 ["Ultimate Fighting Championship",
 1652565600000,
@@ -1699,6 +1711,7 @@ let data = [
 ,"UFC Fight Night",
 "3",
 "ESPN+"
+""
 ],
 ["Ultimate Fighting Championship",
 1653170400000,
@@ -1707,18 +1720,18 @@ let data = [
   {
     fighterA: 'Holly Holm',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/18698-holly-holm-hottie',
-    rankA: '#3',
+    rankA: '#4',
     recordA: '14-5-0 ',
     weight: '135',
     recordB: ' 12-2-0',
-    rankB: '#5',
+    rankB: '#6',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/99972-ketlen-vieira-fenomeno',
     fighterB: 'Ketlen Vieira'
   },
   {
     fighterA: 'Alexander Gustafsson',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/alexander-gustafsson-the-mauler',
-    rankA: '#60',
+    rankA: '#75',
     recordA: '18-7-0 ',
     weight: '265',
     recordB: ' 39-14-0',
@@ -1729,18 +1742,30 @@ let data = [
   {
     fighterA: 'Chase Hooper',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/158947-chase-hooper',
-    rankA: '#86',
+    rankA: '#78',
     recordA: '10-2-1 ',
     weight: '145',
     recordB: ' 10-3-0',
-    rankB: '#80',
+    rankB: '#87',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/80697-felipe-colares-caboco',
     fighterB: 'Felipe Colares'
+  },
+  {
+    fighterA: 'Polyana Viana',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/85751-polyana-mota-poly',
+    rankA: '#20',
+    recordA: '12-4-0 ',
+    weight: '115',
+    recordB: ' 6-1-0',
+    rankB: '#39',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/81538-tabatha-ricci',
+    fighterB: 'Tabatha Ricci'
   }
 ]
 ,"UFC Fight Night",
-"1",
+"2",
 "ESPN+"
+" Las Vegas, Nevada, United States"
 ],
 ["Bellator MMA",
 1645311600000,
@@ -1904,6 +1929,7 @@ let data = [
 ,"Bellator 274",
 "10",
 "Showtime"
+" Uncasville, Connecticut, United States"
 ],
 ["Bellator MMA",
 1645815600000,
@@ -2044,18 +2070,30 @@ let data = [
   {
     fighterA: 'Scott Pedersen',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/107370-scott-pederson',
-    rankA: '#n/a',
+    rankA: '#45',
     recordA: '1-2-0 ',
     weight: '145',
     recordB: ' 3-2-0',
-    rankB: '#n/a',
+    rankB: '#120',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/78170-nathan-kelly',
     fighterB: 'Nathan Kelly'
+  },
+  {
+    fighterA: 'Lee Hammond',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/116771-lee-hammond',
+    rankA: '#n/a',
+    recordA: '1-0-0 ',
+    weight: '155',
+    recordB: ' 2-0-0',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/112977-jamie-hay',
+    fighterB: 'Jamie Hay'
   }
 ]
 ,"Bellator 275",
-"9",
+"10",
 "Showtime"
+" Dublin, Ireland"
 ],
 ["Bellator MMA",
 1652459400000,
@@ -2117,17 +2155,6 @@ let data = [
     fighterB: 'Robert Whiteford'
   },
   {
-    fighterA: 'Lee Hammond',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/116771-lee-hammond',
-    rankA: '#44',
-    recordA: '1-0-0 ',
-    weight: '155',
-    recordB: ' 2-0-0',
-    rankB: '#120',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/112977-jamie-hay',
-    fighterB: 'Jamie Hay'
-  },
-  {
     fighterA: 'Alfie Davis',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/52606-alfie-davies',
     rankA: '#',
@@ -2151,8 +2178,9 @@ let data = [
   }
 ]
 ,"Bellator London",
-"4",
+"3",
 "Showtime"
+" London, England"
 ],
 ["Professional Fighters League",
 1635366600000,
@@ -2272,6 +2300,7 @@ let data = [
 ,"PFL 2021 #10",
 "5",
 "ESPN 2 | Prelims: ESPN+"
+" DarrenRussell"
 ],
 ["Ultimate Fighting Championship",
 1644094800000,
@@ -2424,6 +2453,7 @@ let data = [
 ,"UFC Fight Night",
 "7",
 "ESPN+"
+" Las Vegas, Nevada, United States"
 ],
 ["Bellator MMA",
 1643502600000,
@@ -2543,6 +2573,7 @@ let data = [
 ,"Bellator 273",
 "6",
 "Showtime"
+" Phoenix, Arizona, United States"
 ],
 ]
 module.exports = data;
