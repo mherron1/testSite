@@ -2113,6 +2113,59 @@ let data = [
 "Showtime"
 ],
 ["Bellator MMA",
+1651894200000,
+'',
+[
+  {
+    fighterA: 'Ryan Bader',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/ryan-bader-darth',
+    rankA: '#18',
+    recordA: '29-7-0 ',
+    weight: '265',
+    recordB: ' 31-11-2',
+    rankB: '#25',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/cheick-kongo',
+    fighterB: 'Cheick Kongo'
+  },
+  {
+    fighterA: 'Yoel Romero',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/16155-yoel-romero-palacio',
+    rankA: '#41',
+    recordA: '13-6-0 ',
+    weight: '205',
+    recordB: ' 32-15-1',
+    rankB: '#92',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/melvin-manhoef-no-mercy',
+    fighterB: 'Melvin Manhoef'
+  },
+  {
+    fighterA: 'Soren Bak',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/32825-soren-bak',
+    rankA: '#1',
+    recordA: '15-1-0 ',
+    weight: '155',
+    recordB: ' 15-4-0',
+    rankB: '#110',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/21434-saul-rogers-the-hangman',
+    fighterB: 'Saul Rogers'
+  },
+  {
+    fighterA: 'Yves Landu',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/23690-yves-landu',
+    rankA: '#224',
+    recordA: '16-9-0 ',
+    weight: '155',
+    recordB: ' 10-2-0',
+    rankB: '#20',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/71975-gavin-hughes',
+    fighterB: 'Gavin Hughes'
+  }
+]
+,"Bellator Paris",
+"0",
+"Showtime"
+],
+["Bellator MMA",
 1652459400000,
 '',
 [
