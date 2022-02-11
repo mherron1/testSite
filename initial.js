@@ -1,6 +1,6 @@
 let data = [
 ["Ultimate Fighting Championship",
-1644705000000,
+1644706800000,
 '',
 [
   {
@@ -506,11 +506,11 @@ let data = [
   {
     fighterA: 'Nick Negumereanu',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/142000-nick-negumereanu',
-    rankA: '#41',
+    rankA: '#37',
     recordA: '11-1-0 ',
     weight: '205',
     recordB: ' 9-2-0',
-    rankB: '#27',
+    rankB: '#28',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/119288-kennedy-nzechukwu',
     fighterB: 'Kennedy Nzechukwu'
   },
@@ -590,10 +590,21 @@ let data = [
     rankB: '#143',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/67619-erick-gonzalez',
     fighterB: 'Erick Gonzalez'
+  },
+  {
+    fighterA: 'Umar Nurmagomedov',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/134206-omar-nurmagomedov',
+    rankA: '#44',
+    recordA: '13-0-0 ',
+    weight: '135',
+    recordB: ' 24-12-0',
+    rankB: '#77',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/13751-Brian-Kelleher',
+    fighterB: 'Brian Kelleher'
   }
 ]
 ,"UFC 272",
-"7",
+"8",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
@@ -916,6 +927,17 @@ let data = [
 '',
 [
   {
+    fighterA: 'Curtis Blaydes',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/51080-curtis-blaydes',
+    rankA: '#5',
+    recordA: '15-3-0 ',
+    weight: '265',
+    recordB: ' 12-4-0',
+    rankB: '#11',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/25880-christopher-daukaus',
+    fighterB: 'Chris Daukaus'
+  },
+  {
     fighterA: 'Michelle Waterson',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/michelle-waterson-the-karate-hottie',
     rankA: '#68',
@@ -984,22 +1006,22 @@ let data = [
   {
     fighterA: 'Aleksei Oleinik',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/alexey-oleinik',
-    rankA: '#16',
+    rankA: '#17',
     recordA: '59-16-1 ',
     weight: '265',
     recordB: ' 15-8-0',
-    rankB: '#26',
+    rankB: '#30',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/ilir-latifi',
     fighterB: 'Ilir Latifi'
   },
   {
     fighterA: 'Tucker Lutz',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/39248-tucker-lutz',
-    rankA: '#76',
+    rankA: '#74',
     recordA: '12-2-0 ',
     weight: '145',
     recordB: ' 10-4-0',
-    rankB: '#28',
+    rankB: '#30',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/108867-seung-woo-choi',
     fighterB: 'Seung Woo Choi'
   },
@@ -1028,11 +1050,11 @@ let data = [
   {
     fighterA: 'Aliaskhab Khizriev',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/74383-aliaskhab-khizriev',
-    rankA: '#32',
+    rankA: '#33',
     recordA: '13-0-0 ',
     weight: '185',
     recordB: ' 24-4-1',
-    rankB: '#71',
+    rankB: '#88',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/30204-abusupiyan-magomedov-abus',
     fighterB: 'Abusupiyan Magomedov'
   },
@@ -1061,11 +1083,11 @@ let data = [
   {
     fighterA: 'Luis Saldaña',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/20577-luis-saldana',
-    rankA: '#85',
+    rankA: '#81',
     recordA: '15-7-0 ',
     weight: '145',
     recordB: ' 10-2-0',
-    rankB: '#108',
+    rankB: '#110',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/136658-bruno-assis-karate',
     fighterB: 'Bruno Souza'
   }
@@ -1694,10 +1716,21 @@ let data = [
     rankB: '#34',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/daniel-pineda',
     fighterB: 'Daniel Pineda'
+  },
+  {
+    fighterA: 'Virna Jandiroba',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/56622-virna-jandiroba',
+    rankA: '#12',
+    recordA: '17-3-0 ',
+    weight: '115',
+    recordB: ' 13-11-0',
+    rankB: '#11',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/57525-angela-hill-overkill',
+    fighterB: 'Angela Hill'
   }
 ]
 ,"UFC Fight Night",
-"3",
+"4",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
