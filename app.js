@@ -38,10 +38,17 @@ let times = [
     videos: ["NzaLQ-pYc4g"],
   },
   {
-    date: "jan29",
+    date: "feb29",
     promo: "Bellator MMA",
-    time: new Date(2022, 0, 30, 03, 00, 00),
-    prelims: new Date(2022, 0, 30, 00, 00, 00),
+    time: new Date(2022, 1, 20, 02, 00, 00),
+    prelims: new Date(2022, 1, 19, 23, 00, 00),
+    videos: [],
+  },
+  {
+    date: "feb29",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2022, 1, 20, 00, 00, 00),
+    prelims: new Date(2022, 1, 19, 21, 00, 00),
     videos: [],
   },
 ];
