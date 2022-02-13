@@ -16,11 +16,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Brandon Royval",
+            name: "Alex Perez",
             rank: 4
             },
 {
-            name: "Alex Perez",
+            name: "Brandon Royval",
             rank: 5
             },
 {

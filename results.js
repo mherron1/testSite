@@ -1,93 +1,100 @@
 let resultsList = [
 {
-  winner: 'Sean Strickland ',
+  winner: 'Israel Adesanya ',
   time: '5 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/13893-Jack-Hermansson'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/17398-robert-whittaker'
 }
 ,
 {
-  winner: 'Nick Maximov ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/119534-punahele-soriano-story-time'
-}
-,
-{
-  winner: 'Shavkat Rakhmonov ',
-  time: '4:10 Round 1',
+  winner: 'Tai Tuivasa ',
+  time: '1:40 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/43804-carlston-harris-moambique'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/14023-derrick-lewis-the-black-beast'
 }
 ,
 {
-  winner: 'Brendan Allen ',
-  time: '2:10 Round 2',
+  winner: 'Jared Cannonier ',
+  time: '4:29 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/Derek-Brunson'
+}
+,
+{
+  winner: 'Renato Moicano ',
+  time: '1:23 Round 2',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/sam-alvey'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/46253-alexander-hernandez'
 }
 ,
 {
-  winner: 'Bryan Battle ',
+  winner: 'Bobby Green ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/65776-tresean-gore'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/48941-nasrat-haqparast'
 }
 ,
 {
-  winner: 'Julian Erosa ',
+  winner: 'Andrei Arlovski ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/steven-peterson-ocho'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/33826-jared-vanderaa'
 }
 ,
 {
-  winner: 'John Castañeda ',
-  time: '1:38 Round 3',
+  winner: "Casey O'Neill ",
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/roxanne-modafferi-the-happy-warrior'
+}
+,
+{
+  winner: 'Kyler Phillips ',
+  time: '1:48 Round 3',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/46875-miles-johns'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/24632-marcelo-rojo'
 }
 ,
 {
-  winner: 'Hakeem Dawodu ',
+  winner: 'Carlos Ulberg ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/64126-michael-trizano'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/134237-fabio-cherant'
 }
 ,
 {
-  winner: 'Chidi Njokuani ',
-  time: '0:16 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/26658-marc-andre-barriault'
-}
-,
-{
-  winner: 'Alexis Davis ',
+  winner: 'Ronnie Lawrence ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/54390-julia-stoliarenko'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/43358-leomana-martinez'
 }
 ,
 {
-  winner: 'Jailton Almeida ',
-  time: '2:57 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/136649-danilo-marques'
+  winner: 'Jacob Malkoun ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/29725-aj-dobson'
 }
 ,
 {
-  winner: 'Philip Rowe ',
-  time: '2:15 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/53481-jason-witt'
+  winner: 'D. Silva de Andrade ',
+  time: '3:34 Round 2',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/85896-sergey-morozov'
 }
 ,
 {
-  winner: 'Malcolm Gordon ',
-  time: '1:22 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/104652-denis-bondar'
+  winner: 'Jeremiah Wells ',
+  time: '4:38 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/166857-mike-diamond-blood'
+}
+,
+{
+  winner: 'Maxim Grishin ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/120996-william-knight'
 }
 ,
 {
