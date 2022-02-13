@@ -3,6 +3,8 @@ let odds = [
 {"name":"Jared Vanderaa" , "odds": "7.50"},
 {"name":"Bobby Green" , "odds": "1.70"},
 {"name":"Nasrat Haqparast" , "odds": "2.25"},
+{"name":"Alex Hernandez" , "odds": "2.38"},
+{"name":"Renato Moicano" , "odds": "1.62"},
 {"name":"Jared Cannonier" , "odds": "1.67"},
 {"name":"Derek Brunson" , "odds": "2.42"},
 {"name":"Derrick Lewis" , "odds": "1.58"},
