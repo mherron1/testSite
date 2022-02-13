@@ -1,7 +1,7 @@
 let odds = [
 {"name":"Derrick Lewis" , "odds": "1.33"},
 {"name":"Tai Tuivasa" , "odds": "4.00"},
-{"name":"Israel Adesanya" , "odds": "1.36"},
+{"name":"Israel Adesanya" , "odds": "1.35"},
 {"name":"Robert Whittaker" , "odds": "3.75"},
 {"name":"Jessica-Rose Clark" , "odds": "1.50"},
 {"name":"Stephanie Egger" , "odds": "2.63"},
@@ -38,7 +38,7 @@ let odds = [
 {"name":"Joel Alvarez" , "odds": "3.50"},
 {"name":"Armen Petrosyan" , "odds": "2.70"},
 {"name":"Gregory Rodrigues" , "odds": "1.50"},
-{"name":"Beneil Dariush" , "odds": "4.00"},
+{"name":"Beneil Dariush" , "odds": "4.20"},
 {"name":"Islam Makhachev" , "odds": "1.30"},
 {"name":"Carlos Hernandez" , "odds": "1.90"},
 {"name":"Victor Altamirano" , "odds": "2.05"},
@@ -85,6 +85,6 @@ let odds = [
 {"name":"undefined" , "odds": "1.71"},
 {"name":"undefined" , "odds": "2.30"},
 {"name":"undefined" , "odds": "3.75"},
-{"name":"undefined" , "odds": "1.36"},
+{"name":"undefined" , "odds": "1.35"},
 {"name":"undefined" , "odds": "2.75"},
 ]
