@@ -757,6 +757,8 @@ function generateCard(i, arg) {
   <div id="prelimsCard${arg}"></div> 
   <div id="videoGallery${arg}"></div>
   <div id="broadcastInfo" ${broadcastStyle}> ${events[i][6]}</div>
+  <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support the site', '#e05e5e', 'J3J83LW44');kofiwidget2.draw();</script> 
+
  
   
   
