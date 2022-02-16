@@ -1761,6 +1761,15 @@ h4:hover {
 }
 
 @media only screen and (max-width: 550px) {
+  #imageContainer,
+  #imageContainerMinus1,
+  #imageContainerPlus1 {
+    border-radius: 15px;
+    max-width: 97vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+
   #top_right {
     position: absolute;
     top: 0;
