@@ -5,21 +5,7 @@ if (false) {
 }
 
 let assets = [
-  "nov20-u.jpg",
-  "oct27-p.jpg",
-  "nov05-b.jpg",
-  "nov06-u.jpg",
-  "nov12-b.jpg",
-  "nov13-u.jpg",
-  "nov20-u.jpg",
-  "dec03-b.jpg",
-  "dec04-u.jpg",
-  "dec11-u.jpg",
-  "dec18-u.jpg",
-  "jan15-u.jpg",
-  "jan22-u.jpg",
   "jan29-b.jpg",
-  "feb05-u.jpg",
   "feb12-u.jpg",
   "feb19-u.jpg",
   "feb19-b.jpg",
