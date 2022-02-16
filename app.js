@@ -18,14 +18,14 @@ let assets = [
 
 let times = [
   {
-    date: "feb12",
+    date: "feb19",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 1, 13, 03, 00, 00),
-    prelims: new Date(2022, 1, 12, 23, 00, 00),
+    time: new Date(2022, 1, 20, 00, 00, 00),
+    prelims: new Date(2022, 1, 19, 21, 00, 00),
     videos: ["NzaLQ-pYc4g"],
   },
   {
-    date: "feb29",
+    date: "feb19",
     promo: "Bellator MMA",
     time: new Date(2022, 1, 20, 02, 00, 00),
     prelims: new Date(2022, 1, 19, 23, 00, 00),
