@@ -48,11 +48,11 @@ let ufcRankings = [
             rank: 11
             },
 {
-            name: "Tim Elliott",
+            name: "Sumudaerji",
             rank: 12
             },
 {
-            name: "Sumudaerji",
+            name: "Tim Elliott",
             rank: 13
             },
 {
@@ -228,11 +228,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Conor McGregor",
+            name: "Gregor Gillespie",
             rank: 9
             },
 {
-            name: "Gregor Gillespie",
+            name: "Conor McGregor",
             rank: 10
             },
 {
@@ -328,11 +328,11 @@ let ufcRankings = [
             rank: 1
             },
 {
-            name: "Marvin Vettori",
+            name: "Jared Cannonier",
             rank: 2
             },
 {
-            name: "Jared Cannonier",
+            name: "Marvin Vettori",
             rank: 3
             },
 {
@@ -340,11 +340,11 @@ let ufcRankings = [
             rank: 4
             },
 {
-            name: "Paulo Costa",
+            name: "Sean Strickland",
             rank: 5
             },
 {
-            name: "Sean Strickland",
+            name: "Paulo Costa",
             rank: 6
             },
 {
@@ -460,7 +460,7 @@ let ufcRankings = [
             rank: 2
             },
 {
-            name: "Derrick Lewis",
+            name: "Tai Tuivasa",
             rank: 3
             },
 {
@@ -468,19 +468,19 @@ let ufcRankings = [
             rank: 4
             },
 {
-            name: "Alexander Volkov",
+            name: "Derrick Lewis",
             rank: 5
             },
 {
-            name: "Jairzinho Rozenstruik",
+            name: "Alexander Volkov",
             rank: 6
             },
 {
-            name: "Chris Daukaus",
+            name: "Jairzinho Rozenstruik",
             rank: 7
             },
 {
-            name: "Shamil Abdurakhimov",
+            name: "Chris Daukaus",
             rank: 8
             },
 {
@@ -488,11 +488,11 @@ let ufcRankings = [
             rank: 9
             },
 {
-            name: "Tom Aspinall",
+            name: "Shamil Abdurakhimov",
             rank: 10
             },
 {
-            name: "Tai Tuivasa",
+            name: "Tom Aspinall",
             rank: 11
             },
 {
@@ -624,19 +624,19 @@ let ufcRankings = [
             rank: 11
             },
 {
-            name: "Roxanne Modafferi",
+            name: "Casey O'Neill",
             rank: 12
             },
 {
-            name: "Maycee Barber",
+            name: "Manon Fiorot",
             rank: 13
             },
 {
-            name: "Manon Fiorot",
+            name: "Maycee Barber",
             rank: 14
             },
 {
-            name: "Casey O'Neill",
+            name: "Erin Blanchfield",
             rank: 15
             },
 {
