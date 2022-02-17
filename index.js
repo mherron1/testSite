@@ -329,11 +329,15 @@ function toggleSideNav() {
   if (screen.width < 1000) {
     if (sideNav.style.width === "325px") {
       $("#hamburger-1").toggleClass("is-active");
+      $("#top_right").css("z-index", 1000);
+      $("#top_left").css("z-index", 1000);
       eventList.innerHTML = ``;
       sideNav.style.width = "0%";
       $("#dim").fadeOut(200);
     } else {
       $("#hamburger-1").toggleClass("is-active");
+      $("#top_right").css("z-index", 0);
+      $("#top_left").css("z-index", 0);
       sideNav.style.width = "325px";
       $("#dim").fadeIn(400);
       generateLinks();

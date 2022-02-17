@@ -1764,16 +1764,13 @@ h4:hover {
     top: 0;
     right: 0;
     height: 48px;
-    width: 100px;
-    background-image: linear-gradient(
-      to left,
-      #000,
-      #000,
-      #000,
-      #000,
-      rgba(255, 255, 255, 0)
-    );
+    width: 60px;
+    background-color: #070707;
     z-index: 1000;
+  }
+
+  .under {
+    z-index: 0;
   }
 
   #top_left {
@@ -1781,15 +1778,8 @@ h4:hover {
     top: 0;
     left: 0;
     height: 49px;
-    width: 100px;
-    background-image: linear-gradient(
-      to right,
-      #000,
-      #000,
-      #000,
-      #000,
-      rgba(255, 255, 255, 0)
-    );
+    width: 60px;
+    background-color: #070707;
     z-index: 1000;
     display: block;
   }
