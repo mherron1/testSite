@@ -47,7 +47,7 @@ body {
   top: 0;
   min-height: 100vh;
   z-index: 10;
-  background-color: black;
+  background-color: rgb(14, 14, 14);
 }
 #contentMinus1 {
   position: absolute;
@@ -207,13 +207,11 @@ body {
   padding-bottom: 5px;
   text-align: right;
   padding-right: 6px;
-  background-color: #000;
 }
 
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #000;
 }
 
 .middle,
@@ -224,13 +222,11 @@ body {
   padding-left: 4px;
   padding-right: 4px;
   text-align: center;
-  background-color: #000;
 }
 
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: #000;
 }
 .right,
 .rightPlus1,
@@ -239,13 +235,11 @@ body {
   padding-bottom: 5px;
   text-align: left;
   padding-left: 6px;
-  background-color: #000;
 }
 
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #000;
 }
 .detailsLeft,
 .detailsLeftPlus1,
@@ -1601,7 +1595,6 @@ h4:hover {
   #content {
     position: absolute;
     left: 0;
-    background-color: #060606;
     min-height: 100vh;
     z-index: 10;
     box-shadow: 0px 0px 10px 0px black;
@@ -1881,7 +1874,6 @@ h4:hover {
   }
 
   #mainHeader {
-    background-color: #00000088;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
