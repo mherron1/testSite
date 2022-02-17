@@ -52,7 +52,7 @@ body {
 #contentMinus1 {
   position: absolute;
   top: 0;
-  background-color: #000;
+  background-color: rgb(14, 14, 14);
   max-width: 550px;
   min-height: 100vh;
   display: none;
@@ -61,7 +61,7 @@ body {
 #contentPlus1 {
   position: absolute;
   top: 0;
-  background-color: #000;
+  background-color: rgb(14, 14, 14);
   max-width: 550px;
   min-height: 100vh;
   display: none;
@@ -1765,7 +1765,7 @@ h4:hover {
     right: 0;
     height: 48px;
     width: 60px;
-    background-color: #070707;
+    background-color: rgb(14, 14, 14);
     z-index: 1000;
   }
 
@@ -1779,7 +1779,7 @@ h4:hover {
     left: 0;
     height: 49px;
     width: 60px;
-    background-color: #070707;
+    background-color: rgb(14, 14, 14);
     z-index: 1000;
     display: block;
   }
