@@ -255,17 +255,6 @@ let data = [
     fighterB: 'Jonathan Martinez'
   },
   {
-    fighterA: 'Josiane Nunes',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/61258-josiane-nunes',
-    rankA: '#16',
-    recordA: '8-1-0 ',
-    weight: '135',
-    recordB: ' 13-5-0',
-    rankB: '#4',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/96178-jennifer-gonzalez',
-    fighterB: 'J. Gonzalez Araneda'
-  },
-  {
     fighterA: 'Ramiz Brahimaj',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/129794-ramiz-brahimaj',
     rankA: '#73',
@@ -275,6 +264,17 @@ let data = [
     rankB: '#192',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/86130-mike-gillmore',
     fighterB: 'Micheal Gillmore'
+  },
+  {
+    fighterA: 'Josiane Nunes',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/61258-josiane-nunes',
+    rankA: '#16',
+    recordA: '8-1-0 ',
+    weight: '145',
+    recordB: ' 6-2-0',
+    rankB: '#',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/138183-ramona-pascual',
+    fighterB: 'Ramona Pascual'
   }
 ]
 ,"UFC Fight Night",
@@ -1191,11 +1191,11 @@ let data = [
   {
     fighterA: 'Melsik Baghdasaryan',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/75671-melsik-bagdasaryan',
-    rankA: '#55',
+    rankA: '#57',
     recordA: '7-1-0 ',
     weight: '145',
     recordB: ' 12-4-0',
-    rankB: '#102',
+    rankB: '#104',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/90969-tj-laramie-the-truth',
     fighterB: 'T.J. Laramie'
   },
@@ -1209,10 +1209,21 @@ let data = [
     rankB: '#43',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/74942-ya-nan-wu',
     fighterB: 'Yanan Wu'
+  },
+  {
+    fighterA: 'Jordan Leavitt',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/90318-jordan-leavitt',
+    rankA: '#76',
+    recordA: '9-1-0 ',
+    weight: '155',
+    recordB: ' 13-4-0',
+    rankB: '#3',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/18297-victor-martinez',
+    fighterB: 'Victor Martinez'
   }
 ]
 ,"UFC Fight Night",
-"6",
+"7",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
