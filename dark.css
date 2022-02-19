@@ -41,6 +41,10 @@ body {
   top: 0;
 }
 
+#desktopLinks {
+  display: none;
+}
+
 #content {
   position: absolute;
   left: 0;
