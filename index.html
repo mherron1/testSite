@@ -1,1 +1,188 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link id="pagestyle" rel="stylesheet" href="style.css"><meta property="og:image" content="https://mmafightcards.org/images/twitterCard.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@MMA_FightCards"><meta name="twitter:creator" content="@MMA_FightCards"><meta name="twitter:title" content="MMAFightCards.org"><meta name="twitter:description" content="Making it a little easier to be an MMA fan!"><meta name="twitter:image" content="https://mmafightcards.org/images/twitterCard.png"><script src="database.js"></script><script src="odds.js"></script><script src="app.js"></script><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="manifest" href="/manifest.json"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-194797810-1"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-194797810-1")</script><title>MMA Fight Cards</title></head><body><div class="deasktopHeader"><img class="siteLogo" src="images/appIcons/icon-512x512.png" onclick='window.location.href="/"'></div><div class="desktopDarkButtonsContainer"><i class="fa fa-adjust desktopDarkMode" onclick="toggleStyleSheets()" style="font-size:24px"></i></div><div id="desktopLinks"></div><div id="top_right"></div><div id="full_background"></div><div id="dim" ontouchstart="toggleSideNav()"></div><div id="sharingTop"><a href="https://api.whatsapp.com/send?text=https://mmafightcards.org/"><img src="images/socialImages/whatsApp.jpg" width="50" height="50" class="r"></a><a href="https://twitter.com/intent/tweet?text=https://mmafightcards.org/"><img src="images/socialImages/twitterIcon.jpg" width="50" height="50" class="r"></a></div><div id="displayCard"><div id="top_left"><div id="mobileSearch"><i class="fa fa-search"></i></div></div><div id="sideNav"><div id="eventList"></div></div><div onclick="toggleSideNav()" class="hamburger" id="hamburger-1"><span class="line"></span><span class="line"></span><span class="line"></span></div><div id="settings"><i class="material-icons" id="closeSettings" onclick="changeSettings()">close</i><h3 id="settingsHeader">Settings</h3><div class="setting"><div>All Events</div><label class="switch"><input type="checkbox" id="allInput" onclick="forceToggleAll()"><span class="slider round"></span></label></div><div class="setting"><div>UFC</div><label class="switch"><input type="checkbox" id="ufcInput" onclick="forceToggle()"><span class="slider round"></span></label></div><div class="setting"><div>Bellator</div><label class="switch"><input type="checkbox" id="bellatorInput" onclick="forceToggle()"><span class="slider round"></span></label></div><div class="setting" style="display:none"><div>One FC</div><label class="switch"><input type="checkbox" id="oneInput" onclick="forceToggle()"><span class="slider round"></span></label></div><div class="setting"><div>PFL</div><label class="switch"><input type="checkbox" id="pflInput" onclick="forceToggle()"><span class="slider round"></span></label></div><br><div id="darkModeToggle" class="setting"><div>Dark Mode</div><label class="switch"><input type="checkbox" onclick="toggleStyleSheets()" id="darkInput"><span class="slider round"></span></label></div><div class="setting"><div>Auto Expand</div><label class="switch"><input type="checkbox" id="details" onclick="showDetailsSettings()"><span class="slider round"></span></label></div><div class="setting" style="display:none"><div>Display Countdown</div><label class="switch"><input type="checkbox" id="showHideCountdown" onclick="toggleCountDown()"><span class="slider round"></span></label></div><div class="setting"><div>Decimal Odds</div><label class="switch"><input type="checkbox" id="oddsTypeToggle" onclick="toggleOddsType()"><span class="slider round"></span></label></div><div class="setting" id="hapticsToggleSwitch" style="display:none"><div>Haptic Feedback</div><label class="switch"><input type="checkbox" id="hapticsToggle" onclick="toggleHaptics()"><span class="slider round"></span></label></div><br><br><div class="donBtn"><div class="openDonate" onclick="toggleDonatePopup()">Donate</div></div><div class="donatePopup"><i class="fa fa-window-close" id="closeDonatePopup" style="position:absolute;top:3px;right:5px;font-size:35px" onclick="toggleDonatePopup()"></i><br><div style="margin-bottom:10px"><strong>Paypal</strong></div><a target="_blank" href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN"><div id="paypalLink">Donate</div></a><div style="margin:30px"><strong>BTC</strong>:<br>bc1qpvvqku33axrphdvvgc0adp336shkq7x3xl33hs</div><div style="margin:30px"><strong>ETH</strong>:<br>0xb9356C759CE9Df64C48F5135D80C5d329Bcf29D0</div></div><a href="mailto:mmafightcards.org@gmail.com"><p class="contactBtn">Contact</p></a></div><div id="contentMinus1"></div><div id="content" ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd(event)"></div><div id="contentPlus1"></div></div><br><br><div id="navBlocks"></div><div id="leftArrow" onclick="back()" style="visibility:hidden"><div><div id="navEventTitleLeft">Event Title</div><img id="navImageLeft" src=""></div></div><div id="rightArrow" onclick="next()" style="visibility:hidden"><div id="navEventTitleRight">Event Title</div><img id="navImageRight" src=""></div><p id="keyboard">Keyboard: Left-Right-Enter</p><div id="searchContainer"><i class="material-icons" id="closeSearch" onclick='document.querySelector("#searchContainer").style.display="none"'>close</i><input autocomplete="off" type="text" id="searchInput" value="" placeholder="Search Fighter" onkeyup="searchFighters()"><div id="searchResults"></div></div></body><script src="index.js"></script></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link id="pagestyle" rel="stylesheet" href="style.css">
+    <meta property="og:image" content="https://mmafightcards.org/images/twitterCard.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@MMA_FightCards">
+    <meta name="twitter:creator" content="@MMA_FightCards">
+    <meta name="twitter:title" content="MMAFightCards.org">
+    <meta name="twitter:description" content="Making it a little easier to be an MMA fan!">
+    <meta name="twitter:image" content="https://mmafightcards.org/images/twitterCard.png">
+    <script src="database.js"></script>
+    <script src="odds.js"></script>
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="manifest" href="/manifest.json">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-194797810-1"></script>
+    <script>
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-194797810-1")
+    </script>
+    <title>MMA Fight Cards</title>
+  </head>
+  <body>
+    <div class="deasktopHeader">
+      <img class="siteLogo" src="images/appIcons/icon-512x512.png" onclick='window.location.href="/"'>
+    </div>
+    <div class="desktopDarkButtonsContainer">
+      <i class="fa fa-adjust desktopDarkMode" onclick="toggleStyleSheets()" style="font-size:24px"></i>
+    </div>
+    <div id="desktopLinks"></div>
+    <div id="top_right"></div>
+    <div id="full_background"></div>
+    <div id="dim" ontouchstart="toggleSideNav()"></div>
+    <div id="sharingTop">
+      <a href="https://api.whatsapp.com/send?text=https://mmafightcards.org/">
+        <img src="images/socialImages/whatsApp.jpg" width="50" height="50" class="r">
+      </a>
+      <a href="https://twitter.com/intent/tweet?text=https://mmafightcards.org/">
+        <img src="images/socialImages/twitterIcon.jpg" width="50" height="50" class="r">
+      </a>
+    </div>
+    <div id="displayCard">
+      <div id="top_left">
+        <div id="mobileSearch">
+          <i class="fa fa-search"></i>
+        </div>
+      </div>
+      <div id="sideNav">
+        <div id="eventList"></div>
+      </div>
+      <div onclick="toggleSideNav()" class="hamburger" id="hamburger-1">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <div id="settings">
+        <i class="material-icons" id="closeSettings" onclick="changeSettings()">close</i>
+        <h3 id="settingsHeader">Settings</h3>
+        <div class="setting">
+          <div>All Events</div>
+          <label class="switch">
+            <input type="checkbox" id="allInput" onclick="forceToggleAll()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div>UFC</div>
+          <label class="switch">
+            <input type="checkbox" id="ufcInput" onclick="forceToggle()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div>Bellator</div>
+          <label class="switch">
+            <input type="checkbox" id="bellatorInput" onclick="forceToggle()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting" style="display:none">
+          <div>One FC</div>
+          <label class="switch">
+            <input type="checkbox" id="oneInput" onclick="forceToggle()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div>PFL</div>
+          <label class="switch">
+            <input type="checkbox" id="pflInput" onclick="forceToggle()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <br>
+        <div id="darkModeToggle" class="setting">
+          <div>Dark Mode</div>
+          <label class="switch">
+            <input type="checkbox" onclick="toggleStyleSheets()" id="darkInput">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div>Auto Expand</div>
+          <label class="switch">
+            <input type="checkbox" id="details" onclick="showDetailsSettings()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting" style="display:none">
+          <div>Display Countdown</div>
+          <label class="switch">
+            <input type="checkbox" id="showHideCountdown" onclick="toggleCountDown()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <div>Decimal Odds</div>
+          <label class="switch">
+            <input type="checkbox" id="oddsTypeToggle" onclick="toggleOddsType()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="setting" id="hapticsToggleSwitch" style="display:none">
+          <div>Haptic Feedback</div>
+          <label class="switch">
+            <input type="checkbox" id="hapticsToggle" onclick="toggleHaptics()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <br>
+        <br>
+        <div class="donBtn">
+          <div class="openDonate" onclick="toggleDonatePopup()">Donate</div>
+        </div>
+        <div class="donatePopup">
+          <i class="fa fa-window-close" id="closeDonatePopup" style="position:absolute;top:3px;right:5px;font-size:35px" onclick="toggleDonatePopup()"></i>
+          <br>
+          <div style="margin-bottom:10px">
+            <strong>Paypal</strong>
+          </div>
+          <a target="_blank" href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
+            <div id="paypalLink">Donate</div>
+          </a>
+          <div style="margin:30px">
+            <strong>BTC</strong>: <br>bc1qpvvqku33axrphdvvgc0adp336shkq7x3xl33hs
+          </div>
+          <div style="margin:30px">
+            <strong>ETH</strong>: <br>0xb9356C759CE9Df64C48F5135D80C5d329Bcf29D0
+          </div>
+        </div>
+        <a href="mailto:mmafightcards.org@gmail.com">
+          <p class="contactBtn">Contact</p>
+        </a>
+      </div>
+      <div id="contentMinus1"></div>
+      <div id="content" ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd(event)"></div>
+      <div id="contentPlus1"></div>
+    </div>
+    <br>
+    <br>
+    <div id="navBlocks"></div>
+    <div id="leftArrow" onclick="back()" style="visibility:hidden">
+      <div>
+        <div id="navEventTitleLeft">Event Title</div>
+        <img id="navImageLeft" src="">
+      </div>
+    </div>
+    <div id="rightArrow" onclick="next()" style="visibility:hidden">
+      <div id="navEventTitleRight">Event Title</div>
+      <img id="navImageRight" src="">
+    </div>
+    <p id="keyboard">Keyboard: Left-Right-Enter</p>
+    <div id="searchContainer">
+      <i class="material-icons" id="closeSearch" onclick='document.querySelector("#searchContainer").style.display="none"'>close</i>
+      <input autocomplete="off" type="text" id="searchInput" value="" placeholder="Search Fighter" onkeyup="searchFighters()">
+      <div id="searchResults"></div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
