@@ -1945,16 +1945,6 @@ h4:hover {
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 820px) {
-  #desktopLinks {
-    max-width: 260px;
-    left: 95%;
-  }
-  #content {
-    transform: translateX(28px);
-  }
-}
-
 .desktopDarkButtonsContainer {
   display: none;
 }
