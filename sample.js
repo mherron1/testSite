@@ -360,7 +360,7 @@ data.forEach((event) => {
       }
       a = FuzzySet([name2]);
       if (a.get(item.name) != null) {
-        if (a.get(item.name)[0][0] > 0.78) {
+        if (a.get(item.name)[0][0] > 0.82) {
           event[3][j].rankB = `#${item.rank}`;
         }
       }
