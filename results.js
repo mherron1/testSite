@@ -1,100 +1,86 @@
 let resultsList = [
 {
-  winner: 'Israel Adesanya ',
-  time: '5 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/17398-robert-whittaker'
-}
-,
-{
-  winner: 'Tai Tuivasa ',
-  time: '1:40 Round 2',
+  winner: 'Jamahal Hill ',
+  time: '2:55 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/14023-derrick-lewis-the-black-beast'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/85671-johnny-walker'
 }
 ,
 {
-  winner: 'Jared Cannonier ',
-  time: '4:29 Round 2',
+  winner: 'Kyle Daukaus ',
+  time: '4:59 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/38304-jamie-pickett'
+}
+,
+{
+  winner: 'Parker Porter ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/50336-alan-baudot'
+}
+,
+{
+  winner: 'Jim Miller ',
+  time: '1:58 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/Derek-Brunson'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/36808-nikolas-palhares'
 }
 ,
 {
-  winner: 'Renato Moicano ',
-  time: '1:23 Round 2',
+  winner: 'Joaquin Buckley ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/59306-abdul-razak-alhassan'
+}
+,
+{
+  winner: 'David Onama ',
+  time: '4:24 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/27087-gabriel-benitez-moggly'
+}
+,
+{
+  winner: 'Stephanie Egger ',
+  time: '3:44 Round 1',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/46253-alexander-hernandez'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/41689-jessy-rose'
 }
 ,
 {
-  winner: 'Bobby Green ',
+  winner: 'Chas Skelly ',
+  time: '2:01 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/15454-mark-striegl-mugen'
+}
+,
+{
+  winner: 'Gloria de Paula ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/48941-nasrat-haqparast'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/76509-diana-belbita'
 }
 ,
 {
-  winner: 'Andrei Arlovski ',
+  winner: 'Chad Anheliger ',
+  time: '3:33 Round 3',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/78843-jesse-strader'
+}
+,
+{
+  winner: 'Jonathan Pearce ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/33826-jared-vanderaa'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/121190-christian-rodriguez'
 }
 ,
 {
-  winner: "Casey O'Neill ",
+  winner: 'Mario Bautista ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/roxanne-modafferi-the-happy-warrior'
-}
-,
-{
-  winner: 'Kyler Phillips ',
-  time: '1:48 Round 3',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/24632-marcelo-rojo'
-}
-,
-{
-  winner: 'Carlos Ulberg ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/134237-fabio-cherant'
-}
-,
-{
-  winner: 'Ronnie Lawrence ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/43358-leomana-martinez'
-}
-,
-{
-  winner: 'Jacob Malkoun ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/29725-aj-dobson'
-}
-,
-{
-  winner: 'D. Silva de Andrade ',
-  time: '3:34 Round 2',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/85896-sergey-morozov'
-}
-,
-{
-  winner: 'Jeremiah Wells ',
-  time: '4:38 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/166857-mike-diamond-blood'
-}
-,
-{
-  winner: 'Maxim Grishin ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/120996-william-knight'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/20858-jay-parrin'
 }
 ,
 {
