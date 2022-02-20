@@ -12,6 +12,8 @@ let assets = [
   "feb25-b.jpg",
   "feb26-u.jpg",
   "mar05-u.jpg",
+  "mar12-u.jpg",
+  "mar19-u.jpg",
   "apr09-u.jpg",
   "may07-u.jpg",
 ];
@@ -38,6 +40,14 @@ let times = [
     prelims: new Date(2022, 1, 26, 21, 00, 00),
     videos: [],
   },
+  {
+    date: "mar05",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2022, 2, 06, 3, 00, 00),
+    prelims: new Date(2022, 2, 05, 23, 00, 00),
+    videos: ["JBicBZWV7Cc"],
+  },
+
   {
     date: "feb25",
     promo: "Bellator MMA",
