@@ -16,11 +16,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Brandon Royval",
+            name: "Alex Perez",
             rank: 4
             },
 {
-            name: "Alex Perez",
+            name: "Brandon Royval",
             rank: 5
             },
 {
@@ -228,11 +228,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Gregor Gillespie",
+            name: "Conor McGregor",
             rank: 9
             },
 {
-            name: "Conor McGregor",
+            name: "Gregor Gillespie",
             rank: 10
             },
 {
@@ -424,7 +424,7 @@ let ufcRankings = [
             rank: 9
             },
 {
-            name: "Johnny Walker",
+            name: "Jamahal Hill",
             rank: 10
             },
 {
@@ -432,7 +432,7 @@ let ufcRankings = [
             rank: 11
             },
 {
-            name: "Jamahal Hill",
+            name: "Johnny Walker",
             rank: 12
             },
 {
