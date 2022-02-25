@@ -500,7 +500,6 @@ const touchEnd = (evt) => {
       contentMinus1.style.transition = "0s";
     }, 201);
   } else if (changeX > 0 && notLast) {
-    console.log("this way");
     content1.style.transition = "0.2s";
     contentPlus1.style.transition = "0.2s";
     contentMinus1.style.transition = "0.2s";
