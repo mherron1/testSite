@@ -2056,3 +2056,60 @@ h4:hover {
     text-align: center;
   }
 }
+
+.share_popup {
+  position: absolute;
+  max-height: 550px;
+  margin: auto;
+  background-color: #050505;
+  opacity: 98%;
+  width: 80vw;
+  height: 80vh;
+  margin: 10vh 10vw;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000000000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  display: none;
+}
+
+.share_popup_button {
+  border: none;
+}
+
+.popup_share {
+  margin: 10px;
+  font-size: 16px;
+  padding: 8px 25px;
+  width: 150px;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  transition: 0.15s;
+}
+
+.popup_share:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  filter: brightness(110%);
+}
+
+.popup_share_close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 40px;
+}
+
+.popup_share_close:hover {
+  cursor: pointer;
+}

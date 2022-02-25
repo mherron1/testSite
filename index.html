@@ -183,6 +183,82 @@
       <input autocomplete="off" type="text" id="searchInput" value="" placeholder="Search Fighter" onkeyup="searchFighters()">
       <div id="searchResults"></div>
     </div>
+
+
+<div class="share_popup">
+
+<div class="popup_share_close">
+  ❎
+</div>
+<img src="https://i.gifer.com/CGi.gif" style="max-width:200px; margin-top:100px;" >  
+<br>
+<br>
+<div style="padding:0px 50px; text-align:center;">Help me keep this site alive by sharing the link! 👊</div>
+<br>
+  <div style="margin-bottom:40px;">
+    <div>
+      <a href="https://twitter.com/intent/tweet?url='https://mmafightcards.org/' title="Twitter" target="_blank">
+        <button class="popup_share" style="background-color:#1DA1F2;">Twitter</button>
+      </a>
+    </div>
+    <div>
+    <a href="https://api.whatsapp.com/send?text=https://mmafightcards.org/" title="WhatsApp" target="_blank">
+      <button class="popup_share" style="background-color:#20a852;">WhatsApp</button>
+    </a>
+    </div>
+    <div>
+      <a href="https://t.me/share/url?url='https://mmafightcards.org/'" title="Telegram" target="_blank">
+        <button  class="popup_share" style="background-color:#0088CC;">Telegram</button>
+      </a>
+    </div>
+    <div>
+      <button  class="popup_share" id="clipboard" style="background-color:#ce8c8c;">Copy URL</button>
+    </div>
+  </div>
+</div>
+
   </body>
+  <script>
+var $temp = $("<input>");
+var $url = $(location).attr('href');
+
+$('#clipboard').on('click', function() {
+  $("body").append($temp);
+  $temp.val($url).select();
+  document.execCommand("copy");
+  $temp.remove();
+  $("p").text("URL copied!");
+})
+
+$('.popup_share_close').on('click', function() {
+  document.querySelector('.share_popup').style.display = 'none';
+
+})
+
+
+
+    </script>
+<script>
+
+if(!localStorage.getItem("popup-shown")){
+
+  if(localStorage.getItem("markers")){
+    let marker = localStorage.getItem("markers")
+    localStorage.setItem("markers", (1 + marker))
+    if(localStorage.getItem("markers").length > 25){
+      document.querySelector('.share_popup').style.display = 'flex';
+      localStorage.setItem("popup-shown", true);
+    }
+  }else{
+    localStorage.setItem("markers", 1);
+    //document.querySelector('.share_popup').style.display = 'flex';
+  }
+
+}
+  
+  
+
+
+    </script>
   <script src="index.js"></script>
 </html>
