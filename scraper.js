@@ -13,7 +13,6 @@ let events = [
   "https://www.tapology.com/fightcenter/events/85253-ufc-274",
   "https://www.tapology.com/fightcenter/events/85916-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/86509-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/85214-bellator-mma",
   "https://www.tapology.com/fightcenter/events/86506-bellator-paris-bader-vs-kongo-2",
   "https://www.tapology.com/fightcenter/events/86088-bellator-london-amosov-vs-mvp",
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
@@ -21,7 +20,7 @@ let events = [
   "https://www.tapology.com/fightcenter/events/80968-pfl-2021-10-championships",
   "https://www.tapology.com/fightcenter/events/83406-ufc-fight-night",
 
-  "https://www.tapology.com/fightcenter/events/85305-bellator-274",
+  "https://www.tapology.com/fightcenter/events/85214-bellator-mma",
   //"https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
 ];
 //getEventURLs();
