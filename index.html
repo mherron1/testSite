@@ -245,7 +245,7 @@ if(!localStorage.getItem("popup-shown")){
   if(localStorage.getItem("markers")){
     let marker = localStorage.getItem("markers")
     localStorage.setItem("markers", (1 + marker))
-    if(localStorage.getItem("markers").length > 10){
+    if(localStorage.getItem("markers").length > 100){
       document.querySelector('.share_popup').style.display = 'flex';
       localStorage.setItem("popup-shown", true);
     }
