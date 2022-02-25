@@ -185,7 +185,7 @@
     </div>
 
 
-<div class="share_popup">
+<div class="share_popup" style="display:none;">
 
 <div class="popup_share_close">
   ❎
@@ -246,7 +246,7 @@ if(!localStorage.getItem("popup-shown")){
     let marker = localStorage.getItem("markers")
     localStorage.setItem("markers", (1 + marker))
     if(localStorage.getItem("markers").length > 10){
-      document.querySelector('.share_popup').style.display = 'flex';
+ 
       localStorage.setItem("popup-shown", true);
     }
   }else{
