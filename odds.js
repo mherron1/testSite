@@ -57,6 +57,8 @@ let odds = [
 {"name":"Rafael Fiziev" , "odds": "1.40"},
 {"name":"Jorge Masvidal" , "odds": "4.00"},
 {"name":"Colby Covington" , "odds": "1.33"},
+{"name":"Diego Sanchez" , "odds": "6.50"},
+{"name":"Kevin Lee" , "odds": "1.11"},
 {"name":"AJ Fletcher" , "odds": "3.10"},
 {"name":"Matthew Semelsberger" , "odds": "1.40"},
 {"name":"Alex Caceres" , "odds": "2.83"},
