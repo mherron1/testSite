@@ -1881,6 +1881,7 @@ h4:hover {
     height: 150vh;
     left: 51vw;
     transform: translateX(-84%);
+    z-index: 25;
   }
   #content {
     position: absolute;
