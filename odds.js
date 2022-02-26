@@ -5,7 +5,7 @@ let odds = [
 {"name":"Micheal Gilmore" , "odds": "3.75"},
 {"name":"JJ Aldrich" , "odds": "1.83"},
 {"name":"Ariane Lipski" , "odds": "2.00"},
-{"name":"Ramona Pascual" , "odds": "2.96"},
+{"name":"Ramona Pascual" , "odds": "2.98"},
 {"name":"Josiane Nunes" , "odds": "1.50"},
 {"name":"Ignacio Bahamondes" , "odds": "1.50"},
 {"name":"Zhu Rong" , "odds": "2.87"},
