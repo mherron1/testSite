@@ -189,17 +189,6 @@ let data = [
     fighterB: 'Greg Hardy'
   },
   {
-    fighterA: 'Jessica Eye',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/14208-jessica-eye',
-    rankA: '#13',
-    recordA: '15-10-0 ',
-    weight: '125',
-    recordB: ' 8-1-0',
-    rankB: '#14',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/136168-manon-fiorot',
-    fighterB: 'Manon Fiorot'
-  },
-  {
     fighterA: 'Maryna Moroz',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/73990-marina-moroz',
     rankA: '#24',
@@ -289,11 +278,11 @@ let data = [
   }
 ]
 ,"UFC 272",
-"9",
+"8",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
-1647126000000,
+1647118800000,
 '',
 [
   {
@@ -310,7 +299,7 @@ let data = [
   {
     fighterA: 'Marlon Moraes',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/14588-marlon-moraes',
-    rankA: '#12',
+    rankA: '#11',
     recordA: '23-9-1 ',
     weight: '135',
     recordB: ' 18-5-1',
@@ -350,6 +339,17 @@ let data = [
     rankB: '#41',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/17746-rick-glenn',
     fighterB: 'Ricky Glenn'
+  },
+  {
+    fighterA: 'Khalil Rountree',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/47284-khalil-rountree-the-war-horse',
+    rankA: '#29',
+    recordA: '9-5-0 ',
+    weight: '205',
+    recordB: ' 9-4-0',
+    rankB: '#32',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45190-karl-robinson',
+    fighterB: 'Karl Roberson'
   },
   {
     fighterA: 'Guido Cannetti',
@@ -394,17 +394,6 @@ let data = [
     rankB: '#19',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/93373-azamat-murzakanov',
     fighterB: 'Azamat Murzakanov'
-  },
-  {
-    fighterA: 'Khalil Rountree',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/47284-khalil-rountree-the-war-horse',
-    rankA: '#28',
-    recordA: '9-5-0 ',
-    weight: '205',
-    recordB: ' 9-4-0',
-    rankB: '#33',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45190-karl-robinson',
-    fighterB: 'Karl Roberson'
   },
   {
     fighterA: 'Damon Jackson',
@@ -452,7 +441,7 @@ let data = [
   }
 ]
 ,"UFC Fight Night",
-"9",
+"8",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -1372,6 +1361,17 @@ let data = [
     fighterB: 'Joe Lauzon'
   },
   {
+    fighterA: 'Ovince St. Preux',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/ovince-st-preux',
+    rankA: '#74',
+    recordA: '25-16-0 ',
+    weight: '205',
+    recordB: ' 27-12-1',
+    rankB: '#32',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/mauricio-rua-shogun',
+    fighterB: 'Maurício Rua'
+  },
+  {
     fighterA: 'Macy Chiasson',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/77737-macy-chiasson',
     rankA: '#18',
@@ -1436,10 +1436,21 @@ let data = [
     rankB: '#143',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/29221-matt-schnell',
     fighterB: 'Matt Schnell'
+  },
+  {
+    fighterA: 'Michael Johnson',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/michael-johnson-the-menace',
+    rankA: '#60',
+    recordA: '19-17-0 ',
+    weight: '155',
+    recordB: ' 15-3-0',
+    rankB: '#69',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/36092-allan-patrick-nuguete',
+    fighterB: 'Alan Patrick'
   }
 ]
 ,"UFC 274",
-"6",
+"7",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",

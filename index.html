@@ -192,7 +192,7 @@
 <img src="https://i.gifer.com/CGi.gif" style="max-width:200px; margin-top:100px;" >  
 <br>
 <br>
-<div style="padding:0px 50px; text-align:center;">If you'd like to help keep this site alive, please take a moment to share! 👊</div>
+<div style="padding:0px 50px; text-align:center;">Help keep this site alive by sharing! 👊</div>
 <br>
   <div style="margin-bottom:40px;">
     <div>
@@ -248,11 +248,11 @@ if(!localStorage.getItem("popup-shown")){
   if(localStorage.getItem("markers")){
     let marker = localStorage.getItem("markers")
     localStorage.setItem("markers", (1 + marker))
-    if(localStorage.getItem("markers").length > 5){
+    if(localStorage.getItem("markers").length > 2){
       document.querySelector('.share_popup').style.display = 'flex';
-      document.querySelector('#displayCard').style.filter = "blur(8px)";
-      document.querySelector('#desktopLinks').style.filter = "blur(8px)";
-      document.querySelector('#top_right').style.filter = "blur(8px)";
+      document.querySelector('#displayCard').style.filter = "brightness(85%)";
+      document.querySelector('#desktopLinks').style.filter = "brightness(85%)";
+      document.querySelector('#top_right').style.filter = "brightness(85%)";
       localStorage.setItem("popup-shown", true);
     }
   }else{
