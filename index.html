@@ -234,6 +234,7 @@ $('.popup_share_close').on('click', function() {
   document.querySelector('.share_popup').style.display = 'none';
   document.querySelector('#displayCard').style.filter = "unset";
   document.querySelector('#desktopLinks').style.filter = "unset";
+  document.querySelector('#top_right').style.filter = "unset";
 
 })
 
@@ -251,6 +252,7 @@ if(!localStorage.getItem("popup-shown")){
       document.querySelector('.share_popup').style.display = 'flex';
       document.querySelector('#displayCard').style.filter = "blur(8px)";
       document.querySelector('#desktopLinks').style.filter = "blur(8px)";
+      document.querySelector('#top_right').style.filter = "blur(8px)";
       localStorage.setItem("popup-shown", true);
     }
   }else{
@@ -260,8 +262,6 @@ if(!localStorage.getItem("popup-shown")){
 
 }
   
-  
-
 
     </script>
   <script src="index.js"></script>
