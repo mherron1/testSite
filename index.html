@@ -213,6 +213,7 @@
     </div>
     <div>
       <button  class="popup_share" id="clipboard" style="background-color:#ce8c8c;">Copy URL</button>
+      <div class="url_copied" style="text-align:center; font-size:14px;height:20px;"></div>
     </div>
   </div>
 </div>
@@ -227,7 +228,7 @@ $('#clipboard').on('click', function() {
   $temp.val($url).select();
   document.execCommand("copy");
   $temp.remove();
-  $("p").text("URL copied!");
+  $(".url_copied").text("URL copied");
 })
 
 $('.popup_share_close').on('click', function() {
