@@ -83,7 +83,7 @@ let odds = [
 {"name":"Justin Gaethje" , "odds": "2.32"},
 {"name":"undefined" , "odds": "6.00"},
 {"name":"undefined" , "odds": "1.13"},
-{"name":"undefined" , "odds": "1.33"},
-{"name":"undefined" , "odds": "4.00"},
 {"name":"undefined" , "odds": "2.10"},
+{"name":"undefined" , "odds": "4.00"},
+{"name":"undefined" , "odds": "1.33"},
 ]
