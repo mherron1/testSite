@@ -190,13 +190,13 @@
 <div class="popup_share_close">
   ×
 </div>
-<img src="https://i.gifer.com/CGi.gif" style="max-width:200px; margin-top:100px;" >  
+<img src="https://pbs.twimg.com/media/FMj6QnHaAAMn9C-?format=jpg&name=small" style="max-width:200px; margin-top:100px;" >  
 <br>
 <br>
-<div style="padding:0px 50px; text-align:center;">If you'd like to help keep this site alive, please take a moment to share! 👊</div>
+<div style="padding:0px 50px; text-align:center; font-size:20px;">Fuck Putin!</div>
 <br>
   <div style="margin-bottom:40px;">
-    <div>
+    <!--<div>
       <a href="https://twitter.com/intent/tweet?url=https://mmafightcards.org/" target="_blank">
         <button class="popup_share" style="background-color:#1DA1F2;">Twitter</button>
       </a>
@@ -215,6 +215,10 @@
       <button  class="popup_share" id="clipboard" style="background-color:#ce8c8c;">Copy URL</button>
       <div class="url_copied" style="text-align:center; font-size:14px;height:20px;"></div>
     </div>
+  </div>-->
+
+  <div class="agreeandclose">
+    <button style="padding:7px 20px; font-size:16px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border: none; color:white; background-color:#1C9CEA;">Agree & Close</button>
   </div>
 </div>
 
@@ -231,7 +235,7 @@ $('#clipboard').on('click', function() {
   $(".url_copied").text("URL copied");
 })
 
-$('.popup_share_close').on('click', function() {
+$('.agreeandclose').on('click', function() {
   document.querySelector('.share_popup').style.display = 'none';
 
 })
@@ -241,13 +245,18 @@ $('.popup_share_close').on('click', function() {
     </script>
 <script>
 
-if(!localStorage.getItem("popup-shown")){
 
+
+
+if(!localStorage.getItem("popup2-shown")){
+
+  document.querySelector('.share_popup').style.display = 'flex';
+  localStorage.setItem("popup2-shown", true);
   if(localStorage.getItem("markers")){
     let marker = localStorage.getItem("markers")
     localStorage.setItem("markers", (1 + marker))
     if(localStorage.getItem("markers").length > 3){
-      document.querySelector('.share_popup').style.display = 'flex';
+      //document.querySelector('.share_popup').style.display = 'flex';
       localStorage.setItem("popup-shown", true);
     }
   }else{
