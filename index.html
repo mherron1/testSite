@@ -237,6 +237,7 @@ $('#clipboard').on('click', function() {
 
 $('.agreeandclose').on('click', function() {
   document.querySelector('.share_popup').style.display = 'none';
+  localStorage.setItem("popup2-shown", true);
 
 })
 
@@ -251,7 +252,7 @@ $('.agreeandclose').on('click', function() {
 if(!localStorage.getItem("popup2-shown")){
 
   document.querySelector('.share_popup').style.display = 'flex';
-  localStorage.setItem("popup2-shown", true);
+  
   if(localStorage.getItem("markers")){
     let marker = localStorage.getItem("markers")
     localStorage.setItem("markers", (1 + marker))

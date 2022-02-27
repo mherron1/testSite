@@ -2066,7 +2066,7 @@ h4:hover {
   width: 80vw;
   height: 80vh;
   margin: 10vh 10vw;
-  top: 0;
+  top: 30px;
   left: 0;
   bottom: 0;
   z-index: 1000000000000;
