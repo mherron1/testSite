@@ -1,10 +1,10 @@
 let odds = [
 {"name":"Arman Tsarukyan" , "odds": "1.13"},
 {"name":"Joel Alvarez" , "odds": "5.50"},
-{"name":"Ji Yeon Kim" , "odds": "2.25"},
-{"name":"Priscila Cachoeira" , "odds": "2.40"},
+{"name":"Ji Yeon Kim" , "odds": "2.50"},
+{"name":"Priscila Cachoeira" , "odds": "2.35"},
 {"name":"Misha Cirkunov" , "odds": "1.80"},
-{"name":"Wellington Turman" , "odds": "2.32"},
+{"name":"Wellington Turman" , "odds": "2.30"},
 {"name":"Islam Makhachev" , "odds": "1.13"},
 {"name":"Bobby Green" , "odds": "8.00"},
 {"name":"Alex Oliveira" , "odds": "3.00"},
