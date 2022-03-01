@@ -187,16 +187,14 @@
 <div>
 <div class="share_popup">
 
-<!--<div class="popup_share_close">
+<div class="popup_share_close">
   ×
-</div>-->
-<img src="https://pbs.twimg.com/media/FMj6QnHaAAMn9C-?format=jpg&name=small" style="max-width:200px; margin-top:100px;" >  
+</div>
 <br>
-<br>
-<div style="padding:0px 50px; text-align:center; font-size:20px;">Fuck Putin!</div>
+<div style="padding:0px 50px; text-align:center; font-size:20px;">Help keep this site alive by sharing!</div>
 <br>
   <div style="margin-bottom:40px;">
-    <!--<div>
+    <div>
       <a href="https://twitter.com/intent/tweet?url=https://mmafightcards.org/" target="_blank">
         <button class="popup_share" style="background-color:#1DA1F2;">Twitter</button>
       </a>
@@ -215,10 +213,6 @@
       <button  class="popup_share" id="clipboard" style="background-color:#ce8c8c;">Copy URL</button>
       <div class="url_copied" style="text-align:center; font-size:14px;height:20px;"></div>
     </div>
-  </div>-->
-
-  <div class="agreeandclose">
-    <button style="padding:7px 20px; font-size:16px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border: none; color:white; background-color:#1C9CEA;">Agree & Close</button>
   </div>
 </div>
 
@@ -235,9 +229,8 @@ $('#clipboard').on('click', function() {
   $(".url_copied").text("URL copied");
 })
 
-$('.agreeandclose').on('click', function() {
+$('.popup_share_close').on('click', function() {
   document.querySelector('.share_popup').style.display = 'none';
-  localStorage.setItem("popup2-shown", true);
 
 })
 
@@ -249,23 +242,20 @@ $('.agreeandclose').on('click', function() {
 
 
 
-if(!localStorage.getItem("popup2-shown")){
 
-  document.querySelector('.share_popup').style.display = 'flex';
-  
-  if(localStorage.getItem("markers")){
-    let marker = localStorage.getItem("markers")
-    localStorage.setItem("markers", (1 + marker))
-    if(localStorage.getItem("markers").length > 3){
-      //document.querySelector('.share_popup').style.display = 'flex';
-      localStorage.setItem("popup-shown", true);
+ 
+  if(localStorage.getItem("share_marker")){
+    let marker = parseInt(localStorage.getItem("share_marker")) ;
+    localStorage.setItem("share_marker", (1 + marker))
+    if(localStorage.getItem("share_marker") % 25 === 0){
+      document.querySelector('.share_popup').style.display = 'flex';
     }
   }else{
-    localStorage.setItem("markers", 1);
+    localStorage.setItem("share_marker", 1);
     //document.querySelector('.share_popup').style.display = 'flex';
   }
 
-}
+
   
   
 
