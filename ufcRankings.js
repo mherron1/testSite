@@ -16,11 +16,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Alex Perez",
+            name: "Brandon Royval",
             rank: 4
             },
 {
-            name: "Brandon Royval",
+            name: "Alex Perez",
             rank: 5
             },
 {
@@ -204,11 +204,11 @@ let ufcRankings = [
             rank: 2
             },
 {
-            name: "Beneil Dariush",
+            name: "Islam Makhachev",
             rank: 3
             },
 {
-            name: "Islam Makhachev",
+            name: "Beneil Dariush",
             rank: 4
             },
 {
@@ -240,11 +240,11 @@ let ufcRankings = [
             rank: 11
             },
 {
-            name: "Mateusz Gamrot",
+            name: "Arman Tsarukyan",
             rank: 12
             },
 {
-            name: "Arman Tsarukyan",
+            name: "Mateusz Gamrot",
             rank: 13
             },
 {
@@ -336,11 +336,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Derek Brunson",
+            name: "Sean Strickland",
             rank: 4
             },
 {
-            name: "Sean Strickland",
+            name: "Derek Brunson",
             rank: 5
             },
 {
@@ -688,11 +688,11 @@ let ufcRankings = [
             rank: 11
             },
 {
-            name: "Pannie Kianzad",
+            name: "Karol Rosa",
             rank: 12
             },
 {
-            name: "Karol Rosa",
+            name: "Pannie Kianzad",
             rank: 13
             },
 {
