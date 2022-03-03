@@ -16,11 +16,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Alex Perez",
+            name: "Brandon Royval",
             rank: 4
             },
 {
-            name: "Brandon Royval",
+            name: "Alex Perez",
             rank: 5
             },
 {
@@ -336,15 +336,15 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Derek Brunson",
+            name: "Sean Strickland",
             rank: 4
             },
 {
-            name: "Paulo Costa",
+            name: "Derek Brunson",
             rank: 5
             },
 {
-            name: "Sean Strickland",
+            name: "Paulo Costa",
             rank: 6
             },
 {

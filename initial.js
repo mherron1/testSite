@@ -315,7 +315,7 @@ let data = [
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
-1647730800000,
+1647709200000,
 '',
 [
   {
@@ -341,26 +341,15 @@ let data = [
     fighterB: 'Dan Hooker'
   },
   {
-    fighterA: 'Mike Grundy',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/23283-michael-grundy',
-    rankA: '#57',
-    recordA: '12-3-0 ',
-    weight: '145',
-    recordB: ' 16-7-0',
-    rankB: '#42',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/33134-makwan-amirkhani-tsingis-khan',
-    fighterB: 'Makwan Amirkhani'
-  },
-  {
-    fighterA: 'Jack Shore',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/80250-jack-shore',
-    rankA: '#23',
-    recordA: '15-0-0 ',
-    weight: '135',
-    recordB: ' 18-2-0',
-    rankB: '#21',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45318-timur-valiev',
-    fighterB: 'Timur Valiev'
+    fighterA: 'Shamil Abdurakhimov',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/2783-shamil-abdurahimov',
+    rankA: '#14',
+    recordA: '20-6-0 ',
+    weight: '265',
+    recordB: ' 14-1-0',
+    rankB: '#27',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/89112-sergey-pavlovich',
+    fighterB: 'Sergei Pavlovich'
   },
   {
     fighterA: 'Paddy Pimblett',
@@ -418,6 +407,17 @@ let data = [
     fighterB: 'Cody Durden'
   },
   {
+    fighterA: 'Mike Grundy',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/23283-michael-grundy',
+    rankA: '#49',
+    recordA: '12-3-0 ',
+    weight: '145',
+    recordB: ' 16-7-0',
+    rankB: '#37',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/33134-makwan-amirkhani-tsingis-khan',
+    fighterB: 'Makwan Amirkhani'
+  },
+  {
     fighterA: 'Elise Reed',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/106876-elise-reed',
     rankA: '#88',
@@ -429,15 +429,15 @@ let data = [
     fighterB: 'Cory McKenna'
   },
   {
-    fighterA: 'Shamil Abdurakhimov',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/2783-shamil-abdurahimov',
-    rankA: '#14',
-    recordA: '20-6-0 ',
-    weight: '265',
-    recordB: ' 14-1-0',
-    rankB: '#28',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/89112-sergey-pavlovich',
-    fighterB: 'Sergei Pavlovich'
+    fighterA: 'Jack Shore',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/80250-jack-shore',
+    rankA: '#27',
+    recordA: '15-0-0 ',
+    weight: '135',
+    recordB: ' 18-2-0',
+    rankB: '#25',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45318-timur-valiev',
+    fighterB: 'Timur Valiev'
   },
   {
     fighterA: 'Nathaniel Wood',
@@ -463,7 +463,7 @@ let data = [
   }
 ]
 ,"UFC Fight Night",
-"6",
+"7",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -1110,6 +1110,17 @@ let data = [
     rankB: '#33',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/21135-courtney-casey',
     fighterB: 'Cortney Casey'
+  },
+  {
+    fighterA: 'Gerald Meerschaert',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/6018-gerald-meerschaert-the-machine',
+    rankA: '#18',
+    recordA: '34-14-0 ',
+    weight: '185',
+    recordB: ' 23-5-0',
+    rankB: '#17',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/26236-krzysztof-jotko',
+    fighterB: 'Krzysztof Jotko'
   },
   {
     fighterA: 'Gina Mazany',
