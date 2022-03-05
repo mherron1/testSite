@@ -200,26 +200,26 @@ let data = [
     fighterB: 'Sodiq Yusuff'
   },
   {
-    fighterA: 'Drew Dober',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/drew-dober',
-    rankA: '#20',
-    recordA: '23-11-0 ',
-    weight: '155',
-    recordB: ' 22-6-2',
-    rankB: '#41',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/17746-rick-glenn',
-    fighterB: 'Ricky Glenn'
-  },
-  {
     fighterA: 'Khalil Rountree',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/47284-khalil-rountree-the-war-horse',
-    rankA: '#29',
+    rankA: '#30',
     recordA: '9-5-0 ',
     weight: '205',
     recordB: ' 9-4-0',
-    rankB: '#32',
+    rankB: '#33',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/45190-karl-robinson',
     fighterB: 'Karl Roberson'
+  },
+  {
+    fighterA: 'Drew Dober',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/drew-dober',
+    rankA: '#21',
+    recordA: '23-11-0 ',
+    weight: '155',
+    recordB: ' 12-3-0',
+    rankB: '#33',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/126382-terrance-mckinney',
+    fighterB: 'Terrance McKinney'
   },
   {
     fighterA: 'Guido Cannetti',
@@ -363,17 +363,6 @@ let data = [
     fighterB: 'Rodrigo Vargas'
   },
   {
-    fighterA: 'Gunnar Nelson',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/16566-gunnar-nelson',
-    rankA: '#49',
-    recordA: '17-5-1 ',
-    weight: '170',
-    recordB: ' 14-3-0',
-    rankB: '#59',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/claudio-henrique-da-silva-mineiro',
-    fighterB: 'Claudio Silva'
-  },
-  {
     fighterA: 'Nikita Krylov',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/37801-nikita-krylov',
     rankA: '#12',
@@ -440,17 +429,6 @@ let data = [
     fighterB: 'Timur Valiev'
   },
   {
-    fighterA: 'Nathaniel Wood',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/27454-nathaniel-wood',
-    rankA: '#29',
-    recordA: '17-5-0 ',
-    weight: '135',
-    recordB: ' 9-2-1',
-    rankB: '#136',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/188137-ludwig-sholinyan',
-    fighterB: 'Liudvik Sholinian'
-  },
-  {
     fighterA: 'Jai Herbert',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/70002-jai-herbert',
     rankA: '#54',
@@ -460,6 +438,17 @@ let data = [
     rankB: '#13',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/129278-ilia-topuria',
     fighterB: 'Ilia Topuria'
+  },
+  {
+    fighterA: 'Nathaniel Wood',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/27454-nathaniel-wood',
+    rankA: '#30',
+    recordA: '17-5-0 ',
+    weight: '135',
+    recordB: ' 11-5-0',
+    rankB: '#50',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/91401-vince-morales',
+    fighterB: 'Vince Morales'
   }
 ]
 ,"UFC Fight Night",
@@ -513,17 +502,6 @@ let data = [
     rankB: '#10',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/68972-alexa-grasso',
     fighterB: 'Alexa Grasso'
-  },
-  {
-    fighterA: 'Nate Landwehr',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/26263-nate-landwehr',
-    rankA: '#33',
-    recordA: '15-4-0 ',
-    weight: '145',
-    recordB: ' 11-0-1',
-    rankB: '#21',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/84753-lerone-murphy',
-    fighterB: 'Lerone Murphy'
   },
   {
     fighterA: 'Aleksei Oleinik',
@@ -634,10 +612,21 @@ let data = [
     rankB: '#14',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/136168-manon-fiorot',
     fighterB: 'Manon Fiorot'
+  },
+  {
+    fighterA: 'David Onama',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/104455-david-onama',
+    rankA: '#52',
+    recordA: '9-1-0 ',
+    weight: '145',
+    recordB: ' 15-4-0',
+    rankB: '#32',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/26263-nate-landwehr',
+    fighterB: 'Nate Landwehr'
   }
 ]
 ,"UFC Fight Night",
-"9",
+"10",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
