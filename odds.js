@@ -61,7 +61,7 @@ let odds = [
 {"name":"Thiago Santos" , "odds": "4.80"},
 {"name":"Claudio Silva" , "odds": "3.25"},
 {"name":"Gunnar Nelson" , "odds": "1.36"},
-{"name":"Cody Durden" , "odds": "3.72"},
+{"name":"Cody Durden" , "odds": "3.60"},
 {"name":"Muhammad Mokaev" , "odds": "1.33"},
 {"name":"Cory Mckenna" , "odds": "1.50"},
 {"name":"Elise Reed" , "odds": "2.90"},
