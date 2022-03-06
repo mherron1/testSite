@@ -489,7 +489,7 @@ a {
 
 #settings {
   position: absolute;
-  background-color: black;
+  background-color: rgb(22, 22, 22);
 
   width: 100%;
   max-width: 550px;
@@ -1439,12 +1439,23 @@ h4:hover {
 #paypalLink {
   background-color: #ffc63c;
   color: black;
-  padding: 8px;
-  width: 100px;
+  padding: 6px;
+  width: 128px;
+  margin-top: 15px;
   margin-left: 50%;
   transform: translateX(-50%);
-  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.705);
-  display: none;
+  text-align: center;
+}
+
+#paypalLink:hover {
+  background-color: #ffd76a;
+  padding: 6px;
+  width: 128px;
+  margin-top: 15px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 1px 3px rgba(255, 222, 32, 0.705);
+  text-align: center;
 }
 
 #paypalLink:active {
@@ -1460,7 +1471,7 @@ h4:hover {
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  width: max-contact;
+  width: max-content;
   border-radius: 4px;
   background-color: #ffc63c;
   color: black;
@@ -1609,7 +1620,7 @@ h4:hover {
 }
 
 .contactBtn {
-  height: 28px;
+  height: 30px;
   line-height: 28px;
   margin-top: 20px;
   margin-left: 50%;
@@ -1618,13 +1629,12 @@ h4:hover {
   text-align: center;
   width: 140px;
   border-radius: 0px;
-  color: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
-}
-.contactBtn:hover {
-  background-color: #ffffff;
   color: rgb(0, 0, 0);
   background-color: #ffffff;
+}
+.contactBtn:hover {
+  background-color: #d8d8d8;
+  color: rgb(0, 0, 0);
 }
 
 .contactBtn:active {
