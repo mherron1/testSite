@@ -821,7 +821,7 @@ function generateCard(i, arg) {
   imageContainer.innerHTML = `
   <img id="eventPoster${arg}" src=${events[i][2]}>
   <img style="position:absolute; left:10px;top:10px; height:35px;width:50px; opacity:100%;" id="eventPoster${arg}" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Ukraine_%28pantone_colors%29.svg/255px-Flag_of_Ukraine_%28pantone_colors%29.svg.png">
-  <span style="position:absolute; background-color:white; color:black !important;padding:1px; opacity:0.7; top:11px; left:70px; z-index:10000;color:white;" >#standwithUkraine</span>
+  <span style="position:absolute; background-color:white; color:black !important;padding:1px; opacity:1; top:11px; left:70px; z-index:10000;color:white;" >#standwithUkraine</span>
   <br>
   `;
 
