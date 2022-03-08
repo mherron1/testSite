@@ -16,11 +16,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Brandon Royval",
+            name: "Alex Perez",
             rank: 4
             },
 {
-            name: "Alex Perez",
+            name: "Brandon Royval",
             rank: 5
             },
 {
@@ -44,7 +44,7 @@ let ufcRankings = [
             rank: 10
             },
 {
-            name: "Amir Albazi",
+            name: "Tim Elliott",
             rank: 11
             },
 {
@@ -52,7 +52,7 @@ let ufcRankings = [
             rank: 12
             },
 {
-            name: "Tim Elliott",
+            name: "Amir Albazi",
             rank: 13
             },
 {
@@ -164,15 +164,15 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Dan Ige",
+            name: "Bryce Mitchell",
             rank: 9
             },
 {
-            name: "Edson Barboza",
+            name: "Dan Ige",
             rank: 10
             },
 {
-            name: "Bryce Mitchell",
+            name: "Edson Barboza",
             rank: 11
             },
 {
@@ -280,19 +280,19 @@ let ufcRankings = [
             rank: 5
             },
 {
-            name: "Jorge Masvidal",
+            name: "Stephen Thompson",
             rank: 6
             },
 {
-            name: "Stephen Thompson",
+            name: "Jorge Masvidal",
             rank: 7
             },
 {
-            name: "Neil Magny",
+            name: "Sean Brady",
             rank: 8
             },
 {
-            name: "Sean Brady",
+            name: "Neil Magny",
             rank: 9
             },
 {
@@ -336,11 +336,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Sean Strickland",
+            name: "Derek Brunson",
             rank: 4
             },
 {
-            name: "Derek Brunson",
+            name: "Sean Strickland",
             rank: 5
             },
 {
@@ -364,11 +364,11 @@ let ufcRankings = [
             rank: 10
             },
 {
-            name: "Brad Tavares",
+            name: "Nassourdine Imavov",
             rank: 11
             },
 {
-            name: "Nassourdine Imavov",
+            name: "Brad Tavares",
             rank: 12
             },
 {
@@ -376,11 +376,11 @@ let ufcRankings = [
             rank: 13
             },
 {
-            name: "Kevin Holland",
+            name: "Chris Weidman",
             rank: 14
             },
 {
-            name: "Chris Weidman",
+            name: "Edmen Shahbazyan",
             rank: 15
             },
 {
@@ -444,7 +444,7 @@ let ufcRankings = [
             rank: 14
             },
 {
-            name: "Ion Cutelaba",
+            name: "Dustin Jacoby",
             rank: 15
             },
 {
@@ -500,15 +500,15 @@ let ufcRankings = [
             rank: 12
             },
 {
-            name: "Blagoy Ivanov",
+            name: "Walt Harris",
             rank: 13
             },
 {
-            name: "Walt Harris",
+            name: "Blagoy Ivanov",
             rank: 14
             },
 {
-            name: "Sergei Pavlovich",
+            name: "Serghei Spivac",
             rank: 15
             },
 {
