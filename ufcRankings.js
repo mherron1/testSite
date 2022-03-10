@@ -228,11 +228,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Conor McGregor",
+            name: "Gregor Gillespie",
             rank: 9
             },
 {
-            name: "Gregor Gillespie",
+            name: "Conor McGregor",
             rank: 10
             },
 {
@@ -336,15 +336,15 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Derek Brunson",
+            name: "Paulo Costa",
             rank: 4
             },
 {
-            name: "Sean Strickland",
+            name: "Derek Brunson",
             rank: 5
             },
 {
-            name: "Paulo Costa",
+            name: "Sean Strickland",
             rank: 6
             },
 {
