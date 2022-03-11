@@ -1500,6 +1500,17 @@ let data = [
     fighterB: 'Taila Santos'
   },
   {
+    fighterA: 'Robert Whittaker',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/17398-robert-whittaker',
+    rankA: '#2',
+    recordA: '23-6-0 ',
+    weight: '185',
+    recordB: ' 18-4-1',
+    rankB: '#12',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/50533-marvin-vettori',
+    fighterB: 'Marvin Vettori'
+  },
+  {
     fighterA: 'Silvana Gómez Juárez',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/61720-silvana-gomez-juarez-la-malvada',
     rankA: '#73',
@@ -1784,6 +1795,67 @@ let data = [
 ]
 ,"Bellator 277",
 "8",
+"Showtime"
+],
+["Bellator MMA",
+1650670200000,
+'',
+[]
+,"Bellator 278",
+"0",
+"Showtime"
+],
+["Bellator MMA",
+1650756600000,
+'',
+[
+  {
+    fighterA: 'Sergio Pettis',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/17135-sergio-pettis',
+    rankA: '#34',
+    recordA: '22-5-0 ',
+    weight: '135',
+    recordB: ' 17-1-0',
+    rankB: '#56',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/64041-raufeon-stots',
+    fighterB: 'Raufeon Stots'
+  },
+  {
+    fighterA: 'Cris Cyborg',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/cristiane-santos-cyborg',
+    rankA: '#1',
+    recordA: '25-2-0 ',
+    weight: '145',
+    recordB: ' 15-8-0',
+    rankB: '#3',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/46970-arlene-blencowe-angerfist',
+    fighterB: 'Arlene Blencowe'
+  },
+  {
+    fighterA: 'Kyoji Horiguchi',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/19983-kyoji-horiguchi',
+    rankA: '#38',
+    recordA: '29-4-0 ',
+    weight: '135',
+    recordB: ' 15-1-0',
+    rankB: '#57',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/64036-patrick-mix',
+    fighterB: 'Patchy Mix'
+  },
+  {
+    fighterA: 'Ilima-Lei Macfarlane',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/61596-ilima-lei-macfarlane',
+    rankA: '#28',
+    recordA: '11-1-0 ',
+    weight: '125',
+    recordB: ' 7-5-0',
+    rankB: '#45',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/15102-justine-kish',
+    fighterB: 'Justine Kish'
+  }
+]
+,"Bellator 279",
+"0",
 "Showtime"
 ],
 ["Bellator MMA",
