@@ -15,7 +15,6 @@ let events = [
   "https://www.tapology.com/fightcenter/events/87286-ufc-275-teixeira-vs-prochazka",
   "https://www.tapology.com/fightcenter/events/86354-bellator-276",
   "https://www.tapology.com/fightcenter/events/86986-bellator-277-mckee-vs-pitbull-2",
-  "https://www.tapology.com/fightcenter/events/87504-bellator-278",
   "https://www.tapology.com/fightcenter/events/87505-bellator-279",
   "https://www.tapology.com/fightcenter/events/86506-bellator-paris-bader-vs-kongo-2",
   "https://www.tapology.com/fightcenter/events/86088-bellator-london-amosov-vs-mvp",

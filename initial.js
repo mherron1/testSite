@@ -1798,14 +1798,6 @@ let data = [
 "Showtime"
 ],
 ["Bellator MMA",
-1650670200000,
-'',
-[]
-,"Bellator 278",
-"0",
-"Showtime"
-],
-["Bellator MMA",
 1650756600000,
 '',
 [
