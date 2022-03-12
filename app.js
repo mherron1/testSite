@@ -1,7 +1,7 @@
 let delay = 0;
 
-if (false) {
-  delay = -250200000;
+if (true) {
+  delay = -280200000;
 }
 
 let assets = [
@@ -55,6 +55,13 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2022, 2, 13, 00, 00, 00),
     prelims: new Date(2022, 2, 12, 21, 00, 00),
+    videos: [],
+  },
+  {
+    date: "mar19",
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2022, 2, 19, 20, 00, 00),
+    prelims: new Date(2022, 2, 19, 17, 00, 00),
     videos: [],
   },
   {
