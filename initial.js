@@ -2137,26 +2137,26 @@ let data = [
     fighterB: 'Mads Burnell'
   },
   {
-    fighterA: 'Phil Davis',
+    fighterA: 'Phil Davis ',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/phil-davis-mr-wonderful',
     rankA: '#n/a',
-    recordA: '23-6-0 ',
+    recordA: '',
     weight: '205',
-    recordB: ' 10-2-0',
+    recordB: '',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/119297-julius-anglickas',
-    fighterB: 'Julius Anglickas'
+    fighterBLink: null,
+    fighterB: ' Julius Anglickas'
   },
   {
-    fighterA: 'Johnny Eblen',
+    fighterA: 'Johnny Eblen ',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/140953-johnny-eblen-john',
     rankA: '#n/a',
-    recordA: '10-0-0 ',
+    recordA: '',
     weight: '185',
-    recordB: ' 18-5-0',
+    recordB: '',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/john-salter',
-    fighterB: 'John Salter'
+    fighterBLink: null,
+    fighterB: ' John Salter'
   },
   {
     fighterA: 'Gadzhi Rabadanov ',
