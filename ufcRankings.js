@@ -16,11 +16,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Alex Perez",
+            name: "Brandon Royval",
             rank: 4
             },
 {
-            name: "Brandon Royval",
+            name: "Alex Perez",
             rank: 5
             },
 {
@@ -100,11 +100,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Pedro Munhoz",
+            name: "Song Yadong",
             rank: 9
             },
 {
-            name: "Marlon Moraes",
+            name: "Pedro Munhoz",
             rank: 10
             },
 {
@@ -120,7 +120,7 @@ let ufcRankings = [
             rank: 13
             },
 {
-            name: "Song Yadong",
+            name: "Marlon Moraes",
             rank: 14
             },
 {
@@ -172,11 +172,11 @@ let ufcRankings = [
             rank: 10
             },
 {
-            name: "Edson Barboza",
+            name: "Sodiq Yusuff",
             rank: 11
             },
 {
-            name: "Sodiq Yusuff",
+            name: "Edson Barboza",
             rank: 12
             },
 {
@@ -188,7 +188,7 @@ let ufcRankings = [
             rank: 14
             },
 {
-            name: "Alex Caceres",
+            name: "Ilia Topuria",
             rank: 15
             },
 {
@@ -228,11 +228,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Gregor Gillespie",
+            name: "Conor McGregor",
             rank: 9
             },
 {
-            name: "Conor McGregor",
+            name: "Gregor Gillespie",
             rank: 10
             },
 {
@@ -336,15 +336,15 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Derek Brunson",
+            name: "Sean Strickland",
             rank: 4
             },
 {
-            name: "Sean Strickland",
+            name: "Paulo Costa",
             rank: 5
             },
 {
-            name: "Paulo Costa",
+            name: "Derek Brunson",
             rank: 6
             },
 {
@@ -400,15 +400,15 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Anthony Smith",
+            name: "Magomed Ankalaev",
             rank: 4
             },
 {
-            name: "Thiago Santos",
+            name: "Anthony Smith",
             rank: 5
             },
 {
-            name: "Magomed Ankalaev",
+            name: "Thiago Santos",
             rank: 6
             },
 {
@@ -612,11 +612,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Jessica Eye",
+            name: "Cynthia Calvillo",
             rank: 9
             },
 {
-            name: "Cynthia Calvillo",
+            name: "Jessica Eye",
             rank: 10
             },
 {
