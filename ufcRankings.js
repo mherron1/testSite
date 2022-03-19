@@ -100,11 +100,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Song Yadong",
+            name: "Pedro Munhoz",
             rank: 9
             },
 {
-            name: "Pedro Munhoz",
+            name: "Song Yadong",
             rank: 10
             },
 {
@@ -228,11 +228,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Conor McGregor",
+            name: "Gregor Gillespie",
             rank: 9
             },
 {
-            name: "Gregor Gillespie",
+            name: "Conor McGregor",
             rank: 10
             },
 {
