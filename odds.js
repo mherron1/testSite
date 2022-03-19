@@ -19,7 +19,7 @@ let odds = [
 {"name":"Danaa Batgerel" , "odds": "1.62"},
 {"name":"David Dvorak" , "odds": "2.10"},
 {"name":"Matheus Nicolau" , "odds": "2.20"},
-{"name":"Jennifer Maia" , "odds": "3.80"},
+{"name":"Jennifer Maia" , "odds": "3.90"},
 {"name":"Manon Fiorot" , "odds": "1.30"},
 {"name":"Karol Rosa" , "odds": "1.44"},
 {"name":"Sara McMann" , "odds": "2.87"},

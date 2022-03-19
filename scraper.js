@@ -1,7 +1,6 @@
 const puppeteer = require("puppeteer");
 
 let events = [
-  "https://www.tapology.com/fightcenter/events/83999-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/84285-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/85306-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/85814-ufc-fight-night",
@@ -12,6 +11,7 @@ let events = [
   "https://www.tapology.com/fightcenter/events/86509-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/86746-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/87286-ufc-275-teixeira-vs-prochazka",
+  "https://www.tapology.com/fightcenter/events/87604-ufc-276",
   "https://www.tapology.com/fightcenter/events/86986-bellator-277-mckee-vs-pitbull-2",
   "https://www.tapology.com/fightcenter/events/87505-bellator-279",
   "https://www.tapology.com/fightcenter/events/86506-bellator-paris-bader-vs-kongo-2",
@@ -19,7 +19,7 @@ let events = [
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
   "https://www.tapology.com/fightcenter/events/80968-pfl-2021-10-championships",
-  "https://www.tapology.com/fightcenter/events/84364-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/83999-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/86354-bellator-276",
   //"https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
 ];
