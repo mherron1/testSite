@@ -2,9 +2,9 @@ let odds = [
 {"name":"Luana Carolina" , "odds": "2.20"},
 {"name":"Gunnar Nelson" , "odds": "1.05"},
 {"name":"Takashi Sato" , "odds": "14.00"},
-{"name":"Paddy Pimblett" , "odds": "1.17"},
+{"name":"Paddy Pimblett" , "odds": "1.18"},
 {"name":"Rodrigo Vargas" , "odds": "6.00"},
-{"name":"Arnold Allen" , "odds": "2.02"},
+{"name":"Arnold Allen" , "odds": "2.00"},
 {"name":"Dan Hooker" , "odds": "1.98"},
 {"name":"Tom Aspinall" , "odds": "1.86"},
 {"name":"Alexander Volkov" , "odds": "2.16"},
@@ -76,5 +76,5 @@ let odds = [
 {"name":"undefined" , "odds": "1.25"},
 {"name":"undefined" , "odds": "1.98"},
 {"name":"undefined" , "odds": "15.00"},
-{"name":"undefined" , "odds": "3.40"},
+{"name":"undefined" , "odds": "6.00"},
 ]
