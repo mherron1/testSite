@@ -28,11 +28,11 @@ let ufcRankings = [
             rank: 6
             },
 {
-            name: "Rogerio Bontorin",
+            name: "Matheus Nicolau",
             rank: 7
             },
 {
-            name: "Matheus Nicolau",
+            name: "Rogerio Bontorin",
             rank: 8
             },
 {
@@ -112,11 +112,11 @@ let ufcRankings = [
             rank: 11
             },
 {
-            name: "Sean O'Malley",
+            name: "Ricky Simon",
             rank: 12
             },
 {
-            name: "Ricky Simon",
+            name: "Sean O'Malley",
             rank: 13
             },
 {
@@ -152,11 +152,11 @@ let ufcRankings = [
             rank: 5
             },
 {
-            name: "Josh Emmett",
+            name: "Arnold Allen",
             rank: 6
             },
 {
-            name: "Arnold Allen",
+            name: "Josh Emmett",
             rank: 7
             },
 {
@@ -224,27 +224,27 @@ let ufcRankings = [
             rank: 7
             },
 {
-            name: "Dan Hooker",
+            name: "Gregor Gillespie",
             rank: 8
             },
 {
-            name: "Gregor Gillespie",
+            name: "Conor McGregor",
             rank: 9
             },
 {
-            name: "Conor McGregor",
+            name: "Rafael Fiziev",
             rank: 10
             },
 {
-            name: "Rafael Fiziev",
+            name: "Arman Tsarukyan",
             rank: 11
             },
 {
-            name: "Arman Tsarukyan",
+            name: "Mateusz Gamrot",
             rank: 12
             },
 {
-            name: "Mateusz Gamrot",
+            name: "Dan Hooker",
             rank: 13
             },
 {
@@ -336,15 +336,15 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Sean Strickland",
+            name: "Derek Brunson",
             rank: 4
             },
 {
-            name: "Paulo Costa",
+            name: "Sean Strickland",
             rank: 5
             },
 {
-            name: "Derek Brunson",
+            name: "Paulo Costa",
             rank: 6
             },
 {
@@ -416,11 +416,11 @@ let ufcRankings = [
             rank: 7
             },
 {
-            name: "Volkan Oezdemir",
+            name: "Paul Craig",
             rank: 8
             },
 {
-            name: "Nikita Krylov",
+            name: "Volkan Oezdemir",
             rank: 9
             },
 {
@@ -428,7 +428,7 @@ let ufcRankings = [
             rank: 10
             },
 {
-            name: "Paul Craig",
+            name: "Nikita Krylov",
             rank: 11
             },
 {
@@ -472,43 +472,43 @@ let ufcRankings = [
             rank: 5
             },
 {
-            name: "Alexander Volkov",
+            name: "Tom Aspinall",
             rank: 6
             },
 {
-            name: "Jairzinho Rozenstruik",
+            name: "Alexander Volkov",
             rank: 7
             },
 {
-            name: "Chris Daukaus",
+            name: "Jairzinho Rozenstruik",
             rank: 8
             },
 {
-            name: "Marcin Tybura",
+            name: "Chris Daukaus",
             rank: 9
             },
 {
-            name: "Shamil Abdurakhimov",
+            name: "Marcin Tybura",
             rank: 10
             },
 {
-            name: "Tom Aspinall",
+            name: "Sergei Pavlovich",
             rank: 11
             },
 {
-            name: "Augusto Sakai",
+            name: "Shamil Abdurakhimov",
             rank: 12
             },
 {
-            name: "Walt Harris",
+            name: "Augusto Sakai",
             rank: 13
             },
 {
-            name: "Blagoy Ivanov",
+            name: "Walt Harris",
             rank: 14
             },
 {
-            name: "Serghei Spivac",
+            name: "Blagoy Ivanov",
             rank: 15
             },
 {
@@ -612,7 +612,7 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Cynthia Calvillo",
+            name: "Alexa Grasso",
             rank: 9
             },
 {
@@ -620,7 +620,7 @@ let ufcRankings = [
             rank: 10
             },
 {
-            name: "Alexa Grasso",
+            name: "Cynthia Calvillo",
             rank: 11
             },
 {
