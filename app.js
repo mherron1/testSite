@@ -1,6 +1,6 @@
 let delay = 0;
 
-if (false) {
+if (true) {
   delay = -280200000;
 }
 
