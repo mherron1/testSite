@@ -1,6 +1,6 @@
 let odds = [
-{"name":"David Dvorak" , "odds": "1.91"},
-{"name":"Matheus Nicolau" , "odds": "2.55"},
+{"name":"David Dvorak" , "odds": "1.57"},
+{"name":"Matheus Nicolau" , "odds": "2.95"},
 {"name":"Jennifer Maia" , "odds": "4.85"},
 {"name":"Manon Fiorot" , "odds": "1.22"},
 {"name":"Aliaskhab Khizriev" , "odds": "1.11"},
