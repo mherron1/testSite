@@ -84,7 +84,7 @@ data2.forEach((event) => {
     event[2] =
       "images/eventImages/" + assets[assets.indexOf(tempTime.toLowerCase())];
   } else if (event[0].includes("Ultimate")) {
-    event[2] = "images/defaults/ufc.jpg";
+    event[2] = "images/defaults/ufc.png";
   } else if (event[0].includes("Bellator")) {
     event[2] = "images/defaults/bellator.jpg";
   } else if (event[0].includes("Professional Fight")) {
