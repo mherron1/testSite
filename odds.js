@@ -41,4 +41,9 @@ let odds = [
 {"name":"Justin Gaethje" , "odds": "2.40"},
 {"name":"Robert Whittaker" , "odds": "1.50"},
 {"name":"Marvin Vettori" , "odds": "2.63"},
+{"name":"undefined" , "odds": "1.21"},
+{"name":"undefined" , "odds": "6.00"},
+{"name":"undefined" , "odds": "1.91"},
+{"name":"undefined" , "odds": "1.23"},
+{"name":"undefined" , "odds": "9.00"},
 ]
