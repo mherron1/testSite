@@ -8,15 +8,15 @@ let ufcRankings = [
             rank: 1
             },
 {
-            name: "Askar Askarov",
+            name: "Kai Kara France",
             rank: 2
             },
 {
-            name: "Alexandre Pantoja",
+            name: "Askar Askarov",
             rank: 3
             },
 {
-            name: "Brandon Royval",
+            name: "Alexandre Pantoja",
             rank: 4
             },
 {
@@ -24,7 +24,7 @@ let ufcRankings = [
             rank: 5
             },
 {
-            name: "Kai Kara France",
+            name: "Brandon Royval",
             rank: 6
             },
 {
@@ -100,11 +100,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Song Yadong",
+            name: "Pedro Munhoz",
             rank: 9
             },
 {
-            name: "Pedro Munhoz",
+            name: "Song Yadong",
             rank: 10
             },
 {
@@ -336,7 +336,7 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Derek Brunson",
+            name: "Paulo Costa",
             rank: 4
             },
 {
@@ -344,7 +344,7 @@ let ufcRankings = [
             rank: 5
             },
 {
-            name: "Paulo Costa",
+            name: "Derek Brunson",
             rank: 6
             },
 {
@@ -560,11 +560,11 @@ let ufcRankings = [
             rank: 11
             },
 {
-            name: "Lauren Murphy",
+            name: "Mackenzie Dern",
             rank: 12
             },
 {
-            name: "Mackenzie Dern",
+            name: "Lauren Murphy",
             rank: 13
             },
 {
@@ -592,31 +592,31 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Jennifer Maia",
+            name: "Taila Santos",
             rank: 4
             },
 {
-            name: "Taila Santos",
+            name: "Alexa Grasso",
             rank: 5
             },
 {
-            name: "Viviane Araujo",
+            name: "Jennifer Maia",
             rank: 6
             },
 {
-            name: "Joanne Wood",
+            name: "Manon Fiorot",
             rank: 7
             },
 {
-            name: "Andrea Lee",
+            name: "Viviane Araujo",
             rank: 8
             },
 {
-            name: "Alexa Grasso",
+            name: "Andrea Lee",
             rank: 9
             },
 {
-            name: "Jessica Eye",
+            name: "Joanne Wood",
             rank: 10
             },
 {
@@ -624,11 +624,11 @@ let ufcRankings = [
             rank: 11
             },
 {
-            name: "Casey O'Neill",
+            name: "Jessica Eye",
             rank: 12
             },
 {
-            name: "Manon Fiorot",
+            name: "Casey O'Neill",
             rank: 13
             },
 {
@@ -672,11 +672,11 @@ let ufcRankings = [
             rank: 7
             },
 {
-            name: "Miesha Tate",
+            name: "Sara McMann",
             rank: 8
             },
 {
-            name: "Sara McMann",
+            name: "Miesha Tate",
             rank: 9
             },
 {
@@ -688,11 +688,11 @@ let ufcRankings = [
             rank: 11
             },
 {
-            name: "Karol Rosa",
+            name: "Pannie Kianzad",
             rank: 12
             },
 {
-            name: "Pannie Kianzad",
+            name: "Karol Rosa",
             rank: 13
             },
 {
