@@ -100,11 +100,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Song Yadong",
+            name: "Pedro Munhoz",
             rank: 9
             },
 {
-            name: "Pedro Munhoz",
+            name: "Song Yadong",
             rank: 10
             },
 {
