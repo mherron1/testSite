@@ -17,7 +17,7 @@ let data = [
   {
     fighterA: 'Aljamain Sterling',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/aljamain-sterling',
-    rankA: '#3',
+    rankA: '#4',
     recordA: '20-3-0 ',
     weight: '135',
     recordB: ' 16-2-0',
@@ -32,14 +32,14 @@ let data = [
     recordA: '20-4-0 ',
     weight: '170',
     recordB: ' 10-0-0',
-    rankB: '#10',
+    rankB: '#9',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/188143-khamzat-girikhanov',
     fighterB: 'Khamzat Chimaev'
   },
   {
     fighterA: 'Mackenzie Dern',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/134267',
-    rankA: '#7',
+    rankA: '#5',
     recordA: '11-2-0 ',
     weight: '115',
     recordB: ' 13-5-0',
@@ -48,9 +48,20 @@ let data = [
     fighterB: 'Tecia Torres'
   },
   {
+    fighterA: 'Vinc Pichel',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/17554-vinc-pichel',
+    rankA: '#24',
+    recordA: '14-2-0 ',
+    weight: '155',
+    recordB: ' 11-0-0',
+    rankB: '#29',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/52290-mark-overgaard-madsen',
+    fighterB: 'Mark Madsen'
+  },
+  {
     fighterA: 'Ian Garry',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/171377-ian-garry',
-    rankA: '#63',
+    rankA: '#57',
     recordA: '8-0-0 ',
     weight: '170',
     recordB: ' 5-1-0',
@@ -72,7 +83,7 @@ let data = [
   {
     fighterA: 'Aspen Ladd',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/45561-aspen-ladd',
-    rankA: '#11',
+    rankA: '#12',
     recordA: '9-2-0 ',
     weight: '135',
     recordB: ' 13-8-0',
@@ -90,17 +101,6 @@ let data = [
     rankB: '#11',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/22740-mike-malott',
     fighterB: 'Mike Malott'
-  },
-  {
-    fighterA: 'Vinc Pichel',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/17554-vinc-pichel',
-    rankA: '#24',
-    recordA: '14-2-0 ',
-    weight: '155',
-    recordB: ' 11-0-0',
-    rankB: '#29',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/52290-mark-overgaard-madsen',
-    fighterB: 'Mark Madsen'
   },
   {
     fighterA: 'Aleksei Oleinik',
@@ -148,7 +148,7 @@ let data = [
   }
 ]
 ,"UFC 273",
-"9",
+"8",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
