@@ -100,11 +100,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Song Yadong",
+            name: "Pedro Munhoz",
             rank: 9
             },
 {
-            name: "Pedro Munhoz",
+            name: "Song Yadong",
             rank: 10
             },
 {
@@ -336,15 +336,15 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Derek Brunson",
+            name: "Paulo Costa",
             rank: 4
             },
 {
-            name: "Paulo Costa",
+            name: "Sean Strickland",
             rank: 5
             },
 {
-            name: "Sean Strickland",
+            name: "Derek Brunson",
             rank: 6
             },
 {
