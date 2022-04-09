@@ -581,17 +581,6 @@ let data = [
     fighterB: 'Tristan Connelly'
   },
   {
-    fighterA: 'Jake Collier',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/17087-jake-collier',
-    rankA: '#43',
-    recordA: '13-6-0 ',
-    weight: '265',
-    recordB: ' 5-3-0',
-    rankB: '#50',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/152336-justin-tafa',
-    fighterB: 'Justin Tafa'
-  },
-  {
     fighterA: 'Jared Gordon',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/17754-jared-gordon',
     rankA: '#33',
@@ -612,6 +601,17 @@ let data = [
     rankB: '#95',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/98539-joanderson-brito-tubarao',
     fighterB: 'Joanderson Brito'
+  },
+  {
+    fighterA: 'Jake Collier',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/17087-jake-collier',
+    rankA: '#39',
+    recordA: '13-6-0 ',
+    weight: '265',
+    recordB: ' 33-20-0',
+    rankB: '#15',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/andrei-arlovski-the-pitbull',
+    fighterB: 'Andrei Arlovski'
   }
 ]
 ,"UFC Fight Night",
@@ -1143,6 +1143,17 @@ let data = [
     fighterB: 'Marvin Vettori'
   },
   {
+    fighterA: 'Weili Zhang',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/83443-weili-zhang',
+    rankA: '#2',
+    recordA: '21-3-0 ',
+    weight: '115',
+    recordB: ' 16-4-0',
+    rankB: '#4',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/37708-joanna-jedrzejczyk',
+    fighterB: 'Joanna Jędrzejczyk'
+  },
+  {
     fighterA: 'Silvana Gómez Juárez',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/61720-silvana-gomez-juarez-la-malvada',
     rankA: '#75',
@@ -1167,11 +1178,11 @@ let data = [
   {
     fighterA: 'Kyung Ho Kang',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/kyung-ho-kang',
-    rankA: '#41',
+    rankA: '#49',
     recordA: '17-9-0 ',
     weight: '135',
     recordB: ' 18-4-0',
-    rankB: '#108',
+    rankB: '#112',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/86764-saimon-oliveira',
     fighterB: 'Saimon Oliveira'
   }
@@ -1368,11 +1379,11 @@ let data = [
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/41575-gaston-bolanoes',
     rankA: '#n/a',
     recordA: '5-3-0 ',
-    weight: '140',
-    recordB: ' 4-3-0',
+    weight: '145',
+    recordB: ' 7-5-0',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/152489-ali-jafri',
-    fighterB: 'Ali Jafri'
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/44775-dan-carey',
+    fighterB: 'Daniel Carey'
   },
   {
     fighterA: 'Tyrell Fortune',
