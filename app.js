@@ -1,6 +1,6 @@
 let delay = 0;
 
-if (true) {
+if (false) {
   delay = -280200000;
 }
 
@@ -43,17 +43,17 @@ let times = [
     videos: [],
   },
   {
-    date: "apr09",
+    date: "apr16",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 3, 10, 02, 00, 00),
-    prelims: new Date(2022, 3, 09, 22, 30, 00),
-    videos: ["zIWwVHveEaw"],
+    time: new Date(2022, 3, 17, 00, 30, 00),
+    prelims: new Date(2022, 3, 16, 21, 30, 00),
+    videos: [],
   },
   {
-    date: "mar12",
+    date: "apr15",
     promo: "Bellator MMA",
-    time: new Date(2022, 2, 13, 03, 00, 00),
-    prelims: new Date(2022, 2, 13, 00, 00, 00),
+    time: new Date(2022, 3, 16, 02, 00, 00),
+    prelims: new Date(2022, 3, 15, 23, 00, 00),
     videos: [],
   },
 
