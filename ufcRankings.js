@@ -100,11 +100,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Pedro Munhoz",
+            name: "Song Yadong",
             rank: 9
             },
 {
-            name: "Song Yadong",
+            name: "Pedro Munhoz",
             rank: 10
             },
 {
@@ -144,11 +144,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Chan Sung Jung",
+            name: "Calvin Kattar",
             rank: 4
             },
 {
-            name: "Calvin Kattar",
+            name: "Chan Sung Jung",
             rank: 5
             },
 {
@@ -196,11 +196,11 @@ let ufcRankings = [
             rank: 0
             },
 {
-            name: "Justin Gaethje",
+            name: "Dustin Poirier",
             rank: 1
             },
 {
-            name: "Dustin Poirier",
+            name: "Justin Gaethje",
             rank: 2
             },
 {
@@ -264,43 +264,43 @@ let ufcRankings = [
             rank: 1
             },
 {
-            name: "Gilbert Burns",
+            name: "Leon Edwards",
             rank: 2
             },
 {
-            name: "Leon Edwards",
+            name: "Khamzat Chimaev",
             rank: 3
             },
 {
-            name: "Vicente Luque",
+            name: "Gilbert Burns",
             rank: 4
             },
 {
-            name: "Belal Muhammad",
+            name: "Vicente Luque",
             rank: 5
             },
 {
-            name: "Stephen Thompson",
+            name: "Belal Muhammad",
             rank: 6
             },
 {
-            name: "Jorge Masvidal",
+            name: "Stephen Thompson",
             rank: 7
             },
 {
-            name: "Sean Brady",
+            name: "Jorge Masvidal",
             rank: 8
             },
 {
-            name: "Neil Magny",
+            name: "Sean Brady",
             rank: 9
             },
 {
-            name: "Michael Chiesa",
+            name: "Neil Magny",
             rank: 10
             },
 {
-            name: "Khamzat Chimaev",
+            name: "Michael Chiesa",
             rank: 11
             },
 {
@@ -484,11 +484,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Chris Daukaus",
+            name: "Marcin Tybura",
             rank: 9
             },
 {
-            name: "Marcin Tybura",
+            name: "Chris Daukaus",
             rank: 10
             },
 {
@@ -556,11 +556,11 @@ let ufcRankings = [
             rank: 10
             },
 {
-            name: "Irene Aldana",
+            name: "Mackenzie Dern",
             rank: 11
             },
 {
-            name: "Mackenzie Dern",
+            name: "Irene Aldana",
             rank: 12
             },
 {
@@ -568,7 +568,7 @@ let ufcRankings = [
             rank: 13
             },
 {
-            name: "Aspen Ladd",
+            name: "Raquel Pennington",
             rank: 14
             },
 {
@@ -600,11 +600,11 @@ let ufcRankings = [
             rank: 5
             },
 {
-            name: "Jennifer Maia",
+            name: "Manon Fiorot",
             rank: 6
             },
 {
-            name: "Manon Fiorot",
+            name: "Jennifer Maia",
             rank: 7
             },
 {
@@ -656,7 +656,7 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Aspen Ladd",
+            name: "Raquel Pennington",
             rank: 4
             },
 {
@@ -668,7 +668,7 @@ let ufcRankings = [
             rank: 6
             },
 {
-            name: "Raquel Pennington",
+            name: "Aspen Ladd",
             rank: 7
             },
 {
