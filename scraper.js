@@ -42,7 +42,7 @@ setTimeout(function () {
 function asyncGetCards() {
   getCard(events[index]);
   const delay = (t) => new Promise((resolve) => setTimeout(resolve, t));
-  delay(7000).then(() => {
+  delay(9000).then(() => {
     index++;
     if (index < events.length) {
       asyncGetCards(index);
@@ -255,5 +255,5 @@ function getCard(url) {
     console.log(`"${n}",`);
     console.log(`"${bc}"`);
     console.log("],");
-  }, 6000);
+  }, 8000);
 }

@@ -336,15 +336,15 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Paulo Costa",
+            name: "Sean Strickland",
             rank: 4
             },
 {
-            name: "Sean Strickland",
+            name: "Derek Brunson",
             rank: 5
             },
 {
-            name: "Derek Brunson",
+            name: "Paulo Costa",
             rank: 6
             },
 {
