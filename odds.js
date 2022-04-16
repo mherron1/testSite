@@ -85,9 +85,9 @@ let odds = [
 {"name":"Marvin Vettori" , "odds": "3.10"},
 {"name":"Valentina Shevchenko" , "odds": "1.13"},
 {"name":"Taila Santos" , "odds": "6.50"},
-{"name":"undefined" , "odds": "1.22"},
+{"name":"undefined" , "odds": "1.20"},
 {"name":"undefined" , "odds": "5.75"},
 {"name":"undefined" , "odds": "6.00"},
-{"name":"undefined" , "odds": "6.00"},
 {"name":"undefined" , "odds": "11.00"},
+{"name":"undefined" , "odds": "6.00"},
 ]
