@@ -741,13 +741,7 @@ function generateCard(i, arg) {
  <br>
  <br>
 
-  
-  
-  <div id="footerDiv">
-  <a target="_blank"
-  href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN">
-  <div id="paypalLink2">Buy me a beer 🍻</div></a>
-      </div>
+
   `;
 
   /*if (android === true) {
