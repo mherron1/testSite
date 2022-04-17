@@ -1,7 +1,7 @@
 let delay = 0;
 
 if (true) {
-  delay = -320200000;
+  delay = -18000000;
 }
 
 let assets = ["apr16-u.jpg"];
