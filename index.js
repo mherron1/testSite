@@ -420,7 +420,7 @@ function generateLinks() {
       `;
     }
   }
-  eventList.innerHTML += `<br><br>`;
+  eventList.innerHTML += `<br><br><br><br><br><br><br>`;
 }
 
 let sideNav = document.querySelector("#sideNav");
