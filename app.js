@@ -14,6 +14,13 @@ let times = [
     prelims: new Date(2022, 3, 23, 00, 00, 00),
     videos: [],
   },
+  {
+    date: "apr23",
+    promo: "Bellator MMA",
+    time: new Date(2022, 3, 24, 02, 30, 00),
+    prelims: new Date(2022, 3, 24, 00, 00, 00),
+    videos: [],
+  },
 
   {
     date: "apr16",
