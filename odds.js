@@ -106,6 +106,6 @@ let odds = [
 {"name":"undefined" , "odds": "5.70"},
 {"name":"undefined" , "odds": "1.23"},
 {"name":"undefined" , "odds": "48.00"},
-{"name":"undefined" , "odds": "18.00"},
 {"name":"undefined" , "odds": "2.30"},
+{"name":"undefined" , "odds": "18.00"},
 ]
