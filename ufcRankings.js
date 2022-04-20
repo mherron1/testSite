@@ -100,11 +100,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Pedro Munhoz",
+            name: "Song Yadong",
             rank: 9
             },
 {
-            name: "Song Yadong",
+            name: "Pedro Munhoz",
             rank: 10
             },
 {
@@ -124,7 +124,7 @@ let ufcRankings = [
             rank: 14
             },
 {
-            name: "Raphael Assuncao",
+            name: "Jack Shore",
             rank: 15
             },
 {
@@ -196,11 +196,11 @@ let ufcRankings = [
             rank: 0
             },
 {
-            name: "Justin Gaethje",
+            name: "Dustin Poirier",
             rank: 1
             },
 {
-            name: "Dustin Poirier",
+            name: "Justin Gaethje",
             rank: 2
             },
 {
@@ -276,11 +276,11 @@ let ufcRankings = [
             rank: 4
             },
 {
-            name: "Vicente Luque",
+            name: "Belal Muhammad",
             rank: 5
             },
 {
-            name: "Belal Muhammad",
+            name: "Vicente Luque",
             rank: 6
             },
 {
@@ -484,11 +484,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Chris Daukaus",
+            name: "Marcin Tybura",
             rank: 9
             },
 {
-            name: "Marcin Tybura",
+            name: "Chris Daukaus",
             rank: 10
             },
 {
@@ -680,15 +680,15 @@ let ufcRankings = [
             rank: 9
             },
 {
-            name: "Macy Chiasson",
+            name: "Pannie Kianzad",
             rank: 10
             },
 {
-            name: "Lina Lansberg",
+            name: "Macy Chiasson",
             rank: 11
             },
 {
-            name: "Pannie Kianzad",
+            name: "Lina Lansberg",
             rank: 12
             },
 {
