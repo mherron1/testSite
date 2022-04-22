@@ -43,18 +43,18 @@ let data = [
     recordA: '15-0-0 ',
     weight: '265',
     recordB: ' 15-9-0',
-    rankB: '#60',
+    rankB: '#59',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/55773-chase-sherman',
     fighterB: 'Chase Sherman'
   },
   {
     fighterA: 'Charles Jourdain',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/36724-charles-jourdain',
-    rankA: '#37',
+    rankA: '#35',
     recordA: '12-4-1 ',
     weight: '145',
     recordB: ' 12-5-2',
-    rankB: '#42',
+    rankB: '#40',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/15643-landan-vanata',
     fighterB: 'Lando Vannata'
   },
@@ -83,18 +83,18 @@ let data = [
   {
     fighterA: 'Tyson Pedro',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/55878-tyson-pedro',
-    rankA: '#47',
+    rankA: '#49',
     recordA: '7-3-0 ',
     weight: '205',
     recordB: ' 18-13-0',
-    rankB: '#74',
+    rankB: '#76',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/isaac-villanueva',
     fighterB: 'Ike Villanueva'
   },
   {
-    fighterA: 'Aoriqileng',
+    fighterA: 'Aori Qileng',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/119560-aoriqileng',
-    rankA: '#43',
+    rankA: '#38',
     recordA: '20-11-0 ',
     weight: '135',
     recordB: ' 10-5-0',
@@ -105,7 +105,7 @@ let data = [
   {
     fighterA: 'Preston Parsons',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/74671-preston-parsons',
-    rankA: '#147',
+    rankA: '#149',
     recordA: '9-3-0 ',
     weight: '170',
     recordB: ' 7-0-0',
@@ -116,7 +116,7 @@ let data = [
   {
     fighterA: 'Marcin Prachnio',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/51446-marcin-prachnio',
-    rankA: '#35',
+    rankA: '#34',
     recordA: '15-5-0 ',
     weight: '205',
     recordB: ' 14-5-0',
@@ -131,7 +131,7 @@ let data = [
     recordA: '4-1-0 ',
     weight: '170',
     recordB: ' 0-1-0',
-    rankB: '#308',
+    rankB: '#303',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/20057-mike-jackson',
     fighterB: 'Mike Jackson'
   }
@@ -1875,22 +1875,22 @@ let data = [
   {
     fighterA: 'Renan Ferreira',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/87738-renan-pobrema',
-    rankA: '#59',
+    rankA: '#67',
     recordA: '8-2-0 ',
     weight: '265',
     recordB: ' 12-7-0',
-    rankB: '#77',
+    rankB: '#96',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/49923-jamelle-jones',
     fighterB: 'Jamelle Jones'
   },
   {
     fighterA: 'Lance Palmer',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/20661-lance-palmer',
-    rankA: '#63',
+    rankA: '#67',
     recordA: '22-5-0 ',
     weight: '145',
     recordB: ' 20-7-0',
-    rankB: '#68',
+    rankB: '#64',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/17954-chris-wade',
     fighterB: 'Chris Wade'
   },
@@ -1908,7 +1908,7 @@ let data = [
   {
     fighterA: 'Denis Goltsov',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/13594-Denis-Goltsov',
-    rankA: '#51',
+    rankA: '#48',
     recordA: '27-7-0 ',
     weight: '265',
     recordB: ' 8-5-0',
@@ -1917,24 +1917,24 @@ let data = [
     fighterB: 'Sam Kei'
   },
   {
-    fighterA: 'Ali Isaev',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/130712-ali-isaev',
-    rankA: '#69',
-    recordA: '9-0-0 ',
+    fighterA: 'Klidson Abreu',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/63237-klidson-farias-de-abreu',
+    rankA: '#100',
+    recordA: '15-5-0 ',
     weight: '265',
-    recordB: ' 15-5-0',
-    rankB: '#80',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/63237-klidson-farias-de-abreu',
-    fighterB: 'Klidson Abreu'
+    recordB: ' 5-0-0',
+    rankB: '#119',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/167604-adam-keresh',
+    fighterB: 'Adam Keresh'
   },
   {
     fighterA: 'Sheymon Moraes',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/32709-sheymon-da-silva-moraes',
-    rankA: '#81',
+    rankA: '#85',
     recordA: '13-5-0 ',
     weight: '145',
     recordB: ' 8-3-0',
-    rankB: '#',
+    rankB: '#281',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/43697-boston-salmo',
     fighterB: 'Boston Salmon'
   },

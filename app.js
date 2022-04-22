@@ -11,7 +11,7 @@ let times = [
     date: "apr22",
     promo: "Bellator MMA",
     time: new Date(2022, 3, 23, 02, 00, 00),
-    prelims: new Date(2022, 3, 23, 00, 00, 00),
+    prelims: new Date(2022, 3, 23, 01, 00, 00),
     videos: [],
   },
   {
@@ -23,10 +23,10 @@ let times = [
   },
 
   {
-    date: "apr16",
+    date: "apr30",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 3, 17, 00, 30, 00),
-    prelims: new Date(2022, 3, 16, 21, 30, 00),
+    time: new Date(2022, 4, 01, 00, 00, 00),
+    prelims: new Date(2022, 3, 30, 20, 00, 00),
     videos: [],
   },
   {
@@ -37,10 +37,10 @@ let times = [
     videos: [],
   },
   {
-    date: "apr20",
+    date: "apr28",
     promo: "Professional Fighters League",
-    time: new Date(2022, 3, 21, 01, 00, 00),
-    prelims: new Date(2022, 3, 20, 22, 00, 00),
+    time: new Date(2022, 3, 29, 01, 00, 00),
+    prelims: new Date(2022, 3, 28, 22, 00, 00),
     videos: [],
   },
 ];
