@@ -1199,103 +1199,6 @@ let data = [
 "ESPN+"
 ],
 ["Bellator MMA",
-1650675600000,
-'',
-[
-  {
-    fighterA: 'Juliana Velasquez',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/60674-juliana-velasquez',
-    rankA: '#n/a',
-    recordA: '12-0-0 ',
-    weight: '125',
-    recordB: ' 16-7-0',
-    rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/liz-carmouche-girl-rilla',
-    fighterB: 'Liz Carmouche'
-  },
-  {
-    fighterA: 'Enrique Barzola',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/50277-enrike-barzola-el-fuerte',
-    rankA: '#n/a',
-    recordA: '17-5-2 ',
-    weight: '140',
-    recordB: ' 9-1-0',
-    rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/151899-nikita-mikhailov',
-    fighterB: 'Nikita Mikhailov'
-  },
-  {
-    fighterA: 'Jornel Lugo',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/126522-jornel-lugo',
-    rankA: '#n/a',
-    recordA: '8-0-0 ',
-    weight: '135',
-    recordB: ' 11-1-0',
-    rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/191637-danny-sabatello',
-    fighterB: 'Danny Sabatello'
-  },
-  {
-    fighterA: 'Christian Edwards',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/173353-christian-edwards',
-    rankA: '#n/a',
-    recordA: '5-1-0 ',
-    weight: '205',
-    recordB: ' 6-1-0',
-    rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/147488-grant-neal',
-    fighterB: 'Grant Neal'
-  },
-  {
-    fighterA: 'Manny Muro',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/44771-luis-muro',
-    rankA: '#n/a',
-    recordA: '12-7-0 ',
-    weight: '160',
-    recordB: ' 16-4-0',
-    rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/nate-andrews',
-    fighterB: 'Nate Andrews'
-  },
-  {
-    fighterA: 'Weber Almeida',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/112608-weber-almeida',
-    rankA: '#n/a',
-    recordA: '5-1-0 ',
-    weight: '145',
-    recordB: ' 8-4-0',
-    rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/67605-fabricio-franco-sub-zero',
-    fighterB: 'Fabricio Franco'
-  },
-  {
-    fighterA: 'Dante Schiro',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/109429-dante-schiro',
-    rankA: '#n/a',
-    recordA: '8-3-0 ',
-    weight: '170',
-    recordB: ' 5-3-0',
-    rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/99529-scotty-hao',
-    fighterB: 'Scotty Hao'
-  },
-  {
-    fighterA: 'Makoa Cooper',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/235219-makoa-cooper',
-    rankA: '#n/a',
-    recordA: '1-0-0 ',
-    weight: '170',
-    recordB: ' 0-0-0',
-    rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/196805-blake-perry',
-    fighterB: 'Blake Perry'
-  }
-]
-,"Bellator 278",
-"3",
-"Showtime"
-],
-["Bellator MMA",
 1650758400000,
 '',
 [
@@ -2367,166 +2270,100 @@ let data = [
 "ESPN | Prelims: ESPN+"
 ],
 ["Bellator MMA",
-1650063600000,
+1650675600000,
 '',
 [
   {
-    fighterA: 'Patricio Pitbull ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/patricio-freire-pitbull',
+    fighterA: 'Juliana Velasquez',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/60674-juliana-velasquez',
+    rankA: '#n/a',
+    recordA: '12-0-0 ',
+    weight: '125',
+    recordB: ' 16-7-0',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/liz-carmouche-girl-rilla',
+    fighterB: 'Liz Carmouche'
+  },
+  {
+    fighterA: 'Enrique Barzola ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/50277-enrike-barzola-el-fuerte',
     rankA: '#n/a',
     recordA: '',
-    weight: '145',
+    weight: '140',
     recordB: '',
     rankB: '#n/a',
     fighterBLink: null,
-    fighterB: ' AJ McKee Jr.'
+    fighterB: ' Nikita Mikhailov'
   },
   {
-    fighterA: 'Vadim Nemkov ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/62209-vadim-nemkov',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '205',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Corey Anderson'
-  },
-  {
-    fighterA: 'Aaron Pico ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/86018-aaron-pico',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '150',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Adli Edwards'
-  },
-  {
-    fighterA: 'Linton Vassell ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/13890-Linton-Vassell',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '265',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Tim Johnson'
-  },
-  {
-    fighterA: 'Tyson Miller ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/197768-tyson-miller',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '170',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Rhalan Gracie'
-  },
-  {
-    fighterA: 'Tyrell Fortune ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/141665-tyrell-fortune',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '265',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Rakim Cleveland'
-  },
-  {
-    fighterA: 'D. Yagshimuradov ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/63444-dovletdzhan-yagshimiradov',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '205',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Rafael Carvalho'
-  },
-  {
-    fighterA: 'Bobby Seronio III ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/142911-bobby-seronio-iii',
+    fighterA: 'Danny Sabatello ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/191637-danny-sabatello',
     rankA: '#n/a',
     recordA: '',
     weight: '135',
     recordB: '',
     rankB: '#n/a',
     fighterBLink: null,
-    fighterB: ' Calob Ramirez'
+    fighterB: ' Jornel Lugo'
   },
   {
-    fighterA: 'Gaston Bolaños ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/41575-gaston-bolanoes',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '145',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Daniel Carey'
-  },
-  {
-    fighterA: 'Kyle Crutchmer ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/189631-kyle-crutchmer',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '170',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Michael Lombardo'
-  },
-  {
-    fighterA: 'Edwin De Los Santos ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/197873-edwin-de-los-santos',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '125',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Alberto Mendez'
-  },
-  {
-    fighterA: 'Rogelio Luna ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/255288-rogelio-luna',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '145',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' Socrates Hernandez'
-  },
-  {
-    fighterA: 'Laird Anderson ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/142318-laird-anderson',
-    rankA: '#n/a',
-    recordA: '',
-    weight: '145',
-    recordB: '',
-    rankB: '#n/a',
-    fighterBLink: null,
-    fighterB: ' JT Donaldson'
-  },
-  {
-    fighterA: 'Theo Haig ',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/253447-theo-haig',
+    fighterA: 'Grant Neal ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/147488-grant-neal',
     rankA: '#n/a',
     recordA: '',
     weight: '205',
     recordB: '',
     rankB: '#n/a',
     fighterBLink: null,
-    fighterB: ' Alan Benson'
+    fighterB: ' Christian Edwards'
+  },
+  {
+    fighterA: 'Manny Muro ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/44771-luis-muro',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '160',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Nate Andrews'
+  },
+  {
+    fighterA: 'Weber Almeida ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/112608-weber-almeida',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '145',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Fabricio Franco'
+  },
+  {
+    fighterA: 'Dante Schiro ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/109429-dante-schiro',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '170',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Scotty Hao'
+  },
+  {
+    fighterA: 'Blake Perry ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/196805-blake-perry',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '170',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Makoa Cooper'
   }
 ]
-,"Bellator 277",
-"10",
+,"Bellator 278",
+"3",
 "Showtime"
 ],
 ]

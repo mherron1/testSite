@@ -12,7 +12,6 @@ let events = [
   "https://www.tapology.com/fightcenter/events/87971-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/87604-ufc-276",
   "https://www.tapology.com/fightcenter/events/87975-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/87504-bellator-278",
   "https://www.tapology.com/fightcenter/events/87505-bellator-279",
   "https://www.tapology.com/fightcenter/events/86506-bellator-paris-bader-vs-kongo-2",
   "https://www.tapology.com/fightcenter/events/86088-bellator-london-amosov-vs-mvp",
@@ -24,7 +23,7 @@ let events = [
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
   "https://www.tapology.com/fightcenter/events/87832-pfl-2022-1-regular-season",
   "https://www.tapology.com/fightcenter/events/85814-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/86986-bellator-277-mckee-vs-pitbull-2",
+  "https://www.tapology.com/fightcenter/events/87504-bellator-278",
   //"https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
 ];
 //getEventURLs();
@@ -35,7 +34,7 @@ let index = 0;
 
 setTimeout(function () {
   asyncGetCards();
-}, 0);
+}, 4000000);
 
 function asyncGetCards() {
   getCard(events[index]);
