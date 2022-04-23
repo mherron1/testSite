@@ -1172,10 +1172,21 @@ let data = [
     rankB: '#21',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/54390-julia-stoliarenko',
     fighterB: 'Julija Stoliarenko'
+  },
+  {
+    fighterA: 'Uriah Hall',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/uriah-hall',
+    rankA: '#8',
+    recordA: '17-10-0 ',
+    weight: '185',
+    recordB: ' 22-4-0',
+    rankB: '#9',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/38116-andr-muniz-sergipano',
+    fighterB: 'André Muniz'
   }
 ]
 ,"UFC 276",
-"2",
+"3",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
@@ -2274,15 +2285,15 @@ let data = [
 '',
 [
   {
-    fighterA: 'Juliana Velasquez',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/60674-juliana-velasquez',
+    fighterA: 'Liz Carmouche ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/liz-carmouche-girl-rilla',
     rankA: '#n/a',
-    recordA: '12-0-0 ',
+    recordA: '',
     weight: '125',
-    recordB: ' 16-7-0',
+    recordB: '',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/liz-carmouche-girl-rilla',
-    fighterB: 'Liz Carmouche'
+    fighterBLink: null,
+    fighterB: ' Juliana Velasquez'
   },
   {
     fighterA: 'Enrique Barzola ',
