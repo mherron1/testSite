@@ -11,7 +11,6 @@ let events = [
   "https://www.tapology.com/fightcenter/events/87971-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/87604-ufc-276",
   "https://www.tapology.com/fightcenter/events/87975-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/87505-bellator-279",
   "https://www.tapology.com/fightcenter/events/86506-bellator-paris-bader-vs-kongo-2",
   "https://www.tapology.com/fightcenter/events/86088-bellator-london-amosov-vs-mvp",
   "https://www.tapology.com/fightcenter/events/88076-bellator-282-mousasi-vs-eblen",
@@ -22,7 +21,7 @@ let events = [
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
   "https://www.tapology.com/fightcenter/events/87832-pfl-2022-1-regular-season",
   "https://www.tapology.com/fightcenter/events/86013-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/87504-bellator-278",
+  "https://www.tapology.com/fightcenter/events/87505-bellator-279",
   //"https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
 ];
 //getEventURLs();
@@ -33,12 +32,12 @@ let index = 0;
 
 setTimeout(function () {
   asyncGetCards();
-}, 50400000);
+}, 0);
 
 function asyncGetCards() {
   getCard(events[index]);
   const delay = (t) => new Promise((resolve) => setTimeout(resolve, t));
-  delay(11000).then(() => {
+  delay(13000).then(() => {
     index++;
     if (index < events.length) {
       asyncGetCards(index);
@@ -251,5 +250,5 @@ function getCard(url) {
     console.log(`"${n}",`);
     console.log(`"${bc}"`);
     console.log("],");
-  }, 10000);
+  }, 12000);
 }
