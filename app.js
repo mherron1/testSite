@@ -1,6 +1,6 @@
 let delay = 0;
 
-if (true) {
+if (false) {
   delay = -19000000;
 }
 
@@ -10,36 +10,16 @@ let assets = [
   "may06-p.jpg",
   "may06-b.jpg",
   "may07-u.jpg",
+  "may13-b.jpg",
+  "may14-u.jpg",
 ];
 
 let times = [
   {
-    date: "apr22",
-    promo: "Bellator MMA",
-    time: new Date(2022, 3, 23, 02, 00, 00),
-    prelims: new Date(2022, 3, 23, 01, 00, 00),
-    videos: [],
-  },
-  {
-    date: "apr23",
-    promo: "Bellator MMA",
-    time: new Date(2022, 3, 24, 02, 30, 00),
-    prelims: new Date(2022, 3, 24, 00, 00, 00),
-    videos: [],
-  },
-
-  {
     date: "apr30",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 4, 01, 00, 00, 00),
+    time: new Date(2022, 3, 30, 23, 00, 00),
     prelims: new Date(2022, 3, 30, 20, 00, 00),
-    videos: [],
-  },
-  {
-    date: "apr23",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 3, 24, 01, 00, 00),
-    prelims: new Date(2022, 3, 23, 22, 00, 00),
     videos: [],
   },
   {
@@ -47,6 +27,20 @@ let times = [
     promo: "Professional Fighters League",
     time: new Date(2022, 3, 29, 01, 00, 00),
     prelims: new Date(2022, 3, 28, 22, 00, 00),
+    videos: [],
+  },
+  {
+    date: "may06",
+    promo: "Bellator MMA",
+    time: new Date(2022, 4, 06, 19, 00, 00),
+    prelims: new Date(2022, 4, 06, 15, 30, 00),
+    videos: [],
+  },
+  {
+    date: "may06",
+    promo: "Professional Fighters League",
+    time: new Date(2022, 4, 07, 01, 00, 00),
+    prelims: new Date(2022, 4, 06, 21, 30, 00),
     videos: [],
   },
 ];
