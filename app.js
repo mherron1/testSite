@@ -1,12 +1,11 @@
 let delay = 0;
 
-if (false) {
+if (true) {
   delay = -19000000;
 }
 
 let assets = [
   "apr30-u.jpg",
-  "apr28-p.jpg",
   "may06-p.jpg",
   "may06-b.jpg",
   "may07-u.jpg",
