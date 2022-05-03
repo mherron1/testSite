@@ -84,7 +84,7 @@ let ufcRankings = [
             rank: 4
             },
 {
-            name: "Rob Font",
+            name: "Marlon Vera",
             rank: 5
             },
 {
@@ -92,11 +92,11 @@ let ufcRankings = [
             rank: 6
             },
 {
-            name: "Dominick Cruz",
+            name: "Rob Font",
             rank: 7
             },
 {
-            name: "Marlon Vera",
+            name: "Dominick Cruz",
             rank: 8
             },
 {
@@ -196,11 +196,11 @@ let ufcRankings = [
             rank: 0
             },
 {
-            name: "Dustin Poirier",
+            name: "Justin Gaethje",
             rank: 1
             },
 {
-            name: "Justin Gaethje",
+            name: "Dustin Poirier",
             rank: 2
             },
 {
@@ -336,11 +336,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Sean Strickland",
+            name: "Derek Brunson",
             rank: 4
             },
 {
-            name: "Derek Brunson",
+            name: "Sean Strickland",
             rank: 5
             },
 {
@@ -484,11 +484,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Marcin Tybura",
+            name: "Chris Daukaus",
             rank: 9
             },
 {
-            name: "Chris Daukaus",
+            name: "Marcin Tybura",
             rank: 10
             },
 {
@@ -500,11 +500,11 @@ let ufcRankings = [
             rank: 12
             },
 {
-            name: "Augusto Sakai",
+            name: "Alexandr Romanov",
             rank: 13
             },
 {
-            name: "Walt Harris",
+            name: "Augusto Sakai",
             rank: 14
             },
 {
@@ -556,11 +556,11 @@ let ufcRankings = [
             rank: 10
             },
 {
-            name: "Mackenzie Dern",
+            name: "Irene Aldana",
             rank: 11
             },
 {
-            name: "Irene Aldana",
+            name: "Mackenzie Dern",
             rank: 12
             },
 {
@@ -572,7 +572,7 @@ let ufcRankings = [
             rank: 14
             },
 {
-            name: "Luana Pinheiro",
+            name: "Brianna Fortino",
             rank: 15
             },
 {
@@ -580,15 +580,15 @@ let ufcRankings = [
             rank: 0
             },
 {
-            name: "Jessica Andrade",
+            name: "Katlyn Chookagian",
             rank: 1
             },
 {
-            name: "Katlyn Chookagian",
+            name: "Lauren Murphy",
             rank: 2
             },
 {
-            name: "Lauren Murphy",
+            name: "Jessica Andrade",
             rank: 3
             },
 {
