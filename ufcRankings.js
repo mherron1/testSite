@@ -512,23 +512,23 @@ let ufcRankings = [
             rank: 15
             },
 {
-            name: "Valentina Shevchenko",
+            name: "Rose Namajunas",
             rank: 0
             },
 {
-            name: "Amanda Nunes",
+            name: "Zhang Weili",
             rank: 1
             },
 {
-            name: "Rose Namajunas",
+            name: "Carla Esparza",
             rank: 2
             },
 {
-            name: "Julianna Peña",
+            name: "Marina Rodriguez",
             rank: 3
             },
 {
-            name: "Zhang Weili",
+            name: "Mackenzie Dern",
             rank: 4
             },
 {
@@ -536,39 +536,39 @@ let ufcRankings = [
             rank: 5
             },
 {
-            name: "Holly Holm",
+            name: "Yan Xiaonan",
             rank: 6
             },
 {
-            name: "Carla Esparza",
+            name: "Nina Ansaroff",
             rank: 7
             },
 {
-            name: "Marina Rodriguez",
+            name: "Tecia Torres",
             rank: 8
             },
 {
-            name: "Katlyn Chookagian",
+            name: "Amanda Ribas",
             rank: 9
             },
 {
-            name: "Yan Xiaonan",
+            name: "Michelle Waterson",
             rank: 10
             },
 {
-            name: "Irene Aldana",
+            name: "Amanda Lemos",
             rank: 11
             },
 {
-            name: "Mackenzie Dern",
+            name: "Virna Jandiroba",
             rank: 12
             },
 {
-            name: "Lauren Murphy",
+            name: "Angela Hill",
             rank: 13
             },
 {
-            name: "Raquel Pennington",
+            name: "Jessica Penne",
             rank: 14
             },
 {

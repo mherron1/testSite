@@ -722,7 +722,7 @@ let data = [
   {
     fighterA: 'Julian Marquez',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/29696-julian-marquez',
-    rankA: '#26',
+    rankA: '#27',
     recordA: '9-2-0 ',
     weight: '185',
     recordB: ' 11-4-0',
@@ -733,22 +733,22 @@ let data = [
   {
     fighterA: 'Tim Means',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/3224-tim-means-the-dirty-bird',
-    rankA: '#26',
+    rankA: '#27',
     recordA: '32-12-1 ',
     weight: '170',
     recordB: ' 22-7-0',
-    rankB: '#28',
+    rankB: '#26',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/35757-kevin-holland',
     fighterB: 'Kevin Holland'
   },
   {
     fighterA: 'Phil Hawes',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/63542-phil-hawes',
-    rankA: '#27',
+    rankA: '#26',
     recordA: '11-3-0 ',
     weight: '185',
     recordB: ' 7-2-0',
-    rankB: '#57',
+    rankB: '#56',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/152086-deron-winn',
     fighterB: 'Deron Winn'
   },
@@ -759,40 +759,40 @@ let data = [
     recordA: '11-2-0 ',
     weight: '185',
     recordB: ' 9-1-0',
-    rankB: '#45',
+    rankB: '#47',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/147160-roman-dolidze',
     fighterB: 'Roman Dolidze'
   },
   {
     fighterA: 'Gloria de Paula',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/137395-gloria-de-paula-glorinha',
-    rankA: '#37',
+    rankA: '#31',
     recordA: '6-4-0 ',
     weight: '115',
     recordB: ' 12-5-0',
-    rankB: '#68',
+    rankB: '#77',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/114735-maria-oliveira',
     fighterB: 'Maria Oliveira'
   },
   {
     fighterA: 'Jasmine Jasudavicius',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/171056-jasmine-jasdavicious',
-    rankA: '#41',
+    rankA: '#37',
     recordA: '7-1-0 ',
     weight: '125',
     recordB: ' 12-5-1',
-    rankB: '#116',
+    rankB: '#87',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/99885-natalia-silva',
     fighterB: 'Natália Silva'
   },
   {
     fighterA: 'Damir Ismagulov',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/81591-damir-ismagulov',
-    rankA: '#21',
+    rankA: '#23',
     recordA: '23-1-0 ',
     weight: '155',
     recordB: ' 12-2-0',
-    rankB: '#44',
+    rankB: '#39',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/44544-guram-katateladze',
     fighterB: 'Guram Kutateladze'
   },
@@ -803,24 +803,35 @@ let data = [
     recordA: '19-5-1 ',
     weight: '135',
     recordB: ' 24-15-1',
-    rankB: '#55',
+    rankB: '#67',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/eddie-wineland',
     fighterB: 'Eddie Wineland'
   },
   {
     fighterA: 'Jeremiah Wells',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/15782-jeremiah-wells',
-    rankA: '#39',
+    rankA: '#37',
     recordA: '10-2-1 ',
     weight: '170',
     recordB: ' 21-10-0',
-    rankB: '#53',
+    rankB: '#49',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/court-mcgee-the-crusher',
     fighterB: 'Court McGee'
+  },
+  {
+    fighterA: 'Joaquin Buckley',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/55022-joaquin-buckley',
+    rankA: '#28',
+    recordA: '14-4-0 ',
+    weight: '185',
+    recordB: ' 15-3-0',
+    rankB: '#41',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/18658-albert-duraev',
+    fighterB: 'Albert Duraev'
   }
 ]
 ,"UFC Fight Night",
-"7",
+"8",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -1011,10 +1022,21 @@ let data = [
     rankB: '#12',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/143925-maycee-barber',
     fighterB: 'Maycee Barber'
+  },
+  {
+    fighterA: 'Robbie Lawler',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/robbie-lawler-ruthless',
+    rankA: '#74',
+    recordA: '29-15-0 ',
+    weight: '170',
+    recordB: ' 17-8-0',
+    rankB: '#44',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/16876-bryan-barberena',
+    fighterB: 'Bryan Barberena'
   }
 ]
 ,"UFC 276",
-"4",
+"5",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
