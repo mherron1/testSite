@@ -1073,6 +1073,198 @@ let data = [
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
+1657404000000,
+'',
+[
+  {
+    fighterA: 'Cynthia Calvillo',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/25471-cynthia-calvillo',
+    rankA: '#13',
+    recordA: '9-4-1 ',
+    weight: '125',
+    recordB: ' 10-7-0',
+    rankB: '#13',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/11224-nina-ansaroff',
+    fighterB: 'Nina Nunes'
+  },
+  {
+    fighterA: 'Antonina Shevchenko',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/119417-antonia-schevchenko',
+    rankA: '#25',
+    recordA: '9-4-0 ',
+    weight: '125',
+    recordB: ' 10-9-0',
+    rankB: '#30',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/21135-courtney-casey',
+    fighterB: 'Cortney Casey'
+  },
+  {
+    fighterA: 'Ronnie Lawrence',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/38205-ronnie-lawrence',
+    rankA: '#51',
+    recordA: '8-1-0 ',
+    weight: '135',
+    recordB: ' 9-2-0',
+    rankB: '#42',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/147590-saidyokub-kakharamonov',
+    fighterB: 'Saidyokub Kakhramonov'
+  },
+  {
+    fighterA: 'Tresean Gore',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/65776-tresean-gore',
+    rankA: '#105',
+    recordA: '3-1-0 ',
+    weight: '185',
+    recordB: ' 9-3-0',
+    rankB: '#2',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/65199-joshua-fremd',
+    fighterB: 'Josh Fremd'
+  },
+  {
+    fighterA: 'Said Nurmagomedov',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/36038-said-nurmagomedov',
+    rankA: '#17',
+    recordA: '15-2-0 ',
+    weight: '135',
+    recordB: ' 28-4-0',
+    rankB: '#34',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/38718-douglas-dsilva',
+    fighterB: 'D. Silva de Andrade'
+  },
+  {
+    fighterA: 'Abdul Razak Alhassan',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/59306-abdul-razak-alhassan',
+    rankA: '#38',
+    recordA: '11-5-0 ',
+    weight: '185',
+    recordB: ' 13-7-0',
+    rankB: '#60',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/38304-jamie-pickett',
+    fighterB: 'Jamie Pickett'
+  },
+  {
+    fighterA: 'Caio Borralho',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/107316-caio-borralho-cara-de-kombi',
+    rankA: '#52',
+    recordA: '11-1-0 ',
+    weight: '185',
+    recordB: ' 7-1-0',
+    rankB: '#36',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/198212-armen-petrosyan',
+    fighterB: 'Armen Petrosyan'
+  }
+]
+,"UFC Fight Night",
+"5",
+"ESPN+"
+],
+["Ultimate Fighting Championship",
+1658008800000,
+'',
+[
+  {
+    fighterA: 'Askar Askarov',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/99919-askar-askarov',
+    rankA: '#5',
+    recordA: '14-1-1 ',
+    weight: '125',
+    recordB: ' 24-6-0',
+    rankB: '#7',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/alex-perez',
+    fighterB: 'Alex Perez'
+  },
+  {
+    fighterA: 'Dustin Jacoby',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/15069-dustin-jacoby',
+    rankA: '#17',
+    recordA: '17-5-1 ',
+    weight: '205',
+    recordB: ' 15-2-1',
+    rankB: '#20',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/103262-da-un-jung',
+    fighterB: 'Da Un Jung'
+  },
+  {
+    fighterA: 'Herbert Burns',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/60086-herbert-burns',
+    rankA: '#58',
+    recordA: '11-3-0 ',
+    weight: '145',
+    recordB: ' 23-0-0',
+    rankB: '#180',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/71445-khusein-askhabov',
+    fighterB: 'Khusein Askhabov'
+  },
+  {
+    fighterA: 'Jessica Penne',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/jessica-pene',
+    rankA: '#16',
+    recordA: '14-5-0 ',
+    weight: '115',
+    recordB: ' 9-3-0',
+    rankB: '#21',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/36437-brianna-vanburen',
+    fighterB: 'Brianna Fortino'
+  }
+]
+,"UFC Fight Night",
+"2",
+"ESPN+"
+],
+["Ultimate Fighting Championship",
+1658597400000,
+'',
+[
+  {
+    fighterA: 'Curtis Blaydes',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/51080-curtis-blaydes',
+    rankA: '#4',
+    recordA: '16-3-0 ',
+    weight: '265',
+    recordB: ' 12-2-0',
+    rankB: '#5',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/23273-tom-aspinall',
+    fighterB: 'Tom Aspinall'
+  },
+  {
+    fighterA: 'Jack Hermansson',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/13893-Jack-Hermansson',
+    rankA: '#6',
+    recordA: '22-7-0 ',
+    weight: '185',
+    recordB: ' 18-4-1',
+    rankB: '#7',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/37393-darren-till',
+    fighterB: 'Darren Till'
+  },
+  {
+    fighterA: 'Muhammad Mokaev',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/120417-muhammad-mokaev',
+    rankA: '#23',
+    recordA: '6-0-0 ',
+    weight: '125',
+    recordB: ' 11-2-0',
+    rankB: '#41',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/117993-charles-johnson',
+    fighterB: 'Charles Johnson'
+  },
+  {
+    fighterA: 'Nikita Krylov',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/37801-nikita-krylov',
+    rankA: '#13',
+    recordA: '27-9-0 ',
+    weight: '205',
+    recordB: ' 18-7-0',
+    rankB: '#65',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/alexander-gustafsson-the-mauler',
+    fighterB: 'Alexander Gustafsson'
+  }
+]
+,"UFC Fight Night",
+"0",
+"ESPN+"
+],
+["Ultimate Fighting Championship",
 1659218400000,
 '',
 [
@@ -1102,6 +1294,26 @@ let data = [
 ,"UFC 277",
 "0",
 "Pay Per View | Prelims: ESPN"
+],
+["Ultimate Fighting Championship",
+1662220800000,
+'',
+[
+  {
+    fighterA: 'Ciryl Gane',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/187819-cyril-gane-real-c',
+    rankA: '#2',
+    recordA: '10-1-0 ',
+    weight: '265',
+    recordB: ' 15-3-0',
+    rankB: '#6',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/120884-tai-tuivasa-bam-bam',
+    fighterB: 'Tai Tuivasa'
+  }
+]
+,"UFC Fight Night",
+"0",
+"ESPN+"
 ],
 ["Bellator MMA",
 1651854600000,
