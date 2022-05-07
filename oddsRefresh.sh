@@ -1,4 +1,4 @@
 
 
 
-node oddsScraper.js > oods.js
+node oddsScraper.js > odds.js

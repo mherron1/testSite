@@ -23,7 +23,7 @@ let odds = [
 {"name":"Randy Brown" , "odds": "2.06"},
 {"name":"Donald Cerrone" , "odds": "1.57"},
 {"name":"Joe Lauzon" , "odds": "2.64"},
-{"name":"Mauricio Rua" , "odds": "3.10"},
+{"name":"Mauricio Rua" , "odds": "3.05"},
 {"name":"Ovince Saint Preux" , "odds": "1.41"},
 {"name":"Michael Chandler" , "odds": "1.29"},
 {"name":"Tony Ferguson" , "odds": "4.20"},
