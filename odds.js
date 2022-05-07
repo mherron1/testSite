@@ -27,7 +27,7 @@ let odds = [
 {"name":"Ovince Saint Preux" , "odds": "1.40"},
 {"name":"Michael Chandler" , "odds": "1.29"},
 {"name":"Tony Ferguson" , "odds": "4.20"},
-{"name":"Rose Namajunas" , "odds": "1.49"},
+{"name":"Rose Namajunas" , "odds": "1.50"},
 {"name":"Carla Esparza" , "odds": "2.90"},
 {"name":"Glover Teixeira" , "odds": "2.75"},
 {"name":"Jiri Prochazka" , "odds": "1.53"},
