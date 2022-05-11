@@ -12,19 +12,19 @@ let ufcRankings = [
             rank: 2
             },
 {
-            name: "Askar Askarov",
+            name: "Alexandre Pantoja",
             rank: 3
             },
 {
-            name: "Alexandre Pantoja",
+            name: "Askar Askarov",
             rank: 4
             },
 {
-            name: "Alex Perez",
+            name: "Brandon Royval",
             rank: 5
             },
 {
-            name: "Brandon Royval",
+            name: "Alex Perez",
             rank: 6
             },
 {
@@ -196,11 +196,11 @@ let ufcRankings = [
             rank: 0
             },
 {
-            name: "Justin Gaethje",
+            name: "Dustin Poirier",
             rank: 1
             },
 {
-            name: "Dustin Poirier",
+            name: "Justin Gaethje",
             rank: 2
             },
 {
@@ -208,11 +208,11 @@ let ufcRankings = [
             rank: 3
             },
 {
-            name: "Beneil Dariush",
+            name: "Michael Chandler",
             rank: 4
             },
 {
-            name: "Michael Chandler",
+            name: "Beneil Dariush",
             rank: 5
             },
 {
@@ -220,15 +220,15 @@ let ufcRankings = [
             rank: 6
             },
 {
-            name: "Tony Ferguson",
+            name: "Gregor Gillespie",
             rank: 7
             },
 {
-            name: "Gregor Gillespie",
+            name: "Conor McGregor",
             rank: 8
             },
 {
-            name: "Conor McGregor",
+            name: "Tony Ferguson",
             rank: 9
             },
 {
@@ -240,11 +240,11 @@ let ufcRankings = [
             rank: 11
             },
 {
-            name: "Mateusz Gamrot",
+            name: "Dan Hooker",
             rank: 12
             },
 {
-            name: "Dan Hooker",
+            name: "Mateusz Gamrot",
             rank: 13
             },
 {
@@ -252,87 +252,87 @@ let ufcRankings = [
             rank: 14
             },
 {
-            name: "Diego Ferreira",
-            rank: 15
-            },
-{
             name: "Kamaru Usman",
-            rank: 0
+            rank: 15
             },
 {
             name: "Colby Covington",
-            rank: 1
-            },
-{
-            name: "Leon Edwards",
-            rank: 2
-            },
-{
-            name: "Khamzat Chimaev",
-            rank: 3
-            },
-{
-            name: "Gilbert Burns",
-            rank: 4
-            },
-{
-            name: "Belal Muhammad",
-            rank: 5
-            },
-{
-            name: "Vicente Luque",
-            rank: 6
-            },
-{
-            name: "Stephen Thompson",
-            rank: 7
-            },
-{
-            name: "Jorge Masvidal",
-            rank: 8
-            },
-{
-            name: "Sean Brady",
-            rank: 9
-            },
-{
-            name: "Neil Magny",
-            rank: 10
-            },
-{
-            name: "Michael Chiesa",
-            rank: 11
-            },
-{
-            name: "Geoff Neal",
-            rank: 12
-            },
-{
-            name: "Li Jingliang",
-            rank: 13
-            },
-{
-            name: "Santiago Ponzinibbio",
-            rank: 14
-            },
-{
-            name: "Shavkat Rakhmonov",
-            rank: 15
-            },
-{
-            name: "Israel Adesanya",
             rank: 0
             },
 {
-            name: "Robert Whittaker",
+            name: "Leon Edwards",
             rank: 1
             },
 {
-            name: "Jared Cannonier",
+            name: "Khamzat Chimaev",
             rank: 2
             },
 {
+            name: "Gilbert Burns",
+            rank: 3
+            },
+{
+            name: "Belal Muhammad",
+            rank: 4
+            },
+{
+            name: "Vicente Luque",
+            rank: 5
+            },
+{
+            name: "Stephen Thompson",
+            rank: 6
+            },
+{
+            name: "Jorge Masvidal",
+            rank: 7
+            },
+{
+            name: "Sean Brady",
+            rank: 8
+            },
+{
+            name: "Neil Magny",
+            rank: 9
+            },
+{
+            name: "Michael Chiesa",
+            rank: 10
+            },
+{
+            name: "Geoff Neal",
+            rank: 11
+            },
+{
+            name: "Li Jingliang",
+            rank: 12
+            },
+{
+            name: "Santiago Ponzinibbio",
+            rank: 13
+            },
+{
+            name: "Shavkat Rakhmonov",
+            rank: 14
+            },
+{
+            name: "Israel Adesanya",
+            rank: 15
+            },
+{
+            name: "Robert Whittaker",
+            rank: 0
+            },
+{
+            name: "Jared Cannonier",
+            rank: 1
+            },
+{
             name: "Marvin Vettori",
+            rank: 2
+            },
+{
+            name: "Paulo Costa",
             rank: 3
             },
 {
@@ -344,171 +344,171 @@ let ufcRankings = [
             rank: 5
             },
 {
-            name: "Paulo Costa",
-            rank: 6
-            },
-{
             name: "Jack Hermansson",
-            rank: 7
+            rank: 6
             },
 {
             name: "Darren Till",
-            rank: 8
+            rank: 7
             },
 {
             name: "Uriah Hall",
-            rank: 9
+            rank: 8
             },
 {
             name: "Kelvin Gastelum",
-            rank: 10
+            rank: 9
             },
 {
             name: "Nassourdine Imavov",
-            rank: 11
+            rank: 10
             },
 {
             name: "Brad Tavares",
-            rank: 12
+            rank: 11
             },
 {
             name: "Andre Muniz",
-            rank: 13
+            rank: 12
             },
 {
             name: "Chris Weidman",
-            rank: 14
+            rank: 13
             },
 {
             name: "Edmen Shahbazyan",
-            rank: 15
+            rank: 14
             },
 {
             name: "Glover Teixeira",
-            rank: 0
-            },
-{
-            name: "Jan Blachowicz",
-            rank: 1
-            },
-{
-            name: "Jiri Prochazka",
-            rank: 2
-            },
-{
-            name: "Aleksandar Rakic",
-            rank: 3
-            },
-{
-            name: "Magomed Ankalaev",
-            rank: 4
-            },
-{
-            name: "Anthony Smith",
-            rank: 5
-            },
-{
-            name: "Thiago Santos",
-            rank: 6
-            },
-{
-            name: "Dominick Reyes",
-            rank: 7
-            },
-{
-            name: "Paul Craig",
-            rank: 8
-            },
-{
-            name: "Volkan Oezdemir",
-            rank: 9
-            },
-{
-            name: "Jamahal Hill",
-            rank: 10
-            },
-{
-            name: "Nikita Krylov",
-            rank: 11
-            },
-{
-            name: "Johnny Walker",
-            rank: 12
-            },
-{
-            name: "Ryan Spann",
-            rank: 13
-            },
-{
-            name: "Jimmy Crute",
-            rank: 14
-            },
-{
-            name: "Dustin Jacoby",
             rank: 15
             },
 {
-            name: "Francis Ngannou",
+            name: "Jan Blachowicz",
             rank: 0
             },
 {
-            name: "Ciryl Gane",
+            name: "Jiri Prochazka",
             rank: 1
             },
 {
-            name: "Stipe Miocic",
+            name: "Aleksandar Rakić",
             rank: 2
             },
 {
-            name: "Tai Tuivasa",
+            name: "Magomed Ankalaev",
             rank: 3
             },
 {
-            name: "Curtis Blaydes",
+            name: "Anthony Smith",
             rank: 4
             },
 {
-            name: "Derrick Lewis",
+            name: "Thiago Santos",
             rank: 5
             },
 {
-            name: "Tom Aspinall",
+            name: "Dominick Reyes",
             rank: 6
             },
 {
-            name: "Alexander Volkov",
+            name: "Paul Craig",
             rank: 7
             },
 {
-            name: "Jairzinho Rozenstruik",
+            name: "Volkan Oezdemir",
             rank: 8
             },
 {
-            name: "Chris Daukaus",
+            name: "Jamahal Hill",
             rank: 9
             },
 {
-            name: "Marcin Tybura",
+            name: "Nikita Krylov",
             rank: 10
             },
 {
-            name: "Sergei Pavlovich",
+            name: "Johnny Walker",
             rank: 11
             },
 {
-            name: "Shamil Abdurakhimov",
+            name: "Ryan Spann",
             rank: 12
             },
 {
-            name: "Alexandr Romanov",
+            name: "Jimmy Crute",
             rank: 13
             },
 {
-            name: "Augusto Sakai",
+            name: "Dustin Jacoby",
             rank: 14
             },
 {
+            name: "Francis Ngannou",
+            rank: 15
+            },
+{
+            name: "Ciryl Gane",
+            rank: 0
+            },
+{
+            name: "Stipe Miocic",
+            rank: 1
+            },
+{
+            name: "Tai Tuivasa",
+            rank: 2
+            },
+{
+            name: "Curtis Blaydes",
+            rank: 3
+            },
+{
+            name: "Derrick Lewis",
+            rank: 4
+            },
+{
+            name: "Tom Aspinall",
+            rank: 5
+            },
+{
+            name: "Alexander Volkov",
+            rank: 6
+            },
+{
+            name: "Jairzinho Rozenstruik",
+            rank: 7
+            },
+{
+            name: "Chris Daukaus",
+            rank: 8
+            },
+{
+            name: "Marcin Tybura",
+            rank: 9
+            },
+{
+            name: "Sergei Pavlovich",
+            rank: 10
+            },
+{
+            name: "Shamil Abdurakhimov",
+            rank: 11
+            },
+{
+            name: "Alexandr Romanov",
+            rank: 12
+            },
+{
+            name: "Augusto Sakai",
+            rank: 13
+            },
+{
             name: "Blagoy Ivanov",
+            rank: 14
+            },
+{
+            name: "Valentina Shevchenko",
             rank: 15
             },
 {
@@ -520,15 +520,15 @@ let ufcRankings = [
             rank: 1
             },
 {
-            name: "Carla Esparza",
+            name: "Marina Rodriguez",
             rank: 2
             },
 {
-            name: "Marina Rodriguez",
+            name: "Mackenzie Dern",
             rank: 3
             },
 {
-            name: "Mackenzie Dern",
+            name: "Yan Xiaonan",
             rank: 4
             },
 {
@@ -536,43 +536,43 @@ let ufcRankings = [
             rank: 5
             },
 {
-            name: "Yan Xiaonan",
+            name: "Nina Ansaroff",
             rank: 6
             },
 {
-            name: "Nina Ansaroff",
+            name: "Tecia Torres",
             rank: 7
             },
 {
-            name: "Tecia Torres",
+            name: "Amanda Ribas",
             rank: 8
             },
 {
-            name: "Amanda Ribas",
+            name: "Michelle Waterson",
             rank: 9
             },
 {
-            name: "Michelle Waterson",
+            name: "Amanda Lemos",
             rank: 10
             },
 {
-            name: "Amanda Lemos",
+            name: "Virna Jandiroba",
             rank: 11
             },
 {
-            name: "Virna Jandiroba",
+            name: "Angela Hill",
             rank: 12
             },
 {
-            name: "Angela Hill",
+            name: "Jessica Penne",
             rank: 13
             },
 {
-            name: "Jessica Penne",
+            name: "Brianna Fortino",
             rank: 14
             },
 {
-            name: "Brianna Fortino",
+            name: "Luana Pinheiro",
             rank: 15
             },
 {
@@ -636,7 +636,7 @@ let ufcRankings = [
             rank: 14
             },
 {
-            name: "Erin Blanchfield",
+            name: "Tracy Cortez",
             rank: 15
             },
 {
@@ -676,11 +676,11 @@ let ufcRankings = [
             rank: 8
             },
 {
-            name: "Miesha Tate",
+            name: "Pannie Kianzad",
             rank: 9
             },
 {
-            name: "Pannie Kianzad",
+            name: "Miesha Tate",
             rank: 10
             },
 {
