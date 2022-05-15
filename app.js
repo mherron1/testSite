@@ -4,13 +4,7 @@ if (false) {
   delay = -19000000;
 }
 
-let assets = [
-  "may06-p.jpg",
-  "may06-b.jpg",
-  "may07-u.jpg",
-  "may13-b.jpg",
-  "may14-u.jpg",
-];
+let assets = ["may21-u.jpg"];
 
 let times = [
   {
@@ -21,10 +15,10 @@ let times = [
     videos: [],
   },
   {
-    date: "may14",
+    date: "may21",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 4, 15, 02, 00, 00),
-    prelims: new Date(2022, 4, 14, 23, 30, 00),
+    time: new Date(2022, 4, 21, 23, 00, 00),
+    prelims: new Date(2022, 4, 21, 20, 00, 00),
     videos: [],
   },
   {
