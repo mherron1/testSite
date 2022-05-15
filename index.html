@@ -268,7 +268,7 @@ $('.popup_share_close').on('click', function() {
   if(localStorage.getItem("share_marker")){
     let marker = parseInt(localStorage.getItem("share_marker")) ;
     localStorage.setItem("share_marker", (1 + marker))
-    if(localStorage.getItem("share_marker") % 50 === 0){
+    if(localStorage.getItem("share_marker") % 500 === 0){
       document.querySelector('.share_popup').style.display = 'flex';
     }
   }else{
