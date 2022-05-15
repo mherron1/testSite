@@ -5,7 +5,9 @@ node resultsScraper.js > results.js
 node oddsScraper.js > odds.js
 node sample.js > database.js
 
+./recover.sh
 
+./push.sh
 
 
 

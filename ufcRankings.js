@@ -332,15 +332,15 @@ let ufcRankings = [
             rank: 2
             },
 {
-            name: "Paulo Costa",
+            name: "Derek Brunson",
             rank: 3
             },
 {
-            name: "Derek Brunson",
+            name: "Sean Strickland",
             rank: 4
             },
 {
-            name: "Sean Strickland",
+            name: "Paulo Costa",
             rank: 5
             },
 {
@@ -384,7 +384,7 @@ let ufcRankings = [
             rank: 15
             },
 {
-            name: "Jan Blachowicz",
+            name: "Jan Błachowicz",
             rank: 0
             },
 {
