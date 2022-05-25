@@ -24,7 +24,7 @@ function getCard(url) {
     const getRankings = await page.evaluate(() => {
       let a = Array.from(document.querySelectorAll(".view-grouping-content a"));
       a.splice(0, 15);
-      a.splice(128, 15);
+      a.splice(64, 14);
       a.splice(176, 1);
 
       return a.map((a) => a.textContent);
