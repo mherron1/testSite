@@ -12,11 +12,11 @@ let ufcRankings = [
             rank: 2
             },
 {
-            name: "Alexandre Pantoja",
+            name: "Askar Askarov",
             rank: 3
             },
 {
-            name: "Askar Askarov",
+            name: "Alexandre Pantoja",
             rank: 4
             },
 {
@@ -308,7 +308,7 @@ let ufcRankings = [
             rank: 12
             },
 {
-            name: "Santiago Ponzinibbio",
+            name: "Michel Pereira",
             rank: 13
             },
 {
@@ -644,19 +644,19 @@ let ufcRankings = [
             rank: 0
             },
 {
-            name: "Holly Holm",
+            name: "Ketlen Vieira",
             rank: 1
             },
 {
-            name: "Irene Aldana",
+            name: "Holly Holm",
             rank: 2
             },
 {
-            name: "Raquel Pennington",
+            name: "Irene Aldana",
             rank: 3
             },
 {
-            name: "Ketlen Vieira",
+            name: "Raquel Pennington",
             rank: 4
             },
 {
