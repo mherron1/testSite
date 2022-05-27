@@ -24,27 +24,31 @@ function getCard(url) {
     const getRankings = await page.evaluate(() => {
       let a = Array.from(document.querySelectorAll(".view-grouping-content a"));
       a.splice(0, 15);
-      a.splice(64, 14);
+      a.splice(128, 15);
+      a.splice(63, 0, "");
       a.splice(176, 1);
 
       return a.map((a) => a.textContent);
     });
 
     let a = getRankings;
-    count = 0;
 
     console.log("let ufcRankings = [");
 
-    getRankings.forEach((item) => {
+    let count = 0;
+
+    getRankings.forEach((item, index) => {
+      if (index % 16 === 0) {
+        count = 0;
+      }
+
       console.log(`{
             name: "${item}",
-            rank: ${count}
+            rank: ${count},
+            index: ${index}
             },`);
 
       count++;
-      if (count === 16) {
-        count = 0;
-      }
     });
 
     console.log("]");
