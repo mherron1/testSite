@@ -7,5 +7,3 @@ node sample.js > database.js
 
 ./recover.sh
 ./push.sh
-
-

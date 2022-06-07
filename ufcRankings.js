@@ -15,12 +15,12 @@ let ufcRankings = [
             index: 2
             },
 {
-            name: "Askar Askarov",
+            name: "Alexandre Pantoja",
             rank: 3,
             index: 3
             },
 {
-            name: "Alexandre Pantoja",
+            name: "Askar Askarov",
             rank: 4,
             index: 4
             },
@@ -210,22 +210,22 @@ let ufcRankings = [
             index: 41
             },
 {
-            name: "Dan Ige",
+            name: "Movsar Evloev",
             rank: 10,
             index: 42
             },
 {
-            name: "Sodiq Yusuff",
+            name: "Dan Ige",
             rank: 11,
             index: 43
             },
 {
-            name: "Edson Barboza",
+            name: "Sodiq Yusuff",
             rank: 12,
             index: 44
             },
 {
-            name: "Movsar Evloev",
+            name: "Edson Barboza",
             rank: 13,
             index: 45
             },
@@ -490,7 +490,7 @@ let ufcRankings = [
             index: 97
             },
 {
-            name: "Jiri Prochazka",
+            name: "Jiří Procházka",
             rank: 2,
             index: 98
             },
