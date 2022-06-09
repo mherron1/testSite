@@ -777,24 +777,13 @@ let data = [
   {
     fighterA: 'Brian Ortega',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/40994-brian-ortega',
-    rankA: '#4',
+    rankA: '#3',
     recordA: '15-2-0 ',
     weight: '145',
     recordB: ' 13-3-0',
     rankB: '#7',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/70995-yair-rodriguez',
     fighterB: 'Yair Rodriguez'
-  },
-  {
-    fighterA: 'Askar Askarov',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/99919-askar-askarov',
-    rankA: '#4',
-    recordA: '14-1-1 ',
-    weight: '125',
-    recordB: ' 24-6-0',
-    rankB: '#8',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/alex-perez',
-    fighterB: 'Alex Perez'
   },
   {
     fighterA: 'Dustin Jacoby',
@@ -810,7 +799,7 @@ let data = [
   {
     fighterA: 'Michelle Waterson',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/michelle-waterson-the-karate-hottie',
-    rankA: '#143',
+    rankA: '#72',
     recordA: '18-9-0 ',
     weight: '125',
     recordB: ' 11-2-1',
@@ -832,11 +821,11 @@ let data = [
   {
     fighterA: 'Herbert Burns',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/60086-herbert-burns',
-    rankA: '#46',
+    rankA: '#47',
     recordA: '11-3-0 ',
     weight: '145',
     recordB: ' 23-0-0',
-    rankB: '#214',
+    rankB: '#181',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/71445-khusein-askhabov',
     fighterB: 'Khusein Askhabov'
   },
@@ -876,11 +865,11 @@ let data = [
   {
     fighterA: 'Jingliang Li',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/jing-liang-li-the-leech',
-    rankA: '#16',
+    rankA: '#15',
     recordA: '18-7-0 ',
     weight: '170',
     recordB: ' 18-2-0',
-    rankB: '#21',
+    rankB: '#20',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/44727-muslim-salikhov',
     fighterB: 'Muslim Salikhov'
   },
@@ -898,11 +887,11 @@ let data = [
   {
     fighterA: 'Dwight Grant',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/17476-dwight-grant',
-    rankA: '#81',
+    rankA: '#73',
     recordA: '11-5-0 ',
     weight: '185',
     recordB: ' 13-4-0',
-    rankB: '#78',
+    rankB: '#86',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/34864-dustin-stoltzfus',
     fighterB: 'Dustin Stoltzfus'
   },
@@ -1158,7 +1147,7 @@ let data = [
   {
     fighterA: 'Nick Negumereanu',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/142000-nick-negumereanu',
-    rankA: '#29',
+    rankA: '#26',
     recordA: '12-1-0 ',
     weight: '205',
     recordB: ' 20-2-0',
@@ -1187,10 +1176,21 @@ let data = [
     rankB: '#48',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/102094-ludovit-klein',
     fighterB: 'Ľudovít Klein'
+  },
+  {
+    fighterA: 'Alexandre Pantoja',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/12767-alexandre-pantoja',
+    rankA: '#4',
+    recordA: '24-5-0 ',
+    weight: '125',
+    recordB: ' 24-6-0',
+    rankB: '#8',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/alex-perez',
+    fighterB: 'Alex Perez'
   }
 ]
 ,"UFC 277",
-"8",
+"9",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
