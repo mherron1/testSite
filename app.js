@@ -17,8 +17,8 @@ let times = [
   {
     date: "jun17",
     promo: "Professional Fighters League",
-    time: new Date(2022, 5, 19, 02, 00, 00),
-    prelims: new Date(2022, 5, 18, 23, 00, 00),
+    time: new Date(2022, 5, 18, 02, 00, 00),
+    prelims: new Date(2022, 5, 17, 23, 00, 00),
     videos: [],
   },
   {
