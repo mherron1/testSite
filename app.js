@@ -1,6 +1,6 @@
 let delay = 0;
 
-if (true) {
+if (false) {
   delay = -19000000;
 }
 
@@ -8,17 +8,17 @@ let assets = ["jun11-u.jpg"];
 
 let times = [
   {
-    date: "jun11",
+    date: "jun18",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 5, 12, 02, 00, 00),
-    prelims: new Date(2022, 5, 11, 22, 00, 00),
-    videos: ["MuPkS4EuR4c"],
+    time: new Date(2022, 5, 18, 23, 00, 00),
+    prelims: new Date(2022, 5, 18, 20, 00, 00),
+    videos: [],
   },
   {
     date: "jun17",
     promo: "Professional Fighters League",
-    time: new Date(2022, 5, 18, 02, 00, 00),
-    prelims: new Date(2022, 5, 17, 23, 00, 00),
+    time: new Date(2022, 5, 29, 02, 00, 00),
+    prelims: new Date(2022, 5, 28, 23, 00, 00),
     videos: [],
   },
   {
