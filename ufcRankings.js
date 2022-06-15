@@ -480,17 +480,17 @@ let ufcRankings = [
             index: 95
             },
 {
-            name: "Glover Teixeira",
+            name: "Jiří Procházka",
             rank: 0,
             index: 96
             },
 {
-            name: "Jan Błachowicz",
+            name: "Glover Teixeira",
             rank: 1,
             index: 97
             },
 {
-            name: "Jiří Procházka",
+            name: "Jan Błachowicz",
             rank: 2,
             index: 98
             },
@@ -730,17 +730,17 @@ let ufcRankings = [
             index: 145
             },
 {
-            name: "Lauren Murphy",
+            name: "Taila Santos",
             rank: 2,
             index: 146
             },
 {
-            name: "Jessica Andrade",
+            name: "Lauren Murphy",
             rank: 3,
             index: 147
             },
 {
-            name: "Taila Santos",
+            name: "Jessica Andrade",
             rank: 4,
             index: 148
             },
@@ -775,12 +775,12 @@ let ufcRankings = [
             index: 154
             },
 {
-            name: "Jessica Eye",
+            name: "Cynthia Calvillo",
             rank: 11,
             index: 155
             },
 {
-            name: "Cynthia Calvillo",
+            name: "Jessica Eye",
             rank: 12,
             index: 156
             },
@@ -795,7 +795,7 @@ let ufcRankings = [
             index: 158
             },
 {
-            name: "Tracy Cortez",
+            name: "Erin Blanchfield",
             rank: 15,
             index: 159
             },
