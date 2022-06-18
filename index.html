@@ -231,56 +231,25 @@
   .banner_container{
     display:none;
   }
+  .privacy_policy{
+    display:none;
+  }
 }
+
+@media only screen and ( min-width: 1000px){
+  .privacy_policy{
+    display:none;
+  }
+}
+
+
 
 </style>
 
 </div>
 
   </body>
-  <script>
-var $temp = $("<input>");
-var $url = $(location).attr('href');
-
-$('#clipboard').on('click', function() {
-  $("body").append($temp);
-  $temp.val($url).select();
-  document.execCommand("copy");
-  $temp.remove();
-  $(".url_copied").text("URL copied");
-})
-
-$('.popup_share_close').on('click', function() {
-  document.querySelector('.share_popup').style.display = 'none';
-
-})
 
 
-
-    </script>
-<script>
-
-
-
-
-
- 
-  if(localStorage.getItem("share_marker")){
-    let marker = parseInt(localStorage.getItem("share_marker")) ;
-    localStorage.setItem("share_marker", (1 + marker))
-    if(localStorage.getItem("share_marker") % 500 === 0){
-      document.querySelector('.share_popup').style.display = 'flex';
-    }
-  }else{
-    localStorage.setItem("share_marker", 1);
-    //document.querySelector('.share_popup').style.display = 'flex';
-  }
-
-
-  
-  
-
-
-    </script>
   <script src="index.js"></script>
 </html>
