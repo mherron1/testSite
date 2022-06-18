@@ -275,12 +275,12 @@ let ufcRankings = [
             index: 54
             },
 {
-            name: "Conor McGregor",
+            name: "Tony Ferguson",
             rank: 7,
             index: 55
             },
 {
-            name: "Tony Ferguson",
+            name: "Conor McGregor",
             rank: 8,
             index: 56
             },
