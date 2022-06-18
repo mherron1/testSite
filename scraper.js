@@ -17,6 +17,7 @@ let events = [
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
   "https://www.tapology.com/fightcenter/events/87286-ufc-275-teixeira-vs-prochazka",
+  "https://www.tapology.com/fightcenter/events/86088-bellator-london-amosov-vs-mvp",
   "https://www.tapology.com/fightcenter/events/87835-pfl-2022-4-regular-season",
   //"https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
 ];
