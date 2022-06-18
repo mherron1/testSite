@@ -758,13 +758,11 @@ Share Link
 
 
 
-<br>
- <div class="privacy_policy" style="margin:0 auto; text-align:center;"><a style="font-size:0.9rem;" href="/privacy-policy.html">Privacy Policy</a></div>
+<br> <br>
  <br>
  <br>
  <br>
- <br>
- <br>
+
 
 
   `;
