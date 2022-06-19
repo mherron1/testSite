@@ -4,28 +4,28 @@ if (true) {
   delay = -20000000;
 }
 
-let assets = ["jun18-u.jpg", "jun17-p.jpg"];
+let assets = ["jun24-p.jpg", "jun24-b.jpg", "jun25-u.jpg"];
 
 let times = [
   {
-    date: "jun18",
+    date: "jun25",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 5, 18, 23, 00, 00),
-    prelims: new Date(2022, 5, 18, 20, 00, 00),
+    time: new Date(2022, 5, 26, 02, 00, 00),
+    prelims: new Date(2022, 5, 25, 23, 00, 00),
     videos: [],
   },
   {
-    date: "jun17",
+    date: "jun24",
     promo: "Professional Fighters League",
-    time: new Date(2022, 5, 18, 02, 00, 00),
-    prelims: new Date(2022, 5, 17, 23, 00, 00),
+    time: new Date(2022, 5, 25, 01, 00, 00),
+    prelims: new Date(2022, 5, 24, 21, 30, 00),
     videos: [],
   },
   {
-    date: "may13",
+    date: "jun24",
     promo: "Bellator MMA",
-    time: new Date(2022, 4, 13, 20, 30, 00),
-    prelims: new Date(2022, 4, 13, 17, 30, 00),
+    time: new Date(2022, 5, 25, 01, 00, 00),
+    prelims: new Date(2022, 5, 24, 22, 00, 00),
     videos: [],
   },
 ];
