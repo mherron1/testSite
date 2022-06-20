@@ -15,7 +15,7 @@ let resultsList = [
 ,
 {
   winner: 'Joaquin Buckley ',
-  time: '0:10 Round 3',
+  time: '5:00 Round 2',
   method: 'ko/tko',
   b_Link: 'https://www.tapology.com/fightcenter/fighters/18658-albert-duraev'
 }
