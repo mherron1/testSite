@@ -741,23 +741,6 @@ function generateCard(i, arg) {
  <br>
  <br>
 
-<div style="text-align:center; padding:10px;filter(brightness(75%);">
-Share Link
-
-<div style="text-align:center">
-    <a href="https://twitter.com/intent/tweet?url=https://mmafightcards.org/" target="_blank">
-      <button class="popup_share" style="background-color:#1DA1F2;">Twitter</button>
-    </a>
-
-
-    <a href="https://api.whatsapp.com/send?text=https://mmafightcards.org/" title="WhatsApp" target="_blank">
-      <button class="popup_share" style="background-color:#20a852;">WhatsApp</button>
-    </a>
-</div>
-</div>
-
-
-
 <br> 
  <br>
  <br>
