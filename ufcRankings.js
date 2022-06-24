@@ -15,12 +15,12 @@ let ufcRankings = [
             index: 2
             },
 {
-            name: "Alexandre Pantoja",
+            name: "Askar Askarov",
             rank: 3,
             index: 3
             },
 {
-            name: "Askar Askarov",
+            name: "Alexandre Pantoja",
             rank: 4,
             index: 4
             },
@@ -135,12 +135,12 @@ let ufcRankings = [
             index: 26
             },
 {
-            name: "Frankie Edgar",
+            name: "Ricky Simon",
             rank: 11,
             index: 27
             },
 {
-            name: "Ricky Simon",
+            name: "Frankie Edgar",
             rank: 12,
             index: 28
             },
@@ -155,7 +155,7 @@ let ufcRankings = [
             index: 30
             },
 {
-            name: "Raphael Assuncao",
+            name: "Adrian Yanez",
             rank: 15,
             index: 31
             },
@@ -180,22 +180,22 @@ let ufcRankings = [
             index: 35
             },
 {
-            name: "Calvin Kattar",
+            name: "Josh Emmett",
             rank: 4,
             index: 36
             },
 {
-            name: "Chan Sung Jung",
+            name: "Calvin Kattar",
             rank: 5,
             index: 37
             },
 {
-            name: "Arnold Allen",
+            name: "Chan Sung Jung",
             rank: 6,
             index: 38
             },
 {
-            name: "Josh Emmett",
+            name: "Arnold Allen",
             rank: 7,
             index: 39
             },
@@ -275,12 +275,12 @@ let ufcRankings = [
             index: 54
             },
 {
-            name: "Tony Ferguson",
+            name: "Conor McGregor",
             rank: 7,
             index: 55
             },
 {
-            name: "Conor McGregor",
+            name: "Tony Ferguson",
             rank: 8,
             index: 56
             },
@@ -420,12 +420,12 @@ let ufcRankings = [
             index: 83
             },
 {
-            name: "Derek Brunson",
+            name: "Sean Strickland",
             rank: 4,
             index: 84
             },
 {
-            name: "Sean Strickland",
+            name: "Derek Brunson",
             rank: 5,
             index: 85
             },
@@ -675,7 +675,7 @@ let ufcRankings = [
             index: 134
             },
 {
-            name: "Nina Ansaroff",
+            name: "Nina Nunes",
             rank: 7,
             index: 135
             },
