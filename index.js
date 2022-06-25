@@ -740,6 +740,24 @@ function generateCard(i, arg) {
  <br>
  <br>
  <br>
+
+<div style="text-align:center; padding:10px;filter(brightness(75%);">
+Share Link
+
+<div style="text-align:center">
+    <a href="https://twitter.com/intent/tweet?url=https://mmafightcards.org/" target="_blank">
+      <button class="popup_share" style="background-color:#1DA1F2;">Twitter</button>
+    </a>
+
+
+    <a href="https://api.whatsapp.com/send?text=https://mmafightcards.org/" title="WhatsApp" target="_blank">
+      <button class="popup_share" style="background-color:#20a852;">WhatsApp</button>
+    </a>
+</div>
+</div>
+
+
+
 <br> 
  <br>
  <br>
@@ -1552,13 +1570,19 @@ function setMainCountdown(time) {
     if (distance > 8.64e9) {
       document.getElementById("days2").style.width = "42px";
     }
-    (document.getElementById("days2").innerText = Math.floor(distance / day)),
-      (document.getElementById("hours2").innerText = Math.floor(
+    document.getElementById("days2").innerText = Math.floor(distance / day);
+
+    if (
+      events[i][1] - nowEpochX < 604800000 &&
+      events[i][1] - nowEpochX > -28800000
+    ) {
+      document.getElementById("hours2").innerText = Math.floor(
         (distance % day) / hour
-      )),
-      (document.getElementById("minutes2").innerText = Math.floor(
+      );
+      document.getElementById("minutes2").innerText = Math.floor(
         (distance % hour) / minute
-      ));
+      );
+    }
 
     if (
       Math.floor(distance / hour) === 0 &&
@@ -1593,13 +1617,20 @@ function setPrelimsCountdown(time) {
     if (distance2 > 8.64e9) {
       document.getElementById("days").style.width = "42px";
     }
-    (document.getElementById("days").innerText = Math.floor(distance2 / day)),
-      (document.getElementById("hours").innerText = Math.floor(
+    document.getElementById("days").innerText = Math.floor(distance2 / day);
+
+    if (
+      events[i][1] - nowEpochX < 604800000 &&
+      events[i][1] - nowEpochX > -28800000
+    ) {
+      document.getElementById("hours").innerText = Math.floor(
         (distance2 % day) / hour
-      )),
-      (document.getElementById("minutes").innerText = Math.floor(
+      );
+      document.getElementById("minutes").innerText = Math.floor(
         (distance2 % hour) / minute
-      ));
+      );
+    }
+
     if (Math.floor(distance2 / day) === 0) {
       document.getElementById("days").innerText = "0";
     }
