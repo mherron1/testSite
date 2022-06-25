@@ -15,10 +15,10 @@ let times = [
     videos: [],
   },
   {
-    date: "jun24",
+    date: "jul01",
     promo: "Professional Fighters League",
-    time: new Date(2022, 5, 25, 00, 00, 00),
-    prelims: new Date(2022, 5, 24, 22, 00, 00),
+    time: new Date(2022, 6, 02, 00, 00, 00),
+    prelims: new Date(2022, 6, 01, 22, 00, 00),
     videos: [],
   },
   {
