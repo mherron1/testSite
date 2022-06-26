@@ -77,7 +77,7 @@ body {
 #imageContainerPlus1,
 #imageContainerMinus1 {
   position: relative;
-  min-height: 210px;
+  min-height: 190px;
   overflow: hidden;
   margin-bottom: 15px;
   width: 100vw;
