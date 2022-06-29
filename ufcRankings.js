@@ -40,42 +40,42 @@ let ufcRankings = [
             index: 7
             },
 {
-            name: "Rogerio Bontorin",
+            name: "Matt Schnell",
             rank: 8,
             index: 8
             },
 {
-            name: "Matt Schnell",
+            name: "David Dvorak",
             rank: 9,
             index: 9
             },
 {
-            name: "David Dvorak",
+            name: "Tim Elliott",
             rank: 10,
             index: 10
             },
 {
-            name: "Tim Elliott",
+            name: "Sumudaerji",
             rank: 11,
             index: 11
             },
 {
-            name: "Sumudaerji",
+            name: "Amir Albazi",
             rank: 12,
             index: 12
             },
 {
-            name: "Amir Albazi",
+            name: "Manel Kape",
             rank: 13,
             index: 13
             },
 {
-            name: "Manel Kape",
+            name: "Tagir Ulanbekov",
             rank: 14,
             index: 14
             },
 {
-            name: "Tagir Ulanbekov",
+            name: "Jeffrey Molina",
             rank: 15,
             index: 15
             },
@@ -125,22 +125,22 @@ let ufcRankings = [
             index: 24
             },
 {
-            name: "Song Yadong",
+            name: "Pedro Munhoz",
             rank: 9,
             index: 25
             },
 {
-            name: "Pedro Munhoz",
+            name: "Song Yadong",
             rank: 10,
             index: 26
             },
 {
-            name: "Ricky Simon",
+            name: "Frankie Edgar",
             rank: 11,
             index: 27
             },
 {
-            name: "Frankie Edgar",
+            name: "Ricky Simon",
             rank: 12,
             index: 28
             },
@@ -155,7 +155,7 @@ let ufcRankings = [
             index: 30
             },
 {
-            name: "Adrian Yanez",
+            name: "Umar Nurmagomedov",
             rank: 15,
             index: 31
             },
@@ -190,12 +190,12 @@ let ufcRankings = [
             index: 37
             },
 {
-            name: "Chan Sung Jung",
+            name: "Arnold Allen",
             rank: 6,
             index: 38
             },
 {
-            name: "Arnold Allen",
+            name: "Chan Sung Jung",
             rank: 7,
             index: 39
             },
@@ -275,7 +275,7 @@ let ufcRankings = [
             index: 54
             },
 {
-            name: "Conor McGregor",
+            name: "Mateusz Gamrot",
             rank: 7,
             index: 55
             },
@@ -295,7 +295,7 @@ let ufcRankings = [
             index: 58
             },
 {
-            name: "Mateusz Gamrot",
+            name: "Conor McGregor",
             rank: 11,
             index: 59
             },
@@ -370,7 +370,7 @@ let ufcRankings = [
             index: 73
             },
 {
-            name: "Neil Magny",
+            name: "Shavkat Rakhmonov",
             rank: 10,
             index: 74
             },
@@ -380,22 +380,22 @@ let ufcRankings = [
             index: 75
             },
 {
-            name: "Geoff Neal",
+            name: "Neil Magny",
             rank: 12,
             index: 76
             },
 {
-            name: "Li Jingliang",
+            name: "Geoff Neal",
             rank: 13,
             index: 77
             },
 {
-            name: "Michel Pereira",
+            name: "Li Jingliang",
             rank: 14,
             index: 78
             },
 {
-            name: "Shavkat Rakhmonov",
+            name: "Michel Pereira",
             rank: 15,
             index: 79
             },
@@ -750,12 +750,12 @@ let ufcRankings = [
             index: 149
             },
 {
-            name: "Manon Fiorot",
+            name: "Viviane Araujo",
             rank: 6,
             index: 150
             },
 {
-            name: "Viviane Araujo",
+            name: "Manon Fiorot",
             rank: 7,
             index: 151
             },
@@ -770,7 +770,7 @@ let ufcRankings = [
             index: 153
             },
 {
-            name: "Joanne Wood",
+            name: "Jessica Eye",
             rank: 10,
             index: 154
             },
@@ -780,22 +780,22 @@ let ufcRankings = [
             index: 155
             },
 {
-            name: "Jessica Eye",
+            name: "Casey O'Neill",
             rank: 12,
             index: 156
             },
 {
-            name: "Casey O'Neill",
+            name: "Maycee Barber",
             rank: 13,
             index: 157
             },
 {
-            name: "Maycee Barber",
+            name: "Erin Blanchfield",
             rank: 14,
             index: 158
             },
 {
-            name: "Erin Blanchfield",
+            name: "Tracy Cortez",
             rank: 15,
             index: 159
             },
