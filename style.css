@@ -1872,8 +1872,6 @@ h4:hover {
     transform: translateX(92px);
     text-align: right;
     padding-right: 25px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
     box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
     z-index: 1;
   }
@@ -1898,8 +1896,6 @@ h4:hover {
     position: absolute;
     top: 30px;
     min-height: 150vh;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
     box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
   }
   #desktopOpenSettings {

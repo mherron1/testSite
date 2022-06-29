@@ -1870,15 +1870,8 @@ h4:hover {
     transform: translateX(95px);
     text-align: right;
     padding-right: 15px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
     z-index: 10000000000;
-  }
-
-  #mainHeader {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
   }
 
   body {
@@ -1900,8 +1893,6 @@ h4:hover {
     position: absolute;
     top: 30px;
     min-height: 150vh;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
   }
 
