@@ -770,12 +770,12 @@ let ufcRankings = [
             index: 153
             },
 {
-            name: "Jessica Eye",
+            name: "Cynthia Calvillo",
             rank: 10,
             index: 154
             },
 {
-            name: "Cynthia Calvillo",
+            name: "Jessica Eye",
             rank: 11,
             index: 155
             },

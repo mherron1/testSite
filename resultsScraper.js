@@ -3,7 +3,7 @@ const puppeteer = require("puppeteer");
 let events = [
   "https://www.tapology.com/fightcenter/events/87971-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/88076-bellator-282-mousasi-vs-eblen",
-  "https://www.tapology.com/fightcenter/events/87836-pfl-2022-5-regular-season",
+  "https://www.tapology.com/fightcenter/events/87837-pfl-2022-6-regular-season",
 
   // "https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
 ];
