@@ -8,13 +8,6 @@ let assets = ["jul09-u.jpg"];
 
 let times = [
   {
-    date: "jun25",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 5, 26, 02, 00, 00),
-    prelims: new Date(2022, 5, 25, 23, 00, 00),
-    videos: [],
-  },
-  {
     date: "jul01",
     promo: "Professional Fighters League",
     time: new Date(2022, 6, 02, 00, 00, 00),
