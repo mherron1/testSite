@@ -1,7 +1,6 @@
 const puppeteer = require("puppeteer");
 
 let events = [
-  "https://www.tapology.com/fightcenter/events/88397-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/88485-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/88711-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/89354-ufc-fight-night",
@@ -21,7 +20,7 @@ let events = [
   "https://www.tapology.com/fightcenter/events/87840-pfl-2022-9-playoffs",
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
-  "https://www.tapology.com/fightcenter/events/87604-ufc-276",
+  "https://www.tapology.com/fightcenter/events/88397-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/88076-bellator-282-mousasi-vs-eblen",
   "https://www.tapology.com/fightcenter/events/87837-pfl-2022-6-regular-season",
   //"https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
@@ -34,7 +33,7 @@ let index = 0;
 
 setTimeout(function () {
   asyncGetCards();
-}, 0);
+}, 6000000);
 
 function asyncGetCards() {
   getCard(events[index]);
