@@ -17,7 +17,7 @@ let data = [
   {
     fighterA: 'Michelle Waterson',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/michelle-waterson-the-karate-hottie',
-    rankA: '#67',
+    rankA: '#91',
     recordA: '18-9-0 ',
     weight: '125',
     recordB: ' 11-2-1',
@@ -32,14 +32,14 @@ let data = [
     recordA: '18-7-0 ',
     weight: '170',
     recordB: ' 18-2-0',
-    rankB: '#22',
+    rankB: '#21',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/44727-muslim-salikhov',
     fighterB: 'Muslim Salikhov'
   },
   {
     fighterA: 'Matt Schnell',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/29221-matt-schnell',
-    rankA: '#16',
+    rankA: '#17',
     recordA: '15-7-0 ',
     weight: '125',
     recordB: ' 16-4-0',
@@ -54,7 +54,7 @@ let data = [
     recordA: '14-3-0 ',
     weight: '145',
     recordB: ' 13-4-1',
-    rankB: '#29',
+    rankB: '#27',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/36724-charles-jourdain',
     fighterB: 'Charles Jourdain'
   },
@@ -72,7 +72,7 @@ let data = [
   {
     fighterA: 'Punahele Soriano',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/119534-punahele-soriano-story-time',
-    rankA: '#43',
+    rankA: '#47',
     recordA: '8-2-0 ',
     weight: '185',
     recordB: ' 11-4-0',
@@ -87,14 +87,25 @@ let data = [
     recordA: '19-3-0 ',
     weight: '135',
     recordB: ' 16-0-0',
-    rankB: '#15',
+    rankB: '#14',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/80250-jack-shore',
     fighterB: 'Jack Shore'
   },
   {
+    fighterA: 'Bill Algeo',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/25872-william-algeo-honey-badger',
+    rankA: '#44',
+    recordA: '15-6-0 ',
+    weight: '145',
+    recordB: ' 11-3-0',
+    rankB: '#53',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/60086-herbert-burns',
+    fighterB: 'Herbert Burns'
+  },
+  {
     fighterA: 'Dustin Jacoby',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/15069-dustin-jacoby',
-    rankA: '#15',
+    rankA: '#16',
     recordA: '17-5-1 ',
     weight: '205',
     recordB: ' 15-2-1',
@@ -103,52 +114,30 @@ let data = [
     fighterB: 'Da Un Jung'
   },
   {
-    fighterA: 'Bill Algeo',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/25872-william-algeo-honey-badger',
-    rankA: '#45',
-    recordA: '15-6-0 ',
-    weight: '145',
-    recordB: ' 11-3-0',
-    rankB: '#57',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/60086-herbert-burns',
-    fighterB: 'Herbert Burns'
-  },
-  {
     fighterA: 'Dwight Grant',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/17476-dwight-grant',
-    rankA: '#77',
+    rankA: '#84',
     recordA: '11-5-0 ',
     weight: '185',
     recordB: ' 13-4-0',
-    rankB: '#87',
+    rankB: '#82',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/34864-dustin-stoltzfus',
     fighterB: 'Dustin Stoltzfus'
   },
   {
-    fighterA: 'Philip Rowe',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/37289-philip-rowe',
-    rankA: '#53',
-    recordA: '9-3-0 ',
-    weight: '170',
-    recordB: ' 16-3-1',
-    rankB: '#82',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/65871-abubakr-nurmagomedov',
-    fighterB: 'Abubakar Nurmagomedov'
-  },
-  {
     fighterA: 'Jessica Penne',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/jessica-pene',
-    rankA: '#14',
+    rankA: '#17',
     recordA: '14-5-0 ',
     weight: '115',
     recordB: ' 11-6-0',
-    rankB: '#33',
+    rankB: '#31',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/70991-emily-ducote',
     fighterB: 'Emily Ducote'
   }
 ]
 ,"UFC on ABC 3",
-"7",
+"6",
 "ABC | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
