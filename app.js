@@ -1,10 +1,10 @@
 let delay = 0;
 
-if (true) {
+if (false) {
   delay = -20000000;
 }
 
-let assets = ["jul23-u.jpg", "jul22-b.jpg"];
+let assets = ["jul23-u.jpg"];
 
 let times = [
   {
