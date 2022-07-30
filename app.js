@@ -8,24 +8,17 @@ let assets = ["jul30-u.jpg"];
 
 let times = [
   {
-    date: "jul01",
+    date: "aug05",
     promo: "Professional Fighters League",
-    time: new Date(2022, 6, 02, 00, 00, 00),
-    prelims: new Date(2022, 6, 01, 22, 00, 00),
+    time: new Date(2022, 7, 06, 01, 00, 00),
+    prelims: new Date(2022, 7, 05, 22, 00, 00),
     videos: [],
   },
   {
-    date: "jul16",
+    date: "aug06",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 6, 16, 18, 00, 00),
-    prelims: new Date(2022, 6, 16, 15, 00, 00),
-    videos: [],
-  },
-  {
-    date: "jul23",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 6, 23, 19, 00, 00),
-    prelims: new Date(2022, 6, 23, 16, 00, 00),
+    time: new Date(2022, 7, 07, 02, 00, 00),
+    prelims: new Date(2022, 7, 06, 23, 00, 00),
     videos: [],
   },
   {
