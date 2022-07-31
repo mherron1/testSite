@@ -1,100 +1,93 @@
 let resultsList = [
 {
-  winner: 'Curtis Blaydes ',
-  time: '0:15 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/23273-tom-aspinall'
-}
-,
-{
-  winner: 'Jack Hermansson ',
-  time: '3 Rounds',
+  winner: 'Amanda Nunes ',
+  time: '5 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/14863-christopher-curtis-the-action-man'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/julianna-pena-the-venezuelan-vixen'
 }
 ,
 {
-  winner: 'Paddy Pimblett ',
-  time: '2:46 Round 2',
+  winner: 'Brandon Moreno ',
+  time: '4:34 Round 3',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/24803-kaiwhare-kara-france'
+}
+,
+{
+  winner: 'Sergei Pavlovich ',
+  time: '0:55 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/14023-derrick-lewis-the-black-beast'
+}
+,
+{
+  winner: 'Alexandre Pantoja ',
+  time: '1:31 Round 1',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/90318-jordan-leavitt'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/alex-perez'
 }
 ,
 {
-  winner: 'Nikita Krylov ',
-  time: '1:07 Round 1',
+  winner: 'Magomed Ankalaev ',
+  time: '3:09 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/alexander-gustafsson-the-mauler'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/anthony-smith-lionheart'
 }
 ,
 {
-  winner: 'Molly McCann ',
-  time: '3:52 Round 1',
+  winner: 'Alex Morono ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/98220-matthew-semelsberger'
+}
+,
+{
+  winner: 'Drew Dober ',
+  time: '1:30 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/91503-hannah-goldy-queen-of-sparta'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/38728-rafael-alves-rafa-thai'
 }
 ,
 {
-  winner: 'Volkan Oezdemir ',
+  winner: 'Hamdy Abdelwahab ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/25338-paul-craig'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/46499-dontale-mayes'
 }
 ,
 {
-  winner: 'Ľudovít Klein ',
+  winner: 'Drakkar Klose ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/168430-mason-jones-the-dragon'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/105452-rafael-garcia-gifted'
 }
 ,
 {
-  winner: 'Marc Diakiese ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/18899-damir-hadzovic'
-}
-,
-{
-  winner: 'Nathaniel Wood ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/33009-charles-rosa'
-}
-,
-{
-  winner: 'Jonathan Pearce ',
-  time: '4:10 Round 2',
+  winner: 'Michael Morales ',
+  time: '1:09 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/33134-makwan-amirkhani-tsingis-khan'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/112635-adam-fugitt'
 }
 ,
 {
-  winner: 'Muhammad Mokaev ',
+  winner: 'Joselyne Edwards ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/117993-charles-johnson'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/56388-ji-yun-kim'
 }
 ,
 {
-  winner: 'Jai Herbert ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/21458-kyle-nelson-the-monster'
+  winner: 'Nicolae Negumereanu ',
+  time: '3:33 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/91636-igor-poterya'
 }
 ,
 {
-  winner: 'Victoria Leonardo ',
+  winner: 'Orion Cosce ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/79758-mandy-bhm'
-}
-,
-{
-  winner: 'Nicolas Dalby ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/claudio-henrique-da-silva-mineiro'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/166857-mike-diamond-blood'
 }
 ,
 {
