@@ -3,7 +3,6 @@ const puppeteer = require("puppeteer");
 let events = [
   "https://www.tapology.com/fightcenter/events/89354-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/88967-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/89355-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/90713-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/89492-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/90191-ufc-fight-night",
@@ -14,13 +13,17 @@ let events = [
   "https://www.tapology.com/fightcenter/events/91828-ufc-281",
   "https://www.tapology.com/fightcenter/events/91801-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/87856-bellator-dublin",
-  "https://www.tapology.com/fightcenter/events/87839-pfl-2022-8-playoffs",
+  "https://www.tapology.com/fightcenter/events/91824-bellator-286-pitbull-vs-borics",
+  "https://www.tapology.com/fightcenter/events/91397-bellator-milan",
+  "https://www.tapology.com/fightcenter/events/92067-bellator-288-pitbull-vs-nurmagomedov",
   "https://www.tapology.com/fightcenter/events/87840-pfl-2022-9-playoffs",
+  "https://www.tapology.com/fightcenter/events/87840-pfl-2022-9-playoffs",
+  "https://www.tapology.com/fightcenter/events/87841-pfl-2022-10-championships",
   //"https://www.tapology.com/fightcenter/events/81071-one-championship-battleground-3",
   // "https://www.tapology.com/fightcenter/events/81072-one-championship-10-year-anniversary",
-  "https://www.tapology.com/fightcenter/events/89111-ufc-fight-night-santos-vs-hill",
+  "https://www.tapology.com/fightcenter/events/89355-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/90026-bellator-284",
-  "https://www.tapology.com/fightcenter/events/87838-pfl-2022-7-playoffs",
+  "https://www.tapology.com/fightcenter/events/87839-pfl-2022-8-playoffs",
   //"https://www.tapology.com/fightcenter/events/81070-one-championship-battleground-2",
 ];
 //getEventURLs();
