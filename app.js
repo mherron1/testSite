@@ -5,6 +5,7 @@ if (false) {
 }
 
 let assets = [
+  "aug13-u.jpg",
   "aug20-u.jpg",
   "aug20-p.jpg",
   "sep03-u.jpg",
