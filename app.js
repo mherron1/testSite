@@ -4,7 +4,14 @@ if (false) {
   delay = -20000000;
 }
 
-let assets = ["aug20-u.jpg", "aug20-p.jpg"];
+let assets = [
+  "aug20-u.jpg",
+  "aug20-p.jpg",
+  "sep03-u.jpg",
+  "sep10-u.jpg",
+  "sep17-u.jpg",
+  "sep23-b.jpg",
+];
 
 let times = [
   {
