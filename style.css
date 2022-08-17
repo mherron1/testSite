@@ -9,6 +9,7 @@ a {
 html {
   height: 100%;
   width: 100%;
+  background-color: rgb(167, 167, 167);
 }
 
 body {
