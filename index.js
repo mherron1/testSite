@@ -449,13 +449,10 @@ let contentPlus1 = document.querySelector("#contentPlus1");
 let contentMinus1 = document.querySelector("#contentMinus1");
 
 function touchStart(evt) {
-  contentPlus1.style.transform = `scale(0.9)`;
-  contentMinus1.style.transform = `scale(0.9)`;
   startingX = evt.touches[0].clientX;
   startingY = evt.touches[0].clientY;
 }
 var touch;
-var cardScale;
 let swiping = false;
 
 const touchMove = (evt) => {
@@ -467,41 +464,21 @@ const touchMove = (evt) => {
   }
   if (changeX > 50 && notLast) {
     swiping = true;
-    if (changeX < screen.width) {
-      changeX -= 50;
-      content1.style.left = -changeX + "px";
-      contentPlus1.style.left = "100vw";
-      contentPlus1.style.display = "block";
-      contentPlus1.style.left = +screen.width - changeX + "px";
-
-      cardScale = 1 - changeX / screen.width / 10;
-      var cardScalePlus = 1 + changeX / screen.width / 10;
-
-      console.log(cardScalePlus);
-
-      content1.style.transform = `scale(${cardScale})`;
-      contentPlus1.style.transform = `scale(${cardScalePlus - 0.1})`;
-
-      evt.preventDefault();
-    }
+    changeX -= 50;
+    content1.style.left = -changeX + "px";
+    contentPlus1.style.left = "100vw";
+    contentPlus1.style.display = "block";
+    contentPlus1.style.left = +screen.width - changeX + "px";
+    evt.preventDefault();
   } else if (changeX < -50 && notFirst) {
     swiping = true;
     changeX += 50;
-    if (changeX > -screen.width - 20) {
-      content1.style.left = -changeX + "px";
-      contentMinus1.style.left = "100vw";
-      contentMinus1.style.left = "-100vw";
-      contentMinus1.style.display = "block";
-      contentMinus1.style.left = -screen.width - changeX + "px";
-      cardScale = 1 + changeX / screen.width / 10;
-
-      var cardScalePlus = 1 - changeX / screen.width / 10;
-
-      content1.style.transform = `scale(${cardScale})`;
-      contentMinus1.style.transform = `scale(${cardScalePlus - 0.1})`;
-
-      evt.preventDefault();
-    }
+    content1.style.left = -changeX + "px";
+    contentMinus1.style.left = "100vw";
+    contentMinus1.style.left = "-100vw";
+    contentMinus1.style.display = "block";
+    contentMinus1.style.left = -screen.width - changeX + "px";
+    evt.preventDefault();
   }
 };
 
@@ -563,8 +540,6 @@ const touchEnd = (evt) => {
       create();
     }, 201);
   }
-
-  content1.style.transform = `scale(1)`;
 };
 if (screen.width > 750) {
   generateDesktopLinks();
