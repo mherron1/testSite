@@ -453,6 +453,7 @@ function touchStart(evt) {
   startingY = evt.touches[0].clientY;
 }
 var touch;
+var cardScale;
 let swiping = false;
 
 const touchMove = (evt) => {
@@ -464,21 +465,36 @@ const touchMove = (evt) => {
   }
   if (changeX > 50 && notLast) {
     swiping = true;
-    changeX -= 50;
-    content1.style.left = -changeX + "px";
-    contentPlus1.style.left = "100vw";
-    contentPlus1.style.display = "block";
-    contentPlus1.style.left = +screen.width - changeX + "px";
-    evt.preventDefault();
+    if (changeX < screen.width) {
+      changeX -= 50;
+      content1.style.left = -changeX + "px";
+      contentPlus1.style.left = "100vw";
+      contentPlus1.style.display = "block";
+      contentPlus1.style.left = +screen.width - changeX + 15 + "px";
+
+      cardScale = 1 - changeX / screen.width / 10;
+      console.log(cardScale);
+
+      content1.style.transform = `scale(${cardScale})`;
+
+      evt.preventDefault();
+    }
   } else if (changeX < -50 && notFirst) {
     swiping = true;
     changeX += 50;
-    content1.style.left = -changeX + "px";
-    contentMinus1.style.left = "100vw";
-    contentMinus1.style.left = "-100vw";
-    contentMinus1.style.display = "block";
-    contentMinus1.style.left = -screen.width - changeX + "px";
-    evt.preventDefault();
+    if (changeX > -screen.width - 20) {
+      content1.style.left = -changeX + "px";
+      contentMinus1.style.left = "100vw";
+      contentMinus1.style.left = "-100vw";
+      contentMinus1.style.display = "block";
+      contentMinus1.style.left = -screen.width - changeX - 15 + "px";
+      cardScale = 1 + changeX / screen.width / 10;
+      console.log(cardScale);
+
+      content1.style.transform = `scale(${cardScale})`;
+
+      evt.preventDefault();
+    }
   }
 };
 
@@ -540,6 +556,8 @@ const touchEnd = (evt) => {
       create();
     }, 201);
   }
+
+  content1.style.transform = `scale(1)`;
 };
 if (screen.width > 750) {
   generateDesktopLinks();
