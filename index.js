@@ -449,6 +449,8 @@ let contentPlus1 = document.querySelector("#contentPlus1");
 let contentMinus1 = document.querySelector("#contentMinus1");
 
 function touchStart(evt) {
+  contentPlus1.style.transform = `scale(0.9)`;
+  contentMinus1.style.transform = `scale(0.9)`;
   startingX = evt.touches[0].clientX;
   startingY = evt.touches[0].clientY;
 }
@@ -470,12 +472,15 @@ const touchMove = (evt) => {
       content1.style.left = -changeX + "px";
       contentPlus1.style.left = "100vw";
       contentPlus1.style.display = "block";
-      contentPlus1.style.left = +screen.width - changeX + 15 + "px";
+      contentPlus1.style.left = +screen.width - changeX + "px";
 
       cardScale = 1 - changeX / screen.width / 10;
-      console.log(cardScale);
+      var cardScalePlus = 1 + changeX / screen.width / 10;
+
+      console.log(cardScalePlus);
 
       content1.style.transform = `scale(${cardScale})`;
+      contentPlus1.style.transform = `scale(${cardScalePlus - 0.1})`;
 
       evt.preventDefault();
     }
@@ -487,11 +492,13 @@ const touchMove = (evt) => {
       contentMinus1.style.left = "100vw";
       contentMinus1.style.left = "-100vw";
       contentMinus1.style.display = "block";
-      contentMinus1.style.left = -screen.width - changeX - 15 + "px";
+      contentMinus1.style.left = -screen.width - changeX + "px";
       cardScale = 1 + changeX / screen.width / 10;
-      console.log(cardScale);
+
+      var cardScalePlus = 1 - changeX / screen.width / 10;
 
       content1.style.transform = `scale(${cardScale})`;
+      contentMinus1.style.transform = `scale(${cardScalePlus - 0.1})`;
 
       evt.preventDefault();
     }
