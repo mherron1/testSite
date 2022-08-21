@@ -175,94 +175,94 @@ let resultsList = [
 }
 ,
 {
-  winner: 'Lee Chadwick ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/4199-przemyslaw-misiek-mysiala'
+  winner: 'Marcin Held ',
+  time: '2:37 Round 2',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/14600-Myles-Price'
 }
 ,
 {
-  winner: 'Will Fleury ',
+  winner: 'Abraham Bably ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/116885-anthony-salamone'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/245967-louie-sutherland'
 }
 ,
 {
-  winner: 'Maxim Radu ',
+  winner: 'Magnus Onyeka Iversen ',
+  time: '4:36 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/43577-tayo-odunjo'
+}
+,
+{
+  winner: 'Ali Taleb ',
   time: '1:50 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/36766-vojto-barborik'
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/142420-dariush-mafi'
 }
 ,
 {
-  winner: 'Moktar Benkaci ',
-  time: '4:10 Round 2',
-  method: 'ends in a no contest',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/134049-francesco-nuzzi'
+  winner: 'Kayla Harrison ',
+  time: '3:17 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/197879-martina-jindrova'
 }
 ,
 {
-  winner: 'Dilano Taylor ',
-  time: '3:59 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/rory-macdonald-the-waterboy'
-}
-,
-{
-  winner: 'Ante Delija ',
-  time: '4:31 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/87738-renan-pobrema'
-}
-,
-{
-  winner: 'Matheus Scheffel ',
-  time: '3:45 Round 3',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/139094-juan-adams'
-}
-,
-{
-  winner: 'Sadibou Sy ',
+  winner: 'Brendan Loughnane ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/58430-carlos-leal'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/17954-chris-wade'
 }
 ,
 {
-  winner: 'Nate Kelly ',
-  time: '2:45 Round 1',
+  winner: 'Larissa Pacheco ',
+  time: '2:09 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/127379-yelena'
+}
+,
+{
+  winner: 'Bubba Jenkins ',
+  time: '1:49 Round 1',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/150815-ben-ellis'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/161938-ryoji-kudo'
 }
 ,
 {
-  winner: "Josh O'Connor ",
-  time: '2:56 Round 3',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/64532-emran-sakhizaada'
+  winner: 'Dakota Ditcheva ',
+  time: '0:58 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/176608-hassna-gaber'
 }
 ,
 {
-  winner: 'Marcin Wójcik ',
-  time: '4:04 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/69420-mick-stanton'
+  winner: 'Simeon Powell ',
+  time: '1:56 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/130089-joo-paulo-king'
 }
 ,
 {
-  winner: 'Chris Mixan ',
+  winner: 'Stuart Austin ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/156565-christian-stigenberg'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/127140-sofiane-boukichou'
 }
 ,
 {
-  winner: 'Szymon Bajor ',
+  winner: 'Aleksandr Chizov ',
+  time: '4:12 Round 2',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/82291-omar-hussein-fantastic'
+}
+,
+{
+  winner: 'Zebenzui Ruiz ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/14128-Ronny-Markes'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/220584-raphael-uchegbu'
 }
 ,
 ]
