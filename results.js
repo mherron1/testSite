@@ -258,5 +258,68 @@ let resultsList = [
   b_Link: 'https://www.tapology.com/fightcenter/fighters/220584-raphael-uchegbu'
 }
 ,
+{
+  winner: 'Demetrious Johnson ',
+  time: '3:50 Round 4',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/35131-adriano-moraes-mikinho'
+}
+,
+{
+  winner: 'Nong-O Gaiyanghadao ',
+  time: '2:10 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/224588-liam-harrison'
+}
+,
+{
+  winner: 'Panpayak Jitmuangnon ',
+  time: '0:10 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/221634-savvas-michael-the-baby-face-killer'
+}
+,
+{
+  winner: 'Marcus Buchecha ',
+  time: '1:04 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/275111-kirill-grishenko'
+}
+,
+{
+  winner: 'Amir Aliakbari ',
+  time: '4:02 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/100331-mauro-cerilli'
+}
+,
+{
+  winner: 'Superlek Kiatmoo9 ',
+  time: '1:35 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/233771-walter-goncalves'
+}
+,
+{
+  winner: 'Diandra Martin ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/233117-amber-kitchen'
+}
+,
+{
+  winner: 'Itsuki Hirata ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/123154-heqin-lin'
+}
+,
+{
+  winner: 'Zebaztian Kadestam ',
+  time: '0:57 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/140794-iurie-lapicus'
+}
+,
 ]
 module.exports = resultsList;

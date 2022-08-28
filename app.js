@@ -1,20 +1,30 @@
 let delay = 0;
 
-if (true) {
-  delay = -25000000;
+if (false) {
+  delay = -18000000;
 }
 
 let assets = [
   "aug13-u.jpg",
   "aug20-u.jpg",
   "aug20-p.jpg",
+  "aug26-o.jpg",
   "sep03-u.jpg",
   "sep10-u.jpg",
   "sep17-u.jpg",
   "sep23-b.jpg",
+  "sep29-o.jpg",
+  "sep30-o.jpg",
 ];
 
 let times = [
+  {
+    date: "aug26",
+    promo: "Professional Fighters League",
+    time: new Date(2022, 7, 27, 03, 00, 00),
+    prelims: new Date(2022, 7, 27, 00, 00, 00),
+    videos: [],
+  },
   {
     date: "aug13",
     promo: "Professional Fighters League",

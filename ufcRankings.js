@@ -10,17 +10,17 @@ let ufcRankings = [
             index: 1
             },
 {
-            name: "Kai Kara France",
+            name: "Alexandre Pantoja",
             rank: 2,
             index: 2
             },
 {
-            name: "Askar Askarov",
+            name: "Kai Kara France",
             rank: 3,
             index: 3
             },
 {
-            name: "Alexandre Pantoja",
+            name: "Askar Askarov",
             rank: 4,
             index: 4
             },
@@ -50,22 +50,22 @@ let ufcRankings = [
             index: 9
             },
 {
-            name: "Tim Elliott",
+            name: "Amir Albazi",
             rank: 10,
             index: 10
             },
 {
-            name: "Amir Albazi",
+            name: "Tim Elliott",
             rank: 11,
             index: 11
             },
 {
-            name: "Sumudaerji",
+            name: "Manel Kape",
             rank: 12,
             index: 12
             },
 {
-            name: "Manel Kape",
+            name: "Sumudaerji",
             rank: 13,
             index: 13
             },
@@ -95,7 +95,7 @@ let ufcRankings = [
             index: 18
             },
 {
-            name: "José Aldo",
+            name: "Merab Dvalishvili",
             rank: 3,
             index: 19
             },
@@ -110,7 +110,7 @@ let ufcRankings = [
             index: 21
             },
 {
-            name: "Merab Dvalishvili",
+            name: "José Aldo",
             rank: 6,
             index: 22
             },
@@ -230,12 +230,12 @@ let ufcRankings = [
             index: 45
             },
 {
-            name: "Shane Burgos",
+            name: "Ilia Topuria",
             rank: 14,
             index: 46
             },
 {
-            name: "Ilia Topuria",
+            name: "Alex Caceres",
             rank: 15,
             index: 47
             },
@@ -320,17 +320,17 @@ let ufcRankings = [
             index: 63
             },
 {
-            name: "Kamaru Usman",
+            name: "Leon Edwards",
             rank: 0,
             index: 64
             },
 {
-            name: "Colby Covington",
+            name: "Kamaru Usman",
             rank: 1,
             index: 65
             },
 {
-            name: "Leon Edwards",
+            name: "Colby Covington",
             rank: 2,
             index: 66
             },
@@ -350,7 +350,7 @@ let ufcRankings = [
             index: 69
             },
 {
-            name: "Vicente Luque",
+            name: "Geoff Neal",
             rank: 6,
             index: 70
             },
@@ -360,32 +360,32 @@ let ufcRankings = [
             index: 71
             },
 {
-            name: "Jorge Masvidal",
+            name: "Sean Brady",
             rank: 8,
             index: 72
             },
 {
-            name: "Sean Brady",
+            name: "Jorge Masvidal",
             rank: 9,
             index: 73
             },
 {
-            name: "Shavkat Rakhmonov",
+            name: "Vicente Luque",
             rank: 10,
             index: 74
             },
 {
-            name: "Michael Chiesa",
+            name: "Shavkat Rakhmonov",
             rank: 11,
             index: 75
             },
 {
-            name: "Neil Magny",
+            name: "Michael Chiesa",
             rank: 12,
             index: 76
             },
 {
-            name: "Geoff Neal",
+            name: "Neil Magny",
             rank: 13,
             index: 77
             },
@@ -425,12 +425,12 @@ let ufcRankings = [
             index: 84
             },
 {
-            name: "Paulo Costa",
+            name: "Alex Pereira",
             rank: 5,
             index: 85
             },
 {
-            name: "Alex Pereira",
+            name: "Paulo Costa",
             rank: 6,
             index: 86
             },
@@ -460,22 +460,22 @@ let ufcRankings = [
             index: 91
             },
 {
-            name: "Uriah Hall",
+            name: "Nassourdine Imavov",
             rank: 12,
             index: 92
             },
 {
-            name: "Nassourdine Imavov",
+            name: "Dricus Du Plessis",
             rank: 13,
             index: 93
             },
 {
-            name: "Dricus Du Plessis",
+            name: "Brad Tavares",
             rank: 14,
             index: 94
             },
 {
-            name: "Brad Tavares",
+            name: "Chris Curtis",
             rank: 15,
             index: 95
             },
@@ -495,12 +495,12 @@ let ufcRankings = [
             index: 98
             },
 {
-            name: "Aleksandar Rakić",
+            name: "Magomed Ankalaev",
             rank: 3,
             index: 99
             },
 {
-            name: "Magomed Ankalaev",
+            name: "Aleksandar Rakić",
             rank: 4,
             index: 100
             },
@@ -510,7 +510,7 @@ let ufcRankings = [
             index: 101
             },
 {
-            name: "Thiago Santos",
+            name: "Jamahal Hill",
             rank: 6,
             index: 102
             },
@@ -520,17 +520,17 @@ let ufcRankings = [
             index: 103
             },
 {
-            name: "Paul Craig",
+            name: "Volkan Oezdemir",
             rank: 8,
             index: 104
             },
 {
-            name: "Volkan Oezdemir",
+            name: "Thiago Santos",
             rank: 9,
             index: 105
             },
 {
-            name: "Jamahal Hill",
+            name: "Paul Craig",
             rank: 10,
             index: 106
             },
@@ -585,7 +585,7 @@ let ufcRankings = [
             index: 116
             },
 {
-            name: "Derrick Lewis",
+            name: "Sergei Pavlovich",
             rank: 5,
             index: 117
             },
@@ -595,17 +595,17 @@ let ufcRankings = [
             index: 118
             },
 {
-            name: "Alexander Volkov",
+            name: "Derrick Lewis",
             rank: 7,
             index: 119
             },
 {
-            name: "Jairzinho Rozenstruik",
+            name: "Alexander Volkov",
             rank: 8,
             index: 120
             },
 {
-            name: "Chris Daukaus",
+            name: "Jairzinho Rozenstruik",
             rank: 9,
             index: 121
             },
@@ -615,22 +615,22 @@ let ufcRankings = [
             index: 122
             },
 {
-            name: "Sergei Pavlovich",
+            name: "Chris Daukaus",
             rank: 11,
             index: 123
             },
 {
-            name: "Alexandr Romanov",
+            name: "Serghei Spivac",
             rank: 12,
             index: 124
             },
 {
-            name: "Shamil Abdurakhimov",
+            name: "Alexandr Romanov",
             rank: 13,
             index: 125
             },
 {
-            name: "Augusto Sakai",
+            name: "Shamil Abdurakhimov",
             rank: 14,
             index: 126
             },
@@ -640,7 +640,7 @@ let ufcRankings = [
             index: 127
             },
 {
-            name: "Valentina Shevchenko",
+            name: "Amanda Nunes",
             rank: 0,
             index: 128
             },
@@ -660,17 +660,17 @@ let ufcRankings = [
             index: 131
             },
 {
-            name: "Mackenzie Dern",
+            name: "Jessica Andrade",
             rank: 4,
             index: 132
             },
 {
-            name: "Yan Xiaonan",
+            name: "Mackenzie Dern",
             rank: 5,
             index: 133
             },
 {
-            name: "Jessica Andrade",
+            name: "Yan Xiaonan",
             rank: 6,
             index: 134
             },
@@ -680,17 +680,17 @@ let ufcRankings = [
             index: 135
             },
 {
-            name: "Nina Nunes",
+            name: "Amanda Lemos",
             rank: 8,
             index: 136
             },
 {
-            name: "Amanda Lemos",
+            name: "Amanda Ribas",
             rank: 9,
             index: 137
             },
 {
-            name: "Amanda Ribas",
+            name: "Virna Jandiroba",
             rank: 10,
             index: 138
             },
@@ -700,22 +700,22 @@ let ufcRankings = [
             index: 139
             },
 {
-            name: "Virna Jandiroba",
+            name: "Angela Hill",
             rank: 12,
             index: 140
             },
 {
-            name: "Angela Hill",
+            name: "Emily Ducote",
             rank: 13,
             index: 141
             },
 {
-            name: "Emily Ducote",
+            name: "Luana Pinheiro",
             rank: 14,
             index: 142
             },
 {
-            name: "Luana Pinheiro",
+            name: "Jessica Penne",
             rank: 15,
             index: 143
             },
@@ -770,42 +770,42 @@ let ufcRankings = [
             index: 153
             },
 {
-            name: "Maycee Barber",
+            name: "Casey O'Neill",
             rank: 10,
             index: 154
             },
 {
-            name: "Casey O'Neill",
+            name: "Maycee Barber",
             rank: 11,
             index: 155
             },
 {
-            name: "Cynthia Calvillo",
+            name: "Erin Blanchfield",
             rank: 12,
             index: 156
             },
 {
-            name: "Erin Blanchfield",
+            name: "Tracy Cortez",
             rank: 13,
             index: 157
             },
 {
-            name: "Tracy Cortez",
+            name: "Cynthia Calvillo",
             rank: 14,
             index: 158
             },
 {
-            name: "Amanda Ribas",
+            name: "Molly McCann",
             rank: 15,
             index: 159
             },
 {
-            name: "Julianna Peña",
+            name: "Amanda Nunes",
             rank: 0,
             index: 160
             },
 {
-            name: "Amanda Nunes",
+            name: "Julianna Peña",
             rank: 1,
             index: 161
             },
@@ -855,17 +855,17 @@ let ufcRankings = [
             index: 170
             },
 {
-            name: "Karol Rosa",
+            name: "Miesha Tate",
             rank: 11,
             index: 171
             },
 {
-            name: "Lina Lansberg",
+            name: "Karol Rosa",
             rank: 12,
             index: 172
             },
 {
-            name: "Miesha Tate",
+            name: "Lina Lansberg",
             rank: 13,
             index: 173
             },

@@ -62,7 +62,7 @@ function create(search_string) {
     if (localStorage.getItem("one") === "y") {
       filterArr.push("ONE");
       document.querySelector("#oneInput").checked = true;
-      numRes += 0;
+      numRes += 1;
     }
     if (localStorage.getItem("pfl") === "y") {
       filterArr.push("Professional");
@@ -90,7 +90,7 @@ function create(search_string) {
     filterArr.push("Professional");
     filterArr.push("ONE");
     document.querySelector("#oneInput").checked = true;
-    numRes += 0;
+    numRes += 1;
     document.querySelector("#pflInput").checked = true;
     numRes += 1;
     document.querySelector("#ufcInput").checked = true;
