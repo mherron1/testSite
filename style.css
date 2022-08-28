@@ -1285,19 +1285,22 @@ h4:hover {
 #showResults {
   position: absolute;
   background-color: white;
-  border-radius: 0px;
+  border-radius: 3px;
   border: 2px solid rgba(255, 255, 255, 1);
   background-color: rgba(255, 255, 255, 1);
   color: black;
-  height: 50px;
-  width: 205px;
-  font-size: 17px;
+  height: 30px;
+  width: 150px;
+  font-size: 16px;
   padding: 5px;
   bottom: 12px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 25000000;
   display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #showResults:hover {

@@ -1306,21 +1306,24 @@ h4:hover {
 
 #showResults {
   position: absolute;
-  border-radius: 5px;
+  border-radius: 3px;
 
-  border: 2px solid rgba(70, 70, 70, 0.671);
+  border: 2px solirgba(20, 20, 20, 0.508);
 
   background-color: rgba(20, 20, 20, 0.908);
   color: white;
-  height: 50px;
-  width: 205px;
-  font-size: 17px;
+  height: 30px;
+  width: 150px;
+  font-size: 16px;
   padding: 5px;
   bottom: 12px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 25000000;
   display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #showResults:hover {

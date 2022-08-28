@@ -884,8 +884,22 @@ function generateCard(i, arg) {
           <div id="rightCurve${arg}"></div>
           `;
     } else {
+      if (showResults) {
+        var resultsToggle = "checked";
+      } else {
+        var resultsToggle = "";
+      }
+
       imageDiv.innerHTML += `
-        <button id ="showResults" onclick="toggleResults()">Show/Hide Results</button>
+        <div id ="showResults" onclick="toggleResults()">
+        <span style="margin-right:25px;padding-top:2px;">Results</span>
+        <label class="switch">
+          <input type="checkbox" class="show_results_checkbox" ${resultsToggle} onclick="toggleResults()">
+          <span class="slider round"></span>
+        </label>
+        
+        
+        </div>
         <div id="testDiv${arg}" style = "visibility:hidden;" onclick="countdownToggle()">
   
           <div id="toggleContainer${arg}">
@@ -1689,8 +1703,12 @@ function initYouTubeVideos() {
 function toggleResults() {
   if (showResults) {
     showResults = false;
+    $(".show_results_checkbox").hide();
+    console.log("hide");
   } else {
     showResults = true;
+
+    console.log("show");
   }
   create();
 }
