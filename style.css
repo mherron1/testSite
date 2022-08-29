@@ -311,6 +311,7 @@ body {
   left: 15px;
   transform: translateY(-7px);
   border-radius: 50%;
+  border: 1px solid rgba(146, 146, 146, 0.233);
 }
 
 /*hamburger*/
