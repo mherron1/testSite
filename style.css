@@ -517,7 +517,7 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0px;
+  bottom: -1px;
   background-color: rgb(214, 214, 214);
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -529,7 +529,7 @@ a {
   height: 14px;
   width: 14px;
   left: -4px;
-  bottom: 2px;
+  bottom: 3px;
   background-color: rgb(184, 184, 184);
   -webkit-transition: 0.2s;
   transition: 0.2s;
