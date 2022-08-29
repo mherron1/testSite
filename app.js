@@ -15,6 +15,9 @@ let assets = [
   "sep23-b.jpg",
   "sep29-o.jpg",
   "sep30-o.jpg",
+  "oct01-b.jpg",
+  "oct15-u.jpg",
+  "oct22-u.jpg",
 ];
 
 let times = [
