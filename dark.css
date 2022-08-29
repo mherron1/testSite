@@ -299,7 +299,7 @@ body {
 }
 
 #eventList {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 75px;
   text-align: right;
 }
@@ -628,7 +628,7 @@ input:checked + .slider:before {
     font-size: 1rem;
   }
   #eventList {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 75px;
     text-align: right;
   }
@@ -692,7 +692,7 @@ input:checked + .slider:before {
     font-size: 0.9rem;
   }
   #eventList {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 75px;
     text-align: right;
   }
