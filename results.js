@@ -1,86 +1,86 @@
 let resultsList = [
 {
-  winner: 'Leon Edwards ',
-  time: '4:04 Round 5',
+  winner: 'Ciryl Gane ',
+  time: '4:23 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/39265-kamarudeen-usman'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/120884-tai-tuivasa-bam-bam'
 }
 ,
 {
-  winner: 'Paulo Costa ',
+  winner: 'Robert Whittaker ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/luke-rockhold'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/50533-marvin-vettori'
 }
 ,
 {
-  winner: 'Merab Dvalishvili ',
+  winner: 'Nassourdine Imavov ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/jose-aldo-junior'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/55022-joaquin-buckley'
 }
 ,
 {
-  winner: 'Lucie Pudilová ',
-  time: '4:04 Round 2',
+  winner: 'Roman Kopylov ',
+  time: '1:09 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/74942-ya-nan-wu'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/74325-alessio-di-chirico'
 }
 ,
 {
-  winner: 'Tyson Pedro ',
-  time: '1:05 Round 1',
+  winner: 'William Gomis ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/112766-jarno-errens'
+}
+,
+{
+  winner: 'Nathaniel Wood ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/36724-charles-jourdain'
+}
+,
+{
+  winner: 'Abus Magomedov ',
+  time: '0:19 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/24519-harry-hunsucker'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/34864-dustin-stoltzfus'
 }
 ,
 {
-  winner: 'Marcin Tybura ',
+  winner: 'Nasrat Haqparast ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/144301-alexander-romanov'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/john-makdessi-the-bull'
 }
 ,
 {
-  winner: 'Jared Gordon ',
+  winner: 'Fares Ziam ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/leonardo-santos'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/78396-michal-figlak'
 }
 ,
 {
-  winner: 'Sean Woodson ',
-  time: '3 Rounds',
-  method: 'ends in a draw',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/20577-luis-saldana'
+  winner: 'Benoit Saint-Denis ',
+  time: '0:16 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/36548-gabriel-miranda-fly'
 }
 ,
 {
-  winner: 'Ange Loosa ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/140431-aj-fletcher'
+  winner: 'Cristian Quiñonez ',
+  time: '3:15 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/49979-khalid-taha'
 }
 ,
 {
-  winner: 'Amir Albazi ',
-  time: '4:34 Round 1',
+  winner: 'Stephanie Egger ',
+  time: '4:54 Round 2',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/22009-francisco-nazareno-junior-mingau'
-}
-,
-{
-  winner: 'Aoriqileng ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/20858-jay-parrin'
-}
-,
-{
-  winner: 'Victor Altamirano ',
-  time: '3:39 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/162924-daniel-lacerda-miojo'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/143238-ailin-luciana-perez'
 }
 ,
 {
