@@ -19,14 +19,10 @@ let odds = [
   { name: "Johnny Walker", odds: "2.80" },
   { name: "Irene Aldana", odds: "1.60" },
   { name: "Macy Chiasson", odds: "2.56" },
-  { name: "Daniel Rodriguez", odds: "2.75" },
-  { name: "Kevin Holland", odds: "1.53" },
-  { name: "Jingliang Li", odds: "1.37" },
-  { name: "Tony Ferguson", odds: "3.60" },
+
   { name: "Aljamain Sterling", odds: "1.64" },
   { name: "TJ Dillashaw", odds: "2.40" },
-  { name: "Khamzat Chimaev", odds: "1.12" },
-  { name: "Nate Diaz", odds: "9.20" },
+
   { name: "Amanda Lemos", odds: "2.37" },
   { name: "Marina Rodriguez", odds: "1.67" },
   { name: "Belal Muhammad", odds: "2.20" },
