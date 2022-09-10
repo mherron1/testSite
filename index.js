@@ -729,9 +729,31 @@ function generateCard(i, arg) {
   <div id="imageContainer${arg}">
   </div>
   <div id="mainTime${arg}"></div>
-  <div id="mainCard${arg}"></div> 
+  <div id="mainCard${arg}"  style="position:relative;">
+  
+
+  <div style="position:absolute;left:0;z-index:10000;height:100%;width:50px;background-color:rgba(0,0,0,0.03);">
+
+  </div>
+
+  <div style="position:absolute;right:0;z-index:10000;height:100%;width:50px;background-color:rgba(0,0,0,0.03);">
+
+  </div>
+  
+  
+  </div> 
   <div id="prelimsTime${arg}"></div>
-  <div id="prelimsCard${arg}"></div> 
+  <div id="prelimsCard${arg}" style=""position:relative;>
+  
+  <div style="position:absolute;left:0;z-index:10000;height:100%;width:50px;background-color:rgba(0,0,0,0.03);">
+
+  </div>
+
+  <div style="position:absolute;right:0;z-index:10000;height:100%;width:50px;background-color:rgba(0,0,0,0.03);">
+
+  </div>
+  
+  </div> 
   <div id="videoGallery${arg}"></div>
   <div id="broadcastInfo" ${broadcastStyle}> ${events[i][6]}</div>
   <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support the site', '#e05e5e', 'J3J83LW44');kofiwidget2.draw();</script> 
@@ -1106,7 +1128,7 @@ function generateCard(i, arg) {
         <a href="${events[i][3][j].fighterALink}" target="_blank">${events[i][3][j].fighterA}</a>
       </div>
       <div class="detailsLeft${arg}">
-      <div style="color: ${colorA}; font-size:0.8rem; font-weight:bold;">${leftOdds}</div>        
+      <div style="color: ${colorA}; font-size:0.8rem;margin-left:-10px; font-weight:bold;">${leftOdds}</div>        
       <div >${events[i][3][j].rankA}</div>
         <div>${events[i][3][j].recordA}</div>
       </div>
@@ -1122,7 +1144,7 @@ function generateCard(i, arg) {
       <div class="detailsRight${arg}">
         <div>${events[i][3][j].recordB}</div>
         <div>${events[i][3][j].rankB}</div>
-        <div style="color: ${colorB}; font-size:0.8rem; font-weight:bold;">${rightOdds}</div>        
+        <div style="color: ${colorB}; font-size:0.8rem;margin-right:-10px; font-weight:bold;">${rightOdds}</div>        
         </div>
     </div>
   
@@ -1268,7 +1290,7 @@ function generateCard(i, arg) {
           <a href="${events[i][3][j].fighterALink}" target="_blank" >${events[i][3][j].fighterA}</a>
         </div>
         <div class="detailsLeft${arg}">
-        <div style="color: ${colorA}; font-size:0.8rem; font-weight:bold;">${leftOdds}</div>        
+        <div style="color: ${colorA}; float:left;margin-left:-10px; font-weight:bold;">${leftOdds}</div>        
         <div>${events[i][3][j].rankA}</div>
           <div>${events[i][3][j].recordA}</div>
         </div>
@@ -1284,7 +1306,7 @@ function generateCard(i, arg) {
         <div class="detailsRight${arg}">
           <div>${events[i][3][j].recordB}</div>
           <div>${events[i][3][j].rankB}</div>
-          <div style="color: ${colorB}; font-size:0.8rem; font-weight:bold;">${rightOdds}</div>        
+          <div style="color: ${colorB}; font-size:0.8rem; margin-right:-10px;font-weight:bold;">${rightOdds}</div>        
           </div>
       </div>
       
