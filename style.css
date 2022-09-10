@@ -147,7 +147,7 @@ body {
   display: grid;
   grid-template-columns: 45% 10% 45%;
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 #prelimsTime,
@@ -156,7 +156,7 @@ body {
   text-align: center;
   margin: 10px;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 #prelimsCard,
@@ -165,7 +165,7 @@ body {
   display: grid;
   grid-template-columns: 45% 10% 45%;
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .left,
@@ -217,7 +217,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   display: none;
 }
 
@@ -227,14 +227,14 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   display: none;
 }
 
 .detailsMiddle,
 .detailsMiddleMinus1,
 .detailsMiddlePlus1 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding-top: 5px;
   display: flex;
   justify-content: space-around;
@@ -567,25 +567,25 @@ input:checked + .slider:before {
   #mainTime,
   #mainTimeMinus1,
   #mainTimePlus1 {
-    font-size: 1.05rem;
+    font-size: 0.9rem;
   }
   #mainCard,
   #mainCardMinus1,
   #mainCardPlus1 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   #prelimsTime,
   #prelimsTimeMinus1,
   #prelimsTimePlus1 {
-    font-size: 1.05rem;
+    font-size: 0.9rem;
   }
   #prelimsCard,
   #prelimsCardMinus1,
   #prelimsCardPlus1 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   #eventList {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-top: 75px;
     text-align: right;
   }
@@ -817,7 +817,7 @@ li span {
   #mainTimePlus1 {
     padding: 6px;
     padding-top: 9px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   #hamburger-1 {
@@ -827,12 +827,12 @@ li span {
   #mainCard,
   #mainCardMinus1,
   #mainCardPlus1 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   #prelimsTime,
   #prelimsTimeMinus1,
   #prelimsTimePlus1 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   #prelimsCard,
   #prelimsCardMinus1,
