@@ -147,7 +147,7 @@ body {
   display: grid;
   grid-template-columns: 45% 10% 45%;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 #prelimsTime,
@@ -156,7 +156,7 @@ body {
   text-align: center;
   margin: 10px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 #prelimsCard,
@@ -165,7 +165,7 @@ body {
   display: grid;
   grid-template-columns: 45% 10% 45%;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .left,
@@ -175,6 +175,7 @@ body {
   text-align: right;
   padding-right: 6px;
   background-color: #f8f8f8;
+  padding-left: 35px;
 }
 
 .left:nth-child(odd),
@@ -203,6 +204,7 @@ body {
   text-align: left;
   padding-left: 6px;
   background-color: #f8f8f8;
+  padding-right: 35px;
 }
 
 .right:nth-child(odd),
@@ -219,6 +221,7 @@ body {
   padding-top: 5px;
   font-size: 0.8rem;
   display: none;
+  padding-left: 25%;
 }
 
 .detailsRight,
@@ -229,6 +232,7 @@ body {
   padding-top: 5px;
   font-size: 0.8rem;
   display: none;
+  padding-right: 25%;
 }
 
 .detailsMiddle,
@@ -567,7 +571,7 @@ input:checked + .slider:before {
   #mainTime,
   #mainTimeMinus1,
   #mainTimePlus1 {
-    font-size: 0.9rem;
+    font-size: 1.05rem;
   }
   #mainCard,
   #mainCardMinus1,
@@ -577,7 +581,7 @@ input:checked + .slider:before {
   #prelimsTime,
   #prelimsTimeMinus1,
   #prelimsTimePlus1 {
-    font-size: 0.9rem;
+    font-size: 1.05rem;
   }
   #prelimsCard,
   #prelimsCardMinus1,
@@ -585,7 +589,7 @@ input:checked + .slider:before {
     font-size: 0.9rem;
   }
   #eventList {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-top: 75px;
     text-align: right;
   }
@@ -817,7 +821,7 @@ li span {
   #mainTimePlus1 {
     padding: 6px;
     padding-top: 9px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   #hamburger-1 {
@@ -832,12 +836,12 @@ li span {
   #prelimsTime,
   #prelimsTimeMinus1,
   #prelimsTimePlus1 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   #prelimsCard,
   #prelimsCardMinus1,
   #prelimsCardPlus1 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   #eventList {
     font-size: 1rem;
