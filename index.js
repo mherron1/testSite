@@ -1106,7 +1106,7 @@ function generateCard(i, arg) {
         <a href="${events[i][3][j].fighterALink}" target="_blank">${events[i][3][j].fighterA}</a>
       </div>
       <div class="detailsLeft${arg}">
-      <div style="position:absolute;color: ${colorA}; left:0px; width:40px; text-align:center; top:0;height:100%;background-color:rgba(0,0,0,0.03); font-size:0.8rem; font-weight:bold; display:flex; justify-content:center;align-items:center;"><span>${leftOdds}</span></div>        
+      <div class="oddsLeft" style="color: ${colorA};"><span>${leftOdds}</span></div>        
       <div >${events[i][3][j].rankA}</div>
         <div>${events[i][3][j].recordA}</div>
       </div>
@@ -1122,8 +1122,8 @@ function generateCard(i, arg) {
       <div class="detailsRight${arg}">
         <div>${events[i][3][j].recordB}</div>
         <div>${events[i][3][j].rankB}</div>
-        <div style="position:absolute;color: ${colorB}; right:0px; width:40px; text-align:center; top:0;height:100%;background-color:rgba(0,0,0,0.03); font-size:0.8rem; font-weight:bold; display:flex; justify-content:center;align-items:center;"><span>${leftOdds}</span></div>        
-        </div>
+        <div class="oddsRight" style="color: ${colorB};"><span>${rightOdds}</span></div>        
+      </div>
     </div>
   
     `;
@@ -1268,7 +1268,7 @@ function generateCard(i, arg) {
           <a href="${events[i][3][j].fighterALink}" target="_blank" >${events[i][3][j].fighterA}</a>
         </div>
         <div class="detailsLeft${arg}">
-        <div style="position:absolute;color: ${colorA}; left:0px; width:40px; text-align:center; top:0;height:100%;background-color:rgba(0,0,0,0.03); font-size:0.8rem; font-weight:bold; display:flex; justify-content:center;align-items:center;"><span>${leftOdds}</span></div>        
+        <div class="oddsLeft" style="color: ${colorA};"><span>${leftOdds}</span></div>        
         <div>${events[i][3][j].rankA}</div>
           <div>${events[i][3][j].recordA}</div>
         </div>
@@ -1284,7 +1284,7 @@ function generateCard(i, arg) {
         <div class="detailsRight${arg}">
           <div>${events[i][3][j].recordB}</div>
           <div>${events[i][3][j].rankB}</div>
-          <div style="position:absolute;color: ${colorB}; right:0px; width:40px; text-align:center; top:0;height:100%;background-color:rgba(0,0,0,0.03); font-size:0.8rem; font-weight:bold; display:flex; justify-content:center;align-items:center;"><span>${leftOdds}</span></div>        
+          <div class="oddsRight" style="color: ${colorB};"><span>${rightOdds}</span></div>        
           </div>
       </div>
       
