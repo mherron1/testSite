@@ -272,7 +272,7 @@ let data = [
     recordA: '5-2-0 ',
     weight: '170',
     recordB: ' 8-1-0',
-    rankB: '#81',
+    rankB: '#79',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/143438-yohan-lainesse',
     fighterB: 'Yohan Lainesse'
   }
