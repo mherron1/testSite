@@ -2124,7 +2124,7 @@ h4:hover {
   text-align: center;
   top: 0;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.2);
   font-size: 0.7rem;
   font-weight: bold;
   display: flex;
@@ -2139,7 +2139,7 @@ h4:hover {
   text-align: center;
   top: 0;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.2);
   font-size: 0.7rem;
   font-weight: bold;
   display: flex;
