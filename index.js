@@ -956,6 +956,8 @@ function generateCard(i, arg) {
 
   //////////////////////////////
 
+  let odds_present = false;
+
   let mainCardSize = events[i][3].length - events[i][5];
 
   let mainCard = document.querySelector(`#mainCard${arg}`);
@@ -1003,6 +1005,8 @@ function generateCard(i, arg) {
         leftOdds = "";
         rightOdds = "";
       } else {
+        odds_present = true;
+
         converter();
 
         function converter() {
@@ -1289,6 +1293,12 @@ function generateCard(i, arg) {
       </div>
       
       `;
+  }
+
+  if (odds_present == true) {
+    console.log("adding class");
+    $(".oddsLeft").addClass("hasOdds");
+    $(".oddsRight").addClass("hasOdds");
   }
 
   if (localStorage.getItem("details") !== null) {

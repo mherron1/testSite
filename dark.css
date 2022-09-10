@@ -745,8 +745,6 @@ input:checked + .slider:before {
 #testDivPlus1 {
   position: absolute;
   border-radius: 5px;
-  border: 2px solid rgba(68, 68, 68, 0.418);
-
   background-color: rgba(20, 20, 20, 0.908);
   color: white;
   height: 50px;
@@ -2124,12 +2122,15 @@ h4:hover {
   text-align: center;
   top: 0;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
   font-size: 0.7rem;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hasOdds {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .oddsRight {
@@ -2139,7 +2140,6 @@ h4:hover {
   text-align: center;
   top: 0;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
   font-size: 0.7rem;
   font-weight: bold;
   display: flex;
@@ -2154,5 +2154,16 @@ h4:hover {
 
   .oddsLeft {
     font-size: 0.85rem;
+  }
+
+  .detailsLeft,
+  .detailsLeftPlus1,
+  .detailsLeftMinus1 {
+    padding-left: 50%;
+  }
+  .detailsRight,
+  .detailsRightPlus1,
+  .detailsRightMinus1 {
+    padding-right: 50%;
   }
 }
