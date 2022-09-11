@@ -1,86 +1,93 @@
 let resultsList = [
 {
-  winner: 'Ciryl Gane ',
-  time: '4:23 Round 3',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/120884-tai-tuivasa-bam-bam'
-}
-,
-{
-  winner: 'Robert Whittaker ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/50533-marvin-vettori'
-}
-,
-{
-  winner: 'Nassourdine Imavov ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/55022-joaquin-buckley'
-}
-,
-{
-  winner: 'Roman Kopylov ',
-  time: '1:09 Round 3',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/74325-alessio-di-chirico'
-}
-,
-{
-  winner: 'William Gomis ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/112766-jarno-errens'
-}
-,
-{
-  winner: 'Nathaniel Wood ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/36724-charles-jourdain'
-}
-,
-{
-  winner: 'Abus Magomedov ',
-  time: '0:19 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/34864-dustin-stoltzfus'
-}
-,
-{
-  winner: 'Nasrat Haqparast ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/john-makdessi-the-bull'
-}
-,
-{
-  winner: 'Fares Ziam ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/78396-michal-figlak'
-}
-,
-{
-  winner: 'Benoit Saint-Denis ',
-  time: '0:16 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/36548-gabriel-miranda-fly'
-}
-,
-{
-  winner: 'Cristian Quiñonez ',
-  time: '3:15 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/49979-khalid-taha'
-}
-,
-{
-  winner: 'Stephanie Egger ',
-  time: '4:54 Round 2',
+  winner: 'Nate Diaz ',
+  time: '2:52 Round 4',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/143238-ailin-luciana-perez'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/tony-ferguson-el-cucuy'
+}
+,
+{
+  winner: 'Khamzat Chimaev ',
+  time: '2:13 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/35757-kevin-holland'
+}
+,
+{
+  winner: 'Daniel Rodriguez ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/jing-liang-li-the-leech'
+}
+,
+{
+  winner: 'Irene Aldana ',
+  time: '2:21 Round 3',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/77737-macy-chiasson'
+}
+,
+{
+  winner: 'Johnny Walker ',
+  time: '4:37 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/34843-ion-cutelaba'
+}
+,
+{
+  winner: 'Julian Erosa ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/62664-hakeem-dawodu'
+}
+,
+{
+  winner: 'Jailton Almeida ',
+  time: '4:27 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/115015-anton-turkalj'
+}
+,
+{
+  winner: 'Denis Tiuliulin ',
+  time: '4:52 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/38304-jamie-pickett'
+}
+,
+{
+  winner: 'Chris Barnett ',
+  time: '2:24 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/17087-jake-collier'
+}
+,
+{
+  winner: 'Norma Dumont ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/193972-danyelle-wolf'
+}
+,
+{
+  winner: 'Alatengheili ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/20364-chad-anheliger'
+}
+,
+{
+  winner: 'Elise Reed ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/113003-melissa-martinez'
+}
+,
+{
+  winner: 'Yohan Lainesse ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/125166-darian-weeks'
 }
 ,
 {
