@@ -54,7 +54,7 @@ let odds = [
   { name: "Raoni Barcelos", odds: "1.53" },
   { name: "Trevin Jones", odds: "2.87" },
   { name: "Aljamain Sterling", odds: "1.64" },
-  { name: "TJ Dillashaw", odds: "2.40" },
+  { name: "T.J. Dillashaw", odds: "2.40" },
   { name: "Amanda Lemos", odds: "2.37" },
   { name: "Marina Rodriguez", odds: "1.67" },
   { name: "Belal Muhammad", odds: "2.22" },
