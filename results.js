@@ -1,93 +1,93 @@
 let resultsList = [
 {
-  winner: 'Nate Diaz ',
-  time: '2:52 Round 4',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/tony-ferguson-el-cucuy'
-}
-,
-{
-  winner: 'Khamzat Chimaev ',
-  time: '2:13 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/35757-kevin-holland'
-}
-,
-{
-  winner: 'Daniel Rodriguez ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/jing-liang-li-the-leech'
-}
-,
-{
-  winner: 'Irene Aldana ',
-  time: '2:21 Round 3',
+  winner: 'Cory Sandhagen ',
+  time: '5:00 Round 4',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/77737-macy-chiasson'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/47836-yadong-song'
 }
 ,
 {
-  winner: 'Johnny Walker ',
-  time: '4:37 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/34843-ion-cutelaba'
-}
-,
-{
-  winner: 'Julian Erosa ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/62664-hakeem-dawodu'
-}
-,
-{
-  winner: 'Jailton Almeida ',
-  time: '4:27 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/115015-anton-turkalj'
-}
-,
-{
-  winner: 'Denis Tiuliulin ',
-  time: '4:52 Round 2',
+  winner: 'Gregory Rodrigues ',
+  time: '1:27 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/38304-jamie-pickett'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/chidi-njokuani'
 }
 ,
 {
-  winner: 'Chris Barnett ',
-  time: '2:24 Round 2',
+  winner: 'Andre Fili ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/25872-william-algeo-honey-badger'
+}
+,
+{
+  winner: 'Joseph Pyfer ',
+  time: '3:55 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/17087-jake-collier'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/110498-alen-amedovski'
 }
 ,
 {
-  winner: 'Norma Dumont ',
+  winner: 'Rodrigo Nascimento ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/193972-danyelle-wolf'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/35149-tanner-boser'
 }
 ,
 {
-  winner: 'Alatengheili ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/20364-chad-anheliger'
+  winner: 'Anthony Hernandez ',
+  time: '1:53 Round 3',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/26658-marc-andre-barriault'
 }
 ,
 {
-  winner: 'Elise Reed ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/113003-melissa-martinez'
+  winner: 'Damon Jackson ',
+  time: '1:09 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/29210-pat-sabatini'
 }
 ,
 {
-  winner: 'Yohan Lainesse ',
+  winner: 'Trevin Giles ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/125166-darian-weeks'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/185057-louis-cosce'
+}
+,
+{
+  winner: 'Loma Lookboonmee ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/165655-denise-gomes'
+}
+,
+{
+  winner: 'Trey Ogden ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/156784-daniel-olvera-zellhuber-zellhuber'
+}
+,
+{
+  winner: 'Gillian Robertson ',
+  time: '2:19 Round 2',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/156192-mariya-agapova'
+}
+,
+{
+  winner: 'Javid Basharat ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/80780-tony-gravely-lamar'
+}
+,
+{
+  winner: 'Nikolas Motta ',
+  time: '3:49 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/20519-cameron-vancamp'
 }
 ,
 {
