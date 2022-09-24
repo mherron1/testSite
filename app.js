@@ -55,6 +55,13 @@ let times = [
     prelims: new Date(2022, 8, 23, 17, 00, 00),
     videos: [],
   },
+  {
+    date: "sep29",
+    promo: "ONE Championship",
+    time: new Date(2022, 8, 29, 10, 30, 00),
+    prelims: new Date(2022, 8, 29, 10, 30, 00),
+    videos: [],
+  },
 ];
 
 data2 = data.sort((a, b) => {

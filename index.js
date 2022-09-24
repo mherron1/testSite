@@ -1296,7 +1296,6 @@ function generateCard(i, arg) {
   }
 
   if (odds_present == true) {
-    console.log("adding class");
     $(".oddsLeft").addClass("hasOdds");
     $(".oddsRight").addClass("hasOdds");
   }
@@ -1514,7 +1513,6 @@ function toggleOddsType() {
 
 function toggleCountDown() {
   vibrate();
-  console.log();
   if (document.querySelector("#showHideCountdown").checked === true) {
     localStorage.setItem("countdown", "y");
   } else {
@@ -1667,7 +1665,6 @@ function vibrate() {
 
 function make(e) {
   vibrate();
-  console.log("vibrate");
   // e.preventDefault();   // to not go to href url uncoment this
 }
 
@@ -1714,11 +1711,8 @@ function toggleResults() {
   if (showResults) {
     showResults = false;
     $(".show_results_checkbox").hide();
-    console.log("hide");
   } else {
     showResults = true;
-
-    console.log("show");
   }
   create();
 }
@@ -1732,8 +1726,6 @@ function toggleDonatePopup() {
     donatePopup.style.display = "block";
   }
 }
-
-console.log("Hi there!");
 
 setTimeout(() => {
   document.getElementById("navBlocks").style.opacity = 1;
