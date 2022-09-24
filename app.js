@@ -58,8 +58,15 @@ let times = [
   {
     date: "sep29",
     promo: "ONE Championship",
-    time: new Date(2022, 8, 29, 10, 30, 00),
-    prelims: new Date(2022, 8, 29, 10, 30, 00),
+    time: new Date(2022, 8, 29, 12, 30, 00),
+    prelims: new Date(2022, 8, 29, 10, 00, 00),
+    videos: [],
+  },
+  {
+    date: "oct01",
+    promo: "ONE Championship",
+    time: new Date(2022, 9, 02, 03, 00, 00),
+    prelims: new Date(2022, 9, 02, 01, 00, 00),
     videos: [],
   },
 ];
