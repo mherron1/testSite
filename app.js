@@ -64,9 +64,16 @@ let times = [
   },
   {
     date: "oct01",
-    promo: "ONE Championship",
-    time: new Date(2022, 9, 02, 03, 00, 00),
-    prelims: new Date(2022, 9, 02, 01, 00, 00),
+    promo: "Ultimate Fighting Championship",
+    time: new Date(2022, 9, 01, 23, 00, 00),
+    prelims: new Date(2022, 9, 01, 20, 00, 00),
+    videos: [],
+  },
+  {
+    date: "aug20",
+    promo: "Professional Fighters League",
+    time: new Date(2022, 7, 20, 21, 00, 00),
+    prelims: new Date(2022, 7, 20, 18, 00, 00),
     videos: [],
   },
 ];
