@@ -1,7 +1,7 @@
 let delay = 0;
 
 if (true) {
-  delay = -35000000;
+  delay = 100000000;
 }
 
 let assets = [
@@ -15,8 +15,11 @@ let assets = [
   "sep23-b.jpg",
   "sep29-o.jpg",
   "sep30-o.jpg",
+  "oct01-u.jpg",
+  "oct15-u.jpg",
   "oct01-b.jpg",
   "oct22-u.jpg",
+  "oct29-u.jpg",
 ];
 
 let times = [
@@ -60,6 +63,13 @@ let times = [
     promo: "ONE Championship",
     time: new Date(2022, 8, 29, 12, 30, 00),
     prelims: new Date(2022, 8, 29, 10, 00, 00),
+    videos: [],
+  },
+  {
+    date: "sep30",
+    promo: "ONE Championship",
+    time: new Date(2022, 9, 01, 00, 00, 00),
+    prelims: new Date(2022, 8, 30, 20, 00, 00),
     videos: [],
   },
   {

@@ -273,66 +273,80 @@ let resultsList = [
 }
 ,
 {
-  winner: 'Demetrious Johnson ',
-  time: '3:50 Round 4',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/35131-adriano-moraes-mikinho'
+  winner: 'Tawanchai PK Saenchai ',
+  time: '5 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/214489-petchmorakot-sangprapai'
 }
 ,
 {
-  winner: 'Nong-O Gaiyanghadao ',
-  time: '2:10 Round 1',
+  winner: 'Roman Kryklya ',
+  time: '0:52 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/224588-liam-harrison'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/14961-carlos-augusto-inocente-filho-guto'
 }
 ,
 {
-  winner: 'Panpayak Jitmuangnon ',
-  time: '0:10 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/221634-savvas-michael-the-baby-face-killer'
+  winner: 'Iraj Azizpour ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/120778-bruno-mohamed'
 }
 ,
 {
-  winner: 'Marcus Buchecha ',
-  time: '1:04 Round 1',
+  winner: 'Saygid Izagakhmaev ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/12014-li-peng-zhang'
+}
+,
+{
+  winner: 'Tiffany Teo ',
+  time: '4:52 Round 1',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/275111-kirill-grishenko'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/240108-ritu-phogat'
 }
 ,
 {
-  winner: 'Amir Aliakbari ',
-  time: '4:02 Round 2',
+  winner: 'Oumar Kane ',
+  time: '2:15 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/100331-mauro-cerilli'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/307166-batradz-gazzaev'
 }
 ,
 {
-  winner: 'Superlek Kiatmoo9 ',
-  time: '1:35 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/233771-walter-goncalves'
-}
-,
-{
-  winner: 'Diandra Martin ',
+  winner: 'Alaverdi Ramazanov ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/233117-amber-kitchen'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/271205-capitan-petchyindee-academy'
 }
 ,
 {
-  winner: 'Itsuki Hirata ',
+  winner: 'Sangmanee Sor Kafae ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/123154-heqin-lin'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/210903-chenglong-zhang-muay-thai-boy'
 }
 ,
 {
-  winner: 'Zebaztian Kadestam ',
-  time: '0:57 Round 1',
+  winner: 'Ferrari Fairtex ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/209738-han-zi-hao'
+}
+,
+{
+  winner: 'Rodrigo Marello ',
+  time: '0:15 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/351458-ruslan-bagdasarian'
+}
+,
+{
+  winner: 'Ali Foladi ',
+  time: '4:20 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/140794-iurie-lapicus'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/351459-matheus-felipe'
 }
 ,
 ]

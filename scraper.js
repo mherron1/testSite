@@ -2,6 +2,7 @@ const puppeteer = require("puppeteer");
 
 let events = [
   //upcoming cards
+
   "https://www.tapology.com/fightcenter/events/90713-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/89894-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/87755-ufc-281",
@@ -9,17 +10,23 @@ let events = [
   "https://www.tapology.com/fightcenter/events/91921-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/91828-ufc-281",
   "https://www.tapology.com/fightcenter/events/91801-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/91976-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/92214-ufc-282",
+  "https://www.tapology.com/fightcenter/events/92365-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/93279-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/92055-ufc-283",
   "https://www.tapology.com/fightcenter/events/91824-bellator-286-pitbull-vs-borics",
   "https://www.tapology.com/fightcenter/events/91397-bellator-milan",
   "https://www.tapology.com/fightcenter/events/92067-bellator-288-pitbull-vs-nurmagomedov",
+  "https://www.tapology.com/fightcenter/events/92561-bellator-289",
+  "https://www.tapology.com/fightcenter/events/93271-bellator-dublin",
   "https://www.tapology.com/fightcenter/events/87841-pfl-2022-10-championships",
-  "https://www.tapology.com/fightcenter/events/92068-one-championship-161-bhullar-vs-malykhin",
   "https://www.tapology.com/fightcenter/events/91423-one-on-prime-video-2",
   //result cards
   "https://www.tapology.com/fightcenter/events/90191-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/87856-bellator-dublin",
   "https://www.tapology.com/fightcenter/events/87840-pfl-2022-9-playoffs",
-  "https://www.tapology.com/fightcenter/events/89976-one-championship-161-moraes-vs-johnson-2",
+  "https://www.tapology.com/fightcenter/events/92068-one-championship-161-bhullar-vs-malykhin",
 ];
 //getEventURLs();
 
