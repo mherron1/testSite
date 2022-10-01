@@ -21,12 +21,11 @@ let events = [
   "https://www.tapology.com/fightcenter/events/92561-bellator-289",
   "https://www.tapology.com/fightcenter/events/93271-bellator-dublin",
   "https://www.tapology.com/fightcenter/events/87841-pfl-2022-10-championships",
-  "https://www.tapology.com/fightcenter/events/91423-one-on-prime-video-2",
   //result cards
   "https://www.tapology.com/fightcenter/events/90191-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/87856-bellator-dublin",
   "https://www.tapology.com/fightcenter/events/87840-pfl-2022-9-playoffs",
-  "https://www.tapology.com/fightcenter/events/92068-one-championship-161-bhullar-vs-malykhin",
+  "https://www.tapology.com/fightcenter/events/91423-one-on-prime-video-2",
 ];
 //getEventURLs();
 

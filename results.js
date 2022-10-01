@@ -273,80 +273,66 @@ let resultsList = [
 }
 ,
 {
-  winner: 'Tawanchai PK Saenchai ',
+  winner: 'Jingnan Xiong ',
   time: '5 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/214489-petchmorakot-sangprapai'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/74841-angela-lee'
 }
 ,
 {
-  winner: 'Roman Kryklya ',
-  time: '0:52 Round 1',
+  winner: 'Mikey Musumeci ',
+  time: '1 Round, 10:00 Total',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/217259-cleber-sousa'
+}
+,
+{
+  winner: 'Stamp Fairtex ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/95683-hayatun-najihin'
+}
+,
+{
+  winner: 'Ilya Freymanov ',
+  time: '3:33 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/14961-carlos-augusto-inocente-filho-guto'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/51639-martin-nguyen'
 }
 ,
 {
-  winner: 'Iraj Azizpour ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/120778-bruno-mohamed'
-}
-,
-{
-  winner: 'Saygid Izagakhmaev ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/12014-li-peng-zhang'
-}
-,
-{
-  winner: 'Tiffany Teo ',
-  time: '4:52 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/240108-ritu-phogat'
-}
-,
-{
-  winner: 'Oumar Kane ',
-  time: '2:15 Round 2',
+  winner: 'Halil Amir ',
+  time: '0:58 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/307166-batradz-gazzaev'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/72236-timofey-nastyukhin'
 }
 ,
 {
-  winner: 'Alaverdi Ramazanov ',
+  winner: 'Marat Grigorian ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/271205-capitan-petchyindee-academy'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/271672-tayfun-ozcan-the-turkish-turbine'
 }
 ,
 {
-  winner: 'Sangmanee Sor Kafae ',
+  winner: 'Ho Taek Oh ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/210903-chenglong-zhang-muay-thai-boy'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/30417-ryogo-takahashi'
 }
 ,
 {
-  winner: 'Ferrari Fairtex ',
+  winner: 'Anissa Meksen ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/209738-han-zi-hao'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/350607-daokongfah'
 }
 ,
 {
-  winner: 'Rodrigo Marello ',
-  time: '0:15 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/351458-ruslan-bagdasarian'
-}
-,
-{
-  winner: 'Ali Foladi ',
-  time: '4:20 Round 1',
+  winner: 'Rade Opačić ',
+  time: '1:52 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/351459-matheus-felipe'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/259603-giannis-stoforidis-hercules'
 }
 ,
 ]
