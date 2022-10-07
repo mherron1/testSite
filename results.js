@@ -162,7 +162,7 @@ let resultsList = [
 ,
 {
   winner: 'Cee Jay Hamilton ',
-  time: '2:12 Round 2',
+  time: '0:12 Round 2',
   method: 'ko/tko',
   b_Link: 'https://www.tapology.com/fightcenter/fighters/51735-richard-palencia'
 }
