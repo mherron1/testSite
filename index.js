@@ -792,7 +792,7 @@ function generateCard(i, arg) {
   let prelimsTime = document.querySelector(`#prelimsTime${arg}`);
 
   if (
-    events[i][1] - nowEpochX < 604800000 &&
+    events[i][1] - nowEpochX < 804800000 &&
     events[i][1] - nowEpochX > -28800000
   ) {
     eventTimeLocal.setMinutes(eventTimeLocal.getMinutes() - utc_offset);
@@ -815,7 +815,7 @@ function generateCard(i, arg) {
     <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_more</i>
      `;
   if (
-    events[i][1] - nowEpochX < 604800000 &&
+    events[i][1] - nowEpochX < 804800000 &&
     events[i][1] - nowEpochX > -28800000
   ) {
     prelimCardTime.setMinutes(prelimCardTime.getMinutes() - utc_offset);
