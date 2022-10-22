@@ -1,7 +1,7 @@
 let delay = 0;
 
 if (true) {
-  delay = -30000000;
+  delay = 50000000;
 }
 
 let assets = [
