@@ -90,7 +90,7 @@ let times = [
     date: "oct22",
     promo: "Ultimate Fighting Championship",
     time: new Date(2022, 9, 22, 18, 00, 00),
-    prelims: new Date(2022, 9, 22, 15, 00, 00),
+    prelims: new Date(2022, 9, 22, 14, 30, 00),
     videos: [],
   },
   {
