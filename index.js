@@ -738,7 +738,7 @@ function generateCard(i, arg) {
   <br>
   <div style="text-align:center;" class="shareHolder">
 
-        <a style="text-decoration:underline; font-size:15px;" href="https://twitter.com/intent/tweet?url=https://mmafightcards.org/" target="_blank">
+        <a style="text-decoration:underline; font-size:14px;" href="https://twitter.com/intent/tweet?url=https://mmafightcards.org/" target="_blank">
           Share on Twitter
         </a>
 
