@@ -282,7 +282,7 @@ body {
   width: 0%;
   max-width: 325px;
   min-height: 100vh;
-  background-color: rgba(23, 23, 23, 1);
+  background-color: #151515;
   transition-duration: 0.3s;
   z-index: 100;
   white-space: nowrap;
@@ -490,7 +490,7 @@ a {
 
 #settings {
   position: absolute;
-  background-color: rgb(22, 22, 22);
+  background-color: rgb(0, 0, 0);
 
   width: 100%;
   max-width: 550px;
@@ -1304,8 +1304,9 @@ h4:hover {
 
   border: 2px solirgba(20, 20, 20, 0.508);
 
-  background-color: rgba(20, 20, 20, 0.908);
-  color: white;
+  background-color: rgba(0, 0, 0);
+  color: silver;
+  border: 1px solid silver;
   height: 30px;
   width: 150px;
   font-size: 16px;
