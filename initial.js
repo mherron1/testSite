@@ -1465,6 +1465,59 @@ let data = [
 "Showtime | Prelims: YouTube"
 ],
 ["Bellator MMA",
+1672534800000,
+'',
+[
+  {
+    fighterA: 'Patricio Pitbull',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/patricio-freire-pitbull',
+    rankA: '#n/a',
+    recordA: '34-5-0 ',
+    weight: '145',
+    recordB: ' 31-5-1',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/3527-kleber-koike-erbst',
+    fighterB: 'Kleber Koike Erbst'
+  },
+  {
+    fighterA: 'AJ McKee Jr.',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/69323-antonio-mckee-jr',
+    rankA: '#n/a',
+    recordA: '19-1-0 ',
+    weight: '155',
+    recordB: ' 14-1-0',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/57177-roberto-de-souza-satoshi',
+    fighterB: 'Roberto de Souza'
+  },
+  {
+    fighterA: 'Juan Archuleta',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/52666-juan-archuleta',
+    rankA: '#n/a',
+    recordA: '26-4-0 ',
+    weight: '135',
+    recordB: ' 18-6-1',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/13862-soo-chul-kim',
+    fighterB: 'Soo Chul Kim'
+  },
+  {
+    fighterA: 'Kyoji Horiguchi',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/19983-kyoji-horiguchi',
+    rankA: '#n/a',
+    recordA: '30-5-0 ',
+    weight: '125',
+    recordB: ' 25-6-2',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/14229-hiromasa-ogikubo',
+    fighterB: 'Hiromasa Ougikubo'
+  }
+]
+,"Bellator MMA vs. RIZIN",
+"0",
+"Showtime"
+],
+["Bellator MMA",
 1677261600000,
 '',
 []
@@ -1612,6 +1665,271 @@ let data = [
 ,"PFL 10",
 "5",
 "Pay Per View | Prelims: ESPN+"
+],
+["ONE Championship",
+1668819600000,
+'',
+[
+  {
+    fighterA: 'Kiamrian Abbasov',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/87148-kiamran-abbasov',
+    rankA: '#',
+    recordA: '23-5-0 ',
+    weight: '185',
+    recordB: ' 16-4-0',
+    rankB: '#74',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/120701-christian-lee',
+    fighterB: 'Christian Lee'
+  },
+  {
+    fighterA: 'Rodtang Jitmuangnon',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/208722-rodtang-jitmuangnon-the-iron-man',
+    rankA: '#73',
+    recordA: 'Bangkok, TH ',
+    weight: '135',
+    recordB: ' Milan, Lombardy',
+    rankB: '#1',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/213613-joseph-lasiri',
+    fighterB: 'Joseph Lasiri'
+  },
+  {
+    fighterA: 'Bibiano Fernandes',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/bibiano-fernandes-the-flash',
+    rankA: '#133',
+    recordA: '24-5-0 ',
+    weight: '145',
+    recordB: ' 16-2-0',
+    rankB: '#137',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/43013-stephen-loman-the-kid',
+    fighterB: 'Stephen Loman'
+  },
+  {
+    fighterA: 'Cosmo Alexandre',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/16996-cosmo-alexander',
+    rankA: '#213',
+    recordA: 'Boca Raton, FL ',
+    weight: '185',
+    recordB: ' Newcastle upon Tyne, England',
+    rankB: '#4',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/234459-juan-certvantes',
+    fighterB: 'Juan Cervantes'
+  },
+  {
+    fighterA: 'Kevin Belingon',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/11989-kevin-belingon-the-silencer',
+    rankA: '#n/a',
+    recordA: '20-9-0 ',
+    weight: '145',
+    recordB: ' 12-6-0',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/50347-jae-ung-kim',
+    fighterB: 'Jae Woong Kim'
+  },
+  {
+    fighterA: 'Jonathan Haggerty',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/219794-jonathan-haggerty',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '145',
+    recordB: ' Yekaterinburg, RU',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/293248-vladimir-kuzmin',
+    fighterB: 'Vladimir Kuzmin'
+  },
+  {
+    fighterA: 'Ruslan Emilbek',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/99361-emilbek-uulu-ruslan',
+    rankA: '#n/a',
+    recordA: '19-3-0 ',
+    weight: '185',
+    recordB: ' 7-0-0',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/61092-isi-fitikefu',
+    fighterB: 'Isi Fitikefu'
+  },
+  {
+    fighterA: 'Danielle Kelly',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/229326-danielle-kelly',
+    rankA: '#n/a',
+    recordA: 'Vineland, NJ ',
+    weight: '115',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/359783-mariia-molchanova',
+    fighterB: 'Mariia Molchanova'
+  },
+  {
+    fighterA: 'Liam Nolan',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/214487-liam-nolan',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '170',
+    recordB: ' Benicia, CA',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/263242-eddie-abasolo',
+    fighterB: 'Eddie Abasolo'
+  }
+]
+,"ONE on Prime Video 4",
+"4",
+"Amazon Prime"
+],
+["ONE Championship",
+1668897000000,
+'',
+[
+  {
+    fighterA: 'Hiroki Akimoto',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/208720-hiroki-akimoto',
+    rankA: '#',
+    recordA: 'Sakai, JP ',
+    weight: '145',
+    recordB: ' Bangkok, TH',
+    rankB: '#59',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/268101-petchtanong-banchamek',
+    fighterB: 'Petchtanong Banchamek'
+  },
+  {
+    fighterA: 'Yushin Okami',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/yushin-okami-thunder',
+    rankA: '#1',
+    recordA: '37-14-0 ',
+    weight: '205',
+    recordB: ' 27-13-0',
+    rankB: '#1',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/aungla-nsang',
+    fighterB: 'Aung La N Sang'
+  },
+  {
+    fighterA: 'Shinya Aoki',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/shinya-aoki-tobikan-judan',
+    rankA: '#47',
+    recordA: '47-10-0 ',
+    weight: '170',
+    recordB: ' 21-2-0',
+    rankB: '#45',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/104330-saigid-izagahmayev',
+    fighterB: 'Saygid Izagakhmaev'
+  },
+  {
+    fighterA: 'Itsuki Hirata',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/205347-itsuki-hirata',
+    rankA: '#82',
+    recordA: '6-1-0 ',
+    weight: '115',
+    recordB: ' 25-8-0',
+    rankB: '#3',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/10097-seo-hee-ham',
+    fighterB: 'Seo Hee Ham'
+  },
+  {
+    fighterA: 'Yuya Wakamatsu',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/103817-yuya-wakamatsu',
+    rankA: '#n/a',
+    recordA: '15-5-0 ',
+    weight: '135',
+    recordB: ' 9-3-0',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/130859-sung-hoon-woo',
+    fighterB: 'Sung Hoon Woo'
+  }
+]
+,"ONE Championship 163",
+"0",
+"YouTube"
+],
+["ONE Championship",
+1670032800000,
+'',
+[
+  {
+    fighterA: 'Reinier de Ridder',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/49983-reinier-de-ridder',
+    rankA: '#32',
+    recordA: '16-0-0 ',
+    weight: '265',
+    recordB: ' 11-0-0',
+    rankB: '#48',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/166677-anatoliy-malykhin',
+    fighterB: 'Anatoly Malykhin'
+  },
+  {
+    fighterA: 'Roberto Soldić',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/90283-roberto-soldic',
+    rankA: '#55',
+    recordA: '20-3-0 ',
+    weight: '185',
+    recordB: ' 11-0-0',
+    rankB: '#3',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/206138-murad-ramazanov',
+    fighterB: 'Murad Ramazanov'
+  },
+  {
+    fighterA: 'Superbon Singha Mawynn',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/266004-superbon-banchamek',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '155',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/150280-chingiz-allazov',
+    fighterB: 'Chingiz Allazov'
+  },
+  {
+    fighterA: 'A. Rodrigues',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/269255-allycia-hellen-rodrigues',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '115',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/210911-janet-todd-jt',
+    fighterB: 'Janet Todd'
+  }
+]
+,"ONE on Prime Video 5",
+"0",
+"Amazon Prime"
+],
+["ONE Championship",
+1670106600000,
+'',
+[
+  {
+    fighterA: 'Joshua Pacio',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/94002-joshua-pacio',
+    rankA: '#49',
+    recordA: '20-3-0 ',
+    weight: '125',
+    recordB: ' 19-2-0',
+    rankB: '#31',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/40047-jarred-brooks',
+    fighterB: 'Jarred Brooks'
+  }
+]
+,"ONE Championship 164",
+"0",
+"YouTube"
+],
+["ONE Championship",
+1673658000000,
+'',
+[
+  {
+    fighterA: 'Stamp Fairtex',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/210910-stamp',
+    rankA: '#n/a',
+    recordA: 'Pattaya, จ.ชลบุรี ',
+    weight: '115',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/240698-anissa-meksen',
+    fighterB: 'Anissa Meksen'
+  }
+]
+,"ONE on Prime Video 6",
+"0",
+"Amazon Prime"
 ],
 ["Ultimate Fighting Championship",
 1667073600000,
