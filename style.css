@@ -182,7 +182,7 @@ body {
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #efefef;
+  background-color: #f8f8f8;
 }
 
 .middle,
@@ -196,7 +196,7 @@ body {
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: #efefef;
+  background-color: #f8f8f8;
 }
 .right,
 .rightPlus1,
@@ -211,7 +211,7 @@ body {
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #efefef;
+  background-color: #f8f8f8;
 }
 
 .detailsLeft,
@@ -1287,10 +1287,7 @@ h4:hover {
 
 #showResults {
   position: absolute;
-  background-color: white;
-  border-radius: 3px;
-  border: 2px solid rgba(255, 255, 255, 1);
-  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid black;
   color: black;
   height: 30px;
   width: 150px;
