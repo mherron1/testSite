@@ -1319,21 +1319,21 @@ function generateCard(i, arg) {
       mainTime.innerHTML += `
         <i class="material-icons noSelect" id="expandMore" onclick="toggleD()">expand_less</i>
          `;
-    } else if (localStorage.getItem("details") === "n") {
+    } else if (localStorage.getItem("details") === "y") {
       let details = document.querySelector("#details");
       details.checked = false;
-      $(".detailsLeft").css("display", "none");
-      $(".detailsRight").css("display", "none");
-      $(".detailsMiddle").css("display", "none");
-      $(".detailsLeftMinus1").css("display", "none");
-      $(".detailsRightMinus1").css("display", "none");
-      $(".detailsMiddleMinus1").css("display", "none");
-      $(".detailsLeftPlus1").css("display", "none");
-      $(".detailsRightPlus1").css("display", "none");
-      $(".detailsMiddlePlus1").css("display", "none");
+      $(".detailsLeft").css("display", "block");
+      $(".detailsRight").css("display", "block");
+      $(".detailsMiddle").css("display", "block");
+      $(".detailsLeftMinus1").css("display", "block");
+      $(".detailsRightMinus1").css("display", "block");
+      $(".detailsMiddleMinus1").css("display", "block");
+      $(".detailsLeftPlus1").css("display", "block");
+      $(".detailsRightPlus1").css("display", "block");
+      $(".detailsMiddlePlus1").css("display", "block");
     }
   } else {
-    showDetailsSettings();
+    hideDetailsSettings();
   }
 
   if (screen.width > 474) {
@@ -1476,14 +1476,14 @@ function forceToggle() {
   }
 }
 
-function showDetailsSettings() {
+function hideDetailsSettings() {
   /////////////////////
   vibrate();
   ///////////////////////
-  if (localStorage.getItem("details") === "y") {
-    localStorage.setItem("details", "n");
-  } else {
+  if (localStorage.getItem("details") === "n") {
     localStorage.setItem("details", "y");
+  } else {
+    localStorage.setItem("details", "n");
   }
   toggleD();
 }
@@ -1798,3 +1798,12 @@ $("#closeSearch").click(function () {
   $("#searchContainer").toggle();
   document.getElementById("searchContainer").style.display = "none";
 });
+
+if (localStorage.getItem("auto_expand_reset")) {
+  console.log("===");
+} else {
+  console.log("not reset yet, resetting");
+  localStorage.setItem("details", "n");
+  localStorage.setItem("auto_expand_reset", "reset");
+  location.href = "/";
+}

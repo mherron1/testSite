@@ -742,8 +742,8 @@ input:checked + .slider:before {
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
-  border:1px solid silver;
-  background-color: #000;;
+  border: 1px solid silver;
+  background-color: #000;
   color: silver;
   height: 50px;
   width: 205px;
@@ -1204,9 +1204,9 @@ li span {
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  background: #000;;
+  background: #000;
   margin: 0px;
-  box-shadow: 0px 0px 5px 0px #000;;
+  box-shadow: 0px 0px 5px 0px #000;
 }
 
 .youtube-player iframe {
@@ -1623,7 +1623,7 @@ h4:hover {
   margin-top: 20px;
   margin-left: 50%;
   transform: translateX(-50%);
-  background-color: #000;000;
+  background-color: #000;
   text-align: center;
   width: 140px;
   border-radius: 0px;
