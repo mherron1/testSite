@@ -736,9 +736,9 @@ function generateCard(i, arg) {
   <div id="broadcastInfo" ${broadcastStyle}> ${events[i][6]}</div>
   <br>
   <br>
-  <div style="text-align:center;">
+  <div style="text-align:center;" class="shareHolder">
 
-        <a style="text-decoration:underline; font-size:15px; color:#0000EE;" href="https://twitter.com/intent/tweet?url=https://mmafightcards.org/" target="_blank">
+        <a style="text-decoration:underline; font-size:15px;" href="https://twitter.com/intent/tweet?url=https://mmafightcards.org/" target="_blank">
           Share on Twitter
         </a>
 

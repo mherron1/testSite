@@ -8,6 +8,10 @@ a {
   color: black;
 }
 
+.shareHolder a {
+  color: #0000ee;
+}
+
 html {
   height: 100%;
   width: 100%;
