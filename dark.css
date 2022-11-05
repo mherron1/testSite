@@ -48,12 +48,12 @@ body {
   top: 0;
   min-height: 100vh;
   z-index: 10;
-  background-color: rgb(30, 30, 30);
+  background-color: #000;
 }
 #contentMinus1 {
   position: absolute;
   top: 0;
-  background-color: rgb(30, 30, 30);
+  background-color: #000;
   max-width: 550px;
   min-height: 100vh;
   display: none;
@@ -62,7 +62,7 @@ body {
 #contentPlus1 {
   position: absolute;
   top: 0;
-  background-color: rgb(30, 30, 30);
+  background-color: #000;
   max-width: 550px;
   min-height: 100vh;
   display: none;
@@ -87,8 +87,8 @@ body {
 #imageContainerPlus1,
 #imageContainerMinus1 {
   position: relative;
-  max-height: 190px;
-  min-height: 190px;
+  max-height: 100px;
+  min-height: 100px;
   overflow: hidden;
   margin-bottom: 0px;
 }
@@ -109,6 +109,7 @@ body {
   width: 100vw;
   max-width: 550px;
   z-index: 100;
+  opacity: 0;
 }
 #eventPoster,
 #eventPosterPlus1,
@@ -213,7 +214,6 @@ body {
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #181818;
 }
 
 .middle,
@@ -229,7 +229,6 @@ body {
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: #181818;
 }
 .right,
 .rightPlus1,
@@ -243,7 +242,6 @@ body {
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #181818;
 }
 .detailsLeft,
 .detailsLeftPlus1,
@@ -319,7 +317,7 @@ body {
 
 .eventLink:hover {
   cursor: pointer;
-  color: #000000;
+  color: #000;
   background-color: #d2af4b;
 }
 
@@ -732,8 +730,8 @@ input:checked + .slider:before {
   #imageContainer,
   #imageContainerMinus1,
   #imageContainerPlus1 {
-    max-height: 190px;
-    min-height: 190px;
+    max-height: 100px;
+    min-height: 100px;
   }
 
   #settings {
@@ -744,9 +742,9 @@ input:checked + .slider:before {
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
-  border-radius: 5px;
-  background-color: rgba(20, 20, 20, 0.908);
-  color: white;
+  border:1px solid silver;
+  background-color: #000;;
+  color: silver;
   height: 50px;
   width: 205px;
   margin-left: 50%;
@@ -1206,9 +1204,9 @@ li span {
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  background: #000;
+  background: #000;;
   margin: 0px;
-  box-shadow: 0px 0px 5px 0px #000;
+  box-shadow: 0px 0px 5px 0px #000;;
 }
 
 .youtube-player iframe {
@@ -1379,7 +1377,7 @@ h4:hover {
 }
 
 .openDonate {
-  background-color: #000000;
+  background-color: #000;
   color: white;
   border: 1px solid rgb(41, 41, 41);
   text-align: center;
@@ -1625,7 +1623,7 @@ h4:hover {
   margin-top: 20px;
   margin-left: 50%;
   transform: translateX(-50%);
-  background-color: #000000;
+  background-color: #000;000;
   text-align: center;
   width: 140px;
   border-radius: 0px;
@@ -1778,7 +1776,7 @@ h4:hover {
     right: 0;
     height: 48px;
     width: 60px;
-    background-color: rgb(30, 30, 30);
+    background-color: #000;
     z-index: 1000;
   }
 
@@ -1792,7 +1790,7 @@ h4:hover {
     left: 0;
     height: 49px;
     width: 60px;
-    background-color: rgb(30, 30, 30);
+    background-color: #000;
     z-index: 1000;
     display: block;
   }
@@ -1855,8 +1853,8 @@ h4:hover {
   #imageContainer,
   #imageContainerPlus1,
   #imageContainerMinus1 {
-    height: 230px;
-    max-height: 230px;
+    height: 100px;
+    max-height: 100px;
   }
 
   #desktopLinks {
@@ -1865,7 +1863,7 @@ h4:hover {
     top: 0px;
     width: 325px;
     min-height: 150vh;
-    background-color: rgb(30, 30, 30);
+    background-color: #000;
     left: 50.8vw;
     transform: translateX(95px);
     text-align: right;
