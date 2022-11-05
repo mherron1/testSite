@@ -9,7 +9,10 @@ a {
 }
 
 .shareHolder a {
-  color: #0000ee;
+}
+
+.privacy_policy a {
+  text-decoration: underline !important;
 }
 
 html {
