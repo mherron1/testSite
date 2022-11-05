@@ -222,13 +222,6 @@ function toggleD() {
   let detailsLeft = document.querySelectorAll(`.detailsLeft`);
   detailsLeft.forEach((detail) => {
     if (detail.style.display === "flex") {
-      $(".leftFighterContainer").css("background-color", "#f8f8f8");
-      $(".rightFighterContainer").css("background-color", "#f8f8f8");
-      $(".middleFighterContainer").css("background-color", "#f8f8f8");
-      $(".leftFighterContainer").css("margin-bottom", "0px");
-      $(".rightFighterContainer").css("margin-bottom", "0px");
-      $(".middleFighterContainer").css("margin-bottom", "0px");
-
       detail.style.display = "none";
 
       mainTime.textContent = `Main: ${mainCardTime}`;
@@ -238,12 +231,6 @@ function toggleD() {
          `;
     } else {
       detail.style.display = "flex";
-      $(".leftFighterContainer").css("background-color", "#f0f0f0");
-      $(".rightFighterContainer").css("background-color", "#f0f0f0");
-      $(".middleFighterContainer").css("background-color", "#f0f0f0");
-      $(".leftFighterContainer").css("margin-bottom", "5px");
-      $(".rightFighterContainer").css("margin-bottom", "5px");
-      $(".middleFighterContainer").css("margin-bottom", "5px");
 
       mainTime.textContent = `Main: ${mainCardTime}`;
 
@@ -1826,13 +1813,4 @@ if (localStorage.getItem("auto_expand_reset")) {
   localStorage.setItem("details", "n");
   localStorage.setItem("auto_expand_reset", "reset");
   location.href = "/";
-}
-
-if (localStorage.getItem("details") == "y") {
-  $(".leftFighterContainer").css("background-color", "#f0f0f0");
-  $(".rightFighterContainer").css("background-color", "#f0f0f0");
-  $(".middleFighterContainer").css("background-color", "#f0f0f0");
-  $(".leftFighterContainer").css("margin-bottom", "5px");
-  $(".rightFighterContainer").css("margin-bottom", "5px");
-  $(".middleFighterContainer").css("margin-bottom", "5px");
 }
