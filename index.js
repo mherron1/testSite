@@ -768,12 +768,6 @@ function generateCard(i, arg) {
   mainHeader.innerHTML += `<div><span><i class="material-icons" id="shareIconTop" onclick="showShareButtons()">share</i></span></div>
     <i class="material-icons" id ="settingsIconTop" onclick="toggleSettings()">settings</i>`;
 
-  let imageContainer = document.querySelector(`#imageContainer${arg}`);
-  imageContainer.innerHTML = `
-  <img id="eventPoster${arg}" src=${events[i][2]}>
-
-  `;
-
   ////////////event date
   var d = new Date();
   var utc_offset = d.getTimezoneOffset();

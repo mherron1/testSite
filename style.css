@@ -80,7 +80,7 @@ body {
   padding: 11px;
   text-align: center;
   z-index: 0;
-  background-color: none;
+  background-color: #d8d8d8;
 }
 
 #imageContainer,
@@ -1798,7 +1798,6 @@ h4:hover {
     right: 0;
     height: 49px;
     width: 50px;
-    background-color: #f8f8f8;
     z-index: 25;
   }
   #top_left {
@@ -1807,7 +1806,6 @@ h4:hover {
     left: 0;
     height: 49px;
     width: 50px;
-    background-color: #f8f8f8;
     z-index: 125;
     display: block;
   }
