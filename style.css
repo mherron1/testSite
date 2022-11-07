@@ -80,7 +80,7 @@ body {
   padding: 11px;
   text-align: center;
   z-index: 0;
-  border-bottom: #646464;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 #imageContainer,
