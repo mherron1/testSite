@@ -202,6 +202,7 @@ body {
   padding: 5px;
   text-align: center;
   background-color: black;
+  color: white;
 }
 
 .middle:nth-child(even),
@@ -234,6 +235,8 @@ body {
   font-size: 0.8rem;
   display: none;
   padding-left: 25%;
+
+  color: white;
 }
 
 .detailsRight,
@@ -245,6 +248,7 @@ body {
   font-size: 0.8rem;
   display: none;
   padding-right: 25%;
+  color: white;
 }
 
 .detailsMiddle,
@@ -266,7 +270,8 @@ body {
   width: 0%;
   max-width: 325px;
   min-height: 100vh;
-  background-color: white;
+  background-color: black;
+  color: white;
   transition-duration: 0.3s;
   z-index: 100;
   white-space: nowrap;
@@ -314,7 +319,7 @@ body {
 .eventLink:hover {
   cursor: pointer;
   color: white;
-  background-color: rgba(212, 39, 39, 0.822);
+  background-color: rgba(59, 59, 59, 0.822);
 }
 
 .eventLinkDate {
@@ -1285,13 +1290,13 @@ h4:hover {
 }
 
 .winnerGreen {
-  background-color: rgb(148, 230, 185) !important;
-  border-bottom: 3px solid white;
+  background-color: rgb(40, 73, 55) !important;
+  border-bottom: 3px solid rgb(0, 0, 0);
 }
 
 .loserRed {
-  background-color: rgb(255, 155, 155) !important;
-  border-bottom: 3px solid white;
+  background-color: rgb(98, 42, 42) !important;
+  border-bottom: 3px solid rgb(0, 0, 0);
 }
 
 .vsRes {
