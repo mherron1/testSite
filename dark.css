@@ -18,7 +18,7 @@ a {
 html {
   height: 100%;
   width: 100%;
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(42, 42, 42);
 }
 
 body {
@@ -1026,7 +1026,7 @@ li span {
 
 @media only screen and (min-width: 550px) {
   html {
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(46, 46, 46);
   }
   body {
     margin-top: 0vh;
