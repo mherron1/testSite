@@ -80,7 +80,7 @@ body {
   padding: 11px;
   text-align: center;
   z-index: 0;
-  border-bottom: 1px solid #d6d6d6;
+  border-bottom: 1px solid #000;
 }
 
 #imageContainer,
@@ -1809,7 +1809,7 @@ h4:hover {
     width: 50px;
     z-index: 125;
     display: block;
-    border-bottom: #f8f8f8;
+    background-color: #f8f8f8;
   }
 
   #searchIcon {
