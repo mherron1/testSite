@@ -1679,8 +1679,9 @@ h4:hover {
   padding: 5px;
   margin-bottom: 15px;
   outline: none;
-  background-color: #1a1a1aa1;
+  background-color: #1b1b1ba1;
   border: 1px solid white;
+  color: silver;
 }
 
 .searchResultsItem {
@@ -1737,7 +1738,7 @@ h4:hover {
     top: 8px;
     right: 13px;
     font-size: 35px;
-    color: rgb(0, 0, 0);
+    color: white;
   }
 }
 
