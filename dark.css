@@ -49,6 +49,7 @@ body {
   min-height: 100vh;
   z-index: 10;
   background-color: #000;
+  width: 100%;
 }
 #contentMinus1 {
   position: absolute;
