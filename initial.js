@@ -2115,125 +2115,125 @@ let data = [
 '',
 [
   {
-    fighterA: 'Hiroki Akimoto',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/208720-hiroki-akimoto',
-    rankA: '#2',
-    recordA: 'Sakai, JP ',
-    weight: '145',
-    recordB: ' Bangkok, TH',
-    rankB: '#1',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/268101-petchtanong-banchamek',
-    fighterB: 'Petchtanong Banchamek'
-  },
-  {
-    fighterA: 'Roman Kryklya',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/44798-roman-kryklya',
-    rankA: '#',
-    recordA: 'Minsk, BY ',
-    weight: '265',
-    recordB: ' Tehran, IR',
-    rankB: '#50',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/312263-iraj-azizpour',
-    fighterB: 'Iraj Azizpour'
-  },
-  {
-    fighterA: 'Shinya Aoki',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/shinya-aoki-tobikan-judan',
-    rankA: '#83',
-    recordA: '47-10-0 ',
-    weight: '170',
-    recordB: ' 21-2-0',
-    rankB: '#14',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/104330-saigid-izagahmayev',
-    fighterB: 'Saygid Izagakhmaev'
-  },
-  {
-    fighterA: 'Yushin Okami',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/yushin-okami-thunder',
-    rankA: '#134',
-    recordA: '37-14-0 ',
-    weight: '205',
-    recordB: ' 27-13-0',
-    rankB: '#223',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/aungla-nsang',
-    fighterB: 'Aung La N Sang'
-  },
-  {
-    fighterA: 'Yuya Wakamatsu',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/103817-yuya-wakamatsu',
-    rankA: '#297',
-    recordA: '15-5-0 ',
-    weight: '135',
-    recordB: ' 9-3-0',
-    rankB: '#90',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/130859-sung-hoon-woo',
-    fighterB: 'Sung Hoon Woo'
-  },
-  {
-    fighterA: 'Won Il Kwon',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/65548-won-il-kwon',
-    rankA: '#46',
-    recordA: '11-4-0 ',
-    weight: '145',
-    recordB: ' 20-9-0',
-    rankB: '#14',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/22263-mark-abelardo',
-    fighterB: 'Mark Abelardo'
-  },
-  {
-    fighterA: 'Bruno Chaves',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/120778-bruno-mohamed',
+    fighterA: 'Petchtanong Banchamek ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/268101-petchtanong-banchamek',
     rankA: '#n/a',
-    recordA: 'Rio, RJ ',
-    weight: '265',
-    recordB: ' Zenica, BA',
+    recordA: '',
+    weight: '145',
+    recordB: '',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/252226-ahmed-krnjic',
-    fighterB: 'Ahmed Krnjić'
+    fighterBLink: null,
+    fighterB: ' Hiroki Akimoto'
   },
   {
-    fighterA: 'Ahmed Mujtaba',
+    fighterA: 'Roman Kryklya ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/44798-roman-kryklya',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '265',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Iraj Azizpour'
+  },
+  {
+    fighterA: 'Saygid Izagakhmaev ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/104330-saigid-izagahmayev',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '170',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Shinya Aoki'
+  },
+  {
+    fighterA: 'Aung La N Sang ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/aungla-nsang',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '205',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Yushin Okami'
+  },
+  {
+    fighterA: 'Sung Hoon Woo ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/130859-sung-hoon-woo',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '135',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Yuya Wakamatsu'
+  },
+  {
+    fighterA: 'Won Il Kwon ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/65548-won-il-kwon',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '145',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Mark Abelardo'
+  },
+  {
+    fighterA: 'Ahmed Krnjić ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/252226-ahmed-krnjic',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '265',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Bruno Chaves'
+  },
+  {
+    fighterA: 'Ahmed Mujtaba ',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/115281-ahmed-mujtaba',
     rankA: '#n/a',
-    recordA: '9-2-0 ',
+    recordA: '',
     weight: '170',
-    recordB: ' 9-3-0',
+    recordB: '',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/101963-abrao-amorim',
-    fighterB: 'Abraão Amorim'
+    fighterBLink: null,
+    fighterB: ' Abraão Amorim'
   },
   {
-    fighterA: 'Asahi Shinagawa',
+    fighterA: 'Asahi Shinagawa ',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/234416-asahi-pk-saenchaimuaythaigym',
     rankA: '#n/a',
     recordA: '',
     weight: '125',
     recordB: '',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/204304-rui-botelho',
-    fighterB: 'Rui Botelho'
+    fighterBLink: null,
+    fighterB: ' Rui Botelho'
   },
   {
-    fighterA: 'Milena Kaori',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/361218-milena-kaori',
+    fighterA: 'Bianca Basilio ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/214045-bianca-basilio',
     rankA: '#n/a',
     recordA: '',
     weight: '125',
     recordB: '',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/214045-bianca-basilio',
-    fighterB: 'Bianca Basilio'
+    fighterBLink: null,
+    fighterB: ' Milena Kaori'
   },
   {
-    fighterA: 'Kiril Gorobets',
+    fighterA: 'Kiril Gorobets ',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/50464-kirill-gorobets',
     rankA: '#n/a',
-    recordA: '11-2-0 ',
+    recordA: '',
     weight: '155',
-    recordB: ' 7-5-0',
+    recordB: '',
     rankB: '#n/a',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/36549-bruno-pucci',
-    fighterB: 'Bruno Pucci'
+    fighterBLink: null,
+    fighterB: ' Bruno Pucci'
   }
 ]
 ,"ONE Championship 163",
