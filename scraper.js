@@ -17,10 +17,9 @@ let events = [
   "https://www.tapology.com/fightcenter/events/91288-one-championship-164",
   "https://www.tapology.com/fightcenter/events/93660-one-on-prime-video-6",
   //result cards
-  "https://www.tapology.com/fightcenter/events/91828-ufc-281",
+  "https://www.tapology.com/fightcenter/events/91976-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/92067-bellator-288-pitbull-vs-nurmagomedov",
   "https://www.tapology.com/fightcenter/events/87840-pfl-2022-9-playoffs",
-  "https://www.tapology.com/fightcenter/events/91287-one-championship-163",
 ];
 //getEventURLs();
 
