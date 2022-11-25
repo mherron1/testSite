@@ -8,69 +8,6 @@ let assets = [];
 
 let times = [
   {
-    date: "aug26",
-    promo: "Professional Fighters League",
-    time: new Date(2022, 7, 27, 03, 00, 00),
-    prelims: new Date(2022, 7, 27, 00, 00, 00),
-    videos: [],
-  },
-  {
-    date: "aug13",
-    promo: "Professional Fighters League",
-    time: new Date(2022, 7, 13, 20, 30, 00),
-    prelims: new Date(2022, 7, 13, 16, 00, 00),
-    videos: [],
-  },
-  {
-    date: "aug20",
-    promo: "Professional Fighters League",
-    time: new Date(2022, 7, 20, 21, 00, 00),
-    prelims: new Date(2022, 7, 20, 18, 00, 00),
-    videos: [],
-  },
-  {
-    date: "nov12",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 10, 13, 03, 00, 00),
-    prelims: new Date(2022, 10, 12, 23, 00, 00),
-    videos: [],
-  },
-  {
-    date: "nov19",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 10, 19, 21, 00, 00),
-    prelims: new Date(2022, 10, 19, 18, 00, 00),
-    videos: [],
-  },
-  {
-    date: "nov18",
-    promo: "Bellator MMA",
-    time: new Date(2022, 10, 19, 02, 00, 00),
-    prelims: new Date(2022, 10, 18, 23, 00, 00),
-    videos: [],
-  },
-  {
-    date: "nov18",
-    promo: "ONE Championship",
-    time: new Date(2022, 10, 19, 01, 00, 00),
-    prelims: new Date(2022, 10, 19, 01, 00, 00),
-    videos: [],
-  },
-  {
-    date: "sep30",
-    promo: "ONE Championship",
-    time: new Date(2022, 8, 30, 23, 00, 00),
-    prelims: new Date(2022, 8, 30, 20, 00, 00),
-    videos: [],
-  },
-  {
-    date: "oct01",
-    promo: "Ultimate Fighting Championship",
-    time: new Date(2022, 9, 01, 23, 00, 00),
-    prelims: new Date(2022, 9, 01, 20, 00, 00),
-    videos: [],
-  },
-  {
     date: "oct15",
     promo: "Ultimate Fighting Championship",
     time: new Date(2022, 9, 15, 23, 00, 00),
@@ -82,13 +19,6 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2022, 9, 22, 18, 00, 00),
     prelims: new Date(2022, 9, 22, 14, 30, 00),
-    videos: [],
-  },
-  {
-    date: "aug20",
-    promo: "Professional Fighters League",
-    time: new Date(2022, 7, 20, 21, 00, 00),
-    prelims: new Date(2022, 7, 20, 18, 00, 00),
     videos: [],
   },
 ];

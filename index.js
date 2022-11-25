@@ -54,27 +54,7 @@ function create(search_string) {
       document.querySelector("#ufcInput").checked = true;
       numRes += 1;
     }
-    if (localStorage.getItem("bellator") === "y") {
-      filterArr.push("Bellator");
-      document.querySelector("#bellatorInput").checked = true;
-      numRes += 1;
-    }
-    if (localStorage.getItem("one") === "y") {
-      filterArr.push("ONE");
-      document.querySelector("#oneInput").checked = true;
-      numRes += 1;
-    }
-    if (localStorage.getItem("pfl") === "y") {
-      filterArr.push("Professional");
-      document.querySelector("#pflInput").checked = true;
-      numRes += 1;
-    }
-    if (
-      localStorage.getItem("pfl") === "y" &&
-      localStorage.getItem("bellator") === "y" &&
-      localStorage.getItem("one") === "y" &&
-      localStorage.getItem("ufc") === "y"
-    ) {
+    if (localStorage.getItem("ufc") === "y") {
       document.querySelector("#allInput").checked = true;
     }
     events = events.filter((event) => {
@@ -89,13 +69,7 @@ function create(search_string) {
     filterArr.push("Bellator");
     filterArr.push("Professional");
     filterArr.push("ONE");
-    document.querySelector("#oneInput").checked = true;
-    numRes += 1;
-    document.querySelector("#pflInput").checked = true;
-    numRes += 1;
     document.querySelector("#ufcInput").checked = true;
-    numRes += 1;
-    document.querySelector("#bellatorInput").checked = true;
     numRes += 1;
 
     events = events.filter((event) => {

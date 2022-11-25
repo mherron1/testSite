@@ -1,10 +1,6 @@
 const puppeteer = require("puppeteer");
 
-let events = [
-  "https://www.tapology.com/fightcenter/events/91976-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/92067-bellator-288-pitbull-vs-nurmagomedov",
-  "https://www.tapology.com/fightcenter/events/87840-pfl-2022-9-playoffs",
-];
+let events = ["https://www.tapology.com/fightcenter/events/91828-ufc-281"];
 //getEventURLs();
 
 console.log("let resultsList = [");
