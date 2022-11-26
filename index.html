@@ -68,7 +68,9 @@
       <div id="settings">
         <i class="material-icons" id="closeSettings" onclick="changeSettings()">close</i>
         <h3 id="settingsHeader">Settings</h3>
-        <div class="setting">
+        <div style="display:none;">
+       <div style="display:none;">
+        </div><div class="setting">
           <div>All Events</div>
           <label class="switch">
             <input type="checkbox" id="allInput" onclick="forceToggleAll()">
@@ -102,6 +104,7 @@
             <input type="checkbox" id="pflInput" onclick="forceToggle()">
             <span class="slider round"></span>
           </label>
+        </div>
         </div>
         <br>
         <div id="darkModeToggle" class="setting">
