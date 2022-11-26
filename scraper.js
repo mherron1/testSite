@@ -15,7 +15,7 @@ let events = [
   "https://www.tapology.com/fightcenter/events/95455-ufc-fight-night-smith-vs-hill",
 
   //result cards
-  "https://www.tapology.com/fightcenter/events/91976-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/91828-ufc-281",
 ];
 //getEventURLs();
 
