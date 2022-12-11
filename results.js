@@ -1,100 +1,86 @@
 let resultsList = [
 {
-  winner: 'Stephen Thompson ',
-  time: '5:00 Round 4',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/35757-kevin-holland'
+  winner: 'Jan Błachowicz ',
+  time: '5 Rounds',
+  method: 'ends in a draw',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/83405-magomed-ankalaev'
 }
 ,
 {
-  winner: 'Rafael dos Anjos ',
-  time: '3:20 Round 2',
+  winner: 'Paddy Pimblett ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/17754-jared-gordon'
+}
+,
+{
+  winner: 'Santiago Ponzinibbio ',
+  time: '2:29 Round 3',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/16353-alex-morono'
+}
+,
+{
+  winner: 'Dricus Du Plessis ',
+  time: '2:43 Round 3',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/16876-bryan-barberena'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/37393-darren-till'
 }
 ,
 {
-  winner: 'Matheus Nicolau ',
-  time: '1:44 Round 2',
+  winner: 'Ilia Topuria ',
+  time: '3:10 Round 2',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/59676-bryce-mitchell'
+}
+,
+{
+  winner: 'Raul Rosas Jr. ',
+  time: '2:44 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/20858-jay-parrin'
+}
+,
+{
+  winner: 'Jairzinho Rozenstruik ',
+  time: '0:23 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/29221-matt-schnell'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/25880-christopher-daukaus'
 }
 ,
 {
-  winner: 'Sergei Pavlovich ',
-  time: '0:54 Round 1',
+  winner: 'Edmen Shahbazyan ',
+  time: '4:41 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/120884-tai-tuivasa-bam-bam'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/72343-dalcha-lungiambula-champion'
 }
 ,
 {
-  winner: 'Roman Dolidze ',
-  time: '4:06 Round 2',
+  winner: 'Chris Curtis ',
+  time: '2:49 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/13893-Jack-Hermansson'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/55022-joaquin-buckley'
 }
 ,
 {
-  winner: 'Eryk Anders ',
-  time: '2:45 Round 2',
+  winner: 'Billy Quarantillo ',
+  time: '4:30 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/16027-kyle-daukaus'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/46253-alexander-hernandez'
 }
 ,
 {
-  winner: 'Philip Rowe ',
-  time: '3:26 Round 3',
+  winner: 'TJ Brown ',
+  time: '3:41 Round 3',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/126790-erik-silva'
+}
+,
+{
+  winner: 'Cameron Saaiman ',
+  time: '4:13 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/22461-nico-price'
-}
-,
-{
-  winner: 'Angela Hill ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/70991-emily-ducote'
-}
-,
-{
-  winner: 'Clay Guida ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/19952-scott-holtzman'
-}
-,
-{
-  winner: 'Michael Johnson ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/66513-marc-diakiese'
-}
-,
-{
-  winner: 'Jonathan Pearce ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/darren-elkins'
-}
-,
-{
-  winner: 'Natan Levy ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/214582-genaro-valdez-el-rayadito'
-}
-,
-{
-  winner: 'Francis Marshall ',
-  time: '1:14 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/24632-marcelo-rojo'
-}
-,
-{
-  winner: 'Yazmin Jauregui ',
-  time: '4:06 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/48686-istela-nunes'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/131139-steven-koslow'
 }
 ,
 ]
