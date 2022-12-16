@@ -983,35 +983,145 @@ let data = [
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
-1678575600000,
+1670715000000,
 '',
 [
   {
-    fighterA: 'Sedriques Dumas',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/188574-sedriques-dumas',
-    rankA: '#15',
-    recordA: '7-0-0 ',
-    weight: '185',
-    recordB: ' 14-3-1',
-    rankB: '#70',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/33946-abu-azaitar',
-    fighterB: 'Abu Azaitar'
+    fighterA: 'Jan Błachowicz ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/jan-blachowicz',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '205',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Magomed Ankalaev'
   },
   {
-    fighterA: 'Łukasz Brzeski',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/90654-ukasz-brzeski',
-    rankA: '#81',
-    recordA: '8-2-1 ',
+    fighterA: 'Paddy Pimblett ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/36807-paddy-pimblett',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '155',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Jared Gordon'
+  },
+  {
+    fighterA: 'Santiago Ponzinibbio ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/29349-santiago-ponzinibbio-el-rasta',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '180',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Alex Morono'
+  },
+  {
+    fighterA: 'Dricus Du Plessis ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/51267-dricus-du-plessis-stilknocks',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '185',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Darren Till'
+  },
+  {
+    fighterA: 'Ilia Topuria ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/129278-ilia-topuria',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '145',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Bryce Mitchell'
+  },
+  {
+    fighterA: 'Raul Rosas Jr. ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/94654-raul-rosas',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '135',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Jay Perrin'
+  },
+  {
+    fighterA: 'Jairzinho Rozenstruik ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/62467-jair-rozenstruik-bigi-boy',
+    rankA: '#n/a',
+    recordA: '',
     weight: '265',
-    recordB: ' 7-1-0',
-    rankB: '#4',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/215578-karl-williams',
-    fighterB: 'Karl Williams'
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Chris Daukaus'
+  },
+  {
+    fighterA: 'Edmen Shahbazyan ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/142325-edmen-shahbazyan',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '185',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Dalcha Lungiambula'
+  },
+  {
+    fighterA: 'Chris Curtis ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/14863-christopher-curtis-the-action-man',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '185',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Joaquin Buckley'
+  },
+  {
+    fighterA: 'Billy Quarantillo ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/42701-billy-quarantillo',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '145',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Alexander Hernandez'
+  },
+  {
+    fighterA: 'TJ Brown ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/91387-tj-brown',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '145',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Erik Silva'
+  },
+  {
+    fighterA: 'Cameron Saaiman ',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/112520-cameron-saaiman',
+    rankA: '#n/a',
+    recordA: '',
+    weight: '135',
+    recordB: '',
+    rankB: '#n/a',
+    fighterBLink: null,
+    fighterB: ' Steven Koslow'
   }
 ]
-,"UFC Fight Night",
-"2",
-"ESPN+"
+,"UFC 282",
+"7",
+"Pay Per View | Prelims: ESPN 2"
 ],
 ]
 module.exports = data;
