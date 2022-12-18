@@ -1,86 +1,93 @@
 let resultsList = [
 {
-  winner: 'Jan Błachowicz ',
+  winner: 'Jared Cannonier ',
   time: '5 Rounds',
-  method: 'ends in a draw',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/83405-magomed-ankalaev'
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/6055-sean-strickland-tarzan'
 }
 ,
 {
-  winner: 'Paddy Pimblett ',
+  winner: 'Arman Tsarukyan ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/17754-jared-gordon'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/81591-damir-ismagulov'
 }
 ,
 {
-  winner: 'Santiago Ponzinibbio ',
-  time: '2:29 Round 3',
+  winner: 'Amir Albazi ',
+  time: '2:13 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/16353-alex-morono'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/125815-alessandro-costa'
 }
 ,
 {
-  winner: 'Dricus Du Plessis ',
-  time: '2:43 Round 3',
+  winner: 'Alex Caceres ',
+  time: '3:04 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/18497-julian-erosa'
+}
+,
+{
+  winner: 'Drew Dober ',
+  time: '2:45 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/bobby-green-king'
+}
+,
+{
+  winner: 'Michał Oleksiejczuk ',
+  time: '3:16 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/169818-cody-brundage'
+}
+,
+{
+  winner: 'Cory McKenna ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/59694-cheyanne-vlismas'
+}
+,
+{
+  winner: 'Matt Semelsberger ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/45260-jake-matthews'
+}
+,
+{
+  winner: 'Said Nurmagomedov ',
+  time: '3:50 Round 2',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/37393-darren-till'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/147590-saidyokub-kakharamonov'
 }
 ,
 {
-  winner: 'Ilia Topuria ',
-  time: '3:10 Round 2',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/59676-bryce-mitchell'
+  winner: 'Rafa García ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/230872-maheshate'
 }
 ,
 {
-  winner: 'Raul Rosas Jr. ',
-  time: '2:44 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/20858-jay-parrin'
+  winner: 'Rinat Fakhretdinov ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/153353-bryan-battle'
 }
 ,
 {
-  winner: 'Jairzinho Rozenstruik ',
-  time: '0:23 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/25880-christopher-daukaus'
+  winner: 'Manel Kape ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/18967-david-dvorak'
 }
 ,
 {
-  winner: 'Edmen Shahbazyan ',
-  time: '4:41 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/72343-dalcha-lungiambula-champion'
-}
-,
-{
-  winner: 'Chris Curtis ',
-  time: '2:49 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/55022-joaquin-buckley'
-}
-,
-{
-  winner: 'Billy Quarantillo ',
-  time: '4:30 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/46253-alexander-hernandez'
-}
-,
-{
-  winner: 'TJ Brown ',
-  time: '3:41 Round 3',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/126790-erik-silva'
-}
-,
-{
-  winner: 'Cameron Saaiman ',
-  time: '4:13 Round 3',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/131139-steven-koslow'
+  winner: 'Sergey Morozov ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/41203-journey-newson'
 }
 ,
 ]
