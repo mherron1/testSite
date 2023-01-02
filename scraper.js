@@ -10,6 +10,9 @@ let events = [
   "https://www.tapology.com/fightcenter/events/95023-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/94418-ufc-285",
   "https://www.tapology.com/fightcenter/events/95455-ufc-fight-night-smith-vs-hill",
+  "https://www.tapology.com/fightcenter/events/95408-ufc-286",
+  "https://www.tapology.com/fightcenter/events/96078-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/96871-ufc-287",
 
   //result cards
   "https://www.tapology.com/fightcenter/events/92365-ufc-fight-night",
