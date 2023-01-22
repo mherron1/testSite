@@ -1,79 +1,107 @@
 let resultsList = [
 {
-  winner: 'Sean Strickland ',
+  winner: 'Jamahal Hill ',
   time: '5 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/125404-nassourdine-imavov'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/glover-teixeira'
 }
 ,
 {
-  winner: 'Dan Ige ',
-  time: '4:30 Round 2',
+  winner: 'Brandon Moreno ',
+  time: '5:00 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/39377-damon-jackson'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/76553-deiveson-alcantra-daico'
 }
 ,
 {
-  winner: 'Roman Kopylov ',
-  time: '3:19 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/119534-punahele-soriano-story-time'
-}
-,
-{
-  winner: 'Raquel Pennington ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/99972-ketlen-vieira-fenomeno'
-}
-,
-{
-  winner: 'Umar Nurmagomedov ',
-  time: '4:40 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/30448-raoni-barcellos'
-}
-,
-{
-  winner: 'Javid Basharat ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/218144-matheus-mendonca-bocao'
-}
-,
-{
-  winner: 'Abdul Razak Alhassan ',
-  time: '0:28 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/149468-claudio-ribeiro'
-}
-,
-{
-  winner: 'Mateusz Rębecki ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/136412-nick-fiore'
-}
-,
-{
-  winner: 'Allan Nascimento ',
-  time: '3:16 Round 1',
+  winner: 'Gilbert Burns ',
+  time: '4:15 Round 1',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/60838-carlos-hernandez'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/16456-aoutneil-magny'
 }
 ,
 {
-  winner: 'Daniel Argueta ',
+  winner: 'Jéssica Andrade ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/194945-nick-aguirre'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/42982-lauren-taylor'
 }
 ,
 {
-  winner: 'Charles Johnson ',
-  time: '4:33 Round 1',
+  winner: 'Johnny Walker ',
+  time: '2:16 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/jimmy-flick'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/25338-paul-craig'
+}
+,
+{
+  winner: 'Ihor Potieria ',
+  time: '4:05 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/mauricio-rua-shogun'
+}
+,
+{
+  winner: 'Brunno Ferreira ',
+  time: '4:13 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/78681-gregory-rodrigues-robocop'
+}
+,
+{
+  winner: 'Thiago Moisés ',
+  time: '4:05 Round 2',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/101043-melquizael-costa-melkcalty'
+}
+,
+{
+  winner: 'Gabriel Bonfim ',
+  time: '0:49 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/26813-mounir-lazzez'
+}
+,
+{
+  winner: 'Jailton Almeida ',
+  time: '2:56 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/2783-shamil-abdurahimov'
+}
+,
+{
+  winner: 'Cody Stamann ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/74979-luan-luiz-lacerda'
+}
+,
+{
+  winner: 'Ismael Bonfim ',
+  time: '2:17 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/126382-terrance-mckinney'
+}
+,
+{
+  winner: 'Nicolas Dalby ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/37561-warley-alves'
+}
+,
+{
+  winner: 'Josiane Nunes ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/98694-zarah-fairn'
+}
+,
+{
+  winner: 'Daniel Marcos ',
+  time: '2:18 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/86764-saimon-oliveira'
 }
 ,
 ]
