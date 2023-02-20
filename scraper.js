@@ -2,7 +2,7 @@ const puppeteer = require("puppeteer");
 
 let events = [
   //upcoming cards
-  "https://www.tapology.com/fightcenter/events/94589-ufc-fight-night",
+
   "https://www.tapology.com/fightcenter/events/95023-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/94418-ufc-285",
   "https://www.tapology.com/fightcenter/events/95455-ufc-fight-night-smith-vs-hill",
@@ -11,7 +11,7 @@ let events = [
   "https://www.tapology.com/fightcenter/events/96871-ufc-287",
 
   //result cards
-  "https://www.tapology.com/fightcenter/events/93764-ufc-284",
+  "https://www.tapology.com/fightcenter/events/94589-ufc-fight-night",
 ];
 //getEventURLs();
 
