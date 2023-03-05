@@ -5,8 +5,6 @@ if ("serviceWorker" in navigator) {
     .catch((err) => console.log());
 }
 
-window.location.href = "https://www.espn.com/mma/schedule";
-
 let android = false;
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
