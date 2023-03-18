@@ -2,14 +2,20 @@ const puppeteer = require("puppeteer");
 
 let events = [
   //upcoming cards
-  "https://www.tapology.com/fightcenter/events/94418-ufc-285",
-  "https://www.tapology.com/fightcenter/events/95455-ufc-fight-night-smith-vs-hill",
   "https://www.tapology.com/fightcenter/events/95408-ufc-286",
   "https://www.tapology.com/fightcenter/events/96078-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/96871-ufc-287",
+  "https://www.tapology.com/fightcenter/events/97461-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/97433-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/97740-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/97782-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/98223-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/98571-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/99119-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/99346-ufc-289",
 
   //result cards
-  "https://www.tapology.com/fightcenter/events/95023-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/95455-ufc-fight-night-smith-vs-hill",
 ];
 //getEventURLs();
 
