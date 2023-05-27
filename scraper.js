@@ -2,19 +2,23 @@ const puppeteer = require("puppeteer");
 
 let events = [
   //upcoming cards
-  "https://www.tapology.com/fightcenter/events/96078-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/96871-ufc-287",
-  "https://www.tapology.com/fightcenter/events/97461-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/97433-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/97740-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/97782-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/98223-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/98571-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/99119-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/99346-ufc-289",
 
-  //result cards
-  "https://www.tapology.com/fightcenter/events/95408-ufc-286",
+  "https://www.tapology.com/fightcenter/events/99416-ufc-294",
+  "https://www.tapology.com/fightcenter/events/101315-ufc-293",
+  "https://www.tapology.com/fightcenter/events/101389-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/101022-ufc-292",
+  "https://www.tapology.com/fightcenter/events/101163-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/101342-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/101214-ufc-291",
+  "https://www.tapology.com/fightcenter/events/99813-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/100553-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/98868-ufc-290",
+  "https://www.tapology.com/fightcenter/events/100452-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/99780-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/99705-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/99346-ufc-289",
+  "https://www.tapology.com/fightcenter/events/99119-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/98571-ufc-fight-night",
 ];
 //getEventURLs();
 

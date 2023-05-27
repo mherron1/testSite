@@ -1,107 +1,86 @@
 let resultsList = [
 {
-  winner: 'Leon Edwards ',
+  winner: 'Mackenzie Dern ',
   time: '5 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/39265-kamarudeen-usman'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/57525-angela-hill-overkill'
 }
 ,
 {
-  winner: 'Justin Gaethje ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/108035-rafael-fiziev'
-}
-,
-{
-  winner: 'Gunnar Nelson ',
-  time: '4:51 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/16876-bryan-barberena'
-}
-,
-{
-  winner: 'Jennifer Maia ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/74768-casey-oneill'
-}
-,
-{
-  winner: 'Marvin Vettori ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/147160-roman-dolidze'
-}
-,
-{
-  winner: 'Jack Shore ',
-  time: '4:27 Round 2',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/33134-makwan-amirkhani-tsingis-khan'
-}
-,
-{
-  winner: 'Chris Duncan ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/102616-omar-morales'
-}
-,
-{
-  winner: 'Yanal Ashmoz ',
-  time: '1:15 Round 1',
+  winner: 'Anthony Hernandez ',
+  time: '1:01 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/52607-sam-patterson'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/142325-edmen-shahbazyan'
 }
 ,
 {
-  winner: 'Muhammad Mokaev ',
-  time: '4:32 Round 3',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/46690-jafel-cavalcante-filho'
-}
-,
-{
-  winner: 'Lerone Murphy ',
+  winner: 'Lupita Godinez ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/159865-gabriel-santos-mosquitinho'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/70991-emily-ducote'
 }
 ,
 {
-  winner: 'Christian Leroy Duncan ',
-  time: '1:52 Round 1',
+  winner: 'Joaquin Buckley ',
+  time: '4:15 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/114625-duko-todorovi'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/115985-andre-fialho'
 }
 ,
 {
-  winner: 'Jake Hadley ',
-  time: '1:01 Round 1',
+  winner: 'Diego Ferreira ',
+  time: '1:50 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/36176-malcom-gordon'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/michael-johnson-the-menace'
 }
 ,
 {
-  winner: 'Joanne Wood ',
+  winner: 'Viacheslav Borshchev ',
+  time: '2:37 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/230872-maheshate'
+}
+,
+{
+  winner: 'Karolina Kowalkiewicz ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/114251-luana-carolina-dread'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/35907-vanessa-demopoulos'
 }
 ,
 {
-  winner: 'Jai Herbert ',
-  time: '3 Rounds',
-  method: 'ends in a draw',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/102094-ludovit-klein'
+  winner: 'Gilbert Urbina ',
+  time: '2:55 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/67420-orion-cosce'
 }
 ,
 {
-  winner: 'Veronica Hardy ',
+  winner: 'Rodrigo Nascimento ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/114339-juliana-miller'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/ilir-latifi'
+}
+,
+{
+  winner: 'Chase Hooper ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/136412-nick-fiore'
+}
+,
+{
+  winner: 'Natália Silva ',
+  time: '2:58 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/102107-victoria-leonardo'
+}
+,
+{
+  winner: 'Themba Gorimbo ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/57862-takashi-sato'
 }
 ,
 ]
