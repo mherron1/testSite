@@ -1322,6 +1322,7 @@ h4:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 2px;
 }
 
 #showResults:hover {

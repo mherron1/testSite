@@ -1294,7 +1294,8 @@ h4:hover {
 
 #showResults {
   position: absolute;
-  border: 1px solid black;
+  border: 1px solid #dfdfdf;
+  background-color: #dfdfdf;
   color: black;
   height: 30px;
   width: 150px;
@@ -1308,6 +1309,7 @@ h4:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 2px;
 }
 
 #showResults:hover {
