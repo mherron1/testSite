@@ -1307,7 +1307,8 @@ h4:hover {
 
 #showResults {
   position: absolute;
-  border: 1px solid #d8d8d8;
+  border: 1px solid #343434;
+  background-color: #343434;
   color: #d8d8d8;
   height: 30px;
   width: 150px;
