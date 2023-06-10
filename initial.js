@@ -224,10 +224,21 @@ let data = [
     rankB: '#22',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/25880-christopher-daukaus',
     fighterB: 'Chris Daukaus'
+  },
+  {
+    fighterA: 'Josh Fremd',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/65199-joshua-fremd',
+    rankA: '#88',
+    recordA: '10-4-0 ',
+    weight: '185',
+    recordB: ' 13-9-0',
+    rankB: '#72',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/38304-jamie-pickett',
+    fighterB: 'Jamie Pickett'
   }
 ]
 ,"UFC Fight Night",
-"6",
+"7",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -1431,7 +1442,7 @@ let data = [
   {
     fighterA: 'Mike Malott',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/22740-mike-malott',
-    rankA: '#49',
+    rankA: '#48',
     recordA: '9-1-1 ',
     weight: '170',
     recordB: ' 9-3-0',
@@ -1453,7 +1464,7 @@ let data = [
   {
     fighterA: 'Eryk Anders',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/30666-eryk-anders',
-    rankA: '#46',
+    rankA: '#51',
     recordA: '15-7-0 ',
     weight: '185',
     recordB: ' 15-6-0',
@@ -1501,14 +1512,14 @@ let data = [
     recordA: '8-0-1 ',
     weight: '145',
     recordB: ' 13-5-1',
-    rankB: '#104',
+    rankB: '#113',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/21458-kyle-nelson-the-monster',
     fighterB: 'Kyle Nelson'
   },
   {
     fighterA: 'David Dvořák',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/18967-david-dvorak',
-    rankA: '#13',
+    rankA: '#12',
     recordA: '20-5-0 ',
     weight: '125',
     recordB: ' 9-1-0',
