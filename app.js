@@ -8,7 +8,7 @@ let assets = [];
 
 let times = [
   {
-    date: "jun17",
+    date: "jun24",
     promo: "Ultimate Fighting Championship",
     time: new Date(2023, 05, 18, 02, 00, 00),
     prelims: new Date(2023, 05, 11, 23, 00, 00),
