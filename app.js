@@ -11,7 +11,7 @@ let times = [
     date: "jul01",
     promo: "Ultimate Fighting Championship",
     time: new Date(2023, 06, 01, 23, 00, 00),
-    prelims: new Date(2023, 06, 01, 20, 30, 00),
+    prelims: new Date(2023, 06, 01, 20, 00, 00),
     videos: [],
   },
 ];
