@@ -718,7 +718,18 @@ function generateCard(i, arg) {
         </a>
 
   </div>
+
+
+
+
+  
  <br>
+
+ <div class="center-div">
+    <button class="btn-style">Buy me a beer</button>
+</div>
+
+
  <br>
  <br>
  <br>
