@@ -722,11 +722,11 @@ function generateCard(i, arg) {
 
 
 
-  
+
  <br>
 
- <div class="center-div">
-    <button class="btn-style">Buy me a beer</button>
+<div class="center-div">
+    <a href="https://ko-fi.com/mmafightcards" class="btn-style">Buy me a beer</a>
 </div>
 
 
