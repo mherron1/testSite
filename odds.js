@@ -28,7 +28,7 @@ let odds = [
 {"name":"Molly McCann" , "odds": "1.50"},
 {"name":"Julija Stoliarenko" , "odds": "3.00"},
 {"name":"Tom Aspinall" , "odds": "1.24"},
-{"name":"Marcin Tybura" , "odds": "4.60"},
+{"name":"Marcin Tybura" , "odds": "4.80"},
 {"name":"C.J. Vergara" , "odds": "1.58"},
 {"name":"Vinicius Salvador" , "odds": "2.50"},
 {"name":"Jake Matthews" , "odds": "1.60"},
