@@ -636,7 +636,7 @@ input:checked + .slider:before {
   background-color: #f2f2f2;
   height: 48px;
   width: 203px;
-  border: 1px solid 000;
+  border: 1px solid #000;
   margin-left: 50%;
   transform: translateX(-50%);
   bottom: 12px;
