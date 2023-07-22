@@ -395,7 +395,7 @@ function generateLinks() {
       `;
     }
   }
-  eventList.innerHTML += `<br><br><br><br><br><br><br><div class="center-div">
+  eventList.innerHTML += `<div class="center-div">
   <a href="https://ko-fi.com/mmafightcards" class="btn-style">Buy me a beer</a>
 </div>`;
 }
