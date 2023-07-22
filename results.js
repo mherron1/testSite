@@ -1,93 +1,107 @@
 let resultsList = [
 {
-  winner: 'Mayra Bueno Silva ',
-  time: '0:38 Round 2',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/18698-holly-holm-hottie'
-}
-,
-{
-  winner: 'Jack Della Maddalena ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/36621-bassil-hafez'
-}
-,
-{
-  winner: 'Francisco Prado ',
-  time: '4:05 Round 1',
+  winner: 'Tom Aspinall ',
+  time: '1:13 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/60986-ottman-azaitar-bulldozer'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/34449-marcin-tybura-tybur'
 }
 ,
 {
-  winner: 'Jun Yong Park ',
-  time: '4:45 Round 2',
+  winner: 'Julija Stoliarenko ',
+  time: '1:55 Round 1',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/18658-albert-duraev'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/57976-molly-mccann'
 }
 ,
 {
-  winner: 'Norma Dumont ',
+  winner: 'Nathaniel Wood ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/134566-chelsea-chandler'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/11328-andre-fili-dre-duke'
 }
 ,
 {
-  winner: 'Nazim Sadykhov ',
-  time: '1:07 Round 2',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/126382-terrance-mckinney'
-}
-,
-{
-  winner: 'Melsik Baghdasaryan ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/39248-tucker-lutz'
-}
-,
-{
-  winner: 'Victoria Dudakova ',
-  time: '0:34 Round 1',
+  winner: 'Paul Craig ',
+  time: '4:40 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/48686-istela-nunes'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/38116-andr-muniz-sergipano'
 }
 ,
 {
-  winner: 'Melquizael Costa ',
+  winner: 'Fares Ziam ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/129509-austin-lingo'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/70002-jai-herbert'
 }
 ,
 {
-  winner: 'Evan Elder ',
+  winner: 'Lerone Murphy ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/214582-genaro-valdez-el-rayadito'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/101823-joshua-culibao'
 }
 ,
 {
-  winner: 'Azat Maksum ',
+  winner: 'Daniel Marcos ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/tyson-nam'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/18815-david-grant'
 }
 ,
 {
-  winner: 'Alex Munoz ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/32970-carl-deaton-iii'
+  winner: 'Jonny Parsons ',
+  time: '4:57 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/15517-danny-roberts'
 }
 ,
 {
-  winner: 'Ailin Perez ',
+  winner: 'Joel Alvarez ',
+  time: '4:26 Round 2',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/66513-marc-diakiese'
+}
+,
+{
+  winner: 'Mick Parkin ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/28705-ashlee-evans-smith'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/60287-jamal-pogues'
+}
+,
+{
+  winner: 'Makhmud Muradov ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/16876-bryan-barberena'
+}
+,
+{
+  winner: 'Ketlen Vieira ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/36969-pannie-kianzad'
+}
+,
+{
+  winner: 'Chris Duncan ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/164201-yanal-ashmoz-red-fox'
+}
+,
+{
+  winner: 'Bruna Brasil ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/209968-shauna-bannon'
+}
+,
+{
+  winner: 'Jafel Filho ',
+  time: '3:26 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/67170-daniel-barez'
 }
 ,
 ]
