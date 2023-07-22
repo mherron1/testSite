@@ -204,7 +204,7 @@ body {
 .middle:nth-child(even),
 .middlePlus1:nth-child(even),
 .middleMinus1:nth-child(even) {
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 .right,
 .rightPlus1,
