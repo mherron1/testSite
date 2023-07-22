@@ -49,7 +49,7 @@ let resultsList = [
 }
 ,
 {
-  winner: 'Viktoriya Dudakova ',
+  winner: 'Victoria Dudakova ',
   time: '0:34 Round 1',
   method: 'ko/tko',
   b_Link: 'https://www.tapology.com/fightcenter/fighters/48686-istela-nunes'
