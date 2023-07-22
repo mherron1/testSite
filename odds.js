@@ -43,7 +43,7 @@ let odds = [
 {"name":"Michel Pereira" , "odds": "2.88"},
 {"name":"Bobby Green" , "odds": "1.30"},
 {"name":"Tony Ferguson" , "odds": "3.80"},
-{"name":"Derrick Lewis" , "odds": "2.32"},
+{"name":"Derrick Lewis" , "odds": "2.38"},
 {"name":"Marcos Rogerio de Lima" , "odds": "1.80"},
 {"name":"Ikram Aliskerov" , "odds": "1.80"},
 {"name":"Paulo Costa" , "odds": "2.01"},
