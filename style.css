@@ -190,7 +190,7 @@ body {
 .left:nth-child(odd),
 .leftPlus1:nth-child(odd),
 .leftMinus1:nth-child(odd) {
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 
 .middle,
@@ -201,10 +201,10 @@ body {
   background-color: #f8f8f8;
 }
 
-.middle:nth-child(even),
-.middlePlus1:nth-child(even),
-.middleMinus1:nth-child(even) {
-  background-color: #f8f8f8;
+.middle:nth-child(odd),
+.middlePlus1:nth-child(odd),
+.middleMinus1:nth-child(odd) {
+  background-color: #fff;
 }
 .right,
 .rightPlus1,
@@ -219,7 +219,7 @@ body {
 .right:nth-child(odd),
 .rightPlus1:nth-child(odd),
 .rightMinus1:nth-child(odd) {
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 
 .detailsLeft,
