@@ -201,9 +201,9 @@ body {
   background-color: #f8f8f8;
 }
 
-.middle:nth-child(odd),
-.middlePlus1:nth-child(odd),
-.middleMinus1:nth-child(odd) {
+.middle:nth-child(even),
+.middlePlus1:nth-child(even),
+.middleMinus1:nth-child(even) {
   background-color: #fff;
 }
 .right,
