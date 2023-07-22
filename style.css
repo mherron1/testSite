@@ -633,7 +633,7 @@ input:checked + .slider:before {
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
-  background-color: #dfdfdf;
+  background-color: #f2f2f2;
   height: 50px;
   width: 205px;
   margin-left: 50%;
@@ -1294,8 +1294,8 @@ h4:hover {
 
 #showResults {
   position: absolute;
-  border: 1px solid #dfdfdf;
-  background-color: #dfdfdf;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
   color: black;
   height: 30px;
   width: 150px;
