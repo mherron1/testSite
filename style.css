@@ -633,7 +633,7 @@ input:checked + .slider:before {
 #testDivMinus1,
 #testDivPlus1 {
   position: absolute;
-  background-color: #dfdfdf;
+
   height: 50px;
   width: 205px;
   margin-left: 50%;
