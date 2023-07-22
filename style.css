@@ -636,7 +636,7 @@ input:checked + .slider:before {
   background-color: #f0f0f0;
   height: 48px;
   width: 203px;
-  border: 1px solid #000;
+  border: 1px solid grey;
   margin-left: 50%;
   transform: translateX(-50%);
   bottom: 12px;
@@ -1092,7 +1092,7 @@ li span {
   }
 
   #testDiv:active {
-    border: 2px solid rgb(255, 255, 255);
+    border: 1px solid grey;
   }
 
   .r:hover {
