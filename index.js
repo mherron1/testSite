@@ -720,7 +720,7 @@ function generateCard(i, arg) {
   
 
   <div class="center-div">
-    <a href="https://ko-fi.com/mmafightcards" class="btn-style">Support</a>
+    <a href="https://ko-fi.com/mmafightcards" class="btn-style">Support this site</a>
   </div>
 
  <br>
