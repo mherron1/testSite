@@ -365,6 +365,7 @@ function generateLinks() {
       `;
     }
   }
+
   eventList.innerHTML += `<br>`;
   eventList.innerHTML += `<h4 style = "margin-top: 12px;" class = "eventLink">Recent Events</h4>`;
   for (let i = events.length - 1; i >= 0; i--) {
@@ -395,6 +396,8 @@ function generateLinks() {
       `;
     }
   }
+
+  eventList.innerHTML = `<br><br>`;
 }
 
 let sideNav = document.querySelector("#sideNav");
