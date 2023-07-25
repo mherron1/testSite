@@ -395,9 +395,6 @@ function generateLinks() {
       `;
     }
   }
-  eventList.innerHTML += `<div class="center-div">
-  <a href="https://ko-fi.com/mmafightcards" class="btn-style">Buy me a beer</a>
-</div>`;
 }
 
 let sideNav = document.querySelector("#sideNav");
@@ -718,8 +715,13 @@ function generateCard(i, arg) {
         <a style="text-decoration:underline; font-size:14px;" href="https://twitter.com/intent/tweet?url=https://mmafightcards.org/" target="_blank">
           Share on Twitter
         </a>
-
+  
   </div>
+
+  <div class="center-div">
+    <a href="https://ko-fi.com/mmafightcards" class="btn-style">Buy me a beer</a>
+  </div>
+
  <br>
  <br>
  <br>
