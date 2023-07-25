@@ -1301,11 +1301,11 @@ h4:hover {
 #showResults {
   position: absolute;
   border: 1px solid #000;
-  background: rgb(240, 240, 240);
+  background: rgb(243, 243, 243);
   background: linear-gradient(
     90deg,
-    rgba(240, 240, 240, 1) 0%,
-    rgba(243, 243, 243, 1) 100%
+    rgba(243, 243, 243, 1) 0%,
+    rgba(246, 246, 246, 1) 100%
   );
   color: black;
   width: 201px;
