@@ -1320,6 +1320,7 @@ h4:hover {
   justify-content: center;
   align-items: center;
   border-radius: 0px;
+  height: 40px;
 }
 
 #showResults:hover {
