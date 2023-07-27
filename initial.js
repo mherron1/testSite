@@ -195,31 +195,9 @@ let data = [
     recordA: '29-9-1 ',
     weight: '205',
     recordB: ' 7-2-0',
-    rankB: '#11',
+    rankB: '#12',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/117305-alex-pereira',
     fighterB: 'Alex Pereira'
-  },
-  {
-    fighterA: 'Tony Ferguson',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/tony-ferguson-el-cucuy',
-    rankA: '#101',
-    recordA: '25-8-0 ',
-    weight: '155',
-    recordB: ' 29-14-1',
-    rankB: '#17',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/bobby-green-king',
-    fighterB: 'Bobby Green'
-  },
-  {
-    fighterA: 'Michael Chiesa',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/15253-mike-chiesa-maverick',
-    rankA: '#13',
-    recordA: '16-6-0 ',
-    weight: '170',
-    recordB: ' 24-9-0',
-    rankB: '#16',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/35757-kevin-holland',
-    fighterB: 'Kevin Holland'
   },
   {
     fighterA: 'Stephen Thompson',
@@ -233,26 +211,48 @@ let data = [
     fighterB: 'Michel Pereira'
   },
   {
-    fighterA: 'Derrick Lewis',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/14023-derrick-lewis-the-black-beast',
-    rankA: '#14',
-    recordA: '26-11-0 ',
-    weight: '265',
-    recordB: ' 21-8-1',
-    rankB: '#17',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/marcos-rogerio-de-lima-pezao',
-    fighterB: 'Marcos Rogério de Lima'
+    fighterA: 'Tony Ferguson',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/tony-ferguson-el-cucuy',
+    rankA: '#95',
+    recordA: '25-8-0 ',
+    weight: '155',
+    recordB: ' 29-14-1',
+    rankB: '#18',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/bobby-green-king',
+    fighterB: 'Bobby Green'
+  },
+  {
+    fighterA: 'Michael Chiesa',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/15253-mike-chiesa-maverick',
+    rankA: '#13',
+    recordA: '16-6-0 ',
+    weight: '170',
+    recordB: ' 24-9-0',
+    rankB: '#15',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/35757-kevin-holland',
+    fighterB: 'Kevin Holland'
   },
   {
     fighterA: 'Trevin Giles',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/20072-trevin-giles',
-    rankA: '#51',
+    rankA: '#49',
     recordA: '16-4-0 ',
     weight: '170',
     recordB: ' 14-0-0',
-    rankB: '#44',
+    rankB: '#43',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/88338-gabriel-marrentinha',
     fighterB: 'Gabriel Bonfim'
+  },
+  {
+    fighterA: 'Derrick Lewis',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/14023-derrick-lewis-the-black-beast',
+    rankA: '#12',
+    recordA: '26-11-0 ',
+    weight: '265',
+    recordB: ' 21-8-1',
+    rankB: '#16',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/marcos-rogerio-de-lima-pezao',
+    fighterB: 'Marcos Rogério de Lima'
   },
   {
     fighterA: 'Roman Kopylov',
@@ -266,20 +266,9 @@ let data = [
     fighterB: 'Claudio Ribeiro'
   },
   {
-    fighterA: 'CJ Vergara',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/38340-carlos-vergara',
-    rankA: '#33',
-    recordA: '11-4-1 ',
-    weight: '125',
-    recordB: ' 14-5-0',
-    rankB: '#47',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/95618-vinicius-de-almeida-salvador',
-    fighterB: 'Vinicius Salvador'
-  },
-  {
     fighterA: 'Jake Matthews',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/45260-jake-matthews',
-    rankA: '#33',
+    rankA: '#32',
     recordA: '18-6-0 ',
     weight: '170',
     recordB: ' 12-5-1',
@@ -288,26 +277,37 @@ let data = [
     fighterB: 'Darrius Flowers'
   },
   {
-    fighterA: 'Miranda Maverick',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/116637-miranda-maverick',
-    rankA: '#17',
-    recordA: '11-5-0 ',
+    fighterA: 'CJ Vergara',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/38340-carlos-vergara',
+    rankA: '#33',
+    recordA: '11-4-1 ',
     weight: '125',
-    recordB: ' 12-4-0',
-    rankB: '#28',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/128371-priscila-cachoeira',
-    fighterB: 'Priscila Cachoeira'
+    recordB: ' 14-5-0',
+    rankB: '#48',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/95618-vinicius-de-almeida-salvador',
+    fighterB: 'Vinicius Salvador'
   },
   {
     fighterA: 'Matthew Semelsberger',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/98220-matthew-semelsberger',
-    rankA: '#28',
+    rankA: '#31',
     recordA: '11-5-0 ',
     weight: '170',
     recordB: ' 8-1-0',
-    rankB: '#70',
+    rankB: '#65',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/175629-uros-medic',
     fighterB: 'Uros Medic'
+  },
+  {
+    fighterA: 'Miranda Maverick',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/116637-miranda-maverick',
+    rankA: '#18',
+    recordA: '11-5-0 ',
+    weight: '125',
+    recordB: ' 12-4-0',
+    rankB: '#32',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/128371-priscila-cachoeira',
+    fighterB: 'Priscila Cachoeira'
   }
 ]
 ,"UFC 291",
@@ -343,68 +343,68 @@ let data = [
   {
     fighterA: 'Dustin Jacoby',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/15069-dustin-jacoby',
-    rankA: '#16',
+    rankA: '#15',
     recordA: '18-7-1 ',
     weight: '205',
     recordB: ' 12-3-0',
-    rankB: '#17',
+    rankB: '#16',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/119288-kennedy-nzechukwu',
     fighterB: 'Kennedy Nzechukwu'
   },
   {
+    fighterA: 'Gavin Tucker',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/20605-gavin-tucker',
+    rankA: '#46',
+    recordA: '13-2-0 ',
+    weight: '145',
+    recordB: ' 21-6-0',
+    rankB: '#61',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/85643-diego-lopes',
+    fighterB: 'Diego Lopes'
+  },
+  {
     fighterA: 'Tanner Boser',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/35149-tanner-boser',
-    rankA: '#76',
+    rankA: '#55',
     recordA: '20-10-1 ',
     weight: '205',
     recordB: ' 6-2-0',
-    rankB: '#70',
+    rankB: '#65',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/90744-aleksa-camur',
     fighterB: 'Aleksa Camur'
   },
   {
     fighterA: 'Ignacio Bahamondes',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/105800-ignacio-carabantes',
-    rankA: '#37',
+    rankA: '#36',
     recordA: '14-4-0 ',
     weight: '155',
     recordB: ' 19-4-1',
-    rankB: '#54',
+    rankB: '#51',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/102094-ludovit-klein',
     fighterB: 'Ľudovít Klein'
   },
   {
-    fighterA: 'Gavin Tucker',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/20605-gavin-tucker',
-    rankA: '#55',
-    recordA: '13-2-0 ',
-    weight: '145',
-    recordB: ' 21-6-0',
-    rankB: '#58',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/85643-diego-lopes',
-    fighterB: 'Diego Lopes'
-  },
-  {
-    fighterA: 'Ode Osbourne',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/50154-ode-osbourne',
-    rankA: '#225',
-    recordA: '12-5-0 ',
-    weight: '125',
-    recordB: ' 17-2-0',
-    rankB: '#1',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/127726-khamzat-sakalov',
-    fighterB: 'Asu Almabaev'
-  },
-  {
     fighterA: 'Billy Quarantillo',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/42701-billy-quarantillo',
-    rankA: '#24',
+    rankA: '#26',
     recordA: '17-5-0 ',
     weight: '145',
     recordB: ' 22-5-1',
-    rankB: '#18',
+    rankB: '#19',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/39377-damon-jackson',
     fighterB: 'Damon Jackson'
+  },
+  {
+    fighterA: 'Raoni Barcelos',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/30448-raoni-barcellos',
+    rankA: '#23',
+    recordA: '17-4-0 ',
+    weight: '135',
+    recordB: ' 10-2-0',
+    rankB: '#19',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/93501-kyler-phillips',
+    fighterB: 'Kyler Phillips'
   },
   {
     fighterA: 'Jeremiah Wells',
@@ -418,37 +418,37 @@ let data = [
     fighterB: 'Carlston Harris'
   },
   {
+    fighterA: 'Sean Woodson',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/103506-sean-woodson',
+    rankA: '#47',
+    recordA: '9-1-1 ',
+    weight: '145',
+    recordB: ' 12-5-0',
+    rankB: '#373',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/39845-jessie-butler',
+    fighterB: 'Jesse Butler'
+  },
+  {
     fighterA: 'Jake Hadley',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/87298-jake-hadley',
     rankA: '#24',
     recordA: '10-1-0 ',
     weight: '125',
     recordB: ' 15-4-1',
-    rankB: '#20',
+    rankB: '#19',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/68337-cody-durden',
     fighterB: 'Cody Durden'
   },
   {
-    fighterA: 'Sean Woodson',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/103506-sean-woodson',
-    rankA: '#48',
-    recordA: '9-1-1 ',
-    weight: '145',
-    recordB: ' 12-5-0',
-    rankB: '#382',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/39845-jessie-butler',
-    fighterB: 'Jesse Butler'
-  },
-  {
-    fighterA: 'Raoni Barcelos',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/30448-raoni-barcellos',
-    rankA: '#27',
-    recordA: '17-4-0 ',
-    weight: '135',
-    recordB: ' 10-2-0',
-    rankB: '#23',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/93501-kyler-phillips',
-    fighterB: 'Kyler Phillips'
+    fighterA: 'Ode Osbourne',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/50154-ode-osbourne',
+    rankA: '#219',
+    recordA: '12-5-0 ',
+    weight: '125',
+    recordB: ' 17-2-0',
+    rankB: '#1',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/127726-khamzat-sakalov',
+    fighterB: 'Asu Almabaev'
   }
 ]
 ,"UFC Fight Night",
@@ -634,6 +634,17 @@ let data = [
     fighterB: 'Amanda Lemos'
   },
   {
+    fighterA: 'Chris Weidman',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/chris-weidman',
+    rankA: '#37',
+    recordA: '15-6-0 ',
+    weight: '185',
+    recordB: ' 19-8-0',
+    rankB: '#23',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/brad-tavares',
+    fighterB: 'Brad Tavares'
+  },
+  {
     fighterA: 'Geoff Neal',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/20058-geoffrey-neal',
     rankA: '#8',
@@ -651,7 +662,7 @@ let data = [
     recordA: '22-8-1 ',
     weight: '135',
     recordB: ' 20-7-0',
-    rankB: '#13',
+    rankB: '#12',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/5243-pedro-munoz-pedrinho',
     fighterB: 'Pedro Munhoz'
   },
@@ -678,24 +689,13 @@ let data = [
     fighterB: 'Andre Petroski'
   },
   {
-    fighterA: 'Chris Weidman',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/chris-weidman',
-    rankA: '#43',
-    recordA: '15-6-0 ',
-    weight: '185',
-    recordB: ' 19-8-0',
-    rankB: '#20',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/brad-tavares',
-    fighterB: 'Brad Tavares'
-  },
-  {
     fighterA: 'Gregory Rodrigues',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/78681-gregory-rodrigues-robocop',
-    rankA: '#23',
+    rankA: '#25',
     recordA: '13-5-0 ',
     weight: '185',
     recordB: ' 11-7-0',
-    rankB: '#88',
+    rankB: '#62',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/152605-denis-tiuliulin',
     fighterB: 'Denis Tiuliulin'
   },
@@ -706,24 +706,24 @@ let data = [
     recordA: '11-4-0 ',
     weight: '125',
     recordB: ' 16-4-0',
-    rankB: '#23',
+    rankB: '#24',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/69225-karine-silva-killer',
     fighterB: 'Karine Silva'
   },
   {
     fighterA: 'Andrea Lee',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/47916-andrea-lee',
-    rankA: '#14',
+    rankA: '#13',
     recordA: '13-7-0 ',
     weight: '125',
     recordB: ' 15-5-1',
-    rankB: '#22',
+    rankB: '#19',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/99885-natalia-silva',
     fighterB: 'Natália Silva'
   }
 ]
 ,"UFC 292",
-"6",
+"5",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
@@ -733,11 +733,11 @@ let data = [
   {
     fighterA: 'Max Holloway',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/12723-max-holloway-lil-evil',
-    rankA: '#1',
+    rankA: '#3',
     recordA: '24-7-0 ',
     weight: '145',
     recordB: ' 17-7-0',
-    rankB: '#9',
+    rankB: '#10',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/chan-sung-jung-the-korean-zombie',
     fighterB: 'Chan Sung Jung'
   },
@@ -748,7 +748,7 @@ let data = [
     recordA: '22-9-0 ',
     weight: '185',
     recordB: ' 18-6-0',
-    rankB: '#44',
+    rankB: '#48',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/61212-michal-oleksiejczuk',
     fighterB: 'Michał Oleksiejczuk'
   },
@@ -759,51 +759,51 @@ let data = [
     recordA: '36-18-0 ',
     weight: '205',
     recordB: ' 21-8-0',
-    rankB: '#10',
+    rankB: '#11',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/20908-ryan-spann',
     fighterB: 'Ryan Spann'
   },
   {
     fighterA: 'Erin Blanchfield',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/167460-erin-blanchfield',
-    rankA: '#3',
+    rankA: '#4',
     recordA: '11-1-0 ',
     weight: '125',
     recordB: ' 19-2-0',
-    rankB: '#4',
+    rankB: '#5',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/74022-taila-santos',
     fighterB: 'Taila Santos'
   },
   {
     fighterA: 'Rinya Nakamura',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/296781-tomoya-nakamura',
-    rankA: '#82',
+    rankA: '#77',
     recordA: '7-0-0 ',
     weight: '135',
     recordB: ' 10-3-0',
-    rankB: '#106',
+    rankB: '#117',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/43088-fernie-garcia',
     fighterB: 'Fernie Garcia'
   },
   {
     fighterA: 'Waldo Cortes-Acosta',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/92314-waldo-cortes-acosta',
-    rankA: '#40',
+    rankA: '#36',
     recordA: '9-1-0 ',
     weight: '265',
     recordB: ' 8-3-1',
-    rankB: '#85',
+    rankB: '#92',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/90654-ukasz-brzeski',
     fighterB: 'Łukasz Brzeski'
   },
   {
     fighterA: 'Na Liang',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/136810-na-liang',
-    rankA: '#64',
+    rankA: '#67',
     recordA: '19-6-0 ',
     weight: '125',
     recordB: ' 11-6-0',
-    rankB: '#26',
+    rankB: '#27',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/28420-jj-aldrich',
     fighterB: 'JJ Aldrich'
   },
@@ -839,10 +839,32 @@ let data = [
     rankB: '#90',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/81901-rolando-bedoya',
     fighterB: 'Rolando Bedoya'
+  },
+  {
+    fighterA: 'Seung Woo Choi',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/108867-seung-woo-choi',
+    rankA: '#45',
+    recordA: '10-6-0 ',
+    weight: '145',
+    recordB: ' 13-4-1',
+    rankB: '#155',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/112766-jarno-errens',
+    fighterB: 'Jarno Errens'
+  },
+  {
+    fighterA: 'Toshiomi Kazama',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/265124-toshiomi-kazama',
+    rankA: '#184',
+    recordA: '10-3-0 ',
+    weight: '135',
+    recordB: ' 8-3-0',
+    rankB: '#330',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/128099-garrett-armfield',
+    fighterB: 'Garrett Armfield'
   }
 ]
 ,"UFC Fight Night",
-"6",
+"8",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -929,7 +951,7 @@ let data = [
   {
     fighterA: 'Benoit Saint-Denis',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/212810-benoit-saint-denis',
-    rankA: '#24',
+    rankA: '#23',
     recordA: '11-1-0 ',
     weight: '155',
     recordB: ' 17-6-0',
@@ -947,10 +969,21 @@ let data = [
     rankB: '#14',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/152507-caolan-loughran',
     fighterB: 'Caolan Loughran'
+  },
+  {
+    fighterA: 'Nasrat Haqparast',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/48941-nasrat-haqparast',
+    rankA: '#33',
+    recordA: '14-5-0 ',
+    weight: '155',
+    recordB: ' 10-2-1',
+    rankB: '#147',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/52607-sam-patterson',
+    fighterB: 'Sam Patterson'
   }
 ]
 ,"UFC Fight Night",
-"6",
+"7",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -1015,11 +1048,11 @@ let data = [
   {
     fighterA: 'Justin Tafa',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/152336-justin-tafa',
-    rankA: '#34',
+    rankA: '#31',
     recordA: '6-3-0 ',
     weight: '265',
     recordB: ' 12-3-0',
-    rankB: '#93',
+    rankB: '#84',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/131141-austen-lane',
     fighterB: 'Austen Lane'
   },
@@ -1037,11 +1070,11 @@ let data = [
   {
     fighterA: 'Shane Young',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/61870-shane-young',
-    rankA: '#96',
+    rankA: '#94',
     recordA: '13-7-0 ',
     weight: '145',
     recordB: ' 16-6-0',
-    rankB: '#267',
+    rankB: '#283',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/36548-gabriel-miranda-fly',
     fighterB: 'Gabriel Miranda'
   },
@@ -1055,118 +1088,21 @@ let data = [
     rankB: '#73',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/115015-anton-turkalj',
     fighterB: 'Anton Turkalj'
+  },
+  {
+    fighterA: 'Jamie Mullarkey',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/51640-jamie-mullarkey',
+    rankA: '#41',
+    recordA: '16-6-0 ',
+    weight: '155',
+    recordB: ' 18-8-0',
+    rankB: '#56',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/john-makdessi-the-bull',
+    fighterB: 'John Makdessi'
   }
 ]
 ,"UFC 293",
-"7",
-"Pay Per View | Prelims: ESPN"
-],
-["Ultimate Fighting Championship",
-1694296800000,
-'',
-[
-  {
-    fighterA: 'Kai Kara-France',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/24803-kaiwhare-kara-france',
-    rankA: '#5',
-    recordA: '24-11-0 ',
-    weight: '125',
-    recordB: ' 18-6-0',
-    rankB: '#8',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/70075-manel-kape-prodigio',
-    fighterB: 'Manel Kape'
-  },
-  {
-    fighterA: 'Tai Tuivasa',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/120884-tai-tuivasa-bam-bam',
-    rankA: '#11',
-    recordA: '15-5-0 ',
-    weight: '265',
-    recordB: ' 36-10-0',
-    rankB: '#6',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/alexander-volkov',
-    fighterB: 'Alexander Volkov'
-  },
-  {
-    fighterA: 'Viviane Araujo',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/106437-viviane-araujo-vivi',
-    rankA: '#10',
-    recordA: '11-5-0 ',
-    weight: '125',
-    recordB: ' 9-1-0',
-    rankB: '#12',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/74768-casey-oneill',
-    fighterB: "Casey O'Neill"
-  },
-  {
-    fighterA: 'Carlos Ulberg',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/203365-carlos-ulberg-mr-marvelous',
-    rankA: '#20',
-    recordA: '8-1-0 ',
-    weight: '205',
-    recordB: ' 15-4-1',
-    rankB: '#28',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/103262-da-un-jung',
-    fighterB: 'Da Un Jung'
-  },
-  {
-    fighterA: 'Jack Jenkins',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/134851-jack-jenkins',
-    rankA: '#61',
-    recordA: '12-2-0 ',
-    weight: '145',
-    recordB: ' 14-6-0',
-    rankB: '#89',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/44895-jose-mariscal',
-    fighterB: 'Chepe Mariscal'
-  },
-  {
-    fighterA: 'Justin Tafa',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/152336-justin-tafa',
-    rankA: '#34',
-    recordA: '6-3-0 ',
-    weight: '265',
-    recordB: ' 12-3-0',
-    rankB: '#93',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/131141-austen-lane',
-    fighterB: 'Austen Lane'
-  },
-  {
-    fighterA: 'Blood Diamond',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/166857-mike-diamond-blood',
-    rankA: '#240',
-    recordA: '3-2-0 ',
-    weight: '170',
-    recordB: ' 7-3-0',
-    rankB: '#109',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/29374-charlie-radtke',
-    fighterB: 'Charlie Radtke'
-  },
-  {
-    fighterA: 'Shane Young',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/61870-shane-young',
-    rankA: '#96',
-    recordA: '13-7-0 ',
-    weight: '145',
-    recordB: ' 16-6-0',
-    rankB: '#267',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/36548-gabriel-miranda-fly',
-    fighterB: 'Gabriel Miranda'
-  },
-  {
-    fighterA: 'Tyson Pedro',
-    fighterALink: 'https://www.tapology.com/fightcenter/fighters/55878-tyson-pedro',
-    rankA: '#38',
-    recordA: '9-4-0 ',
-    weight: '205',
-    recordB: ' 8-2-0',
-    rankB: '#73',
-    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/115015-anton-turkalj',
-    fighterB: 'Anton Turkalj'
-  }
-]
-,"UFC 293",
-"7",
+"8",
 "Pay Per View | Prelims: ESPN"
 ],
 ["Ultimate Fighting Championship",
@@ -1187,29 +1123,29 @@ let data = [
   {
     fighterA: 'Shavkat Rakhmonov',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/81052-shavkat-rakhmonov',
-    rankA: '#7',
+    rankA: '#6',
     recordA: '17-0-0 ',
     weight: '170',
     recordB: ' 18-8-0',
-    rankB: '#14',
+    rankB: '#15',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/41355-kelvin-gastelum',
     fighterB: 'Kelvin Gastelum'
   },
   {
     fighterA: 'Chris Curtis',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/14863-christopher-curtis-the-action-man',
-    rankA: '#16',
+    rankA: '#14',
     recordA: '30-10-0 ',
     weight: '185',
     recordB: ' 11-2-0',
-    rankB: '#17',
+    rankB: '#19',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/41538-anthony-hernandez',
     fighterB: 'Anthony Hernandez'
   },
   {
     fighterA: 'Tracy Cortez',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/63711-tracy-cortez',
-    rankA: '#14',
+    rankA: '#15',
     recordA: '10-1-0 ',
     weight: '125',
     recordB: ' 9-2-0',
@@ -1220,11 +1156,11 @@ let data = [
   {
     fighterA: 'Lupita Godinez',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/133312-lupita-godinez',
-    rankA: '#83',
+    rankA: '#71',
     recordA: '10-3-0 ',
     weight: '115',
     recordB: ' 8-5-0',
-    rankB: '#26',
+    rankB: '#25',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/140901-sam-hughes',
     fighterB: 'Sam Hughes'
   },
@@ -1242,17 +1178,92 @@ let data = [
   {
     fighterA: 'Cynthia Calvillo',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/25471-cynthia-calvillo',
-    rankA: '#39',
+    rankA: '#40',
     recordA: '9-6-1 ',
     weight: '115',
     recordB: ' 7-3-0',
     rankB: '#29',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/106876-elise-reed',
     fighterB: 'Elise Reed'
+  },
+  {
+    fighterA: 'Daniel Zellhuber',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/156784-daniel-olvera-zellhuber-zellhuber',
+    rankA: '#81',
+    recordA: '13-1-0 ',
+    weight: '155',
+    recordB: ' 20-10-0',
+    rankB: '#47',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/38606-christos-giagos-the-spartan',
+    fighterB: 'Christos Giagos'
   }
 ]
 ,"UFC Fight Night",
-"3",
+"4",
+"ESPN+"
+],
+["Ultimate Fighting Championship",
+1695506400000,
+'',
+[
+  {
+    fighterA: 'Bruno Silva',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/55253-bruno-gustavo-aparecido-da-silva-bulldog',
+    rankA: '#16',
+    recordA: '13-5-2 ',
+    weight: '125',
+    recordB: ' 15-4-1',
+    rankB: '#20',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/68337-cody-durden',
+    fighterB: 'Cody Durden'
+  },
+  {
+    fighterA: 'Mizuki Inoue',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/25717-mizuki-inoue',
+    rankA: '#53',
+    recordA: '14-6-0 ',
+    weight: '115',
+    recordB: ' 6-3-0',
+    rankB: '#82',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/91503-hannah-goldy-queen-of-sparta',
+    fighterB: 'Hannah Goldy'
+  },
+  {
+    fighterA: 'Charles Jourdain',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/36724-charles-jourdain',
+    rankA: '#32',
+    recordA: '14-6-1 ',
+    weight: '145',
+    recordB: ' 16-4-0',
+    rankB: '#39',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/56182-ricardo-ramos-carcacinha',
+    fighterB: 'Ricardo Ramos'
+  },
+  {
+    fighterA: 'Jake Collier',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/17087-jake-collier',
+    rankA: '#53',
+    recordA: '13-9-0 ',
+    weight: '265',
+    recordB: ' 9-2-0',
+    rankB: '#43',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/156538-mohammed-usman',
+    fighterB: 'Mohammed Usman'
+  },
+  {
+    fighterA: 'Montserrat Rendon',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/213856-montse-rendon',
+    rankA: '#7',
+    recordA: '5-0-0 ',
+    weight: '135',
+    recordB: ' 7-1-0',
+    rankB: '#12',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/193326-tamires-vidal',
+    fighterB: 'Tamires Vidal'
+  }
+]
+,"UFC Fight Night",
+"5",
 "ESPN+"
 ],
 ["Ultimate Fighting Championship",
@@ -1366,11 +1377,11 @@ let data = [
   {
     fighterA: 'Curtis Blaydes',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/51080-curtis-blaydes',
-    rankA: '#2',
+    rankA: '#5',
     recordA: '17-4-0 ',
     weight: '265',
     recordB: ' 19-2-0',
-    rankB: '#8',
+    rankB: '#9',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/151690-jailton-junior-malhadinho',
     fighterB: 'Jailton Almeida'
   },
@@ -1381,7 +1392,7 @@ let data = [
     recordA: '14-1-0 ',
     weight: '185',
     recordB: ' 35-8-2',
-    rankB: '#26',
+    rankB: '#30',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/89891-nursultan-ruziboev-black',
     fighterB: 'Nursulton Ruziboev'
   }
@@ -1397,13 +1408,24 @@ let data = [
   {
     fighterA: 'Jon Jones',
     fighterALink: 'https://www.tapology.com/fightcenter/fighters/jon-jones-bones',
-    rankA: '#4',
+    rankA: '#1',
     recordA: '27-1-0 ',
     weight: '265',
     recordB: ' 20-4-0',
-    rankB: '#11',
+    rankB: '#10',
     fighterBLink: 'https://www.tapology.com/fightcenter/fighters/stipe-miocic',
     fighterB: 'Stipe Miocic'
+  },
+  {
+    fighterA: 'Derek Brunson',
+    fighterALink: 'https://www.tapology.com/fightcenter/fighters/Derek-Brunson',
+    rankA: '#10',
+    recordA: '23-9-0 ',
+    weight: '185',
+    recordB: ' 12-2-0',
+    rankB: '#7',
+    fighterBLink: 'https://www.tapology.com/fightcenter/fighters/147160-roman-dolidze',
+    fighterB: 'Roman Dolidze'
   }
 ]
 ,"UFC 295",
