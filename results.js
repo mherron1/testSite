@@ -1,107 +1,79 @@
 let resultsList = [
 {
-  winner: 'Tom Aspinall ',
+  winner: 'Justin Gaethje ',
+  time: '1:00 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/dustin-poirier-the-diamond'
+}
+,
+{
+  winner: 'Alex Pereira ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/jan-blachowicz'
+}
+,
+{
+  winner: 'Derrick Lewis ',
+  time: '0:33 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/marcos-rogerio-de-lima-pezao'
+}
+,
+{
+  winner: 'Bobby Green ',
+  time: '4:54 Round 3',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/tony-ferguson-el-cucuy'
+}
+,
+{
+  winner: 'Kevin Holland ',
+  time: '2:39 Round 1',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/15253-mike-chiesa-maverick'
+}
+,
+{
+  winner: 'Gabriel Bonfim ',
   time: '1:13 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/34449-marcin-tybura-tybur'
-}
-,
-{
-  winner: 'Julija Stoliarenko ',
-  time: '1:55 Round 1',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/57976-molly-mccann'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/20072-trevin-giles'
 }
 ,
 {
-  winner: 'Nathaniel Wood ',
+  winner: 'CJ Vergara ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/11328-andre-fili-dre-duke'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/95618-vinicius-de-almeida-salvador'
 }
 ,
 {
-  winner: 'Paul Craig ',
-  time: '4:40 Round 2',
+  winner: 'Roman Kopylov ',
+  time: '0:33 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/38116-andr-muniz-sergipano'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/149468-claudio-ribeiro'
 }
 ,
 {
-  winner: 'Fares Ziam ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/70002-jai-herbert'
+  winner: 'Jake Matthews ',
+  time: '2:37 Round 2',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/91236-darrius-flowers'
 }
 ,
 {
-  winner: 'Lerone Murphy ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/101823-joshua-culibao'
-}
-,
-{
-  winner: 'Daniel Marcos ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/18815-david-grant'
-}
-,
-{
-  winner: 'Jonny Parsons ',
-  time: '4:57 Round 2',
+  winner: 'Uros Medic ',
+  time: '2:36 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/15517-danny-roberts'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/98220-matthew-semelsberger'
 }
 ,
 {
-  winner: 'Joel Alvarez ',
-  time: '4:26 Round 2',
+  winner: 'Miranda Maverick ',
+  time: '2:11 Round 3',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/66513-marc-diakiese'
-}
-,
-{
-  winner: 'Mick Parkin ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/60287-jamal-pogues'
-}
-,
-{
-  winner: 'Makhmud Muradov ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/16876-bryan-barberena'
-}
-,
-{
-  winner: 'Ketlen Vieira ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/36969-pannie-kianzad'
-}
-,
-{
-  winner: 'Chris Duncan ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/164201-yanal-ashmoz-red-fox'
-}
-,
-{
-  winner: 'Bruna Brasil ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/209968-shauna-bannon'
-}
-,
-{
-  winner: 'Jafel Filho ',
-  time: '3:26 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/67170-daniel-barez'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/128371-priscila-cachoeira'
 }
 ,
 ]
