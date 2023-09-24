@@ -1,79 +1,79 @@
 let resultsList = [
 {
-  winner: 'Alexa Grasso ',
-  time: '5 Rounds',
-  method: 'ends in a draw',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/11614-valentina-shevchenko'
+  winner: 'Mateusz Gamrot ',
+  time: '2:03 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/108035-rafael-fiziev'
 }
 ,
 {
-  winner: 'Jack Della Maddalena ',
+  winner: 'Bryce Mitchell ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/35757-kevin-holland'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/21178-dan-ige'
 }
 ,
 {
-  winner: 'Raul Rosas Jr. ',
-  time: '0:54 Round 1',
+  winner: 'Marina Rodriguez ',
+  time: '2:42 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/43175-terrence-mitchell'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/michelle-waterson-the-karate-hottie'
 }
 ,
 {
-  winner: 'Daniel Zellhuber ',
-  time: '3:26 Round 2',
+  winner: 'Bryan Battle ',
+  time: '4:32 Round 2',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/38606-christos-giagos-the-spartan'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/140431-aj-fletcher'
 }
 ,
 {
-  winner: 'Kyle Nelson ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/98371-fernando-padilla'
-}
-,
-{
-  winner: 'Lupita Godinez ',
-  time: '3:38 Round 2',
+  winner: 'Charles Jourdain ',
+  time: '3:12 Round 1',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/106876-elise-reed'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/56182-ricardo-ramos-carcacinha'
 }
 ,
 {
-  winner: 'Roman Kopylov ',
-  time: '4:44 Round 2',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/65199-joshua-fremd'
-}
-,
-{
-  winner: 'Edgar Cháirez ',
-  time: '3:47 Round 1',
-  method: 'ends in a no contest',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/162924-daniel-lacerda-miojo'
-}
-,
-{
-  winner: 'Tracy Cortez ',
+  winner: 'Miles Johns ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/171056-jasmine-jasdavicious'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/162202-daniel-argueta-the-determined'
 }
 ,
 {
-  winner: 'Charlie Campbell ',
-  time: '3:38 Round 1',
+  winner: 'Tim Means ',
+  time: '1:15 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/8628-alex-reyes'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/115985-andre-fialho'
 }
 ,
 {
-  winner: 'Josefine Knutsson ',
+  winner: 'Cody Brundage ',
+  time: '4:15 Round 1',
+  method: 'disqualificaton',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/111323-jacob-malkoun'
+}
+,
+{
+  winner: 'Mohammed Usman ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/171672-marnic-mann'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/17087-jake-collier'
+}
+,
+{
+  winner: 'Mizuki Inoue ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/91503-hannah-goldy-queen-of-sparta'
+}
+,
+{
+  winner: 'Montserrat Rendon ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/193326-tamires-vidal'
 }
 ,
 ]
