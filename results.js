@@ -1,72 +1,79 @@
 let resultsList = [
 {
-  winner: 'Bobby Green ',
-  time: '0:33 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/32750-grant-dawson'
+  winner: 'Edson Barboza ',
+  time: '5 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/58362-sodiq-yusuff'
 }
 ,
 {
-  winner: 'Joe Pyfer ',
-  time: '2:05 Round 2',
+  winner: 'Viviane Araujo ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/19813-jennifer-maia'
+}
+,
+{
+  winner: 'Jonathan Martinez ',
+  time: '2:26 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/34063-adrian-yanez'
+}
+,
+{
+  winner: 'Michel Pereira ',
+  time: '1:06 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/123353-andre-petroski'
+}
+,
+{
+  winner: 'Christian Rodriguez ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/112520-cameron-saaiman'
+}
+,
+{
+  winner: 'Darren Elkins ',
+  time: '2:23 Round 3',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/59306-abdul-razak-alhassan'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/91387-tj-brown'
 }
 ,
 {
-  winner: 'Joaquin Buckley ',
+  winner: 'Tainara Lisboa ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/16353-alex-morono'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/160741-ravena-oliveira-kenoudy'
 }
 ,
 {
-  winner: 'Drew Dober ',
-  time: '2:36 Round 1',
+  winner: 'Terrance McKinney ',
+  time: '0:20 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/17746-rick-glenn'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/117074-brendan-marotte'
 }
 ,
 {
-  winner: 'Bill Algeo ',
+  winner: 'Melissa Dixon ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/46253-alexander-hernandez'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/213675-irina-alekseeva'
 }
 ,
 {
-  winner: 'Karolina Kowalkiewicz ',
+  winner: 'Chris Gutierrez ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/76509-diana-belbita'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/57170-ala-tengheili'
 }
 ,
 {
-  winner: 'Nate Maness ',
-  time: '4:40 Round 1',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/218144-matheus-mendonca-bocao'
-}
-,
-{
-  winner: 'Vanessa Demopoulos ',
+  winner: 'Emily Ducote ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/129348-kanako-murata'
-}
-,
-{
-  winner: 'Aoriqileng ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/79600-john-munoz-jr'
-}
-,
-{
-  winner: 'JJ Aldrich ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/62316-montana-stewart'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/81569-ashley-yoder'
 }
 ,
 ]
