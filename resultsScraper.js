@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 
 let events = [
-  "https://www.tapology.com/fightcenter/events/102959-ufc-295-jones-vs-miocic",
+  "https://www.tapology.com/fightcenter/events/101867-ufc-fight-night",
 ];
 //getEventURLs();
 
