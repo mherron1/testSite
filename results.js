@@ -1,100 +1,86 @@
 let resultsList = [
 {
-  winner: 'Brendan Allen ',
-  time: '0:38 Round 3',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/25338-paul-craig'
-}
-,
-{
-  winner: 'Michael Morales ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/45260-jake-matthews'
-}
-,
-{
-  winner: 'Chase Hooper ',
-  time: '2:58 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/90318-jordan-leavitt'
-}
-,
-{
-  winner: 'Payton Talbott ',
-  time: '0:58 Round 3',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/194945-nick-aguirre'
-}
-,
-{
-  winner: 'Amanda Ribas ',
-  time: '3:53 Round 3',
+  winner: 'Arman Tsarukyan ',
+  time: '1:04 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/152138-luana-pinheiro'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/20010-beneil-dariush-benny'
 }
 ,
 {
-  winner: 'Myktybek Orolbai ',
-  time: '4:12 Round 2',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/175629-uros-medic'
-}
-,
-{
-  winner: 'Joanderson Brito ',
-  time: '3:54 Round 2',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/40655-jonathan-pearce'
-}
-,
-{
-  winner: 'Jose Johnson ',
-  time: '4:49 Round 3',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/20364-chad-anheliger'
-}
-,
-{
-  winner: 'Christian Leroy Duncan ',
-  time: '4:24 Round 2',
+  winner: 'Jalin Turner ',
+  time: '2:49 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/152605-denis-tiuliulin'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/bobby-green-king'
 }
 ,
 {
-  winner: 'Mick Parkin ',
+  winner: 'Deiveson Figueiredo ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/148701-caio-machado'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/rob-font'
 }
 ,
 {
-  winner: 'Jeka Saragih ',
-  time: '1:31 Round 1',
+  winner: 'Sean Brady ',
+  time: '1:43 Round 3',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/41355-kelvin-gastelum'
+}
+,
+{
+  winner: 'Joaquim Silva ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/clay-guida-the-carpenter'
+}
+,
+{
+  winner: 'Dustin Stoltzfus ',
+  time: '4:10 Round 2',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/119534-punahele-soriano-story-time'
+}
+,
+{
+  winner: 'Miesha Tate ',
+  time: '1:15 Round 3',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/37072-julia-avila'
+}
+,
+{
+  winner: 'Cody Brundage ',
+  time: '1:49 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/135395-lucas-peixoto'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/35756-zack-reese'
 }
 ,
 {
-  winner: 'Ailin Perez ',
+  winner: 'Drakkar Klose ',
+  time: '1:41 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/116995-joseph-solecki'
+}
+,
+{
+  winner: 'Rodolfo Bellato ',
+  time: '4:17 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/91636-igor-poterya'
+}
+,
+{
+  winner: 'Jared Gooden ',
+  time: '1:11 Round 2',
+  method: 'submission',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/70129-wellington-turman-fofo'
+}
+,
+{
+  winner: 'Veronica Hardy ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/90345-lucie-pudilova'
-}
-,
-{
-  winner: 'Nikolas Motta ',
-  time: '3:11 Round 3',
-  method: 'ends in a no contest',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/90133-trey-ogden'
-}
-,
-{
-  winner: 'Rafael Estevam ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/117993-charles-johnson'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/148703-jamey-lyn-horth'
 }
 ,
 ]
