@@ -1,8 +1,6 @@
 const puppeteer = require("puppeteer");
 
-let events = [
-  "https://www.tapology.com/fightcenter/events/105194-ufc-fight-night",
-];
+let events = ["https://www.tapology.com/fightcenter/events/101868-ufc"];
 //getEventURLs();
 
 console.log("let resultsList = [");
