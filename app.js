@@ -12,7 +12,7 @@ let times = [
     promo: "Ultimate Fighting Championship",
     time: new Date(2024, 01, 18, 03, 00, 00),
     prelims: new Date(2024, 01, 17, 23, 30, 00),
-    videos: ["https://www.youtube.com/watch?v=qk1CfiGdmAc"],
+    videos: ["qk1CfiGdmAc"],
   },
 ];
 
