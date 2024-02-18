@@ -1,100 +1,86 @@
 let resultsList = [
 {
-  winner: 'Jack Hermansson ',
-  time: '5 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/144942-joseph-pyfer'
-}
-,
-{
-  winner: 'Dan Ige ',
-  time: '2:43 Round 1',
+  winner: 'Ilia Topuria ',
+  time: '3:32 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/11328-andre-fili-dre-duke'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/41705-alex-volkanski'
 }
 ,
 {
-  winner: 'Ihor Potieria ',
+  winner: 'Robert Whittaker ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/26244-robert-bryczek'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/64306-paulo-henrique-costa-borrachinha'
 }
 ,
 {
-  winner: 'Gregory Rodrigues ',
-  time: '0:55 Round 3',
-  method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/brad-tavares'
-}
-,
-{
-  winner: 'Michael Johnson ',
+  winner: 'Ian Machado Garry ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/91236-darrius-flowers'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/20058-geoffrey-neal'
 }
 ,
 {
-  winner: 'Rodolfo Vieira ',
-  time: '4:48 Round 1',
+  winner: 'Merab Dvalishvili ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/42359-henry-cejudo'
+}
+,
+{
+  winner: 'Anthony Hernandez ',
+  time: '3:23 Round 2',
   method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/198212-armen-petrosyan'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/138424-roman-kopylov'
 }
 ,
 {
-  winner: 'Carlos Prates ',
-  time: '4:03 Round 2',
+  winner: 'Amanda Lemos ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/134267'
+}
+,
+{
+  winner: 'Marcos Rogério de Lima ',
+  time: '1:14 Round 2',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/20072-trevin-giles'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/242095-junior-tafa'
 }
 ,
 {
-  winner: 'Bolaji Oki ',
+  winner: 'Rinya Nakamura ',
   time: '3 Rounds',
   method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/181377-timothy-cuamba'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/43109-carlos-vera'
 }
 ,
 {
-  winner: 'Loma Lookboonmee ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/117583-bruna-brasil'
-}
-,
-{
-  winner: 'Marcin Prachnio ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/23218-devin-clark'
-}
-,
-{
-  winner: 'Max Griffin ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/15782-jeremiah-wells'
-}
-,
-{
-  winner: 'Bogdan Guskov ',
-  time: '3:38 Round 1',
+  winner: 'Mingyang Zhang ',
+  time: '1:41 Round 1',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/212294-zac-pauga'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/119779-brendson-ribeiro-zyzz'
 }
 ,
 {
-  winner: 'Hyder Amil ',
-  time: '2:12 Round 2',
+  winner: 'Danny Barlow ',
+  time: '1:18 Round 3',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/43088-fernie-garcia'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/114123-josh-quinlan'
 }
 ,
 {
-  winner: 'Daniel Marcos ',
-  time: '3:28 Round 2',
-  method: 'ends in a no contest',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/119560-aoriqileng'
+  winner: 'Oban Elliott ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/166396-valentine-woodburn'
+}
+,
+{
+  winner: 'Miranda Maverick ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/47916-andrea-lee'
 }
 ,
 ]
