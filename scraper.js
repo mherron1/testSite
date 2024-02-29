@@ -2,6 +2,14 @@ const puppeteer = require("puppeteer");
 
 let events = [
   //upcoming cards
+  "https://www.tapology.com/fightcenter/events/110826-ufc-306",
+  "https://www.tapology.com/fightcenter/events/109011-ufc",
+  "https://www.tapology.com/fightcenter/events/109963-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/110366-ufc-302",
+  "https://www.tapology.com/fightcenter/events/110359-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/110365-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/109604-ufc-fight-night",
+  "https://www.tapology.com/fightcenter/events/109627-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/108579-ufc-300",
   "https://www.tapology.com/fightcenter/events/108721-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/107896-ufc-fight-night",
@@ -10,7 +18,6 @@ let events = [
   "https://www.tapology.com/fightcenter/events/107061-ufc-299",
   "https://www.tapology.com/fightcenter/events/106064-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/107471-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/107060-ufc-298",
 ];
 //getEventURLs();
 
