@@ -8,10 +8,10 @@ let assets = [];
 
 let times = [
   {
-    date: "mar02",
+    date: "mar09",
     promo: "Ultimate Fighting Championship",
-    time: new Date(2024, 02, 02, 21, 00, 00),
-    prelims: new Date(2024, 02, 02, 18, 30, 00),
+    time: new Date(2024, 02, 10, 03, 00, 00),
+    prelims: new Date(2024, 02, 09, 23, 00, 00),
     videos: [],
   },
 ];

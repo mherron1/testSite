@@ -1,86 +1,79 @@
 let resultsList = [
 {
-  winner: 'Brandon Royval ',
-  time: '5 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/27833-brandon-moreno-the-assassin'
-}
-,
-{
-  winner: 'Brian Ortega ',
-  time: '0:58 Round 3',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/70995-yair-rodriguez'
-}
-,
-{
-  winner: 'Daniel Zellhuber ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/230239-francisco-prado'
-}
-,
-{
-  winner: 'Yazmin Jauregui ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/140901-sam-hughes'
-}
-,
-{
-  winner: 'Manuel Torres ',
-  time: '1:46 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/68484-chris-duncan'
-}
-,
-{
-  winner: 'Raoni Barcelos ',
-  time: '2:04 Round 3',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/69208-christian-quionez-el-taylon'
-}
-,
-{
-  winner: 'Jesus Aguilar ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/218144-matheus-mendonca-bocao'
-}
-,
-{
-  winner: 'Edgar Cháirez ',
-  time: '2:17 Round 1',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/162924-daniel-lacerda-miojo'
-}
-,
-{
-  winner: 'Fares Ziam ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/53808-claudio-puelles'
-}
-,
-{
-  winner: 'Ronaldo Rodríguez ',
-  time: '4:59 Round 2',
-  method: 'submission',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/104652-denis-bondar'
-}
-,
-{
-  winner: 'Felipe dos Santos ',
-  time: '3 Rounds',
-  method: 'decision',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/101415-victor-altamirano'
-}
-,
-{
-  winner: 'Muhammad Naimov ',
-  time: '0:44 Round 1',
+  winner: 'Jairzinho Rozenstruik ',
+  time: '5:00 Round 4',
   method: 'ko/tko',
-  b_Link: 'https://www.tapology.com/fightcenter/fighters/126790-erik-silva'
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/201352-shamil-gaziev'
+}
+,
+{
+  winner: 'Vitor Petrino ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/55878-tyson-pedro'
+}
+,
+{
+  winner: 'Muhammad Mokaev ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/alex-perez'
+}
+,
+{
+  winner: 'Umar Nurmagomedov ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/192704-bekzat-almakhan'
+}
+,
+{
+  winner: 'Steve Erceg ',
+  time: '0:26 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/29221-matt-schnell'
+}
+,
+{
+  winner: 'Eryk Anders ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/38304-jamie-pickett'
+}
+,
+{
+  winner: 'Vinicius Oliveira ',
+  time: '4:41 Round 3',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/134446-mpernando-sopai'
+}
+,
+{
+  winner: 'Aiemann Zahabi ',
+  time: '3 Rounds',
+  method: 'decision',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/116280-javid-bashrat'
+}
+,
+{
+  winner: 'Christian Leroy Duncan ',
+  time: '1:57 Round 2',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/149468-claudio-ribeiro'
+}
+,
+{
+  winner: 'Ľudovít Klein ',
+  time: '4:36 Round 1',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/124154-austin-cunningham'
+}
+,
+{
+  winner: 'Loik Radzhabov ',
+  time: '0:49 Round 3',
+  method: 'ko/tko',
+  b_Link: 'https://www.tapology.com/fightcenter/fighters/77145-abdul-kareem-al-selwady'
 }
 ,
 ]
