@@ -15,8 +15,6 @@ let events = [
   "https://www.tapology.com/fightcenter/events/107896-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/108462-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/108288-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/107061-ufc-299",
-  "https://www.tapology.com/fightcenter/events/106064-ufc-fight-night",
 ];
 //getEventURLs();
 
