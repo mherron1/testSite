@@ -642,12 +642,13 @@ input:checked + .slider:before {
   background: #d20a0a;
   height: 48px;
   width: 203px;
-  border: 1px solid #000;
+  border: 0px solid #000;
   margin-left: 50%;
   transform: translateX(-50%);
   bottom: 12px;
   z-index: 1000;
   border-radius: 0px;
+  color: #fff;
 }
 
 ul {
