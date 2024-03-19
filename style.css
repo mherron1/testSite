@@ -639,7 +639,7 @@ input:checked + .slider:before {
     rgba(248, 248, 248, 1) 0%,
     rgba(251, 251, 251, 1) 100%
   );
-  background: #d20a0a;
+  background: #242424;
   opacity: 0.8;
   height: 48px;
   width: 203px;
