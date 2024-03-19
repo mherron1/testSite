@@ -640,6 +640,7 @@ input:checked + .slider:before {
     rgba(251, 251, 251, 1) 100%
   );
   background: #d20a0a;
+  opacity: 0.8;
   height: 48px;
   width: 203px;
   border: 0px solid #000;
