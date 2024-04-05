@@ -2,9 +2,6 @@ const puppeteer = require("puppeteer");
 
 let events = [
   //upcoming cards
-  "https://www.tapology.com/fightcenter/events/110826-ufc-306",
-  "https://www.tapology.com/fightcenter/events/109011-ufc",
-  "https://www.tapology.com/fightcenter/events/109963-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/110366-ufc-302",
   "https://www.tapology.com/fightcenter/events/110359-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/110365-ufc-fight-night",
@@ -13,8 +10,6 @@ let events = [
   "https://www.tapology.com/fightcenter/events/108579-ufc-300",
   "https://www.tapology.com/fightcenter/events/108721-ufc-fight-night",
   "https://www.tapology.com/fightcenter/events/107896-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/108462-ufc-fight-night",
-  "https://www.tapology.com/fightcenter/events/108288-ufc-fight-night",
 ];
 //getEventURLs();
 
@@ -59,7 +54,9 @@ function getCard(url) {
 
     const eventTitle = await page.evaluate(() => {
       const title = document
-        .querySelector(".eventPageHeaderTitles h1")
+        .querySelector(
+          "#content > div.div.flex.flex-col.md:block.md:text-center.border-b.border-dotted.border-tap_6.pb-5.px-0.5.md:px-0 > div > h2"
+        )
         .textContent.split(":")[0];
       return title;
     });
